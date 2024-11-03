@@ -164,8 +164,9 @@ def is_section_empty(section):
     # If no body text found, return True
     return True
 
-def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_section_id):
+def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_id_map, next_section_id):
     parsing_error = 'N/A'  # Initialize parsing error
+    md_text = ''  # Initialize md_text
     try:
         # Convert PDF to markdown
         md_text = pymupdf4llm.to_markdown(pdf_file_path)
@@ -211,6 +212,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
             # Since there is no 'RISK FACTORS' section, return only the error row
             row = {
                 'Prospectus ID': prospectus_id,
+                'Original Filename': original_filename,
                 'Section ID': 'failed parsing',
                 'Section Title': 'failed parsing',
                 'Subsection ID': 'failed parsing',
@@ -226,7 +228,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
                 'Parsing Error': parsing_error
             }
             data = [row]
-            return data, next_section_id, 'not_as_expected'
+            return data, next_section_id, 'not_as_expected', md_text
 
         else:
             # Get the 'RISK FACTORS' section
@@ -238,6 +240,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
                 # Create data row with 'Parsing Error'
                 row = {
                     'Prospectus ID': prospectus_id,
+                    'Original Filename': original_filename,
                     'Section ID': 'failed parsing',
                     'Section Title': 'failed parsing',
                     'Subsection ID': 'failed parsing',
@@ -253,7 +256,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
                     'Parsing Error': parsing_error
                 }
                 data = [row]
-                return data, next_section_id, 'not_as_expected'
+                return data, next_section_id, 'not_as_expected', md_text
 
         data = []
 
@@ -291,6 +294,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
                     # Collect data into a row
                     row = {
                         'Prospectus ID': prospectus_id,
+                        'Original Filename': original_filename,
                         'Section ID': section_id,
                         'Section Title': section_title,
                         'Subsection ID': subsection_id,
@@ -316,6 +320,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
 
                     row = {
                         'Prospectus ID': prospectus_id,
+                        'Original Filename': original_filename,
                         'Section ID': section_id,
                         'Section Title': section_title,
                         'Subsection ID': subsection_id,
@@ -343,6 +348,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
 
                 row = {
                     'Prospectus ID': prospectus_id,
+                    'Original Filename': original_filename,
                     'Section ID': section_id,
                     'Section Title': section_title,
                     'Subsection ID': subsection_id,
@@ -359,7 +365,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
                 }
                 data.append(row)
 
-        return data, next_section_id, 'as_expected'
+        return data, next_section_id, 'as_expected', md_text
 
     except Exception as e:
         # Log exception
@@ -368,6 +374,7 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
         parsing_error = f'Exception occurred: {str(e)}'
         row = {
             'Prospectus ID': prospectus_id,
+            'Original Filename': original_filename,
             'Section ID': 'failed parsing',
             'Section Title': 'failed parsing',
             'Subsection ID': 'failed parsing',
@@ -383,7 +390,8 @@ def process_prospectus(pdf_file_path, prospectus_id, section_id_map, next_sectio
             'Parsing Error': parsing_error
         }
         data = [row]
-        return data, next_section_id, 'not_as_expected'
+        md_text = ''  # Ensure md_text is defined even if an exception occurs
+        return data, next_section_id, 'not_as_expected', md_text
 
 
 def main():
@@ -394,14 +402,37 @@ def main():
     os.makedirs(as_expected_folder, exist_ok=True)
     os.makedirs(not_as_expected_folder, exist_ok=True)
 
+    # Create markdown_files subfolders
+    as_expected_md_folder = os.path.join(as_expected_folder, 'markdown_files')
+    not_as_expected_md_folder = os.path.join(not_as_expected_folder, 'markdown_files')
+
+    os.makedirs(as_expected_md_folder, exist_ok=True)
+    os.makedirs(not_as_expected_md_folder, exist_ok=True)
+
+    # Load existing data if available
+    data_file = 'prospectuses_data.csv'
+    if os.path.exists(data_file):
+        existing_df = pd.read_csv(data_file)
+        all_data = existing_df.to_dict('records')
+        # Set the next prospectus ID
+        prospectus_id = existing_df['Prospectus ID'].max() + 1
+    else:
+        all_data = []
+        prospectus_id = 1
+
+    # Load section_id_map and next_section_id from JSON if exists
+    id_state_file = 'id_state.json'
+    if os.path.exists(id_state_file):
+        with open(id_state_file, 'r') as f:
+            id_state = json.load(f)
+        section_id_map = id_state.get('section_id_map', {})
+        next_section_id = id_state.get('next_section_id', 1)
+    else:
+        section_id_map = {}
+        next_section_id = 1
+
+    # Get list of unprocessed PDF files
     pdf_files = [f for f in os.listdir(pdf_folder) if os.path.isfile(os.path.join(pdf_folder, f)) and f.lower().endswith('.pdf')]
-
-    # Initialize mappings and counters for IDs
-    section_id_map = {}
-    next_section_id = 1
-
-    all_data = []
-    prospectus_id = 1  # Start from 1, increment for each prospectus
 
     for pdf_file in pdf_files:
         pdf_file_path = os.path.join(pdf_folder, pdf_file)
@@ -409,16 +440,18 @@ def main():
 
         try:
             # Process the file
-            data, next_section_id, processing_result = process_prospectus(
-                pdf_file_path, prospectus_id,
+            data, next_section_id, processing_result, md_text = process_prospectus(
+                pdf_file_path, pdf_file, prospectus_id,
                 section_id_map, next_section_id)
             all_data.extend(data)
         except Exception as e:
             print(f"Exception occurred while processing {pdf_file_path}: {e}")
             processing_result = 'not_as_expected'
+            md_text = ''  # Ensure md_text is defined
             # Create a failed parsing entry
             row = {
                 'Prospectus ID': prospectus_id,
+                'Original Filename': pdf_file,
                 'Section ID': 'failed parsing',
                 'Section Title': 'failed parsing',
                 'Subsection ID': 'failed parsing',
@@ -435,38 +468,56 @@ def main():
             }
             all_data.append(row)
 
-        # Move the file to 'as_expected' or 'not_as_expected' folder
+        # Save the updated data after each file
+        df = pd.DataFrame(all_data, columns=[
+            'Prospectus ID',
+            'Original Filename',
+            'Section ID',
+            'Section Title',
+            'Subsection ID',
+            'Subsection Title',
+            'Subsubsection ID',
+            'Subsubsection Title',
+            'Subsubsection Text',
+            'Market Dynamics - a',
+            'Market Dynamics - b',
+            'Market Dynamics - c',
+            'LLM Answer',
+            'Evidence Text',
+            'Parsing Error'
+        ])
+        df.to_csv(data_file, index=False)
+        print(f'Data saved to {data_file}')
+
+        # Save the ID state
+        id_state = {
+            'section_id_map': section_id_map,
+            'next_section_id': next_section_id
+        }
+        with open(id_state_file, 'w') as f:
+            json.dump(id_state, f)
+
+        # Determine destination folders
         if processing_result == 'as_expected':
             dest_folder = as_expected_folder
+            md_dest_folder = as_expected_md_folder
         else:
             dest_folder = not_as_expected_folder
+            md_dest_folder = not_as_expected_md_folder
 
+        # Save the markdown file
+        md_file_name = pdf_file[:-4] + '.md'
+        md_file_path = os.path.join(md_dest_folder, md_file_name)
+        with open(md_file_path, 'w', encoding='utf-8') as f:
+            f.write(md_text)
+
+        # Move the PDF file to 'as_expected' or 'not_as_expected' folder
         dest_file_path = os.path.join(dest_folder, pdf_file)
         os.rename(pdf_file_path, dest_file_path)
 
         prospectus_id += 1
 
-    # Create dataframe
-    df = pd.DataFrame(all_data, columns=[
-        'Prospectus ID',
-        'Section ID',
-        'Section Title',
-        'Subsection ID',
-        'Subsection Title',
-        'Subsubsection ID',
-        'Subsubsection Title',
-        'Subsubsection Text',
-        'Market Dynamics - a',
-        'Market Dynamics - b',
-        'Market Dynamics - c',
-        'LLM Answer',
-        'Evidence Text',
-        'Parsing Error'
-    ])
-
-    # Save dataframe to CSV
-    df.to_csv('prospectuses_data.csv', index=False)
-    print('Data saved to prospectuses_data.csv')
+    print('Processing complete.')
 
 if __name__ == '__main__':
     main()
