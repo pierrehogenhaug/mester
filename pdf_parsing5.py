@@ -223,8 +223,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                 'Market Dynamics - a': '',
                 'Market Dynamics - b': '',
                 'Market Dynamics - c': '',
-                'LLM Answer': '',
-                'Evidence Text': '',
                 'Parsing Error': parsing_error
             }
             data = [row]
@@ -251,8 +249,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Market Dynamics - a': '',
                     'Market Dynamics - b': '',
                     'Market Dynamics - c': '',
-                    'LLM Answer': '',
-                    'Evidence Text': '',
                     'Parsing Error': parsing_error
                 }
                 data = [row]
@@ -305,8 +301,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Market Dynamics - a': '',
                         'Market Dynamics - b': '',
                         'Market Dynamics - c': '',
-                        'LLM Answer': '',
-                        'Evidence Text': '',
                         'Parsing Error': 'N/A'
                     }
                     data.append(row)
@@ -331,8 +325,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Market Dynamics - a': '',
                         'Market Dynamics - b': '',
                         'Market Dynamics - c': '',
-                        'LLM Answer': '',
-                        'Evidence Text': '',
                         'Parsing Error': 'N/A'
                     }
                     data.append(row)
@@ -359,8 +351,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Market Dynamics - a': '',
                     'Market Dynamics - b': '',
                     'Market Dynamics - c': '',
-                    'LLM Answer': '',
-                    'Evidence Text': '',
                     'Parsing Error': 'N/A'
                 }
                 data.append(row)
@@ -385,8 +375,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             'Market Dynamics - a': '',
             'Market Dynamics - b': '',
             'Market Dynamics - c': '',
-            'LLM Answer': '',
-            'Evidence Text': '',
             'Parsing Error': parsing_error
         }
         data = [row]
@@ -395,7 +383,7 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
 
 
 def main():
-    pdf_folder = './prospectuses'  # Replace with your folder containing the PDFs
+    pdf_folder = './prospectuses'  # Replace with folder containing the PDFs
     as_expected_folder = os.path.join(pdf_folder, 'as_expected')
     not_as_expected_folder = os.path.join(pdf_folder, 'not_as_expected')
 
@@ -462,8 +450,6 @@ def main():
                 'Market Dynamics - a': '',
                 'Market Dynamics - b': '',
                 'Market Dynamics - c': '',
-                'LLM Answer': '',
-                'Evidence Text': '',
                 'Parsing Error': f"Exception occurred: {str(e)}"
             }
             all_data.append(row)
@@ -482,8 +468,6 @@ def main():
             'Market Dynamics - a',
             'Market Dynamics - b',
             'Market Dynamics - c',
-            'LLM Answer',
-            'Evidence Text',
             'Parsing Error'
         ])
         df.to_csv(data_file, index=False)
