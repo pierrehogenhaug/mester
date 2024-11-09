@@ -6,11 +6,12 @@ import re
 import pandas as pd
 from langdetect import detect
 
-# Functions from your original code
+
 def read_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     return [line.rstrip('\n') for line in lines]
+
 
 def merge_same_format_lines(lines):
     merged_lines = []
