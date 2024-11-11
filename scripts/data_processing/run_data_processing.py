@@ -17,7 +17,7 @@ from src.data_processing.pdf_parsing import process_prospectus
 def main():
     # Read the dataframe
     # This should be dynamic in case dataframe changes
-    df = pd.read_pickle(os.path.join(project_root, 'notebooks', 'df_rms_with_fundamental_score.pkl'))
+    df = pd.read_pickle(os.path.join(project_root, 'notebooks', 'rms_with_fundamental_score.pkl'))
     print("Found file")
     df['ScoringDate'] = pd.to_datetime(df['ScoringDate'])
     
