@@ -383,126 +383,126 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
         return data, next_section_id, 'not_as_expected', md_text
 
 
-def main():
-    pdf_folder = './prospectuses'  # Replace with folder containing the PDFs
-    as_expected_folder = os.path.join(pdf_folder, 'as_expected')
-    not_as_expected_folder = os.path.join(pdf_folder, 'not_as_expected')
+# def main():
+#     pdf_folder = './prospectuses'  # Replace with folder containing the PDFs
+#     as_expected_folder = os.path.join(pdf_folder, 'as_expected')
+#     not_as_expected_folder = os.path.join(pdf_folder, 'not_as_expected')
 
-    os.makedirs(as_expected_folder, exist_ok=True)
-    os.makedirs(not_as_expected_folder, exist_ok=True)
+#     os.makedirs(as_expected_folder, exist_ok=True)
+#     os.makedirs(not_as_expected_folder, exist_ok=True)
 
-    # Create markdown_files subfolders
-    as_expected_md_folder = os.path.join(as_expected_folder, 'markdown_files')
-    not_as_expected_md_folder = os.path.join(not_as_expected_folder, 'markdown_files')
+#     # Create markdown_files subfolders
+#     as_expected_md_folder = os.path.join(as_expected_folder, 'markdown_files')
+#     not_as_expected_md_folder = os.path.join(not_as_expected_folder, 'markdown_files')
 
-    os.makedirs(as_expected_md_folder, exist_ok=True)
-    os.makedirs(not_as_expected_md_folder, exist_ok=True)
+#     os.makedirs(as_expected_md_folder, exist_ok=True)
+#     os.makedirs(not_as_expected_md_folder, exist_ok=True)
 
-    # Load existing data if available
-    data_file = 'prospectuses_data.csv'
-    if os.path.exists(data_file):
-        existing_df = pd.read_csv(data_file)
-        all_data = existing_df.to_dict('records')
-        # Set the next prospectus ID
-        prospectus_id = existing_df['Prospectus ID'].max() + 1
-    else:
-        all_data = []
-        prospectus_id = 1
+#     # Load existing data if available
+#     data_file = 'prospectuses_data.csv'
+#     if os.path.exists(data_file):
+#         existing_df = pd.read_csv(data_file)
+#         all_data = existing_df.to_dict('records')
+#         # Set the next prospectus ID
+#         prospectus_id = existing_df['Prospectus ID'].max() + 1
+#     else:
+#         all_data = []
+#         prospectus_id = 1
 
-    # Load section_id_map and next_section_id from JSON if exists
-    id_state_file = 'id_state.json'
-    if os.path.exists(id_state_file):
-        with open(id_state_file, 'r') as f:
-            id_state = json.load(f)
-        section_id_map = id_state.get('section_id_map', {})
-        next_section_id = id_state.get('next_section_id', 1)
-    else:
-        section_id_map = {}
-        next_section_id = 1
+#     # Load section_id_map and next_section_id from JSON if exists
+#     id_state_file = 'id_state.json'
+#     if os.path.exists(id_state_file):
+#         with open(id_state_file, 'r') as f:
+#             id_state = json.load(f)
+#         section_id_map = id_state.get('section_id_map', {})
+#         next_section_id = id_state.get('next_section_id', 1)
+#     else:
+#         section_id_map = {}
+#         next_section_id = 1
 
-    # Get list of unprocessed PDF files
-    pdf_files = [f for f in os.listdir(pdf_folder) if os.path.isfile(os.path.join(pdf_folder, f)) and f.lower().endswith('.pdf')]
+#     # Get list of unprocessed PDF files
+#     pdf_files = [f for f in os.listdir(pdf_folder) if os.path.isfile(os.path.join(pdf_folder, f)) and f.lower().endswith('.pdf')]
 
-    for pdf_file in pdf_files:
-        pdf_file_path = os.path.join(pdf_folder, pdf_file)
-        print(f'Processing {pdf_file_path}')
+#     for pdf_file in pdf_files:
+#         pdf_file_path = os.path.join(pdf_folder, pdf_file)
+#         print(f'Processing {pdf_file_path}')
 
-        try:
-            # Process the file
-            data, next_section_id, processing_result, md_text = process_prospectus(
-                pdf_file_path, pdf_file, prospectus_id,
-                section_id_map, next_section_id)
-            all_data.extend(data)
-        except Exception as e:
-            print(f"Exception occurred while processing {pdf_file_path}: {e}")
-            processing_result = 'not_as_expected'
-            md_text = ''  # Ensure md_text is defined
-            # Create a failed parsing entry
-            row = {
-                'Prospectus ID': prospectus_id,
-                'Original Filename': pdf_file,
-                'Section ID': 'failed parsing',
-                'Section Title': 'failed parsing',
-                'Subsection ID': 'failed parsing',
-                'Subsection Title': 'failed parsing',
-                'Subsubsection ID': 'failed parsing',
-                'Subsubsection Title': 'failed parsing',
-                'Subsubsection Text': 'failed parsing',
-                'Market Dynamics - a': '',
-                'Market Dynamics - b': '',
-                'Market Dynamics - c': '',
-                'Parsing Error': f"Exception occurred: {str(e)}"
-            }
-            all_data.append(row)
+#         try:
+#             # Process the file
+#             data, next_section_id, processing_result, md_text = process_prospectus(
+#                 pdf_file_path, pdf_file, prospectus_id,
+#                 section_id_map, next_section_id)
+#             all_data.extend(data)
+#         except Exception as e:
+#             print(f"Exception occurred while processing {pdf_file_path}: {e}")
+#             processing_result = 'not_as_expected'
+#             md_text = ''  # Ensure md_text is defined
+#             # Create a failed parsing entry
+#             row = {
+#                 'Prospectus ID': prospectus_id,
+#                 'Original Filename': pdf_file,
+#                 'Section ID': 'failed parsing',
+#                 'Section Title': 'failed parsing',
+#                 'Subsection ID': 'failed parsing',
+#                 'Subsection Title': 'failed parsing',
+#                 'Subsubsection ID': 'failed parsing',
+#                 'Subsubsection Title': 'failed parsing',
+#                 'Subsubsection Text': 'failed parsing',
+#                 'Market Dynamics - a': '',
+#                 'Market Dynamics - b': '',
+#                 'Market Dynamics - c': '',
+#                 'Parsing Error': f"Exception occurred: {str(e)}"
+#             }
+#             all_data.append(row)
 
-        # Save the updated data after each file
-        df = pd.DataFrame(all_data, columns=[
-            'Prospectus ID',
-            'Original Filename',
-            'Section ID',
-            'Section Title',
-            'Subsection ID',
-            'Subsection Title',
-            'Subsubsection ID',
-            'Subsubsection Title',
-            'Subsubsection Text',
-            'Market Dynamics - a',
-            'Market Dynamics - b',
-            'Market Dynamics - c',
-            'Parsing Error'
-        ])
-        df.to_csv(data_file, index=False)
-        print(f'Data saved to {data_file}')
+#         # Save the updated data after each file
+#         df = pd.DataFrame(all_data, columns=[
+#             'Prospectus ID',
+#             'Original Filename',
+#             'Section ID',
+#             'Section Title',
+#             'Subsection ID',
+#             'Subsection Title',
+#             'Subsubsection ID',
+#             'Subsubsection Title',
+#             'Subsubsection Text',
+#             'Market Dynamics - a',
+#             'Market Dynamics - b',
+#             'Market Dynamics - c',
+#             'Parsing Error'
+#         ])
+#         df.to_csv(data_file, index=False)
+#         print(f'Data saved to {data_file}')
 
-        # Save the ID state
-        id_state = {
-            'section_id_map': section_id_map,
-            'next_section_id': next_section_id
-        }
-        with open(id_state_file, 'w') as f:
-            json.dump(id_state, f)
+#         # Save the ID state
+#         id_state = {
+#             'section_id_map': section_id_map,
+#             'next_section_id': next_section_id
+#         }
+#         with open(id_state_file, 'w') as f:
+#             json.dump(id_state, f)
 
-        # Determine destination folders
-        if processing_result == 'as_expected':
-            dest_folder = as_expected_folder
-            md_dest_folder = as_expected_md_folder
-        else:
-            dest_folder = not_as_expected_folder
-            md_dest_folder = not_as_expected_md_folder
+#         # Determine destination folders
+#         if processing_result == 'as_expected':
+#             dest_folder = as_expected_folder
+#             md_dest_folder = as_expected_md_folder
+#         else:
+#             dest_folder = not_as_expected_folder
+#             md_dest_folder = not_as_expected_md_folder
 
-        # Save the markdown file
-        md_file_name = pdf_file[:-4] + '.md'
-        md_file_path = os.path.join(md_dest_folder, md_file_name)
-        with open(md_file_path, 'w', encoding='utf-8') as f:
-            f.write(md_text)
+#         # Save the markdown file
+#         md_file_name = pdf_file[:-4] + '.md'
+#         md_file_path = os.path.join(md_dest_folder, md_file_name)
+#         with open(md_file_path, 'w', encoding='utf-8') as f:
+#             f.write(md_text)
 
-        # Move the PDF file to 'as_expected' or 'not_as_expected' folder
-        dest_file_path = os.path.join(dest_folder, pdf_file)
-        os.rename(pdf_file_path, dest_file_path)
+#         # Move the PDF file to 'as_expected' or 'not_as_expected' folder
+#         dest_file_path = os.path.join(dest_folder, pdf_file)
+#         os.rename(pdf_file_path, dest_file_path)
 
-        prospectus_id += 1
+#         prospectus_id += 1
 
-    print('Processing complete.')
+#     print('Processing complete.')
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
