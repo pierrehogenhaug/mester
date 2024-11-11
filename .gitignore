@@ -1,1 +1,12 @@
 .DS_Store
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment (if not managed by the project)
+env/
+venv/
