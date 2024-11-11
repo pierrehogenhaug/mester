@@ -18,6 +18,7 @@ def main():
     # Read the dataframe
     # This should be dynamic in case dataframe changes
     df = pd.read_pickle(os.path.join(project_root, 'notebooks', 'df_rms_with_fundamental_score.pkl'))
+    print("Found file")
     df['ScoringDate'] = pd.to_datetime(df['ScoringDate'])
     
     # Initialize data structures
@@ -43,7 +44,7 @@ def main():
     
     # Iterate over the dataframe grouped by RmsId
     for RmsId, group_df in df.groupby('RmsId'):
-        rms_folder = os.path.join('../data/raw/sharepoint_reorg_files', str(RmsId))
+        rms_folder = os.path.join(project_root, 'data', 'raw', 'sharepoint_reorg_files', str(RmsId))
         if not os.path.exists(rms_folder):
             continue  # Skip to next RmsId
 
@@ -109,7 +110,7 @@ def main():
                         pdf_file_path, file_name, prospectus_id,
                         section_id_map, next_section_id)
                     # Save processed data and files
-                    dest_folder = os.path.join('../data/processed', str(RmsId))
+                    dest_folder = os.path.join(project_root, 'data', 'processed', str(RmsId))
                     os.makedirs(dest_folder, exist_ok=True)
 
                     # Determine subfolder based on processing_result
