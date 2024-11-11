@@ -9,13 +9,22 @@ project_name/
 │   ├── raw/                  # Original raw data files
 │   └── processed/            # Processed data for analysis
 ├── notebooks/                # Jupyter notebooks for EDA and analysis
+├── scripts/                  # Scripts for running analysis and data processing
+│   ├── analysis/             # Analysis-related scripts
+│   │   └── run_analysis.py   # Script to run the analysis
+│   ├── data_processing/      # Data processing scripts
+│   │   └── run_data_processing.py  # Script for data processing tasks
+│   └── main.py               # Main script to coordinate the project
 ├── src/                      # Source code
-│   ├── data_processing/      # Data cleaning and transformation
-│   ├── analysis/             # Analysis modules (e.g., ProspectusAnalyzer)
-│   └── utils/                # Utility functions
-├── scripts/                  # End-to-end execution scripts
-│   └── main.py               # Main analysis script
+│   ├── analysis/             # Analysis module
+│   │   ├── __init__.py       # Initialization for the analysis module
+│   │   └── prospectus_analyzer.py  # Module for prospectus analysis
+│   ├── data_processing/      # Data processing module
+│   │   ├── __init__.py       # Initialization for data processing module
+│   │   └── pdf_parsing.py    # Module for parsing PDF files
+│   └── __init__.py           # Initialization for src package
 ├── tests/                    # Unit tests
+├── .gitignore                # Git ignore file
 ├── config.yaml               # Project configuration
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation

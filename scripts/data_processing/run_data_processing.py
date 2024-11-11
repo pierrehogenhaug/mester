@@ -3,14 +3,21 @@ import os
 import pandas as pd
 import shutil
 import re
+import sys
 
 from tqdm import tqdm
-from data_processing import pdf_parsing
+
+# Add the project root directory to sys.path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+# Add the project root to sys.path
+sys.path.insert(0, project_root)
+
+from src.data_processing.pdf_parsing import process_prospectus
 
 def main():
     # Read the dataframe
     # This should be dynamic in case dataframe changes
-    df = pd.read_csv('your_dataframe.csv')  # Replace with your actual path
+    df = pd.read_pickle(os.path.join(project_root, 'notebooks', 'df_rms_with_fundamental_score.pkl'))
     df['ScoringDate'] = pd.to_datetime(df['ScoringDate'])
     
     # Initialize data structures
