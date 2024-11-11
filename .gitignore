@@ -1,12 +1,27 @@
+# Operating System Files
+# ======================
+# macOS
 .DS_Store
 
-# Byte-compiled files
+# Python Bytecode
+# ===============
 __pycache__/
 *.py[cod]
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Virtual environment (if not managed by the project)
+# Virtual Environments
+# =====================
 env/
 venv/
+
+# Jupyter Notebook
+# ================
+.ipynb_checkpoints/
+
+# IDE Files
+# =========
+# VSCode
+.vscode/
+*.code-workspace
+
+# Data Files
+# ==========
