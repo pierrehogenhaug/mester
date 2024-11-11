@@ -19,15 +19,16 @@ project_name/
 ├── config.yaml               # Project configuration
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
-
+```
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/project_name.git
+   ```
 2. Install dependencies:
    ```bash
     pip install -r requirements.txt
-
+   ```
 
 
