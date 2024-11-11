@@ -3,7 +3,7 @@ from tqdm import tqdm
 import pandas as pd
 import os
 
-from prospectus_analyzer import ProspectusAnalyzer
+from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 
 # Initialize the LLM
 llm = OllamaLLM(model="llama3.2")
