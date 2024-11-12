@@ -1,0 +1,10774 @@
+**P R E L I M I N A R Y** **O F F E R I N G** **M E M O R A N D U M** **C O N F I D E N T I A L**
+
+#### $300,000,000
+### Crocs, Inc.
+
+
+#### % Senior Notes due 2029
+
+We are offering $300,000,000 aggregate principal amount of % Senior Notes due 2029 (the “Notes”). The Notes will bear
+interest at the rate of % per annum. Interest on the Notes is payable on and of each year, beginning on,
+2021.
+
+At any time prior to, 2024, we may redeem some or all of the Notes at a price equal to 100% of the principal amount of
+the Notes redeemed, plus accrued and unpaid interest, if any, to, but not including, the redemption date, plus a “make-whole” premium,
+as described in this offering memorandum. On or after, 2024, we may redeem some or all of the Notes at the applicable
+redemption prices set forth in this offering memorandum, plus accrued and unpaid interest, if any, to, but not including, the redemption
+date. At any time prior to, 2024, we may also redeem up to 40% of the aggregate principal amount of the Notes at the redemption
+prices set forth in this offering memorandum with an amount equal to, or less than, the net cash proceeds from certain equity offerings,
+plus accrued and unpaid interest, if any, to, but not including, the redemption date. See “Description of Notes—Optional Redemption.”
+Upon the occurrence of a Change of Control Triggering Event (as defined herein), we may be required to make an offer to repurchase
+all of the Notes then outstanding at a price equal to 101% of the principal amount thereof, plus accrued and unpaid interest, if any,
+to, but not including, the redemption date. See “Description of Notes—Repurchase of Notes Upon a Change of Control Triggering
+Event.”
+
+The Notes will rank equal in right of payment with all of our existing and future senior indebtedness and senior in right of
+payment to all of our future subordinated indebtedness. The Notes will be fully and unconditionally guaranteed (collectively, the
+“Guarantees”) on a senior unsecured basis by each of our existing wholly-owned restricted subsidiaries that is a borrower or guarantor
+under our Revolving Credit Facility (as defined herein) and by each of our future wholly-owned restricted subsidiaries that is a
+guarantor under any syndicated credit facility or capital markets debt of the Company or any guarantor in an aggregate principal
+amount in excess of a certain amount (collectively, the “Guarantors”). Each of the Guarantees will rank equal in right of payment
+with all existing and future senior indebtedness and senior in right of payment to all future subordinated indebtedness of such Guarantors.
+The Notes and the Guarantees will be effectively subordinated to all of our existing and future secured indebtedness, to the extent of
+the value of the assets securing such indebtedness, and structurally subordinated to all of the indebtedness, preferred stock and other
+liabilities of any of our subsidiaries that do not Guarantee the Notes. See “Description of Notes—Note Guarantees.”
+
+There is currently no market for the Notes. The Notes will not be listed on any securities exchange.
+**Investing in the Notes involves risks. See “Risk Factors” beginning on page 24 of this offering memorandum**
+**and in the documents we have incorporated by reference for a discussion of certain risks that you should consider**
+**in connection with an investment in the Notes.**
+
+
+The Notes and the Guarantees have not been, and will not be, registered under the Securities Act of 1933, as amended (the
+“Securities Act”), or the securities laws of any other jurisdiction. We are not required, and do not intend, to exchange the Notes for
+notes that are registered under the Securities Act or to file a registration statement under the Securities Act to facilitate resale of the
+Notes.
+
+We are offering the Notes to persons reasonably believed to be “Qualified Institutional Buyers” (“QIBs”) as defined in, and
+pursuant to, Rule 144A under the Securities Act and to non-U.S. persons outside the United States in compliance with Regulation S
+under the Securities Act. The Notes will be subject to certain restrictions on transfer, and each purchaser of the Notes will be deemed
+to have made certain related acknowledgments, representations and agreements (actual or deemed). See “Transfer Restrictions” and
+“Plan of Distribution” for additional information about eligible offerees and transfer restrictions.
+
+
+**Price for Notes:** **% plus accrued interest, if any, from** **, 2021.**
+
+The initial purchasers expect to deliver the Notes to purchasers on or about, 2021 only in book-entry form through the
+facilities of The Depository Trust Company and its direct and indirect participants, including Clearstream Banking, société anonyme
+(“Clearstream”), and Euroclear Bank S.A./N.V. (“Euroclear”).
+
+
+_Joint Book-Running Managers_
+##### Citigroup BofA Morgan Stanley PNC Capital Securities Markets LLC
+
+_Co-Managers_
+###### KeyBanc Capital Markets HSBC US Bancorp
+
+
+-----
+
+-----
+
+Neither we nor the initial purchasers have authorized anyone to provide any information other than
+that contained or incorporated by reference in this offering memorandum or in any free writing
+communication prepared by or on behalf of us or to which we have referred you. We and the initial
+purchasers take no responsibility for, and can provide no assurance as to the reliability of, any other
+information that others may give you. Neither we nor the initial purchasers have authorized anyone to
+provide you with information that is different. This offering memorandum may only be used where it is legal
+to sell these securities. This offering memorandum is current as of the date on the front cover. You should
+not assume that the information contained in this offering memorandum, including any information
+incorporated by reference, is accurate as of any date other than its date. Our business, financial condition,
+results of operations and prospects may have changed since that date.
+
+**TABLE OF CONTENTS**
+
+**Page**
+
+NOTICE TO INVESTORS IN THE UNITED STATES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+GLOSSARY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+NON-GAAP FINANCIAL INFORMATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii
+
+NO REVIEW BY THE SEC; NO REGISTRATION RIGHTS . . . . . . . . . . . . . . . . . . . . . . . . . . iv
+
+CAUTIONARY NOTE REGARDING FORWARD-LOOKING STATEMENTS . . . . . . . . . . . . v
+
+SUMMARY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+RISK FACTORS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+
+USE OF PROCEEDS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+
+CAPITALIZATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+
+MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND
+RESULTS OF OPERATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+
+BUSINESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+
+DESCRIPTION OF OTHER INDEBTEDNESS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+
+DESCRIPTION OF NOTES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+
+BOOK-ENTRY; DELIVERY AND FORM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 113
+
+TRANSFER RESTRICTIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+
+CERTAIN U.S. FEDERAL INCOME TAX CONSIDERATIONS . . . . . . . . . . . . . . . . . . . . . . . 121
+
+ERISA CONSIDERATIONS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125
+
+PLAN OF DISTRIBUTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+
+LEGAL MATTERS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+
+INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM . . . . . . . . . . . . . . . . . . . . . . 133
+
+WHERE YOU CAN FIND MORE INFORMATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+
+INFORMATION INCORPORATED BY REFERENCE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+
+INDEX TO CONSOLIDATED FINANCIAL STATEMENTS . . . . . . . . . . . . . . . . . . . . . . . . . . F-1
+
+This offering memorandum is highly confidential and has been prepared by us solely for use in
+connection with the proposed offering of the Notes. We reserve the right to reject any offer to purchase, in
+whole or in part, for any reason, or to sell less than all of the Notes offered by this offering memorandum. The
+initial purchasers identified on the cover of this offering memorandum will act as initial purchasers with
+respect to the Notes offered hereby. This offering memorandum is being provided to you as a qualified
+prospective investor and does not constitute an offer to any other person or to the public in general to
+subscribe for or otherwise acquire the Notes. Distribution of this offering memorandum by you to any person
+other than those persons retained to advise you is unauthorized, and any disclosure of any of the contents
+of this offering memorandum without our prior written consent is prohibited.
+
+
+-----
+
+This offering memorandum is being furnished by us in connection with an offering exempt from
+registration under the Securities Act and applicable state securities laws solely for the purpose of enabling a
+prospective investor to consider the purchase of the Notes. The information contained in this offering
+memorandum has been provided by us and other sources believed to be reliable. The initial purchasers make
+no representation or warranty, express or implied, as to the accuracy or completeness of the information
+contained in this offering memorandum, and nothing contained in this offering memorandum is, or shall be
+relied upon as, a promise or representation by the initial purchasers.
+
+The Notes have not been, and will not be, registered under the Securities Act, and may not be offered
+or sold in the United States unless the Notes have been registered under the Securities Act, or an exemption
+from the registration requirements of the Securities Act and the securities laws of any applicable jurisdiction
+is available. Accordingly, we are offering and selling the Notes to the initial purchasers for re-offer and resale
+to persons reasonably believed to be QIBs in compliance with Rule 144A under the Securities Act and to nonU.S. persons outside the United States in compliance with Regulation S under the Securities Act.
+
+The Notes being offered by this offering memorandum are subject to restrictions on transferability and
+resale and may not be transferred or resold except as permitted under the Securities Act and applicable state
+and non-U.S. securities laws pursuant to registration or exemptions from such laws. You should be aware
+that you may be required to bear the financial risk of an investment in the Notes for an indefinite period of
+time. By purchasing Notes, you will be deemed to have made certain acknowledgments, representations,
+warranties and agreements. See “Transfer Restrictions”and “Plan of Distribution”for additional information
+about eligible offerees and transfer restrictions.
+
+By receiving this offering memorandum, you acknowledge that:
+
+   - you have been afforded an opportunity to request and to review, and have received, all additional
+information considered by you to be necessary to verify the accuracy of or to supplement the
+information herein;
+
+   - you have not relied on the initial purchasers or any person affiliated with the initial purchasers in
+connection with your investigation of the accuracy of such information or your investment decision;
+and
+
+   - no person has been authorized to give any information or to make any representation concerning
+us or the Notes other than as contained herein and, if given or made, you will not rely upon such
+information or representations as having been authorized by us or any of the initial purchasers.
+
+You must (1) comply with all applicable laws and regulations in force in any jurisdiction in connection
+with the possession or distribution of this offering memorandum and the purchase, offer or sale of the Notes
+offered hereby and (2) obtain any required consent, approval or permission for the purchase, offer or sale
+by you of the Notes under the laws and regulations applicable to you in force in any jurisdiction to which you
+are subject or in which you make such purchases, offers or sales, and neither we nor the initial purchasers
+nor their agents have any responsibility therefor. See “Transfer Restrictions”for information concerning some
+of the transfer restrictions applicable to the Notes.
+
+In making an investment decision, you must rely on your own examination of the Issuer, the Guarantors
+and the terms of this offering, including the merits and risks involved. You should not construe the contents
+of this offering memorandum as legal, business or tax advice. You should consult your own attorney,
+business advisor or tax advisor as to legal, business or tax advice.
+
+Any and all website addresses included in this offering memorandum are included as textual references
+only, and none of the information contained in such websites (or accessed through them) is incorporated
+into this offering memorandum or shall be regarded as part of this offering memorandum.
+
+We are entitled to withdraw the offering at any time before closing, and we are making this offering
+subject to the terms described in this offering memorandum and the purchase agreement relating to the
+Notes.
+
+
+-----
+
+**NOTICE TO INVESTORS IN THE UNITED STATES**
+
+**Neither the U.S. Securities and Exchange Commission (the “SEC”) nor any federal, state or foreign**
+**securities authority has approved or disapproved the offer or sale of the Notes or determined if this offering**
+**memorandum is truthful or complete. Any representation to the contrary is a criminal offense.**
+
+There are no registration rights associated with the Notes or the Guarantees. The Notes are subject to
+restrictions on transferability and resale and may not be transferred or resold except as permitted under the
+Securities Act and applicable state securities laws pursuant to registration or exemption therefrom. As a
+prospective purchaser, you should be aware that you may be required to bear the financial risks of this
+investment for an indefinite period of time. Please refer to the sections in this offering memorandum entitled
+“Transfer Restrictions” and “Plan of Distribution.”
+
+**GLOSSARY**
+
+Unless the context otherwise requires, in this offering memorandum:
+
+   - “FY” refers to fiscal year.
+
+   - “Issuer” refers to Crocs, Inc. and not to any of its subsidiaries.
+
+   - “Guarantors” refers to each of the Issuer’s existing wholly-owned restricted subsidiaries that is a
+borrower or guarantor under the Revolving Credit Facility and each of the Issuer’s future whollyowned restricted subsidiaries that is a guarantor of any debt of the Issuer or any guarantor
+under any syndicated credit facility or capital markets debt in an aggregate principal amount in
+excess of a certain amount.
+
+   - “we,” “our,” “us,” “Crocs” and the “Company” or similar terms refer to the Issuer and its
+consolidated subsidiaries.
+
+   - “YoY” refers to year-over-year.
+
+**NON-GAAP FINANCIAL INFORMATION**
+
+EBITDA, EBITDA Margin, Adjusted EBITDA, Adjusted EBITDA Margin, Free Cash Flow,
+Adjusted Cost of Sales, Adjusted Gross Profit, Adjusted Gross Margin, Adjusted Selling, General and
+Administrative Expenses, Adjusted Income from Operations and Adjusted Operating Margin (collectively,
+the “Non-GAAP Financial Measures”), as presented in this offering memorandum, are supplemental
+measures of our performance that are not required by, or presented in accordance with, accounting principles
+generally accepted in the United States of America (“GAAP”). The Non-GAAP Financial Measures are
+not measurements of our financial performance under GAAP and should not be considered as alternatives
+to GAAP measures of operating performance. Additionally, the Non-GAAP Financial Measures are not used
+as, and are not intended to be, measures of cash flow in accordance with GAAP.
+
+For the definitions of, and more information about, the Non-GAAP Financial Measures, see
+“Summary—Summary Historical Consolidated Financial and Other Data” included elsewhere in this
+offering memorandum.
+
+Our method of calculating the Non-GAAP Financial Measures may vary from the method used by
+other companies. In addition, in calculating the Non-GAAP Financial Measures we make certain adjustments
+that are based on assumptions and estimates that may prove to have been inaccurate. The items excluded
+from the Non-GAAP Financial Measures are significant in assessing our operating results and liquidity.
+
+We present the Non-GAAP Financial Measures because we believe that investors consider them to be
+important supplemental measures of our performance and believe they are frequently used by securities
+analysts, investors and other interested parties in the evaluation of companies in our industry. Additionally,
+we believe issuers of non-investment grade securities present the Non-GAAP Financial Measures and the
+related ratio data because investors, analysts and rating agencies consider them useful in measuring the ability
+of those issuers to meet debt service obligations.
+
+The Non-GAAP Financial Measures have limitations as analytical tools, and you should not consider
+them in isolation, or as substitutes for analysis of our results as reported under GAAP. Some of these
+
+
+-----
+
+limitations are that the Non-GAAP Financial Measures (i) do not reflect all our cash expenditures, future
+requirements for capital expenditures or contractual commitments; (ii) do not reflect the significant interest
+expense or the cash requirements necessary to service interest or principal payments on our indebtedness;
+(iii) do not reflect any cash income taxes that we may be required to pay; (iv) although depreciation and
+amortization are non-cash charges, the assets being depreciated and amortized will often have to be replaced
+in the future and the Non-GAAP Financial Measures do not reflect any cash requirements for such
+replacements; (v) do not reflect changes in, or cash requirements for, our working capital needs; (vi) are not
+adjusted for all non-cash income or expense items that are reflected in our statements of cash flows; and
+(vii) other companies in our industry may calculate the Non-GAAP Financial Measures differently than we
+do, limiting their usefulness as comparative measures. We compensate for these limitations by relying
+primarily on our GAAP results and using the Non-GAAP Financial Measures only for supplemental
+purposes.
+
+The SEC has adopted rules to regulate the use of non-GAAP financial measures in registration
+statements filed under the Securities Act, such as the Non-GAAP Financial Measures, that are derived on
+the basis of methodologies other than in accordance with GAAP. These rules require, among other things:
+
+   - a presentation with equal or greater prominence of the most comparable financial measure or
+measures calculated and presented in accordance with GAAP; and
+
+   - a statement disclosing the purposes for which the Issuer’s management uses the non-GAAP
+financial measure.
+
+The rules prohibit, among other things:
+
+   - exclusion of non-cash charges or liabilities that require cash settlement or would have required
+cash settlement absent an ability to settle in another manner, from non-GAAP liquidity measures;
+
+   - adjustment of a non-GAAP performance measure to eliminate or smooth items identified as
+non-recurring, infrequent or unusual, when the nature of the charge or gain is such that it is
+reasonably likely to recur; and
+
+   - presentation of non-GAAP financial measures on the face of the GAAP financial statements (or
+notes thereto) or any pro forma financial information.
+
+The non-GAAP financial measures presented in this offering memorandum may not comply with these
+rules. See “No Review by the SEC; No Registration Rights.” For a reconciliation of EBITDA to net income
+(loss), EBITDA Margin to net income (loss) margin, Adjusted EBITDA to net income, Adjusted EBITDA
+Margin to net income margin, Free Cash Flow to cash provided by operating activities, Adjusted Cost of Sales
+to cost of sales, Adjusted Gross Profit to gross profit, Adjusted Gross Margin to gross margin, Adjusted
+Selling, General and Administrative Expenses to selling, general and administrative expenses, Adjusted
+Income from Operations to income from operations, and Adjusted Operating Margin to operating margin,
+see “Summary—Summary Historical Consolidated Financial and Other Data.”
+
+**NO REVIEW BY THE SEC; NO REGISTRATION RIGHTS**
+
+This offering memorandum, as well as any other documents in connection with this offering, will not
+be reviewed by the SEC. There are no registration rights associated with the Notes or the Guarantees and
+we have no present intention to offer to exchange the Notes and the Guarantees for notes and guarantees
+registered under the Securities Act or to file a registration statement with respect to the Notes. The Indenture
+(as defined herein) will not be qualified under the Trust Indenture Act of 1939, as amended (the “Trust
+Indenture Act”).
+
+
+-----
+
+**CAUTIONARY NOTE REGARDING FORWARD-LOOKING STATEMENTS**
+
+This offering memorandum and the documents incorporated by reference herein each contain “forwardlooking statements”within the meaning of Section 27A of the Securities Act and Section 21E of the Securities
+Exchange Act of 1934, as amended (the “Exchange Act”). From time to time, we may also provide oral or
+written forward-looking statements in other materials we release to the public. Such forward-looking
+statements are subject to the safe harbor created by the Private Securities Litigation Reform Act of 1995.
+
+Statements that refer to industry trends, projections of our future financial performance, anticipated
+trends in our business and other characterizations of future events or circumstances are forward-looking
+statements. These statements, which express management’s current views concerning future events or results,
+use words like “anticipate,” “assume,” “believe,” “continue,” “estimate,” “expect,” “future,” “intend,”
+“plan,” “project,” “strive,” and future or conditional tense verbs like “could,” “may,” “might,” “should,”
+“will,” “would,” and similar expressions or variations. Examples of forward-looking statements include, but
+are not limited to, statements we make regarding:
+
+   - our expectations regarding the impact of the novel coronavirus (“COVID-19”) pandemic on our
+business, financial condition, operating results, capital expenditures, and liquidity;
+
+   - our expectations regarding future trends, selling, general and administrative cost savings,
+expectations, and performance of our business;
+
+   - our belief that we have sufficient liquidity to fund our business operations during the next
+twelve months;
+
+   - our expectations about the impact of our strategic plans and;
+
+   - our ability to effectively use the net proceeds from this offering.
+
+Forward-looking statements are subject to risks, uncertainties and other factors, which may cause
+actual results to differ materially from future results expressed or implied by such forward-looking statements.
+Important factors that could cause actual results to differ materially from the forward-looking statements
+include, without limitation, those described in the section entitled “Risk Factors” elsewhere in this offering
+memorandum, Part I—Item 1A. Risk Factors of our Annual Report on Form 10-K for the year ended
+December 31, 2020, which is incorporated by reference into this offering memorandum, and those described
+from time to time in our past and future reports filed with the SEC. Caution should be taken not to place
+undue reliance on any such forward-looking statements. Moreover, such forward-looking statements
+speak only as of the date made. Except as required by applicable law, we undertake no obligation to update
+any forward-looking statements to reflect events or circumstances after the date of such statements.
+
+
+-----
+
+**SUMMARY**
+
+_This summary highlights key information described in greater detail elsewhere, or incorporated by_
+_reference, in this offering memorandum. This summary is not complete and does not contain all of the information_
+_you should consider before investing in the Notes. Before making an investment decision, you should read_
+_carefully the entire offering memorandum and the documents incorporated by reference herein, including the_
+_section entitled “Risk Factors” in this offering memorandum and in the documents incorporated by reference_
+_herein, which are described under “Information Incorporated by Reference.”_
+
+**Company Overview**
+
+We are a leading casual footwear brand, combining comfort and style with a value consumers want.
+Recognized globally for the iconic clog silhouette, we have taken our successful formula of simple design
+aesthetic paired with modern comfort and expanded into a variety of casual footwear products and accessories.
+We are the category leader in clogs and are continuing to grow our product offerings through sandals and
+personalization with Jibbitz[TM] charms, our add-on accessories, which allow consumers to easily customize
+our footwear. We sell products through a diversified, omnichannel distribution model. Our route to market is
+highly focused on digital with 42% of our revenues in 2020 driven by digital sales, which includes sales
+through our company-owned websites, third-party marketplaces, and e-tailers. We have an established, global
+footprint, selling products in more than 80 countries worldwide. We have a strong international presence
+across Asia Pacific and Europe, Middle East, and Africa (“EMEA”), with international accounting for 42%
+of our revenues in 2020. We generated total revenues of $1.4 billion, net income of $312.9 million and
+Adjusted EBITDA of $289.6 million in 2020. For a reconciliation of Adjusted EBITDA to net income, the
+most closely comparable GAAP financial measure, see “—Summary Historical Consolidated Financial and
+Other Data.”
+
+We have successfully transformed and elevated the Crocs platform over the past several years,
+significantly growing revenue and profitability. Since 2014, we have transformed the brand by focusing on a
+consumer-centric brand strategy, iconic and versatile product offerings, a digital-first approach and
+disciplined execution. From 2016 to 2020, revenues grew at a compound annual growth rate (“CAGR”) of
+7.5%, from $1.0 billion in 2016 to $1.4 billion in 2020. In addition, digital penetration grew from 31.1% in
+2019 to 41.5% in 2020, fueled by our digital-first strategy, which has accelerated throughout the COVID-19
+pandemic. From 2018 to 2020, Adjusted EBITDA grew at a CAGR of 58.6% from $115.2 million to
+$289.6 million. From 2018 to 2020, we significantly grew Adjusted EBITDA Margins from 10.6% in 2018 to
+20.9% in 2020 through increased brand strength, improved gross margins via pricing strategy and channel
+mix, right-sizing selling, general and administrative expenses (“SG&A”) and continued optimization of our
+store fleet.
+
+
+-----
+
+###### Revenue ’16-’20 CAGR
+**_($ in millions)_** **+7.5%**
+
+$1,386
+$1,231
+$1,036 $1,024 $1,088
+
+FY2016 FY2017 FY2018 FY2019 FY2020
+
+**E-commerce Penetration(1):                                   Digital Penetration(1):**
+
+**12.6%** **14.6%** **16.8%** **31.1%** **41.5%**
+
+(1) In 2019, we began a reclassification of online metrics tracking such that digital is now reported separately and includes: e-tail
+(reported within wholesale) and e-commerce (inclusive of existing e-commerce segment reported within our DTC channel (as
+defined below)). Prior to 2019, we reported e-commerce penetration, which includes company-operated e-commerce sites and
+third-party marketplaces.
+
+###### EBITDA             Adjusted EBITDA
+
+**_($ in millions)                       ($ in millions)_**
+
+**’18-’20 CAGR**
+
+$290
+
+**+58.6%**
+
+**’16-’17 YoY Growth** $166
+
+**+90.2%** $115
+
+$51
+$27
+
+FY2016 FY2017 FY2018 FY2019 FY2020
+
+**% Margin:**
+
+
+**2.6%** **5.0%** **10.6%** **13.5%** **20.9%**
+
+
+For a reconciliation of EBITDA to net income (loss), EBITDA Margin to net income (loss) margin,
+Adjusted EBITDA to net income and Adjusted EBITDA Margin to net income margin, the most closely
+comparable GAAP financial measures, see “—Summary Historical Consolidated Financial and Other Data.”
+
+**Business Overview**
+
+**_Products_**
+
+Since we first introduced a single-style clog in six colors in 2002, we have grown to be a world leader of
+innovative, casual footwear for women, men, and children. We have expanded beyond the iconic clog
+silhouette into a wide variety of casual footwear products including sandals, wedges, flip-flops, and slides
+that meet the needs of the whole family. Our mission of “everyone comfortable in their own shoes” continued
+in 2020 with the fourth year of our global Come As You Are™campaign. While remaining true to our
+core molded footwear heritage, we offer a broad portfolio of all-season products that are focused within four
+key product pillars, including: clogs, sandals, personalization, and visible comfort technology innovation.
+
+
+-----
+
+**Clogs**
+Innovate and grow
+clog relevance
+
+
+**Sandals**
+Significant long-term
+growth potential
+
+
+###### 3
+
+
+###### 1
+
+
+At the heart of our brand’s DNA are our clogs, sandals, and Jibbitz™charms. The Classic Clog, our
+most iconic style for adults and children, embodies our innovation in molding, simplicity of design, and allday comfort. The unique feel of the Classic Clog can be experienced throughout the vast majority of our
+product line due to the use and design of our proprietary Croslite™material. Sandals are a natural extension
+of our brand, leveraging our signature molding technology to provide casual, comfortable footwear for a
+variety of wearing occasions. Jibbitz™charms enhance the consumer experience by providing an outlet for
+customization and heightening our message of “Come As You Are™.” We are growing our clog silhouette
+with new colors, graphics, licensed images, embellishments, and accessories, such as Jibbitz™charms, that
+allow for personalization. We are diversifying our product assortment by expanding our sandal offerings.
+We see a large share growth opportunity in the sandals market, which is a fragmented category with no
+dominant players.
+
+The vast majority of Crocs™shoes feature Croslite™material, a proprietary, revolutionary technology
+that gives each pair of shoes the soft, comfortable, lightweight, non-marking, and odor-resistant qualities
+that our fans know and love. As we focus on visible comfort technology, we also use similar material
+formulations in connection with new material technologies used in our LiteRide™collection. LiteRide™
+also features comfort-focused, proprietary foam insoles which are soft, lightweight, and resilient. The
+Croslite™and LiteRide™material formulations are protected by the Company as trade secrets.
+
+**_Sales and Marketing_**
+
+We operate our business across three geographic regions: the Americas, Asia Pacific, and EMEA. We
+prioritize five core markets among the more than 80 countries in which we operate, including: (i) the U.S.,
+(ii) Japan, (iii) China, (iv) South Korea, and (v) Germany. These countries represent key geographies where
+we believe the greatest opportunities for growth exist. We also concentrate our marketing efforts on these
+countries, to increase customer awareness of both our brand and our full product range.
+
+Each season, we focus on presenting a compelling brand story and experience for our new product
+introductions as well as our on-going core products. Our mission of “everyone comfortable in their own
+shoes” continued in 2020 with the fourth year of our global Come As You Are™campaign.
+
+Our multifaceted marketing strategy is focused on digital and social engagement, celebrity campaigns
+and collaborations. Our social and digital marketing is centered on showcasing our clog and sandal silhouettes
+and our Jibbitz™charms. We are growing our clog silhouette with new colors, graphics, licensed images,
+embellishments, and accessories, such as Jibbitz™charms, that allow for personalization and, ultimately,
+greater connection with our products. We are expanding our sandal offerings as we pursue a greater share of
+a large market that currently has no clear global leader. We are continuing to invest in designer, celebrity,
+and brand collaborations, as well as celebrity brand ambassadors to raise consumer engagement with our
+brand. Our collaborations help further drive brand heat and relevance by improving social engagement
+through locally relevant platforms. In 2020, we pivoted branding to better connect with consumers by
+launching the “A Free Pair for Healthcare” initiative to help deliver over 860,000 free shoes to front-line
+healthcare and other essential workers during the COVID-19 pandemic. Our agility and consumer-centric
+ingenuity allowed us to pivot and build upon existing brand strength during 2020.
+
+
+**Personalization**
+Capitalize on global
+megatrend, enhancing
+average selling price
+
+
+**Visible Comfort**
+**Technology**
+**Innovation**
+
+
+###### 2
+
+
+-----
+
+**_Distribution Channels_**
+
+The broad appeal of our footwear has allowed us to market our products in more than 80 countries
+through wholesale and direct-to-consumer (“DTC”) channels. The DTC channel drove 50% of total revenues
+in 2020 and includes both retail and e-commerce channels. Our wholesale channel contributed the other
+50% of total revenues in 2020 and is comprised of e-tailers, distributors and other brick-and-mortar (“B&M”)
+retailers. Digital sales are reported within both wholesale and DTC and include e-tailers, our companyowned websites and third-party marketplaces.
+
+(1) Channel breakdown reflects the year ended December 31, 2020.
+
+_Wholesale Channel_
+
+During the years ended December 31, 2020, 2019, and 2018, 50.0%, 53.3%, and 53.1% of revenues,
+respectively, were derived through our wholesale channel. Our wholesale channel includes domestic and
+international, multi-brand, B&M retailers, e-tailers, and distributors in certain countries, including partner
+store operators. B&M customers typically include family footwear retailers, national and regional retail chains,
+sporting goods stores, and independent footwear retailers. In 2020, as a result of COVID-19, many of our
+wholesale B&M retailers were closed for a portion of the year. Globally, our products are also offered on
+prominent e-tail platforms including Amazon, Zappos and Zalando.
+
+Outside the U.S., we use distributors when we believe such arrangements are economically preferable to
+direct sales. Distributors purchase products pursuant to a price list and are granted the right to resell those
+
+
+-----
+
+products in a defined territory, usually a country or group of countries. Our typical distribution agreements
+have terms of one to five years and can be terminated or renegotiated if minimum requirements or other
+terms are not met. In 2020, as a result of the COVID-19 pandemic, many of our distributors’ stores were
+closed for a portion of the year and in many cases experienced lower traffic due to the decline in tourism.
+
+No single wholesale customer accounted for 10.0% or more of our total revenues for any of the years
+ended December 31, 2020, 2019, and 2018.
+
+_E-commerce Channel_
+
+As of December 31, 2020, we offered our products through 13 company-operated e-commerce sites
+worldwide and also on third-party marketplaces, such as Tmall, VIP, Rakuten and eBay. During the years
+ended December 31, 2020, 2019, and 2018, 25.9%, 18.5%, and 16.8%, respectively, of our revenues were
+derived through this channel. Our e-commerce presence facilitates increased access to our consumers and
+provides us with an opportunity to educate them about our products and brand. We continue to leverage
+digital marketing activities to promote a seamless consumer experience and drive sales, thereby benefiting
+from the continued migration of consumers to online shopping. The e-commerce channel is a fast-growing
+distribution channel driven by accelerated consumer adoption, performance-driven marketing and
+expanded digital reach.
+
+During the years ended December 31, 2020 and 2019, digital penetration was 42% and 31% of sales,
+respectively. Since 2015, we have taken a digital-first approach to the brand, focusing on platform strength,
+experience and partnerships. As a result, we have been able to sustain double-digit e-commerce revenue growth
+for 15 consecutive quarters. Our robust digital strategy has included making early investments in first- and
+third-party mix optimization by country and region, while also investing in our people and technologies to
+elevate customer experience. These efforts support increasing customer brand affinity and higher
+conversion through relevant content. In accelerating our digital platform investment, we have executed
+retention strategies around data, segmentation and personalization. Coupled with reducing discounting and
+promotions, strong brand heat has driven digital revenue growth of 50% for the year ended December 31,
+2020 as well as 66% growth in our owned e-commerce channel as compared to the year ended December 31,
+2019.
+
+
+###### Digital-Led Route to Market
+
+ 17% 15% 13%
+
+
+###### 42% 31%
+
+
+###### 2016 2017 2018 2019 2020
+ E-commerce Penetration E-tail Penetration
+
+
+**Fourth quarter of 2020 represented 15th consecutive quarter of double-digit e-commerce revenue growth**
+
+
+_Retail Channel_
+
+During the years ended December 31, 2020, 2019, and 2018, 24.1%, 28.2%, and 30.1%, respectively, of
+our revenues were derived through our retail channel. During 2020, as a result of the COVID-19 pandemic,
+our global retail stores were closed for a portion of the year. However, the vast majority of our stores
+were open as of December 31, 2020. Despite the temporary closures, we delivered strong results in our retail
+channel with comparable retail store sales of 21.2% for the year on a constant currency basis. We operate
+our retail channel through three platforms: company-operated full-price retail stores, outlet stores, and storein-store locations. We have a disciplined store strategy and are carefully managing our retail fleet, especially
+full-priced retail stores. The majority of our stores are off-mall as 72% of the fleet are store-in-store
+
+
+-----
+
+locations and outlets, our most profitable retail format. As of December 31, 2020, we had 351 companyoperated stores, 70% of which were in the U.S. and South Korea compared to 65% as of December 31, 2019.
+See “Management’s Discussion and Analysis of Financial Condition and Results of Operations” for
+information on store locations by platform.
+
+
+###### Company-Operated Stores
+**_(As of FY2020)_**
+
+Store-in-Store
+19%
+
+Outlet
+53%
+Retail
+28%
+
+
+###### Comparable Retail Store Sales[(1)]
+
+21.2% [(2)]
+
+12.4% [(2)]
+10.8% [(2)]
+
+FY2018 FY2019 FY2020
+
+
+(1) Comparable store status is determined on a monthly basis. Comparable store sales includes the revenues of stores that have been
+in operation for more than twelve months. Stores in which selling square footage has changed more than 15% as a result of a
+remodel, expansion, or reduction are excluded until the thirteenth month in which they have comparable prior year sales.
+Temporarily closed stores are excluded from the comparable store sales calculation during the month of closure. Location closures
+in excess of three months are excluded until the thirteenth month post re-opening.
+
+(2) Reflects period over period change on a constant currency basis, which is a non-GAAP financial measure. See “Management’s
+Discussion and Analysis of Financial Condition and Results of Operations—Use of Non-GAAP Financial Measures” for
+additional information.
+
+**Our Industry**
+
+**_Large Footwear Market with Significant Growth Opportunity_**
+
+According to Euromonitor, the global footwear market size was $286 billion in 2020 and is projected to
+grow at a 7.3% CAGR from 2020 to 2025. Within footwear, Asia Pacific is the largest opportunity with an
+annual market size of $99 billion in 2020, followed by North America. In 2020, 20% of our revenue was
+generated in Asia Pacific and we believe there is room for incremental growth. Footwear spending is
+shifting online with footwear e-commerce penetration increasing from 11.8% in 2016 to 25.3% in 2020, with
+accelerated growth in 2020 due to COVID-19. We grew our digital revenue by 50% in 2020, driven by
+strategic investments in the channel and accelerated adoption of e-commerce. According to L.E.K.
+Consulting and internal estimates, the sandals market is a $30 billion market. The sandals market is highly
+fragmented with no dominant players, creating a large share growth opportunity for Crocs.
+
+Some key trends of our industry include:
+
+   - **Increased focus on casual / athleisure:** The multi-year trend towards casualization has been
+accelerated by COVID-19. Consumers are shifting away from formal footwear, with dress footwear
+sales down more than 70% from March 2020 through May 2020, compared to the same period in
+2019 (according to NPD Group). The shift towards casualization is expected to continue as the
+global athleisure category is expected to reach $518 billion by 2025, growing at an 8.1% CAGR
+from 2019 to 2025, according to Grand View Research.
+
+   - **Desire for product personalization:** Customers increasingly desire unique products with options
+to customize. According to Deloitte Digital research, 33% of consumers expect to try customized
+options in the future and fully-customizable options could claim between 10% and 30% of footwear
+market share by 2030.
+
+   - **Sustainability driving purchase decisions:** According to a Canaccord Genuity research report,
+76% of young consumers, which is defined as millennial and generation Z, say they would pay more
+for a sustainable product and 68% consider sustainability to be a driving factor for purchases.
+The sustainable footwear market is expected to grow at 5.8% CAGR from 2020 to 2027 and reach
+$11.8 billion in market size by 2027, according to Grand View Research.
+
+
+-----
+
+  - **Rapid shift to online:** Consumer adoption of e-commerce accelerated dramatically in 2020 with
+e-commerce retail sales in the footwear industry reaching $72 billion in 2020. E-commerce
+penetration for the global footwear market increased from 17.5% in 2019 to 25.3% in 2020.
+
+###### Growing E-commerce Penetration[(1)]
+
+_E-Commerce Retail Sales in Footwear Industry, $billions_
+
+**’16-’20 CAGR**
+
+**+16.6%**
+
+$72
+$64
+$56
+$47
+$39
+
+FY2016 FY2017 FY2018 FY2019 FY2020
+
+**Penetration Rate:**
+
+
+11.8% 13.5% 15.5% 17.5% 25.3%
+
+
+**YoY Growth:**
+
+
+14.9% 20.2% 19.1% 13.6% 13.7%
+
+
+(1) Source: Euromonitor.
+
+**_Competition_**
+
+Crocs is the market leader in the clog category, based on management’s estimates and industry
+knowledge. According to NPD Group, Crocs had 33.8% share of the U.S. clog category in 2018, while the
+next closest competitors had 11.0% and 6.0% share, respectively. Our proprietary brand research studies
+indicate our iconic brand is recognized globally as 88% of consumers aware of Crocs associate the brand
+with clogs.
+
+Although we do not believe that we compete directly with any single company with respect to the entire
+spectrum of our products, we believe portions of our wholesale, retail, and e-commerce businesses compete
+with companies including, but not limited to: NIKE, Inc., adidas AG, Under Armour, Inc., Deckers
+Outdoor Corporation, Skechers USA, Inc., Steven Madden, Ltd., Wolverine World Wide, Inc., and VF
+Corporation. Specifically, we compete with other iconic silhouettes such as Vans, Converse, and Timberland.
+Our company-operated retail locations and e-commerce sites also compete with some of our wholesale
+partners.
+
+The principal elements of competition in these markets include brand awareness, product functionality,
+design, comfort, quality, price, customer service, and marketing and distribution. We believe that our unique
+footwear designs, our prices, our product line, and our distribution network position us well in the
+marketplace. In addition, our material formulations serve as a key differentiator. We have a combination of
+trademarks, copyrights, trade secrets, trade dress, and patent protections to establish, protect, and enforce our
+intellectual property rights in our product designs, brands, materials, and research and development efforts.
+We strategically protect our intellectual property rights in our core styles globally and pursue continued
+protection through different mechanisms as certain rights may expire or lapse.
+
+**Our Competitive Strengths**
+
+We believe the following factors allow us to deliver on our mission and business strategies successfully:
+
+**_Leading Global Footwear Brand Anchored by Iconic Product with Mass Appeal._** We are a market leader
+in clogs with an opportunity to further grow the category. Our classic clog is an unmistakable icon that is
+recognized around the world. Further, Crocs is a powerful global brand with a large, diverse consumer base
+and universal appeal. According to Piper Sandler investment research, we are a top 10 footwear brand of
+U.S. teens. Also, we are a top 10 non-athletic global footwear brand, according to research conducted by
+
+
+-----
+
+L.E.K. Consulting. In addition, we believe that our global aided brand awareness as of the end of 2020 was
+approximately 64%. In recognition of our brand, we were named the 2020 Brand of the Year by Footwear
+_News magazine. Our comprehensive marketing strategy continues to strengthen the Crocs brand, as evidenced_
+by our brand desirability, brand relevance and brand consideration each increasing by over 10.0% in 2020
+and in each of the past four years, according to our annual Brand Strength Monitor survey conducted by
+MODO Group.
+
+**_Market Leader in Clog Category with Significant Whitespace in Sandals and Personalization._** Our
+product line is anchored by four pillars — clogs, sandals, Jibbitz™charms and visible comfort technology.
+We are the market leader in the clog category with an opportunity to further grow the category. According to
+a study by L.E.K. Consulting, the clog category grew to an estimated $5.0 billion annual market size in
+2018. The clog category is believed to have outpaced growth of overall casual footwear from 2015 to 2018.
+We are the market leader in the growing clogs category with approximately 20.0% market share as of
+December 31, 2020. Our clog revenue increased by approximately 33% in the year ended December 31, 2020
+to 72% of total footwear revenues, up from 60% of total footwear revenues in the year ended December 31,
+2019. Key drivers of clog growth include innovations, colors and prints, impactful collaborations, and
+personalization with Jibbitz™. The casual sandal category was estimated to be a $30.0 billion annual market
+in 2018 according to L.E.K. Consulting and is believed to have grown in line with overall casual footwear
+from 2015 to 2018. We have an opportunity to significantly grow share in the sandals category, which is highly
+fragmented with no dominant players. Our sandal revenue had grown by over 10.0% for each of the
+three years prior to the COVID-19 pandemic. We look forward to a full sandal season in 2021 and restoring
+sandal growth by building on the early successes of the Brooklyn, Tulum, and Classic Slide products as
+well as introducing a new Two-Strap Classic Sandal. In addition, we have leveraged personalization trends
+to grow both clogs and sandals through our Jibbitz™charms. Jibbitz™enhance the consumer experience by
+providing an outlet for personalization of both our clogs and sandals at the point of sale. Jibbitz™sales
+accelerated in the year ended December 31, 2020, nearly doubling in revenues as compared to the year ended
+December 31, 2019. Jibbitz™consumers are highly valuable due to the fact that, based on management’s
+estimates, they have an approximately two times greater customer lifetime value as compared to clog, sandals
+and work product customers.
+
+**_Diversified, Digital-Led Route to Market Experiencing Rapid Acceleration in Growth._** We have a
+diversified, omnichannel distribution mix and are highly focused on digital. Our channel mix is evenly split
+between wholesale and DTC. We have a strong wholesale network with a selective portfolio of leading e-tailers,
+B&M retailers and distributors. Our products are sold and distributed in over 80 countries across key
+geographies through wholesale partners. We have strong, long-standing relationships with our top 20 global
+B&M accounts, of which 10 are in the U.S. Within the DTC channel, we have a rapidly growing e-commerce
+platform, driven by early investment in digital infrastructure and technologies. The e-commerce channel grew
+58% in 2020 compared to 2019 and the fourth quarter of 2020 was the 15[th] consecutive quarter of doubledigit e-commerce revenue growth. We are focused on operational excellence on our e-commerce platform
+along with a seamless customer experience and believe there is room for additional growth. Over the
+long-term, we believe our digital presence, both on our own sites and those of our partners, will allow us to
+serve our consumers in their preferred channel and will continue to be a competitive advantage relative to
+other footwear brands. We also maintain a disciplined and targeted global retail footprint with carefully
+chosen retail locations and a proven store concept. The majority of our stores are off-mall and 72% of our
+locations are outlet and store-in-stores. We have a strong store base with 21.2% retail comparable store sales
+growth on a constant currency basis in 2020.
+
+
+-----
+
+###### DTC Revenue Growth
+**_($ in millions)_**
+
+
+###### Wholesale Revenue Growth
+**_($ in millions)_**
+
+
+**’17 – ’20 CAGR** **’17 – ’20 CAGR**
+
+**8.9%**
+**12.4%** $693
+
+
+FY2017 FY2018 FY2019 FY2020
+
+
+FY2017 FY2018 FY2019 FY2020
+
+
+**DTC Comparable Sales Growth[(1)(2)]:** **YoY Growth:**
+
+4.7% 14.3% 16.0% 39.2% (1.8%) 7.8% 13.5% 5.6%
+
+(1) Comparable store status is determined on a monthly basis. Comparable store sales include the revenues of stores that have been
+in operation for more than twelve months. Stores in which selling square footage has changed more than 15% as a result of a
+remodel, expansion, or reduction are excluded until the thirteenth month in which they have comparable prior year sales.
+Temporarily closed stores are excluded from the comparable store sales calculation during the month of closure and in the same
+month in the following year. Location closures in excess of three months are excluded until the thirteenth month post re-opening.
+E-commerce revenues are based on same site sales period over period.
+
+(2) Reflects period over period change on a constant currency basis, which is a non-GAAP financial measure. See “Management’s
+Discussion and Analysis of Financial Condition and Results of Operations—Use of Non-GAAP Financial Measures” for
+additional information.
+
+**_Scaled Global Footprint with Opportunity for Further International Growth._** We have an established
+company-operated retail presence across three continents and distribution in more than 80 countries.
+International revenue represented 42% of total revenues in 2020. We have a strong network of international
+distributors. Our distributor model allows us to expand internationally in a less capital intensive way. In
+2020, we experienced greater than 10.0% year-over-year growth in our owned e-commerce sites across all of
+our geographical regions. In recent years, we have seen the strongest growth in our Americas segment and
+believe there is continued opportunity for significant growth in our EMEA and Asia Pacific segments. In
+2020, Americas segment revenue growth was 34.8%, driven by e-commerce growth, wholesale growth and
+strong retail comparable store sales. Of our 2020 Americas segment revenue, 45% was from wholesale,
+29% was from retail and 26% was from e-commerce. Our performance in the U.S. in particular is the direct
+result of our commitment to driving relevance with the consumer through our iconic products and innovative
+marketing. In 2020, our EMEA segment benefited from strong brand momentum and delivered 29.7%
+DTC comparable sales, accelerating from 13.3% in 2019. In Asia, DTC comparable sales were 9.6% in 2020,
+accelerating from 5.6% in 2019, with the strongest performance in South Korea. We have also built on
+recent momentum and have started to realize the brand’s potential in China, which is the second largest
+footwear market in the world according to Statista. We believe that Crocs is underpenetrated in China as
+sales in China represented less than 5% of 2020 sales. To support international growth, construction began
+in 2020 on a new EMEA distribution center in the Netherlands, which is expected to be fully operational in
+2021, and we completed the relocation of our third-party operated Asia Pacific distribution center within
+Japan.
+
+
+-----
+
+###### FY2020 Revenue by Geography
+
+
+Americas
+62%
+
+
+EMEA
+18%
+
+
+Asia Pacific
+20%
+
+
+**Successful global expansion with international accounting for 42% of total revenue in 2020**
+
+
+**_Authentic, Come As You Are Culture with Commitment to Environmental, Social, and Governance_**
+**_(“ESG”)._** As one of the world’s largest footwear companies, we strive to make a positive impact on the
+global footwear industry and our planet by committing to transparent, socially conscious, and sustainable
+business practices. Through our ESG Program, we expect to continue to advance our sustainable business
+practices with the goal of consistently delivering products that exceed customer and consumer expectations.
+We believe the progress of our ESG efforts is best served by disclosing goals and relevant metrics, and, to this
+end, we are aligning our program with the United Nations Sustainable Development Goals (“SDGs”) and
+the Sustainability Accounting Standards Board (“SASB”) framework for reporting and disclosure in order to
+establish specific goals, targets, and policies to enhance our ESG progress. Given that sustainability is
+increasingly driving consumer purchase decisions, we believe we are in a strong position as we have increased
+our focus on sustainable products and technological innovations such as smart concepts, including
+connected fabrics and material alternatives.
+
+**_Strong Financial Profile with Robust Free Cash Flow Generation._** We have a powerful financial model
+that has produced strong top-line results and significant profitability growth in recent years. From 2018 to
+2020, revenue grew at a CAGR of 12.9%, from $1.1 billion in 2018 to $1.4 billion in 2020, driven by strong
+consumer demand, higher sales volume and average selling price on a constant currency basis (“ASP”),
+coupled with reduced discounts and promotions and favorable product mix. From 2018 to 2020, Adjusted
+EBITDA grew at a CAGR of 58.6% from $115.2 million to $289.6 million. From 2018 to 2020, we significantly
+grew Adjusted EBITDA Margins from 10.6% in 2018 to 20.9% in 2020 through increased brand strength,
+improved gross margins via pricing strategy and channel mix, right-sizing SG&A and continued optimization
+of our store fleet. We have generated strong Free Cash Flow since 2018, driven by strong top-line results
+along with disciplined expense management and reduced working capital. We have maintained strong Free
+Cash Flow through our flexible and variable cost structure model, with a low store base and investments in
+marketing, talent and digital advertising. With respect to capital expenditures, our largest investments
+reside in our distribution centers, which we can leverage with sales growth.
+
+
+###### Free Cash Flow
+**_($ in millions)_**
+
+
+$225
+
+
+$102
+$85
+
+
+$53
+
+
+$18
+
+
+FY2016 FY2017 FY2018 FY2019 FY2020
+
+**Capital Expenditures:**
+
+
+**$22** **$13** **$12** **$37** **$42**
+
+
+-----
+
+For a reconciliation of Adjusted EBITDA to net income, Adjusted EBITDA Margin to net income
+margin and Free Cash Flow to cash provided by operating activities, the most closely comparable GAAP
+financial measures, see “—Summary Historical Consolidated Financial and Other Data.”
+
+**_Best-in-Class Management Team with Deep Industry Knowledge and Expertise._** Our management team
+has an average of more than 15 years of experience in their respective disciplines. Our management team is
+led by Chief Executive Officer Andrew Rees, who has over 25 years of experience in the industry and helped
+lead the transformation of the Crocs brand, after joining Crocs in 2014. Our President, Michelle Poole,
+has nearly 30 years of experience in the footwear industry with iconic brands such as Converse, Timberland
+and Sperry Top-Sider. Anne Mehlman, our Chief Financial Officer, brings over 15 years of financial and
+operational experience, previously serving as the Chief Financial Officer of Zappos.com.
+
+**Our Strategies**
+
+Key components of our business and growth strategies include the following:
+
+**_Expand our Product Line to Drive Revenue Growth._** We have several strategies for product expansion
+in clogs, sandals and Jibbitz™charms to increase sales. First, with respect to our clogs, we plan to innovate
+through new graphics, licensed images, embellishments, and accessories, such as Jibbitz™charms, that allow
+for personalization.
+
+In sandals, we are expanding our offerings as we pursue a greater share of a large market that currently
+has no clear global leader. We believe there is a large share growth opportunity for us in sandals, which
+accounted for approximately 18.0% of our footwear sales in 2020. Recent product introductions have included
+the Classic Slide, Two-Strap Classic Sandal, Brooklyn and Tulum. In addition to these offerings, we plan
+to capitalize on our unique selling proposition for sandals, which is the ability to personalize the Classic Slide
+and Two-Strap Classic Sandal at the point of sale with our Jibbitz™charms.
+
+We believe a key driver of clog and sandal relevance is personalization through our Jibbitz™charms,
+which aligns to the global industry trend of personalization. Jibbitz™enhance the consumer experience by
+providing an outlet for storytelling and heightening our message of “Come As You Are™.” Jibbitz™charms
+are a driver of ASP and overall clog sales, while expanding the originality and uniqueness of the Crocs line
+of products. Based on management’s estimates, customers who purchase Jibbitz™charms have approximately
+twice the customer lifetime value of customers who only purchase clogs, sandals and work shoes.
+
+**_Continue to Utilize Impactful Collaborations and Digital Marketing to Grow Brand Affinity._** Each
+season, we focus on presenting a compelling brand story and experience for our new product introductions
+as well as our celebrity campaigns and collaborations. We employ social and digital marketing centered on
+showcasing our clog and sandal silhouettes and our Jibbitz™charms. We plan to continue to invest in
+designer, celebrity, and brand collaborations, as well as celebrity brand ambassadors to raise consumer
+engagement with our brand. In 2020 and continuing into 2021, our global brand ambassadors include actress
+and activist Priyanka Chopra Jonas, who resonates with the global consumer base, and leading Chinese
+actress Yang Mi, who helped grow brand awareness and brand resonance in China. In 2020, our innovative
+and creative collaborations ranged from global launches with Justin Bieber and Post Malone to more
+regional partnerships like Rare Market in Korea or Liberty London in EMEA. Our collaborations help
+grow brand relevance and fuel brand heat. We plan to leverage regional collaborations to increase brand
+awareness internationally and scale international markets.
+
+In addition, we shifted to an all-digital marketing approach several years ago and we plan to continue
+to leverage increasingly sophisticated digital marketing activities to enhance the consumer experience and
+drive sales, thereby benefiting from the continued migration of consumers to online shopping. Our social and
+digital marketing showcases our unique product assortment and helps create exceptional consumer
+engagement. The Crocs brand has evolved over the past four years, increasing desirability, relevance and
+consideration, with approximately 64% global aided brand awareness as of the end of 2020, according to our
+estimates.
+
+
+-----
+
+**_Grow our Distribution Channels with a Focus on Digital._** From a channel perspective, digital remains
+our top priority. Our digital channel, which includes e-commerce and e-tail, reached 42% of revenues in
+2020, driven by our strategic investment in the channel and growing consumer preference for digital shopping.
+In 2020, we experienced 10.0% year-over-year growth in our owned e-commerce sites across all of our
+geographies. Our e-commerce presence facilitates increased access to our consumers and provides us with
+an opportunity to educate them about our products and brand. We plan to further invest in the channel
+through scaling of technologies and talent, along with supply chain investments. In 2020, we doubled our
+e-commerce distribution capacity in the U.S. Our planned 2021 distribution center investments are intended
+to support our digital-first strategy by increasing e-commerce capacity, which should allow us to better serve
+our online customers.
+
+We also intend to increase sales within our wholesale channel by focusing on e-tail accounts and
+distributors, which we believe present the greatest growth opportunities within this channel. We believe we
+have the opportunity to gain market share with our major wholesale customers, both B&M as well as e-tail,
+particularly as we grow our sandals offerings. We also believe we can significantly grow Jibbitz[TM] in the
+wholesale environment, particularly through multipack packaging, which makes it easier for our wholesale
+partners to display and sell products. We have an opportunity to further grow our international wholesale
+accounts, particularly through our distributor model. Our focus with our distributor partners is to continue
+to elevate the Crocs brand, accelerate personalization and drive digital growth.
+
+Finally, with respect to our retail channel, we do not anticipate significant growth in our footprint. We
+may selectively add stores in markets such as China, where store presence is important for brand awareness,
+and we may also selectively close locations in certain markets. We will also continue to prioritize our
+company-operated outlet stores, our most profitable retail format.
+
+**_Focus on Increasing our International Sales through Brand Building and Digital Acceleration._** Our
+international revenues, which includes revenues from all segments outside of the U.S., accounted for 42% of
+our total revenues in 2020. We believe that our Americas segment has the largest near-term growth
+opportunity followed by our EMEA segment, and that our Asia Pacific segment represents the segment
+with the largest long-term growth potential. Going forward, we intend to concentrate on driving increased
+revenue in each of our EMEA and Asia Pacific segments through brand building, product expansion and
+pricing actions. We plan to build international brand relevance through local collaborations and targeted
+marketing campaigns. Americas brand momentum continues to help grow Crocs relevance in EMEA. We
+have built on that brand heat through local collaborations and positive media, having recently collaborated
+with French DJ, Vladimir Cauchemar. In Asia Pacific, China is a top priority given it is the second largest
+footwear market in the world according to Statista and we believe we are currently underpenetrated in
+China with less than 5% of our total revenues in 2020. We are building brand awareness in China through
+significant marketing investment and our brand ambassador Yang Mi. We are also renovating our store fleet,
+investing in digital and hiring talent. We intend to further accelerate our international growth through our
+focus on digital via our owned e-commerce channel as well as e-tail. Both EMEA and Asia Pacific e-commerce
+channels grew significantly in 2020, with growth of 47.0% and 21.9%, respectively.
+
+
+###### Accelerated Digital Growth in FY2020
+_% Digital Penetration_
+
+
+55%
+
+
+42%
+
+31%
+
+
+39%
+
+
+39% 40%
+
+
+30%
+
+
+28%
+
+
+Americas Asia Pacific EMEA
+
+FY2019 FY2020 FY2019 Global FY2020 Global
+
+
+-----
+
+**Sources and Uses of Funds**
+
+We intend to use the proceeds from this offering to repay up to $180.0 million of outstanding borrowings
+under our Revolving Credit Facility and the remainder, if any, for general corporate purposes, which may
+include working capital, capital expenditures, stock repurchases and acquisitions. Certain of the initial
+purchasers and/or their affiliates are lenders under our Revolving Credit Facility and, as such, they will receive
+a portion of the net proceeds of this offering in connection with such repayment. See “Use of Proceeds,”
+“Capitalization” and “Plan of Distribution—Other Relationships.”
+
+The following table sets forth the estimated sources and uses of funds in connection with this offering.
+The actual sources and uses of funds may vary from the estimated sources and uses of funds set forth below.
+The estimated sources and uses of funds presented below should be read in conjunction with “Use of
+Proceeds” and “Capitalization” included elsewhere in this offering memorandum.
+
+**Sources of Funds** **Uses of Funds**
+
+**($ in thousands)**
+
+Notes offered hereby[(1)] . . . . . . . . . . . . . . . $300.0 Repayment of Revolving Credit Facility[(2)]. . $180.0
+General corporate purposes. . . . . . . . . . . . $114.0
+
+Fees and expenses . . . . . . . . . . . . . . . . . . $ 6.0
+
+Total sources of funds . . . . . . . . . . . . . . . $300.0 Total uses of funds . . . . . . . . . . . . . . . . . . $300.0
+
+(1) Represents the aggregate principal amount of the Notes offered hereby, before deducting initial
+purchaser discounts and the estimated expenses of the offering.
+
+(2) As of December 31, 2020, we had $180.0 million in outstanding borrowings under our Revolving
+Credit Facility, which are due when our Revolving Credit Facility matures in July 2024, and $0.6 million
+in outstanding letters of credit under our Revolving Credit Facility, which reduces amounts available
+for borrowing under our Revolving Credit Facility.
+
+
+-----
+
+**Corporate Structure**
+
+The following chart summarizes our organizational and capital structure as of December 31, 2020.
+This chart is provided for illustrative purposes only and does not represent all legal entities or obligations of
+the Issuer.
+
+**Public Stockholders**
+
+**Crocs, Inc.**
+(the “Issuer”)
+
+**Crocs Malta Ltd** **Jibbitz, LLC** **Crocs Retail, LLC** **Crocs Puerto Rico, Inc.**
+Guarantor(1) Guarantor(1) Guarantor(1) Non-Guarantor(2)
+
+**Crocs Bermuda Ltd.** **Crocs Malta Holdings Ltd**
+Non-Guarantor(2) Guarantor(1)
+
+**Western Brands Netherlands** **Western Brands Holding**
+
+**Non-Guarantor** **Crocs Europe B.V.** **Non-Guarantor**
+
+**Holding C.V.** **Company, LLC**
+
+**Subsidiaries(2)** Guarantor(1) **Subsidiaries(2)**
+
+Guarantor(1) Guarantor(1)
+
+**Non-Guarantor** **Crocs General Partner, LLC** **Colorado Footwear C.V.**
+**Subsidiaries(2)** Guarantor(1) Guarantor(1)
+
+**Non-Guarantor**
+**Subsidiaries(2)**
+
+(1) The Notes offered hereby will be fully and unconditionally guaranteed, jointly and severally, on a senior unsecured basis by each
+of our existing wholly-owned restricted subsidiaries that is a borrower or guarantor under our Revolving Credit Facility and
+by each of our future wholly-owned restricted subsidiaries that is a guarantor of any debt of the Issuer or any guarantor under
+any syndicated credit facility or capital markets debt in an aggregate principal amount in excess of a certain amount.
+
+(2) As of December 31, 2020, on an as adjusted basis after giving effect to the offering of the Notes, but not the use of proceeds
+therefrom, our non-guarantor subsidiaries collectively would have held approximately 30.4% of our consolidated assets and would
+have had approximately $0.0 million of outstanding indebtedness, excluding intercompany obligations. During the year ended
+December 31, 2020, our non-guarantor subsidiaries collectively generated approximately 30.6% of our revenues, and approximately
+10.2% of our Adjusted EBITDA.
+
+**Corporate Information**
+
+Crocs, Inc., a Delaware corporation, is the successor to a Colorado corporation of the same name, and
+was originally organized in 1999 as a limited liability company. Our principal executive offices are located at
+13601 Via Varra, Broomfield, Colorado 80020 and our telephone number is (303) 848-7000. Our website
+address is www.crocs.com. The foregoing website address is provided as an inactive textual reference only. The
+information provided on or accessible through our website (or any other website referred to in this offering
+memorandum) is not part of this offering memorandum and is not incorporated by reference as part of this
+offering memorandum.
+
+
+-----
+
+**The Offering**
+
+The following summary contains basic information about the Notes. It does not contain all the
+information that is important to you in the context of making your investment decision. For a more
+complete understanding of the Notes, please refer to “Description of Notes,” including those subsections to
+which we have referred you to below.
+
+**Issuer . . . . . . . . . . . . . . . . . . .** Crocs, Inc.
+
+**Notes Offered . . . . . . . . . . . . .** $300,000,000 aggregate principal amount of % Senior Notes due
+2029.
+
+**Maturity Date . . . . . . . . . . . . .** The Notes will mature on, 2029.
+
+**Interest . . . . . . . . . . . . . . . . . .** The Notes will bear interest at % per annum, and will be payable
+semi-annually in cash in arrears on and of each
+year, commencing, 2021. Interest on the Notes will accrue
+from, 2021
+
+**Guarantees . . . . . . . . . . . . . . .** The Notes will be fully and unconditionally guaranteed, jointly and
+severally, on a senior unsecured basis by each of our existing whollyowned restricted subsidiaries that is a borrower or guarantor under
+our Revolving Credit Facility and by each of our future wholly-owned
+restricted subsidiaries that is a guarantor of any debt of the Issuer
+or existing guarantors under any syndicated credit facility or capital
+markets debt in an aggregate principal amount in excess of a certain
+amount.
+
+**Ranking . . . . . . . . . . . . . . . . .** The Notes and the Guarantees will be the Issuer’s and the Guarantors’
+senior unsecured obligations and will:
+
+                       - rank senior in right of payment to any of the Issuer’s and the
+Guarantors’ future subordinated indebtedness;
+
+                       - rank pari passu in right of payment with all existing and future
+senior indebtedness of the Issuer and the Guarantors;
+
+                       - be effectively subordinated to all existing and future secured
+indebtedness of the Issuer and the Guarantors, to the extent of
+the value of the assets securing such indebtedness; and
+
+                       - be structurally subordinated in right of payment to all existing
+and future indebtedness, preferred stock and other liabilities
+(including trade payables) of any non-guarantor subsidiaries.
+
+As of December 31, 2020, on an as adjusted basis after giving effect
+to the offering of the Notes, but not the use of proceeds therefrom, the
+Notes would have ranked effectively subordinated to $180.0 million
+of secured indebtedness of the Issuer and the Guarantors outstanding
+under the Revolving Credit Facility (with a further approximately
+$319.4 million available for borrowing under the Revolving Credit
+Facility (including $0.6 million of letters of credit outstanding as of
+such date)). See “Capitalization.”
+
+As of December 31, 2020, on an as adjusted basis after giving effect
+to the offering of the Notes, but not the use of proceeds therefrom, our
+non-guarantor subsidiaries collectively would have held approximately
+30.4% of our consolidated assets and would have had approximately
+$0.0 million of outstanding indebtedness, excluding intercompany
+obligations. During the year ended December 31, 2020, our nonguarantor subsidiaries collectively generated approximately 30.6% of
+our revenues and approximately 10.2% of our Adjusted EBITDA.
+
+
+-----
+
+**Optional Redemption . . . . . . . .** We may redeem some or all of the Notes at any time and from time
+to time at the redemption prices described in this offering
+memorandum, plus accrued and unpaid interest to the redemption
+date. See “Description of Notes—Optional Redemption.”
+
+At any time prior to, 2024, we may redeem some or all of
+the Notes at a price equal to 100% of the principal amount of the
+Notes redeemed, plus accrued and unpaid interest, if any, to, but not
+including, the redemption date, plus a “make-whole” premium, as
+described under “Description of Notes—Optional Redemption.” On
+or after, 2024, we may redeem some or all of the Notes at
+the applicable redemption prices described under “Description of
+Notes—Optional Redemption,”as applicable, plus accrued and unpaid
+interest, if any, to, but not including, the redemption date.
+
+Additionally, at any time prior to, 2024, we may also
+redeem up to 40% of the aggregate principal amount of the Notes at
+the applicable redemption price set forth in this offering memorandum
+with an amount equal to or less than the net cash proceeds from
+certain equity offerings, plus accrued and unpaid interest, if any, to,
+but not including, the redemption date.
+
+**Change of Control Offer . . . . . .** If we experience a Change of Control Triggering Event, we must
+offer to repurchase the Notes then outstanding at a redemption price
+equal to 101% of the principal amount thereof plus any accrued
+and unpaid interest to, but not including, the repurchase date. See
+“Description of Notes—Repurchase of Notes Upon a Change of
+Control Triggering Event” and “Risk Factors—Risks Relating to the
+Notes and Our Indebtedness—We may not be able to finance a
+change of control offer or asset sale offer required by the Indenture.”
+
+**Certain Covenants . . . . . . . . . .** The Notes will be issued under an indenture (the “Indenture”)
+among the Issuer, the Guarantors and U.S. Bank National Association,
+as trustee (the “Trustee”). The Indenture will, among other things,
+restrict the Issuer’s and its restricted subsidiaries’ ability to:
+
+                       - incur additional debt or issue certain preferred shares;
+
+                       - incur liens;
+
+                       - make certain distributions, investments and other restricted
+payments;
+
+                       - engage in certain transactions with affiliates; and
+
+                       - merge or consolidate or sell, transfer, lease or otherwise dispose
+of all or substantially all of our assets.
+
+These covenants are subject to important exceptions and qualifications,
+which are described under “Description of Notes—Certain
+Covenants.” In addition, many of these covenants will be suspended
+with respect to the Notes during any time that the Notes have
+investment grade ratings from both rating agencies and no default
+with respect to the Notes has occurred and is continuing. See
+“Description of Notes—Certain Covenants.”
+
+**No Registration Rights . . . . . . .** We do not intend to file a registration statement for the resale of any
+of the Notes. As a result, you may resell your Notes only pursuant to
+an exemption from the registration requirements of the Securities
+Act and other applicable state and foreign securities laws. See “Transfer
+Restrictions.”
+
+
+-----
+
+**Transfer Restrictions . . . . . . . . .** The Notes and the Guarantees have not been, nor do we intend that
+the Notes and the Guarantees will be, registered under the Securities
+Act or the securities laws of any other jurisdiction. The Notes may
+only be offered and sold in transactions that are exempt from the
+registration requirements under the Securities Act and the securities
+laws of any other applicable jurisdiction. We are offering the Notes
+to persons reasonably believed to be QIBs as defined in and pursuant
+to Rule 144A under the Securities Act and to non-U.S. persons
+outside of the United States in compliance with Regulation S under
+the Securities Act. Accordingly, the Notes will be subject to certain
+restrictions on transfer, and each purchaser of the Notes will be
+deemed to have made certain acknowledgments, representations,
+warranties and agreements. See “Transfer Restrictions” and “Plan of
+Distribution” for additional information about eligible offerees and
+transfer restrictions.
+
+**Absence of a Public Market for**
+**the Notes . . . . . . . . . . . . . . .** The Notes will be new securities and there is currently no existing
+market for any of the Notes. The Notes will not be listed on any
+securities exchange. Certain of the initial purchasers have advised us
+that they intend to make a market in the Notes, but they are not
+obligated to do so, and may discontinue market-making at any time
+without notice. Accordingly, we cannot assure you as to the
+development or liquidity of any market for any of the Notes. See
+“Plan of Distribution.”
+
+**Use of Proceeds . . . . . . . . . . . .** We intend to use the net proceeds of this offering to repay up to
+$180.0 million of outstanding borrowings under our Revolving Credit
+Facility and the remainder, if any, for general corporate purposes,
+which may include working capital, capital expenditures stock
+repurchases and acquisitions. Certain of the initial purchasers and/or
+their affiliates are lenders under our Revolving Credit Facility and,
+as such, they will receive a portion of the net proceeds of this offering
+in connection with such repayment. See “Use of Proceeds,”
+“Capitalization” and “Plan of Distribution—Other Relationships.”
+
+**Minimum Denominations** . . . . . $2,000 and integral multiples of $1,000 in excess thereof.
+
+**Further Issuances . . . . . . . . . . .** We may from time to time, without notice to or the consent of the
+registered holders of the Notes, create and issue additional Notes
+having the same terms as, and ranking equally and ratably with, any of
+the outstanding Notes in all respects, provided that additional Notes
+will not be issued with the same CUSIP as the outstanding Notes unless
+such additional Notes would be fungible with the outstanding Notes
+for U.S. federal income tax purposes. See “Description of Notes—
+Principal, Maturity and Interest.”
+
+**Governing Law . . . . . . . . . . . . .** The laws of the State of New York will govern the Notes, the
+Indenture and the other documents for the offering of the Notes.
+
+**Trustee, Registrar, Paying Agent**
+**and Transfer Agent . . . . . . . .** U.S. Bank National Association
+
+**Tax Consequences . . . . . . . . . .** For a discussion of certain U.S. federal income and estate tax
+considerations, see “Certain U.S. Federal Income Tax Considerations.”
+
+**Risk Factors . . . . . . . . . . . . . .** Investing in the Notes involves risks. You should carefully consider
+the information set forth in “Risk Factors” and the other information
+included or incorporated by reference in this offering memorandum
+before purchasing any Notes.
+
+
+-----
+
+**Summary Historical Consolidated Financial and Other Data**
+
+The following tables set forth our summary historical consolidated financial and other data as of the
+dates and for the periods indicated. The summary historical consolidated financial and other data as of and
+for the years ended December 31, 2020, 2019 and 2018 have been derived from our audited consolidated
+financial statements and the related notes thereto, which are included elsewhere in this offering memorandum.
+
+Historical results are not necessarily indicative of the results that may be expected in any future period.
+The following information should be read in conjunction with the (i) sections in this offering memorandum
+entitled “Capitalization” and “Management’s Discussion and Analysis of Financial Condition and Results
+of Operations” and our audited consolidated financial statements and the related notes thereto included
+elsewhere in this offering memorandum and (ii) section entitled “Selected Financial Data” included in our
+Annual Report on Form 10-K for the year ended December 31, 2020, which is incorporated by reference
+herein. See “Incorporation by Reference.”
+
+**Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2018**
+
+**Statements of Operations Data**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 $1,088,205
+
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 636,003 613,537 528,051
+
+Gross profit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 749,948 617,056 560,154
+
+_Gross margin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ._ _54.1%_ _50.1%_ _51.5%_
+
+Selling, general and administrative expenses . . . . . . . . . . . . . . . . 514,753 488,407 495,028
+
+_Selling, general and administrative expenses as a % of revenues . . . ._ _37.1%_ _39.7%_ _45.5%_
+
+Asset impairments[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,071 — 2,182
+
+Income from operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 214,124 $ 128,649 $ 62,944
+
+Income before income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 206,979 $ 119,322 $ 65,157
+
+Income tax (benefit) expense[(2)] . . . . . . . . . . . . . . . . . . . . . . . . . (105,882) (175) 14,720
+
+Net income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 312,861 119,497 50,437
+
+Dividends on Series A convertible preferred stock[(3)] . . . . . . . . . . . — — (108,224)
+
+Dividend equivalents on Series A convertible preferred stock
+related to redemption value accretion and beneficial conversion
+feature[(3)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — — (11,429)
+
+Net income (loss) attributable to common stockholders . . . . . . . . $ 312,861 $ 119,497 $ (69,216)
+
+**Statements of Cash Flows Data**
+
+Cash provided by operating activities . . . . . . . . . . . . . . . . . . . . . $ 266,902 $ 89,958 $ 114,162
+
+Cash used in investing activities . . . . . . . . . . . . . . . . . . . . . . . . . (41,762) (36,236) (10,110)
+Cash used in financing activities[(4)] . . . . . . . . . . . . . . . . . . . . . . . (198,038) (68,638) (148,802)
+
+**As of December 31,**
+
+**(in thousands)** **2020** **2019** **2018**
+
+**Balance Sheets Data**
+
+Cash and cash equivalents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 135,802 $108,253 $123,367
+
+Inventories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175,121 172,028 124,491
+Working capital[(5)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 201,257 168,159 195,807
+
+Total assets[(5)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,118,723 738,802 468,901
+Long-term liabilities[(5)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 536,506 349,674 134,102
+Total stockholders’ equity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290,633 131,905 150,308
+
+
+-----
+
+**Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2018**
+
+**Other Financial Data (unaudited)**
+Adjusted EBITDA[(6)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $289,562 $165,926 $115,181
+Cash interest expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ (6,658) $ (7,519) $ (462)
+Purchases of property, equipment, and software . . . . . . . . . . . . . . . . . $ (42,033) $ (36,576) $ (11,979)
+
+**As of December 31, 2020**
+
+**(in thousands)** **Actual** **As Adjusted[(9)]**
+
+**Other Financial Data (unaudited)**
+
+Total secured debt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $180,000 $ —
+Total debt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $180,000 $300,000
+Ratio of total secured debt to Adjusted EBITDA[(6)] . . . . . . . . . . . . . . . . . . . . . . 0.6x —
+Ratio of net total secured debt to Adjusted EBITDA[(6)(7)] . . . . . . . . . . . . . . . . . . 0.2x —
+Ratio of total debt to Adjusted EBITDA[(6)]. . . . . . . . . . . . . . . . . . . . . . . . . . . . 0.6x 1.0x
+
+Ratio of net total debt to Adjusted EBITDA[(6)(7)]. . . . . . . . . . . . . . . . . . . . . . . . 0.2x 0.2x
+
+Consolidated Fixed Charges Coverage Ratio[(8)] . . . . . . . . . . . . . . . . . . . . . . . . . 42.9x
+
+(1) Asset impairments consist of impairments to long-lived assets for retail locations in all years, as well as a $1.1 million write-off
+for our former corporate headquarters in 2020 and a $1.3 million write-off of supply chain assets in 2018.
+
+(2) In the three months ended December 31, 2020, we completed an intra-entity transfer of certain intellectual property rights,
+primarily to align with current and future international operations. The transfer resulted in a step-up in tax basis of intellectual
+property rights and a correlated increase in foreign deferred tax assets based on the fair value of the transferred intellectual property
+rights. As a result, we recognized a tax benefit of $127.7 million for the year ended December 31, 2020.
+
+(3) On December 5, 2018, all issued and outstanding shares of Series A Convertible Preferred Stock (the “Series A Preferred”) were
+repurchased in exchange for cash or converted to common stock. As a result, amounts reported for the year ended December 31,
+2018 include amounts resulting from the repurchase and conversion, in addition to payments made to induce conversion and
+accretion of dividend equivalents prior to December 5, 2018.
+
+(4) Cash used in financing activities for the year ended December 31, 2018 reflects the impacts of $183.7 million used to repurchase
+Series A Preferred in 2018 and $120.0 million of borrowings. Cash used in financing activities also includes approximately
+$170.8 million, $147.2 million and $63.1 million, including commissions, used to repurchase shares of our common stock during
+2020, 2019 and 2018, respectively.
+
+(5) Prior year amounts have not been recast to reflect adoption of revenue recognition guidance as of January 1, 2018, which
+impacts ‘Total Assets,’ or adoption of new lease guidance as of January 1, 2019, which impacts ‘Working capital’, ‘Total assets’,
+and ‘Long-term liabilities.’
+
+(6) We define EBITDA as net income (loss) before interest expense, interest income, income tax expense benefit and depreciation
+and amortization.
+
+We define EBITDA Margin as EBITDA divided by revenues.
+
+We define Adjusted EBITDA as EBITDA, as further adjusted for the Cost of Sales Adjustments (as defined below) and the
+Selling, General and Administrative Expenses Adjustments (each as defined below).
+
+We define Adjusted EBITDA Margin as Adjusted EBITDA divided by revenues.
+
+We define Free Cash Flow as cash provided by operating activities, less purchases of property, equipment, and software.
+
+We define Adjusted Cost of Sales as cost of sales, as adjusted for (i) new distribution centers expenses, (ii) COVID-19 inventory
+write-off, and (iii) other expenses (collectively, the “Cost of Sales Adjustments”).
+
+We define Adjusted Gross Profit as revenue, less Adjusted Cost of Sales.
+
+We define Adjusted Gross Margin as Adjusted Gross Profit divided by revenues.
+
+We define Adjusted Selling, General and Administrative Expenses as selling, general and administrative expenses, as adjusted for
+(i) donations of inventory, (ii) COVID-19 severance costs, (iii) COVID-19 impact of bad debt expense, (iv) other COVID-19
+costs, (v) acceleration depreciation of assets, (vi) asset impairments, (vii) duplicate headquarters rent, (viii) non-recurring expenses
+associated with cost reduction initiatives, (ix) offering fees, (x) closure of manufacturing and distribution facilities and (xi) other
+expenses (collectively, the “Selling, General and Administrative Expenses Adjustments”).
+
+
+-----
+
+We define Adjusted Income from Operations as income from operations, as adjusted for the Cost of Sales Adjustments and the
+Selling, General and Administrative Expenses Adjustments.
+
+We define Adjusted Operating Margin as Adjusted Income from Operations divided by revenues.
+
+We believe that the Non-GAAP Financial Measures presented in this offering memorandum can provide useful information to
+investors and others in understanding and evaluating our operating results. These measures are not financial measures calculated
+in accordance with GAAP and should not be considered as a substitute for net income (loss), net income (loss) margin, cash
+provided by operating activities, cost of sales, gross profit, gross margin, income from operations, and operating margin, as
+applicable, or any other operating performance measure calculated in accordance with GAAP and may not be comparable to a
+similarly titled measure reported by other companies.
+
+We believe that the presentation of the Non-GAAP Financial Measures provides useful information to investors regarding our
+results of operations because they assist both investors and management in analyzing and benchmarking the performance and
+value of our business.
+
+The Non-GAAP Financial Measures provide indicators of performance that are not affected by fluctuations in certain costs or
+other items. Accordingly, management believes that the Non-GAAP Financial Measures are useful for comparing general operating
+performance from period to period, and management relies on the Non-GAAP Financial Measures for planning and forecasting
+of future periods. Additionally, the Non-GAAP Financial Measures allow management to compare our results with those of
+other companies that have different financing and capital structures. However, other companies may define the Non-GAAP
+Financial Measures differently, and as a result, our definitions of the Non-GAAP Financial Measures may not be directly
+comparable to those of other companies.
+
+The non-GAAP information presented above and elsewhere in this offering memorandum should be read in conjunction with
+our audited consolidated financial statements and the related notes thereto included elsewhere in this offering memorandum.
+
+The following is a reconciliation of EBITDA to net income (loss), EBITDA Margin to net income (loss) margin, Adjusted EBITDA
+to net income, Adjusted EBITDA Margin to net income margin, Free Cash Flow to cash provided by operating activities,
+Adjusted Cost of Sales to cost of sales, Adjusted Gross Profit to gross profit, Adjusted Gross Margin to gross margin, Adjusted
+Selling, General and Administrative Expenses to selling, general and administrative expenses, Adjusted Income from Operations to
+income from operations, and Adjusted Operating Margin to operating margin, respectively:
+
+**_Reconciliation of EBITDA to Net Income (Loss) and EBITDA Margin to Net Income (Loss) Margin_**
+
+**Year Ended**
+**December 31,**
+
+**(in thousands)** **2017** **2016**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,023,513 $1,036,273
+
+Net income (loss) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10,238 (16,494)
+
+Interest expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 869 836
+
+Interest income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (870) (692)
+
+Income tax expense (benefit) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7,942 9,281
+
+Depreciation and amortization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33,130 34,043
+
+EBITDA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 51,309 $ 26,974
+
+Net income (loss) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 10,238 $ (16,494)
+
+Net income (loss) margin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1.0% (1.6)%
+
+EBITDA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 51,309 $ 26,974
+
+EBITDA margin . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5.0% 2.6%
+
+
+-----
+
+**_Reconciliation of Adjusted EBITDA to Net Income and Adjusted EBITDA Margin to Net Income Margin_**
+
+**Three Months Ended December 31,** **Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2020** **2019** **2018**
+
+Revenues . . . . . . . . . . . . . . . . . . $ 411,506 $262,979 $1,385,951 $1,230,593 $1,088,205
+
+Net income . . . . . . . . . . . . . . . . . $ 183,330 $ 19,913 $ 312,861 $ 119,497 $ 50,437
+
+Interest expense . . . . . . . . . . . . . . 1,149 1,893 6,742 8,636 955
+
+Interest income . . . . . . . . . . . . . . . (26) (108) (215) (601) (1,281)
+
+Income tax expense (benefit) . . . . . . . (119,907) (13,693) (105,882) (175) 14,720
+
+Depreciation and amortization . . . . . . 7,368 6,705 27,619 24,213 29,250
+
+Cost of Sales Adjustments[(a)] . . . . . . . 1,550 3,329 6,701 11,485 —
+
+Selling, General and Administrative
+Expenses Adjustments[(b)] . . . . . . . . 20,850 1,173 41,736 2,871 21,100
+
+Adjusted EBITDA . . . . . . . . . . . . . $ 94,314 $ 19,212 $ 289,562 $ 165,926 $ 115,181
+
+Net income . . . . . . . . . . . . . . . . . $ 183,330 $ 19,913 $ 312,861 $ 119,497 $ 50,437
+
+Net income margin . . . . . . . . . . . . . 44.6% 7.6% 22.6% 9.7% 4.6%
+
+Adjusted EBITDA . . . . . . . . . . . . . $ 94,314 $ 19,212 $ 289,562 $ 165,926 $ 115,181
+
+Adjusted EBITDA Margin . . . . . . . . 22.9% 7.3% 20.9% 13.5% 10.6%
+
+(a) See “—Reconciliation of Adjusted Cost of Sales to Cost of Sales, Adjusted Gross Profit to Gross Profit and Adjusted
+Gross Margin to Gross Margin” for more details.
+
+(b) See “—Reconciliation of Selling, General and Administrative Expenses to Selling, General and Administrative Expenses”
+for more details.
+
+**_Reconciliation of Free Cash Flow to Cash Provided by Operating Activities_**
+
+**Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2018** **2017** **2016**
+
+Cash provided by operating activities . . . . . . . . . . . . . . $266,902 $ 89,958 $114,162 $ 98,264 $ 39,754
+
+Purchases of property, equipment, and software . . . . . . (42,033) (36,576) (11,979) (13,117) (22,194)
+
+Free cash flow . . . . . . . . . . . . . . . . . . . . . . . . . . . $224,869 $ 53,382 $102,183 $ 85,147 $ 17,560
+
+**_Reconciliation of Adjusted Cost of Sales to Cost of Sales, Adjusted Gross Profit to Gross Profit and Adjusted Gross Margin to_**
+**_Gross Margin_**
+
+**Three Months**
+**Ended**
+**December 31,** **Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2020** **2019** **2018**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . $411,506 $262,979 $1,385,951 $1,230,593 $1,088,205
+
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . $182,422 $136,741 $ 636,003 $ 613,537 $ 528,051
+
+New distribution centers[(a)] . . . . . . . . . . . . . . . (1,550) (3,413) (4,186) (11,394) —
+
+COVID-19 inventory write-off[(b)] . . . . . . . . . . . — — (2,396) — —
+
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . — 84 (119) (91) —
+
+Total adjustments . . . . . . . . . . . . . . . . . . (1,550) (3,329) (6,701) (11,485) —
+
+Adjusted Cost of Sales . . . . . . . . . . . . . . $180,872 $133,412 $ 629,302 $ 602,052 $ 528,051
+
+Gross Profit . . . . . . . . . . . . . . . . . . . . . . . . $229,084 $126,238 $ 749,948 $ 617,056 $ 560,154
+
+Gross Margin . . . . . . . . . . . . . . . . . . . . . . 55.7% 48.0% 54.1% 50.1% 51.5%
+
+Adjusted Gross Profit . . . . . . . . . . . . . . . . . . . $230,634 $129,567 $ 756,649 $ 628,541 $ 560,154
+
+Adjusted Gross Margin . . . . . . . . . . . . . . . . 56.0% 49.3% 54.6% 51.1% 51.5%
+
+(a) Represents expenses, including expansion costs, related to our distribution centers in Dayton, Ohio and Dordrecht, the
+Netherlands and initial costs for our new third-party operated distribution center in Chiba, Japan.
+
+(b) Represents an inventory write-off in our Asia Pacific segment associated with the impact of COVID-19.
+
+
+-----
+
+**_Reconciliation of Adjusted Selling, General and Administrative Expenses to Selling, General and Administrative Expenses_**
+
+**Three Months**
+**Ended**
+**December 31,** **Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2020** **2019** **2018**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . $411,506 $262,979 $1,385,951 $1,230,593 $1,088,205
+
+Selling, general and administrative expenses . . . . . . . . . $164,453 $117,882 $ 535,824 $ 488,407 $ 497,210
+
+Donations of inventory . . . . . . . . . . . . . . . . . . . . 70 — (9,900) — —
+
+COVID-19 severance costs . . . . . . . . . . . . . . . . . . — — (2,403) — —
+
+COVID-19 impact of bad debt expense[(a)] . . . . . . . . . . 315 — (4,118) — —
+
+Other COVID-19 costs[(b)] . . . . . . . . . . . . . . . . . . . (18) — (845) — —
+
+Accelerated depreciation of assets[(c)] . . . . . . . . . . . . . — — — — (1,306)
+
+Asset impairments[(d)] . . . . . . . . . . . . . . . . . . . . . . (21,071) — (21,071) — —
+
+Duplicate headquarters rent[(e)] . . . . . . . . . . . . . . . . (154) — (1,274) — —
+
+Non-recurring expenses associated with cost reduction
+initiatives[(f)] . . . . . . . . . . . . . . . . . . . . . . . . . . — (584) — (2,282) (6,082)
+
+Offering fees[(g)] . . . . . . . . . . . . . . . . . . . . . . . . . — (589) — (589) —
+
+Closure of manufacturing and distribution facilities[(h)] . . . — — — — (13,712)
+
+Other[(i)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 — (2,125) — —
+
+Total adjustments . . . . . . . . . . . . . . . . . . . . . . . (20,850) (1,173) (41,736) (2,871) (21,100)
+
+Adjusted Selling, General and Administrative Expenses[(j)] . $143,603 $116,709 $ 494,088 $ 485,536 $ 476,110
+
+(a) Represents bad debt expense associated with the impact of COVID-19 on wholesale partners in our Asia Pacific and
+Americas segments.
+
+(b) Represents costs incurred in response to the COVID-19, including hazard pay, cleaning costs, and legal costs.
+
+(c) Represents non-recurring expenses related to the relocation of the Crocs corporate headquarters in June 2020.
+
+(d) Represents impairments to our long-lived assets for a retail store in New York City and for our former corporate
+headquarters in Niwot, Colorado.
+
+(e) Represents ongoing duplicate rent costs associated with our move to our new headquarters in Broomfield, Colorado, while
+we conclude the lease for our former headquarters
+
+(f) Represents non-recurring expenses associated with cost reduction initiatives in 2019 and our selling, general and
+administrative expenses reduction plan in 2018.
+
+(g) Represents fees associated with the November 4, 2019 underwritten public offering, in which certain investment funds
+affiliated with The Blackstone Group Inc. sold 6.9 million shares of our stock to Morgan Stanley & Co. LLC. We did not
+receive any proceeds from this sale.
+
+(h) Represents non-recurring expenses associated with the 2018 closures of Mexico and Italy manufacturing and distribution
+facilities.
+
+(i) Represents non-recoverable duties, non-recurring costs related to the closure of company-owned retail stores in Australia,
+employee severance costs, and various other immaterial items.
+
+(j) Adjusted Selling, General and Administrative Expenses are presented gross of tax.
+
+
+-----
+
+**_Reconciliation of Adjusted Income from Operations to Income from Operations and Adjusted Operating Margin to Operating_**
+**_Margin_**
+
+**Three Months Ended December 31,** **Year Ended December 31,**
+
+**(in thousands)** **2020** **2019** **2020** **2019** **2018**
+
+Revenues . . . . . . . . . . . . . . . . . . . . $411,506 $262,979 $1,385,951 $1,230,593 $1,088,205
+
+Income from operations . . . . . . . . . . . . $ 64,631 $ 8,356 $ 214,124 $ 128,649 $ 62,944
+
+Cost of Sales Adjustments[(a)] . . . . . . . . 1,550 3,329 6,701 11,485 —
+
+Selling, General and Administrative
+Expenses Adjustments[(b)] . . . . . . . . . 20,850 1,173 41,736 2,871 21,100
+
+Adjusted Income from Operations . . . $ 87,031 $ 12,858 $ 262,561 $ 143,005 $ 84,044
+
+Operating Margin . . . . . . . . . . . . . . . 15.7% 3.2% 15.4% 10.5% 5.8%
+
+Adjusted Operating Margin . . . . . . . . . . 21.1% 4.9% 18.9% 11.6% 7.7%
+
+(a) See “—Reconciliation of Adjusted Cost of Sales to Cost of Sales, Adjusted Gross Profit to Gross Profit and Adjusted
+Gross Margin to Gross Margin” for more details.
+
+(b) See “—Reconciliation of Selling, General and Administrative Expenses to Selling, General and Administrative Expenses”
+for more details.
+
+(7) Net total secured debt and net total debt is total secured debt or total debt, in each case, net of cash and cash equivalents.
+
+(8) See “Description of Notes” for the definition of “Consolidated Fixed Charges Coverage Ratio.”
+
+(9) On an as adjusted basis gives effect to this offering and the anticipated use of the net proceeds from this offering as described
+under “Use of Proceeds.” See also “Capitalization.”
+
+
+-----
+
+**RISK FACTORS**
+
+_This offering involves risks. In addition to the other information contained in this offering memorandum,_
+_you should carefully consider the risks described below and in the section entitled “Risk Factors” in our Annual_
+_Report on Form 10-K for the year ended December 31, 2020, which is incorporated by reference herein, before_
+_making an investment decision. The risks described below and incorporated by reference herein are not the only_
+_ones facing us. If any of the matters described below were to occur, our business, properties, assets, financial_
+_condition, results of operations, cash flows or prospects could be materially adversely affected. Additional risks_
+_and uncertainties not currently known to us or that we currently deem immaterial may also adversely affect_
+_our business and operations._
+
+**Risks Related to our Business**
+
+**_See Part I—Item 1A. Risk Factors of our Annual Report on Form 10-K for the year ended December 31,_**
+**_2020, which is incorporated by reference herein, for risks related to our business and operations._**
+
+**Risks Related to the Notes and our Indebtedness**
+
+**_The Notes will be unsecured and will be effectively subordinated to our secured indebtedness to the extent of_**
+**_the value of the collateral securing such secured indebtedness._**
+
+Our obligations under the Notes will be unsecured and will be effectively subordinated to our secured
+indebtedness, including the indebtedness under the Revolving Credit Facility, to the extent of the value of
+the collateral securing such secured indebtedness. Borrowings under our Revolving Credit Facility are secured
+by all of the assets of the Borrowers (as defined herein, including certain foreign subsidiaries that will not
+guarantee the Notes), including us, and guaranteed by certain other subsidiaries of the Borrowers. As of
+December 31, 2020, we had approximately $180.0 million outstanding under the Revolving Credit Facility,
+with total borrowing capacity of approximately $319.4 million thereunder (including $0.6 million of
+letters of credit outstanding as of such date), all of which would be secured indebtedness.
+
+If a default or an event of default occurs under the Credit Agreement (as defined herein), the holders
+of such secured indebtedness will have a prior right to our secured assets, to the exclusion of the holders of
+the Notes, even if we are in default with respect to the Notes. In that event, our secured assets would first be
+used to repay in full all indebtedness and other obligations secured by them (including all amounts
+outstanding under the Revolving Credit Facility), resulting in all or a portion of our assets being unavailable
+to satisfy the claims of the holders of the Notes and other unsecured indebtedness. Therefore, in the event
+of any distribution or payment of our assets in any foreclosure, dissolution, winding-up, liquidation,
+reorganization or other bankruptcy proceeding, holders of the Notes will participate in our remaining
+assets ratably with each other and with all of the holders of our other unsecured indebtedness that is deemed
+to be of the same class as the Notes, and potentially with all of our other general unsecured creditors,
+based upon the respective amounts owed to each holder or creditor. In any of the foregoing events, we cannot
+assure you that there will be sufficient assets to pay amounts due on the Notes. As a result, holders of the
+Notes may receive less, ratably, than holders of secured indebtedness. In addition, the Indenture will permit
+us to incur additional secured indebtedness, which could be substantial.
+
+**_Our indebtedness could adversely affect our business, financial condition and results of operations, as well as_**
+**_the ability to meet payment obligations under the Notes._**
+
+As of December 31, 2020, after giving effect to this offering of the Notes and the related use of
+proceeds, we would have had $300.0 million in total indebtedness outstanding, $0.0 million of which would
+have been senior secured indebtedness. Subject to the limits contained in the Credit Agreement, the
+Indenture and the applicable agreements governing our other existing indebtedness, we may be able to incur
+substantial additional debt from time to time. If we do so, the risks related to our level of debt could
+increase. Specifically, our level of debt could have important consequences, including the following:
+
+   - making it more difficult for us to meet our obligations with respect to our debt, including the Notes;
+
+   - reducing the availability of cash flow to fund future working capital, capital expenditures,
+acquisitions or other general corporate purposes;
+
+
+-----
+
+   - limiting our ability to obtain additional financing to fund future working capital, capital
+expenditures, acquisitions or other general corporate purposes;
+
+   - requiring a substantial portion of our cash flows to be dedicated to debt service payments instead
+of other purposes, thereby reducing the amount of cash flows available for working capital, capital
+expenditures, acquisitions or other general corporate purposes;
+
+   - increasing our vulnerability to general adverse economic and industry conditions;
+
+   - exposing us to the risk of increased interest rates as certain of our borrowings are at variable rates
+of interest;
+
+   - placing us at a disadvantage compared to other, less leveraged competitors;
+
+   - increasing our cost of borrowing; and
+
+   - limiting our flexibility in planning for changes in our business and reacting to changes in the
+industry in which we compete.
+
+Any of these factors could have an adverse effect on our business, financial condition and results of
+operations and our ability to meet our payment obligations under the Notes.
+
+**_Despite our current level of indebtedness, we may be able to incur substantially more debt, which could increase_**
+**_the risks to our financial condition described above._**
+
+We may be able to incur substantial additional indebtedness in the future. Although certain of the
+agreements governing our existing indebtedness, including the Indenture, contain restrictions on the
+incurrence of additional indebtedness and entering into certain types of other transactions, these restrictions
+are subject to a number of qualifications and exceptions. See “Description of Notes—Certain Covenants.”
+Additional indebtedness incurred in compliance with these restrictions could be substantial. In addition, the
+Indenture will allow us to issue additional Notes under certain circumstances. See “Description of Notes—
+Principal, Maturity and Interest.” To the extent new debt is added to our current debt levels, the substantial
+leverage risks described in the immediately preceding risk factor would increase.
+
+Furthermore, if we incur secured indebtedness and such secured indebtedness is either accelerated or
+becomes subject to a bankruptcy, liquidation or reorganization, our assets and the assets of any guarantors
+thereunder would be used to satisfy obligations with respect to the indebtedness secured thereby before
+any payment could be made on the Notes. Subject to certain limitations, the Indenture also does not restrict
+our non-guarantor subsidiaries from incurring additional debt, which debt would be structurally senior to
+the Notes. In addition, the Indenture will not prevent us and our subsidiaries from incurring other liabilities
+that do not constitute indebtedness.
+
+As of December 31, 2020, we had approximately $180.0 million outstanding under the Revolving
+Credit Facility, with total borrowing capacity of approximately $319.4 million thereunder (including
+$0.6 million of letters of credit outstanding as of such date), all of which would be secured indebtedness.
+
+**_Claims of holders of the Notes will be structurally subordinated to claims of creditors of certain of our_**
+**_subsidiaries that will not guarantee the Notes._**
+
+Not all of our existing and future subsidiaries will guarantee the Notes. On the issue date, only our whollyowned restricted subsidiaries that is a borrower or guarantor under our Revolving Credit Facility will initially
+guarantee the Notes. In the future, each of our wholly-owned restricted subsidiaries that is a guarantor
+under any syndicated credit facility or capital markets debt of the Issuer or any guarantor in an aggregate
+principal amount in excess of a certain amount will guarantee the Notes, subject to certain exceptions.
+
+Claims of holders of the Notes will be structurally subordinated to the claims of creditors of these nonguarantor subsidiaries and will not be satisfied from the assets of these non-guarantor subsidiaries until their
+creditors are paid in full. As of December 31, 2020, on an as adjusted basis after giving effect to the
+offering of the Notes, but not the use of proceeds therefrom, the Notes would have ranked effectively
+subordinated to $180.0 million of secured indebtedness of the Issuer and the Guarantors outstanding under
+the Revolving Credit Facility (with a further approximately $319.4 million available for borrowing under
+
+
+-----
+
+the Revolving Credit Facility (including $0.6 million of letters of credit outstanding as of such date). See
+“Capitalization.” As of December 31, 2020, on an as adjusted basis after giving effect to the offering of the
+Notes, but not the use of proceeds therefrom, our non-guarantor subsidiaries collectively would have held
+approximately 30.4% of our consolidated assets and would have had approximately $0.0 million of
+outstanding indebtedness, excluding intercompany obligations. During the year ended December 31, 2020,
+our non-guarantor subsidiaries collectively generated approximately 30.6% of our revenues and approximately
+10.2% of our Adjusted EBITDA.
+
+In addition, the Guarantee of certain Guarantors will be released in connection with a transfer of such
+Guarantor in a transaction not prohibited by the Indenture or upon certain other events described in
+“Description of Notes—Note Guarantees.” The Indenture will permit these non-guarantor subsidiaries to
+incur certain additional debt and will not limit their ability to incur other liabilities that are not considered
+indebtedness thereunder.
+
+**_Our variable rate indebtedness subjects us to interest rate risk, which could cause our indebtedness service_**
+**_obligations to increase significantly._**
+
+Interest rates may increase in the future. As a result, interest rates on variable rate debt could be higher
+or lower than current levels. As of December 31, 2020, all of our outstanding debt had variable interest rates.
+If interest rates increase, our debt service obligations on the variable rate indebtedness would increase even
+though the amount borrowed remained the same, and our net income and cash flows, including cash available
+for servicing our indebtedness, would correspondingly decrease.
+
+In addition, certain of our variable rate indebtedness, including our Revolving Credit Facility, use
+LIBOR as a benchmark for establishing the rate of interest. LIBOR is the subject of recent national,
+international and other regulatory guidance and proposals for reform. These reforms and other pressures
+may cause LIBOR to be replaced with a new benchmark or to perform differently than in the past. The
+consequences of these developments cannot be entirely predicted, but could include an increase in the cost of
+our variable rate indebtedness.
+
+**_Our ability to service our debt depends on our future performance, which may not generate cash required to_**
+**_service our debt._**
+
+Our ability to make scheduled payments on the Notes will depend on our future operating and
+financial performance and ability to generate cash. This will be affected by our ability to implement our
+business strategy, as well as by general economic, financial, competitive, regulatory, technical and other
+factors beyond our control. If we cannot generate sufficient cash to meet our debt service obligations or fund
+our other business needs, we may, among other things, need to refinance all or a portion of our obligations,
+including the Notes, obtain additional financing, delay planned acquisitions or capital expenditures, or
+sell assets. We cannot assure you that sufficient cash will be generated through any of the foregoing. If we
+are not able to refinance any of our debt, obtain additional financing or sell assets on commercially reasonable
+terms or at all, we may not be able to satisfy our obligations with respect to our debt, including the Notes.
+
+**_The Indenture will impose, and the Credit Agreement imposes, significant operating and financial restrictions on_**
+**_us and our restricted subsidiaries, which may prevent us from capitalizing on business opportunities._**
+
+The Indenture will impose, and the Credit Agreement imposes, significant operating and financial
+restrictions on us. These restrictions in the Indenture will limit the ability of us and our restricted subsidiaries
+to, among other things:
+
+   - incur or guarantee additional debt or issue disqualified stock or preferred stock;
+
+   - pay dividends and make other distributions on, or redeem or repurchase, capital stock;
+
+   - make certain investments;
+
+   - incur certain liens;
+
+   - enter into transactions with affiliates;
+
+   - merge or consolidate;
+
+
+-----
+
+   - enter into agreements that prohibit the ability of restricted subsidiaries to make dividends or other
+payments to the Issuer or the Guarantors;
+
+   - designate restricted subsidiaries as unrestricted subsidiaries;
+
+   - prepay, redeem or repurchase certain indebtedness that is subordinated in right of payment to the
+Notes; and
+
+   - transfer or sell assets.
+
+These restrictions in the Credit Agreement and Indenture will limit the ability of the Borrowers to,
+among other things, incur or guarantee additional debt, incur certain liens, enter into transactions with
+affiliates and transfer or sell certain assets. In addition, the Credit Agreement requires the Borrowers to
+maintain a certain leverage ratio, among other financial covenants.
+
+As a result of the restrictions described above, we will be limited as to how we conduct our business
+and we may be unable to raise additional debt or equity financing to compete effectively or to take advantage
+of new business opportunities. The terms of any future indebtedness we may incur could include more
+restrictive covenants. We cannot assure you that we will be able to maintain compliance with these covenants
+in the future and, if we fail to do so, that we will be able to obtain waivers from the lenders and/or amend
+the covenants.
+
+Our failure to comply with the restrictive covenants described above as well as other terms of our
+indebtedness could result in an event of default, which, if not cured or waived, could result in our being
+required to repay these borrowings before their due date. If we are forced to refinance these borrowings on
+less favorable terms or cannot refinance these borrowings, our results of operations and financial condition
+could be adversely affected.
+
+**_A decline in our results of operations or available cash could cause us to experience difficulties in complying_**
+**_with covenants contained in more than one agreement, which could result in our bankruptcy or liquidation._**
+
+If we were to sustain a decline in our results of operations or available cash, we could experience
+difficulties in complying with the financial covenants contained in the Credit Agreement. The failure to
+comply with such covenants could result in an event of default under the agreements governing our other
+indebtedness, including the Indenture, and by reason of cross-acceleration or cross-default provisions, other
+indebtedness, including the Notes, may then become immediately due and payable. In addition, should an
+event of default occur, the lenders under our Revolving Credit Facility could elect to terminate their
+commitments thereunder, cease making loans and institute foreclosure proceedings against our assets, and
+we could be forced into bankruptcy or liquidation. If our operating performance declines, we may in the
+future need to obtain waivers from the required lenders under our Revolving Credit Facility to avoid
+being in default. If we breach our covenants under our Revolving Credit Facility and seek a waiver, we may
+not be able to obtain a waiver from the required lenders. If this occurs, we would be in default under our
+Revolving Credit Facility, the lenders could exercise their rights, as described above, and we could be forced
+into bankruptcy or liquidation.
+
+**_Many of the covenants in the Indenture will not apply to us if the Notes are rated investment grade by both of_**
+**_Moody’s and S&P (each as defined herein)._**
+
+Many of the covenants in the Indenture will cease to apply to the Notes during such time, if any, as the
+Notes are rated investment grade by both of Moody’s and S&P, so long as at such time no event of default
+has occurred and is continuing. Although there can be no assurance that the Notes will ever be rated
+investment grade, or if they are rated investment grade, that the Notes will maintain these ratings, any
+suspension of the covenants under the Indenture would allow us to engage in certain transactions that would
+not be permitted while these covenants were in effect. To the extent any suspended covenants are
+subsequently reinstated, any actions taken by us while the covenants were suspended would not result in an
+event of default under the Indenture on the basis that such actions would have been prohibited by the
+covenants. See “Description of Notes—Certain Covenants.”
+
+
+-----
+
+**_Our failure to comply with the agreements relating to our outstanding indebtedness, including as a result of_**
+**_events beyond our control, could result in an event of default that could materially and adversely affect our results_**
+**_of operations and our financial condition._**
+
+If there were an event of default under any of the agreements relating to our outstanding indebtedness,
+the holders of the defaulted debt could cause all amounts outstanding with respect to that debt to be due
+and payable immediately. We cannot assure you that our assets or cash flows would be sufficient to fully repay
+borrowings under our outstanding debt instruments if accelerated upon an event of default. Further, if we
+are unable to repay, refinance or restructure our indebtedness under our secured debt, including our Revolving
+Credit Facility, the holders of such debt could proceed against the collateral securing that indebtedness. In
+addition, any event of default or declaration of acceleration under one debt instrument could also result in an
+event of default under one or more of our other debt instruments, including the Indenture.
+
+**_Federal and state fraudulent conveyance or fraudulent transfer laws permit a court, under certain circumstances,_**
+**_to void the Notes and the Guarantees, subordinate claims in respect of the Notes and the Guarantees and/or_**
+**_require holders of the Notes to return payments received from us in respect of the Guarantees and, if that occurs,_**
+**_you may not receive any payments on the Notes._**
+
+The issuance of the Notes and the Guarantees may be subject to review under federal and state
+fraudulent conveyance and fraudulent transfer statutes (including federal bankruptcy laws), if an action
+(either in connection with a bankruptcy, liquidation or reorganization case or under a lawsuit in which a
+bankruptcy is not involved), were commenced at some future date by the Issuer, by the Guarantors or on
+behalf of our unpaid creditors or the unpaid creditors of a Guarantor. While the relevant laws may vary from
+jurisdiction to jurisdiction, the incurrence of the obligations in respect of the Notes and the Guarantees
+will generally be a fraudulent conveyance or a fraudulent transfer if (i) the transactions relating to the issuance
+of the Notes or Guarantees were undertaken with the intent of hindering, delaying or defrauding other
+creditors or (ii) the Issuer or any of the Guarantors, as applicable, received less than reasonably equivalent
+value or fair consideration in return for issuing either the Notes or a Guarantee and, in the case of (ii) only,
+any one of the following is also true:
+
+   - the Issuer or any of the Guarantors was insolvent or rendered insolvent by reason of issuing the
+Notes or the Guarantees;
+
+   - the issuance of the Notes or the Guarantees left the Issuer or any of the Guarantors with an
+unreasonably small amount of capital to carry on the business in which the Issuer or such Guarantor
+was engaged or about to engage; or
+
+   - the Issuer or any of the Guarantors intended to, or believed that we or it would, incur debts
+beyond its ability to pay as they become due.
+
+If a court were to find that the issuance of the Notes or a Guarantee was a fraudulent conveyance or
+fraudulent transfer, the court could void the payment obligations under the Notes or such Guarantee or
+further subordinate the Notes or such Guarantee to presently existing and future indebtedness of the Issuer
+or such Guarantor, or require the holders of the Notes to repay any amounts received with respect to the
+Notes or such Guarantee. In the event of a finding that a fraudulent conveyance or a fraudulent transfer
+occurred, you may not receive any repayment on the Notes. Further, the voidance of the Notes could result in
+an event of default with respect to our other debt and that of the Guarantors that could result in the
+acceleration of such debt.
+
+The measures of insolvency for purposes of fraudulent conveyance or fraudulent transfer laws vary
+depending upon the law of the jurisdiction that is being applied, such that we cannot be certain as to: the
+standards a court would use to determine whether or not the Issuer or the Guarantors were solvent at the
+relevant time, or, regardless of the standard that a court uses, that it would not determine that the Issuer or a
+Guarantor was indeed insolvent on that date; that any payments to the holders of the Notes (including
+under the Guarantees) did not constitute preferences, fraudulent conveyances or fraudulent transfers on
+other grounds; or that the issuance of the Notes and the Guarantees would not be subordinated to the Issuer’s
+or any Guarantor’s other debt.
+
+Generally, an entity would be considered insolvent if, at the time it incurred indebtedness:
+
+
+-----
+
+   - the sum of its debts, including contingent liabilities, was greater than the fair value of all its assets;
+
+   - the present fair saleable value of its assets was less than the amount that would be required to pay
+its probable liability on its existing debts and liabilities, including contingent liabilities, as they
+become absolute and mature; or
+
+   - it could not pay its debts as they become due.
+
+As a general matter, value is given for a transfer or an obligation if, in exchange for the transfer or
+obligation, property is transferred or a valid antecedent debt is satisfied. A court would likely find that the
+Issuer or a Guarantor did not receive reasonably equivalent value or fair consideration for the Notes or such
+Guarantee and/or lien if the Issuer or such Guarantor did not substantially benefit directly or indirectly
+from the issuance of the Notes or the applicable Guarantee and/or lien. To the extent proceeds of the offering
+are used to fund payments to equityholders, a court could conclude that we did not receive reasonably
+equivalent value. In addition, if the Guarantees were legally challenged, any Guarantee could be subject to
+the claim that, since the Guarantee was incurred for the Issuer’s benefit, and only indirectly for the benefit of
+the Guarantor, the obligations of the applicable Guarantor were incurred for less than reasonably equivalent
+value or fair consideration. Therefore, a court could void the obligations under the Guarantees, subordinate
+them to the applicable Guarantor’s other debt or take other action detrimental to the holders of the Notes.
+
+To the extent a court avoids any of the Guarantees as fraudulent conveyances or fraudulent transfers
+or holds any of the Guarantees unenforceable for any other reason, the holders of Notes would cease to
+have any direct claim against the applicable Guarantor. If a court were to hold a Guarantee unenforceable,
+the applicable Guarantor’s assets would be applied first to satisfy the applicable Guarantor’s other liabilities,
+if any, and might not be applied to the payment of the Guarantee of the Notes. Sufficient funds to repay
+the Notes may not be available from other sources, including the remaining Guarantors, if any. In addition,
+the court might direct you to repay any amounts that you already received from the Issuer or the applicable
+Guarantor.
+
+Although each Guarantee entered into in connection with the Notes will contain a provision intended
+to limit that Guarantor’s liability to the maximum amount that it could incur without causing the incurrence
+of obligations under its Guarantee to be a fraudulent conveyance or fraudulent transfer, this provision
+may not be effective as a legal matter to protect those Guarantees from being avoided under fraudulent
+conveyance or fraudulent transfer law or otherwise, or may reduce that Guarantor’s obligation to an amount
+that effectively makes its Guarantee worthless.
+
+In addition, as noted above, any payment by the Issuer pursuant to the Notes or by a Guarantor under
+a Guarantee made at a time the Issuer or such Guarantor was found to be insolvent could be voided and
+required to be returned to the Issuer or such Guarantor or to a fund for the benefit of the Issuer’s or
+Guarantor’s creditors if such payment is made to an insider within a one-year period prior to a bankruptcy
+filing or within 90 days for any non-insider party and such payment would give such insider or non-insider
+party (as the case may be) more than such creditors would have received in a distribution under the U.S.
+Bankruptcy Code in a hypothetical Chapter 7 case.
+
+Finally, as a court of equity, the bankruptcy court may otherwise subordinate the claims in respect of
+the Notes or the Guarantees to other claims against the Issuer or the Guarantors under the principle of
+equitable subordination, if the court determines that: (i) the holder of the Notes engaged in some type of
+inequitable conduct; (ii) such inequitable conduct resulted in injury to our other creditors or conferred an
+unfair advantage upon the holder of the Notes; and (iii) equitable subordination is not inconsistent with the
+provisions of the U.S. Bankruptcy Code.
+
+**_Any future Guarantee may be avoidable in bankruptcy._**
+
+Guarantees issued after the issue date of the Notes may be treated under bankruptcy law as if they
+were delivered to Guarantee previously existing indebtedness. Any future issuance of a Guarantee, including
+pursuant to Guarantees delivered in connection therewith after the date the Notes are issued, may be
+avoidable by the Guarantor (as a debtor in possession), by its trustee in bankruptcy, or potentially by other
+creditors if certain events or circumstances exist or occur, including, among others, if (1) the Guarantor is
+insolvent at the time of the issuance of the Guarantee, (2) the issuance of the Guarantee permits the
+
+
+-----
+
+holders of the Notes to receive a greater recovery in a hypothetical Chapter 7 case than if the Guarantee
+had not been given and (3) a bankruptcy proceeding in respect of the Guarantor is commenced within 90 days
+following the issuance of the Guarantee, or, in certain circumstances, a longer period. Accordingly, if the
+Issuer or any Guarantor were to file for bankruptcy protection after the issue date of the Notes and any
+Guarantees not issued on the issue date of the Notes had been issued less than 90 days before commencement
+of such bankruptcy proceeding, such Guarantees are materially more likely to be avoided as a preference
+by the bankruptcy court than if delivered on the issue date of the Notes (even if the other Guarantees issued
+on the issue date of the Notes would no longer be subject to such risk). To the extent that the grant of any
+such Guarantee is avoided as a preference or otherwise, you would lose the benefit of the Guarantee.
+
+**_Enforcing your rights under the Guarantees of the Notes by certain of our foreign subsidiaries across multiple_**
+**_jurisdictions may be difficult._**
+
+Certain of our existing subsidiaries that will guarantee the Notes are organized in multiple jurisdictions,
+such as Malta and the Netherlands. In the event of bankruptcy, insolvency or a similar event, proceedings
+could be initiated in any of these jurisdictions and in the jurisdiction of organization of any future Guarantor
+of the Notes, such that it is not possible to predict with certainty in which jurisdiction or jurisdictions
+insolvency or similar proceedings would be commenced or the outcome of such proceedings. Your rights
+under the Notes and the Guarantees will thus be subject to the laws of several jurisdictions, and you may not
+be able to effectively enforce your rights in multiple bankruptcy, insolvency and other similar proceedings.
+Moreover, such multi-jurisdictional proceedings are typically complex and costly for creditors and often result
+in substantial uncertainty and delay in the enforcement of creditors’ rights. Also, the insolvency laws of
+such other jurisdictions may not be as favorable to your interests as creditors as the laws of the United States
+or other jurisdictions with which you may be more familiar. In addition, while the Issuer and the Guarantors
+will agree, in accordance with the terms of the Indenture that will govern the Notes, to accept service of
+process in any suit, action or proceeding with respect to the Indenture that will govern the Notes or the Notes
+brought in any federal or state court located in New York City by an agent designated for such purpose,
+and to submit to the jurisdiction of such courts in connection with such suits, actions or proceedings, it may
+be difficult for holders of the Notes to effect service within the U.S. upon directors, officers and experts
+who are not residents of the U.S. in order to institute actions in U.S. courts predicated solely upon civil
+liability under U.S. federal or state securities laws or other laws of the U.S. There may be doubt as to the
+enforceability in non-U.S. jurisdictions in original actions, or in actions for enforcement of judgments of U.S.
+courts, of civil liabilities predicated solely upon the U.S. federal or state securities laws or other laws of the
+U.S. You should not assume that the non-U.S. jurisdictions: (a) would enforce judgments of U.S. courts
+obtained in actions against such persons predicated upon civil liabilities under the federal securities laws
+of the U.S. or “blue sky” laws of any state within the U.S.; or (b) would enforce, in original actions, liabilities
+against such persons predicated upon civil liabilities under the federal securities laws of the U.S. or “blue
+sky” laws of any state within the U.S.
+
+**_Each Guarantee of the Notes will be subject to certain limitations on enforcement and may be limited by_**
+**_applicable laws or subject to certain defenses that may limit its validity and enforceability._**
+
+The Indenture will also permit Guarantees by foreign subsidiaries to be limited to the extent necessary
+to comply with applicable local law, and these limitations could limit the value of the Guarantees. These
+laws and defenses generally include those that relate to corporate purpose or benefit, fraudulent conveyance
+or transfer, transfer at undervalue, avoidable preference, insolvency or bankruptcy challenges, financial
+assistance, preservation of share capital, thin capitalization, capital maintenance or similar laws, regulations
+or defenses affecting the rights of creditors generally. If one or more of these laws and defenses are
+applicable, a Guarantor may have no liability or decreased liability under its guarantee depending on the
+amounts of its other obligations and applicable law. Limitations on the enforceability of judgments obtained
+in New York courts in such jurisdictions could also limit the enforceability of any guarantee against any
+Guarantor.
+
+**_Because each Guarantor’s liability under its Guarantee may be reduced to zero, voided or released under certain_**
+**_circumstances, the holders of the Notes may not receive any payments from some or all of the Guarantors._**
+
+Holders of the Notes have the benefit of the Guarantees of the Guarantors. However, the Guarantees
+by the Guarantors are limited to the maximum amount that the Guarantors are permitted to Guarantee
+
+
+-----
+
+under applicable law. As a result, a Guarantor’s liability under its Guarantee could be reduced to zero,
+depending upon (among other things) the amount of other obligations of such Guarantor. Further, under
+the circumstances discussed more fully above, a court under federal or state fraudulent conveyance and
+fraudulent transfer statutes could void the obligations under a Guarantee or further subordinate it to all
+other obligations of the Guarantor. See “—Federal and state fraudulent conveyance or fraudulent transfer laws
+_permit a court, under certain circumstances, to void the Notes and the Guarantees, subordinate claims in_
+_respect of the Notes and the Guarantees and/or require holders of the Notes to return payments received from_
+_us in respect of the Guarantees and, if that occurs, you may not receive any payments on the Notes.” In addition,_
+you will lose the benefit of a particular Guarantee if it is released under certain circumstances described
+under “Description of Notes—Note Guarantees.”
+
+**_We may not be able to finance a change of control offer or asset sale offer required by the Indenture._**
+
+Upon a Change of Control Triggering Event, you will have the right to require the Issuer to offer to
+purchase all of the Notes then outstanding at a price equal to 101% of the principal amount of the Notes,
+plus accrued interest, if any, to, but excluding, the date of purchase. In order to obtain sufficient funds to pay
+the purchase price of the outstanding Notes, we expect that we would have to refinance the Notes. We
+cannot assure you that we would be able to refinance the Notes on reasonable terms, if at all. The Issuer’s
+failure to offer to purchase all outstanding Notes or to purchase all validly tendered Notes would be an event
+of default under the Indenture. Such an event of default may cause the acceleration of our other debt,
+including debt under our Revolving Credit Facilities. Our future debt also may contain restrictions on
+repayment requirements with respect to specified events or transactions that constitute a Change of Control
+under the Indenture.
+
+In addition, upon the occurrence of certain specified asset sales, the Issuer may be required to offer to
+purchase outstanding Notes and other indebtedness, at 100% of the principal amount thereof plus accrued
+and unpaid interest, if any, to, but excluding, the date of purchase. The source of funds for any such purchase
+of the Notes will be the Issuer’s available cash or cash generated from the Issuer’s operations or other
+sources, including borrowings, sales of assets or sales of equity. The Issuer may not be able to purchase the
+Notes upon such an asset sale offer because the Issuer may not have sufficient financial resources at the time
+of such asset sale to make the required purchase of Notes and such other indebtedness, or because
+restrictions in the Issuer’s other indebtedness will not allow such purchase of the Notes. Any of the Issuer’s
+future debt agreements may contain similar provisions. Accordingly, if such an asset sale were to occur, the
+Issuer may not have sufficient financial resources to purchase the Notes and such other indebtedness that
+the Issuer would be required to offer to purchase or that become immediately due and payable as a result. The
+Issuer may require additional financing from third parties to fund any such purchases, and we cannot
+assure you that we would be able to obtain financing on satisfactory terms or at all. See “Description of
+Notes—Certain Covenants—Limitation on Asset Sales.” The Issuer’s failure to pay holders tendering Notes
+and such other indebtedness upon such an asset sale would result in an event of default under the Indenture.
+
+**_Holders of Notes may not be able to determine when a Change of Control giving rise to their right to have the_**
+**_Notes purchased has occurred following a sale of “substantially all” of our assets._**
+
+The definition of Change of Control in the Indenture includes a phrase relating to the sale of “all or
+substantially all” of our assets. There is no precise established definition of the phrase “substantially all”
+under applicable law. Accordingly, the ability of a holder of Notes to require the Issuer to purchase its Notes
+as a result of a sale of less than all our assets to another person may be uncertain. See “Description of Notes—
+Repurchase of Notes Upon a Change of Control Triggering Event.”
+
+**_The Notes will be subject to significant restrictions on transfer._**
+
+We are selling the Notes under exemptions from registration requirements under the Securities Act or
+applicable state securities laws. None of the Notes or the Guarantees have been registered under the Securities
+Act or any state or foreign securities laws, and we do not intend to file a registration statement for the
+resale of any of the Notes after the offering. Accordingly, the Notes may be offered or sold only pursuant to
+an exemption from, or in a transaction not subject to, the registration requirements of the Securities Act
+and applicable state and foreign securities laws. The restrictions on transfer applicable to the Notes may affect
+your ability to resell the Notes or may reduce the price you receive in doing so. By purchasing the Notes,
+
+
+-----
+
+you will be deemed to have made certain acknowledgments, representations and agreements relating to
+these transfer restrictions, as set forth in “Transfer Restrictions.”
+
+**_There is currently no trading market for the Notes and an active trading market for the Notes may not develop,_**
+**_in which case you may not be able to resell the Notes._**
+
+There is no existing trading market for the Notes and we do not intend to list them on any securities
+exchange or automated quotation system. As a result, an active or liquid trading market for the Notes may
+not develop, or if one does develop, it may not be sustained. Although we have been informed by the initial
+purchasers that they currently intend to make a market for the Notes, they are not obliged to do so, and
+any market making may be discontinued at any time without notice.
+
+The liquidity of, and trading market for, the Notes may also be adversely affected by, among other
+things:
+
+   - changes in the overall market for securities similar to the Notes;
+
+   - changes in our financial performance or prospects;
+
+   - the prospects for companies in our industry generally;
+
+   - the number of holders of the Notes;
+
+   - the interest of securities dealers in making a market for the Notes;
+
+   - the conditions of the financial markets; and
+
+   - prevailing interest rates.
+
+The conditions of the financial markets and prevailing interest rates have fluctuated in the past and are
+likely to fluctuate in the future. Historically, the market for non-investment grade debt has been subject to
+disruptions that have caused substantial volatility in the prices of securities that are similar to the Notes. We
+cannot assure you that the market, if any, for the Notes will be free from similar disruptions or that any
+such disruptions may not adversely affect the prices at which you may sell your Notes. In addition, subsequent
+to their initial issuance, the Notes may trade at a discount from their initial offering price, depending upon
+prevailing interest rates, the market for similar Notes, our performance and other factors.
+
+**_The Indenture will not be qualified under the Trust Indenture Act and we will not be required to comply with_**
+**_the provisions of the Trust Indenture Act._**
+
+The Indenture will not be qualified under the Trust Indenture Act and we will not be required to
+comply with the provisions of the Trust Indenture Act. Therefore, holders of the Notes will not be entitled
+to the benefit of the provisions and protection of the Trust Indenture Act except to the extent there are similar
+provisions in the Indenture.
+
+**_We cannot assure you that the credit ratings for the Notes will not be lowered, suspended or withdrawn by the_**
+**_rating agencies. A lowering or withdrawal of the ratings assigned to the Notes by rating agencies or their failure_**
+**_to be rated may adversely affect the market price or liquidity of the Notes._**
+
+The credit ratings of the Notes may change after issuance. Such ratings are limited in scope, and do not
+address all material risks relating to an investment in the Notes, but rather reflect only the views of the rating
+agencies at the time the ratings are issued. An explanation of the significance of such ratings may be
+obtained from the rating agencies.
+
+The Notes offered hereby will have a non-investment grade rating on the issue date of the Notes. We
+cannot assure you that such credit ratings will remain in effect for any given period of time or that such
+ratings will not be lowered, suspended or withdrawn entirely by the rating agencies, if, in the judgment of
+such rating agencies, circumstances so warrant. Even in the absence of such adverse developments, our ratings
+could be lowered or withdrawn if a credit rating agency were to change existing methodologies or implement
+new methodologies for rating us. Moreover, we may terminate or refrain from seeking credit ratings when
+we feel they do not appropriately reflect our financial condition. Credit ratings are not recommendations to
+purchase, hold or sell the Notes, and may be revised or withdrawn at any time. Additionally, credit ratings
+
+
+-----
+
+may not reflect the potential effect of risks relating to the structure or marketing of the Notes. Any
+lowering, suspension or withdrawal of such ratings may have an adverse effect on the market price and
+marketability of the Notes.
+
+**_There are circumstances other than repayment or discharge of the Notes under which the Guarantees will be_**
+**_released automatically, without your consent or the consent of the Trustee._**
+
+Under various circumstances, the Guarantees of the Notes will be released automatically. The Guarantee
+of a Guarantor of the Notes will be automatically released to the extent such Guarantor is released in
+connection with a sale or other disposition of the equity interests of such Guarantor in a transaction not
+prohibited by the Indenture. The Indenture also will permit us to designate one or more of our restricted
+subsidiaries that is a Guarantor of the Notes as an unrestricted subsidiary, which will result in the Guarantee
+of such Guarantor being automatically released. If the Guarantee of any Guarantor is released, no holder
+of the Notes will have a claim as a creditor against that subsidiary, and the indebtedness and other liabilities,
+including trade payables and preferred stock, if any, whether secured or unsecured, of that subsidiary will
+be structurally senior to the claim of any holders of the Notes. For a description of all circumstances in which
+a Guarantor’s Guarantee will be automatically released, see “Description of Notes—Note Guarantees.”
+
+
+-----
+
+**USE OF PROCEEDS**
+
+We intend to use the net proceeds of this offering to repay up to $180.0 million of outstanding
+borrowings under our Revolving Credit Facility and the remainder, if any, for general corporate purposes,
+which may include working capital, capital expenditures, stock repurchases and acquisitions. Certain of the
+initial purchasers and/or their affiliates are lenders under our Revolving Credit Facility and, as such, they
+will receive a portion of the net proceeds of this offering in connection with such repayment. See “Use of
+Proceeds,” “Capitalization” and “Plan of Distribution—Other Relationships.”
+
+We will retain broad discretion over the allocation of net proceeds from the sale of the Notes.
+
+
+-----
+
+**CAPITALIZATION**
+
+The following table sets forth our capitalization as of December 31, 2020:
+
+   - on an actual basis; and
+
+   - on an as adjusted basis to give effect to this offering and the anticipated use of the net proceeds
+from this offering as described under “Use of Proceeds.”
+
+The information in this table should be read in conjunction with the (i) sections in this offering
+memorandum entitled “Use of Proceeds” and “Management’s Discussion and Analysis of Financial
+Condition and Results of Operations” and our audited consolidated financial statements and the related
+notes thereto included elsewhere in this offering memorandum and (ii) section entitled “Selected Financial
+Data” included in our Annual Report on Form 10-K for the year ended December 31, 2020, which is
+incorporated by reference herein. See “Incorporation by Reference.”
+
+**As of December 31, 2020**
+
+**Actual** **As Adjusted**
+
+**($ in thousands)**
+
+Cash and cash equivalents[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $135,802 $249,802
+
+Debt
+
+Revolving Credit Facility [(1)(2)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180,000 —
+
+Notes offered hereby . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — 300,000
+
+Other debt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — —
+
+Total debt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180,000 300,000
+
+Total stockholders’ equity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290,633 290,633
+
+Total capitalization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $470,633 $590,633
+
+(1) We intend to use the net proceeds of this offering to repay up to $180.0 million of outstanding
+borrowings under our Revolving Credit Facility and the remainder, if any, for general corporate
+purposes, which may include working capital, capital expenditures, stock repurchases and acquisitions.
+
+(2) As of December 31, 2020, we had $180.0 million in outstanding borrowings under our Revolving
+Credit Facility, which are due when our Revolving Credit Facility matures in July 2024, and $0.6 million
+in outstanding letters of credit under our Revolving Credit Facility, which reduces amounts available
+for borrowing under our Revolving Credit Facility. As of December 31, 2020, we had $319.4 million of
+available borrowing capacity under our Revolving Credit Facility.
+
+
+-----
+
+**MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL**
+**CONDITION AND RESULTS OF OPERATIONS**
+**Business Overview**
+
+We are engaged in the design, development, worldwide marketing, distribution, and sale of casual
+lifestyle footwear and accessories for women, men, and children. We strive to be the world leader in
+innovative casual footwear for women, men, and children, combining comfort and style with a value that
+consumers want. The vast majority of shoes within Crocs’collection contain Croslite™material, a proprietary,
+molded footwear technology, delivering extraordinary comfort with each step. The broad appeal of our
+footwear has allowed us to market our products through a wide range of distribution channels. We currently
+sell our products in more than 80 countries, through three distribution channels: wholesale, retail, and
+e-commerce. Our wholesale channel includes domestic and international multi-brand retailers, monobranded partner stores, e-tailers, and distributors; our retail channel consists of company-operated stores;
+and our e-commerce channel includes company-operated e-commerce sites and third-party marketplaces.
+
+**Known or Anticipated Trends**
+
+Based on our recent operating results and our assessment of the current operating environment, we
+anticipate certain trends will continue to impact our future operating results:
+
+   - The COVID-19 pandemic has impacted our business globally in 2020, including through store
+closures and reduced operating hours, primarily during the second quarter of the year. Despite this,
+in 2020, we saw strong sales in e-commerce and strong sell-through in e-tail and wholesale
+partner sites, as consumers migrated to online shopping. The vast majority of our 351 companyoperated stores were open at December 31, 2020. To ensure the well-being of our employees and
+customers, our corporate offices, retail stores, and distribution centers have implemented various
+elevated safety protocols, in accordance with local guidelines and regulations, including temperature
+checks, mandatory mask policies, social distancing, access to hand sanitizer, plexiglass partitions,
+and enhanced cleaning of the facilities. Our corporate offices have also actively managed attendance
+levels in accordance with local guidelines and regulations, and many of our corporate employees
+have continued to successfully conduct business virtually. We expect these measures to continue into
+2021 until the population is vaccinated for COVID-19 to such a degree that these measures are
+no longer necessary.
+
+   - Digital growth, which was a priority in 2020 and a growing consumer trend, remains a key focus
+for 2021, along with a focus on clogs, sandals, personalization, and visible comfort technology, and
+growth in China, which remains a significant long-term opportunity. Digital sales include sales
+through our company-owned website, third-party marketplaces, and e-tailers.
+
+   - We expect revenue growth in 2021, primarily driven by our Americas and EMEA segments, and
+expect to incur costs affecting gross margin for investments in our distribution center network.
+Additionally, we plan to be able to continue leveraging SG&A as revenues grows in 2021.
+
+   - We were cash flow positive for the year ended December 31, 2020, despite the negative impacts of
+the global pandemic. As of December 31, 2020, we have returned to standard payment terms with
+our customers and vendors after encountering term extension requests from some customers and
+more strictly managing accounts payable in the first part of the year. At December 31, 2020, there
+were $180.0 million of borrowings outstanding on our credit facility after net repayments of
+$25.0 million during 2020. Our borrowings may continue to fluctuate as we manage our liquidity
+needs.
+
+**Use of Non-GAAP Financial Measures**
+
+In addition to financial measures presented on the basis of GAAP, we present certain information
+related to our current period results of operations through “constant currency,” which is a non-GAAP
+financial measure and should be viewed as a supplement to our results of operations and presentation of
+reportable segments under GAAP. Constant currency represents current period results that have been
+retranslated using prior year average foreign exchange rates for the comparative period to enhance the
+visibility of the underlying business trends excluding the impact of foreign currency exchange rates on
+reported amounts.
+
+
+-----
+
+Management uses constant currency to assist in comparing business trends from period to period on a
+consistent basis in communications with the Board of Directors, stockholders, analysts, and investors
+concerning our financial performance. We believe constant currency is useful to investors and other users of
+our consolidated financial statements as an additional tool to evaluate operating performance and trends.
+Investors should not consider constant currency in isolation from, or as a substitute for, financial information
+prepared in accordance with GAAP.
+
+**2020 Financial and Operational Highlights**
+
+Revenues were $1,386.0 million for the year ended December 31, 2020, a 12.6% increase compared to
+the year ended December 31, 2019. The increase in 2020 revenues compared to 2019 revenues was due to the
+net effects of: (i) higher sales volumes, which increased revenues by $24.5 million, or 2.0%; (ii) higher
+average selling prices as a result of favorable channel mix, reduced discounts and promotions, and increased
+prices on certain products, which increased revenues by $141.5 million, or 11.5%; and (iii) unfavorable
+changes in exchange rates, which decreased revenues by $10.6 million, or 0.9%.
+
+The following were significant developments affecting our businesses and capital structure during the
+year ended December 31, 2020:
+
+   - Digital sales represented 41.5% of 2020 revenues, compared to 31.1% in 2019. Direct-to-consumer
+comparable sales grew 39.2% in 2020, compared to 2019.
+
+   - We sold 69.1 million pairs of shoes worldwide, an increase from 67.1 million pairs in 2019, despite
+volume declines as a result of the COVID-19 pandemic.
+
+   - Gross margin was 54.1% compared to 50.1% in 2019, an increase of 400 basis points, primarily as
+a result of fewer promotions, favorable product mix, higher pricing, and increased sales of
+charms per shoe.
+
+   - SG&A was $514.8 million, an increase of $26.3 million, or 5.4%, compared to 2019. As a percent
+of revenues, SG&A improved 260 basis points to 37.1% of revenues, as reductions from several
+actions taken in response to the COVID-19 pandemic, including the elimination of certain
+temporary and permanent corporate and regional roles and a reduction in travel and related costs,
+were offset by higher variable costs associated with higher revenues and costs incurred as a result
+of COVID-19, including $9.9 million of inventory donations to frontline healthcare workers and
+other organizations.
+
+   - We recognized $21.1 million in asset impairments, related primarily to a retail store location in
+New York City.
+
+   - Income from operations was $214.1 million for the year ended December 31, 2020 compared to
+income from operations of $128.6 million for the year ended December 31, 2019. Our operating
+margin rose to 15.4%, compared to 10.5% in 2019.
+
+   - In December 2020, we completed a series of transactions that included a transfer of certain
+intellectual property rights among wholly-owned subsidiaries and resulted in the recognition of a
+$127.7 million tax benefit.
+
+   - Net income was $312.9 million compared to $119.5 million in 2019. Diluted net income per
+common share was $4.56 for the year ended December 31, 2020, compared to a diluted net income
+per common share of $1.66 for the year ended December 31, 2019.
+
+   - During 2020, we repurchased 3.2 million shares of common stock at an aggregate cost of
+$170.8 million, including a $125.0 million accelerated share repurchase agreement (“ASR”) in
+November 2020. For more information on the ASR, refer to “—Liquidity and Capital Resources,”
+which appears in a forthcoming subsection within “Management’s Discussion and Analysis of
+Financial Condition and Results of Operations.”
+
+**Results of Operations**
+
+**_Comparison of the Years Ended December 31, 2020 and 2019_**
+
+A discussion of our comparison between 2020 and 2019 is presented below. A discussion of the
+changes in our results of operations between the years ended December 31, 2019 and December 31, 2018
+
+
+-----
+
+has been omitted from this offering memorandum but may be found in Item 7. Management’s Discussion
+and Analysis of Financial Condition and Results of Operations of our Annual Report on Form 10-K for the
+year ended December 31, 2019, filed with the SEC on February 27, 2020, which is available free of charge
+on the SEC’s website at www.sec.gov and our corporate website (www.crocs.com).
+
+**$ Change** **% Change**
+
+**Year Ended December 31,** **Favorable (Unfavorable)**
+
+**2020** **2019** **2020 – 2019** **2020 – 2019**
+
+**(in thousands, except per share data, margin, and average selling price data)**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 $155,358 12.6%
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . 636,003 613,537 (22,466) (3.7)%
+
+Gross profit . . . . . . . . . . . . . . . . . . . . . . 749,948 617,056 132,892 21.5%
+Selling, general and administrative
+expenses . . . . . . . . . . . . . . . . . . . . . . . . 514,753 488,407 (26,346) (5.4)%
+Asset impairments . . . . . . . . . . . . . . . . . . . 21,071 — (21,071) (100.0)%
+
+Income from operations . . . . . . . . . . . . . 214,124 128,649 85,475 66.4%
+
+Foreign currency gains (losses), net . . . . . . . (1,128) (1,323) 195 14.7%
+
+Interest income . . . . . . . . . . . . . . . . . . . . . 215 601 (386) (64.2)%
+
+Interest expense . . . . . . . . . . . . . . . . . . . . . (6,742) (8,636) 1,894 21.9%
+
+Other income, net . . . . . . . . . . . . . . . . . . . 510 31 479 1,545.2%
+
+Income before income taxes . . . . . . . . . . . 206,979 119,322 87,657 73.5%
+
+Income tax benefit . . . . . . . . . . . . . . . . . . . (105,882) (175) 105,707 60,404.0%
+
+Net income . . . . . . . . . . . . . . . . . . . . . $ 312,861 $ 119,497 $193,364 161.8%
+
+Net income per common share:
+
+Basic . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.64 $ 1.70 $ 2.94 172.9%
+
+Diluted . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.56 $ 1.66 $ 2.90 174.7%
+
+Gross margin[(1)] . . . . . . . . . . . . . . . . . . . . . 54.1% 50.1% 400bp 8.0%
+
+Operating margin[(1)] . . . . . . . . . . . . . . . . . . 15.4% 10.5% 490bp 46.7%
+
+Selling, general and administrative expenses
+as a percentage of revenues . . . . . . . . . . . 37.1% 39.7% 260bp 6.5%
+
+Footwear unit sales . . . . . . . . . . . . . . . . . . 69,087 67,051 2,036 3.0%
+
+Average footwear selling price – nominal
+basis [(2)] . . . . . . . . . . . . . . . . . . . . . . . . . $ 19.91 $ 18.21 $ 1.70 9.3%
+
+(1) Changes for gross margin and operating margin are shown in basis points (“bp”).
+
+(2) Average footwear selling price is calculated as footwear and charms revenues divided by footwear units.
+
+
+-----
+
+**_Revenues by Channel_**
+
+**Constant**
+**% Change** **Currency % Change[(1)]**
+
+**Year Ended December 31,** **Favorable (Unfavorable)**
+
+**2020** **2019** **2020 – 2019** **2020 – 2019**
+
+**(in thousands)**
+
+Wholesale:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . $ 390,930 $ 275,284 42.0% 44.0%
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . 133,416 207,405 (35.7)% (34.7)%
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . 168,410 173,480 (2.9)% (2.0)%
+Other businesses . . . . . . . . . . . . . . . . . . . . 163 58 181.0% 181.0%
+
+Total wholesale . . . . . . . . . . . . . . . . . . . 692,919 656,227 5.6% 7.0%
+Retail:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . 249,238 241,694 3.1% 3.1%
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . 64,789 74,793 (13.4)% (12.5)%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . 19,989 30,875 (35.3)% (33.7)%
+
+Total retail . . . . . . . . . . . . . . . . . . . . . . 334,016 347,362 (3.8)% (3.5)%
+
+E-commerce:
+
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . 223,445 123,537 80.9% 81.0%
+
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . 80,310 65,874 21.9% 22.2%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . 55,261 37,593 47.0% 46.8%
+
+Total e-commerce . . . . . . . . . . . . . . . . . . 359,016 227,004 58.2% 58.3%
+
+Total revenues . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 12.6% 13.5%
+
+(1) Reflects year over year change as if the current period results were in constant currency, which is a nonGAAP financial measure. See “Use of Non-GAAP Financial Measures” for more information.
+
+The primary drivers of the changes in revenues were:
+
+**2020 vs. 2019**
+
+**Volume** **Price** **[(1)]** **Foreign Exchange** **Total**
+
+**$ Change** **% Change** **$ Change** **% Change** **$ Change** **% Change** **$ Change** **% Change**
+
+**(in thousands)**
+
+Total revenues . . . $24,466 2.0% $141,467 11.5% $(10,575) (0.9)% $155,358 12.6%
+
+(1) The change due to price is based on the change in average selling price on a constant currency basis
+(“ASP”).
+
+**_Revenues._** Despite the impact of the COVID-19 pandemic, which had the most significant adverse
+impact on sales in the first half of the year, revenues increased for the full year ended December 31, 2020.
+Sales volumes, which were lower in all regions in the first two quarters of the year, rebounded in the second
+half of the year, as retail locations, partner stores, and B&M retailers reopened as COVID-19 restrictions
+were lifted. Increased ASP, especially in the Americas, was the largest contributor to higher revenues in 2020,
+as a result of fewer promotions and discounts, higher pricing on certain products, channel mix from higher
+sales in our e-commerce channel, which typically sells at a higher price, and increased sales of charms per shoe.
+Our continued focus on digital commerce, which was further bolstered by consumer migration to online
+shopping during the pandemic, led to an increase of 58.2% in e-commerce channel revenues. Currency
+fluctuations, primarily in the Brazilian Real, Russian Ruble, and Korean Won, had a negative impact on
+revenues.
+
+
+-----
+
+**_Cost of sales._** Cost of sales increased compared to 2019 due to higher average cost per unit on a
+constant currency basis (“AUC”) of $9.5 million, or 1.5%, due to increased e-commerce sales, which carry
+higher freight and fulfillment costs. Additionally, AUC increased as a result of continued investment in our
+global supply chain during 2020. Higher sales volume of $18.1 million, or 3.0%, also increased cost of sales,
+while foreign currency translation resulted in a decrease in cost of sales of $5.1 million, or 0.8%.
+
+**_Gross profit._** Gross margin was 54.1% compared to 50.1% in 2019, while gross profit increased
+$132.9 million, or 21.5%. This was primarily a result of net higher ASP and AUC, which led to an increase
+of $132.0 million, or 21.4%, due to fewer promotions and discounts, favorable product mix, and higher pricing.
+Additionally, higher volume increased gross profit by $6.3 million, or 1.0%, while negative currency
+fluctuations decreased gross profit by $5.4 million, or 0.9%
+
+**_Selling, general and administrative expenses._** SG&A increased $26.3 million, or 5.4%, during the year
+ended December 31, 2020 compared to 2019. SG&A was higher due to inventory donations of $9.9 million
+to frontline healthcare workers and other organizations, net higher marketing costs of $9.5 million due to
+higher variable marketing associated with increased e-commerce sales, and higher bad debt expense of
+$4.2 million, mostly due to the impacts of COVID-19 on certain global distributors, and other net increases,
+including higher variable compensation and sales commissions, of $2.7 million. However, SG&A improved
+as a percent of sales by 260 basis points to 37.1% from 39.7% in 2019. This was primarily a result of higher
+revenues leveraging our fixed cost base, coupled with several actions taken in response to the COVID-19
+pandemic, including the elimination of certain temporary and permanent corporate and regional roles and
+a decrease in travel and related costs.
+
+**_Asset impairment charges._** During the year ended December 31, 2020, we incurred $20.0 million in
+impairment charges to the right-of-use asset and store assets for a retail location in New York City and
+$1.1 million in impairment charges to the right-of-use asset for our former corporate headquarters. During
+the year ended December 31, 2019, we incurred no impairment charges.
+
+**_Foreign currency gains (losses), net._** Foreign currency gains (losses), net, consists of unrealized and
+realized foreign currency gains and losses from the remeasurement and settlement of monetary assets and
+liabilities denominated in non-functional currencies as well as realized and unrealized gains and losses on
+foreign currency derivative instruments. During the year ended December 31, 2020, we recognized realized
+and unrealized net foreign currency losses of $1.1 million compared to net losses of $1.3 million during
+the year ended December 31, 2019.
+
+**_Income tax benefit._** During the year ended December 31, 2020, we recognized an income tax benefit
+of $105.9 million on pre-tax book income of $207.0 million, representing an effective tax rate of (51.2)%,
+compared to income tax benefit of $0.2 million on pre-tax book income of $119.3 million in 2019, which
+represented an effective tax rate of (0.1)%. During the year ended December 31, 2020, we recognized a foreign
+deferred income tax benefit as a result of an intra-entity intellectual property rights transfer, resulting in a
+lower effective tax rate as compared to 2019. Our effective tax rate has varied dramatically in recent years due
+to the intra-entity intellectual property rights transfer, differences in our profitability level and relative
+operating earnings across multiple jurisdictions. and by changes in the valuation allowance.
+
+During the three months ended December 31, 2020, we completed an intra-entity transfer of certain
+intellectual property rights primarily to align with current and future international operations. The transfer
+resulted in a step-up in tax basis of intellectual property rights and a correlated increase in foreign deferred tax
+assets based on the fair value of the transferred intellectual property rights. We recorded a deferred tax
+asset of $492.5 million, net of a reserve for uncertain tax positions of $197.0 million, and further reduced
+by a valuation allowance of $167.8 million. Based on available objective evidence, management believes that
+$167.8 million of the deferred tax asset, to the extent not offset by reserves for uncertain tax positions, is
+not more-likely-than-not to be realizable as of December 31, 2020 and, therefore, is offset by a valuation
+allowance. As such, a net deferred tax asset of $127.7 million was recognized along with a corresponding
+foreign deferred income tax benefit.
+
+Our valuation allowances are primarily the result of uncertainties regarding the future realization of
+tax attributes recorded in various jurisdictions. The measurement of deferred tax assets is reduced by a
+valuation allowance if, based upon available evidence, it is more likely than not that the deferred tax assets
+
+
+-----
+
+will not be realized. We have evaluated the realizability of our deferred tax assets in each jurisdiction by
+assessing the adequacy of expected taxable income, including the reversal of existing temporary differences,
+historical and projected operating results, and the availability of prudent and feasible tax planning
+strategies. In assessing our valuation allowance as of December 31, 2020, we considered all available evidence,
+including the magnitude of recent and current operating results, the duration of statutory carryforward
+periods, our historical experience utilizing tax attributes prior to their expiration dates, the historical volatility
+of operating results of these jurisdictions, and our assessment regarding the sustainability of their
+profitability. The weight we give to any particular item is, in part, dependent upon the degree to which it can
+be objectively verified. Certain jurisdictions for which we have historically recorded significant valuation
+allowances now have a sufficient history of sustained profitability as of December 31, 2020. During 2020,
+valuation allowances recorded against deferred tax assets, not associated with the intra-entity intellectual
+property rights transfer, decreased by $20.2 million.
+
+The 2020 impact of changes in valuation allowances to the effective tax rate was an unfavorable impact
+of $143.0 million, equating to a 69.0% unfavorable impact. There is also a $4.6 million change in the valuation
+allowance related to cumulative translation adjustments. We maintain valuation allowances of approximately
+$226.7 million as of December 31, 2020, which may be reduced in the future depending upon the achieved
+profitability of certain jurisdictions as well as the magnitude of the profitability.
+
+In 2017, we began operating under a tax holiday in one of our foreign jurisdictions. This tax holiday is
+in effect through 2022, and may be extended if certain additional requirements are met. The tax holiday is
+conditional based upon meeting certain employment and investment thresholds. The impact of the tax holiday
+in 2020 had no impact to tax expense or to our reported earnings per diluted share.
+
+**Reportable Operating Segments**
+
+The following table sets forth information related to our reportable operating business segments for
+the years ended December 31, 2020 and 2019.
+
+
+-----
+
+**Constant**
+**% Change** **Currency % Change[(1)]**
+
+**Year Ended December 31,** **Favorable (Unfavorable)**
+
+**2020** **2019** **2020 – 2019** **2020 – 2019**
+
+**(in thousands)**
+
+Revenues:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . $ 863,613 $ 640,515 34.8% 35.7%
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . 278,515 348,072 (20.0)% (19.2)%
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . 243,660 241,948 0.7% 1.5%
+
+Segment revenues . . . . . . . . . . . . . . . . . . 1,385,788 1,230,535 12.6% 13.5%
+Other businesses . . . . . . . . . . . . . . . . . . . . . . 163 58 181.0% 181.0%
+
+Total consolidated revenues . . . . . . . . . . . $1,385,951 $1,230,593 12.6% 13.5%
+
+Income from operations:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . $ 361,930 $ 204,868 76.7% 77.4%
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . 47,442 80,645 (41.2)% (40.4)%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . 63,314 70,326 (10.0)% (8.2)%
+
+Segment income from operations . . . . . . . 472,686 355,839 32.8% 33.7%
+
+Reconciliation of segment income from
+operations to income (loss) before income
+taxes:
+
+Other businesses . . . . . . . . . . . . . . . . . . . . (56,556) (54,936) (2.9)%
+
+Unallocated corporate and other[(2)] . . . . . . . (202,006) (172,254) (17.3)%
+
+Total consolidated income from
+operations . . . . . . . . . . . . . . . . . . . . . 214,124 128,649 66.4%
+
+Foreign currency gains (losses), net . . . . . . . . . $ (1,128) $ (1,323) 14.7%
+
+Interest income . . . . . . . . . . . . . . . . . . . . . . . 215 601 (64.2)%
+
+Interest expense . . . . . . . . . . . . . . . . . . . . . . (6,742) (8,636) 21.9%
+
+Other income, net . . . . . . . . . . . . . . . . . . . . . 510 31 1,545.2%
+
+Income before income taxes . . . . . . . . . $ 206,979 $ 119,322 73.5%
+
+(1) Reflects year over year change as if the current period results were in constant currency, which is a nonGAAP financial measure. See “Use of Non-GAAP Financial Measures” for more information.
+
+(2) “Unallocated corporate and other” includes corporate support and administrative functions, costs
+associated with share-based compensation, research and development, brand marketing, legal, and
+depreciation and amortization of corporate and other assets not allocated to operating segments.
+
+
+-----
+
+The primary drivers of changes in revenues by operating segment were:
+
+**2020 vs. 2019**
+
+**Volume** **Price[(1)]** **Foreign Exchange** **Total**
+
+**$ Change** **% Change** **$ Change** **% Change** **$ Change** **% Change** **$ Change** **% Change**
+
+**(in thousands)**
+
+Segment Revenues:
+Americas . . . . . . $104,080 16.2% $124,725 19.5% $ (5,707) (0.9)% $223,098 34.8%
+Asia Pacific . . . . . (76,302) (21.9)% 9,704 2.8% (2,959) (0.9)% (69,557) (20.0)%
+EMEA . . . . . . . . (3,417) (1.4)% 7,038 2.9% (1,909) (0.8)% 1,712 0.7%
+
+Total segment
+revenues . . . . $ 24,361 2.0% $141,467 11.5% $(10,575) (0.9)% $155,253 12.6%
+
+(1) The change due to price for revenues is based on ASP, as defined earlier in this section.
+
+**_Americas_**
+
+**_Revenues._** The Americas segment had the largest segment revenue growth for the year ended
+December 31, 2020, with significant increases due to both ASP and volume, slightly offset by negative
+currency fluctuations, primarily in the Brazilian Real. E-commerce revenues, which increased 80.9%, and
+wholesale revenues, which increased 42.0%, contributed to this growth, while we also saw growth in retail
+revenues of 3.1%, despite temporary store closures for part of the year as a result of the COVID-19 pandemic.
+ASP increased in all channels as a result of less promotional activity, product mix, price increases, and
+increased sales of charms per shoe, while higher volumes in our e-commerce and wholesale channels more
+than offset lower volume in our retail channel. This was in part a result of COVID-19-related closures that
+drove a consumer shift to online shopping.
+
+**_Income from Operations._** During the year ended December 31, 2020, income from operations for our
+Americas segment was $361.9 million, an increase of $157.1 million, or 76.7% from 2019. Gross profit for
+the year ended December 31, 2020 increased $174.1 million, or 48.9%, and gross margin increased 590 basis
+points to 61.4%, compared to the year ended December 31, 2019. Gross profit increased $132.7 million, or
+37.3%, due to higher ASP and lower AUC. ASP increased as a result of channel mix due to higher sales in our
+e-commerce channel, less promotional activity, and favorable product mix. This was further supplemented
+by lower AUC as a result of product mix, partially offset by channel mix and higher distribution center costs
+from the expansion of our U.S. distribution center. Gross profit also increased $43.6 million, or 12.2%,
+due to sales volume. Foreign currency translation decreased gross profit by $2.2 million, or 0.6%.
+
+During the year ended December 31, 2020, SG&A for our Americas segment increased by $17.0 million,
+or 11.3%, compared to 2019. This was primarily due to an increase in marketing costs of $10.2 million due
+to higher variable marketing associated with a higher share of e-commerce sales, $8.3 million of inventory
+donations associated with COVID-19, and an increase in other net costs of $3.5 million, in part due to
+bad debt expense recognized related to the impact of COVID-19 on our distributors. These increases were
+offset by a decrease of $5.0 million in compensation expense, primarily due to the temporary closure of, and
+reduction of store hours at, our retail stores during the year and the permanent elimination of certain
+roles in response to COVID-19.
+
+**_Asia Pacific Operating Segment_**
+
+**_Revenues._** The decrease in revenues in our Asia Pacific segment was primarily due to lower sales
+volumes in our wholesale and retail channels, as a result of store closures, decreased customer traffic, and
+lack of tourism, all of which were brought about by the pandemic. An increase in e-commerce revenues
+partially offset these declines. Foreign currency fluctuations, primarily in the Korean Won, also decreased
+revenue slightly. Increased ASP, due to channel mix, fewer promotions, less discounting, and increased
+sales of charms per shoe, partially offset these declines.
+
+
+-----
+
+**_Income from Operations._** During the year ended December 31, 2020, income from operations for our
+Asia Pacific segment was $47.4 million, a decrease of $33.2 million, or 41.2%. Gross profit for the year ended
+December 31, 2020 decreased $36.0 million, or 19.4%, while gross margin increased 40 basis points to
+53.8%, compared to the year ended December 31, 2019. The decrease in gross profit was largely due to lower
+volume of $34.1 million, or 18.4%, particularly in our wholesale channel, as a result of the lack of tourism
+in our distributors’ markets and temporary closures of our wholesale partners’ B&M stores during the
+pandemic. Foreign currency fluctuations also decreased gross profit by $1.5 million or 0.8%. Finally, higher
+ASP, net of AUC, of $2.0 million, due to the shift in direct-to-consumer revenues, was offset by a pandemicrelated inventory write-off of $2.4 million.
+
+During the year ended December 31, 2020, SG&A for our Asia Pacific segment decreased $2.8 million,
+or 2.6%, compared to the same period in 2019. This was due in part to reductions in compensation expense
+of $3.2 million due to the temporary and permanent elimination of certain roles in response to COVID-19,
+facilities expense of $3.2 million as a result of store closures in Australia and Hong Kong and COVID-19
+related rent abatements, primarily in Singapore, and travel and related costs of $2.0 million. These decreases
+were offset by an increase in SG&A from donations of inventory to frontline healthcare workers and other
+organizations of $1.4 million, higher bad debt expense of $1.2 million, in part due to the impact of
+COVID-19 on distributor partners, an increase in marketing costs of $1.2 million due to variable marketing
+associated with a higher share of e-commerce sales, and higher other net costs of $1.8 million.
+
+**_Europe, Middle East, and Africa Operating Segment_**
+
+**_Revenues._** The increase in revenues for our EMEA segment compared to the year ended December 31,
+2019, was due to increased ASP, primarily in our e-commerce channel as a result of less discounting, offset
+in part by lower volumes. E-commerce volume increases of 33.4% were more than offset by retail volume
+decreases of 36.4% and wholesale volume decreases of 2.7%, as consumers shifted to online shopping
+during the pandemic. Negative foreign currency fluctuations in the Russian Ruble, partially offset by positive
+fluctuations in the Euro, also reduced revenues.
+
+**_Income from Operations._** During the year ended December 31, 2020, income from operations for our
+EMEA segment was $63.3 million, a decrease of $7.0 million, or 10.0%. Gross profit for the year ended
+December 31, 2020 decreased $5.3 million, or 4.4%, and gross margin decreased by 250 basis points to 47.7%
+compared to the year ended December 31, 2019. The decrease in our EMEA segment gross profit was due
+to lower volumes of $3.6 million, or 3.0%, primarily in our retail channel, and negative foreign currency
+fluctuations of $1.3 million, or 1.1%. Higher AUC in our wholesale channel due to increased distribution
+costs at our EMEA distribution center was mostly offset by higher ASP in our e-commerce channel as a result
+of fewer promotions and discounts and price increases, for a total decrease to gross profit of $0.4 million
+or 0.3%.
+
+During the year ended December 31, 2020, SG&A for our EMEA segment increased $1.7 million, or
+3.3%, compared to the same period in 2019, primarily due to increased marketing cost of $2.5 million as a
+result of higher variable marketing associated with a higher share of e-commerce sales and increased other net
+costs of $0.7 million, offset by a reduction in compensation expense of $1.5 million.
+
+**_Other Businesses and Unallocated Corporate_**
+
+During the year ended December 31, 2020, total net costs within ‘Other businesses’ and ‘Unallocated
+corporate’ increased by $31.4 million, or 13.8%, compared to the same period in 2019. This increase was
+primarily due to a $20.0 million impairment to the right-of-use asset and store assets for a retail location in
+New York City, a $1.1 million impairment to the right-of-use asset for our former corporate headquarters,
+higher compensation expense of $13.2 million due to higher variable compensation and sales commissions
+associated with higher revenues, and an increase in facilities expense of $3.0 million due to duplicate rent
+costs associated with our new corporate headquarters and higher insurance premiums. These higher costs
+were partially offset by a lower investment in brand marketing of $4.4 million as a result of COVID-19 and
+decreases in travel, professional services, and other net costs of $1.5 million.
+
+
+-----
+
+**Store Locations and Comparable Store Sales**
+
+The table below illustrates the overall change in the number of our company-operated retail locations
+by type of store and reportable operating segment:
+
+**December 31,** **December 31,**
+**2019** **Opened** **Closed** **2020**
+
+Type:
+Outlet stores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 193 6 13 186
+Retail stores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 109 4 13 100
+Store-in-store . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65 1 1 65
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 367 11 27 351
+
+Operating segment:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 165 2 2 165
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 145 7 15 137
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57 2 10 49
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 367 11 27 351
+
+Digital sales, which includes sales through our company-owned website, third-party marketplaces, and
+e-tailers (which are reported in our wholesale channel), as a percent of total revenues, by operating segment
+were:
+
+**Year Ended December 31,**
+
+**2020** **2019**
+
+Digital sales as a percent of total revenues:
+
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38.5% 29.5%
+
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39.2% 28.1%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54.8% 39.9%
+
+Global . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41.5% 31.1%
+
+Comparable retail store sales and direct-to-consumer comparable sales by reportable operating
+segment are as follows:
+
+**Constant Currency[(1)]**
+
+**Year Ended December 31,**
+
+**2020** **2019**
+
+Comparable retail store sales[(2)]
+
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32.8% 18.8%
+
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (1.2)% (2.0)%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (5.4)% 5.0%
+
+Global . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21.2% 12.4%
+
+**Constant Currency[(1)]**
+
+**Year Ended December 31,**
+
+**2020** **2019**
+
+Direct-to-consumer comparable sales (includes retail and e-commerce)[(2)]
+
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54.4% 21.0%
+
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9.6% 5.6%
+
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29.7% 13.3%
+
+Global . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39.2% 16.0%
+
+
+-----
+
+(1) Reflects period over period change on a constant currency basis, which is a non-GAAP financial
+measure. See the “Use of Non-GAAP Financial Measures” section for additional information.
+
+(2) Comparable store status is determined on a monthly basis. Comparable store sales includes the
+revenues of stores that have been in operation for more than twelve months. Stores in which selling
+square footage has changed more than 15% as a result of a remodel, expansion, or reduction are excluded
+until the thirteenth month in which they have comparable prior year sales. Temporarily closed stores
+are excluded from the comparable store sales calculation during the month of closure and in the same
+month in the following year. Location closures in excess of three months are excluded until the thirteenth
+month post re-opening. E-commerce revenues are based on same site sales period over period.
+
+**_Liquidity and Capital Resources_**
+
+Our liquidity position as of December 31, 2020 was:
+
+**December 31,**
+**2020**
+
+**(in thousands)**
+
+Cash and cash equivalents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $135,802
+
+Available borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 319,400
+
+As of December 31, 2020, we had $135.8 million in cash and cash equivalents and up to $319.4 million
+in available borrowings under our Facility (as defined below), which was amended in March 2020 to provide
+additional flexibility and borrowing commitments to operate in a business landscape impacted by the
+COVID-19 pandemic. We also entered into two revolving credit facility agreements in Asia during 2020,
+which are discussed in more detail under “Asia Revolving Credit Facilities” below. Throughout the year, we
+took several defensive measures to maximize liquidity in response to COVID-19, including reducing
+expenses, primarily through the temporary and permanent elimination of certain corporate and regional
+roles, extending payment terms with vendors, managing inventory levels by constraining incoming supply and
+focusing on core product, deferring discretionary capital expenditures, and suspending our share repurchase
+and foreign currency exchange derivative programs for a portion of the year. We began to reinvest in the
+business in the second half of the year and resumed both our share repurchase and foreign currency exchange
+derivative programs. We plan to continue to closely monitor our costs and adjust as needed in response to
+changes in the market.
+
+As of December 31, 2020, we have largely returned to standard payment terms with our vendors and
+customers after encountering term extension requests from some customers, recognizing bad debt expense
+of $4.1 million in the year ended December 31, 2020 associated with global distributors as a result of the
+COVID-19 pandemic, and more strictly managing accounts payable in the first part of the year. Through
+December 31, 2020, we also received rent concessions from landlords of $6.0 million, the majority of which
+were either paid back during the year or are expected to be paid back by the end of 2021.
+
+We believe that our cash flows from operations, our cash and cash equivalents on hand, and available
+borrowings under our Facility and other financing agreements will be sufficient to meet our ongoing liquidity
+needs and capital expenditure requirements for at least the next twelve months. Additional future financing
+may be necessary to fund our operations and there can be no assurance that, if needed, we will be able to
+secure additional debt or equity financing on terms acceptable to us or at all, especially in light of the
+market volatility and uncertainty as a result of the COVID-19 outbreak. Although we believe we have
+adequate sources of liquidity over the long term, the success of our operations, the global economic outlook,
+and the pace of sustainable growth in our markets, in each case, in light of the market volatility and
+uncertainty as a result of the COVID-19 pandemic, among other factors, could impact our business and
+liquidity.
+
+**_Repatriation of Cash_**
+
+As a global business, we have cash balances in various countries and amounts are denominated in
+various currencies. Fluctuations in foreign currency exchange rates impact our results of operations and
+
+
+-----
+
+cash positions. Future fluctuations in foreign currencies may have a material impact on our cash flows and
+capital resources. Cash balances held in foreign countries may have additional restrictions and covenants
+associated with them which could adversely impact our liquidity and our ability to timely access and
+transfer cash balances between entities.
+
+All of the cash held outside of the U.S. could be repatriated to the U.S. without incurring additional
+U.S. federal income taxes. As of December 31, 2020, we held $71.1 million of our total $135.8 million in
+cash in international locations. This cash is primarily used for the ongoing operations of the business in the
+locations in which the cash is held. None of the $71.1 million held in international locations is limited by
+local regulations.
+
+**_Revolving Credit Facility_**
+
+In July 2019, Crocs, Inc. and certain of its subsidiaries (the “Borrowers”) entered into a Second
+Amended and Restated Credit Agreement (as amended, the “Credit Agreement”), with the lenders named
+therein and PNC Bank, National Association, as a lender and administrative agent for the lenders, which
+provides for a revolving credit facility of $500.0 million, which can be increased by an additional
+$100.0 million subject to certain conditions (the “Revolving Credit Facility”). Borrowings under the Credit
+Agreement bear interest at a variable rate based on (A) a domestic base rate (defined as the highest of (i) the
+Federal Funds open rate, plus 0.25%, (ii) the Prime Rate, and (iii) the Daily LIBOR rate, plus 1.00%), plus
+an applicable margin ranging from 0.25% to 0.875% based on our leverage ratio, or (B) a LIBOR rate, plus an
+applicable margin ranging from 1.25% to 1.875% based on our leverage ratio. Borrowings under the Credit
+Agreement are secured by all of the assets of the Borrowers and guaranteed by certain other subsidiaries of
+the Borrowers.
+
+The Credit Agreement requires us to maintain a minimum interest coverage ratio of 4.00 to 1.00, and a
+maximum leverage ratio of (i) 3.50 to 1.00 from the quarter ended December 31, 2020 to the quarter ended
+December 31, 2021 and (ii) 3.25 to 1.00 from the quarter ending March 31, 2022 and thereafter (subject to
+adjustment in certain circumstances). The Credit Agreement permits (i) stock repurchases subject to
+certain restrictions, including after giving effect to such stock repurchases, the maximum leverage ratio does
+not exceed certain levels; and (ii) certain acquisitions so long as there is borrowing availability under the
+Credit Agreement of at least $40.0 million. As of December 31, 2020, we were in compliance with all financial
+covenants under the Credit Agreement.
+
+As of December 31, 2020, the total commitments available from the lenders under the Revolving Credit
+Facility were $500.0 million. At December 31, 2020, we had $180.0 million in outstanding borrowings, which
+are due when the Revolving Credit Facility matures in July 2024, and $0.6 million in outstanding letters of
+credit under the Revolving Credit Facility, which reduces amounts available for borrowing under the Revolving
+Credit Facility. As of December 31, 2020 and 2019, we had $319.4 million and $240.4 million, respectively,
+of available borrowing capacity under the Revolving Credit Facility. Our borrowings may continue to fluctuate
+as we manage our liquidity needs.
+
+For more information on our Revolving Credit Facility, see “Description of Other Indebtedness—Asia
+Revolving Credit Facility.”
+
+**_Asia Revolving Credit Facilities_**
+
+Our revolving credit facility with China Merchants Bank Company Limited, Shanghai Branch (the
+“CMBC Facility”) provides up to 30.0 million RMB, or $4.6 million at current exchange rates, and matures
+in May 2021. For RMB loans under the CMBC Facility, interest is determined at the time of borrowing
+based on variable rates in effect at that time.
+
+The revolving credit facility with Citibank (China) Company Limited, Shanghai Branch (the “Citibank
+Facility”) provides up to an equivalent of $5.0 million and matures in June 2021. For RMB loans under the
+Citibank Facility, interest is based on a National Interbank Funding Center 1-year prime rate, plus 65
+basis points. For USD loans under the Citibank Facility, interest is based on a LIBOR rate, plus 1.5%.
+
+We had no borrowings under our Asia revolving facilities during the years ended December 31, 2020
+and 2019 or outstanding at December 31, 2020 or 2019.
+
+
+-----
+
+For more information on our CMBC Facility and our Citibank Facility, see “Description of Other
+Indebtedness—Asia Revolving Credit Facilities.”
+
+**Consolidated Statements of Cash Flows**
+
+Our consolidated statements of cash flows are summarized as follows:
+
+**Year Ended December 31,**
+**$ Change**
+**2020** **2019** **2020 – 2019**
+
+**(in thousands)**
+
+Cash provided by operating activities . . . . . . . . . . . . . . . . . . . . . . . . $ 266,902 $ 89,958 $ 176,944
+Cash used in investing activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . (41,762) (36,236) (5,526)
+Cash used in financing activities . . . . . . . . . . . . . . . . . . . . . . . . . . . (198,038) (68,638) (129,400)
+Effect of exchange rate changes on cash, cash equivalents, and
+restricted cash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126 (569) 695
+
+Net change in cash, cash equivalents, and restricted cash . . . . . . . . . . $ 27,228 $(15,485) $ 42,713
+
+**_Operating Activities._** Our primary source of liquidity is cash provided by operating activities,
+consisting of net income adjusted for non-cash items and changes in working capital. Cash provided by
+operating activities increased $176.9 million for the year ended December 31, 2020 compared to the year
+ended December 31, 2019. This change was driven by higher net income adjusted for non-cash items of
+$66.7 million, offset by a net decrease in operating assets and liabilities of $243.7 million.
+
+**_Investing Activities._** The $5.5 million increase in cash used in investing activities for the year ended
+December 31, 2020 compared to the year ended December 31, 2019 is primarily due to the relocation of our
+Corporate headquarters in Broomfield and continued investment in our U.S. distribution center.
+
+**_Financing Activities._** The $129.4 million increase in cash used in financing activities for the year ended
+December 31, 2020 compared to the year ended December 31, 2019 resulted primarily from a decrease in
+borrowings of $110.0 million, net of repayments, on our Facility and an increase of $23.6 million in
+repurchases of our common stock, as detailed below. The increase was offset by less cash used in other
+financing activities of $3.0 million, associated with the final payment made in 2019 related to the conversion
+of our Series A Convertible Preferred Stock that did not recur in the current year, and $1.2 million,
+primarily due to costs associated with amending the Credit Agreement that did not recur in the current
+year.
+
+**_Stock Repurchases_**
+
+On February 20, 2018, the Board of Directors approved and authorized a program to repurchase up to
+$500.0 million of our common stock, and on May 5, 2019, the Board approved an increase to the repurchase
+authorization of an additional $500.0 million of our common stock. The number, price, structure, and
+timing of the repurchases are at our sole discretion and may be made depending on market conditions,
+liquidity needs, restrictions under our revolving credit facility, and other factors. The Board of Directors may
+suspend, modify, or terminate the program at any time without prior notice. Share repurchases may be
+made in the open market or in privately negotiated transactions. The repurchase authorization does not have
+an expiration date and does not obligate us to acquire any amount of our common stock. Under Delaware
+state law, these shares are not retired, and we have the right to resell any of the shares repurchased.
+
+We repurchased 3.2 million shares of our common stock at a cost of $170.8 million, including
+commissions, during the year ended December 31, 2020. This includes 1.5 million shares delivered under a
+$125.0 million November 2020 accelerated share repurchase arrangement (“ASR”). Under the ASR, a
+financial institution delivers shares of our common stock during the purchase period in exchange for an upfront payment. The total number of shares ultimately delivered under the ASR, and therefore the average
+repurchase price paid per share, is determined based on the volume-weighted average price of our common
+stock during the purchase period. The purchase period for this ASR ended in January 2021, at which
+time an additional 0.5 million shares were delivered. The shares received are recorded in the periods they are
+
+
+-----
+
+delivered, and the up-front payment is accounted for as a reduction to stockholders’ equity in our
+consolidated balance sheet in the period the payment is made.
+
+During the year ended December 31, 2019, we repurchased 6.1 million shares of our common stock at
+a cost of $147.2 million, including commissions. See Note 10—Equity in the accompanying notes to the
+audited consolidated financial statements included elsewhere in this offering memorandum for more
+information on our repurchases and repurchase authorizations.
+
+**_Off-Balance Sheet Arrangements_**
+
+We had no material off-balance sheet arrangements as of December 31, 2020, other than certain
+purchase commitments, which are described in Note 15—Commitments and Contingencies in the
+accompanying notes to the audited consolidated financial statements included elsewhere in this offering
+memorandum.
+
+**_Contractual Obligations_**
+
+The following table summarizes aggregate information about our significant contractual cash obligations
+as of December 31, 2020:
+
+**Less than** **More than**
+**Total** **1 Year** **1 – 3 Years** **3 – 5 Years** **5 Years**
+
+**(in thousands)**
+
+Operating lease obligations[(1)] . . . . . . . . . . . . . . $225,273 $ 50,559 $ 71,579 $ 34,803 $68,332
+
+Inventory purchase obligations with third-party
+manufacturers[(2)] . . . . . . . . . . . . . . . . . . . . . 220,800 220,800 — — —
+
+Other contracts[(3)] . . . . . . . . . . . . . . . . . . . . . . 96,377 26,674 29,122 18,501 22,080
+
+Minimum licensing royalties[(4)] . . . . . . . . . . . . . 722 697 25 — —
+
+Debt obligations[(5)] . . . . . . . . . . . . . . . . . . . . . 180,000 — — 180,000 —
+
+Interest on debt obligations[(6)] . . . . . . . . . . . . . . 13,030 3,650 7,300 2,080 —
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $736,202 $302,380 $108,026 $235,384 $90,412
+
+(1) Our operating lease obligations consist of leases for real estate, which includes retail, warehouse,
+distribution center, and office spaces, expiring at various dates through 2033. This balance represents
+the minimum cash commitment under contract to various third parties for operating lease obligations.
+
+(2) Our inventory purchase obligations with third-party manufacturers consist of open purchase orders for
+footwear products and include an immaterial amount of purchase commitments with certain
+third-party manufacturers for yet-to-be-received finished product where title passes to us upon receipt.
+All purchase obligations with third-party manufacturers are expected to be paid within one year.
+
+(3) Other contracts include $36.1 million of future lease commitments related to our new distribution
+center in the Netherlands, which is expected to be fully operational in 2021, and $31.5 million of
+operating costs related to our new third-party operated distribution center in Japan.
+
+(4) Our minimum licensing royalties consist of usage-based payments for the right to use various licenses,
+trademarks and copyrights in the production of our footwear and accessories. Royalty obligations are
+based on minimum guarantees under contract; however, may include additional royalty obligations
+based on sales volume that are not determinable for future periods.
+
+(5) Our debt obligations consist of long-term borrowings on our Facility, maturing in July 2024.
+
+(6) Future interest payment obligations, which are estimated by assuming the amounts outstanding under
+our Facility and the interest rates in effect as of December 31, 2020, will remain constant into the future.
+This is only an estimate, as actual amounts borrowed and rates will vary over time, based on a domestic
+base rate or LIBOR rate, as described in the “Revolving Credit Facility” section.
+
+Excluded from the table above is a $205.8 million liability for unrecognized tax benefits as of
+December 31, 2020, as we cannot make a reliable estimate of the period in which the liability will be settled,
+if ever.
+
+
+-----
+
+**Critical Accounting Policies and Estimates**
+
+**_General_**
+
+Our discussion and analysis of financial condition and results of operations, outside of discussions
+regarding constant currency and non-GAAP financial measures, is based on the consolidated financial
+statements, which have been prepared in accordance with GAAP. The preparation of these financial statements
+requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, and
+contingencies as of the date of the financial statements and the reported amounts of revenues and expenses
+during the reporting periods. We evaluate our assumptions and estimates on an on-going basis.
+
+An accounting policy is considered to be critical if it is important to our results of operations, financial
+condition, and cash flows, and requires significant judgment and estimates on the part of management in
+its application. Our estimates are often based on historical experience, complex judgments, assessments of
+probability, and assumptions that management believes to be reasonable, but that are inherently uncertain
+and unpredictable. We believe that the following discussion represents those accounting policies that are
+the most critical to the reporting of our financial condition and results of operations. For a discussion of our
+significant accounting policies, see Note 1—Basis of Presentation and Summary of Significant Accounting
+Policies in the accompanying notes to the audited consolidated financial statements included elsewhere in
+this offering memorandum.
+
+**_Reserves for Uncollectible Accounts Receivable, Sales Returns, Allowances, Discounts, and Rebates_**
+
+We make ongoing estimates related to the collectability of our accounts receivable and maintain a reserve
+for estimated losses resulting from the inability or unwillingness of our customers to make required payments.
+Our estimates are based on a variety of factors, including the length of time receivables are past due,
+economic trends and conditions affecting our customer base, significant non-recurring events, and historical
+write-off experience. Specific provisions are recorded for individual receivables when we become aware of
+a customer’s inability or unwillingness to meet its financial obligations. Because we cannot predict future
+changes in the financial stability of our customers, actual future losses from uncollectible accounts may differ
+from our estimates and we may experience changes in the amount of reserves we recognize for accounts
+receivable that we deem uncollectible. If the financial condition of our customers were to deteriorate, resulting
+in their inability to make payments, a larger reserve might be required. In the event we determine that a
+smaller or larger reserve is appropriate, we would record a credit or a charge, respectively, to ‘Selling, general
+and administrative expenses’ in our consolidated statement of operations in the period in which we made
+such a determination.
+
+Additionally, a significant area of judgment affecting reported revenues and net income involves
+estimating reserves for sales returns, allowances, discounts, and rebates, which represent the portion of
+revenues not expected to be realized. Wholesale revenues are reduced by estimates of returns, allowances,
+discounts, contractual discounts to major customers, and rebates. We also may accept returns from our
+wholesale customers, on an exception basis, to ensure that our products are merchandised in the proper
+assortments, and may provide markdown allowances at our sole discretion to key wholesalers and distributors
+to facilitate sales of slower moving products. Further, we record reductions to revenues for estimated
+customer credits as a result of price markdowns in certain markets. Revenues in our retail and e-commerce
+channels are also reduced by an estimate of returns.
+
+Our estimated sales returns and allowances are based on customer return history and actual outstanding
+returns yet to be received. Changes to our estimates for customer returns, allowances, discounts, and rebates
+may be caused by many factors, including, but not limited to whether customers accept our new styles,
+customer inventory levels, shipping delays or errors, known or suspected product defects, the seasonal nature
+of our products, and macroeconomic factors affecting our customers. Historically, actual amounts of
+customer returns, allowances, discounts, and rebates have not differed significantly from our estimates. A
+hypothetical 1% increase in our reserves for returns, allowances, discounts, and rebates as of December 31,
+2020 would have an immaterial impact on our 2020 revenues.
+
+See Schedule II in the audited consolidated financial statements included elsewhere in this offering
+memorandum for an analysis of the activity in our reserves for uncollectible accounts receivable, sales
+returns, allowances, and discounts.
+
+
+-----
+
+**_Impairment of Long-Lived Assets_**
+
+Property and equipment along with other long-lived assets are evaluated for impairment periodically
+whenever events or changes in circumstances indicate that their carrying values may not be fully recoverable.
+Testing of long-lived assets for impairment is at the level of an asset group, which is the lowest level for
+which identifiable cash flows are largely independent of the cash flows of other assets and liabilities. In our
+retail business, the asset group for impairment testing is each individual retail store. In evaluating long-lived
+assets for recoverability, we use our best estimate of future cash flows expected to result from the use of
+the asset and its eventual disposition, where applicable. To the extent that estimated future undiscounted net
+cash flows attributable to the asset are less than its carrying value, an impairment loss is recognized equal
+to the difference between the carrying value of such asset and its fair value. Assets to be disposed of and for
+which there is a committed plan of disposal are reported at the lower of carrying value or fair value, less
+costs to sell.
+
+In determining future cash flows, we take various factors into account, including the remaining useful
+life of each asset group, forecasted growth rates, pricing, working capital, capital expenditures, and other
+cash needs specific to the asset group. Additional considerations when assessing impairment include changes
+in our strategic operational and financial decisions, global and regional economic conditions, demand for
+our product and other corporate initiatives which may eliminate or significantly decrease the realization of
+future benefits from our long-lived assets. Since the determination of future cash flows is an estimate of future
+performance, future impairments may arise in the event that future cash flows do not meet expectations.
+
+In 2020, we recorded non-cash impairments of $20.0 million to reduce the net carrying value of
+certain long-lived assets to their estimated fair values for a retail store in New York City and $1.1 million
+for our former corporate headquarters. During 2019, we did not record any impairment charges. During 2018,
+we recorded non-cash impairment of $2.2 million to reduce the net carrying value of certain long-lived
+assets to their estimated fair values, including $1.3 million to reduce the carrying values of certain supply
+chain assets related to the closure of our Mexico and Italy manufacturing and distribution facilities and
+$0.9 million related to underperforming company-operated retail stores. See Note 3—Property and
+Equipment, Net in the accompanying notes to the audited consolidated financial statements included
+elsewhere in this offering memorandum for further information related to long-lived asset impairments.
+
+**_Income Taxes_**
+
+As a result of the Tax Act, we recorded provisional estimates in accordance with GAAP, during 2017
+in relation to the revaluation of our net deferred tax assets at the lower U.S. corporate income tax rate and
+the additional tax expense associated with the deemed repatriation tax. During the year ended December 31,
+2018, we recorded measurement period adjustments related to the provisional estimates. We have not
+changed our indefinite reinvestment assertion, and we have elected to account for the impact of global
+intangible low tax income (“GILTI”) based on the period cost method. While we consider our accounting
+for the Tax Act to be complete, we continue to evaluate new guidance and legislation as it is issued.
+
+During the three months ended December 31, 2020, we completed an intra-entity transfer of certain
+intellectual property rights primarily to align with current and future international operations. This
+transaction was executed using transfer pricing guidelines issued by the relevant taxing authorities. Significant
+estimates and assumptions were required to compute the valuation of this transaction. These estimates
+and assumptions include, but are not limited to, estimated future revenue growth and discount rates, which
+by their nature are inherently uncertain therefore may ultimately differ materially from our actual results.
+
+We have recorded certain tax reserves to address potential differences involving our income tax
+positions. These potential tax liabilities result from the varying application of statutes, rules, regulations and
+interpretations by different taxing jurisdictions. While our tax position is not uncertain, because of the
+significant estimates used in the value of certain intellectual property rights, our tax reserves contain
+assumptions based on past experiences and judgments about the interpretation of statutes, rules and
+regulations by taxing jurisdictions. It is possible that the costs of the ultimate tax liability or benefit from
+these matters may be materially more or less than the amount that we estimated.
+
+We account for income taxes using the asset and liability method, which requires the recognition of
+deferred tax assets and liabilities for the expected future tax consequences of temporary differences between
+
+
+-----
+
+the carrying amounts and the tax bases of other assets and liabilities. We provide for income taxes at the
+current and future enacted tax rates and laws applicable in each taxing jurisdiction. We account for the tax
+effects of GILTI as a component of income tax expense in the period the tax arises, to the extent applicable.
+We use a two-step approach for recognizing and measuring tax benefits taken or expected to be taken in a
+tax return and disclosures regarding uncertainties in income tax positions. The impact of an uncertain tax
+position that is more likely than not to be sustained upon examination by the relevant taxing authority must
+be recognized at the largest amount that is more likely than not to be sustained. No portion of an uncertain
+tax position will be recognized if the position has less than a 50% likelihood of being sustained. Interest
+expense is recognized on the full amount of deferred benefits for uncertain tax positions. While the validity
+of any tax position is a matter of tax law, the body of statutory, regulatory and interpretive guidance on the
+application of the law is complex and often ambiguous. We recognize interest and penalties related to
+unrecognized tax benefits within the ‘Income tax expense (benefit)’ line in the accompanying consolidated
+statements of operations. Accrued interest and penalties are included within the related tax liability line in the
+consolidated balance sheets.
+
+We evaluate our ability to realize the tax benefits associated with deferred tax assets by analyzing our
+forecasted taxable income using both historical and projected future operating results, the reversal of existing
+temporary differences, taxable income in prior carry back years (if permitted) and the availability of tax
+planning strategies. A valuation allowance is required unless management determines that it is more likely
+than not that we will ultimately realize the tax benefit associated with a deferred tax asset. We determine on
+a regular basis the amount of undistributed earnings that will be indefinitely reinvested in our non-U.S.
+operations. This assessment is based on the cash flow projections and operational and fiscal objectives of
+each of our U.S. and foreign subsidiaries. Foreign withholding taxes have not been provided on cumulative
+undistributed foreign earnings of the non-U.S. subsidiaries as of December 31, 2020, which are considered to
+be indefinitely reinvested outside of the U.S.
+
+See Note 13—Income Taxes in the accompanying notes to the audited consolidated financial statements
+included elsewhere in this offering memorandum for further information related to income taxes.
+
+**Recent Accounting Pronouncements**
+
+See Note 2—Recent Accounting Pronouncements in the accompanying notes to the audited
+consolidated financial statements included elsewhere in this offering memorandum for a description of
+recently adopted accounting pronouncements, and issued accounting pronouncements that we believe may
+have an impact on our consolidated financial statements when adopted.
+
+
+-----
+
+**BUSINESS**
+**The Company**
+
+We are engaged in the design, development, worldwide marketing, distribution, and sale of casual
+lifestyle footwear and accessories for women, men, and children. We strive to be the world leader in
+innovative casual footwear, combining comfort and style with a value that consumers want. The vast majority
+of shoes within our collection contain Croslite™material, a proprietary, molded footwear technology,
+delivering extraordinary comfort with each step.
+
+**Products**
+
+Since we first introduced a single-style clog in six colors in 2002, we have grown to be a world leader of
+innovative, casual footwear for women, men, and children. Recognized globally for our unmistakable iconic
+clog silhouette, we have taken the successful formula of a simple design aesthetic, paired it with modern
+comfort, and expanded into a wide variety of casual footwear products including sandals—wedges, flips, and
+slides—that meet the needs of the whole family. Our mission of “everyone comfortable in their own shoes”
+continued in 2020 with the fourth year of our global “Come As You Are™” campaign.
+
+We offer a broad portfolio of all-season products, while remaining true to our core molded footwear
+heritage. The vast majority of Crocs™shoes feature Croslite™material, a proprietary, revolutionary
+technology that gives each pair of shoes the soft, comfortable, lightweight, non-marking, and odor-resistant
+qualities that our fans know and love.
+
+At the heart of our brand’s DNA are our clogs, sandals, and Jibbitz™charms. The Classic Clog, our
+most iconic style for adults and children, embodies our innovation in molding, simplicity of design, and allday comfort. The unique feel of the Classic Clog can be experienced throughout the vast majority of our
+product line due to the use and design of Croslite™. Sandals are a natural extension of our brand, leveraging
+our signature molding technology to provide casual, comfortable footwear for a variety of wearing
+occasions. Jibbitz™charms enhance the consumer experience by providing an outlet for customization and
+heightening our message of “Come As You Are™.”
+
+We also use Croslite™material formulations in connection with new material technologies used in our
+LiteRide™collection, as we focus on visible comfort technology. LiteRide™features comfort-focused,
+proprietary foam insoles which are soft, lightweight, and resilient.
+
+We strive to provide our global consumers with comfortable, casual, colorful, and innovative footwear
+styles, with a focus on molded product. Our collections address many wearing occasions and meet the needs
+of the entire family. We enjoy licensing partnerships with Disney, including Marvel and Lucasfilm, Universal
+Studios, Nintendo, and Warner Bros., among others, which allow us to bring popular global franchises and
+characters to life on our product in a fun, exciting way.
+
+**Environmental, Social, and Governance (“ESG”) Initiatives**
+
+As one of the world’s largest footwear companies, we strive to make a positive impact on the global
+footwear industry and our planet by committing to transparent, socially conscious, and sustainable business
+practices.
+
+Through our ESG Program, we expect to continue to advance our sustainable business practices with
+the goal of consistently delivering products that exceed customer and consumer expectations. We believe the
+progress of our ESG efforts is best served by disclosing goals and relevant metrics, and, to this end, we are
+aligning our program with the United Nations SDGs and the SASB framework for reporting and disclosure
+in order to establish specific goals, targets, and policies to enhance our ESG progress.
+
+**_Environmental_**
+
+We are committed to reducing our impact on the environment by focusing on sustainability initiatives
+in our operations and throughout our supply chain and product lifecycle.
+
+In 2020, we identified four key areas of focus: (i) incorporating more sustainable product ingredients;
+(ii) disclosing efforts and progress towards reducing greenhouse gas (“GHG”) emissions, energy, water
+
+
+-----
+
+consumption, and waste; (iii) transitioning to more environmentally friendly packaging; and (iv) exploring
+sustainable solutions for product end of life.
+
+We have also joined the Sustainable Apparel Coalition (“SAC”) for the purpose of baselining and
+establishing goals across emissions, energy and water use, and waste reduction/disposal for both our internal
+brand activities as well as our factory partners. Crocs is also working to align with Science-Based Targets
+for the purpose of developing meaningful GHG emissions reduction goals that support the prevention of
+climate change.
+
+**_Social_**
+
+_Human Capital_
+
+At Crocs, our vision to make “everyone comfortable in their own shoes” starts with our people. As of
+December 31, 2020, we employed approximately 4,600 employees in the Americas, EMEA, and Asia Pacific.
+This includes approximately 2,600 employees in our retail stores, 1,000 employees at our corporate/
+regional offices, and 1,000 employees at our distribution centers.
+
+We are committed to the health and safety of our employees and customers. In response to COVID-19,
+our corporate offices, retail stores, and distribution centers have implemented various elevated safety protocols,
+in accordance with local guidelines and regulations, including temperature checks, mandatory mask
+policies, social distancing, access to hand sanitizer, plexiglass partitions, and enhanced cleaning of the
+facilities. To support our workforce, we also implemented a supplemental sick policy for our U.S. workforce
+with additional hours available for paid time off related to COVID-19.
+
+To ensure that we remain an employer of choice for what we believe is the most talented workforce in
+the footwear industry, we have implemented initiatives across our business and geographies to develop
+leadership capabilities, enable meaningful professional experiences, offer a compelling employee value
+proposition, and create a transparent, collaborative culture that “celebrates one-of-a-kinds and stands
+together with all different kinds.” We are also committed to an equitable total rewards philosophy as well as
+pay transparency in all regions.
+
+We are proud of our culture of inclusion, which encompasses regular employee listening, employee-led
+inclusivity councils, and diversity at all levels. Crocs strives to create a culture of inclusion where employees
+can freely contribute equally regardless of gender, age, ethnicity, disability, or sexual orientation. Our Code of
+Ethics codifies these values.
+
+Investing in talent is a key component of our human capital strategy. Crocs is committed to identifying
+and developing the next generation of leadership. We conduct an annual talent and succession review with
+our CEO and Board of Directors (“Board”) with a focus on accelerating talent development, strengthening
+succession pipelines, and advancing diversity representation for our most critical roles.
+
+We continue to emphasize employee development and training. We have established a culture of
+learning and development, with robust training at all levels on a wide range of topics from Leading for
+Respect and Inclusion, Thriving through Adversity (for instance, during the COVID-19 pandemic), Leading
+for Innovation, and Facilitating Team Communication.
+
+Crocs is committed to providing an employee value proposition that is compelling, market-competitive,
+and performance-based. Our compensation programs, practices, and policies reflect our commitment. We
+aim to generally position total direct compensation within a competitive range of the market median, with
+differentiation based on tenure, skills, proficiency, and performance to attract and retain key talent.
+
+Our regular employee engagement surveys reflect a highly engaged global workforce, with, among others,
+high scores returned by employees recommending “Crocs as a great place to work” and saying “it is easy for
+people with diverse backgrounds to be accepted.”
+
+_Social Capital_
+
+At Crocs, we strive to ensure our products are sourced, produced, and delivered to our customers in a
+manner that upholds international labor and human rights standards. To this end, we have implemented
+
+
+-----
+
+measures to ensure our supply chain complies with these standards, including utilizing internal and external
+parties to conduct both scheduled and unannounced social compliance reviews. We also maintain a
+factory Social Compliance Code of Conduct and a certification process—our contracted factories and
+direct suppliers sign an annual Statement of Compliance, verifying that their operations are in compliance
+with all local laws and customs regarding hiring practices, wages, and working conditions, as well as our Code
+of Conduct.
+
+We also monitor chemicals and substances in our supply chain for compliance with legal and regulatory
+requirements consistent with our Restricted Substances Policy and expect our contracted factories and
+suppliers to take a proactive stance in eliminating any hazardous chemicals or substances in the manufacture
+of Crocs products.
+
+_Community_
+
+Giving back to the community is extremely important to us. Through our global “Crocs Cares”
+program, we focus on providing shoes to address human needs, funds to support those in need, and time to
+enable our employees to support their local communities. To this end, we have donated over one million
+pairs of shoes in the past five years, and in 2020 donated over 860,000 pairs of shoes to frontline healthcare
+workers and other organizations as part of our “A Free Pair for Healthcare” program.
+
+**_Governance_**
+
+At Crocs, we have strong corporate governance mechanisms in place, along with robust internal
+controls over our financial reporting framework. We also have Enterprise Risk Management and Ethics &
+Compliance program frameworks, with regular updates provided to our Board committees as well as our
+Board. For our ESG efforts, Crocs has established an ESG/sustainability management and oversight
+framework under the direction of our Executive Vice President, Chief Legal & Risk Officer. The Governance
+and Nominating Committee of our Board oversees our ESG efforts.
+
+Our commitment to diversity and inclusion is reflected in our Board, comprised of 38% female
+members as of December 31, 2020. We are continuing efforts to expand our Board’s diversity.
+
+**Sales and Marketing**
+
+We run our business across three geographic regions: the Americas, Asia Pacific, and EMEA, which
+are discussed in more detail in “Business Segments and Geographic Information” below. We prioritize five
+core markets including: (i) the U.S., (ii) Japan, (iii) China, (iv) South Korea, and (v) Germany. These countries
+represent key geographies where we believe the greatest opportunities for growth exist. We also concentrate
+our marketing efforts on these countries, to increase customer awareness of both our brand and our full
+product range.
+
+Each season, we focus on presenting a compelling brand story and experience for our new product
+introductions as well as our on-going core products. We employ social and digital marketing centered on
+showcasing our clog and sandal silhouettes and our Jibbitz™charms. We are growing our clog silhouette with
+new colors, graphics, licensed images, embellishments, and accessories, such as Jibbitz™charms, that allow
+for personalization. We are expanding our sandal offerings as we pursue a greater share of a large market that
+currently has no clear global leader. We are continuing to invest in designer, celebrity, and brand
+collaborations, as well as celebrity brand ambassadors to raise consumer engagement with our brand. See
+Note 1—Basis of Presentation and Summary of Significant Accounting Policies in the accompanying notes
+to the audited consolidated financial statements included elsewhere in this offering memorandum for
+information on total marketing costs for the year.
+
+**Distribution Channels**
+
+The broad appeal of our footwear has allowed us to market our products in more than 80 countries
+through three distribution channels: wholesale, retail, and e-commerce. Our wholesale channel includes
+domestic and international multi-brand retailers, mono-branded partner stores, e-tailers, and distributors;
+our retail channel consists of company-operated stores; and our e-commerce channel includes companyoperated e-commerce sites and third-party marketplaces.
+
+
+-----
+
+**_Wholesale Channel_**
+
+During the years ended December 31, 2020, 2019, and 2018, 50.0%, 53.3%, and 53.1% of revenues,
+respectively, were derived through our wholesale channel. Our wholesale channel includes domestic and
+international, multi-brand, B&M retailers, e-tailers, and distributors in certain countries, including partner
+store operators. B&M customers typically include family footwear retailers, national and regional retail chains,
+sporting goods stores, and independent footwear retailers. In 2020, as a result of the COVID-19 pandemic,
+many of our wholesale B&M retailers were closed for a portion of the year.
+
+Outside the U.S., we use distributors when we believe such arrangements are economically preferable to
+direct sales. Distributors purchase products pursuant to a price list and are granted the right to resell those
+products in a defined territory, usually a country or group of countries. Our typical distribution agreements
+have terms of one to five years and can be terminated or renegotiated if minimum requirements or other
+terms are not met. In 2020, as a result of the COVID-19 pandemic, many of our distributors’ stores were
+closed for a portion of the year and in many cases experienced lower traffic due to the decline in tourism.
+
+No single wholesale customer accounted for 10% or more of our total revenues for any of the years
+ended December 31, 2020, 2019, and 2018.
+
+**_Retail Channel_**
+
+During the years ended December 31, 2020, 2019, and 2018, 24.1%, 28.2%, and 30.1%, respectively, of
+our revenues were derived through our retail channel. During 2020, as a result of the COVID-19 pandemic,
+our global retail stores were closed for a portion of the year. However, the vast majority of our stores
+were open as of December 31, 2020. We operate our retail channel through three platforms: companyoperated full-price retail stores, outlet stores, and store-in-store locations. With the continued worldwide
+consumer shift toward e-commerce, we are carefully managing our retail fleet, especially full-priced retail
+stores. As of December 31, 2020, we had 351 company-operated stores. See “Management’s Discussion and
+Analysis of Financial Condition and Results of Operations”for information on store locations by platform.
+
+_Full-Price Retail Stores_
+
+Our company-operated full-price retail stores allow us to effectively showcase the full extent of our
+product range to consumers and provide us with the opportunity to interact with those consumers directly.
+We believe the optimal location for our full-price retail stores is in high foot-traffic shopping malls or districts.
+
+_Outlet Stores_
+
+Our company-operated outlet stores allow us to sell discontinued and overstocked merchandise directly
+to consumers at discounted prices. We also sell full-priced products in certain of our outlet stores as well as
+built-for-outlet products. Outlet stores are generally located within outlet shopping centers.
+
+_Store-in-Store Locations_
+
+Our company-operated store-in-store locations allow us to market specific product lines, with flexibility
+to tailor products to consumer preferences in shopping malls and other high foot-traffic areas. With efficient
+use of retail space, and limited fixed cost and capital investment, we believe store-in-store locations can be
+effective vehicles for selling our products in certain geographic areas.
+
+
+-----
+
+_Company-Operated Retail Stores_
+
+The following table illustrates the net change during 2020 in the number of our company-operated
+retail stores by reportable operating segment and country:
+
+**December 31,** **December 31,**
+**2019** **Opened** **Closed** **2020**
+
+**Americas**
+
+United States . . . . . . . . . . . . . . . . . . . . . . . . . . . 153 2 1 154
+Canada . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 — 1 8
+Puerto Rico . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 — — 3
+
+Total Americas . . . . . . . . . . . . . . . . . . . . . . . . 165 2 2 165
+**Asia Pacific**
+
+Korea . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85 5 — 90
+China . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 1 6 18
+Japan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 — — 12
+Singapore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 — — 17
+
+Australia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 1 8 —
+
+Hong Kong . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 — 1 —
+
+Total Asia Pacific . . . . . . . . . . . . . . . . . . . . . . 145 7 15 137
+
+**EMEA**
+
+Russia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 2 6 26
+
+Germany . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 — 1 14
+
+France . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 — 2 4
+
+Austria . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 — 1 3
+
+The Netherlands . . . . . . . . . . . . . . . . . . . . . . . . 2 — — 2
+
+Total EMEA . . . . . . . . . . . . . . . . . . . . . . . . . 57 2 10 49
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 367 11 27 351
+
+**_E-commerce Channel_**
+
+As of December 31, 2020, we offered our products through 13 company-operated e-commerce sites
+worldwide and also on third-party marketplaces. During the years ended December 31, 2020, 2019, and
+2018, 25.9%, 18.5%, and 16.8%, respectively, of our revenues were derived through this channel. Our
+e-commerce presence facilitates increased access to our consumers and provides us with an opportunity to
+educate them about our products and brand. We continue to leverage increasingly sophisticated digital
+marketing activities to enhance the consumer experience and drive sales, thereby benefiting from the
+continued migration of consumers to online shopping.
+
+**Business Segments and Geographic Information**
+
+We have three reportable operating segments based on the geographic nature of our operations: the
+Americas, Asia Pacific, and EMEA. See “Management’s Discussion and Analysis of Financial Condition
+and Results of Operations” and Note 16—Operating Segments and Geographic Information in the
+accompanying notes to the audited consolidated financial statements included elsewhere in this offering
+memorandum for financial information related to our operating segments.
+
+**Raw Materials**
+
+Croslite™, our proprietary closed-cell resin brand, incorporates the primary material formulations
+used in the vast majority of our footwear and some of our accessories. Our Croslite™materials are
+formulated to create soft, comfortable, lightweight, non-marking, and odor-resistant footwear. We continue
+
+
+-----
+
+to invest in research and development to refine our materials to enhance these properties and develop new
+properties for specific applications.
+
+Croslite™is produced by compounding elastomer resins purchased from major chemical manufacturers,
+together with certain other production inputs such as color dyes. Multiple suppliers produce the elastomer
+resins used in the Croslite™material. In the future, we may identify and utilize materials produced by other
+suppliers as an alternative to, or in addition to, those elastomer resins. All of the other raw materials that
+we use to produce the Croslite™formulations are readily available for purchase from multiple suppliers.
+
+Some of the products we offer are constructed using leather, textile fabrics, or other material
+formulations, such as those we brand LiteRide™. These materials are obtained from a number of third-party
+sources and we believe these materials are also broadly available.
+
+**Sourcing**
+
+Our strategy is to maintain a flexible, globally-diversified, cost-efficient third-party manufacturing
+base. We source our inventory production from multiple third-party manufacturers, primarily in Vietnam
+and China. During the years ended December 31, 2020, 2019, and 2018, our largest third-party manufacturer,
+operating in both Vietnam and China, produced approximately 46%, 38%, and 45%, respectively, and our
+second largest third-party manufacturer, also operating in both Vietnam and China, produced approximately
+22%, 17%, and 15%, respectively, of our footwear unit volume. We believe that the manufacturing
+capabilities required to produce our footwear are broadly available. See the risk factor under “Risks Related
+to International Operations—We depend solely on third-party manufacturers located outside of the U.S.”
+included in Item 1A. Risk Factors of our Annual Report on Form 10-K for the year ended December 31,
+2020, which is incorporated by reference herein, for information on risks associated with sourcing.
+
+**Distribution and Logistics**
+
+We strive to enhance our distribution and logistics network to further streamline our supply chain,
+increase our speed to market, and lower operating costs. As of December 31, 2020, we principally stored
+our finished goods inventory in company-operated warehouses and distribution and logistics facilities located
+in the U.S. and the Netherlands, as well as in a leased third-party operated distribution center in Japan.
+During 2020, we increased throughput as a result of the prior year move of our U.S. distribution center from
+Ontario, California to Dayton, Ohio, and we expanded the Ohio campus to further increase our distribution
+capacity in the Americas. In 2020, construction began on a new EMEA distribution center in the
+Netherlands, which is expected to be fully operational in 2021, and we completed the relocation of our
+third-party operated Asia Pacific distribution center within Japan. We also utilized third-party operated
+distribution centers located in China, Australia, Korea, Singapore, India, Russia, and Brazil. As of
+December 31, 2020, our company-operated and leased warehouse and distribution facilities provided us
+with 1.8 million square feet, and our third-party operated distribution facilities provided us with 0.5 million
+square feet, with additional area available based on inventory levels. We also ship directly to certain of our
+wholesale customers from our third-party manufacturers, and certain distributors pick up orders directly
+from our third-party manufacturers.
+
+**Intellectual Property and Trademarks**
+
+We rely on a combination of trademarks, copyrights, trade secrets, trade dress, and patent protections
+to establish, protect, and enforce our intellectual property rights in our product designs, brands, materials,
+and research and development efforts, although no such methods can afford complete protection. We own or
+license the material trademarks used in connection with the marketing, distribution, and sale of all of our
+products, both domestically and internationally, in most countries where our products are currently either
+sold or manufactured. Our major trademarks include the Crocs logo and the Crocs word mark, both of which
+are registered or pending registration in the U.S., the European Union, Japan, Taiwan, China, and Canada,
+among other countries. We also have registrations or pending trademark applications for other marks and
+logos in various countries around the world.
+
+In the U.S., our patents are generally in effect for up to 20 years from the date of filing the patent
+application. Our trademarks registered within and outside of the U.S. are generally valid as long as they are
+
+
+-----
+
+in use and their registrations are properly maintained and have not been found to have become generic. We
+believe our trademarks and patents are crucial to the successful marketing and sale of our products. We
+strategically register, both domestically and internationally, the trademarks and patents covering certain
+product designs and branding that we utilize today. We aggressively police our patents, trademarks, and
+copyrights and pursue those who infringe upon them, both domestically and internationally, as we deem
+necessary.
+
+We consider the formulations of the materials used to produce our footwear covered by our trademark
+Croslite™and LiteRide™, among others, valuable trade secrets. The material formulations are manufactured
+through a process that combines a number of components in various proportions to achieve the properties
+for which our products are known. We use multiple suppliers to source these components but protect the
+formulations by using an exclusive supply agreement for key components, confidentiality agreements with
+our third-party processors, and by requiring our employees to execute confidentiality agreements concerning
+the protection of our confidential information. Other than our third-party processors, we are unaware of
+any third party using our formulations in the production of footwear. We believe the comfort and utility of
+our products depend on the properties achieved from the compounding of the Croslite™and LiteRide™
+materials, which constitutes a key competitive advantage for us, and we intend to continue to vigorously
+protect these trade secrets.
+
+We also actively combat counterfeiting and other infringements of our brand by monitoring the global
+marketplace. We use our employees, sales representatives, distributors, and retailers, as well as outside
+investigators, attorneys, and customs agents, to police against infringing products by encouraging them to
+notify us of any suspect products and to assist law enforcement agencies. Our sales representatives and
+distributors are also educated on our patents, pending patents, trademarks, and trade dress to assist in
+preventing potentially infringing products from obtaining retail shelf space. The laws of certain countries
+do not protect intellectual property rights to the same extent or in the same manner as do the laws of the U.S.,
+and, therefore, we may have difficulty obtaining legal protection for our intellectual property in certain
+foreign jurisdictions.
+
+**Competition**
+
+The global casual, athletic, and fashion footwear markets are highly competitive. Although we do not
+believe that we compete directly with any single company with respect to the entire spectrum of our products,
+we believe portions of our wholesale, retail, and e-commerce businesses compete with companies including,
+but not limited to: NIKE, Inc., adidas AG, Under Armour, Inc., Deckers Outdoor Corporation, Skechers
+USA, Inc., Steven Madden, Ltd., Wolverine World Wide, Inc., and VF Corporation. Our company-operated
+retail locations and e-commerce sites also compete with some of our wholesale partners.
+
+The principal elements of competition in these markets include brand awareness, product functionality,
+design, comfort, quality, price, customer service, and marketing and distribution. We believe that our unique
+footwear designs, our material formulations, our prices, our product line, and our distribution network
+position us well in the marketplace. However, a number of companies in the casual footwear industry have
+greater financial resources, more comprehensive product lines, broader market presence, longer standing
+relationships with wholesalers, longer operating histories, greater distribution capabilities, stronger brand
+recognition, and greater marketing resources than we have. See the risk factor under “Risks Related to our
+Products—We face significant competition” included in Item 1A. Risk Factors of our Annual Report on
+Form 10-K for the year ended December 31, 2020, which is incorporated by reference herein.
+
+**Legal Proceedings**
+
+A discussion of legal matters is found in Note 17—Legal Proceedings in the accompanying notes to the
+audited consolidated financial statements included elsewhere in this offering memorandum.
+
+**Property**
+
+Our principal executive and administrative offices are located at 13601 Via Varra, Broomfield,
+Colorado 80020. We lease all of our domestic and international facilities. We currently enter into short-term
+and long-term leases for office, warehouse, and retail, including store-in-store, space. The terms of our
+
+
+-----
+
+leases include fixed monthly rents and/or contingent rents based on percentage of revenues for certain of
+our retail locations, and expire at various dates through the year 2033. The general location, use, and
+approximate size of our principal properties, and the reportable operating segment are given below.
+
+
+**Location**
+
+
+**Reportable**
+**Operating** **Approximate**
+**Segment** **Use** **Square Feet**
+
+
+Dayton, Ohio . . . . . . . . . . . . . . . Americas Warehouse 1,270,000
+Dordrecht, the Netherlands [(1)] . . . EMEA Warehouse 517,000
+Rotterdam, the Netherlands [(1)] . . . EMEA Warehouse 284,000
+Narita, Japan . . . . . . . . . . . . . . . Asia Pacific Warehouse 156,000
+Broomfield, Colorado . . . . . . . . . Americas Corporate headquarters and regional office 88,000
+Hoofddorp, the Netherlands . . . . . EMEA Regional office 29,000
+Singapore . . . . . . . . . . . . . . . . . . Asia Pacific Regional office 17,000
+Westwood, Massachusetts . . . . . . Americas Global commercial center 16,000
+
+(1) In 2019 and 2020, we entered into a lease agreement and subsequent amendments for a new distribution
+center in Dordrecht, the Netherlands, which is expected to replace to our existing distribution center
+in Rotterdam, the Netherlands in 2021.
+
+Aside from the principal properties listed above, we lease various other offices and distribution centers
+worldwide to meet our sales and operational needs. We also lease 351 retail locations worldwide as of
+December 31, 2020. See above within “—Business” for further discussion regarding global companyoperated stores.
+
+
+-----
+
+**DESCRIPTION OF OTHER INDEBTEDNESS**
+**Revolving Credit Facility**
+
+On July 26, 2019, the Issuer and certain of its subsidiaries (the “Borrowers”) entered into a Second
+Amended and Restated Credit Agreement (as amended, the “Credit Agreement”), with the lenders named
+therein and PNC Bank, National Association, as a lender and administrative agent for the lenders, which
+provides for a revolving credit facility of $500.0 million, which can be increased by an additional
+$100.0 million subject to certain conditions (the “Revolving Credit Facility”). Borrowings under the Credit
+Agreement bear interest at a variable rate based on (A) a domestic base rate (defined as the highest of (i) the
+Federal Funds open rate, plus 0.25%, (ii) the Prime Rate, and (iii) the Daily LIBOR rate, plus 1.00%), plus
+an applicable margin ranging from 0.25% to 0.875% based on our leverage ratio, or (B) a LIBOR rate, plus an
+applicable margin ranging from 1.25% to 1.875% based on our leverage ratio. Borrowings under the Credit
+Agreement are secured by all of the assets of the Borrowers and guaranteed by certain other subsidiaries of
+the Borrowers.
+
+The Credit Agreement requires us to maintain a minimum interest coverage ratio of 4.00 to 1.00, and a
+maximum leverage ratio of (i) 3.50 to 1.00 from the quarter ended December 31, 2020 to the quarter ended
+December 31, 2021 and (ii) 3.25 to 1.00 from the quarter ending March 31, 2022 and thereafter (subject to
+adjustment in certain circumstances). The Credit Agreement permits (i) stock repurchases subject to
+certain restrictions, including after giving effect to such stock repurchases, the maximum leverage ratio does
+not exceed certain levels; and (ii) certain acquisitions so long as there is borrowing availability under the
+Credit Agreement of at least $40.0 million. As of December 31, 2020, we were in compliance with all financial
+covenants under the Credit Agreement.
+
+As of December 31, 2020, the total commitments available from the lenders under the Revolving Credit
+Facility were $500.0 million. At December 31, 2020, we had $180.0 million in outstanding borrowings, which
+are due when the Revolving Credit Facility matures in July 2024, and $0.6 million in outstanding letters of
+credit under the Revolving Credit Facility, which reduces amounts available for borrowing under the Revolving
+Credit Facility. As of December 31, 2020 and 2019, we had $319.4 million and $240.4 million, respectively,
+of available borrowing capacity under the Revolving Credit Facility.
+
+The foregoing description of the Credit Agreement in included as a summary only. This description is
+based upon, and is qualified by reference to, the Credit Agreement. This summary is not complete. You
+should read the Credit Agreement, which is filed an exhibit to our Annual Report on Form 10-K for the year
+ended December 31, 2020, which is incorporated by reference herein, for the provisions that are important
+to you.
+
+**Asia Revolving Credit Facilities**
+
+We have a revolving credit facility with China Merchants Bank Company Limited, Shanghai Branch
+(the “CMBC Facility”), which provides up to 30.0 million RMB, or $4.6 million at exchange rates as of
+December 31, 2020, and matures in May 2021. For RMB loans under the CMBC Facility, interest is
+determined at the time of borrowing based on variable rates in effect at that time.
+
+We have a revolving credit facility with Citibank (China) Company Limited, Shanghai Branch (the
+“Citibank Facility”), which provides up to an equivalent of $5.0 million and matures in June 2021. For
+RMB loans under the Citibank Facility, interest is based on a National Interbank Funding Center 1-year
+prime rate, plus 65 basis points. For USD loans under the Citibank Facility, interest is based on a LIBOR rate,
+plus 1.5%.
+
+We had no borrowings under our Asia revolving facilities during the years ended December 31, 2020
+and 2019 or outstanding at December 31, 2020 or 2019.
+
+
+-----
+
+**DESCRIPTION OF NOTES**
+
+In this Description of Notes, the term “Issuer” refers to Crocs, Inc., a Delaware corporation, and any
+successor obligor on the notes, but not to any of its Subsidiaries; and the terms “we,” “our” and “us” each
+refer to the Issuer and the Guarantors, unless stated or the context implies otherwise. You can find the
+definitions of capitalized terms used in this description and not defined elsewhere under the subheading
+“Certain Definitions” below or elsewhere in this “Description of Notes.”
+
+The Issuer will issue the % senior notes due 2029 (the “notes”) under an indenture, to be dated as
+of, 2021, among the Issuer, the guarantors named therein and U.S. Bank National Association, as
+trustee (as such indenture may be supplemented and amended from time to time, the “indenture.”) The
+following summary of certain provisions of the indenture and the notes does not purport to be complete
+and is subject to, and qualified in its entirety by reference to, the provisions of the indenture and the notes
+including the definitions of certain terms therein. The indenture will not be qualified under, and is not required
+to be, nor is subject to, the Trust Indenture Act of 1939, as amended (the “Trust Indenture Act”).
+Consequently, holders of the notes generally will not be entitled to the protections provided under the Trust
+Indenture Act of holders of debt securities issued under a qualified indenture.
+
+The following description is a summary of the material provisions of the indenture. It does not restate
+the indenture in its entirety. Because this is a summary, it may not contain all of the information that is
+important to you. We urge you to read the indenture in its entirety because it, and not this description, defines
+your rights as a holder of a note. Copies of the indenture are available without charge upon request to the
+Issuer at the address indicated under “Information Incorporated by Reference.”
+
+A registered holder of a note (each, a “holder”) will be treated as the owner of it for all purposes under
+the indenture. Only registered holders will have rights under the indenture.
+
+**Certain Definitions**
+
+Set forth below is a summary of certain defined terms from the indenture that are used in this
+“Description of Notes.” Reference is made to the indenture for the full definition of all such terms as well
+as any other capitalized terms used herein for which no definition is provided. Unless the context otherwise
+requires, an accounting term not otherwise defined has the meaning assigned to it in accordance with
+GAAP.
+
+“Additional Assets” means:
+
+(a) any Property (other than cash, cash equivalents, securities and inventory or other current
+assets), including any improvements thereto through capital expenditures or otherwise, to be
+used, or that is useful, in a Permitted Business;
+
+(b) Capital Stock of (i) a Person that becomes a Restricted Subsidiary as a result of the acquisition
+of that Capital Stock by the Issuer or another Restricted Subsidiary from any Person other than
+the Issuer or an Affiliate of the Issuer or (ii) any Person that at such time is a Restricted
+Subsidiary; provided, however, that, in the case of this clause (b), the Restricted Subsidiary is
+primarily engaged in a Permitted Business; or
+
+(c) all or substantially all of the assets of a Permitted Business.
+
+“Affiliate” of any specified Person means any other Person directly or indirectly controlling or
+controlled by or under direct or indirect common control with that specified Person. For the purposes of
+this definition, “control” when used with respect to any Person means the power to direct the management
+and policies of that Person, directly or indirectly, whether through the ownership of voting securities, by
+contract or otherwise; and the terms “controlling” and “controlled” have meanings correlative to the
+foregoing.
+
+“Applicable Premium” means, with respect to any note on any redemption date, the greater of:
+
+(a) 1.0% of the principal amount of such note; and
+
+
+-----
+
+(b) the excess, if any, of (i) the present value on such redemption date of (A) the redemption price
+of such notes on, 2024 (such redemption price being that described in “—Optional
+Redemption” below), plus (B) all required remaining scheduled interest payments due on such
+note through, 2024 computed using a discount rate equal to the Treasury Rate plus 50 basis
+points, over (ii) the principal amount of such note.
+
+“Approved Bank” means (a) any lender under the revolving credit facility under the Credit Agreement,
+(b) any United States domestic commercial bank of recognized standing having capital and surplus in excess
+of $500,000,000 or (c) any bank (or parent thereof) whose short-term commercial paper rating from S&P
+is at least A-2 or the equivalent thereof or from Moody’s is at least P-2 or the equivalent thereof.
+
+“Asset Sale” means any direct or indirect sale, lease (other than an operating lease entered into in the
+ordinary course of business), transfer, issuance or other disposition (or series of related sales, leases, transfers,
+issuances or dispositions that are part of a common plan) by the Issuer or any Restricted Subsidiary,
+including any disposition by means of a merger, consolidation or similar transaction (each referred to for
+the purposes of this definition as a “disposition”), of
+
+(a) any shares of Capital Stock of a Restricted Subsidiary (other than directors’ qualifying shares
+and shares issued to foreign nationals to the extent required by applicable law),
+
+(b) all or substantially all the assets of any division or line of business of the Issuer or any Restricted
+Subsidiary, or
+
+(c) any other Property of the Issuer or any Restricted Subsidiary outside of the ordinary course of
+business of the Issuer or such Restricted Subsidiary,
+
+other than, in the case of clause (a), (b) or (c) above,
+
+(1) any disposition by a Restricted Subsidiary to the Issuer or by the Issuer or a Restricted Subsidiary
+to a Restricted Subsidiary,
+
+(2) any disposition that constitutes a Permitted Investment or Restricted Payment permitted by the
+covenant described under “—Certain Covenants—Limitation on Restricted Payments,”
+
+(3) any disposition effected in compliance with the first paragraph of the covenant described under
+“—Certain Covenants—Merger, Consolidation and Sale of Property—The Issuer,”
+
+(4) any disposition that does not (together with all related dispositions) involve assets having a Fair
+Market Value or consideration in excess of $10.0 million;
+
+(5) any disposition of Cash Equivalents in the ordinary course of business;
+
+(6) any disposition of obsolete, damaged or worn out property or equipment or property or
+equipment that is no longer useful in the conduct of the business and its Restricted Subsidiaries;
+
+(7) any disposition pursuant to a Sale and Leaseback Transaction;
+
+(8) the creation or Incurrence of a Permitted Lien or any other Lien created or Incurred in
+compliance with the covenant described under “—Certain Covenants—Limitation on Liens,”
+and dispositions in connection therewith;
+
+(9) dispositions of receivables in connection with the compromise, settlement or collection thereof
+in the ordinary course of business or in bankruptcy or similar proceedings and exclusive of
+factoring or similar arrangements;
+
+(10) the issuance by a Restricted Subsidiary of Preferred Stock or Disqualified Stock that is permitted
+by the covenant described under “—Certain Covenants—Limitation on Debt;”
+
+(11) a surrender or waiver of contract rights or a settlement, release or surrender of contract, tort or
+other claims in the ordinary course of business;
+
+(12) foreclosure on assets or property;
+
+
+-----
+
+(13) any grant of a non-exclusive license of trademarks, know –how, patents and any other intellectual
+property or intellectual property rights;
+
+(14) any sale or other disposition of Capital Stock in, or Debt or other securities of, an Unrestricted
+Subsidiary;
+
+(15) the lease, assignment, sub-lease, license or sub-license of any real or personal property in the
+ordinary course of business;
+
+(16) the lapse or abandonment of intellectual property rights in the ordinary course of business;
+
+(17) the issuance of directors’ qualifying shares and shares issued to foreign nationals or other third
+parties as required by applicable law;
+
+(18) sales of inventory in the ordinary course of business;
+
+(19) any exchange of like-kind property (excluding any securities) pursuant to Section 1031 of the
+Code that are used or useful in a Permitted Business;
+
+(20) condemnations or any similar action on assets;
+
+(21) dispositions of accounts receivable and related assets to a Securitization Subsidiary or to banks,
+investment banks, insurance companies, mutual funds or other institutional lenders in
+connection with a Permitted Receivables Financing; and
+
+(22) any non-recourse factoring of accounts receivable pursuant to a factoring program sponsored
+by a retailer of national standing in partnership with a financial institution or otherwise entered
+into by the Issuer or any of its subsidiaries with a financial institution.
+
+“Attributable Debt”in respect of a Sale and Leaseback Transaction means, at any date of determination,
+
+(a) if the Sale and Leaseback Transaction creates a Capital Lease Obligation or Synthetic Lease
+Obligation, the amount of Debt represented thereby according to the definition of “Capital Lease
+Obligation” or “Synthetic Lease Obligation,” as applicable, and
+
+(b) in all other instances, the present value (discounted at the interest rate borne by the notes,
+compounded annually) of the total obligations of the lessee for rental payments during the
+remaining term of the lease included in the Sale and Leaseback Transaction (including any period
+for which the lease has been extended).
+
+“Average Life” means, as of any date of determination, with respect to any Debt or Preferred Stock,
+the quotient obtained by dividing:
+
+(a) the sum of the product of the numbers of years (rounded to the nearest one-twelfth of one year)
+from the date of determination to the dates of each successive scheduled principal payment of
+that Debt or redemption or similar payment with respect to that Preferred Stock multiplied by the
+amount of the payment by
+
+(b) the sum of all payments of this kind.
+
+“Beneficial Owner” means a beneficial owner as defined in Rule 13d-3 under the Exchange Act, except
+that:
+
+(a) a Person will be deemed to be the Beneficial Owner of all shares that the Person has the right to
+acquire, whether that right is exercisable immediately or only after the passage of time, and
+
+(b) for purposes of clause (a) of the definition of “Change of Control,” any “person” or “group”
+(as those terms are defined in Sections 13(d) and 14(d) of the Exchange Act or any successor
+provisions to either of the foregoing), including any group acting for the purpose of acquiring,
+holding, voting or disposing of securities within the meaning of Rule 13d-5(b)(1) under the
+Exchange Act, shall be deemed to be the Beneficial Owners of any Voting Stock of a corporation
+or other legal entity held by any other corporation or legal entity (the “parent corporation”), so
+
+
+-----
+
+long as that person or group Beneficially Owns, directly or indirectly, in the aggregate a majority
+of the total voting power of the Voting Stock of that parent corporation.
+
+The term “Beneficially Own” shall have a corresponding meaning.
+
+“Board of Directors” means: (1) with respect to a corporation, the board of directors of the corporation
+or a duly authorized committee of the board of directors; (2) with respect to a partnership, the board of
+directors (or other governing body) of the general partner of the partnership; (3) with respect to a limited
+liability company, the managing member or members or any controlling committee or board of managers of
+such company or the Board of Directors of the sole member or the managing member thereof; and
+(4) with respect to any other Person, the board or committee of such Person serving a similar function.
+
+“Business Day” means each day that is not a Saturday, Sunday or other day on which banking
+institutions in New York, New York or the city in which the corporate trust office of the trustee is located
+(or in connection with a payment, the place of payment) are authorized or required by law to close.
+
+“Capital Lease Obligation” means the obligations of such Person to pay rent or other amounts under
+any lease of (or other arrangement conveying the right to use) real or personal property, or a combination
+thereof, which obligations are required to be classified and accounted for as capital leases on a balance sheet
+of such Person under GAAP and, for the purposes of the indenture governing the notes, the amount of
+such obligations shall be the amount thereof required to be capitalized and reflected as a liability on a balance
+sheet (other than the notes thereto) prepared in accordance with GAAP and the Stated Maturity thereof
+will be the date of the last payment of rent or any other amount due under such lease prior to the first date
+such lease may be terminated without penalty, in each case. For purposes of “—Certain Covenants—
+Limitation on Liens,” a Capital Lease Obligation shall be deemed secured by a Lien on the Property being
+leased.
+
+“Capital Stock” means, with respect to any Person, any shares or other equivalents (however designated)
+of any class of corporate stock or partnership interests or any other participation, rights, warrants, options
+or other interests in the nature of an equity interest in that Person, including Preferred Stock, but excluding
+any debt security convertible or exchangeable into that equity interest.
+
+“Capital Stock Sale Proceeds” means the aggregate proceeds (including the Fair Market Value of
+property other than cash) received by the Issuer from the issuance or sale (other than to a Subsidiary of the
+Issuer, an employee stock ownership plan or trust established by the Issuer or the Subsidiary for the
+benefit of their employees) by the Issuer of its Capital Stock (other than Disqualified Stock) after the Issue
+Date, net of attorneys’ fees, accountants’ fees, underwriters’, initial purchasers’ or placement agents’ fees,
+discounts or commissions and brokerage, consultant and other fees actually incurred in connection with the
+issuance or sale and net of taxes paid or payable as a result thereof.
+
+“Cash Equivalents” means any of the following types of Investments, to the extent owned by the Issuer
+or any Restricted Subsidiary: (a) securities issued or directly and fully guaranteed or insured by the United
+States or any agency or instrumentality thereof (provided that the full faith and credit of the United States is
+pledged in support thereof) having maturities of not more than 24 months from the date of acquisition,
+(b) U.S. Dollar denominated time deposits, certificates of deposit or bankers’ acceptances of any Approved
+Bank, in each case with maturities of not more than 364 days from the date of acquisition, (c) commercial
+paper and variable or fixed rate notes issued by any Approved Bank (or by the parent company thereof) or any
+variable rate notes issued by, or guaranteed by, any domestic corporation rated A-2 (or the equivalent
+thereof) or better by S&P or P-2 (or the equivalent thereof) or better by Moody’s, and maturing within
+24 months of the date of acquisition, (d) repurchase agreements entered into by any Person with a bank or
+trust company (including any Approved Bank) or recognized securities dealer having capital and surplus in
+excess of $500.0 million for direct obligations issued by or fully guaranteed by the United States in which
+such Person shall have a perfected first priority security interest (subject to no other Liens) and having, on the
+date of purchase thereof, a fair market value of at least one hundred percent (100%) of the amount of the
+repurchase obligations, (e) Investments (classified in accordance with GAAP as current assets) in money
+market investment programs registered under the Investment Company Act of 1940 that are administered by
+financial institutions having capital of at least $500.0 million and the portfolios of which are limited to
+Investments of the character described in the foregoing subclauses hereof, (f) other short-term investments
+
+
+-----
+
+utilized by the Issuer or any Restricted Subsidiary in accordance with normal investment practices for cash
+management in investments of a type analogous to the foregoing, (g) U.S. Dollars or foreign currencies held
+from time to time in the ordinary course of business, and (h) interests in any investment company or
+money market fund which invests 95% or more of its assets in instruments specified in clauses (a) through
+(g) above.
+
+“Change of Control” means the occurrence of any of the following events:
+
+(a) any “person” or “group” (as such terms are used in Sections 13(d) and 14(d) of the Exchange
+Act or any successor provisions to either of the foregoing), including any group acting for the
+purpose of acquiring, holding, voting or disposing of securities within the meaning of
+Rule 13d-5(b)(1) under the Exchange Act, becomes the ultimate Beneficial Owner, directly or
+indirectly, of 50% or more of the total voting power of the Voting Stock of the Issuer; provided,
+_however, that an entity that conducts no other material activities other than holding Voting_
+Stock of the Issuer or any direct or indirect parent of the Issuer and has no other material assets
+or liabilities other than such Voting Stock will not itself be considered a “person” for purposes
+of this clause (a); or
+
+(b) the sale, transfer, assignment, lease, conveyance or other disposition, directly or indirectly, of all
+or substantially all the Property of the Issuer and the Restricted Subsidiaries, considered as a
+whole (other than a disposition of assets as an entirety or virtually as an entirety to a Wholly
+Owned Restricted Subsidiary) shall have occurred; or
+
+(c) the shareholders of the Issuer shall have approved any plan of liquidation or dissolution of the
+Issuer.
+
+“Change of Control Triggering Event” means, with respect to the notes, the occurrence of (x) a
+Change of Control that is accompanied or followed by a downgrade of the notes as a result of a Change of
+Control within the applicable Ratings Decline Period by each of Moody’s and S&P (or, in the event
+Moody’s or S&P or both shall cease rating the notes (for reasons outside the control of the Issuer) and the
+Issuer shall select any other Rating Agency, the equivalent of such ratings by such other Rating Agency) and
+(y) the rating of the notes on any day during such Ratings Decline Period is below the lower of the rating
+by such Rating Agency in effect (i) immediately preceding the first public announcement of the Change of
+Control (or occurrence thereof if such Change of Control occurs prior to public announcement) and (ii) the
+Issue Date.
+
+“Code” means the Internal Revenue Code of 1986, as amended.
+
+“Commodity Price Protection Agreement” means, in respect of a Person, any forward contract,
+commodity swap agreement, commodity option agreement or other similar agreement or arrangement
+designed to protect that Person against fluctuations in commodity prices.
+
+“Consolidated Current Liabilities” means, as of any date of determination, the consolidated current
+liabilities of the Issuer and its Restricted Subsidiaries that may properly be classified as current liabilities in
+conformity with GAAP, excluding, without duplication, (a) the current portion of any long-term Debt
+(including, for the avoidance of doubt, revolving credit loans under any Credit Facility with a term of more
+than one year from the closing date thereof) and (b) any amounts thereof which are by their terms extendible
+or renewable at the option of the obligor thereon to a time more than 12 months after the time as of which the
+amount thereof is being determined.
+
+“Consolidated EBITDA” means, for any period, Consolidated Net Income for such period, plus
+
+(a) without duplication and to the extent deducted (and not added back) in determining such
+Consolidated Net Income for such period, the sum of:
+
+(i) Consolidated Interest Expense for such period,
+
+(ii) consolidated income tax expense for such period,
+
+(iii) all amounts attributable to depreciation and amortization (including amortization of
+deferred financing fees) for such period,
+
+
+-----
+
+(iv) any non-cash extraordinary charges for such period,
+
+(v) any other non-cash charges (other than the write-down or write-off of current assets, any
+additions to bad debt reserve or bad debt expense or any accruals for estimated sales
+discounts, returns or allowances) for such period,
+
+(vi) any losses for such period attributable to early extinguishment of Debt or obligations
+under any Swap Agreement,
+
+(vii) any net after-tax extraordinary, unusual or nonrecurring losses, costs, charges or expenses,
+
+(viii) restructuring, business optimization costs, charges or reserves (including any unusual or
+non-recurring operating expenses directly attributable to the implementation of cost savings
+initiatives), recruiting fees, fees of restructuring or business optimization consultants,
+integration and non-recurring severance, relocation costs, one-time compensation charges,
+consolidation, transition, integration or other similar charges and expenses, contract
+termination costs, excess pension charges, system establishment charges, start-up or closure
+or transition costs, expenses related to any reconstruction, decommissioning,
+recommissioning or reconfiguration of fixed assets for alternative uses, fees, expenses or
+charges relating to curtailments or modifications to pension and post-retirement employee
+benefit plans and litigation settlements or losses outside the ordinary course of business),
+
+(ix) the amount of “run-rate” cost savings (including, without limitation, cost savings with
+respect to salary, benefit and other direct savings resulting from workforce reductions and
+facility, benefit and insurance savings), operating expense reductions, other operating
+improvements, initiatives and synergies (including the modification and renegotiation of
+contracts and other arrangements), that are reasonably identifiable and factually
+supportable and projected by the Issuer in good faith and set forth in an Officer’s
+Certificate, to be reasonably anticipated to be realizable as a result of actions that have
+been taken or with respect to which substantial steps have been taken or are expected to be
+taken within 24 months after any such Investment, acquisition (including the Transactions),
+disposition, merger, consolidation, reorganization or restructuring, transaction, cost
+savings initiative, other initiative or event, and in each case, added to Consolidated
+EBITDA as so projected until fully realized and calculated on a pro forma basis as though
+such cost savings, operating expense reductions, other operating improvements, initiatives
+and synergies had been realized on the first day of such period), net of the amount of
+actual benefits realized prior to or during such period from such actions, provided that the
+aggregate amount added back pursuant to this clause (ix) may not exceed, when
+aggregated with the amount of any increase for such period to Consolidated EBITDA
+pursuant to clause (ii) of the definition of “pro forma basis,”25% for any four fiscal quarter
+period of Consolidated EBITDA for such period (prior to giving effect to any increase
+pursuant to such clause (ii) or this clause (a)(ix)), plus
+
+(x) any expense or charges incurred during such period in connection with any issuance of
+debt, equity securities or any refinancing transaction, whether or not consummated, and
+minus
+
+(b) without duplication
+
+(i) to the extent not deducted in determining such Consolidated Net Income, all cash
+payments made during such period on account of non-cash charges that were or would
+have been added to Consolidated Net Income, and
+
+(ii) to the extent included in determining such Consolidated Net Income, (A) any extraordinary
+gains and all non-cash items of income (other than normal accruals in the ordinary
+course of business) for such period and (B) any gains for such period attributable to early
+extinguishment of Debt or obligations under any Swap Agreement or Hedging
+Obligation, all determined on a consolidated basis in accordance with GAAP;
+
+
+-----
+
+_provided that Consolidated EBITDA shall be calculated so as to exclude the effect of any gain or loss that_
+represents after-tax gains or losses attributable to any sale, transfer or other disposition of assets by the Issuer
+or any Restricted Subsidiary, other than dispositions in the ordinary course of business, provided further
+that for the purposes of clause (b) of the definition of Permitted Debt, Consolidated EBITDA shall be
+calculated on a pro forma basis with such pro forma adjustments as are appropriate and consistent with the
+pro forma provisions set forth in the definition of Consolidated Fixed Charges Coverage Ratio.
+
+“Consolidated Fixed Charges” means, for any period for the Issuer and its consolidated Restricted
+Subsidiaries, the sum, without duplication, of,
+
+(a) Consolidated Interest Expense for such period, plus
+
+(b) Disqualified Stock Dividends paid, accrued or scheduled to be paid or accrued during such
+period, excluding dividends paid in Qualified Capital Stock, plus
+
+(c) Preferred Stock Dividends paid, accrued or scheduled to be paid or accrued during such period,
+excluding dividends paid in Qualified Capital Stock.
+
+“Consolidated Fixed Charges Coverage Ratio” means, as of any date of determination, the ratio of:
+
+(a) the aggregate amount of Consolidated EBITDA for the most recent four consecutive fiscal
+quarters ending prior to such determination date for which financial statements are required to
+be filed pursuant to “ —Reports” to
+
+(b) Consolidated Fixed Charges for those four fiscal quarters;
+
+_provided, however, that:_
+
+(1) if:
+
+(a) since the beginning of that period the Issuer or any Restricted Subsidiary has Incurred
+any Debt that remains outstanding or Repaid any Debt, or
+
+(b) the transaction giving rise to the need to calculate the Consolidated Fixed Charges
+Coverage Ratio involves an Incurrence or Repayment of Debt, Consolidated Fixed
+Charges for that period shall be calculated after giving effect on a pro forma basis to that
+Incurrence or Repayment as if the Debt was Incurred or Repaid on the first day of that
+period, provided that, in the event of any Repayment of Debt, Consolidated EBITDA
+for that period shall be calculated as if the Issuer or such Restricted Subsidiary had not
+earned any interest income actually earned during such period in respect of the funds used
+to Repay such Debt, and
+
+(2) if:
+
+(a) since the beginning of that period the Issuer or any Restricted Subsidiary shall have made
+any Asset Sale or an Investment (by merger or otherwise) in any Restricted Subsidiary
+(or any Person which becomes a Restricted Subsidiary) or an acquisition of Property which
+constitutes all or substantially all of an operating unit of a business,
+
+(b) the transaction giving rise to the need to calculate the Consolidated Fixed Charges
+Coverage Ratio involves an Asset Sale, Investment or acquisition, or
+
+(c) since the beginning of that period any Person (that subsequently became a Restricted
+Subsidiary or was merged with or into the Issuer or any Restricted Subsidiary since the
+beginning of that period) shall have made such an Asset Sale, Investment or acquisition,
+
+Consolidated EBITDA for that period shall be calculated on a pro forma basis after giving effect to the
+Asset Sale, Investment or acquisition as if the Asset Sale, Investment or acquisition occurred on the first day
+of that period.
+
+If any Debt bears a floating rate of interest and is being given pro forma effect, the interest expense on
+that Debt shall be calculated as if the base interest rate in effect for the floating rate of interest on the date
+
+
+-----
+
+of determination had been the applicable base interest rate for the entire period (taking into account any
+Interest Rate Agreement applicable to that Debt if the applicable Interest Rate Agreement has a remaining
+term in excess of 12 months). In the event the Capital Stock of any Restricted Subsidiary is sold during the
+period, the Issuer shall be deemed, for purposes of clause (1) above, to have Repaid during that period the
+Debt of that Restricted Subsidiary to the extent the Issuer and its continuing Restricted Subsidiaries are no
+longer liable for that Debt after the sale.
+
+“Consolidated Interest Expense” means, for any period for the Issuer and its Restricted Subsidiaries, all
+interest expense on a consolidated basis determined in accordance with GAAP, but including, in any event,
+the interest component under Capital Lease Obligations, Synthetic Lease Obligations and any premiums,
+fees, discounts, expenses and losses on the sale of accounts receivable (and any amortization thereof) payable
+by the Issuer or any Restricted Subsidiary in connection with a Permitted Receivables Financing.
+
+“Consolidated Leverage Ratio” means, as of any date of determination, the ratio of (a) the aggregate
+amount of all Debt of the Issuer and its Restricted Subsidiaries, other than Debt of the type described in
+clauses (d) and (h) of the definition of Debt (on a pro forma basis reflecting any Incurrence of Debt and
+Repayment of Debt made on such date) to (b) the aggregate amount of Consolidated EBITDA for the Issuer
+for the four full fiscal quarters, treated as one period, ending prior to the date of the transaction (the
+“Transaction Date”) giving rise to the need to calculate the Consolidated Leverage Ratio for which financial
+statements are required to be filed pursuant to “—Reports” (such four full fiscal quarter period being
+referred to herein as the “Four Quarter Period”). In addition to and without limitation of the foregoing, for
+purposes of this definition, this ratio shall be calculated in a manner consistent with the definition of the
+“Consolidated Fixed Charge Coverage Ratio,” including any pro forma calculations.
+
+“Consolidated Net Income” means, for any period, the net income or loss of the Issuer and the
+Restricted Subsidiaries for such period, determined on a consolidated basis in accordance with GAAP;
+_provided that there shall be excluded_
+
+(a) the income of any Person (other than the Issuer) that is not a Restricted Subsidiary except to
+the extent of the amount of cash dividends or similar cash distributions actually paid by such
+Person to the Issuer or, subject to clauses (b) and (c) below, any of the Restricted Subsidiaries
+during such period,
+
+(b) the income of, and any amounts referred to in clause (a) above paid to, any Restricted Subsidiary
+(other than a Guarantor) to the extent that, on the date of determination, the declaration or
+payment of cash dividends or similar cash distributions by such Restricted Subsidiary is restricted
+by operation of the terms of its organizational documents or any agreement, instrument,
+judgment, decree, statute, rule or regulation applicable to such Restricted Subsidiary,
+
+(c) the income or loss of, and any amounts referred to in clause (a) above paid to, any Restricted
+Subsidiary that is not wholly owned by the Issuer to the extent such income or loss or such
+amounts are attributable to the noncontrolling interest in such Restricted Subsidiary,
+
+(d) any (i) non-cash compensation charge or expense arising from any grant of stock, stock options
+or other equity based awards and any non-cash deemed finance charges in respect of any
+pension liabilities or other provisions and (ii) income (loss) attributable to deferred compensation
+plans or trusts,
+
+(e) any gain or loss (less all fees and expenses relating thereto) realized upon sales or other
+dispositions of assets of the Issuer or such Restricted Subsidiary, other than in the ordinary
+course of business,
+
+(f) any after-tax effect of income (loss) from the early extinguishment of Debt or Hedging
+Obligations or other derivative instruments,
+
+(g) the cumulative effect of a change in accounting principles,
+
+(h) the effects from applying purchase accounting, including applying purchase accounting to
+inventory, property and equipment, software and other intangible assets and deferred revenue
+
+
+-----
+
+required or permitted by GAAP and related authoritative pronouncements, as a result of any
+other past or future acquisitions or the amortization or write-off of any amounts thereof, and
+
+(i) any restructuring charges and any fees, expenses and charges related to any proposed or
+consummated equity offering, investment, acquisition, disposition, Incurrence of Debt or
+recapitalization.
+
+Notwithstanding the foregoing, (i) for purposes of the covenant described under “—Certain Covenants—
+Limitation on Restricted Payments” only, there shall be excluded from Consolidated Net Income any
+dividends, repayment of loans or advances or other transfers of assets from Unrestricted Subsidiaries to the
+Issuer or a Restricted Subsidiary to the extent the dividends, repayments or transfers increase the amount
+of Restricted Payments permitted under that covenant pursuant to clause (c)(4) thereof, and (ii) any net
+income (loss) of any Person (other than the Issuer) that is not a Restricted Subsidiary shall be excluded in
+calculating Consolidated Net Income, except that the Issuer’s equity in the net income of any such Person
+for any period shall be included without duplication, in such Consolidated Net Income up to the aggregate
+amount of cash distributed by the Person during such period to the Issuer or a Restricted Subsidiary as a
+dividend or distribution.
+
+“Consolidated Net Tangible Assets” means the aggregate amount of assets of the Issuer and its
+Restricted Subsidiaries after deducting therefrom (i) Consolidated Current Liabilities and (ii) (to the extent
+otherwise included therein) all goodwill, trade names, trademarks, patents, unamortized debt discount and
+expense and other intangible assets, all as set forth on the most recent quarterly or annual (as the case may
+be) consolidated balance sheet (prior to the relevant date of determination) which is required to be filed
+pursuant to “—Reports” of such Person and its Restricted Subsidiaries in accordance with GAAP.
+
+“Consolidated Secured Leverage Ratio” means, as of any date of determination, the ratio of (a) the
+aggregate amount of all Debt of the Issuer and its Restricted Subsidiaries secured by Liens at the date of
+determination, other than secured Debt of the type described in clauses (d) and (h) of the definition of Debt,
+(on a pro forma basis reflecting any Incurrence of Debt and Repayment of Debt made on such date) to
+(b) the aggregate amount of Consolidated EBITDA for the Issuer for the four full fiscal quarters, treated as
+one period, ending prior to the date of the transaction (the “Transaction Date”) giving rise to the need to
+calculate the Consolidated Secured Leverage Ratio for which financial statements are required to be filed
+pursuant to “—Reports” (such four full fiscal quarter period being referred to herein as the “Four Quarter
+Period”). In addition to and without limitation of the foregoing, for purposes of this definition, this ratio
+shall be calculated in a manner consistent with the definition of the “Consolidated Fixed Charge Coverage
+Ratio,” including any pro forma calculations.
+
+“Credit Agreement” means the Second Amended and Restated Credit Agreement, as entered into on
+July 26, 2019, by and among Crocs, Inc., Crocs Retail, LLC, Jibbitz, LLC, Colorado Footwear C.V., Crocs
+Europe B.V., the guarantors party thereto, the lenders and issuing banks from time to time party thereto and
+PNC Bank, National Association, as administrative agent and collateral agent, as amended, restated,
+supplemented, modified, renewed, refunded, replaced (whether at maturity or thereafter) or refinanced
+from time to time in one or more agreements (in each case with the same or new agents, lenders or institutional
+investors), including any agreement adding or changing the borrower or any guarantor or extending the
+maturity thereof or otherwise restructuring all or any portion of the Debt thereunder or increasing the
+amount loaned or issued thereunder or altering the maturity thereof.
+
+“Credit Facilities” means, with respect to the Issuer or any Restricted Subsidiary, (1) the facilities
+provided in the Credit Agreement and (2) one or more debt or commercial paper facilities (including related
+Guarantees) with banks, investment banks, insurance companies, mutual funds or other institutional
+lenders providing for revolving credit loans, term loans, notes or receivables or inventory financing (including
+through the sale of receivables or inventory to institutional lenders or to special purpose, bankruptcy
+remote entities formed to borrow from institutional lenders against those receivables or inventory); in each
+case together with any Refinancing thereof on any basis so long as such Refinancing constitutes Debt.
+
+“Currency Exchange Protection Agreement” means, in respect of a Person, any foreign exchange
+contract, currency swap agreement, currency option or other similar agreement or arrangement designed to
+protect that Person against fluctuations in currency exchange rates.
+
+
+-----
+
+“Debt” means, with respect to any Person on any date of determination (without duplication):
+
+(a) the principal of and premium (if any) in respect of:
+
+(1) debt of the Person for money borrowed, and
+
+(2) debt evidenced by notes, debentures, bonds or other similar instruments for the payment
+of which the Person is responsible or liable;
+
+(b) all Capital Lease Obligations and Synthetic Lease Obligations of the Person and all Attributable
+Debt in respect of Sale and Leaseback Transactions entered into by the Person;
+
+(c) all obligations of the Person issued or assumed as the deferred purchase price of Property, all
+conditional sale obligations of the Person and all obligations of the Person under any title retention
+agreement (but excluding trade accounts payable and accrued liabilities arising in the ordinary
+course of business);
+
+(d) all obligations of the Person for the reimbursement of any obligor on any letter of credit,
+banker’s acceptance or similar credit transaction (other than obligations with respect to letters
+of credit securing obligations (other than obligations described in clauses (a) through (c) above)
+entered into in the ordinary course of business of the Person to the extent those letters of
+credit are not drawn upon or, if and to the extent drawn upon, the drawing is reimbursed no
+later than the third Business Day following receipt by the Person of a demand for reimbursement
+following payment on the letter of credit);
+
+(e) the amount of all obligations of the Person with respect to the Repayment of any Disqualified
+Stock or, with respect to any Subsidiary of the Person, any Preferred Stock (but excluding, in each
+case, any accrued dividends);
+
+(f) all obligations of the type referred to in clauses (a) through (e) of other Persons and all dividends
+of other Persons for the payment of which, in either case, the Person is responsible or liable,
+directly or indirectly, as obligor, guarantor or otherwise, including by means of any Guarantee;
+
+(g) all obligations of the type referred to in clauses (a) through (f) of other Persons secured by any
+Lien on any Property of the Person (whether or not such obligation is assumed by the Person), the
+amount of such obligation being deemed to be the lesser of the value of that Property or the
+amount of the obligation so secured;
+
+(h) to the extent not otherwise included in this definition, Hedging Obligations of such Person (the
+amount of any such obligations to be equal at any time to the termination value of such
+agreement or arrangement giving rise to such Obligations that would be payable by such Person
+at such time); and
+
+(i) the amount of any obligations under a Permitted Receivables Financing to which such Person is
+a party.
+
+Notwithstanding the foregoing, Debt shall not include any customary earn-out obligations or other
+contingent acquisition consideration until due and payable. The amount of Debt of any Person at any date
+shall be the outstanding balance at that date of all unconditional obligations as described above and the
+maximum liability, upon the occurrence of the contingency giving rise to the obligation, of any contingent
+obligations at that date.
+
+“Default” means any event which is, or after notice or passage of time or both would be, an Event of
+Default.
+
+“Designated Non-Cash Consideration” means the Fair Market Value of non-cash consideration
+received by the Issuer or one of its Restricted Subsidiaries in connection with an Asset Sale that is so
+designated as Designated Non-cash Consideration pursuant to an Officers’ Certificate, setting forth the
+basis of such valuation, less the amount of cash and Cash Equivalents received in connection with a
+subsequent sale of such Designated Non-cash Consideration.
+
+
+-----
+
+“Disposition” or “Dispose” means the sale, transfer, license, lease or other disposition (including any
+Sale and Leaseback Transaction and any sale or issuance of Capital Stock in a Restricted Subsidiary but
+excluding any sale or issuance of Capital Stock in the Issuer) of any Property by any Person, including any
+sale, assignment, transfer or other disposal, with or without recourse, of any notes or accounts receivable or
+any rights and claims associated therewith, but excluding, for purposes hereof, (a) Dispositions of obsolete,
+worn out or no longer useful property, whether now owned or hereafter acquired, in each case, in the ordinary
+course of business, (b) Dispositions of inventory, promotional materials and product displays in the
+ordinary course of business, (c) Dispositions of equipment to the extent that (i) such property is exchanged
+for credit against the purchase price of similar replacement property or (ii) the proceeds of such Disposition
+are reasonably promptly applied to the purchase price of such replacement property; (d) Dispositions of
+defaulted receivables in the ordinary course of business for collection, (e) any Involuntary Disposition,
+and (f) the unwinding of any Hedging Obligation.
+
+“Disqualified Stock” means, with respect to any Person, any Capital Stock that by its terms (or by the
+terms of any security into which it is convertible or for which it is exchangeable, in either case at the option
+of the holder thereof) or otherwise:
+
+(a) matures or is mandatorily redeemable pursuant to a sinking fund obligation or otherwise,
+
+(b) is or may become redeemable or repurchaseable at the option of the holder thereof, in whole or
+in part, or
+
+(c) is convertible or exchangeable at the option of the holder thereof for Debt or Disqualified
+Stock,
+
+on or prior to, in the case of clause (a), (b) or (c), the first anniversary of the Stated Maturity of the
+notes.
+
+“Disqualified Stock Dividends” means all dividends with respect to Disqualified Stock of the Issuer or
+any Restricted Subsidiary held by Persons other than the Issuer or a Wholly Owned Restricted Subsidiary.
+The amount of any dividend of this kind shall be equal to the quotient of the dividend divided by the difference
+between one and the maximum statutory consolidated federal, state and local income tax rate (expressed
+as a decimal number between 1 and 0) then applicable to the issuer of the Disqualified Stock.
+
+“Domestic Restricted Subsidiary”means, a Restricted Subsidiary that is any direct or indirect Subsidiary
+of the Issuer that is organized under the laws of the United States, any state of the United States or the
+District of Columbia.
+
+“Equity Offering” means (i) an underwritten public equity offering of Qualified Capital Stock of the
+Issuer pursuant to an effective registration statement under the Securities Act, or any direct or indirect
+parent company of the Issuer but only to the extent contributed to the Issuer in the form of Qualified Capital
+Stock of the Issuer or (ii) a private equity offering of Qualified Capital Stock of the Issuer, or any direct or
+indirect parent company of the Issuer but only to the extent contributed to the Issuer in the form of Qualified
+Capital Stock of the Issuer, other than any public offerings registered on Form S-8.
+
+“Event of Default” has the meaning set forth under “—Events of Default.”
+
+“Exchange Act” means the U.S. Securities Exchange Act of 1934, as amended, or any successor
+statute, and the rules and regulations promulgated by the SEC thereunder.
+
+“Fair Market Value” means, with respect to any asset or liability, the fair market value of such asset or
+liability, as determined by an Officer of the Issuer in good faith.
+
+“Foreign Subsidiary” means any Restricted Subsidiary of the Issuer that is not a Domestic Restricted
+Subsidiary.
+
+“GAAP” means generally accepted accounting principles set forth in the opinions and pronouncements
+of the Accounting Principles Board of the American Institute of Certified Public Accountants and statements
+and pronouncements of the Financial Accounting Standards Board Accounting Standards Codification
+or in such other statements by such other entity as have been approved by a significant segment of the
+
+
+-----
+
+accounting profession, as in effect from time to time; provided that leases will be accounted for using the
+generally accepted accounting principles in the United States of America in effect for fiscal years ending on
+or before December 15, 2018 and any changes in the accounting for leases for fiscal years beginning after
+December 15, 2018 will be disregarded. For the purposes of the indenture, the term “consolidated,” with
+respect to any Person, shall mean such Person consolidated with its Restricted Subsidiaries, and shall not
+include any Unrestricted Subsidiary, but the interest of such Person in an Unrestricted Subsidiary will be
+accounted for as an Investment. If at any time the SEC permits or requires U.S. domiciled companies subject
+to the reporting requirements of the Exchange Act to use IFRS in lieu of GAAP for financial reporting
+purposes, the Issuer may elect by written notice to the trustee to so use IFRS in lieu of GAAP and, upon
+any such notice, references herein to GAAP shall thereafter be construed to mean (a) for periods beginning
+on and after the date specified in such notice, IFRS as in effect on the date specified in such notice and as in
+effect from time to time (for all other purposes of the indenture) and (b) for prior periods, GAAP as
+defined in the first sentence of this definition.
+
+“Guarantee” means any obligation, contingent or otherwise, of any Person directly or indirectly
+guaranteeing any Debt of any other Person and any obligation, direct or indirect, contingent or otherwise,
+of that Person:
+
+(a) to purchase or pay (or advance or supply funds for the purchase or payment of) the Debt of
+such other Person (whether arising by virtue of partnership arrangements, or by agreements to
+keep-well, to purchase assets, goods, securities or services, to take-or-pay or to maintain financial
+statement conditions or otherwise), or
+
+(b) entered into for the purpose of assuring in any other manner the obligee against loss in respect
+thereof (in whole or in part);
+
+_provided, however, that the term “Guarantee” shall not include:_
+
+(1) endorsements for collection or deposit in the ordinary course of business, or
+
+(2) a contractual commitment by one Person to invest in another Person for so long as the Investment
+is reasonably expected to constitute a Permitted Investment under clause (a), (b) or (i) of the
+definition of “Permitted Investment.”
+
+The term “Guarantee” used as a verb has a corresponding meaning.
+
+“Guarantor” means each Restricted Subsidiary that is a borrower or guarantor of indebtedness under
+the Credit Agreement or the indenture and any other Subsidiary that executes a supplemental indenture in
+the form attached to the indenture providing for the guarantee of the payment of the notes and any successor
+obligor under its Note Guaranty pursuant to “—Certain Covenants—Merger, Consolidation and Sale of
+Property,” unless and until such Guarantor is released from its Note Guaranty pursuant to the indenture.
+
+“Hedging Obligation” of any Person means any obligation of that Person pursuant to any Interest
+Rate Agreement, Currency Exchange Protection Agreement, Commodity Price Protection Agreement or
+any other similar agreement or arrangement.
+
+“Incur” means, with respect to any Debt or other obligation of any Person, to create, issue, incur (by
+merger, conversion, exchange or otherwise), extend, assume, Guarantee or become liable in respect of that
+Debt or other obligation or the recording, as required pursuant to GAAP or otherwise, of any Debt or
+obligation on the balance sheet of that Person (and “Incurrence” and “Incurred” shall have meanings
+correlative to the foregoing); provided, however, that a change in GAAP that results in an obligation of that
+Person that exists at such time, and is not theretofore classified as Debt, becoming Debt shall not be deemed
+an Incurrence of that Debt; provided further, however, that any Debt or other obligations of a Person
+existing at the time the Person becomes a Subsidiary (whether by merger, consolidation, acquisition or
+otherwise) shall be deemed to be Incurred by that Subsidiary at the time it becomes a Subsidiary; and provided
+_further, however, that solely for purposes of determining compliance with “—Certain Covenants—_
+Limitation on Debt,” amortization of debt discount or premium shall not be deemed to be the Incurrence
+of Debt, provided that in the case of Debt sold at a discount or at a premium, the amount of the Debt Incurred
+shall at all times be the aggregate principal amount at Stated Maturity.
+
+
+-----
+
+“Independent Financial Advisor” means an investment banking firm of national standing or any third
+party appraiser of national standing, provided that the firm or appraiser is not an Affiliate of the Issuer.
+
+“Interest Rate Agreement” means, for any Person, any interest rate swap agreement, interest rate
+option agreement or other similar agreement or arrangement designed to protect against fluctuations in
+interest rates.
+
+“Investment” by any Person means any direct or indirect loan (other than advances or extensions of
+credit to customers and suppliers in the ordinary course of business), advance or other extension of credit
+or capital contribution (by means of transfers of cash or other Property to others or payments for Property
+or services for the account or use of others, or otherwise) to, or Incurrence of a Guarantee of any obligation
+of, or purchase or acquisition of Capital Stock, bonds, notes, debentures or other securities or evidence of
+Debt issued by, any other Person, including any partnership or joint venture interest in such other Person
+and any arrangement pursuant to which the investor undertakes any Support Obligation with respect to Debt
+or other obligations of such other Person. For purposes of the covenants described under “—Certain
+Covenants—Limitation on Restricted Payments” and “—Certain Covenants—Designation of Restricted
+and Unrestricted Subsidiaries” and the definition of “Restricted Payment,” “Investment” shall include the
+portion (proportionate to the Issuer’s equity interest in the Subsidiary) of the Fair Market Value of the net
+assets of any Subsidiary of the Issuer at the time that the Subsidiary is designated an Unrestricted
+Subsidiary; provided, however, that upon a redesignation of that Subsidiary as a Restricted Subsidiary, the
+Issuer shall be deemed to continue to have a permanent “Investment” in an Unrestricted Subsidiary of an
+amount (if positive) equal to:
+
+(a) the Issuer’s “Investment” in that Subsidiary at the time of such redesignation, less
+
+(b) the portion (proportionate to the Issuer’s equity interest in such Subsidiary) of the Fair Market
+Value of the net assets of that Subsidiary at the time of such redesignation.
+
+In determining the amount of any Investment made by transfer of any Property other than cash, the
+Property shall be valued at its Fair Market Value at the time of the Investment.
+
+“Investment Grade Rating” means a rating equal to or higher than Baa3 (or the equivalent) by
+Moody’s and BBB- (or the equivalent) by S&P or, in the event S&P or Moody’s shall cease rating the notes
+(for reasons outside the control of the Issuer) the Issuer shall select any other Rating Agency, the equivalent of
+such ratings by such other Rating Agency.
+
+“Involuntary Disposition” means the receipt by the Issuer or any Restricted Subsidiary of any cash
+insurance proceeds or condemnation awards or expropriation compensation payable by reason of theft,
+loss, physical destruction or damage, taking or similar event with respect to any of its Property.
+
+“Issue Date” means, 2021, the date on which the notes are originally issued under the indenture.
+
+“Lien” means, with respect to any Property of any Person, any mortgage or deed of trust, pledge,
+hypothecation, assignment, deposit arrangement, security interest, lien, charge, easement (other than any
+easement not materially impairing usefulness or marketability), encumbrance, preference, priority or other
+security agreement or preferential arrangement of any kind or nature whatsoever on or with respect to that
+Property (including any Capital Lease Obligation, Synthetic Lease Obligation, conditional sale or other
+title retention agreement having substantially the same economic effect as any of the foregoing or any Sale
+and Leaseback Transaction).
+
+“Moody’s” means Moody’s Investors Service, Inc. or any successor to the rating agency business
+thereof.
+
+
+-----
+
+“Net Available Cash” from any Asset Sale means cash payments received therefrom (including any cash
+payments received upon the sale or other disposition of any Designated Non-Cash Consideration received
+in any Asset Sale, any cash payments received by way of deferred payment of principal pursuant to a note or
+installment receivable or otherwise, but only as and when received, but excluding any other consideration
+received in the form of assumption by the acquiring Person of Debt or other obligations relating to the
+Property that is the subject of that Asset Sale or received in any other non-cash form), in each case net of:
+
+(a) all legal, title and recording tax expenses, commissions and other fees (including, without
+limitation, brokers’ or investment bankers’ commissions or fees) and expenses incurred, and all
+federal, state, provincial, foreign and local taxes required to be accrued as a liability under GAAP,
+as a consequence of the Asset Sale,
+
+(b) all payments made on any Debt that is secured by any Property subject to the Asset Sale, in
+accordance with the terms of any Lien upon or other security agreement of any kind with respect
+to that Property, or which must by its terms, or in order to obtain a necessary consent to the
+Asset Sale, or by applicable law, be repaid out of the proceeds from the Asset Sale,
+
+(c) all distributions and other payments required to be made to noncontrolling interest holders in
+Subsidiaries or joint ventures as a result of the Asset Sale, and
+
+(d) the deduction of appropriate amounts provided by the seller as a reserve, in accordance with
+GAAP, against any liabilities associated with the Property disposed in the Asset Sale and retained
+by the Issuer or any Restricted Subsidiary after the Asset Sale
+
+_provided, that, to the extent that any portion of the consideration for an Asset Sale is required by contract_
+to be held in a separate escrow or deposit account to support indemnification, adjustment of purchase price
+or similar obligations, such portion of the consideration shall become Net Available Cash only at such
+time as it is released to the Issuer or a Restricted Subsidiary from the escrow or deposit account.
+
+“Net Cash Proceeds” means with respect to any incurrence or issuance of Debt, the aggregate principal
+amount actually received in cash by the Issuer or any Restricted Subsidiary in connection therewith, net of
+direct costs (including legal, accounting and investment banking fees and expenses, sales brokerage
+commissions and underwriting discounts).
+
+“Note Guaranty” means the guarantee of the notes by a Guarantor pursuant to the indenture.
+
+“Officer” means the Chief Executive Officer, the Chief Financial Officer, Vice Chairman, any President,
+the Chief Accounting Officer, any Executive Vice President, any Senior Vice President, the Treasurer, the
+Secretary of the Issuer or any other officer designated by the Issuer’s Board of Directors.
+
+“Officers’ Certificate” means a certificate signed by two Officers of the Issuer, at least one of whom
+shall, in the case of an Officers’ Certificate delivered by the Issuer, be the principal executive officer, principal
+financial officer or the principal accounting officer of the Issuer, and delivered to the trustee.
+
+“Opinion of Counsel” means a written opinion from legal counsel who is acceptable to the trustee. The
+counsel may be an employee of or counsel to the Issuer if acceptable to the Trustee.
+
+“Permitted Business” means any business that is reasonably similar, ancillary, complementary or
+related to, or a reasonable extension, development or expansion of, the businesses in which the Issuer and
+its Restricted Subsidiaries are engaged in on the Issue Date.
+
+“Permitted Investment” means any Investment by the Issuer or a Restricted Subsidiary in:
+
+(a) any Restricted Subsidiary or any Person that will, upon the making of such Investment, become
+a Restricted Subsidiary, provided that the primary business of the Restricted Subsidiary is a
+Permitted Business;
+
+(b) any Person if as a result of the Investment that Person is merged or consolidated with or into, or
+transfers or conveys all or substantially all its Property to, the Issuer or a Restricted Subsidiary,
+_provided that the Person’s primary business is a Permitted Business;_
+
+
+-----
+
+(c) cash, Cash Equivalents and Temporary Cash Investments;
+
+(d) commission, payroll, travel and similar advances to cover matters that are expected at the time
+of those advances ultimately to be treated as expenses for accounting purposes and that are made
+in the ordinary course of business;
+
+(e) loans and advances to directors, officers and employees (i) made in the ordinary course of
+business (provided that those loans and advances do not exceed $5.0 million at any one time) or
+(ii) to finance the purchase of Capital Stock of the Issuer, in compliance with applicable laws,
+(provided that those loans and advances do not exceed $10.0 million at any one time
+outstanding);
+
+(f) stock, obligations or other securities received in settlement of debts created in the ordinary
+course of business and owing to the Issuer or a Restricted Subsidiary or in satisfaction of
+judgments;
+
+(g) any Person to the extent the Investment represents the non-cash portion of the consideration
+received in connection with an Asset Sale consummated in compliance with the covenant described
+under “—Certain Covenants—Limitation on Asset Sales”;
+
+(h) Hedging Obligations permitted under clauses (e), (f), (g) or (o) of the second paragraph of the
+covenant described under “—Certain Covenants—Limitation on Debt”;
+
+(i) customers or suppliers of the Issuer or any of its Subsidiaries in the form of extensions of credit
+or transfers of Property, to the extent otherwise constituting an Investment, and in the ordinary
+course of business and any Investments received in the ordinary course of business in satisfaction
+or partial satisfaction thereof;
+
+(j) any Person if the Investments (or binding commitments in respect thereof) are outstanding on
+the Issue Date and not otherwise described in clauses (a) through (i) above;
+
+(k) any securities, derivative instruments or other Investments of any kind that are acquired and
+held for the benefit of Issuer employees in the ordinary course of business pursuant to deferred
+compensation plans or arrangements approved by the Board of Directors; provided, however, that
+(i) the amount of such Investment represents funds paid or payable in respect of deferred
+compensation previously included as an expense in the calculation of Consolidated Net Income
+(and not excluded pursuant to clause (f) of the definition of “Consolidated Net Income”),
+and (ii) the terms of such Investment shall not require any additional Investment by the Issuer
+or any Restricted Subsidiary;
+
+(l) any Person (other than an Affiliate) in an aggregate amount not to exceed the greater of
+(x) $75.0 million or (y) 10.00% of Consolidated Net Tangible Assets (measured at the time of
+Investment);
+
+(m) any investment acquired in exchange for shares of Capital Stock of the Issuer (other than
+Disqualified Stock); provided that the proceeds of such issuance shall be excluded from the
+definition of “Capital Stock Sale Proceeds”;
+
+(n) any receivable owing to the Issuer or any Restricted Subsidiary created or acquired in the
+ordinary course of business and payable or dischargeable in accordance with customary trade
+terms; provided that such trade terms may include such concessionary trade terms as the Issuer or
+any such Restricted Subsidiary deems reasonable under the circumstances;
+
+(o) any Investment (i) in exchange for any other Investment or accounts receivable held by the
+Issuer or any such Restricted Subsidiary in connection with or as a result of bankruptcy, workout,
+reorganization or recapitalization of any Restricted Subsidiary of such other Investment or
+accounts receivable, (ii) in satisfaction of judgments or in compromise, settlement or resolution
+of any litigation, arbitration or other dispute, or (iii) as a result of a foreclosure by the Issuer or
+any of its Restricted Subsidiaries with respect to any secured Investment or other transfer of
+title with respect to any secured Investment in default;
+
+
+-----
+
+(p) Guarantees of Debt issued in accordance with “—Certain Covenants—Limitation on Debt;”
+
+(q) Investments made in connection with the funding of contributions under any nonqualified
+retirement plan or similar employee compensation plan in an amount not to exceed the amount
+of compensation expense recognized by the Issuer and its Restricted Subsidiaries in connection
+with such plans;
+
+(r) Investments in any Person engaged in a Permitted Business in an aggregate amount not to
+exceed the greater of (x) $75.0 million or (y) 10.00% of Consolidated Net Tangible Assets
+(measured at the time of Investment);
+
+(s) Investments in Unrestricted Subsidiaries or joint ventures in an aggregate amount not to exceed
+the greater of (x) $50.0 million or (y) 7.50% of Consolidated Net Tangible Assets (measured
+at the time of Investment);
+
+(t) Debt in respect of overdraft facilities, employee credit card programs and other cash management
+arrangements in the ordinary course of business;
+
+(u) Investments in a Securitization Subsidiary that are necessary or desirable to effect any Permitted
+Receivables Financing; and
+
+(v) any Investment, if on a pro forma basis after giving effect to such Investment, the Consolidated
+Leverage Ratio would not be greater than 2.00 to 1.00.
+
+For the avoidance of doubt, any Investment that is a Permitted Investment hereunder may be transferred
+to the Issuer or another Restricted Subsidiary, or exchanged for other assets of the Issuer or another
+Restricted Subsidiary.
+
+“Permitted Liens” means:
+
+(a) Liens (including, without limitation and to the extent constituting a Lien, negative pledges) to
+secure Debt Incurred under clause (b) of the second paragraph of the covenant described under
+“—Certain Covenants—Limitation on Debt,” regardless of whether the Issuer and the
+Restricted Subsidiaries are actually subject to that covenant at the time the Lien is Incurred;
+
+(b) Liens for taxes, assessments or governmental charges or levies on the Property of the Issuer or
+any Restricted Subsidiary and deposits in respect thereof if the same shall not at the time be
+delinquent or thereafter can be paid without penalty, or are being contested in good faith and by
+appropriate proceedings promptly instituted and diligently concluded, provided that any reserve
+or other appropriate provision that shall be required in conformity with GAAP shall have been
+made therefor;
+
+(c) Liens imposed by law, such as carriers’, warehousemen’s, materialmen’s, repairmen’s and
+mechanics’ Liens and other similar Liens, on the Property of the Issuer or any Restricted
+Subsidiary arising in the ordinary course of business and securing payment of obligations that
+are not more than 60 days past due or are being contested in good faith and by appropriate
+proceedings;
+
+(d) Liens on the Property of the Issuer or any Restricted Subsidiary Incurred in the ordinary course
+of business to secure performance of obligations with respect to statutory or regulatory
+requirements, performance or return-of-money bonds, surety bonds or other obligations of a
+like nature and Incurred in a manner consistent with industry practice, including banker’s liens
+and rights of set-off, in each case which are not Incurred in connection with the borrowing of
+money, the obtaining of advances or credit or the payment of the deferred purchase price of
+Property and which do not in the aggregate impair in any material respect the use of Property in
+the operation of the business of the Issuer and the Restricted Subsidiaries taken as a whole;
+
+(e) Liens on Property at the time the Issuer or any Restricted Subsidiary acquired the Property,
+including Property acquired pursuant to any acquisition by means of a merger or consolidation
+with or into the Issuer or any Restricted Subsidiary; provided, however, that any Lien of this
+
+
+-----
+
+kind may not extend to any other Property of the Issuer or any Restricted Subsidiary; provided
+_further, however, that the Liens shall not have been Incurred in anticipation of or in connection_
+with the transaction or series of transactions pursuant to which the Property was acquired by
+the Issuer or any Restricted Subsidiary;
+
+(f) Liens on the Property of a Person at the time that Person becomes a Restricted Subsidiary;
+_provided, however, that any Lien of this kind may not extend to any other Property of the Issuer_
+or any other Restricted Subsidiary that is not a direct Subsidiary of that Person (other than
+after-acquired property that is (a) affixed or incorporated into the property covered by such Lien,
+(b) subject to a Lien securing such Debt, the terms of which Debt requires or includes a pledge
+of after-acquired property and (c) the proceeds and products thereof); provided further, however,
+that the Lien was not Incurred in anticipation of or in connection with the transaction or
+series of transactions pursuant to which the Person became a Restricted Subsidiary;
+
+(g) pledges or deposits by the Issuer or any Restricted Subsidiary under workers’ compensation
+laws, unemployment insurance laws or similar legislation, or good faith deposits in connection
+with bids, tenders, contracts (other than for the payment of Debt) or leases to which the Issuer or
+any Restricted Subsidiary is party, or deposits to secure public or statutory obligations of the
+Issuer or any Restricted Subsidiary, or deposits for the payment of rent, in each case Incurred in
+the ordinary course of business;
+
+(h) Liens (including, without limitation and to the extent constituting Liens, negative pledges),
+assignments and pledges of rights to receive premiums, interest or loss payments or otherwise
+arising in connection with workers’ compensation loss portfolio transfer insurance transactions
+or any insurance or reinsurance agreements pertaining to losses covered by insurance, and Liens
+(including, without limitation and to the extent constituting Liens, negative pledges) in favor of
+insurers or reinsurers on pledges or deposits by the Issuer or any Restricted Subsidiary under
+workmen’s compensation laws, unemployment insurance laws or similar legislation;
+
+(i) Liens of landlords on fixtures, equipment and movable property located on leased premises and
+utility easements, building restrictions and such other encumbrances or charges against real
+Property as are of a nature generally existing with respect to properties of a similar character;
+
+(j) Liens arising out of judgments or awards against the Issuer or a Restricted Subsidiary with
+respect to which the Issuer or the Restricted Subsidiary shall then be proceeding with an appeal
+or other proceeding for review;
+
+(k) Liens in favor of issuers of performance, stay, appeal, indemnification, surety or similar bonds,
+completion guarantees or letters of credit issued pursuant to the request of and for the account of
+the Issuer or a Restricted Subsidiary in the ordinary course of its business, provided that these
+letters of credit do not constitute Debt;
+
+(l) leases or subleases of real property granted by the Issuer or a Restricted Subsidiary to any other
+Person and not interfering in any material respect with the business of the Issuer and its
+Subsidiaries, taken as a whole;
+
+(m) Liens (including, without limitation and to the extent constituting Liens, negative pledges) on
+intellectual property arising from intellectual property licenses entered into in the ordinary course
+of business;
+
+(n) Liens or negative pledges attaching to or related to joint ventures engaged in a Permitted
+Business, restricting Liens on interests in those joint ventures;
+
+(o) Liens existing on the Issue Date not otherwise described in clauses (a) through (n) above;
+
+(p) Liens securing Debt Incurred pursuant to clause (l) of the second paragraph of the covenant
+described under “—Certain Covenants—Limitation on Debt” on the Property purchased with
+the proceeds of such Debt;
+
+
+-----
+
+(q) Liens on the Property of the Issuer or any Restricted Subsidiary to secure any Refinancing, in
+whole or in part, of any Debt secured by Liens referred to in clause (e), (f), (o) or (p) above or
+(x) below; provided, however, that any Lien of this kind shall be limited to all or part of the same
+Property that secured the original Lien (together with improvements and accessions to such
+Property) and the aggregate principal amount of Debt that is secured by the Lien shall not be
+increased to an amount greater than the sum of:
+
+(1) the outstanding principal amount, or, if greater, the committed amount, of the Debt
+secured by Liens described under clause (e), (f), (o) or (p) above or (x) below, as the case
+may be, at the time the original Lien became a Permitted Lien under the indenture, and
+
+(2) an amount necessary to pay any fees and expenses, including premiums and defeasance
+costs, incurred by the Issuer or the Restricted Subsidiary in connection with the Refinancing;
+
+(r) Liens on cash or Temporary Cash Investments held as proceeds of Permitted Refinancing Debt
+pending the payment, purchase, defeasance or other retirement of the Debt being Refinanced;
+
+(s) Liens not otherwise permitted by clauses (a) through (r) above securing obligations with an
+aggregate principal amount not to exceed the greater of $75.0 million or (y) 10.00% of
+Consolidated Net Tangible Assets (measured at the time of incurrence) at any one time
+outstanding;
+
+(t) Liens securing Hedging Obligations permitted under clause (e), (f), (g) or (o) of the second
+paragraph of the covenant described under “—Certain Covenants—Limitation on Debt”;
+
+(u) Liens in favor of customs and revenue authorities arising as a matter of law to secure payment
+of customs duties in connection with the importation of goods;
+
+(v) Liens on escrowed proceeds for the benefit of the related holders of debt securities or other
+Debt (or the underwriters or arrangers thereof) or on cash set aside at the time of the Incurrence
+of any Debt or government securities purchased with such cash, in either case to the extent
+such cash or government securities prefund the payment of interest on such Debt and are held
+in an escrow account or similar arrangement to be applied for such purpose;
+
+(w) Liens on escrow accounts created for the benefit of or to secure, directly or indirectly, the notes,
+or the Credit Agreement;
+
+(x) Liens (including, without limitation and to the extent constituting a Lien, negative pledges) to
+secure Debt so long as on a pro forma basis the Consolidated Secured Leverage Ratio does not
+exceed 2.00 to 1.00;
+
+(y) Liens (1) securing Debt Incurred pursuant to clause (k) or (n) of the second paragraph of the
+covenant described under “—Certain Covenants—Limitation on Debt” or (2) on assets of a
+Foreign Subsidiary securing Debt of a Foreign Subsidiary;
+
+(z) Liens arising from Uniform Commercial Code financing statement filings regarding operating
+leases entered into by the Issuer and its Restricted Subsidiaries in the ordinary course of business;
+
+(aa) any interest or title of a lessor under any Capital Lease Obligation or operating lease;
+
+(bb) Liens (i) of a collection bank arising under Section 4-208 of the Uniform Commercial Code or
+any comparable or successor provision on items in the course of collection, (ii) attaching to
+pooling, commodity trading accounts or other commodity brokerage accounts incurred in the
+ordinary course of business and (iii) in favor of banking or other financial institutions or electronic
+payment service providers arising as a matter of law encumbering deposits (including the right
+of set-off) and which are within the general parameters customary in the banking or finance
+industry;
+
+(cc) Liens solely on any cash earnest money deposits made by Issuer or any of its Restricted
+Subsidiaries in connection with any letter of intent or purchase agreement permitted under the
+indenture;
+
+
+-----
+
+(dd) Liens on property or assets used to defease or to irrevocably satisfy and discharge Debt;
+_provided that such defeasance or satisfaction and discharge is not prohibited by the indenture;_
+
+(ee) Liens in connection with the sale or transfer of any equity interests or other assets in a transaction
+permitted under the indenture, customary rights and restrictions contained in agreements
+relating to such sale or transfer pending the completion thereof;
+
+(ff) Liens on accounts receivable and related assets and proceeds thereof arising in connection with
+a Permitted Receivables Financing; and
+
+(gg) Liens arising from Uniform Commercial Code financing statement filings regarding supply
+chain finance programs or other receivables sale transactions in the ordinary course of business.
+
+“Permitted Receivables Financing” means any receivables financing facility or arrangement pursuant
+to which a Securitization Subsidiary purchases, otherwise acquires or receives Lien on accounts receivable
+of the Issuer or any Restricted Subsidiaries and enters into a third party financing thereof on terms that the
+officers of the Issuer have concluded are customary and market-standard.
+
+“Permitted Refinancing Debt” means any Debt that Refinances any other Debt, including any
+successive Refinancings, so long as:
+
+(a) the new Debt is in an aggregate principal amount (or if Incurred with original issue discount, an
+aggregate issue price) not in excess of the sum of:
+
+(1) the aggregate principal amount (or if Incurred with original issue discount, the aggregate
+accreted value) then outstanding of the Debt being Refinanced, and
+
+(2) an amount necessary to pay any fees and expenses, including premiums and defeasance
+costs, related to the Refinancing,
+
+(b) the Average Life of the new Debt is equal to or greater than the Average Life of the Debt being
+Refinanced,
+
+(c) the Stated Maturity of the new Debt is no earlier than the Stated Maturity of the Debt being
+Refinanced, and
+
+(d) the new Debt shall not be senior in right of payment to the Debt that is being Refinanced;
+
+_provided, however, that Permitted Refinancing Debt shall not include:_
+
+(x) Debt of a Subsidiary that is not a Guarantor that Refinances Debt of the Issuer or any
+Guarantor, or
+
+(y) Debt of the Issuer or a Restricted Subsidiary that Refinances Debt of an Unrestricted Subsidiary.
+
+“Person” means any individual, corporation, company (including any limited liability company),
+association, partnership, joint venture, trust, unincorporated organization, government or any agency or
+political subdivision thereof or any other entity.
+
+“Preferred Stock” means any Capital Stock of a Person, however designated, which entitles the holder
+thereof to a preference with respect to the payment of dividends, or as to the distribution of assets upon
+any voluntary or involuntary liquidation or dissolution of that Person, over shares of any other class of
+Capital Stock issued by that Person.
+
+“Preferred Stock Dividends” means all dividends with respect to Preferred Stock of the Issuer or any
+Restricted Subsidiary held by Persons other than the Issuer or a Wholly Owned Restricted Subsidiary. The
+amount of any dividend of this kind shall be equal to the quotient of the dividend divided by the difference
+between one and the maximum statutory consolidated federal, state and local income rate (expressed as a
+decimal number between 1 and 0) then applicable to the issuer of the Preferred Stock.
+
+“Productive Assets” means assets (other than securities and inventory) that are used or usable by the
+Issuer and its Restricted Subsidiaries in Permitted Businesses.
+
+
+-----
+
+“pro forma basis” means, with respect to any computation hereunder required to be made on a
+pro forma basis giving effect to any proposed Investment or other acquisition, any Disposition, any
+Restricted Payment or any payment of or in respect of any Debt (collectively, “Pro Forma Events”),
+computation thereof after giving pro forma effect to adjustments in connection with such Pro Forma Event
+that are either (i) in accordance with Regulation S-X under the Securities Act or (ii) made in good faith by
+the Issuer and set forth in an Officers’ Certificate, and may include cost savings (including, without limitation,
+cost savings, workforce reductions and facility, benefit and insurance savings), operating expense reductions,
+other operating improvements, initiatives and synergies that are reasonably identifiable and factually
+supportable and reasonably expected to result within 24 months following the consummation of the relevant
+Pro Forma Event, provided that the aggregate amount of any increase in Consolidated EBITDA resulting
+from adjustments pursuant to this clause (ii) for any four fiscal quarter period of the Issuer, when aggregated
+with the amount of any addback to Consolidated EBITDA pursuant to clause (a)(ix) of the definition
+thereof for such period, shall not exceed 25% of Consolidated EBITDA for such period (prior to giving effect
+to any increase pursuant to such clause (a)(ix) or this clause (ii)), in each case, using for purposes of
+making any such computation, the consolidated financial statements of the Issuer and the Restricted
+Subsidiaries (and, to the extent applicable, the historical financial statements of any entities or assets so
+acquired or to be acquired, or so disposed or to be disposed), which shall be reformulated as if such Pro
+Forma Event (and, in the case of any pro forma computations made hereunder to determine whether such
+Pro Forma Event is permitted to be consummated hereunder, to any other Pro Forma Event consummated
+since the first day of the period covered by any component of such pro forma computation and on or
+prior to the date of such computation), and any Debt or other liabilities incurred in connection with any
+such Pro Forma Event, had been consummated and incurred at the beginning of such period.
+
+“Pro Forma Event” has the meaning set forth in the definition of “pro forma basis.”
+
+“Property” means, with respect to any Person, any interest of that Person in any kind of property,
+plant, equipment or other asset, whether real, personal or mixed, or tangible or intangible, including Capital
+Stock in, and other securities of, any other Person. For purposes of any calculation required pursuant to
+the indenture, the value of any Property shall be its Fair Market Value.
+
+“Purchase Money Debt” means Debt:
+
+(a) consisting of the deferred purchase price of property, conditional sale obligations, obligations
+under any title retention agreement, other purchase money obligations and obligations in respect
+of industrial revenue bonds, in each case where the maturity of the Debt does not exceed the
+anticipated useful life of the Property being financed, and
+
+(b) Incurred to finance the acquisition, construction or lease by the Issuer or a Restricted Subsidiary
+of the Property, including additions and improvements thereto;
+
+_provided, however, that the Debt is Incurred within 365 days after the acquisition, construction or lease of_
+the Property by the Issuer or Restricted Subsidiary.
+
+“Qualified Capital Stock” means any Capital Stock that is not Disqualified Stock.
+
+“Rating Agencies” means Moody’s and S&P, and if S&P or Moody’s or both shall not make a rating
+on the notes publicly available (for reasons outside the control of the Issuer), a statistical rating agency or
+agencies, as the case may be, nationally recognized in the United States and selected by the Issuer (as certified
+by a resolution of the Board of Directors of the Issuer) which shall be substituted for S&P or Moody’s, or
+both, as the case may be.
+
+“Ratings Decline Period” means, with respect to the notes, the period that (i) begins on the earlier of
+(a) the date of the first public announcement of the occurrence of a Change of Control or of the intention
+by the Issuer or a shareholder of the Issuer, as applicable, to effect a Change of Control or (b) the occurrence
+thereof and (ii) ends 60 days following consummation of such Change of Control; provided that such
+period shall be extended for so long as the rating of the notes, as noted by the applicable rating agency, is
+under publicly announced consideration for downgrade by the applicable rating agency.
+
+
+-----
+
+“Refinance” means, in respect of any Debt, to refinance, extend, renew, refund, repay, prepay,
+repurchase, redeem, defease or retire, or to issue other Debt, in exchange or replacement for, that Debt.
+“Refinanced” and “Refinancing” shall have correlative meanings.
+
+“Repay” means, in respect of any Debt, to repay, prepay, repurchase, redeem, legally defease or
+otherwise retire that Debt. “Repayment” and “Repaid” shall have correlative meanings. For purposes of the
+covenants described under “—Certain Covenants—Limitation on Asset Sales”and “—Certain Covenants—
+Limitation on Debt” and the definition of “Consolidated Fixed Charges Coverage Ratio,” Debt shall be
+considered to have been Repaid only to the extent the related loan commitment, if any, shall have been
+permanently reduced in connection therewith.
+
+“Restricted Payment” means:
+
+(a) any dividend or distribution (whether made in cash, securities or other Property) declared or
+paid on or with respect to any shares of Capital Stock of the Issuer or any Restricted Subsidiary
+(including any payment in connection with any merger or consolidation with or into the Issuer
+or any Restricted Subsidiary), except for any dividend or distribution that is made to the Issuer or
+the parent of the Restricted Subsidiary or any dividend or distribution payable solely in shares
+of Capital Stock (other than Disqualified Stock) of the Issuer;
+
+(b) the purchase, repurchase, redemption, acquisition or retirement for value of any Capital Stock
+of the Issuer or any Restricted Subsidiary (other than from the Issuer or a Restricted Subsidiary)
+or any securities exchangeable for or convertible into Capital Stock of the Issuer or any
+Restricted Subsidiary, including the exercise of any option to exchange any Capital Stock (other
+than for or into Capital Stock of the Issuer that is not Disqualified Stock);
+
+(c) the purchase, repurchase, redemption, acquisition or retirement for value, prior to the date for
+any scheduled maturity, sinking fund or amortization or other installment payment, of any
+Subordinated Obligation (other than (i) any Subordinated Obligation Incurred under clause (c) of
+the second paragraph of the covenant described under “—Certain Covenants—Limitation on
+Debt” and (ii) the purchase, repurchase or other acquisition of any Subordinated Obligation
+purchased in anticipation of satisfying a scheduled maturity, sinking fund or amortization or
+other installment obligation, in each case under this subclause (ii) due within one year of the
+date of acquisition);
+
+(d) any Investment (other than Permitted Investments) in any Person; or
+
+(e) the issuance, sale or other disposition of Capital Stock of any Restricted Subsidiary to a Person
+other than the Issuer or another Restricted Subsidiary if the result thereof is that the Restricted
+Subsidiary shall cease to be a Restricted Subsidiary, in which event the amount of the “Restricted
+Payment” shall be the Fair Market Value of the remaining interest, if any, in the former
+Restricted Subsidiary held by the Issuer and the other Restricted Subsidiaries.
+
+“Restricted Subsidiary” means any Subsidiary of the Issuer other than an Unrestricted Subsidiary.
+
+“S&P” means S&P Global Ratings, a division of S&P Global Inc., or any successor to the rating agency
+business thereof.
+
+“Sale and Leaseback Transaction” means any direct or indirect arrangement relating to Property now
+owned or hereafter acquired whereby the Issuer or a Restricted Subsidiary transfers that Property to another
+Person and the Issuer or a Restricted Subsidiary leases it from that other Person together with any
+Refinancings thereof.
+
+“SEC” means the U.S. Securities and Exchange Commission.
+
+“Securities Act” means the U.S. Securities Act of 1933, as amended, or any successor statute, and the
+rules and regulations promulgated by the SEC thereunder.
+
+“Securitization Subsidiary” means a Subsidiary of the Issuer:
+
+(1) that is designated a “Securitization Subsidiary” by the officers of the Issuer,
+
+
+-----
+
+(2) that does not engage in any activities other than Permitted Receivables Financings and any
+activity necessary, incidental or related thereto,
+
+(3) no portion of the Debt or any other obligation, contingent or otherwise, of which:
+
+(A) is Guaranteed by the Issuer or any Restricted Subsidiary of the Issuer,
+
+(B) is recourse to or obligates the Issuer or any Restricted Subsidiary of the Issuer in any way,
+or
+
+(C) subjects any property or asset of the Issuer or any Restricted Subsidiary of the Issuer,
+directly or indirectly, contingently or otherwise, to the satisfaction thereof,
+
+(4) with respect to which neither the Issuer nor any Restricted Subsidiary of the Issuer (other than
+an Unrestricted Subsidiary) has any obligation to maintain or preserve such its financial condition
+or cause it to achieve certain levels of operating results,
+
+other than, in respect of clauses (3) and (4), pursuant to customary representations, warranties,
+covenants and indemnities entered into in connection with a Permitted Receivables Financing.
+
+“Significant Subsidiary” means any Subsidiary that would be a “Significant Subsidiary” of the Issuer
+within the meaning of Rule 1-02 under Regulation S-X promulgated by the SEC.
+
+“Stated Maturity” means, with respect to any security, the date specified in the security as the fixed
+date on which the payment of principal of the security is due and payable, and shall not include any contingent
+obligations to repay, redeem or repurchase any such interest or principal prior to the date originally
+scheduled for the payment thereof.
+
+“Subordinated Obligation” means any Debt of the Issuer or the Guarantors (whether outstanding on
+the Issue Date or thereafter Incurred) that is subordinate or junior in right of payment to the notes pursuant
+to a written agreement to that effect.
+
+“Subsidiary” means, in respect of any Person, any corporation, company (including any limited
+liability company), association, partnership, joint venture or other business entity of which a majority of
+the total voting power of the Voting Stock is at the time owned or controlled, directly or indirectly, by:
+
+(a) that Person,
+
+(b) that Person and one or more Subsidiaries of that Person, or
+
+(c) one or more Subsidiaries of that Person.
+
+“Support Obligation” means, as to any Person, (a) any obligation, contingent or otherwise, of such
+Person guaranteeing or having the economic effect of guaranteeing any Debt or other obligation payable or
+performable by another Person (the “primary obligor”) in any manner, whether directly or indirectly, and
+including any obligation of such Person, direct or indirect, (i) to purchase or pay (or advance or supply funds
+for the purchase or payment of) such Debt or other obligation, (ii) to purchase or lease property, securities
+or services for the purpose of assuring the obligee in respect of such Debt or other obligation of the payment
+or performance of such Debt or other obligation, (iii) to maintain working capital, equity capital or any
+other financial statement condition or liquidity or level of income or cash flow of the primary obligor so as
+to enable the primary obligor to pay such Debt or other obligation, or (iv) entered into for the purpose of
+assuring in any other manner the obligee in respect of such Debt or other obligation of the payment or
+performance thereof or to protect such obligee against loss in respect thereof (in whole or in part), or (b) any
+Lien on any assets of such Person securing any Debt or other obligation of any other Person, whether or
+not such Debt or other obligation is assumed by such Person (or any right, contingent or otherwise, of any
+holder of such Debt to obtain any such Lien). The amount of any Support Obligation shall be deemed to be
+an amount equal to the stated or determinable amount of the related primary obligation, or portion
+thereof, in respect of which such Support Obligation is made or, if not stated or determinable, the maximum
+reasonably anticipated liability in respect thereof as determined by the guaranteeing Person in good faith.
+
+“Swap Agreement” means any agreement with respect to any swap, forward, future or derivative
+transaction or option or similar agreement involving, or settled by reference to, one or more rates, currencies,
+
+
+-----
+
+commodities, equity or debt instruments or securities, or economic, financial or pricing indices or measures
+of economic, financial or pricing risk or value or any similar transaction or any combination of these
+transactions; provided that no phantom stock or similar plan providing for payments only on account of
+services provided by current or former directors, officers, employees or consultants of the Issuer or any
+Subsidiary shall be a Swap Agreement.
+
+“Synthetic Lease” means, as to any Person, any lease (including leases that may be terminated by the
+lessee at any time) of any property (whether real, personal or mixed) (a) that is accounted for as an operating
+lease under GAAP and (b) in respect of which the lessee retains or obtains ownership of the property so
+leased for U.S. federal income tax purposes, other than any such lease under which such Person is the lessor.
+
+“Synthetic Lease Obligations” means, as to any Person, an amount equal to the sum, without
+duplication, of (a) the obligations of such Person to pay rent or other amounts under any Synthetic Lease
+which are attributable to principal and (b) the amount of any purchase price payment under any Synthetic
+Lease assuming the lessee exercises the option to purchase the leased property at the end of the lease
+term. For purposes of “—Certain Covenants—Limitation on Liens,” a Synthetic Lease Obligation shall be
+deemed secured by a Lien on the Property being leased and such Property will be deemed to be owned by the
+lessee.
+
+“Temporary Cash Investments” means any of the following:
+
+(a) securities issued or directly and fully guaranteed or insured by the United States or any agency
+or instrumentality thereof (provided that the full faith and credit of the United States is pledged in
+support thereof) having maturities of not more than twelve months from the date of acquisition,
+
+(b) U.S.-dollar denominated time deposits and certificates of deposit of (i) any lender under the
+Credit Agreement, (ii) any domestic commercial bank of recognized standing having capital and
+surplus in excess of $500.0 million or (iii) any bank whose short-term commercial paper rating
+from S&P is at least A-1 or the equivalent thereof or from Moody’s is at least P-1 or the equivalent
+thereof (collectively, an “Approved Bank”), in each case with maturities of not more than
+364 days from the date of acquisition,
+
+(c) commercial paper and variable or fixed rate notes issued by any Approved Bank (or by the
+parent company thereof) or any variable rate notes issued by, or guaranteed by, any domestic
+corporation rated A-1 (or the equivalent thereof) or better by S&P or P-1 (or the equivalent
+thereof) or better by Moody’s and maturing within twelve months of the date of acquisition,
+
+(d) repurchase agreements entered into by any Person with a bank or trust company or recognized
+securities dealer having capital and surplus in excess of $500.0 million for direct obligations issued
+by or fully guaranteed by the United States in which such Person shall have a perfected first
+priority security interest (subject to no other Liens) and having, on the date of purchase thereof,
+a fair market value of at least one hundred percent (100%) of the amount of the repurchase
+obligations,
+
+(e) Investments (classified in accordance with GAAP as current assets) in money market investment
+programs registered under the Investment Company Act of 1940 that are administered by
+reputable financial institutions having capital of at least $500.0 million and the portfolios of
+which are limited to Investments of the character described in the foregoing subclauses hereof,
+and
+
+(f) other short-term investments utilized by Foreign Subsidiaries in accordance with normal
+investment practices for cash management in investments of a type analogous to the foregoing.
+
+“Transactions” means (a) the issuance of the notes offered hereby, and the application of the net
+proceeds thereof as described in this offering memorandum and (b) all other transactions related or
+incidental to, or in connection with, any of the foregoing (including, without limitation, the payment of fees
+and expenses in connection with each of the foregoing).
+
+“Treasury Rate” means, as obtained by the Issuer, as of any redemption date, the yield to maturity as
+of such redemption date of United States Treasury securities with a constant maturity (as compiled and
+
+
+-----
+
+published in the most recent Selected Interest Rates (Daily)-H.15 release of the Board of Governors of the
+Federal Reserve System that has become publicly available at least two Business Days prior to the redemption
+date (or, in the case of a satisfaction and discharge or defeasance, two Business Days prior to the date on
+which funds are delivered to the trustee) (or, if such Statistical Release is no longer published, any publicly
+available source of similar market data)) most nearly equal to the period from such redemption date to
+, 2024; provided, however, that if the period from such redemption date to, 2024 is
+less than one year, the weekly average yield on actually traded United States Treasury securities adjusted to
+a constant maturity of one year will be used.
+
+“Unrestricted Subsidiary” means:
+
+(a) any Subsidiary of the Issuer that is designated as an Unrestricted Subsidiary as permitted or
+required pursuant to the covenant described under “—Certain Covenants—Designation of
+Unrestricted Subsidiaries” and is not thereafter redesignated as a Restricted Subsidiary as
+permitted pursuant thereto; and
+
+(b) any Subsidiary of an Unrestricted Subsidiary.
+
+“U.S. Dollar” or “$” means the lawful currency of the United States.
+
+“U.S. Dollar Equivalent” means, with respect to any monetary amount in a currency other than U.S.
+Dollars, at any time for the determination thereof, the amount of U.S. Dollars obtained by converting such
+foreign currency involved in such computation into U.S. Dollars at the spot rate for the purchase of U.S.
+Dollars with the applicable foreign currency as published or as quoted by Reuters at approximately 10:00 A.M.
+(New York time) on the date not more than two Business Days prior to such determination.
+
+“U.S. Government Obligations” means direct obligations (or certificates representing an ownership
+interest in such obligations) of the United States of America (including any agency or instrumentality
+thereof) for the payment of which the full faith and credit of the United States of America is pledged and
+which are not callable or redeemable at the Issuer’s option.
+
+“Voting Stock” of any Person means all classes of Capital Stock or other interests (including partnership
+interests) of that Person then outstanding and normally entitled (without regard to the occurrence of any
+contingency) to vote in the election of directors, managers or trustees thereof.
+
+   - “Wholly Owned” means, with respect to any Person, a Subsidiary all the Voting Stock of which
+(except directors’ qualifying shares) is at that time owned, directly or indirectly, by such Person and
+its other Wholly Owned Restricted Subsidiaries.
+
+**Principal, Maturity and Interest**
+
+The Issuer will issue $300 million in initial aggregate principal amount of notes under the indenture
+and, subject to compliance with the covenant described under “—Certain Covenants—Limitation on
+Debt,” can issue an unlimited amount of additional notes at later dates.
+
+Any additional notes that are issued in the future by the Issuer under the indenture will be identical in
+all respects to the notes that are being issued now, except that the notes issued in the future under the indenture
+may have different issuance prices and issuance dates and first interest payment dates; provided that if any
+such additional notes are not fungible with the notes for U.S. federal income tax purposes, such additional
+notes will be issued with a separate CUSIP number. The Issuer will issue the notes only in fully registered form
+without coupons, in a minimum denomination of $2,000 and integral multiples of $1,000 in excess thereof.
+
+The notes will mature on, 2029.
+
+Interest on the notes will accrue at a rate of % per annum. Interest on the notes will be payable
+semi-annually in arrears on and, commencing on, 2021. The Issuer will pay interest
+to those persons who were holders of record on the or of each year immediately
+preceding each interest payment date, whether or not a Business Day.
+
+Interest on the notes will accrue from the date of original issuance or, if interest has already been paid,
+from the date it was most recently paid. Interest will be computed on the basis of a 360-day year comprised
+of twelve 30-day months.
+
+
+-----
+
+The notes will be denominated in U.S. Dollars and all payments of principal and interest thereon will
+be paid in U.S. Dollars.
+
+The Issuer will pay principal of, premium, if any, and interest on the notes in global form registered in
+the name of DTC or its nominee in immediately available funds to DTC or its nominee, as the case may be,
+as the registered holder of such global notes.
+
+If a payment date (including, for the avoidance of doubt, the maturity date or any redemption date) is
+not a Business Day, payment shall be made on the next succeeding day that is a Business Day, and no interest
+shall accrue for the intervening period. If a regular record date is not a Business Day, the record date shall
+not be affected.
+
+The notes will be issued in a private transaction that is not subject to the registration requirements of
+the Securities Act.
+
+The Issuer does not intend to list the notes on any securities exchange or other quotation system. The
+Issuer will not be required to, nor does it currently intend to, offer to exchange the notes for notes registered
+under the Securities Act or otherwise register or qualify by prospectus the notes for resale under the
+Securities Act. See “Notice to Investors.”
+
+**Paying Agent and Registrar for the Notes**
+
+The trustee is expected to be the paying agent and registrar. The Issuer may change the paying agent or
+registrar without prior notice to the holders of the notes, and the Issuer or any of its Subsidiaries may act
+as paying agent or registrar.
+
+**Ranking**
+
+The notes will be:
+
+   - general unsecured obligations of the Issuer;
+
+   - _pari passu in right of payment with all of the Issuer’s existing and future senior Debt, including_
+the Credit Agreement;
+
+   - senior in right of payment to any of the Issuer’s future Debt that is, by its terms, expressly
+subordinated in right of payment to the notes;
+
+   - structurally subordinated to all liabilities of the Issuer’s Subsidiaries that are not Guarantors;
+
+   - effectively subordinated to all of the Issuer’s existing and future secured Debt, including the Credit
+Agreement, to the extent of the value of the assets securing such Debt; and
+
+   - unconditionally guaranteed by each of the Issuer’s Restricted Subsidiaries that is a borrower or a
+guarantor of the Issuer’s Obligations under the Credit Agreement and by each of the Issuer’s other
+Restricted Subsidiaries that guarantees any debt of the Issuer or any Guarantor under any
+syndicated credit facility or capital markets debt in an aggregate principal amount in excess of
+$25.0 million.
+
+As of December 31, 2020 after giving effect to the Transactions, the Issuer and the Guarantors would
+have had:
+
+   - $300.0 million of debt, of which $0.0 million would be outstanding secured debt; and
+
+   - an additional $499.4 million available for borrowing under the Credit Agreement, excluding letters
+of credit totaling approximately $0.6 million.
+
+Subject to the limits described under “—Certain Covenants—Limitation on Debt” and “—Certain
+Covenants—Limitation on Liens,” the Issuer and its Restricted Subsidiaries may Incur additional secured
+Debt.
+
+
+-----
+
+Each Note Guaranty will be:
+
+   - general unsecured obligations of the applicable Guarantor;
+
+   - _pari passu in right of payment with all existing and future senior Debt of such Guarantor,_
+including such Guarantor’s guarantee of the Credit Agreement;
+
+   - senior in right of payment with all existing and future Debt of each Guarantor that is, by its
+terms, expressly subordinated in right of payment to the Note Guaranty of such Guarantor; and
+
+   - effectively subordinated to such Guarantor’s existing and future secured Debt, including such
+Guarantor’s obligation under the Credit Agreement, to the extent of the value of the assets securing
+such Debt.
+
+Certain of the Issuer’s Subsidiaries will not guarantee the notes. Claims of creditors of non-guarantor
+Subsidiaries of the Issuer, including trade creditors, creditors holding debt and guarantees issued by those
+Subsidiaries, and claims of preferred stockholders (if any) of those Subsidiaries generally will have priority
+with respect to the assets and earnings of those Subsidiaries over the claims of creditors of the Issuer,
+including holders of the notes. The notes and each Note Guaranty therefore will be effectively subordinated
+to creditors (including trade creditors) and preferred stockholders (if any) of Subsidiaries of the Issuer
+(other than the Guarantors).
+
+As of and for the year ended December 31, 2020, after giving effect to the Transactions, the Issuer and
+the Guarantors represented approximately 69.4% of the Issuer’s consolidated total revenues, approximately
+69.6% of the Issuer’s consolidated total assets and approximately 100.0% of the Issuer’s consolidated
+total indebtedness. Non-guarantor Subsidiaries had no material third party indebtedness.
+
+**Optional Redemption**
+
+Except as set forth in the next two paragraphs, the notes will not be redeemable at the option of the
+Issuer prior to, 2024. On or after, 2024, the Issuer may, at its option, redeem all or any
+portion of the notes, at once or over time, upon not less than 30 days nor more than 60 days prior notice. The
+notes may be redeemed at the redemption prices as set forth below, plus accrued and unpaid interest, if
+any, to, but excluding, the redemption date (subject to the right of holders of record on the relevant record
+date to receive interest due on the relevant interest payment date), calculated by us. The following prices are for
+notes redeemed during the 12-month period commencing on of the years set forth below, and are
+expressed as percentages of principal amount:
+
+**Redemption Year** **Price**
+
+2024 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . %
+
+2025 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . %
+
+2026 and thereafter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100%
+
+At any time and from time to time, prior to, 2024, the Issuer may, on any one or more
+occasions, redeem up to a maximum of 40% of the original aggregate principal amount of the notes
+(including additional notes, if any) with the proceeds of one or more Equity Offerings, at a redemption
+price equal to % of the principal amount thereof, plus accrued and unpaid interest thereon, if any,
+to, but excluding, the redemption date (subject to the right of holders of record on the relevant record date
+to receive interest due on the relevant interest payment date); provided, however, that immediately after giving
+effect to any redemption of this kind, at least 60% of the original aggregate principal amount of notes
+(including additional notes, if any) remains outstanding. Any redemption of this kind shall be made within
+90 days of such Equity Offering upon not less than 30 and no more than 60 days’ prior notice.
+
+In addition, the Issuer may choose to redeem all or any portion of the notes, at once or over time, prior
+to, 2024. If it does so, it may redeem the notes upon not less than 30 days nor more than 60 days
+prior notice. To redeem the notes, the Issuer must pay a redemption price equal to the sum of:
+
+(a) 100% of the principal amount of the notes to be redeemed, plus
+
+(b) the Applicable Premium,
+
+
+-----
+
+_plus accrued and unpaid interest, if any, to, but excluding, the redemption date (subject to the right of_
+holders of record on the relevant record date to receive interest due on the relevant interest payment date).
+
+The Issuer will have the right to redeem the notes at 101% of the principal amount thereof following
+the consummation of a Change of Control Offer if at least 90% of the notes outstanding prior to such
+consummation are purchased pursuant to a Change of Control Offer with respect to such Change of Control.
+
+Any notice to holders of notes of such a redemption needs to include the appropriate calculation, or
+method of calculation, of the redemption price, but does not need to include the redemption price itself.
+The actual redemption price, calculated as described above, must be set forth in an Officers’ Certificate
+delivered to the trustee no later than two Business Days prior to the redemption date.
+
+For any redemption, the Issuer shall send or cause to be sent such notice by first-class mail (or
+electronic transmission in the case of notes held in book-entry form), with a copy to the trustee, to each
+holder of notes, at such holder’s address appearing in the security register, and deliver to the trustee an
+Officer’s Certificate and Opinion of Counsel stating that the .conditions precedent to the redemption of the
+notes have been complied with as required by the indenture.
+
+If the optional redemption date is on or after an interest record date and on or before the related
+interest payment date, the accrued and unpaid interest, if any, will be paid to the Person in whose name the
+note is registered at the close of business, on such record date. In the case of any partial redemption, the
+trustee will select notes for redemption by lot; provided that if the notes are in global form, interests in such
+global notes will be selected for redemption by DTC in accordance with its standard procedures therefor,
+although no note of $2,000 in original principal amount or less will be redeemed in part. If any note is to
+be redeemed in part only, the notice of redemption relating to such note will state the portion of the principal
+amount thereof to be redeemed. A new note in principal amount equal to the unredeemed portion thereof
+will be issued in the name of the holder thereof upon cancellation of the original note.
+
+Any redemption or notice of redemption issued pursuant to any of paragraphs above may, in the
+Issuer’s discretion, be subject to one or more conditions precedent. If any such redemption or notice is
+subject to satisfaction of one or more conditions precedent, such notice shall state that, in the Issuer’s
+discretion, the redemption date may be delayed until such time as any or all such conditions shall be satisfied
+(or waived by the Issuer in its sole discretion), or such redemption may not occur and such notice may be
+rescinded in the event that any or all such conditions shall not have been satisfied (or waived) by the redemption
+date, or by the redemption date so delayed and such redemption provisions may be adjusted to comply
+with the requirements of DTC.
+
+**Mandatory Sinking Fund**
+
+There will be no mandatory sinking fund payments for the notes.
+
+**Repurchase of Notes Upon a Change of Control Triggering Event**
+
+Upon the occurrence of a Change of Control Triggering Event, each holder of notes will have the right
+to require the Issuer to repurchase all or any part of that holder’s notes pursuant to the offer described below
+(the “Change of Control Offer”) at a purchase price (the “Change of Control Purchase Price”) equal to
+101% of the principal amount thereof plus accrued and unpaid interest, if any, to, but excluding, the purchase
+date (subject to the right of holders of record on the relevant record date to receive interest due on the
+relevant interest payment date).
+
+Within 30 days following any Change of Control Triggering Event, the Issuer shall send or cause to be
+sent by first-class mail (or electronic transmission in the case of notes held in book-entry form), with a copy
+to the trustee, to each holder of notes, at such holder’s address appearing in the security register, a notice
+stating:
+
+(1) that a Change of Control Triggering Event has occurred and a Change of Control Offer is being
+made pursuant to the covenant described herein under “—Repurchase of Notes Upon a
+Change of Control Triggering Event” and that all notes timely tendered will be accepted for
+repurchase;
+
+
+-----
+
+(2) the Change of Control Purchase Price and the purchase date, which shall be, subject to any
+contrary requirements of applicable law, a Business Day no earlier than 30 days nor later than
+60 days from the date such notice is delivered; and
+
+(3) the procedures that holders of notes must follow in order to tender their notes (or portions
+thereof) for payment, and the procedures that holders of notes must follow in order to withdraw
+an election to tender notes (or portions thereof) for payment.
+
+The Issuer will not be required to make a Change of Control Offer following a Change of Control
+Triggering Event if (1) a third party makes the Change of Control Offer in the manner, at the times and
+otherwise in compliance with the requirements set forth in the indenture applicable to a Change of Control
+Offer made by the Issuer and purchases all notes validly tendered and not withdrawn under such Change
+of Control Offer or (2) notice of redemption has been given pursuant to the indenture to redeem all of the
+notes, as described above under the caption “—Optional Redemption,” unless and until there is a default in
+payment of the applicable redemption price. Notwithstanding anything to the contrary contained herein,
+a Change of Control Offer may be made in advance of a Change of Control Triggering Event, conditioned
+upon the consummation of such Change of Control Triggering Event, if a definitive agreement is in place
+for the Change of Control Triggering Event at the time the Change of Control Offer is made.
+
+The Issuer will comply, to the extent applicable, with the requirements of Section 14(e) of the Exchange
+Act and any other securities laws or regulations in connection with the repurchase of notes pursuant to a
+Change of Control Offer. To the extent that the provisions of any securities laws or regulations conflict with
+the provisions of the covenant described above, the Issuer will comply with the applicable securities laws
+and regulations and will not be deemed to have breached our obligations under this covenant by virtue of
+such compliance.
+
+The Change of Control Triggering Event repurchase feature is a result of negotiations between the
+Issuer and the initial purchasers in connection with this offering. The Issuer has no present intention to
+engage in a transaction involving a Change of Control Triggering Event, although it is possible that the Issuer
+would decide to do so in the future. Subject to the covenants described below, the Issuer could, in the
+future, enter into transactions, including acquisitions, refinancings or other recapitalizations, that would not
+constitute a Change of Control Triggering Event under the indenture, but that could increase the amount
+of Debt outstanding at such time or otherwise affect our capital structure or credit ratings.
+
+The definition of “Change of Control” includes a phrase relating to the sale, transfer, assignment,
+lease, conveyance or other disposition of “all or substantially all”of our assets. Although there is a developing
+body of case law interpreting the phrase “substantially all,” there is no precise established definition of the
+phrase under applicable law. Accordingly, if the Issuer disposes of less than all of its assets by any of the
+means described above, the ability of a holder of notes to require the Issuer to repurchase its notes may
+be uncertain.
+
+The Credit Agreement restricts us in certain circumstances from purchasing any notes prior to
+maturity of the notes and also provides that the occurrence of some of the events that would constitute a
+Change of Control would constitute a default under the Credit Agreement. Other Debt of the Issuer may
+contain prohibitions of certain events that would constitute a Change of Control or require that other Debt
+be repurchased upon a Change of Control. We cannot assure you that sufficient funds will be available
+when necessary to make any required repurchases. Our failure to purchase notes in connection with a Change
+of Control Triggering Event would result in a default under the indenture. Any such default would, in
+turn, constitute a default under the Credit Agreement, and may constitute a default under any of our other
+Debt as well. Our obligation to make an offer to repurchase the notes as a result of a Change of Control
+Triggering Event may be waived or modified at any time prior to the occurrence of that Change of Control
+Triggering Event with the written consent of the holders of a majority in principal amount of the notes.
+See “—Amendments and Waivers.”
+
+**Certain Covenants**
+
+Set forth below are summaries of certain of the covenants to be contained in the indenture.
+
+
+-----
+
+**_Covenant Suspension_**
+
+During any period of time that:
+
+(a) the notes have Investment Grade Ratings from both Rating Agencies, and
+
+(b) no Default or Event of Default has occurred and is continuing under the indenture,
+
+the Issuer and the Restricted Subsidiaries will not be subject to the following provisions of the
+indenture:
+
+“—Limitation on Debt,”
+
+“—Limitation on Restricted Payments,”
+
+“—Limitation on Asset Sales,”
+
+“—Limitation on Restrictions on Distributions from Restricted Subsidiaries,”
+
+“—Limitation on Transactions with Affiliates,”
+
+clause (x) of the fourth paragraph (and as referred to in the first paragraph) of “—Designation of
+Restricted and Unrestricted Subsidiaries,” and
+
+clause (e) of the first paragraph of “—Merger, Consolidation and Sale of Property”
+
+(collectively, the “Suspended Covenants”). In the event that the Issuer and the Restricted Subsidiaries are
+not subject to the Suspended Covenants for any period of time as a result of the preceding sentence and,
+subsequently, one or both of the Rating Agencies withdraws its ratings or downgrades the ratings assigned to
+the notes below the required Investment Grade Ratings or a Default or Event of Default occurs and is
+continuing (the date of such ratings withdrawal or downgrade or the occurrence of such Default or Event
+of Default, the “Reversion Date”), then the Issuer and the Restricted Subsidiaries will thereafter again be
+subject to the Suspended Covenants for all periods after that withdrawal, downgrade, Default or Event of
+Default and, furthermore, compliance with the provisions of the covenant described in “—Limitation on
+Restricted Payments” with respect to Restricted Payments made after the time of the withdrawal, downgrade,
+Default or Event of Default will be calculated in accordance with the terms of that covenant as though
+that covenant had been in effect during the entire period of time from the Issue Date, provided that there will
+not be deemed to have occurred a Default or Event of Default with respect to that covenant during the
+time (the “Suspension Period”) that the Issuer and the Restricted Subsidiaries were not subject to the
+Suspended Covenants (or after that time based solely on events that occurred during that time). Accordingly,
+Restricted Payments made during the Suspension Period will reduce the amount available to be made as
+Restricted Payments under the first paragraph of “—Limitation on Restricted Payments.” The Issuer will
+promptly give the trustee written notice of any such suspension of covenants and in any event not later than
+five Business Days after such suspension has occurred. In the absence of such notice, the trustee shall
+assume that the Suspended Covenants are in full force and effect.
+
+Solely for the purpose of determining the amount of Permitted Liens under the “—Limitation on
+Liens” covenant during any Suspension Period (as defined above) and without limiting the Issuer’s or any
+Restricted Subsidiary’s ability to Incur Debt during any Suspension Period, to the extent that calculations in
+the “—Limitation on Liens” covenant refer to the “—Limitation on Debt” covenant, such calculations
+shall be made as though the “—Limitation on Debt”covenant remains in effect during the Suspension Period.
+On the Reversion Date, all Debt Incurred during the Suspension Period will be classified to have been
+Incurred pursuant to clause (1) of the first paragraph or one of the clauses set forth in the second paragraph
+of the covenant described under “—Limitation on Debt” (to the extent such Debt would be permitted to
+be Incurred thereunder as of the Reversion Date and after giving effect to Debt Incurred prior to the
+Suspension Period and outstanding on the Reversion Date). To the extent such Debt would not be permitted
+to be Incurred pursuant to clause (1) of the first paragraph or one of the clauses set forth in the second
+paragraph of the covenant described under “—Limitation on Debt,” such Debt will be deemed to have been
+outstanding on the Issue Date, so that it is classified as permitted under clause (j) of the second paragraph
+of the covenant described under “—Limitation on Debt.” For purposes of determining compliance with the
+
+
+-----
+
+covenant described under “—Limitation on Asset Sales,” on the Reversion Date, the Net Available Cash
+from all Asset Sales not applied in accordance with the covenant will be deemed to be reset to zero. No
+Subsidiaries may be designated as Unrestricted Subsidiaries during any Suspension Period. The Issuer will
+give the trustee written notice of any occurrence of a Reversion Date not later than five Business Days after
+such Reversion Date. After any such notice of the occurrence of a Reversion Date, the trustee shall
+assume that the Suspended Covenants apply and are in full force and effect.
+
+**Reports**
+
+Whether or not required by the rules and regulations of the SEC, so long as any notes are outstanding,
+the Issuer will furnish to the holders of notes and the trustee, within the time periods specified in the SEC’s
+rules and regulations for non-accelerated filers:
+
+(1) all quarterly and annual reports that would be required to be filed with the SEC on Forms 10-Q
+and 10-K if the Issuer were required to file such reports; and
+
+(2) all current reports that would be required to be filed with the SEC on Form 8-K if the Issuer
+were required to file such reports;
+
+_provided that the electronic filing of the foregoing reports by the Issuer on the SEC’s EDGAR system (or_
+any successor system) shall be deemed to satisfy the Issuer’s delivery obligations to the trustee and any holder
+of notes.
+
+Delivery of such reports, information, and documents to the trustee shall be for informational purposes
+only, and the trustee’s receipt of them shall not constitute constructive notice of any information contained
+therein or determinable from information contained therein (including the Issuer’s compliance with any
+of its covenants under the Indenture as to which the trustee is entitled to rely exclusively on an officer’s
+certificate). The trustee shall not be obligated to monitor or confirm, on a continuing basis or otherwise, our
+compliance with the covenants or with respect to any reports or other documents filed with the SEC or
+EDGAR or any website under the Indenture, or participate in any conference calls.
+
+All such reports will be prepared in all material respects in accordance with all of the rules and
+regulations applicable to such reports. Each annual report on Form 10-K will include a report on the
+Issuer’s consolidated financial statements by the Issuer’s certified independent accountants. In addition, the
+Issuer will file a copy of each of the reports referred to in clauses (1) and (2) above with the SEC for
+public availability within the time periods specified in the rules and regulations applicable to such reports
+(unless the SEC will not accept such a filing) and will post the reports on its website within those time periods.
+
+If, at any time, the Issuer is no longer subject to the periodic reporting requirements of the Exchange
+Act for any reason, the Issuer will nevertheless continue filing the reports specified in the preceding
+paragraphs of this covenant with the SEC within the time periods specified above unless the SEC will not
+accept such a filing. The Issuer will not take any action reasonably expected to cause the SEC not to accept
+any such filings. If, notwithstanding the foregoing, the SEC will not accept the Issuer’s filings for any
+reason, the Issuer will post the reports referred to in the preceding paragraphs on its website within the time
+periods that would apply if the Issuer were required to file those reports with the SEC.
+
+If, at any time, the Issuer does not have a class of equity listed on a national securities exchange, the
+Issuer will schedule a conference call to be held reasonably promptly, but not more than ten Business Days
+following the release of each report containing the financial information referred to in clause (1) above to
+discuss the information contained in such report. The Issuer will take reasonable steps to notify holders of
+notes about such call and provide them and prospective investors in the notes with instructions to obtain
+access to such conference call concurrently with and in the same manner as each delivery of financial
+statements pursuant to clause (1) above.
+
+In addition, the Issuer agrees that, if at any time it is not required to file with the SEC the reports
+required by the preceding paragraphs, it will furnish to the holders of notes and to securities analysts and
+prospective investors, upon their request, the information required to be delivered pursuant to Rule 144A(d)(4)
+under the Securities Act for so long as the notes are subject to resale restrictions under Rule 144 under the
+Securities Act.
+
+
+-----
+
+To the extent any information is not provided within the time periods specified in this section
+“—Reports” and such information is subsequently provided, the Issuer will be deemed to have satisfied its
+obligations with respect thereto at such time and any Default with respect thereto shall be deemed to have
+been cured.
+
+**_Limitation on Debt_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, Incur, directly or in directly, any
+Debt unless, after giving effect to the application of the proceeds thereof, either:
+
+(1) the Debt is Debt of the Issuer or a Restricted Subsidiary and after giving effect to the Incurrence
+of the Debt and the application of the proceeds thereof on a pro forma basis, the Consolidated
+Fixed Charges Coverage Ratio would be at least 2.00 to 1.00, provided that the aggregate principal
+amount of Debt permitted to be Incurred pursuant to this clause (1) by Restricted Subsidiaries
+that are not the Guarantors may not, together with Debt Incurred under clause (2)(v) below in
+respect thereof outstanding at any time, exceed an aggregate amount equal to the greater of
+(x) $100.0 million and (y) 12.50% of Total Assets (measured at the time of Incurrence) of NonGuarantor Subsidiaries on a combined basis, or
+
+(2) the Debt is Permitted Debt.
+
+The term “Permitted Debt” is defined to consist of the following:
+
+(a) Debt of the Issuer evidenced by the notes (but not any additional notes) issued on the
+Issue Date, and in each case, guarantees (including any additional notes) thereof by the
+Issuer or any Guarantor;
+
+(b) Debt of the Issuer or a Restricted Subsidiary Incurred under the Credit Facilities up to an
+aggregate principal amount not to exceed (1) the greater of (A) $600.0 million, and
+(B) the sum of (x) $300.0 million and (y) 100% of the Issuer’s aggregate amount of
+Consolidated EBITDA for the most recent four consecutive fiscal quarters for which
+internal financial statements are available (determined on a pro forma basis), which amount
+shall be permanently reduced by the amount of Net Available Cash from an Asset Sale
+used to Repay Debt Incurred pursuant to this clause (b), pursuant to the covenant described
+under “—Limitation on Asset Sales”, minus (2) the aggregate amount outstanding at
+such time under Permitted Receivables Financings Incurred pursuant to clause (v);
+
+(c) Debt of the Issuer owing to and held by any Restricted Subsidiary and Debt of a
+Restricted Subsidiary owing to and held by the Issuer or any Restricted Subsidiary;
+_provided, however, that (1) any subsequent issue or transfer of Capital Stock or other_
+event that results in any Restricted Subsidiary ceasing to be a Restricted Subsidiary or
+any subsequent transfer of that Debt (except to the Issuer or a Restricted Subsidiary) shall
+be deemed, in each case, to constitute the Incurrence of that Debt by the issuer thereof,
+and (2) if the Guarantor is the obligor on that Debt and the Debt is owed to a Restricted
+Subsidiary that is not the Guarantor, the Debt is expressly subordinated to the prior
+payment in full in cash of all obligations with respect to the notes or the applicable Note
+Guaranty;
+
+(d) Debt of a Restricted Subsidiary outstanding on the date on which that Restricted
+Subsidiary was acquired by the Issuer or otherwise became a Restricted Subsidiary or
+Debt Incurred as consideration in, or to provide all or any portion of the funds or credit
+support utilized to consummate, a transaction or series of transactions pursuant to which
+the Restricted Subsidiary became a Restricted Subsidiary of the Issuer or was otherwise
+acquired by the Issuer; provided that at the time that Person was acquired by the Issuer or
+otherwise became a Restricted Subsidiary and after giving effect to the Incurrence of
+that Debt, (i) the Issuer would have been able to Incur $1.00 of additional Debt pursuant
+to clause (1) of the first paragraph of this covenant or (ii) the Consolidated Fixed
+Charges Coverage Ratio is at least equal to such ratio immediately prior to such
+transaction;
+
+
+-----
+
+(e) Debt under Interest Rate Agreements entered into by the Issuer or a Restricted Subsidiary
+for the purpose of limiting interest rate risk in the financial management of the Issuer or
+that Restricted Subsidiary and not for speculative purposes, provided that the obligations
+under those agreements are related to payment obligations on Debt otherwise permitted
+by the terms of this covenant;
+
+(f) Debt under Currency Exchange Protection Agreements entered into by the Issuer or a
+Restricted Subsidiary for the purpose of limiting currency exchange rate risks in the
+financial management of the Issuer or that Restricted Subsidiary and not for speculative
+purposes;
+
+(g) Debt under Commodity Price Protection Agreements entered into by the Issuer or a
+Restricted Subsidiary in the financial management of the Issuer or that Restricted
+Subsidiary and not for speculative purposes;
+
+(h) Debt in connection with one or more standby letters of credit or performance or surety
+bonds or completion guarantees issued by the Issuer or a Restricted Subsidiary in the
+ordinary course of business or pursuant to self-insurance obligations and not in connection
+with the borrowing of money or the obtaining of advances or credit;
+
+(i) Debt arising from agreements of the Issuer or a Restricted Subsidiary providing for
+indemnification, adjustment of purchase price or similar obligations, in each case, Incurred
+in connection with the disposition of any business, assets or Capital Stock of a Subsidiary,
+other than Guarantees of Debt Incurred by any Person acquiring all or any portion of
+such business, assets or Capital Stock; provided, however, that the maximum aggregate
+liability in respect of all such Debt shall at no time exceed the gross proceeds actually
+received by the Issuer or such Restricted Subsidiary in connection with such disposition;
+
+(j) Debt of the Issuer and its Restricted Subsidiaries outstanding on the Issue Date, in each
+case not otherwise described in clauses (a) through (i) above and clauses (o), (p), (q), (r) and
+(s) below;
+
+(k) Debt of the Issuer or a Restricted Subsidiary in an aggregate principal amount outstanding
+at any one time not to exceed the greater of (x) $75.0 million or (y) 10.00% of
+Consolidated Net Tangible Assets (measured at the time of Incurrence);
+
+(l) Debt of the Issuer or a Restricted Subsidiary Incurred in respect of Capital Lease
+Obligations, Synthetic Lease Obligations and Purchase Money Debt, a Sale and Leaseback
+Transaction, provided that the principal amount of any Debt Incurred pursuant to this
+clause outstanding at any one time may not exceed the greater of (x) $50.0 million or
+(y) 7.50% of Consolidated Net Tangible Assets (measured at the time of Incurrence);
+
+(m) Debt of the Issuer or any Guarantor consisting of Guarantees of Debt of the Issuer or
+any Restricted Subsidiary Incurred under any other clause of this covenant;
+
+(n) Debt of Foreign Subsidiaries in an aggregate principal amount outstanding at any one
+time not to exceed the greater of (x) $75.0 million or (y) 10.00% of Consolidated Net
+Tangible Assets (measured at the time of Incurrence);
+
+(o) Debt under Hedging Obligations that are Incurred in the ordinary course of business
+(and, in each case, not for speculative purposes);
+
+(p) Debt Incurred by the Issuer or any of its Restricted Subsidiaries in respect of workers’
+compensation claims, health, disability or other employee benefits or property or casualty
+or liability insurance, self-insurance obligations, performance, bid surety, appeal and
+similar bonds and completion or performance of guarantees (not for borrowed money)
+provided in the ordinary course of business, and any letters of credit functioning as or
+supporting any of the foregoing;
+
+
+-----
+
+(q) (a) Debt arising from the honoring by a bank or other financial institution of a check,
+draft or similar instrument drawn against insufficient funds in the ordinary course of
+business, provided, however, that such Debt is extinguished, refinanced or otherwise covered
+within five Business Days of Incurrence or (b) Debt owed on a short-term basis of no
+longer than 30 days to banks or financial institutions Incurred in the ordinary course of
+business that arises in connection with ordinary banking arrangements to manage cash
+balances of the Issuer and its Subsidiaries;
+
+(r) shares of Preferred Stock of a Restricted Subsidiary issued to the Issuer or another
+Restricted Subsidiary; provided that any subsequent issuance or transfer of any Capital
+Stock or any other event that results in any such Restricted Subsidiary ceasing to be a
+Restricted Subsidiary or any other subsequent transfer of any such shares of Preferred
+Stock (except to the Issuer or another of its Restricted Subsidiaries) shall be deemed in
+each case to be an issuance of such shares of Preferred Stock not permitted by this clause (r);
+
+(s) Debt to the extent that the net proceeds thereof are promptly deposited to defease or to
+satisfy and discharge the notes in each case in accordance with the requirements of the
+indenture;
+
+(t) Permitted Refinancing Debt Incurred in respect of Debt Incurred pursuant to clause (1) of
+the first paragraph of this covenant and clauses (a), (d) and (j) above or this clause (t);
+and
+
+(v) Debt under any Permitted Receivables Financing outstanding on or Incurred after the
+Issue Date.
+
+For purposes of determining compliance with any restriction on the Incurrence of Debt in dollars
+where Debt is denominated in a different currency the amount of such Debt will be the U.S. Dollar Equivalent
+determined on the date of such determination. The principal amount of any Permitted Refinancing Debt
+Incurred in the same currency as the Debt being refinanced will be the U.S. Dollar Equivalent of the Debt
+refinanced determined on the date such Debt being refinanced was initially Incurred. Notwithstanding any
+other provision of this covenant, for purposes of determining compliance with this “Limitation on Debt”
+covenant, increases in Debt solely due to fluctuations in the exchange rate of currencies will not be deemed
+to exceed the maximum amount that the Issuer or any Restricted Subsidiary may Incur under any of
+clauses (a) through (v) of this “Limitation on Debt” covenant.
+
+For purposes of determining compliance with the covenant described above:
+
+(A) in the event that an item of Debt meets the criteria of more than one of the types of Debt
+described above, the Issuer, in its sole discretion, will classify such item of Debt at the time of
+Incurrence and only be required to include the amount and type of such Debt in one of the above
+clauses; and
+
+(B) the Issuer will be entitled to divide and classify and reclassify an item of Debt in more than one
+of the types of Debt described above; provided that Debt outstanding under the Credit
+Agreement on the Issue Date shall at all times be treated as Incurred under clause (2)(b) above
+and may not be reclassified.
+
+**_Limitation on Restricted Payments_**
+
+The Issuer shall not make, and shall not permit any Restricted Subsidiary to make, directly or indirectly,
+any Restricted Payment unless at the time of, and after giving effect to, the proposed Restricted Payment,
+
+(a) no Default or Event of Default shall have occurred and be continuing,
+
+(b) the Issuer could Incur at least $1.00 of additional Debt pursuant to clause (1) of the first
+paragraph of the covenant described under “—Limitation on Debt,” and
+
+
+-----
+
+(c) the aggregate amount of that Restricted Payment and all other Restricted Payments declared or
+made after the Issue Date (the amount of any Restricted Payment, if made other than in cash,
+to be based upon Fair Market Value) would not exceed an amount equal to the sum of:
+
+(1) 50% of the aggregate amount of Consolidated Net Income accrued during the period
+(treated as one accounting period) from January 1, 2021 to the end of the most recent fiscal
+quarter ending prior to the date of such Restricted Payment and for which reports are
+required to be provided under “—Reports” (or if the aggregate amount of Consolidated
+Net Income for such period shall be a deficit, minus 100% of such deficit), plus
+
+(2) Capital Stock Sale Proceeds received after the Issue Date, plus
+
+(3) the sum of:
+
+(A) the aggregate Net Cash Proceeds received by the Issuer or any Restricted Subsidiary
+from the issuance or sale after the Issue Date of convertible or exchangeable Debt
+that has been converted into or exchanged for Capital Stock (other than Disqualified
+Stock) of the Issuer, and
+
+(B) the aggregate amount by which Debt of the Issuer or any Restricted Subsidiary is
+reduced on the Issuer’s consolidated balance sheet on or after the Issue Date upon the
+conversion or exchange of any Debt issued or sold on or prior to the Issue Date
+that is convertible or exchangeable for Capital Stock (other than Disqualified Stock)
+of the Issuer,
+
+excluding, in the case of clause (A) or (B):
+
+(x) any Debt issued or sold to the Issuer or a Subsidiary of the Issuer or an employee stock
+ownership plan or trust established by the Issuer or any Subsidiary for the benefit of their
+employees, and
+
+(y) the aggregate amount of any cash or other Property distributed by the Issuer or any
+Restricted Subsidiary upon any such conversion or exchange.
+
+plus
+
+(4) an amount equal to the sum of:
+
+(A) the net reduction in Investments in any Person other than the Issuer or a Restricted
+Subsidiary resulting from dividends, Repayments of loans or advances or other
+transfers of Property made after the Issue Date, in each case to the Issuer or any
+Restricted Subsidiary from that Person, less the cost of the disposition of those
+Investments, and
+
+(B) the lesser of the net book value or the Fair Market Value of the Issuer’s equity
+interest in an Unrestricted Subsidiary at the time the Unrestricted Subsidiary is
+designated a Restricted Subsidiary (provided that such designation occurs after the
+Issue Date);
+
+_provided, however, that the foregoing sum shall not exceed, in the case of any Person, the amount_
+of Investments previously made (and treated as Restricted Payments) by the Issuer or any Restricted
+Subsidiary in that Person, and
+
+plus
+
+(5) any cash dividends or cash distributions received directly or indirectly by the Issuer or a
+Guarantor after the Issue Date from an Unrestricted Subsidiary, to the extent such dividends
+or distributions were not otherwise included in Consolidated Net Income (other than to
+the extent such distribution represents a return of capital and the Investment in such
+Unrestricted Subsidiary was made by the Restricted Subsidiary pursuant to clause (j) of the
+second paragraph of this covenant or to the extent such Investment constituted a Permitted
+Investment).
+
+
+-----
+
+Notwithstanding the foregoing limitation, the Issuer may:
+
+(a) declare or pay dividends on its Capital Stock or distributions, or the consummation of any
+irrevocable redemption, within 60 days after the date of declaration of the dividend or distribution
+or giving of the redemption notice, as the case may be, if, on said date of declaration or
+redemption notice, such dividends, distributions or redemption, as the case may be, could have
+been paid in compliance with the indenture; provided, however, that the dividend, distribution and
+redemption shall be included in the calculation of the amount of Restricted Payments;
+
+(b) purchase, repurchase, redeem, legally defease, acquire or retire for value Capital Stock of the
+Issuer or Subordinated Obligations in exchange for, or out of the proceeds of the substantially
+concurrent sale of, Capital Stock of the Issuer (other than Disqualified Stock and other than
+Capital Stock issued or sold to a Subsidiary of the Issuer or an employee stock ownership
+plan or trust established by the Issuer or any Subsidiary for the benefit of their employees);
+_provided, however, that_
+
+(1) the purchase, repurchase, redemption, legal defeasance, acquisition or retirement shall be
+excluded in the calculation of the amount of Restricted Payments, and
+
+(2) the Capital Stock Sale Proceeds from the exchange or sale shall be excluded from the
+calculation pursuant to clause (c)(2) above:
+
+(c) purchase, repurchase, redeem, legally defease, acquire or retire for value any Subordinated
+Obligations or Disqualified Stock in exchange for, or out of the proceeds of the substantially
+concurrent sale of, Permitted Refinancing Debt (in the case of Subordinated Obligations only)
+or Disqualified Stock; provided, however, that the purchase, repurchase, redemption, legal
+defeasance, acquisition or retirement shall be excluded in the calculation of the amount of
+Restricted Payments;
+
+(d) pay scheduled dividends (not constituting a return on capital) on Disqualified Stock issued
+pursuant to and in compliance with the covenant described under “—Limitation on Debt;”
+_provided, however, that such dividends shall be excluded in the calculation of the amount of_
+Restricted Payments;
+
+(e) permit a Restricted Subsidiary that is not a Wholly Owned Subsidiary to pay dividends to
+shareholders of that Restricted Subsidiary that are not the parent of that Restricted Subsidiary,
+so long as the Issuer or a Restricted Subsidiary that is the parent of that Restricted Subsidiary
+receives dividends on a pro rata basis or on a basis that results in the receipt by the Issuer or a
+Restricted Subsidiary that is the parent of that Restricted Subsidiary of dividends or distributions
+of greater value than it would receive on a pro rata basis;
+
+(f) make cash payments in lieu of fractional shares in connection with the exercise of warrants,
+options or other securities convertible into Capital Stock of the Issuer; provided, however, that
+such payments shall be excluded in the calculation of the amount of Restricted Payments;
+
+(g) make repurchases of shares of Capital Stock (other than Disqualified Stock) of the Issuer
+deemed to occur (i) upon the exercise of options to purchase shares of Capital Stock (other
+than Disqualified Stock) of the Issuer, warrants, other rights to acquire Capital Stock (other than
+Disqualified Stock) if such shares of Capital Stock (other than Disqualified Stock) of the
+Issuer represent a portion of the exercise price of such options, warrants or other rights and
+(ii) in connection with the withholding of a portion of the Capital Stock granted or awarded to
+a director or an employee to pay for the taxes payable by such director or employee upon such
+grant or award; provided, however, that such repurchases shall be excluded in the calculation of
+the amount of Restricted Payments;
+
+(h) repurchase shares of, or options to purchase shares of, common stock of the Issuer from current
+or former officers, directors or employees of the Issuer or any of its Subsidiaries (or permitted
+transferees of such current or former officers, directors or employees), pursuant to the terms of
+agreements (including employment agreements) or plans approved by the Board of Directors
+
+
+-----
+
+under which such individuals acquire shares of such common stock; provided, however, that the
+aggregate amount of such repurchases shall not exceed (x) $30.0 million or (y) 3.50% of
+Consolidated Net Tangible Assets (measured at the time of such payment); in any calendar year
+(with unused amounts in any calendar year carried over to succeeding calendar years) and
+_provided further, however, that such repurchases shall be excluded in the calculation of the amount_
+of Restricted Payments;
+
+(i) purchase, defease or otherwise acquire or retire for value any Subordinated Obligations upon a
+Change of Control Triggering Event of the Issuer or an Asset Sale by the Issuer, to the extent
+required by any agreement pursuant to which such Subordinated Obligations were issued, but
+only if the Issuer has previously made the offer to purchase notes required under “—Repurchase
+of Notes Upon a Change of Control Triggering Event” or “—Limitation on Asset Sales” and
+has repurchased all notes validly tendered and now withdrawn in connection with such offer to
+purchase notes pursuant to the provisions described under “—Repurchase of Notes Upon a
+Change of Control Triggering Event” or “—Limitation on Asset Sales”; provided, however,
+that such payments shall be included in the calculation of the amount of Restricted Payments;
+
+(j) make other Restricted Payments not to exceed the greater of (x) $50.0 million or (y) 7.50% of
+Consolidated Net Tangible Assets in the aggregate (measured at the time of Incurrence); provided,
+_however, that such payments shall be excluded in the calculation of the amount of Restricted_
+Payments;
+
+(k) purchase, repurchase or otherwise retire Capital Stock not to exceed the greater of (x) $50.0 million
+or (y) 7.50% of Consolidated Net Tangible Assets (measured at the time of such payment);
+
+(l) make any purchase, repurchase, redemption, defeasance or other acquisition or retirement of
+Disqualified Stock of the Issuer or a Restricted Subsidiary made by exchange for or out of the
+proceeds of, the substantially concurrent sale of Disqualified Stock of the Issuer or such Restricted
+Subsidiary, as the case may be, so long as such refinancing Disqualified Stock is permitted to
+be Incurred pursuant to the covenant described under “—Limitation on Debt” and constitutes
+Refinancing Debt;
+
+(m) so long as no Default or Event of Default has occurred and is continuing or will result therefrom,
+make other Restricted Payments if, immediately after giving effect to such Restricted Payment
+(including the Incurrence of any Debt to finance such payment), the Consolidated Leverage Ratio
+would not be greater than 2:00 to 1.00; provided, however, that such payments shall be excluded
+in the calculation of the amount of Restricted Payments; and
+
+(n) make payments or distributions to satisfy dissenters’ rights, pursuant to or in connection with a
+consolidation, merger or transfer of assets that complies with the provisions of the indenture
+applicable to mergers, consolidations and transfers of all or substantially all the property and
+assets of the Issuer; provided, however, that such payments shall be excluded in the calculation of
+the amount of Restricted Payment.
+
+**_Limitation on Liens_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, Incur or
+suffer to exist, any Lien (other than Permitted Liens), upon any of its Property (including Capital Stock of
+a Restricted Subsidiary), whether owned at the Issue Date or thereafter acquired, or any interest therein or any
+income or profits therefrom unless (i) it has made or will make effective provision whereby the notes will
+be secured by that Lien equally and ratably with (or prior to) all other Debt of the Issuer or any Restricted
+Subsidiary secured by that Lien or (ii) in the case of Liens securing subordinated obligations or a Guarantor’s
+subordinated obligations, the notes and the related Note Guarantees are secured by a Lien on such
+property, assets or proceeds that is senior to such Liens.
+
+Any Lien created for the benefit of the holders of the notes pursuant to this covenant shall be
+automatically and unconditionally released and discharged upon the release and discharge of each of the
+Liens described in clauses (i) and (ii) above.
+
+
+-----
+
+**_Limitation on Asset Sales_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, consummate
+any Asset Sale unless:
+
+(a) the Issuer or the Restricted Subsidiary receives consideration at the time of the Asset Sale at
+least equal to the Fair Market Value of the Property subject to that Asset Sale:
+
+(b) at least 75% of the consideration paid to the Issuer or the Restricted Subsidiary in connection
+with the Asset Sale is in the form of cash or Cash Equivalents or the assumption by the purchaser
+of liabilities of the Issuer or any Restricted Subsidiary (other than liabilities that are by their
+terms subordinated to the notes) as a result of which the Issuer and the Restricted Subsidiaries
+are no longer obligated with respect to those liabilities; and
+
+(c) the Issuer delivers an Officers’ Certificate to the trustee certifying that the Asset Sale complies
+with the foregoing clauses (a) and (b).
+
+For the purposes of this covenant:
+
+(1) securities or other assets received by the Issuer or any Restricted Subsidiary from the purchaser
+that are converted by the Issuer or such Restricted Subsidiary into cash within 180 days after the
+closing of such Asset Sale shall be considered to be cash to the extent of the cash received in
+that conversion;
+
+(2) any cash consideration paid to the Issuer or the Restricted Subsidiary in connection with the
+Asset Sale that is held in escrow or on deposit to support indemnification, adjustment of purchase
+price or similar obligations in respect of such Asset Sale shall be considered to be cash;
+
+(3) Productive Assets received by the Issuer or any Restricted Subsidiary in connection with the
+Asset Sale shall be considered to be cash;
+
+(4) the requirement that at least 75% of the consideration paid to the Issuer or the Restricted
+Subsidiary in connection with the Asset Sale be in the form of cash or Cash Equivalents or
+assumed liabilities shall also be considered satisfied if the cash or Cash Equivalents received
+constitutes at least 75% of the consideration received by the Issuer or the Restricted Subsidiary
+in connection with such Asset Sale, determined on an after-tax basis; and
+
+(5) any Designated Non-Cash Consideration received by the Issuer or any Restricted Subsidiary in
+connection with the Asset Sale having an aggregate Fair Market Value, taken together with all
+other Designated Non-Cash Consideration received in respect of Asset Sales, that at that time
+outstanding does not exceed the greater of (x) $50.0 million or (y) 5.00% of Consolidated Net
+Tangible Assets shall be considered to be cash.
+
+The Net Available Cash (or any portion thereof) from Asset Sales may be applied by the Issuer or a
+Restricted Subsidiary, to the extent the Issuer or the Restricted Subsidiary elects (or is required by the terms
+of any Debt):
+
+(a) to Repay secured Debt of the Issuer or a Guarantor (and if the secured Debt being repaid is
+revolving credit Debt, to correspondingly permanently reduce commitments with respect thereto),
+or any Debt of a non-Guarantor Restricted Subsidiary (excluding, in any such case, any Debt
+that is owed to the Issuer or an Affiliate of the Issuer);
+
+(b) to Repay other Debt of the Issuer or a Restricted Subsidiary (other than Subordinated
+Obligations and Debt owed to the Issuer or an Affiliate of the Issuer) so long as the Issuer shall
+equally and ratably reduce obligations under the notes (i) on a pro rata basis as provided
+under “—Optional Redemption,” (ii) through open-market purchases or arm’s length privatelynegotiated purchases (to the extent such purchases are at or above 100% of the principal amount
+thereof) or (iii) by making an offer (in accordance with the procedures set forth below for a
+Prepayment Offer) to all holders to purchase their notes on a pro rata basis at 100% of the
+principal amount thereof, plus the amount of accrued but unpaid interest, if any, on the amount
+of notes that would otherwise be prepaid; or
+
+
+-----
+
+(c) to reinvest in Additional Assets (including by means of an Investment in Additional Assets by a
+Restricted Subsidiary with Net Available Cash received by the Issuer or another Restricted
+Subsidiary);
+
+_provided, however, that the Net Available Cash (or any portion thereof) from Asset Sales from the Issuer to_
+any Subsidiary must be reinvested in Additional Assets of the Issuer.
+
+Any Net Available Cash from an Asset Sale not applied in accordance with the preceding paragraph
+within 365 days from the date of the receipt of that Net Available Cash or that the Issuer earlier elects to so
+designate shall constitute “Excess Proceeds”; provided, however, that a binding commitment to reinvest in
+Additional Assets pursuant to clause (c) of the preceding paragraph shall be treated as a permitted application
+of the Net Available Cash from the date of such commitment; provided that (i) such reinvestment is
+consummated within 180 days of the end of the 365 day period referred to in this sentence, and (ii) if such
+reinvestment is not consummated within the period set forth in subclause (i) or such binding commitment is
+terminated, the Net Available Cash not so applied will be deemed to be Excess Proceeds.
+
+When the aggregate amount of Excess Proceeds not previously subject to a Prepayment Offer (as
+defined below) exceeds $50.0 million (taking into account income earned on those Excess Proceeds, if any),
+the Issuer will be required to make an offer to purchase (the “Prepayment Offer”) the notes, which offer
+shall be in the amount of the Allocable Excess Proceeds, on a pro rata basis according to principal amount,
+at a purchase price equal to 100% of the principal amount thereof, plus accrued and unpaid interest, if any, to
+the purchase date (subject to the right of holders of record on the relevant record date to receive interest
+due on the relevant interest payment date), in accordance with the procedures (including prorating in the event
+of oversubscription) set forth in the indenture. To the extent that any portion of the amount of Net
+Available Cash remains after compliance with the preceding sentence and provided that all holders of notes
+have been given the opportunity to tender their notes for purchase in accordance with the indenture, the Issuer
+or such Restricted Subsidiary may use the remaining amount for any purpose permitted by the indenture
+and the amount of Excess Proceeds will be reset to zero.
+
+The term “Allocable Excess Proceeds” will mean the product of:
+
+(a) the Excess Proceeds, and
+
+(b) a fraction,
+
+(1) the numerator of which is the aggregate principal amount of the notes outstanding on the
+date of the Prepayment Offer, and
+
+(2) the denominator of which is the sum of the aggregate principal amount of the notes
+outstanding on the date of the Prepayment Offer and the aggregate principal amount of
+other Debt of the Issuer outstanding on the date of the Prepayment Offer that is pari passu
+in right of payment with the notes and subject to terms and conditions in respect of
+Asset Sales similar in all material respects to the covenant described hereunder and
+requiring the Issuer to make an offer to purchase that Debt at substantially the same time
+as the Prepayment Offer.
+
+Not later than five Business Days after the Issuer is obligated to make a Prepayment Offer as described
+in the preceding paragraph, the Issuer shall send, or cause to be sent, a written notice by first-class mail (or
+electronic transmission in the case of notes held in book-entry form) to the holders of notes with a copy to the
+trustee, accompanied by information regarding the Issuer and its Subsidiaries as the Issuer in good faith
+believes will enable the holders to make an informed decision with respect to that Prepayment Offer. The
+notice shall state, among other things, the purchase price and the purchase date which shall be, subject to any
+contrary requirements of applicable law, a Business Day no earlier than 30 days and no later than 60 days
+from the date the notice is delivered.
+
+The Issuer will comply, to the extent applicable, with the requirements of Section 14(e) of the Exchange
+Act and any other securities laws or regulations in connection with the repurchase of notes pursuant to the
+covenant described hereunder. To the extent that the provisions of any securities laws or regulations conflict
+with provisions of the covenant described hereunder, the Issuer will comply with the applicable securities
+
+
+-----
+
+laws and regulations and will not be deemed to have breached its obligations under the covenant described
+hereunder by virtue thereof.
+
+**_Limitation on Restrictions on Distributions from Restricted Subsidiaries_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, create or
+otherwise cause or suffer to exist any consensual restriction on the right of any Restricted Subsidiary to:
+
+(x) pay dividends, in cash or otherwise, or make any other distributions on or in respect of its
+Capital Stock, or pay any Debt or other obligation owed, to the Issuer or any other Restricted
+Subsidiary (it being understood that the priority of any Preferred Stock in receiving dividend or
+liquidating distributions prior to the dividends or liquidating distributions being paid on
+common stock shall not be deemed a restriction on the ability to make distributions on Capital
+Stock),
+
+(y) make any loans or advances to the Issuer or any other Restricted Subsidiary (it being understood
+that the subordination of loans or advances made to the Issuer or any Restricted Subsidiary to
+other Debt Incurred by the Issuer or any Restricted Subsidiary shall not be deemed a restriction
+on the ability to make loans or advances), or
+
+(z) sell, lease or transfer any of its Property to the Issuer or any other Restricted Subsidiary (it
+being understood that such transfers shall not include any type of transfer described in
+clause (x) or (y) above).
+
+The foregoing limitations will not apply to restrictions:
+
+(a) in effect on the Issue Date, including, but not limited to the Credit Agreement;
+
+(b) relating to Debt of a Restricted Subsidiary existing at the time it became a Restricted Subsidiary
+if such restriction was not created in connection with or in anticipation of the transaction or
+series of transactions pursuant to which that Restricted Subsidiary became a Restricted Subsidiary
+or was acquired by the Issuer;
+
+(c) that result from any amendment, restatement, modification, renewal, supplement, extension,
+replacement or Refinancing of Debt Incurred pursuant to an agreement referred to in clause (a) or
+(b) above, in clause (f), (g) or (j) below or this clause (c), provided that the restriction contained
+in such amendment, restatement, modification, renewal, supplement, extension, replacement or
+Refinancing is not materially more restrictive (as determined in good faith by the Issuer’s
+Board of Directors), taken as a whole, than the restrictions of the same type contained in the
+agreements or instruments referred to in clauses (a), (b), (f), (g) or (j) or this clause (c), as
+applicable;
+
+(d) resulting from the Incurrence of any Permitted Debt defined in the second paragraph of the
+covenant described under “—Limitation on Debt,” _provided that the restriction is no less favorable_
+to the holders of notes in any material respect (as determined in good faith by the Issuer’s
+Board of Directors) than the restrictions of the same type contained in the indenture;
+
+(e) existing by reason of applicable law, rule, regulation or order;
+
+(f) with respect to clause (z) above only, relating to Debt that is permitted to be Incurred and
+secured without also securing the notes pursuant to the covenants described under “—Limitation
+on Debt” and “—Limitation on Liens” that limit the right of the debtor to dispose of the
+Property securing that Debt;
+
+(g) encumbering Property at the time the Property was acquired by the Issuer or any Restricted
+Subsidiary, so long as the restriction relates solely to the Property so acquired and was not created
+in connection with or in anticipation of the acquisition;
+
+
+-----
+
+(h) resulting from customary provisions restricting subletting or assignment of leases or customary
+provisions in other agreements (including, without limitation, intellectual property licenses
+entered into in the ordinary course of business) that restrict assignment of the agreements or
+rights thereunder;
+
+(i) which are customary restrictions contained in asset sale agreements limiting the transfer of
+Property pending the closing of the sale;
+
+(j) existing pursuant to any Debt Incurred by a Foreign Subsidiary, which restrictions are customary
+for a financing of such type, and which are otherwise permitted under the indenture, provided,
+_however, that the Issuer’s Board of Directors determines in good faith that such restrictions are_
+not reasonably likely to impair the Issuer’s ability to make principal and interest payments on the
+notes;
+
+(k) existing by reason of the indenture, the notes offered hereby, the exchange notes, and the Note
+Guarantees;
+
+(l) with respect to the disposition or distribution of assets or property in joint venture agreements
+and other similar agreements entered into in the ordinary course of business;
+
+(m) on cash or other deposits or net worth imposed by customers under contracts entered into in the
+ordinary course of business;
+
+(n) in the case of the provision described in clause (z) of the first paragraph of this covenant:
+arising or agreed to in the ordinary course of business, not relating to any Debt, and that do
+not, individually or in the aggregate, detract from the value of property or assets of the Issuer or
+any Restricted Subsidiary thereof in any manner material to the Issuer or any Restricted
+Subsidiary thereof;
+
+(o) contained in Hedging Obligations; and
+
+(p) constituting customary restrictions with respect to a Securitization Subsidiary, pursuant to the
+terms of a Permitted Receivables Financing.
+
+**_Limitation on Transactions with Affiliates_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, directly or indirectly, conduct
+any business or enter into or suffer to exist any transaction or series of transactions (including the purchase,
+sale, transfer, assignment, lease, conveyance or exchange of any Property or the rendering of any service)
+with, or for the benefit of, any Affiliate of the Issuer (an “Affiliate Transaction”) involving payments in excess
+of $5.0 million, unless:
+
+(a) the terms of such Affiliate Transaction are no less favorable to the Issuer or that Restricted
+Subsidiary, as the case may be, taken as a whole, than those that could be obtained in a comparable
+arm’s-length transaction with a Person that is not an Affiliate of the Issuer, and
+
+(b) if the Affiliate Transaction involves aggregate payments or value in excess of $25.0 million, the
+Board of Directors (including a majority of the disinterested members of the Board of Directors)
+approves the Affiliate Transaction and, in its good faith judgment, believes that the Affiliate
+Transaction complies with clause (a) of this paragraph as evidenced by a resolution of the Board
+of Directors promptly delivered to the trustee.
+
+Notwithstanding the foregoing limitation, the Issuer or any Restricted Subsidiary may enter into or
+suffer to exist the following:
+
+(a) any transaction or series of transactions between the Issuer and one or more Restricted
+Subsidiaries or between two or more Restricted Subsidiaries;
+
+(b) any Restricted Payment permitted to be made pursuant to the covenant described under
+“—Limitation on Restricted Payments” or any Permitted Investment;
+
+
+-----
+
+(c) any reasonable or customary employment, consulting, service, severance, termination agreement,
+employee benefit plan, compensation arrangement, indemnification arrangement, or any
+similar arrangement entered into by the Issuer or a Restricted Subsidiary with a current or
+former director, officer or employee of the Issuer or a Restricted Subsidiary and payments related
+thereto; or any issuance of securities, or other payments, awards or grants in cash, securities or
+otherwise pursuant to, or the funding of, employment agreements and other compensation
+arrangements, options to purchase Capital Stock of the Issuer, restricted stock plans, restricted
+stock unit plans, long-term incentive plans, stock appreciation rights plans, participation plans or
+similar employee benefits plans and/or indemnity provided on behalf of directors, officers and
+employees of the Issuer or a Restricted Subsidiary approved by the Board of Directors of the
+Issuer;
+
+(d) (i) reimbursement of employee travel and lodging costs and other business expenses incurred in
+the ordinary course of business and (ii) loans and advances to employees made in the ordinary
+course of business in compliance with applicable laws and consistent with the past practices of
+the Issuer or that Restricted Subsidiary, as the case may be;
+
+(e) any issuance of shares of Capital Stock (other than Disqualified Stock) of the Issuer;
+
+(f) any agreement as in effect on the Issue Date or any amendment, modification, supplement,
+extension or renewal thereto (so long as such amendment, modification, supplement, extension
+or renewal is not materially adverse to the interests of the holders of the notes) or any transaction
+contemplated thereby;
+
+(g) any agreement between any Person and an Affiliate of such Person existing at the time such
+Person is acquired by or merged or consolidated with or into the Issuer or a Restricted Subsidiary,
+as such agreement may be amended, modified, supplemented, extended or renewed from time
+to time; provided that such agreement was not entered into in contemplation of such acquisition,
+merger or consolidation, and so long as any such amendment, modification, supplement,
+extension or renewal, when taken as a whole, is not materially more disadvantageous to the
+holders, in the reasonable determination of two Officers of the Issuer (as evidenced by an Officers’
+Certificate), than the applicable agreement as in effect on the date of such acquisition, merger
+or consolidation;
+
+(h) transactions with customers, clients, suppliers, joint venture partners or purchasers or sellers of
+goods or services, in each case in the ordinary course of the business of the Issuer and its Restricted
+Subsidiaries and otherwise in compliance with the terms of the indenture; provided that in the
+reasonable determination of two Officers of the Issuer (as evidenced by an Officers’ Certificate),
+such transactions are on terms that are not materially less favorable, when taken as a whole, to
+the Issuer or the relevant Restricted Subsidiary than those that would have been obtained in a
+comparable transaction by the Issuer or such Restricted Subsidiary with an unrelated Person;
+
+(i) transactions in which the Issuer or any Restricted Subsidiary delivers to the trustee a letter or
+opinion from an Independent Financial Advisor stating that such transaction is fair to the Issuer
+or such Restricted Subsidiary from a financial point of view or stating that the terms are not
+materially less favorable, when taken as a whole, than those that might reasonably have been
+obtained by the Issuer or such Restricted Subsidiary in a comparable transaction at such time on
+an arms-length basis from a Person that is not an Affiliate;
+
+(j) the Transactions and the payment of all fees and expenses related to the Transactions;
+
+(k) any service, purchase, lease, supply or similar agreement entered into in the ordinary course of
+business (including, without limitation, pursuant to any joint venture agreement) between the
+Issuer or any Restricted Subsidiary and any Affiliate (other than an Unrestricted Subsidiary) that
+is a customer, client, supplier, purchaser or seller of goods or services, so long as the Issuer
+determines in good faith that any such agreement is on terms not materially less favorable to the
+Issuer or such Restricted Subsidiary than those that could be obtained in a comparable arms’length transaction with an entity that is not an Affiliate;
+
+
+-----
+
+(l) pledges of equity interests of Unrestricted Subsidiaries to secure Debt of such Unrestricted
+Subsidiaries; and
+
+(m) transactions entered into as part of a Permitted Receivables Financing on customary terms (as
+determined by the Issuer’s Board of Directors).
+
+**_Designation of Restricted and Unrestricted Subsidiaries_**
+
+The Board of Directors of the Issuer may designate any Subsidiary of the Issuer to be an Unrestricted
+Subsidiary if:
+
+(a) the Subsidiary to be so designated does not own any Capital Stock or Debt of, or own or hold
+any Lien on any Property of, the Issuer or any other Restricted Subsidiary,
+
+(b) immediately before and after such designation, no Event of Default shall have occurred and be
+continuing, and
+
+(c) any of the following:
+
+(1) the Subsidiary to be so designated has total assets of $1,000 or less, or
+
+(2) if the Subsidiary has consolidated assets greater than $1,000, then the designation would
+be permitted under the covenant entitled “—Limitation on Restricted Payments.”
+
+Unless so designated as an Unrestricted Subsidiary, any Person that becomes a Subsidiary of the Issuer will
+be classified as a Restricted Subsidiary; provided, however, that the Subsidiary shall not be designated a
+Restricted Subsidiary and shall be automatically classified as an Unrestricted Subsidiary if the Person is a
+Subsidiary of an Unrestricted Subsidiary.
+
+Except as provided in the first sentence of the preceding paragraph, no Restricted Subsidiary may be
+redesignated as an Unrestricted Subsidiary. In addition, neither the Issuer nor any Restricted Subsidiary
+shall at any time be directly or indirectly liable for any Debt that provides that the holder thereof may (with
+the passage of time or notice or both) declare a default thereon or cause the payment thereof to be
+accelerated or payable prior to its Stated Maturity upon the occurrence of a default with respect to any
+Debt, Lien or other obligation of any Unrestricted Subsidiary in existence and classified as an Unrestricted
+Subsidiary at the time the Issuer or the Restricted Subsidiary is liable for that Debt (including any right to
+take enforcement action against that Unrestricted Subsidiary).
+
+The Board of Directors of the Issuer may designate any Unrestricted Subsidiary to be a Restricted
+Subsidiary if, immediately after giving effect on a pro forma basis to the designation,
+
+(x) the Issuer could Incur at least $1.00 of additional Debt pursuant to clause (1) of the first
+paragraph of the covenant described under “—Limitation on Debt,” and
+
+(y) no Default or Event of Default shall have occurred and be continuing or would result therefrom.
+
+Any designation or redesignation of this kind by the Board of Directors of the Issuer will be evidenced
+to the trustee by filing with the trustee a resolution of the Board of Directors of the Issuer giving effect to
+the designation or redesignation and an Officers’ Certificate that:
+
+(a) certifies that the designation or redesignation complies with the foregoing provisions, and
+
+(b) gives the effective date of the designation or redesignation,
+
+and the filing with the trustee to occur no later than the time period for which reports are required to
+be provided under “—Reports” for the fiscal quarter of the Issuer in which the designation or redesignation
+is made.
+
+**_Limitation on Sale and Leaseback Transactions_**
+
+The Issuer shall not, and shall not permit any Restricted Subsidiary to, enter into any Sale and
+Leaseback Transaction with respect to any Property unless:
+
+
+-----
+
+(a) the Issuer or that Restricted Subsidiary would be entitled to:
+
+(1) Incur Debt in an amount equal to the Attributable Debt with respect to that Sale and
+Leaseback Transaction pursuant to the covenant described under “—Limitation on Debt,”
+and
+
+(2) create a Lien on the Property securing that Attributable Debt without also securing the
+notes pursuant to the covenant described under “—Limitation on Liens,” and
+
+(b) the Sale and Leaseback Transaction is effected in compliance with the covenant described under
+“—Limitation on Asset Sales” after treating all the cash or Cash Equivalents received in such
+Sale and Leaseback Transaction as Net Available Cash under such covenant.
+
+**_Additional Note Guarantees_**
+
+After the Issue Date, if any Restricted Subsidiary of the Issuer guarantees any Debt of the Issuer or
+any Guarantor under the Credit Agreement or any other syndicated credit facility or capital markets debt in
+an aggregate principal amount in excess of $25.0 million, such Restricted Subsidiary shall (i) within
+30 days execute and deliver a supplemental indenture to the indenture providing for a Guarantee of the
+notes by such Restricted Subsidiary, and (ii) such Restricted Subsidiary shall deliver to the trustee an Opinion
+of Counsel stating that (a) such Guarantee has been duly executed and authorized, and (b) such Guarantee
+constitutes a valid, binding and enforceable obligation of such Restricted Subsidiary, except insofar as
+enforcement thereof may be limited by bankruptcy, insolvency or similar laws (including all laws relating to
+fraudulent transfers) and except insofar as enforcement thereof is subject to general principals of equity;
+_provided that this covenant shall not be applicable to any guarantee of any Restricted Subsidiary that existed_
+at the time such Person became a Restricted Subsidiary and was not incurred in connection with, or in
+contemplation of, such Person becoming a Restricted Subsidiary. Each Guarantee of the notes shall be
+released in accordance with the provisions of the indenture described under “Note Guarantees.”
+Notwithstanding anything to the contrary in this “Description of Notes”, any Guarantee issued by any
+Foreign Subsidiary may be modified as necessary or appropriate to (1) comply with applicable law, (2) avoid
+any general legal limitations such as general statutory limitations, financial assistance, corporate benefit,
+“thin capitalization” rules, retention of title claims or similar matters or (3) avoid a conflict with the fiduciary
+duties of such company’s directors, contravention of any legal prohibition or regulatory condition, or the
+material risk of personal or criminal liability for any officers or directors (collectively referred to as “Agreed
+Guarantee Principles”), in each case as determined by the Issuer in its good faith discretion.
+
+**_Limitation on Accounts Receivables Facilities_**
+
+The Issuer and its Restricted Subsidiaries may sell, transfer or otherwise dispose of accounts receivable
+to a Securitization Subsidiary; provided that:
+
+(1) the sale, transfer or other disposition is in connection with a Permitted Receivables Financing;
+and
+
+(2) the aggregate consideration received in each such sale, transfer or other disposition is at least
+equal to the Fair Market Value of the receivables sold.
+
+**_Merger, Consolidation and Sale of Property_**
+
+_The Issuer_
+
+The Issuer shall not merge, consolidate or amalgamate with or into any other Person or sell, transfer,
+assign, lease, convey or otherwise dispose of all or substantially all its Property in any one transaction or
+series of transactions unless:
+
+(a) the Issuer shall be the surviving Person (the “Surviving Person”) or the Surviving Person (if
+other than the Issuer) formed by that merger, consolidation or amalgamation or to which that
+sale, transfer, assignment, lease, conveyance or disposition is made shall be a corporation organized
+and existing under the laws of the United States of America, any State thereof or the District
+of Columbia;
+
+
+-----
+
+(b) the Surviving Person (if other than the Issuer,) expressly assumes, by supplemental indenture
+executed and delivered to the trustee by that Surviving Person, in the case of a Surviving Person
+formed by the merger, consolidation or amalgamation with the Issuer or to which the sale,
+transfer, assignment, lease, conveyance or disposition is with respect to all or substantially all of
+the Property of the Issuer, the due and punctual payment of the principal of, and premium, if
+any, and interest on, all the notes, according to their tenor, and the due and punctual performance
+and observance of all the covenants and conditions of the indenture to be performed by the
+Issuer;
+
+(c) in the case of a sale, transfer, assignment, lease, conveyance or other disposition of all or
+substantially all the Property of the Issuer that Property shall have been transferred as an entirety
+or virtually as an entirety to one Person;
+
+(d) immediately before and after giving effect to that transaction or series of transactions on a
+pro forma basis (and treating, for purposes of this clause (d) and clause (e) below, any Debt that
+becomes, or is anticipated to become, an obligation of the Surviving Person or any Restricted
+Subsidiary as a result of that transaction or series of transactions as having been Incurred by the
+Surviving Person or the Restricted Subsidiary at the time of that transaction or series of
+transactions), no Default or Event of Default shall have occurred and be continuing;
+
+(e) immediately after giving effect to that transaction or series of transactions on a pro forma basis,
+the Issuer or the Surviving Person (if the Surviving Person was previously the Issuer), as the
+case may be, (i) would be able to Incur at least $1.00 of additional Debt under clause (1) of the
+first paragraph of the covenant described under “—Limitation on Debt” or (ii) the Consolidated
+Fixed Charges Coverage Ratio of the Issuer or the Surviving Person (if the Surviving Person
+was previously the Issuer), as applicable, would be greater than or equal to such ratio immediately
+prior to such transaction, provided, however, that this clause (e) shall not be applicable to the
+Issuer merging, consolidating or amalgamating with or into an Affiliate incorporated solely for
+the purpose of reincorporating the Issuer in a State of the United States or changing the name of
+the Issuer so long as the amount of Debt of the Issuer and the Restricted Subsidiaries is not
+increased thereby; and
+
+(f) unless the Issuer is the Surviving Person, the Issuer, shall deliver, or cause to be delivered, to the
+trustee, in form and substance reasonably satisfactory to the trustee, an Officers’ Certificate
+and an Opinion of Counsel, each stating that the transaction and the supplemental indenture, if
+any, in respect thereto comply with this covenant and that all conditions precedent herein
+provided for relating to the transaction and the execution of a supplemental indenture, as
+applicable, have been satisfied, and the Opinion of Counsel will include that the Indenture and
+any supplemental indenture and Note Guarantees, as applicable, constitute valid and binding
+obligations of the Surviving Person.
+
+The Surviving Person shall succeed to, and be substituted for, and may exercise every right and power
+of the Issuer, under the indenture, but the predecessor company in the case of:
+
+(a) a sale, transfer, assignment, conveyance or other disposition (unless that sale, transfer, assignment,
+conveyance or other disposition is of all the assets of the Issuer, as an entirety), or
+
+(b) a lease,
+
+shall not be released from any obligation to pay the principal of, premium, if any, and interest on, the
+notes.
+
+_Guarantors_
+
+No Guarantor may:
+
+(a) merge, consolidate or amalgamate with or into any other Person, or
+
+(b) sell, transfer, assign, lease, convey or otherwise dispose of all or substantially all its Property in
+any one transaction or series of transactions, or
+
+
+-----
+
+(c) permit any Person to merge, consolidate or amalgamate with or into the Guarantor
+
+unless:
+
+(i) the other Person is the Issuer or any Restricted Subsidiary that is a Guarantor or becomes
+a Guarantor concurrently with the transaction; or
+
+(ii) (1) either (x) the Guarantor is the continuing Person or (y) the resulting, surviving or
+transferee Person expressly assumes by supplemental indenture all of the obligations
+of the Guarantor under its Note Guaranty; and
+
+(2) immediately after giving effect to the transaction, no Default has occurred and is
+continuing; or
+
+(iii) the transaction constitutes a sale or other disposition (including by way of consolidation or
+merger) of the Guarantor or the sale or disposition of all or substantially all the Property
+of the Guarantor (in each case other than to the Issuer or a Restricted Subsidiary) otherwise
+permitted by the indenture.
+
+**Events of Default**
+
+Events of Default in respect of the notes include:
+
+(1) failure to make the payment of any interest on the notes when the same becomes due and
+payable, and that failure continues for a period of 30 days;
+
+(2) failure to make the payment of any principal of, or premium, if any, on, any of the notes when
+the same becomes due and payable at its Stated Maturity, upon acceleration, redemption, optional
+redemption, required repurchase or otherwise;
+
+(3) failure by the Issuer to comply with the covenant described under “—Certain Covenants—
+Merger, Consolidation and Sale of Property”;
+
+(4) failure by the Issuer or any Guarantor to comply with any other covenant or agreement in the
+notes or in the indenture (other than a failure that is the subject of the foregoing clause (1), (2),
+or (3)) and such failure continues for 60 days after written notice is given to the Issuer as provided
+below;
+
+(5) a default under any Debt by the Issuer or any Restricted Subsidiary that results in acceleration
+of the maturity of that Debt, or failure to pay any Debt at maturity, in an aggregate amount
+greater than $50.0 million or its foreign currency equivalent at the time (the “cross acceleration
+provisions”);
+
+(6) any judgment or judgments for the payment of money in an aggregate amount in excess of
+$50.0 million (or its foreign currency equivalent at the time) (net of amounts covered by insurance
+or bonded) that shall be rendered against the Issuer or any Restricted Subsidiary and that shall
+not be waived, satisfied, annulled, discharged or rescinded for any period of 60 consecutive days
+during which a stay of enforcement shall not be in effect (the “‘judgment default provisions”);
+
+(7) specified events involving bankruptcy, insolvency or reorganization of the Issuer or any
+Significant Subsidiary (the “bankruptcy provisions”); and
+
+(8) except as permitted under the indenture, any Note Guaranty of any Significant Subsidiary
+ceases to be in full force and effect, other than in accordance with the terms of the indenture, or
+a Guarantor denies or disaffirms its obligations under its Note Guaranty (the “note guaranty
+provisions”) if, and only if, in each such case, such default continues for 10 days.
+
+A Default under clause (3) or (4) is not an Event of Default until the trustee or the holders of not less
+than 25% in aggregate principal amount of the notes then outstanding notify the Issuer of the Default and
+the Issuer does not cure that Default within the time specified after receipt of the notice. The notice must
+specify the Default, demand that it be remedied and state that the notice is a “Notice of Default.”
+
+
+-----
+
+The Issuer will deliver to the trustee annually a statement regarding compliance with the Indenture
+within 90 days after the end of its fiscal year, and the Issuer shall also deliver to the trustee, within 30 days
+after the occurrence thereof, written notice in the form of an Officers’ Certificate of any event that with the
+giving of notice and the lapse of time would become an Event of Default, its status and what action the
+Issuer is taking or proposes to take with respect thereto.
+
+If an Event of Default with respect to the notes (other than an Event of Default resulting from
+particular events involving bankruptcy, insolvency or reorganization with respect to the Issuer) shall have
+occurred and be continuing, the trustee or the registered holders of not less than 25% in aggregate principal
+amount of notes then outstanding may declare to be immediately due and payable the principal amount
+of all the notes then outstanding, plus accrued but unpaid interest to the date of acceleration. In case an Event
+of Default resulting from events of bankruptcy, insolvency or reorganization with respect to the Issuer
+shall occur, the amount with respect to all the notes shall be due and payable immediately without any
+declaration or other act on the part of the trustee or the holders of the notes. After any such acceleration,
+but before a judgment or decree based on acceleration is obtained by the trustee, the registered holders of a
+majority in aggregate principal amount of the notes then outstanding may, under some circumstances,
+rescind and annul the acceleration if all Events of Default, other than the nonpayment of accelerated
+principal, premium or interest, have been cured or waived as provided in the indenture and all amounts owing
+to the trustee have been paid.
+
+Subject to the provisions of the indenture relating to the duties of the trustee, in case an Event of
+Default shall occur and be continuing, the trustee will be under no obligation to exercise any of its rights or
+powers under the indenture at the request or direction of any of the holders of the notes, unless the
+holders shall have offered to the trustee reasonable security or indemnity satisfactory to it. Subject to the
+provisions for the indemnification of the trustee, the holders of a majority in aggregate principal amount of
+the notes then outstanding will have the right to direct the time, method and place of conducting any
+proceeding for any remedy available to the trustee or exercising any trust or power conferred on the trustee
+with respect to the notes.
+
+No holder of notes will have any right to institute any proceeding with respect to the indenture, or for
+the appointment of a receiver or trustee, or for any remedy thereunder, unless:
+
+(a) that holder has previously given to the trustee written notice of a continuing Event of Default,
+
+(b) the registered holders of at least 25% in aggregate principal amount of the notes then outstanding
+have made written request and offered reasonable indemnity to the trustee to institute the
+proceeding as trustee, and
+
+(c) the trustee shall not have received from the registered holders of a majority in aggregate
+principal amount of the notes then outstanding a direction inconsistent with that request and
+shall have failed to institute the proceeding within 60 days after the trustee received such direction
+and adequate indemnity.
+
+However, these limitations do not apply to a suit instituted by a holder of any note for enforcement of
+payment of the principal of, and premium, if any, or interest on, that note on or after the respective due
+dates expressed in that note. The trustee shall not be deemed to have notice of any Default or Event of Default
+unless an officer of the trustee having direct responsibility for the administration of the indenture has
+received written notice of any such event and such notice references the notes and the indenture.
+
+**Amendments and Waivers**
+
+Subject to the exceptions described below, the indenture may be amended with the consent of the
+registered holders of a majority in aggregate principal amount of the notes then outstanding (including
+consents obtained in connection with a purchase of, or tender offer or exchange offer for, the notes) and any
+past default or compliance with any provisions may also be waived with the consent of the registered
+holders of a majority in aggregate principal amount of the notes then outstanding (including waivers
+obtained in connection with a purchase of, or tender offer or exchange offer for, the notes), except a Default
+in the payment of principal, premium, if any, or interest and particular covenants and provisions of the
+
+
+-----
+
+indenture which cannot be amended without the consent of each holder of an outstanding note. However,
+without the consent of each holder of an outstanding note adversely affected thereby, no amendment may,
+among other things,
+
+(1) reduce the amount of notes whose holders must consent to an amendment or waiver,
+
+(2) reduce the rate of or extend the time for payment of interest on any note,
+
+(3) reduce the principal of or extend the Stated Maturity of any note,
+
+(4) make any note payable in money other than U.S. Dollars,
+
+(5) make any change to the contractual right of any holder of the notes expressly set forth in the
+indenture or the notes to receive payment of principal of and interest on that holder’s notes on
+or after the due dates therefor or to institute suit for the enforcement of any payment on or with
+respect to that holder’s notes,
+
+(6) expressly subordinate the notes to any other obligation of the Issuer or any Guarantor, except
+as otherwise permitted under the indenture or the notes,
+
+(7) reduce the premium payable upon the redemption of any note or change the time at which any
+note may be redeemed, as described under “—Optional Redemption,”
+
+(8) reduce the premium payable upon a Change of Control Triggering Event or, at any time after a
+Change of Control Triggering Event has occurred, change the time at which the Change of Control
+Offer relating thereto must be made or at which the notes must be repurchased pursuant to
+that Change of Control Offer,
+
+(9) at any time after the Issuer is obligated to make a Prepayment Offer with the Excess Proceeds
+from Asset Sales, change the time at which the Prepayment Offer must be made or at which the
+notes must be repurchased pursuant thereto, or
+
+(10) release any Guarantor from any of its obligations under its Note Guaranty or the indenture,
+except in accordance with the terms of the indenture.
+
+Without the consent of any holder of the notes, the Issuer and the trustee may amend the indenture to:
+
+(1) cure any ambiguity, omission, defect, mistake or inconsistency,
+
+(2) provide for the assumption by a successor of the obligations of the Issuer or any Guarantor
+under the indenture,
+
+(3) provide for uncertificated notes in addition to or in place of certificated notes, provided that the
+uncertificated notes are issued in registered form for purposes of Section 163(f) of the Code, or in
+a manner such that the uncertificated notes are described in Section 163(f)(2)(B) of the Code,
+
+(4) add Guarantees with respect to the notes or release Guarantors from their Note Guarantees as
+provided by the terms of the indenture or the Note Guarantees,
+
+(5) secure the notes (and, thereafter, provide releases of collateral in accordance with the security
+documents entered into in connection therewith), add to the covenants of the Issuer or any
+Guarantor for the benefit of the holders of the notes or surrender any right or power conferred
+upon the Issuer or any Guarantor,
+
+(6) make any change that would provide any additional rights or benefits to the holders of notes or
+make any change that does not materially adversely affect the rights of any holder of the
+notes,
+
+(7) comply with any requirements of the SEC in connection with qualifying, or maintaining the
+qualification of, the indenture under the Trust Indenture Act, (it being agreed that the indenture
+need not be qualified under the Trust Indenture Act);
+
+
+-----
+
+(8) provide for the issuance of additional notes in accordance with the indenture,
+
+(9) provide for the issuance of exchange securities that shall have terms substantially identical in all
+respects to the notes (except that the transfer restrictions contained in the notes shall be modified
+or eliminated as appropriate) and which shall be treated, together with any outstanding notes,
+as a single class of securities;
+
+(10) provide for the appointment of a successor trustee; provided that the successor trustee is
+otherwise qualified and eligible to act as such under the terms of the indenture;
+
+(11) conform any provisions to this “Description of Notes;” or
+
+(12) comply with the procedures of the DTC or the trustee with respect to the provisions in the
+indenture and the notes relating to transfers and exchanges of notes or beneficial interests in
+notes.
+
+The consent of the holders of the notes is not necessary to approve the particular form of any proposed
+amendment. It is sufficient if such consent approves the substance of the proposed amendment. After an
+amendment becomes effective, the Issuer is required to deliver to each registered holder of the notes at the
+holder’s address appearing in the security register a notice briefly describing the amendment. However, the
+failure to give this notice to all holders of the notes, or any defect therein, will not impair or affect the
+validity of the amendment. In connection with any modification, amendment or supplement, the Issuer will
+deliver to the trustee an Opinion of Counsel and an Officers’ Certificate upon which the trustee may
+conclusively rely, each stating that such modification, amendment or supplement complies with the applicable
+provisions of the indenture.
+
+**Defeasance and Discharge**
+
+The Issuer may discharge its obligations under the notes and the indenture by irrevocably depositing in
+trust with the trustee money in U.S. Dollars, U.S. Government Obligations or a combination thereof
+sufficient to pay principal of and interest on the notes to maturity or redemption within one year, subject to
+meeting certain other conditions.
+
+The Issuer at any time may also terminate all of its obligations under the notes and the indenture
+(“legal defeasance”), except for particular obligations, including those respecting the defeasance trust and
+obligations to register the transfer or exchange of the notes, to replace mutilated, destroyed, lost or stolen
+notes and to maintain a registrar and paying agent in respect of the notes. The Issuer at any time may
+terminate:
+
+(1) the Issuer’s obligations under the covenants described under “—Repurchase of Notes Upon a
+Change of Control Triggering Event,” “—Certain Covenants” and “—Reports” above, and
+
+(2) the operation of the cross acceleration provisions, the judgment default provisions, the
+bankruptcy provisions with respect to Significant Subsidiaries and the note guaranty provisions,
+described under “—Events of Default” above (“covenant defeasance”).
+
+The Issuer may exercise its legal defeasance option notwithstanding its prior exercise of its covenant
+defeasance option.
+
+If the Issuer exercises its legal defeasance option, payment of the notes may not be accelerated because
+of an Event of Default with respect thereto. If the Issuer exercises its covenant defeasance option, payment
+of the notes may not be accelerated because of an Event of Default specified in clause (3), (4) (with
+respect to the covenants described under “—Certain Covenants”), (5), (6), (7) (with respect only to Significant
+Subsidiaries) or (8) under “—Events of Default” above or because of the failure of the Issuer to comply
+with clause (e) under the first paragraph of “—Merger, Consolidation and Sale of Property” above. The legal
+defeasance option or the covenant defeasance option may be exercised only if:
+
+(a) the Issuer irrevocably deposits in trust with the trustee money in U.S. Dollars, U.S. Government
+Obligations or a combination thereof for the payment of principal of and interest (including
+premium, if any) on the notes to maturity or a redemption date permitted under the indenture;
+
+
+-----
+
+(b) the Issuer delivers to the trustee a certificate of a nationally recognized accounting firm
+expressing their opinion that the payments of principal and interest when due and without
+reinvestment on the deposited U.S. Government Obligations plus any deposited money without
+investment will provide cash at the times and in amounts as will be sufficient to pay principal and
+interest (including premium, if any) when due on all the notes to maturity or redemption, as
+the case may be;
+
+(c) no Default or Event of Default has occurred and is continuing on the date of the deposit and
+after giving effect thereto;
+
+(d) the deposit does not constitute a default under any other material agreement or instrument
+binding on the Issuer;
+
+(e) in the case of the legal defeasance option, the Issuer delivers to the trustee an Opinion of
+Counsel stating that:
+
+(1) the Issuer has received from the Internal Revenue Service a ruling, or
+
+(2) since the date of the indenture there has been a change in the applicable federal income
+tax law, to the effect, in either case, that, and based thereon the Opinion of Counsel shall
+confirm that, the beneficial owners of the notes will not recognize income, gain or loss for
+federal income tax purposes as a result of the defeasance and will be subject to federal
+income tax on the same amounts, in the same manner and at the same times as would have
+been the case if the defeasance had not occurred;
+
+(f) in the case of the covenant defeasance option, the Issuer delivers to the trustee an Opinion of
+Counsel to the effect that the beneficial owners of the notes will not recognize income, gain or loss
+for federal income tax purposes as a result of that covenant defeasance and will be subject to
+federal income tax on the same amounts, in the same manner and at the same times as would have
+been the case if that covenant defeasance had not occurred; and
+
+(g) the Issuer delivers to the trustee an Officers’ Certificate and an Opinion of Counsel, each stating
+that all conditions precedent to the defeasance and discharge of the notes have been complied
+with as required by the indenture.
+
+In the case of either discharge or defeasance, the Note Guarantees, if any, will terminate.
+
+**Note Guarantees**
+
+The obligations of the Issuer pursuant to the notes, including any repurchase obligation resulting from
+a Change of Control Triggering Event, will be unconditionally guaranteed, jointly and severally, on an
+unsecured basis, by each Restricted Subsidiary of the Issuer that guarantees or is a borrower under the Credit
+Agreement. If any Restricted Subsidiary (including any newly acquired or created Restricted Subsidiary)
+guarantees any debt of the Issuer or any Guarantor under the Credit Agreement or any other syndicated
+credit facility or capital markets debt in an aggregate principal amount in excess of $25.0 million after the date
+of the indenture, the new Restricted Subsidiary must provide a Note Guaranty.
+
+Each Note Guaranty will be limited to the maximum amount that would not render the Guarantor’s
+obligations subject to avoidance under applicable fraudulent conveyance provisions of the United States
+Bankruptcy Code or any comparable provision of state law. By virtue of this limitation, a Guarantor’s
+obligation under its Note Guaranty could be significantly less than amounts payable with respect to the notes,
+or a Guarantor may have effectively no obligation under its Note Guaranty. See “Risk Factors—Risks
+Related to the Notes and our Indebtedness—Federal and state fraudulent conveyance or fraudulent transfer
+laws permit a court, under certain circumstances, to void the Notes and the Guarantees, subordinate
+claims in respect of the Notes and the Guarantees and/or require holders of the Notes to return payments
+received from us in respect of the Guarantees and, if that occurs, you may not receive any payments on the
+Notes.”
+
+The Note Guaranty of a Guarantor will terminate, and the Note Guaranty will be automatically and
+unconditionally released and discharged, upon:
+
+
+-----
+
+(1) a sale or other disposition (including by way of consolidation or merger) of Capital Stock of the
+Guarantor following which such Guarantor ceases to be a Subsidiary of the Issuer or the sale
+or disposition of all or substantially all the Property of the Guarantor (other than to the Issuer
+or a Restricted Subsidiary) otherwise permitted by the indenture;
+
+(2) the release or discharge of such Guarantor’s obligations under the Credit Agreement other than
+a release or discharge through payment thereon;
+
+(3) the designation in accordance with the indenture of the Guarantor as an Unrestricted Subsidiary;
+
+(4) such Guarantor ceases to be a Restricted Subsidiary and such Guarantor is not otherwise
+required to provide a Guarantee of the notes pursuant to the provisions described under
+“—Certain Covenants—Additional Note Guarantees;” or
+
+(5) defeasance or discharge of the notes, as provided in “—Defeasance and Discharge.”
+
+No such release or discharge of a Note Guaranty of a Guarantor shall be effective against the trustee
+or the holders of Notes to which such Note Guaranty relates until the Issuer shall have delivered to the
+trustee an Officers’ Certificate and an Opinion of Counsel stating that all conditions precedent provided for
+in the Indenture relating to such transactions have been complied with and that such release and discharge
+is authorized and permitted under the Indenture. At the written request of the Issuer, and upon being provided
+an officer’s certificate and an Opinion of Counsel, the trustee shall execute and deliver an instrument
+evidencing such release.
+
+**No Personal Liability of Directors, Officers, Employees and Shareholders**
+
+No past, present or future director, officer, employee, incorporator or shareholder of the Issuer or any
+Guarantor, as such, shall have any liability for any obligations of the Issuer or the Guarantors under the
+notes, the indenture or the Note Guarantees or for any claim based on, in respect of, or by reason of, such
+obligations or their creation. Each holder of notes by accepting a note waives and releases all such liability.
+The waiver and release are part of the consideration for issuance of the notes. The waiver may not be
+effective to waive liabilities under the federal securities laws.
+
+**Governing Law**
+
+The indenture, the notes and the Note Guarantees, will be governed by and construed in accordance
+with the laws of the State of New York.
+
+**The Trustee**
+
+U.S. Bank National Association is the trustee under the indenture and has been appointed by the
+Issuer as registrar and paying agent with regard to the notes. We have entered, and from time to time may
+continue to enter, into banking or other relationships with U.S. Bank National Association and/or its affiliates.
+
+The Issuer may remove the trustee as long as there is no event of default and no event that, upon
+notice or lapse of time or both, would become an event of default in respect of the notes. The holders of a
+majority of the principal amount of the notes may also remove the trustee under the indenture at any time.
+The Trustee may resign. The indenture prescribes procedures by which the trustee will be replaced, in the
+event of its removal or resignation.
+
+Except during the continuance of an Event of Default, the trustee will perform only the duties as are
+specifically set forth in the indenture and no implied covenants or obligations shall be read into the indenture
+against the trustee, where duties and obligations shall be determined solely by the express provisions of the
+indenture. During the existence of an Event of Default, the trustee will exercise the rights and powers vested
+in it under the indenture and use the same degree of care and skill in its exercise as a prudent person would
+exercise under the circumstances in the conduct of that person’s own affairs.
+
+The Trustee will be under no obligation to exercise any of its rights or powers under the Indenture at
+the request or direction of any holder of Notes issued thereunder, unless such holder shall have offered to
+the Trustee security and indemnity satisfactory to it against any loss, liability or expense. The Trustee may
+
+
+-----
+
+refuse to follow any request or direction that conflicts with law, the Indenture or the Notes, or that would
+involve the Trustee in personal liability. The Trustee’s fees, expenses and indemnities (in each of its capacities
+under the Indenture) are included in the amounts guaranteed by the Note Guarantees.
+
+The Trustee assumes no responsibility for the accuracy or completeness of the information contained
+in this offering memorandum or the related documents.
+
+
+-----
+
+**BOOK-ENTRY; DELIVERY AND FORM**
+
+The Notes are being offered and sold to persons reasonably believed to be QIBs in reliance on Rule 144A
+under the Securities Act (“Rule 144A Notes”). The Notes also may be offered and sold to certain non-U.S.
+persons outside the United States in offshore transactions in reliance on Regulation S under the Securities Act
+(“Regulation S Notes”). Except as set forth below, the Notes will be issued in registered, global form in
+minimum denominations of $2,000 and integral multiples of $1,000 in excess thereof. The Notes will be issued
+at the closing of this offering only against payment in immediately available funds.
+
+Rule 144A Notes initially will be represented by one or more Notes in registered, global form without
+interest coupons (collectively, the “Rule 144A Global Notes”). Regulation S Notes initially will be represented
+by one or more Notes in registered, global form without interest coupons (collectively, the “Regulation S
+Global Notes” and, together with the Rule 144A Global Notes, the “Global Notes”). The Global Notes will
+be deposited upon issuance with the Trustee, as custodian for The Depository Trust Company, in New
+York, New York, and registered in the name of The Depository Trust Company or its nominee, in each case
+for credit to an account of a direct or indirect participant in The Depository Trust Company as described
+below.
+
+Except as set forth below, the Global Notes may be transferred, in whole and not in part, only to
+another nominee of The Depository Trust Company or to a successor of The Depository Trust Company
+or its nominee. Beneficial interests in the Global Notes may not be exchanged for definitive Notes in
+certificated form except in the limited circumstances described below. See “—Exchange of Book-Entry
+Notes for Certificated Notes.” Except in the limited circumstances described below, owners of beneficial
+interests in the Global Notes will not be entitled to receive physical delivery of certificated Notes. Through
+and including the 40th day after the later of the commencement of the offering and the closing of the offering
+(such period through and including such 40th day, the “Restricted Period”), beneficial interests in the
+Regulation S Global Notes may only be transferred to a person that takes delivery through a Rule 144A
+Global Note in accordance with the certification requirements described below. Beneficial interests in the
+Rule 144A Global Notes may not be exchanged for beneficial interests in the Regulation S Global Notes at
+any time except in the limited circumstances described below. See “—Exchanges Between Regulation S Notes
+and Rule 144A Notes.” Except as set forth below, the Global Notes may be transferred, in whole and not
+in part, only to another nominee of The Depository Trust Company or to a successor of The Depository
+Trust Company or its nominee. Beneficial interests in the Global Notes may not be exchanged for definitive
+Notes in certificated form except in the limited circumstances described below. See “—Exchange of BookEntry Notes for Certificated Notes.”Except in the limited circumstances described below, owners of beneficial
+interests in the Global Notes will not be entitled to receive physical delivery of certificated Notes.
+
+Rule 144A Notes and Regulation S Notes (including beneficial interests in the Rule 144A Global Notes
+and Regulation S Global Notes) will be subject to certain restrictions on transfer and will bear a restrictive
+legend as described under the section of this offering memorandum entitled “Transfer Restrictions.”
+Regulation S Notes will also bear the legend as described under the section of this offering memorandum
+entitled “Transfer Restrictions.” In addition, transfers of beneficial interests in the Global Notes will be
+subject to the applicable rules and procedures of The Depository Trust Company and its direct or indirect
+participants (including, if applicable, those of Euroclear and Clearstream), which may change from time
+to time.
+
+Initially, the Trustee will act as paying agent and registrar. The Notes may be presented for registration
+of transfer and exchange at the offices of the registrar.
+
+**Depository Procedures**
+
+The following description of the operations and procedures of The Depository Trust Company,
+Euroclear and Clearstream are provided solely as a matter of convenience. These operations and procedures
+are solely within the control of the respective settlement systems and are subject to changes by them from
+time to time. We and the Trustee take no responsibility for these operations and procedures and urge investors
+to contact the system or their participants directly to discuss these matters.
+
+The Depository Trust Company has advised us that The Depository Trust Company is a limitedpurpose trust company created to hold securities for its participating organizations (collectively, the
+
+
+-----
+
+“Participants”) and to facilitate the clearance and settlement of transactions in those securities between
+Participants through electronic book-entry changes in accounts of its Participants. The Participants include
+securities brokers and dealers (including the initial purchasers), banks, trust companies, clearing
+corporations and certain other organizations. Access to The Depository Trust Company’s system is also
+available to other entities such as banks, brokers, dealers and trust companies that clear through or maintain
+a custodial relationship with a Participant, either directly or indirectly (collectively, the “Indirect
+Participants”).
+
+Persons who are not Participants may beneficially own securities held by or on behalf of The Depository
+Trust Company only through the Participants or the Indirect Participants. The ownership interests in, and
+transfers of ownership interests in, each security held by or on behalf of The Depository Trust Company are
+recorded on the records of the Participants and Indirect Participants.
+
+The Depository Trust Company has also advised us that, pursuant to procedures established by it:
+(1) upon deposit of the Global Notes, The Depository Trust Company will credit the accounts of Participants
+designated by the initial purchasers with portions of the principal amount of the Global Notes; and
+(2) ownership of such interests in the Global Notes will be shown on, and the transfer of ownership thereof
+will be effected only through, records maintained by The Depository Trust Company (with respect to the
+Participants) or by the Participants and the Indirect Participants (with respect to other owners of beneficial
+interest in the Global Notes).
+
+Investors in the Rule 144A Global Notes who are Participants may hold their interests therein directly
+through The Depository Trust Company. Investors in the Rule 144A Global Notes who are not Participants
+may hold their interests therein indirectly through organizations (including Euroclear and Clearstream)
+which are Participants. Investors in the Regulation S Global Notes must initially hold their interests therein
+through Euroclear or Clearstream, if they are participants in such systems, or indirectly through
+organizations that are participants. After the expiration of the Restricted Period (but not earlier), investors
+may also hold interests in the Regulation S Global Notes through Participants in The Depository Trust
+Company system other than Euroclear and Clearstream. Euroclear and Clearstream will hold interests in
+the Regulation S Global Notes on behalf of their participants through customers’ securities accounts in their
+respective names on the books of their respective depositories, which are Euroclear Bank S.A./N.V., as
+operator of Euroclear, and Citibank, N.A., as operator of Clearstream. All interests in a Global Note,
+including those held through Euroclear or Clearstream, may be subject to the procedures and requirements
+of The Depository Trust Company. Those interests held through Euroclear or Clearstream may also be
+subject to the procedures and requirements of such systems. The laws of some states require that certain
+persons take physical delivery in definitive form of securities that they own. Consequently, the ability to
+transfer beneficial interests in a Global Note to such persons will be limited to that extent. Because The
+Depository Trust Company can act only on behalf of the Participants, which in turn act on behalf of the
+Indirect Participants, the ability of a person having beneficial interests in a Global Note to pledge such
+interests to Persons that do not participate in The Depository Trust Company system, or otherwise take
+actions in respect of such interests, may be affected by the lack of a physical certificate evidencing such
+interests.
+
+Except as described below, owners of interests in the Global Notes will not have Notes registered in
+their names, will not receive physical delivery of Notes in certificated form and will not be considered the
+registered owners or “holders” thereof under the Indenture for any purpose.
+
+Payments in respect of the principal of, premium, if any, and interest on a Global Note registered in
+the name of The Depository Trust Company or its nominee will be payable to The Depository Trust
+Company in its capacity as the registered holder under the Indenture. Under the terms of the Indenture, we
+and the Trustee (and each of our respective agents) will treat the persons in whose names the Notes,
+including the Global Notes, are registered as the owners thereof for the purpose of receiving such payments
+and for any and all other purposes whatsoever. Consequently, neither we, the Trustee nor any of our or
+the Trustee’s agents has or will have any responsibility or liability for (i) any aspect of The Depository Trust
+Company’s records or any Participant’s or Indirect Participant’s records relating to or payments made on
+account of beneficial ownership interest in the Global Notes, or for maintaining, supervising or reviewing any
+of The Depository Trust Company’s records or any Participant’s or Indirect Participant’s records relating
+to the beneficial ownership interests in the Global Notes or (ii) any other matter relating to the actions and
+
+
+-----
+
+practices of The Depository Trust Company or any of its Participants or Indirect Participants. The
+Depository Trust Company has advised us that its current practice, upon receipt of any payment in respect
+of securities such as the Notes (including principal and interest), is to credit the accounts of the relevant
+Participants with the payment on the payment date, in amounts proportionate to their respective holdings
+in the principal amount of beneficial interest in the relevant security as shown on the records of The
+Depository Trust Company unless The Depository Trust Company has reason to believe it will not receive
+payment on such payment date. Payments by the Participants and the Indirect Participants to the beneficial
+owners of the Notes will be governed by standing instructions and customary practices and will be the
+responsibility of the Participants or the Indirect Participants and will not be the responsibility of The
+Depository Trust Company, the Trustee or us or any of our respective agents. Neither we nor the Trustee
+nor any of our respective agents will be liable for any delay by The Depository Trust Company or any of its
+Participants in identifying the beneficial owners of the Notes, and we and the Trustee may conclusively
+rely on and will be protected in relying on instructions from The Depository Trust Company or its nominee
+for all purposes. Subject to the transfer restrictions set forth under the section of this offering memorandum
+entitled “Transfer Restrictions,” transfers between Participants in The Depository Trust Company will be
+effected in accordance with The Depository Trust Company’s procedures, and will be settled in same-day
+funds and transfers between participants in Euroclear and Clearstream will be effected in accordance with
+their respective rules and operating procedures. Subject to compliance with the transfer restrictions applicable
+to the Notes described herein, cross-market transfers between the Participants, on the one hand, and
+Euroclear or Clearstream participants, on the other hand, will be effected through The Depository Trust
+Company in accordance with The Depository Trust Company’s rules on behalf of Euroclear or Clearstream,
+as the case may be, by their respective depositaries; however, such cross-market transactions will require
+delivery of instructions to Euroclear or Clearstream, as the case may be, by the counterparty in such system
+in accordance with the rules and procedures and within the established deadlines (Brussels time) of such
+system. Euroclear or Clearstream, as the case may be, will, if the transaction meets its settlement requirements,
+deliver instructions to its respective depositary to take action to effect final settlement on its behalf by
+delivering or receiving interests in the relevant Global Note in The Depository Trust Company, and making
+or receiving payment in accordance with normal procedures for same-day funds settlement applicable to
+The Depository Trust Company. Euroclear participants and Clearstream participants may not deliver
+instructions directly to the depositories for Euroclear or Clearstream.
+
+The Depository Trust Company has advised us that it will take any action permitted to be taken by a
+holder of Notes only at the direction of one or more Participants to whose account The Depository Trust
+Company has credited the interests in the Global Notes and only in respect of such portion of the aggregate
+principal amount of the Notes as to which such Participant or Participants has or have given such direction.
+However, if there is an event of default under the Notes, The Depository Trust Company reserves the right to
+exchange the Global Notes for legended Notes in certificated form, and to distribute such Notes to its
+Participants.
+
+Although The Depository Trust Company, Euroclear and Clearstream have agreed to the foregoing
+procedures to facilitate transfers of interests in the Rule 144A Global Notes and the Regulation S Global
+Notes among participants in The Depository Trust Company, Euroclear and Clearstream, they are under no
+obligation to perform or to continue to perform such procedures, and may discontinue such procedures at
+any time. None of us, the Guarantors, the Trustee and any of our or their respective agents will have any
+responsibility for the performance by The Depository Trust Company, Euroclear or Clearstream or their
+respective Participants or Indirect Participants of their respective obligations under the rules and procedures
+governing their operations.
+
+**Exchange of Book-Entry Notes for Certificated Notes**
+
+A Global Note is exchangeable for certificated Notes if:
+
+(1) The Depository Trust Company:
+
+(a) notifies us that it is unwilling or unable to continue as depositary for the Global Notes; or
+
+(b) has ceased to be a clearing agency registered under the Exchange Act and, in either case, we
+fail to appoint a successor depositary;
+
+
+-----
+
+(2) we, at our option, notify the Trustee in writing that we elect to cause the issuance of the Certificated
+Notes; or
+
+(3) there has occurred and is continuing a default or event of default with respect to the Notes.
+
+In addition, beneficial interests in a Global Note may be exchanged for Certificated Notes upon prior
+written notice given to the Trustee by or on behalf of The Depository Trust Company in accordance with
+the Indenture. In all cases, Certificated Notes delivered in exchange for any Global Note or beneficial interests
+in Global Notes will be registered in the names, and issued in any approved denominations, requested by
+or on behalf of the depositary (in accordance with its customary procedures) and will bear the applicable
+restrictive legend referred to in “Transfer Restrictions,” unless that legend is not required by applicable law.
+
+**Exchange of Certificated Notes for Global Notes**
+
+Certificated Notes may not be exchanged for beneficial interests in any Global Note unless the
+transferor first delivers to the Trustee a written certificate (in the form provided in the Indenture) to the
+effect that such transfer will comply with the appropriate transfer restrictions applicable to such Notes. See
+“Transfer Restrictions.”
+
+**Exchanges Between Regulation S Notes and Rule 144A Notes**
+
+Prior to the expiration of the Restricted Period, beneficial interests in the Regulation S Global Note
+may be exchanged for beneficial interests in the Rule 144A Global Note only if: (1) such exchange occurs in
+connection with a transfer of the Notes pursuant to Rule 144A; and (2) the transferor first delivers to the
+Trustee a written certificate (in the form provided in the Indenture) to the effect that the Notes are being
+transferred to a person: (a) who the transferor reasonably believes to be a QIB within the meaning of
+Rule 144A; (b) purchasing for its own account or the account of a QIB in a transaction meeting the
+requirements of Rule 144A; and (c) in accordance with all applicable securities laws of the states of the United
+States and other jurisdictions.
+
+Beneficial interests in a Rule 144A Global Note may be transferred to a person who takes delivery in
+the form of an interest in the Regulation S Global Note, whether before or after the expiration of the
+Restricted Period, only if the transferor first delivers to the Trustee a written certificate (in the form provided
+in the Indenture) to the effect that such transfer is being made in accordance with Rule 903 or Rule 904 of
+Regulation S or Rule 144 (if available) and that, if such transfer occurs prior to the expiration of the Restricted
+Period, the interest transferred will be held immediately thereafter through Euroclear or Clearstream.
+
+Transfers involving an exchange of a beneficial interest in the Regulation S Global Note for a beneficial
+interest in a Rule 144A Global Note or vice versa will be effected in The Depository Trust Company by means
+of an instruction originated by the Trustee through The Depository Trust Company Deposit/Withdraw at
+Custodian System. Accordingly, in connection with any such transfer, appropriate adjustments will be made
+to reflect a decrease in the principal amount of the Regulation S Global Note and a corresponding increase
+in the principal amount of the Rule 144A Global Note or vice versa, as applicable. Any beneficial interest in
+one of the Global Notes that is transferred to a person who takes delivery in the form of an interest in the
+other Global Note will, upon transfer, cease to be an interest in such Global Note and will become an interest
+in the other Global Note and, accordingly, will thereafter be subject to all transfer restrictions and other
+procedures applicable to beneficial interest in such other Global Note for so long as it remains such an
+interest. The policies and practices of The Depository Trust Company may prohibit transfers of beneficial
+interests in the Regulation S Global Note prior to the expiration of the Restricted Period.
+
+**Global Clearance and Settlement Procedures**
+
+Initial settlement for the Notes will be made in immediately available funds. Secondary market trading
+between The Depository Trust Company participants will occur in the ordinary way in accordance with
+The Depository Trust Company rules and will be settled in immediately available funds using The Depository
+Trust Company’s Same-Day Funds Settlement System. Secondary market trading between Clearstream
+Participants and/or Euroclear Participants will occur in the ordinary way in accordance with the applicable
+rules and operating procedures of Clearstream and Euroclear and will be settled using the procedures
+applicable to conventional eurobonds in immediately available funds.
+
+
+-----
+
+Cross-market transfers between persons holding directly or indirectly through The Depository Trust
+Company, on the one hand, and directly or indirectly through Clearstream Participants or Euroclear
+Participants, on the other, will be effected through The Depository Trust Company in accordance with The
+Depository Trust Company rules on behalf of the relevant European international clearing system by its U.S.
+Depositary; however, such cross-market transactions will require delivery of instructions to the relevant
+European international clearing system by the counterparty in such system in accordance with its rules and
+procedures and within its established deadlines (European time). The relevant European international
+clearing system will, if the transaction meets its settlement requirements, deliver instructions to its U.S.
+Depositary to take action to effect final settlement on its behalf by delivering or receiving Notes through
+The Depository Trust Company, and making or receiving payment in accordance with normal procedures
+for same-day funds settlement applicable to The Depository Trust Company. Clearstream Participants and
+Euroclear Participants may not deliver instructions directly to their respective U.S. Depositaries.
+
+Because of time-zone differences, credits of Notes received through Clearstream or Euroclear as a
+result of a transaction with a The Depository Trust Company participant will be made during subsequent
+Notes settlement processing and dated the business day following The Depository Trust Company settlement
+date. Such credits or any transactions in such Notes settled during such processing will be reported to the
+relevant Euroclear Participants or Clearstream Participants on such business day. Cash received in Clearstream
+or Euroclear as a result of sales of Notes by or through a Clearstream Participant or a Euroclear Participant
+to a The Depository Trust Company participant will be received with value on The Depository Trust
+Company settlement date but will be available in the relevant Clearstream or Euroclear cash account only
+as of the business day following settlement in The Depository Trust Company.
+
+If the Notes are cleared only through Euroclear and Clearstream (and not The Depository Trust
+Company), you will be able to make and receive through Euroclear and Clearstream payments, deliveries,
+transfers, exchanges, notices, and other transactions involving any Notes held through those systems only on
+days when those systems are open for business. Those systems may not be open for business on days when
+banks, brokers, and other institutions are open for business in the United States. In addition, because of timezone differences, U.S. investors who hold their interests in the Notes through these systems and wish to
+transfer their interests, or to receive or make a payment or delivery or exercise any other right with respect
+to their interests, on a particular day may find that the transaction will not be effected until the next business
+day in Luxembourg or Brussels, as applicable. Thus, U.S. investors who wish to exercise rights that expire
+on a particular day may need to act before the expiration date.
+
+Although The Depository Trust Company, Clearstream and Euroclear have agreed to the foregoing
+procedures in order to facilitate transfers of Notes among participants of The Depository Trust Company,
+Clearstream and Euroclear, they are under no obligation to perform or continue to perform such procedures
+and such procedures may be modified or discontinued at any time. None of us, the Guarantor, the Trustee
+and any paying agent will have any responsibility for the performance by The Depository Trust Company,
+Euroclear or Clearstream or their respective direct or indirect participants of their obligations under the
+rules and procedures governing their operations.
+
+
+-----
+
+**TRANSFER RESTRICTIONS**
+
+The Notes will be subject to restrictions on transfer as summarized below. By purchasing Notes, you
+will be deemed to have made the following acknowledgments, representations and warranties to, and
+agreements with, us and the initial purchasers:
+
+(1) You acknowledge that:
+
+(i) the Notes have not been registered under the Securities Act or any other securities laws and
+are being offered for resale in transactions that do not require registration under the Securities
+Act or any other securities laws; and
+
+(ii) unless so registered, the Notes may not be offered, sold or otherwise transferred except under
+an exemption from, or in a transaction not subject to, the registration requirements of the
+Securities Act or any other applicable securities laws, and in each case in compliance with the
+conditions for transfer set forth in paragraph (4) below.
+
+(2) You represent and warrant that you are not an affiliate (as defined in Rule 144 under the Securities
+Act) of the Company, that you are not acting on the Company’s behalf and that either:
+
+(i) you are (a) a qualified institutional buyer (as defined in Rule 144A under the Securities Act),
+(b) purchasing Notes for your own account or for the account of another QIB, and (c) aware
+that the initial purchasers are selling the Notes to you pursuant to, and in reliance on,
+Rule 144A; or
+
+(ii) you are not a U.S. Person (as defined in Regulation S under the Securities Act) or purchasing
+for the account or benefit of a U.S. Person, other than a distributor, and you are purchasing
+Notes in an offshore transaction in accordance with Regulation S.
+
+(3) You acknowledge that neither we nor the initial purchasers, nor any person representing us or the
+initial purchasers, has made any representation to you with respect to us or the offering of the Notes,
+other than the information contained, or incorporated by reference, in this offering memorandum.
+You represent and warrant that you are relying only on this offering memorandum, and the
+information incorporated by reference herein, in making your investment decision with respect to
+the Notes. You agree that you have had access to such financial and other information concerning us
+and the Notes as you have deemed necessary in connection with your decision to purchase Notes,
+including an opportunity to ask questions of and request information from us.
+
+(4) You represent and warrant that you are purchasing Notes for your own account, or for one or
+more investor accounts for which you are acting as a fiduciary or agent, in each case not with a view
+to, or for offer or sale in connection with, any distribution of the Notes in violation of the
+Securities Act, subject to any requirement of law that the disposition of your property or the
+property of that investor account or accounts be at all times within your or their control and subject
+to your or their ability to resell the Notes pursuant to Rule 144A or any other available exemption
+from registration under the Securities Act. You agree on your own behalf and on behalf of any
+investor account for which you are purchasing Notes, and each subsequent holder of the Notes by
+its acceptance of the Notes will agree, that until the end of the Resale Restriction Period (as
+defined below), the Notes may be offered, sold or otherwise transferred only:
+
+(i) to the Issuer or any Guarantor;
+
+(ii) for so long as the Notes are eligible for resale under Rule 144A, to a person the seller
+reasonably believes is a QIB that is purchasing for its own account or for the account of
+another QIB and to whom notice is given that the transfer is being made pursuant to
+Rule 144A;
+
+(iii) through offers and sales that occur outside of the United States within the meaning of
+Regulation S under the Securities Act;
+
+
+-----
+
+(iv) to an institutional accredited investor (within the meaning of Rule 501(a)(1), (2), (3) or (7)
+under the Securities Act) that is not a QIB and that is purchasing for its own account or for
+the account of another institutional accredited investor, in each case in a minimum principal
+amount of Notes of $500,000;
+
+(v) under any other available exemption from the registration requirements of the Securities Act;
+or
+
+(vi) under a registration statement that has been declared effective under the Securities Act;
+
+subject in each of the above cases to any requirement of law that the disposition of the seller’s
+property or the property of an investor account or accounts be at all times within the seller or
+account’s control.
+
+(5) You acknowledge that:
+
+(i) the above restrictions on resale in paragraph (4) will apply from the closing date until the date
+that is one year (or such shorter period then required under Rule 144 or its successor rule, in
+the case of Rule 144A Notes, or 40 days, in the case of Regulation S Notes, after the later of the
+closing date and the last date that we or any of our affiliates was the owner of the Notes or
+any predecessor of the Notes (the “Resale Restriction Period”), and will not apply after the
+applicable Resale Restriction Period ends;
+
+(ii) if a holder of Notes proposes to resell or transfer Notes under clause (4)(iv) above before the
+applicable Resale Restriction Period ends, the seller must deliver to us and the Trustee a
+letter from the purchaser in the form set forth in the Indenture that must provide, among
+other things, that the purchaser is an institutional accredited investor that is acquiring the
+Notes not for distribution in violation of the Securities Act;
+
+(iii) we reserve the right to require in connection with any offer, sale or other transfer of Notes
+under Paragraph (4)(iv) and (4)(v) above the delivery of an opinion of counsel, certifications
+and/or other information satisfactory to us; and
+
+(iv) each Note will contain a legend substantially to the following effect:
+
+THIS NOTE HAS NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF
+1933, AS AMENDED (THE “SECURITIES ACT”), OR THE SECURITIES LAWS OF
+ANY STATE OR OTHER JURISDICTION. NEITHER THIS NOTE NOR ANY
+INTEREST OR PARTICIPATION HEREIN MAY BE REOFFERED, SOLD, ASSIGNED,
+TRANSFERRED, PLEDGED, ENCUMBERED OR OTHERWISE DISPOSED OF IN
+THE ABSENCE OF SUCH REGISTRATION OR UNLESS SUCH TRANSACTION IS
+EXEMPT FROM, OR NOT SUBJECT TO, SUCH REGISTRATION. THE HOLDER OF
+THIS NOTE, BY ITS ACCEPTANCE HEREOF, AGREES ON ITS OWN BEHALF
+AND ON BEHALF OF ANY INVESTOR ACCOUNT FOR WHICH IT HAS
+PURCHASED NOTES, TO OFFER, SELL OR OTHERWISE TRANSFER SUCH
+NOTE, PRIOR TO THE DATE (THE “RESALE RESTRICTION TERMINATION
+DATE”) THAT IS [IN THE CASE OF RULE 144A NOTES: ONE YEAR (OR SUCH
+SHORTER PERIOD THEN REQUIRED UNDER RULE 144 OR ITS SUCCESSOR
+RULE)][IN THE CASE OF REGULATION S NOTES: 40 DAYS] AFTER THE LATER OF
+THE ORIGINAL ISSUE DATE HEREOF AND THE LAST DATE ON WHICH THE
+ISSUER OR ANY AFFILIATE OF THE ISSUER WAS THE OWNER OF THIS NOTE
+(OR ANY PREDECESSOR OF SUCH NOTE), ONLY (A) TO THE ISSUER OR ANY
+GUARANTOR, (B) FOR SO LONG AS THE NOTES ARE ELIGIBLE FOR RESALE
+PURSUANT TO RULE 144A UNDER THE SECURITIES ACT, TO A PERSON IT
+REASONABLY BELIEVES IS A “QUALIFIED INSTITUTIONAL BUYER” AS
+DEFINED IN RULE 144A UNDER THE SECURITIES ACT THAT PURCHASES FOR
+ITS OWN ACCOUNT OR FOR THE ACCOUNT OF A QUALIFIED INSTITUTIONAL
+BUYER TO WHICH NOTICE IS GIVEN THAT THE TRANSFER IS BEING MADE
+PURSUANT TO RULE 144A, (C) PURSUANT TO AN OFFER OR SALE THAT
+
+
+-----
+
+OCCURS OUTSIDE THE UNITED STATES WITHIN THE MEANING OF
+REGULATION S UNDER THE SECURITIES ACT, (D) TO AN INSTITUTIONAL
+“ACCREDITED INVESTOR” WITHIN THE MEANING OF RULE 501(a)(1), (2), (3) OR
+(7) UNDER THE SECURITIES ACT THAT IS AN INSTITUTIONAL ACCREDITED
+INVESTOR ACQUIRING THE NOTE FOR ITS OWN ACCOUNT OR FOR THE
+ACCOUNT OF SUCH AN INSTITUTIONAL ACCREDITED INVESTOR, IN EACH
+CASE IN A MINIMUM PRINCIPAL AMOUNT OF THE NOTES OF $500,000, FOR
+INVESTMENT PURPOSES AND NOT WITH A VIEW TO OR FOR OFFER OR SALE
+IN CONNECTION WITH ANY DISTRIBUTION IN VIOLATION OF THE
+SECURITIES ACT, (E) PURSUANT TO ANOTHER AVAILABLE EXEMPTION FROM
+THE REGISTRATION REQUIREMENTS OF THE SECURITIES ACT OR
+(F) PURSUANT TO A REGISTRATION STATEMENT THAT HAS BEEN DECLARED
+EFFECTIVE UNDER THE SECURITIES ACT, SUBJECT TO THE ISSUER’S RIGHT
+PRIOR TO ANY SUCH OFFER, SALE OR TRANSFER PURSUANT TO CLAUSE
+(D) OR (E) TO REQUIRE THE DELIVERY OF AN OPINION OF COUNSEL,
+CERTIFICATION AND/OR OTHER INFORMATION SATISFACTORY TO THE
+ISSUER. THIS LEGEND WILL BE REMOVED UPON THE REQUEST OF THE
+HOLDER AFTER THE RESALE RESTRICTION TERMINATION DATE.
+
+(6) You acknowledge that you will give to each person to whom you transfer Notes notice of any
+restrictions on transfer of such Notes.
+
+(7) You acknowledge that we, the initial purchasers and others will rely upon the truth and accuracy
+of the above acknowledgments, representations and agreements. You agree that if any of the
+acknowledgments, representations or agreements you are deemed to have made by your purchase
+of Notes is no longer accurate, you will promptly notify us and the initial purchasers. If you are
+purchasing any Notes as a fiduciary or agent for one or more investor accounts, you represent
+that you have sole investment discretion with respect to each of those accounts and that you have
+full power to make the above acknowledgments, representations and agreements on behalf of each
+account.
+
+(8) You will be deemed to have represented that:
+
+(i) either: (A) you are not a “Plan” (which term includes (i) employee benefit plans that are
+subject to the Employee Retirement Income Security Act of 1974, as amended (“ERISA”),
+(ii) plans, individual retirement accounts, individual retirement annuities and other
+arrangements that are subject to Section 4975 of the Internal Revenue Code of 1986, as
+amended (the “Code”), or to provisions under applicable Federal, state, local, non-U.S. or
+other laws or regulations that are similar to such provisions of ERISA or the Code (“Similar
+Laws”) and (iii) entities the underlying assets of which are considered to include “plan assets”
+of such employee benefit plans, plans, accounts, annuities and arrangements) and are not
+purchasing the Notes on behalf of, or with the “plan assets” of, any Plan; or (B) your purchase,
+holding and subsequent disposition of the Notes either (i) are not a prohibited transaction
+under ERISA or the Code and are otherwise permissible under all applicable Similar Laws or
+(ii) are entitled to exemptive relief from the prohibited transaction provisions of ERISA
+and the Code in accordance with one or more available statutory, class or individual prohibited
+transaction exemptions and are otherwise permissible under all applicable Similar Laws; and
+
+(ii) you will not transfer the Notes to any person or entity, unless such person or entity could
+itself truthfully make the foregoing representations and covenants.
+
+
+-----
+
+**CERTAIN U.S. FEDERAL INCOME TAX CONSIDERATIONS**
+
+The following discussion is a summary of certain U.S. federal income tax consequences of the purchase,
+ownership and disposition of the Notes, but does not purport to be a complete analysis of all potential tax
+effects. This summary is based upon the Internal Revenue Code of 1986, as amended (the “Code”), Treasury
+regulations issued thereunder, and judicial and administrative interpretations thereof, each as in effect on
+the date hereof, and all of which are subject to change or differing interpretation, possibly with retroactive
+effect. No rulings from the Internal Revenue Service (“IRS”) have been or are expected to be sought with
+respect to the matters discussed below. There can be no assurance that the IRS will not take a different
+position concerning the tax consequences of the purchase, ownership or disposition of the Notes or that
+any such position would not be sustained by a court.
+
+This discussion does not address all of the U.S. federal income tax consequences that may be relevant
+to a U.S. holder or non-U.S. holder (each as defined below) in light of such holder’s particular circumstances
+or to holders subject to special rules, such as banks or other financial institutions, U.S. expatriates, insurance
+companies, dealers in commodities or securities, traders in securities that elect to use a mark-to-market
+method of accounting for their securities holdings, U.S. holders whose functional currency is not the U.S.
+dollar, tax-exempt organizations, regulated investment companies, real estate investment trusts, persons subject
+to special accounting rules under Section 451(b) of the Code; partnerships or other pass-through entities
+or arrangements, persons liable for alternative minimum tax and persons holding the Notes as part of a
+hedging transaction, “straddle,” “conversion transaction” or other integrated transaction. This discussion
+does not include any description of the tax laws of any state, local or foreign government that may be
+applicable to a particular U.S. holder or non-U.S. holder and, except as otherwise expressly noted, does not
+consider any aspects of U.S. federal tax law other than income taxation. In addition, this discussion is
+limited to persons who purchase the Notes for cash at original issue and at their “issue price” and who hold
+the Notes as “capital assets” within the meaning of section 1221 of the Code. For this purpose only, the
+issue price of the Notes will be the first price at which a substantial amount of the Notes is sold for money,
+excluding sales to underwriters, wholesalers or placement agents.
+
+For purposes of this discussion, a “U.S. holder” is a beneficial owner of a Note that is, for U.S. federal
+income tax purposes, (i) an individual who is a citizen or resident alien of the United States; (ii) a corporation
+or any entity taxable as a corporation created or organized under the laws of the United States, any state
+thereof or the District of Columbia; (iii) any estate the income of which is subject to U.S. federal income
+taxation regardless of its source; or (iv) any trust if a court within the United States is able to exercise primary
+supervision over the administration of the trust and one or more U.S. persons have the authority to
+control all substantial decisions of the trust, or if a valid election is in place to treat the trust as a U.S.
+person.
+
+For purposes of the following discussion, a “Non-U.S. holder” means a beneficial owner of a Note
+(other than a partnership or an entity or arrangement treated as a partnership for U.S. federal income tax
+purposes) that is not a U.S. holder.
+
+If a partnership (including for this purpose any entity or arrangement treated as a partnership for U.S.
+federal income tax purposes) holds the Notes, the tax treatment of a partner in the partnership generally
+will depend upon the status of the partner and the activities of the partnership. If you are a partnership or
+a partner in a partnership holding Notes, you should consult your advisors regarding the tax consequences of
+the purchase, ownership and disposition of the Notes.
+
+**Effect of Certain Contingencies**
+
+In certain circumstances, we may pay amounts at times other than on the scheduled interest payment
+dates or the maturity date (see “Description of Notes—Optional Redemption” and “Description of Notes—
+Repurchase of Notes Upon a Change of Control Triggering Event”). These potential payments may
+implicate the provisions of the Treasury regulations relating to “contingent payment debt instruments.”
+Although the issue is not free from doubt, we intend to take the position that the possibility of such payments
+does not result in the Notes being treated as contingent payment debt instruments under applicable
+Treasury regulations.
+
+
+-----
+
+Our determination that the Notes are not contingent payment debt instruments is binding on a U.S.
+holder unless the U.S. holder discloses a contrary position to the IRS in the manner required by the applicable
+Treasury regulations. Our determination is not, however, binding on the IRS. If the IRS were to challenge
+successfully our determination and the Notes were treated as contingent payment debt instruments, U.S.
+holders would be required, among other things, (a) to accrue ordinary interest income, regardless of their
+method of tax accounting, based on a projected payment schedule and comparable yield, which will be a
+higher rate than the stated interest rate on the Notes, and (b) to treat as ordinary income, rather than capital
+gain, all or a portion of any gain recognized on a sale, exchange or other taxable disposition of a Note.
+The remainder of this discussion assumes that the Notes will not be treated as contingent payment debt
+instruments for U.S. federal income tax purposes.
+
+**Prospective purchasers of the Notes should consult their tax advisors concerning the tax consequences of**
+**holding Notes in light of their particular circumstances, including the application of the U.S. federal income**
+**tax considerations discussed below, as well as the application of U.S. federal estate and gift tax laws and state,**
+**local, non-U.S. or other tax laws.**
+
+**U.S. Holders**
+
+**_Payments of Interest_**
+
+It is expected, and this discussion assumes, that the Notes will be issued without original issue discount
+for U.S. federal income tax purposes. Payments of interest on the Notes generally will be taxable to a U.S.
+holder as ordinary income at the time that such payments are received or accrued, in accordance with such
+U.S. holder’s method of accounting for U.S. federal income tax purposes.
+
+**_Sale, Exchange, Redemption, Retirement or Other Taxable Disposition of Notes_**
+
+Generally, upon the sale, exchange, redemption, retirement or other taxable disposition of a Note, a
+U.S. holder will recognize gain or loss equal to the difference between the amount realized on the disposition
+(less any amount attributable to accrued but unpaid interest, which will be treated as described under
+“—Payments of Interest,” above) and such U.S. holder’s adjusted tax basis in the Note. A U.S. holder’s
+adjusted tax basis in a Note generally will equal the cost of such Note to such U.S. holder less the amount
+of any payments on the Note other than interest. Gain or loss recognized upon the sale, exchange, redemption,
+retirement or other taxable disposition of a Note (i) generally will be capital gain or loss and (ii) will be
+long-term capital gain or loss if at the time of the sale, exchange, redemption, retirement or other taxable
+disposition the Note has been held by such U.S. holder for more than one year. Long-term capital gain
+realized by a non-corporate U.S. holder generally will be subject to taxation at a reduced rate. The deductibility
+of capital losses is subject to limitation.
+
+**_Medicare Tax_**
+
+Certain U.S. holders that are individuals, estates or trusts will be subject to a 3.8% tax, or the Medicare
+tax, on all or a portion of their “net investment income,” which may include all or a portion of their interest
+and net gains from the disposition of Notes. U.S. holders are urged to consult their tax advisors regarding
+the effect, if any, of the Medicare tax on their ownership and disposition of the Notes.
+
+**Non-U.S. Holders**
+
+**_Payments of Interest_**
+
+Subject to the discussions of FATCA and backup withholding below, payments of interest on the
+Notes to a Non-U.S. holder generally will not be subject to U.S. federal income or withholding tax,
+provided that (1) the Non-U.S. holder does not actually or constructively own 10% or more of the total
+combined voting power of all classes of our stock entitled to vote, (2) the Non-U.S. holder is not (a) a
+controlled foreign corporation that is related to us through actual or deemed stock ownership or (b) a bank
+receiving interest on the Notes in connection with an extension of credit made pursuant to a loan agreement
+entered into in the ordinary course of business, (3) such interest is not effectively connected with the conduct
+by the Non-U.S. holder of a trade or business within the United States and (4) the Non-U.S. holder
+
+
+-----
+
+provides appropriate documentation, generally a completed IRS Form W-8BEN-E or W-8BEN (or other
+applicable form), establishing that the Non-U.S. holder is not a U.S. person within the meaning of the Code.
+
+If a Non-U.S. holder cannot satisfy the requirements in the preceding paragraph, payments of interest
+made to such Non-U.S. holder generally will be subject to the 30% U.S. federal withholding tax, unless such
+Non-U.S. holder provides us or our paying agent with a properly executed (1) IRS Form W-8BEN or
+W-8BEN-E (or other applicable form) claiming an exemption from or reduction in withholding under the
+benefit of an applicable income tax treaty or (2) IRS Form W-8ECI (or other applicable form) stating that
+interest paid on the Notes is not subject to U.S. federal withholding tax because it is effectively connected with
+such Non-U.S. holder’s conduct of a trade or business in the United States. If interest on the Notes is
+effectively connected with the conduct by a Non-U.S. holder of a trade or business within the United States
+(and, if an applicable income tax treaty applies, is attributable to a United States permanent establishment
+maintained by the Non-U.S. holder under the terms of such treaty), such interest generally will be subject to
+U.S. federal income tax on a net income basis at the rates applicable to U.S. persons (and, in the case of
+Non-U.S. holders that are corporations, may also be subject to a 30% branch profits tax, unless such rate is
+reduced by an applicable income tax treaty).
+
+**_Sale, Exchange, Redemption, Retirement or Other Taxable Disposition of Notes_**
+
+Subject to the discussions of FATCA and backup withholding below, and except with respect to
+accrued but unpaid interest (which may be subject to tax as described above under “—Payments of
+Interest”), any gain realized by a Non-U.S. holder on the sale, exchange, redemption, retirement or other
+taxable disposition of the Notes generally will not be subject to U.S. federal income tax, unless (1) such gain
+is effectively connected with the conduct by such Non-U.S. holder of a trade or business within the United
+States (and, if an applicable income tax treaty applies, is attributable to a United States permanent
+establishment maintained by the Non-U.S. holder under the terms of such treaty), in which case such gain
+will be taxed on a net income basis (and, in the case of Non-U.S. holders that are corporations, may also be
+subject to a 30% branch profits tax, unless such rate is reduced by an applicable income tax treaty) or
+(2) the Non-U.S. holder is an individual who is present in the United States for 183 days or more in the
+taxable year of disposition and certain other conditions are satisfied, in which case the Non-U.S. holder
+generally will be subject to a 30% tax (or such lower rate specified by any applicable income tax treaty) on
+the excess, if any, of such gain plus all other United States source capital gains recognized during the same
+taxable year over the Non-U.S. holder’s United States source capital losses recognized during such taxable
+year.
+
+**Foreign Accounts Tax Compliance Act (“FATCA”)**
+
+Under Sections 1471 to 1474 of the Code, Treasury regulations promulgated thereunder and applicable
+administrative guidance (collectively, “FATCA”), U.S. withholding tax may also apply to certain types of
+payments made to “foreign financial institutions,” as defined under such rules, and certain other non-U.S.
+entities. FATCA imposes a 30% withholding tax on payments of interest on, and (subject to the proposed
+Treasury regulations discussed below), the gross proceeds from the sale, retirement or other disposition of,
+Notes paid to a foreign financial institution unless the foreign financial institution enters into an agreement
+with the U.S. Treasury and complies with the reporting and withholding requirements thereunder or, in the
+case of a foreign financial institution in a jurisdiction that has entered into an intergovernmental agreement
+with the United States, complies with the requirements of such agreement. In addition, FATCA imposes a
+30% withholding tax on the same types of payments to a non-financial foreign entity unless the entity
+certifies that it does not have any substantial U.S. owners or furnishes identifying information regarding
+each substantial U.S. owner. An applicable intergovernmental agreement regarding FATCA between the
+United States and a foreign jurisdiction may modify the rules discussed in this paragraph. Proposed Treasury
+regulations eliminate withholding under FATCA on payments of gross proceeds. Taxpayers may rely on
+these proposed Treasury regulations until final Treasury regulations are issued, but such Treasury regulations
+are subject to change. Prospective investors should consult their tax advisors regarding FATCA.
+
+**Backup Withholding and Related Information Reporting Requirements**
+
+In general, payments of interest and the proceeds from sales or other dispositions (including retirements
+or redemptions) of Notes held by a U.S. holder will be reported to the IRS unless the U.S. holder is an exempt
+
+
+-----
+
+recipient and, when required, demonstrates this fact. In addition, a U.S. holder that is not an exempt
+recipient may be subject to backup withholding unless it provides a taxpayer identification number and
+otherwise complies with applicable certification requirements.
+
+Payments of interest made by us to a Non-U.S. holder generally will be reported annually to the IRS
+regardless of whether withholding was reduced or eliminated under the rules described above or by an
+applicable income tax treaty. Copies of the information returns reflecting interest in respect of the Notes
+also may be made available to the tax authorities in the country in which the Non-U.S. holder is a resident
+under the provisions of an applicable income tax treaty or information sharing agreement. A Non-U.S. holder
+generally will not be subject to additional information reporting or backup withholding with respect to
+payments on the Notes or to information reporting or backup withholding with respect to the proceeds from
+the sale, retirement or other disposition of the Notes so long as the holder has furnished the payor or
+broker a valid IRS Form W-8 or otherwise establishes an exemption.
+
+Backup withholding is not an additional tax. Amounts withheld as backup withholding may be
+credited against a holder’s U.S. federal income tax liability and may entitle the holder to a refund, provided
+that the appropriate information is timely furnished to the IRS.
+
+
+-----
+
+**ERISA CONSIDERATIONS**
+
+The following is a summary of certain considerations associated with the purchase of the Notes by
+(a) an “employee benefit plan” (as defined in Section 3(3) of the Employee Retirement Income Security Act
+of 1974, as amended (“ERISA”)) that is subject to ERISA, (b) a “plan” described in Section 4975 of the
+Code, including, without limitation, an individual retirement account and an individual retirement annuity,
+(c) any entity deemed to hold “plan assets” of any of the foregoing by reason of an employee benefit
+plan’s or plan’s investment in such entity, or (d) a governmental plan or church plan subject to applicable
+law that is substantially similar to the fiduciary responsibility or prohibited transaction provisions of ERISA
+or Section 4975 of the Code (“Similar Law”). Each of the foregoing is referred to herein as a “Plan.”
+
+**General Fiduciary Matters**
+
+ERISA imposes certain duties on persons who are fiduciaries of a Plan subject to Title I of ERISA,
+and ERISA and the Code prohibit certain transactions involving the assets of a Plan subject to Title I of
+ERISA or Section 4975 of the Code (a “Subject Plan”) and certain “parties in interest,” within the meaning
+of Section 3(14) of ERISA, or “disqualified persons,” within the meaning of Section 4975(e)(2) of the
+Code.
+
+In considering whether to invest the assets of any Plan in a Note, a fiduciary of a Plan should determine,
+among other things, whether the investment is in accordance with the documents and instruments governing
+such Plan and the applicable provisions of ERISA, the Code or any provisions of Similar Law relating to a
+fiduciary’s duties to such Plan, including, without limitation, the prudence, diversification, delegation of
+control and prohibited transaction provisions of ERISA, the Code and any Similar Law.
+
+**Prohibited Transaction Issues**
+
+Section 406 of ERISA and Section 4975 of the Code prohibit Subject Plans from engaging in specified
+transactions involving plan assets with persons or entities who are parties in interest or disqualified persons
+with respect thereto, unless an exemption is available. For example, a Subject Plan is prohibited from
+lending money (or otherwise extending credit) to a party in interest or disqualified person, unless an
+exemption is available. A party in interest or disqualified person who engages in a non-exempt prohibited
+transaction may be subject to excise taxes and other penalties and liabilities under ERISA and the Code, any
+fiduciary who authorizes such a transaction may be subject to personal liability, and any such transaction
+may need to be reversed or otherwise corrected. In addition, if the Subject Plan involved in a non-exempt
+prohibited transaction is an individual retirement account or individual retirement annuity (“IRA”), the IRA
+could lose its tax-exempt status. Because the Notes will be considered to be a loan from the Note purchasers
+or holders to us, the acquisition and/or holding of a Note by a Subject Plan with respect to which we are
+considered to be a party in interest or a disqualified person may constitute or result in a direct or indirect
+prohibited transaction under Section 406 of ERISA and/or Section 4975 of the Code, unless the Note is
+acquired and held in accordance with an applicable statutory or administrative prohibited transaction
+exemption. In this regard, the U.S. Department of Labor has issued prohibited transaction class exemptions
+(“PTCEs”) that may apply to the acquisition and holding of a Note. These class exemptions include,
+without limitation, PTCE 84-14, relating to transactions effected by independent qualified professional
+asset managers, PTCE 90-1, relating to investments by insurance company pooled separate accounts,
+PTCE 91-38, relating to investments by bank collective investment funds, PTCE 95-60, relating to investments
+by life insurance company general accounts, and PTCE 96-23, relating to transactions directed by in-house
+asset managers, although there can be no assurance that the conditions of any such exemptions will be
+satisfied.
+
+In addition to the foregoing, the Pension Protection Act of 2006 provides a statutory exemption
+(Section 408(b)(17) of ERISA and Section 4975(d)(20) of the Code) for transactions between a Subject
+Plan and a person that is a party in interest and/or a disqualified person with respect to that Subject Plan
+(other than a fiduciary or an affiliate that, directly or indirectly, has or exercises discretionary authority or
+control, or renders investment advice with respect to, the Subject Plan assets involved in the transaction) solely
+by reason of providing services to the Subject Plan or by relationship to a service provider, provided that,
+in connection with the transaction, the Covered Plan receives no less, nor pays no more, than adequate
+consideration.
+
+
+-----
+
+Governmental plans and church plans that are subject to Similar Law may purchase or hold a Note
+only in compliance with such Similar Law, including any applicable statutory or administrative prohibited
+transaction exemption available under such Similar Law.
+
+**Deemed Representation**
+
+Because of the foregoing, the Notes should not be purchased or held by any person investing assets of
+any Plan, unless such purchase and holding will not constitute a non-exempt prohibited transaction under
+ERISA and the Code or a violation of any Similar Law. Accordingly, by its acceptance of a Note, each
+purchaser and subsequent transferee of a Note will be deemed to represent and warrant that either (i) it is
+not using assets of a Plan to purchase or hold a Note or (ii) its purchase and holding of a Note, throughout
+the period that it holds such Note, is exempt from the prohibited transaction restrictions under ERISA
+and Section 4975 of the Code or any provisions of Similar Law, as applicable, pursuant to one or more
+prohibited transaction statutory or administrative exemptions.
+
+The foregoing discussion is general in nature and is not intended to be all-inclusive. Due to the
+complexity of these rules and the penalties that may be imposed on persons involved in non-exempt
+prohibited transactions, it is particularly important that fiduciaries, or other persons considering purchasing
+or holding a Note on behalf of, or with the assets of, any Plan, consult with their counsel regarding the
+potential applicability of ERISA, Section 4975 of the Code and any Similar Law to such investment and
+whether an exemption would be applicable to the purchase or holding of a Note.
+
+
+-----
+
+**PLAN OF DISTRIBUTION**
+
+Citigroup Global Markets Inc. is acting as the representative (the “Representative”) of each of the
+initial purchasers named below. Subject to the terms and conditions stated in the purchase agreement dated
+the date of this offering memorandum, each initial purchaser named below has severally agreed to purchase
+and we have agreed to sell to that initial purchaser, the principal amount of the Notes set forth opposite the
+initial purchaser’s name.
+
+
+**Initial Purchaser**
+
+Citigroup Global Markets Inc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $
+BofA Securities, Inc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Morgan Stanley & Co. LLC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+PNC Capital Markets LLC . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+KeyBanc Capital Markets Inc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+HSBC Securities (USA) Inc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+U.S. Bancorp Investments, Inc. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+
+**Principal**
+**Amount**
+**of Notes**
+
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $300,000,000
+
+The purchase agreement provides that the obligations of the initial purchasers to purchase the Notes
+are subject to approval of legal matters by counsel and to other conditions. The initial purchasers must
+purchase all the Notes if they purchase any of the Notes.
+
+The initial purchasers propose to resell the Notes at the offering price set forth on the cover page of
+this offering memorandum to persons they reasonably believe to be qualified institutional buyers (as defined
+in Rule 144A) in reliance on Rule 144A and to non-U.S. persons outside the United States in reliance on
+Regulation S. See “Transfer Restrictions.” The price at which the Notes are offered may be changed at any
+time without notice. The initial purchasers may offer and sell Notes through certain of their affiliates.
+
+The Notes have not been registered under the Securities Act or any state securities laws and may not be
+offered or sold within the United States except in transactions exempt from, or not subject to, the registration
+requirements of the Securities Act. See “Transfer Restrictions.”
+
+In addition, until 40 days after the commencement of this offering, an offer or sale of Notes within the
+United States by a dealer that is not participating in this offering may violate the registration requirements
+of the Securities Act if that offer or sale is made otherwise than in accordance with Rule 144A.
+
+We have agreed that, for a period of 60 days from the date of this offering memorandum, we will not,
+without the prior written consent of Citigroup Global Markets Inc., offer, sell or contract to sell, or otherwise
+dispose of, directly or indirectly, or announce the offering of, any debt securities issued or guaranteed by
+us. Citigroup Global Markets Inc., in its sole discretion, may release any of the securities subject to these
+lock-up agreements at any time without notice.
+
+The Notes will constitute a new class of securities with no established trading market. However, we
+cannot assure you that the prices at which the Notes will sell in the market after this offering will not be
+lower than the initial offering price or that an active trading market for the Notes will develop and continue
+after this offering. Certain of the initial purchasers have advised us that they currently intend to make a
+market in the Notes. However, they are not obligated to do so and they may discontinue any market-making
+activities with respect to the Notes at any time without notice. Accordingly, we cannot assure you as to the
+liquidity of, or the trading market for, the Notes.
+
+We estimate that our portion of the total expenses of this offering will be $ .
+
+In connection with the offering, the initial purchasers may purchase and sell Notes in the open market.
+Purchases and sales in the open market may include short sales, purchases to cover short positions and
+stabilizing purchases.
+
+
+-----
+
+   - Short sales involve secondary market sales by the initial purchasers of a greater number of Notes
+than they are required to purchase in the offering.
+
+   - Covering transactions involve purchases of Notes in the open market after the distribution has
+been completed in order to cover short positions.
+
+   - Stabilizing transactions involve bids to purchase Notes so long as the stabilizing bids do not
+exceed a specified maximum.
+
+Purchases to cover short positions and stabilizing purchases, as well as other purchases by the initial
+purchasers for their own accounts, may have the effect of preventing or retarding a decline in the market
+price of the Notes. They may also cause the price of the Notes to be higher than the price that would otherwise
+exist in the open market in the absence of these transactions. The initial purchasers may conduct these
+transactions in the over-the-counter market or otherwise. If the initial purchasers commence any of these
+transactions, they may discontinue them at any time. Neither we nor any of the initial purchasers make any
+representation or prediction as to the direction or magnitude of any effect that the transactions described
+above may have on the price of the Notes.
+
+We have agreed to indemnify the initial purchasers against certain liabilities, including liabilities under
+the Securities Act, or to contribute to payments the initial purchasers may be required to make in respect of
+those liabilities.
+
+**Extended Settlement**
+
+It is expected that delivery of the Notes will be made against payment therefor on or about, 2021,
+which is the business day following the date hereof (such settlement cycle being referred to as
+“T+ ”). Under Rule 15c6-1 under the Exchange Act’, trades in the secondary market generally are
+required to settle in two business days unless the parties to any such trade expressly agree otherwise.
+Accordingly, purchasers who wish to trade the Notes prior to the second business day immediately preceding
+the settlement date will be required, by virtue of the fact that the Notes initially will settle in T+, to
+specify an alternative settlement cycle at the time of any such trade to prevent failed settlement and should
+consult their own advisors.
+
+**Other Relationships**
+
+The initial purchasers are full service financial institutions engaged in various activities, which may
+include securities trading, commercial and investment banking, financial advisory, investment management,
+principal investment, hedging, financing and brokerage activities. The initial purchasers and their affiliates
+have in the past performed commercial banking, investment banking and advisory services for us from time to
+time for which they have received customary fees and reimbursement of expenses and may, from time to
+time, engage in transactions with and perform services for us in the ordinary course of their business for which
+they may receive customary fees and reimbursement of expenses. In particular, U.S. Bancorp Investments,
+Inc., one of the initial purchasers, is an affiliate of the trustee under the indenture governing the Notes. In the
+ordinary course of their various business activities, the initial purchasers and their respective affiliates may
+make or hold a broad array of investments and actively trade debt and equity securities (or related derivative
+securities) and financial instruments (which may include bank loans and/or credit default swaps) for their
+own account and for the accounts of their customers and may at any time hold long and short positions in
+such securities and instruments. Such investments and securities activities may involve securities and/or
+instruments of ours or our affiliates. The initial purchasers and their affiliates may also make investment
+recommendations and/or publish or express independent research views in respect of such securities or
+financial instruments and may hold, or recommend to clients that they acquire, long and/or short positions
+in such securities and instruments. For example, affiliates of some of the initial purchasers are lenders
+under our Revolving Credit Facility and our Citibank Facility. As a result, they will receive a portion of the
+net proceeds of this offering in connection with the repayment of our Revolving Credit Facility. See “Use
+of Proceeds.”
+
+If certain of the initial purchasers or their affiliates have a lending relationship with us, certain of those
+initial purchases or their affiliates routinely hedge and certain of those initial purchasers or their affiliates
+may hedge their credit exposure to us consistent with their customary risk management policies. Typically,
+
+
+-----
+
+these initial purchasers and their affiliates would hedge such exposure by entering into transactions which
+consist of either the purchase of credit default swaps or the creation of short positions in our securities,
+including potentially the Notes offered hereby. Any such credit default swaps or short positions could adversely
+affect future trading prices of the Notes offered hereby.
+
+**Selling Restrictions**
+
+**_General_**
+
+The Notes offered by this offering memorandum may not be offered or sold, directly or indirectly, nor
+may this offering memorandum or any other offering material or advertisements in connection with the
+offer and sale of any such Notes be distributed or published in any jurisdiction, except under circumstances
+that will result in compliance with the applicable rules and regulations of that jurisdiction. Persons into
+whose possession this offering memorandum comes are advised to inform themselves about and to observe
+any restrictions relating to the offering and the distribution of this offering memorandum. This offering
+memorandum does not constitute an offer to sell or a solicitation of an offer to buy any Notes offered by
+this offering memorandum in any jurisdiction in which such an offer or a solicitation is unlawful.
+
+**Notice to Investors in Canada**
+
+The Notes may be sold in Canada only to purchasers purchasing, or deemed to be purchasing, as
+principal that are accredited investors, as defined in National Instrument 45-106 Prospectus Exemptions or
+subsection 73.3(1) of the Securities Act (Ontario), and are permitted clients, as defined in National
+Instrument 31-103 Registration Requirements, Exemptions and Ongoing Registrant Obligations. Any resale
+of the Notes must be made in accordance with an exemption from, or in a transaction not subject to, the
+prospectus requirements of applicable securities laws.
+
+Securities legislation in certain provinces or territories of Canada may provide a purchaser with
+remedies for rescission or damages if this offering memorandum (including any amendment hereto)
+contains a misrepresentation, provided that the remedies for rescission or damages are exercised by the
+purchaser within the time limit prescribed by the securities legislation of the purchaser’s province or territory.
+The purchaser should refer to any applicable provisions of the securities legislation of the purchaser’s
+province or territory for particulars of these rights or consult with a legal advisor.
+
+Pursuant to section 3A.3 (or, in the case of securities issued or guaranteed by the government of a nonCanadian jurisdiction, section 3A.4) of National Instrument 33-105 Underwriting Conflicts (NI 33-105),
+the initial purchasers are not required to comply with the disclosure requirements of NI 33-105 regarding
+initial purchaser conflicts of interest in connection with this offering.
+
+**Prohibition of Sales to European Economic Area Retail Investors**
+
+The Notes are not intended to be offered, sold or otherwise made available to and should not be
+offered, sold or otherwise made available to any retail investor in the European Economic Area (“EEA”).
+For these purposes, a retail investor means a person who is one (or more) of: (i) a retail client as defined in
+point (11) of Article 4(1) of Directive 2014/65/EU (as amended, “MiFID II”); or (ii) a customer within the
+meaning of Directive (EU) 2016/97 (as amended, the “Insurance Distribution Directive”), where that
+customer would not qualify as a professional client as defined in point (10) of Article 4(1) of MiFID II; or
+(iii) not a qualified investor as defined in Regulation (EU) 2017/1129 (the “Prospectus Regulation”).
+Consequently no key information document required by Regulation (EU) No 1286/2014 (as amended, the
+“PRIIPs Regulation”) for offering or selling the Notes or otherwise making them available to retail investors
+in the EEA has been prepared and therefore offering or selling the Notes or otherwise making them
+available to any retail investor in the EEA may be unlawful under the PRIIPs Regulation. This offering
+memorandum has been prepared on the basis that any offer of Notes in any Member State of the EEA will
+be made pursuant to an exemption under the Prospectus Regulation from the requirement to publish a
+prospectus for offers of Notes. This offering memorandum is not a prospectus for the purposes of the
+Prospectus Regulation.
+
+
+-----
+
+**Prohibition of Sales to United Kingdom Retail Investors**
+
+The Notes are not intended to be offered, sold or otherwise made available to and should not be
+offered, sold or otherwise made available to any retail investor in the United Kingdom (“UK”). For these
+purposes, a retail investor means a person who is one (or more) of: (i) a retail client, as defined in point (8) of
+Article 2 of Regulation (EU) No 2017/565 as it forms part of domestic law by virtue of the European
+Union (Withdrawal) Act 2018 (“EUWA”); (ii) a customer within the meaning of the provisions of the
+Financial Services and Markets Act 2000 (“FSMA”) and any rules or regulations made under the FSMA to
+implement Directive (EU) 2016/97, where that customer would not qualify as a professional client, as
+defined in point (8) of Article 2(1) of Regulation (EU) No 600/2014 as it forms part of domestic law by
+virtue of the EUWA; or (iii) not a qualified investor as defined in Article 2 of Regulation (EU) 2017/1129 as
+it forms part of domestic law by virtue of the EUWA. Consequently no key information document
+required by Regulation (EU) No 1286/2014 as it forms part of domestic law by virtue of the EUWA (the
+“UK PRIIPs Regulation”) for offering or selling the Notes or otherwise making them available to retail
+investors in the UK has been prepared and therefore offering or selling the Notes or otherwise making them
+available to any retail investor in the UK may be unlawful under the UK PRIIPs Regulation. This offering
+memorandum has been prepared on the basis that any offer of Notes in the UK will be made pursuant to an
+exemption under the UK Prospectus Regulation and the FSMA from the requirement to publish a
+prospectus for offers of Notes. This offering memorandum is not a prospectus for the purposes of the UK
+Prospectus Regulation or the FSMA.
+
+**Notice to Prospective Investors in the United Kingdom**
+
+In addition, in the UK, this offering memorandum is being distributed only to, and is directed only at
+qualified investors within the meaning of Article 2 of the UK Prospectus Regulation who are, (i) persons
+who have professional experience in matters relating to investments falling within Article 19(5) of the Financial
+Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the “Order”), and/or
+(ii) high net worth companies (or persons to whom it may otherwise be lawfully communicated) falling within
+Article 49(2)(a) to (d) of the Order, which persons together we refer to in this offering memorandum as
+“relevant persons.” Accordingly, such documents and/or materials are not being distributed to, and must
+not be passed on to, the general public in the UK. This offering memorandum must not be acted on or relied
+on in the UK by persons who are not relevant persons. In the UK, any investment or investment activity to
+which this offering memorandum relates is only available to, and will be engaged in with, relevant persons
+only.
+
+**Notice to Prospective Investors in Switzerland**
+
+This offering memorandum is not intended to constitute an offer or solicitation to purchase or invest
+in the Notes. The Notes may not be publicly offered, directly or indirectly, in Switzerland within the meaning
+of the Swiss Financial Services Act (“FinSA”) and no application has or will be made to admit the Notes
+to trading on any trading venue (exchange or multilateral trading facility) in Switzerland. Neither this offering
+memorandum nor any other offering or marketing material relating to the Notes constitutes a prospectus
+pursuant to the FinSA, and neither this offering memorandum nor any other offering or marketing material
+relating to the Notes may be publicly distributed or otherwise made publicly available in Switzerland.
+
+**Notice to Prospective Investors in the Dubai International Financial Centre**
+
+This offering memorandum relates to an Exempt Offer in accordance with the Markets Rules 2012 of
+the Dubai Financial Services Authority (“DFSA”). This offering memorandum is intended for distribution
+only to persons of a type specified in the Offered Securities Rules of the DFSA. It must not be delivered to, or
+relied on by, any other person. The DFSA has no responsibility for reviewing or verifying any documents
+in connection with Exempt Offers. The DFSA has not approved this offering memorandum nor taken steps
+to verify the information set forth herein and has no responsibility for the offering memorandum. The
+Notes to which this offering memorandum relates may be illiquid and/or subject to restrictions on their resale.
+Prospective purchasers of the Notes offered should conduct their own due diligence on the Notes. If you
+do not understand the contents of this offering memorandum you should consult an authorized financial
+advisor. In relation to its use in the DIFC, this document is strictly private and confidential and is being
+distributed to a limited number of investors and must not be provided to any person other than the original
+
+
+-----
+
+recipient, and may not be reproduced or used for any other purpose. The interests in the securities may not
+be offered or sold directly or indirectly to the public in the DIFC.
+
+**Notice to Prospective Investors in Hong Kong**
+
+The Notes may not be offered or sold in Hong Kong by means of any document other than (i) to
+“professional investors” as defined in the Securities and Futures Ordinance (Cap. 571 of the laws of Hong
+Kong) (the “SFO”) and any rules made thereunder or (ii) in other circumstances which do not result in the
+document being a “prospectus” as defined in the Companies (Winding Up and Miscellaneous Provisions)
+Ordinance (Cap. 32 of the laws of Hong Kong) (the “CO”) or which do not constitute an offer to the public
+within the meaning of that the CO and (ii) has not issued or had in its possession for the purposes of
+issue, and will not issue or have in its possession for the purposes of issue, whether in Hong Kong or elsewhere,
+any advertisement, invitation or document relating to the Notes, which is directed at, or the contents of
+which are likely to be accessed or read by, the public of Hong Kong (except if permitted to do so under the
+securities laws of Hong Kong) other than with respect to the Notes which are or are intended to be disposed
+of only to persons outside Hong Kong or only to “professional investors” as defined in the SFO and any
+rules made thereunder.
+
+**Notice to Prospective Investors in Singapore**
+
+This offering memorandum has not been registered as a prospectus with the Monetary Authority of
+Singapore. Accordingly, this offering memorandum and any other document or material in connection with
+the offer or sale, or invitation for subscription or purchase, of the Notes may not be circulated or distributed,
+nor may the Notes be offered or sold, or be made the subject of an invitation for subscription or purchase,
+whether directly or indirectly, to persons in Singapore other than (i) to an institutional investor (as defined
+in Section 4A of the Securities and Futures Act (Chapter 289) of Singapore, as modified or amended from
+time to time (the “SFA”)) pursuant to Section 274 of the SFA; (ii) to a relevant person, or any person
+pursuant to Section 275(1A) of the SFA, and in accordance with the conditions, specified in Section 275 of
+the SFA; or (iii) otherwise pursuant to, and in accordance with the conditions of, any other applicable provision
+of the SFA.
+
+Where the Notes are subscribed or purchased under Section 275 of the SFA by a relevant person which
+is: (a) a corporation (which is not an accredited investor (as defined in Section 4A of the SFA)), the sole
+business of which is to hold investments and the entire share capital of which is owned by one or more
+individuals, each of whom is an accredited investor; or (b) a trust (where the trustee is not an accredited
+investor) whose sole purpose is to hold investments and each beneficiary of the trust is an individual who is an
+accredited investor, securities or securities based derivatives contracts (each term as defined in Section 2(1)
+of the SFA) of that corporation or the beneficiaries’ rights and interest (howsoever described) in that trust
+shall not be transferred within six months after that corporation or that trust has acquired the Notes
+pursuant to an offer made under Section 275 of the SFA except: (i) to an institutional investor or to a relevant
+person, or to any person arising from an offer referred to in Section 275(1A), or Section 276(4)(i)(B) of the
+SFA; (ii) where no consideration is or will be given for the transfer; (iii) where the transfer is by operation of
+law; (iv) as specified in Section 276(7) of the SFA; or (v) as specified in Regulation 37A of the Securities
+and Futures (Offers of Investments) (Securities and Securities based Derivative Contracts) Regulations 2018.
+
+Singapore SFA Product Classification—Solely for the purposes of its obligations pursuant to
+sections 309B(1)(a) and 309B(1)(c) of the SFA, the Issuer has determined, and hereby notifies all relevant
+persons (as defined in Section 309A of the SFA), that the Notes are “prescribed capital markets products” (as
+defined in the Securities and Futures (Capital Markets Products) Regulations 2018) and Excluded
+Investment Products (as defined in MAS Notice SFA 04-N12: Notice on the Sale of Investment Products
+and MAS Notice FAA-N16: Notice on Recommendations on Investment Products).
+
+**Notice to Prospective Investors in Japan**
+
+The Notes have not been and will not be registered pursuant to Article 4, Paragraph 1 of the Financial
+Instruments and Exchange Act. Accordingly none of the Notes nor any interest therein may be offered or
+sold, directly or indirectly, in Japan or to, or for the benefit of, any resident of Japan (which term as used
+herein means any person resident in Japan, including any corporation or other entity organized under the laws
+
+
+-----
+
+of Japan), or to others for re-offering or resale, directly or indirectly, in Japan or to or for the benefit of a
+resident of Japan, except pursuant to an exemption from the registration requirements of, and otherwise in
+compliance with, the Financial Instruments and Exchange Act and any other applicable laws, regulations and
+ministerial guidelines of Japan in effect at relevant time.
+
+
+-----
+
+**LEGAL MATTERS**
+
+Certain legal matters in connection with the offering and sale of the Notes will be passed upon for us
+by Perkins Coie LLP, Denver, Colorado and for the initial purchasers by Davis Polk & Wardwell LLP, New
+York, New York.
+
+**INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM**
+
+The consolidated financial statements and financial statement schedule of Crocs, Inc. and its subsidiaries
+as of December 31, 2020 and 2019, and for each of the three years in the period ended December 31, 2020,
+included in this offering memorandum and the effectiveness of internal control over financial reporting as of
+December 31, 2020, have been audited by Deloitte & Touche LLP, an independent registered public
+accounting firm, as stated in their reports appearing herein.
+
+**WHERE YOU CAN FIND MORE INFORMATION**
+
+We file with, or furnish to, the SEC reports including our Annual Report on Form 10-K, Quarterly
+Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to those reports pursuant to
+Section 13(a) or 15(d) of the Exchange Act. These reports are available free of charge on our corporate
+website, www.crocs.com, as soon as reasonably practicable after they are electronically filed with or furnished
+to the SEC. Copies of any materials we file with the SEC can be obtained at www.sec.gov. The foregoing
+website addresses are provided as inactive textual references only. The information provided on or accessible
+through our website (or any other website referred to in this offering memorandum) is not part of this
+offering memorandum and is not incorporated by reference as part of this offering memorandum.
+
+**INFORMATION INCORPORATED BY REFERENCE**
+
+We are incorporating by reference in this offering memorandum information we have filed with the
+SEC, which means that we are disclosing important information to you by referring you to those documents.
+We incorporate by reference into this offering memorandum the following documents listed below and any
+other filings made by us under Section 13(a), 13(c), 14 or 15(d) of the Exchange Act after the date of this
+offering memorandum until we issue the Notes or until this offering is terminated (other than information
+in such documents that is deemed furnished and not filed):
+
+   - our Annual Report on Form 10-K for the year ended December 31, 2020.
+
+Any statement contained in this offering memorandum or in a document incorporated or deemed to be
+incorporated by reference in this offering memorandum shall be deemed to be modified or superseded for
+purposes of this offering memorandum to the extent that a statement contained in this offering memorandum
+or in any other document subsequently filed with the SEC which is or is deemed to be incorporated by
+reference in this offering memorandum modifies or supersedes such statement. No such statement so
+modified or superseded shall be deemed, except as so modified or superseded, to constitute a part of this
+offering memorandum. If information in any of these incorporated documents conflicts with information in
+this offering memorandum you should rely on the most recent information. If information in an
+incorporated document conflicts with information in another incorporated document, you should rely on
+the information in the most recent incorporated document.
+
+You may obtain a copy of any document we incorporate by reference and the Indenture, without
+charge, by request directed to us at the following address and telephone number:
+
+Crocs, Inc.
+13601 Via Varra
+Broomfield, Colorado 80020
+(303) 848-7000
+Attention: Investor Relations
+
+Each purchaser of the Notes from the initial purchasers will be furnished with a copy of this offering
+memorandum and any related amendments or supplements to this offering memorandum (as so amended
+or supplemented). This offering memorandum contains summaries, believed to be accurate in all material
+respects, of certain terms of the Indenture and the Notes, but reference is made to the actual Indenture and
+
+
+-----
+
+Notes (copies of which will be made available upon request to us or the initial purchasers) for complete
+information with respect thereto, and all such summaries are qualified in their entirety by this reference. We
+will make available, upon request, to any holder and any prospective purchaser of the Notes the information
+required pursuant to Rule 144A(d)(4) under the Securities Act during any period in which we are not subject
+to Section 13 or 15(d) of the Exchange Act.
+
+
+-----
+
+**INDEX TO CONSOLIDATED FINANCIAL STATEMENTS**
+
+**Audited Consolidated Financial Statements:**
+
+Report of Independent Registered Public Accounting Firm . . . . . . . . . . . . . . . . . . . . . . . . . . . . F-2
+Consolidated Statements of Operations for the Years Ended December 31, 2020, 2019, and 2018 . . F-5
+Consolidated Statements of Comprehensive Income for the Years Ended December 31, 2020,
+2019, and 2018 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . F-6
+Consolidated Balance Sheets as of December 31, 2020 and 2019 . . . . . . . . . . . . . . . . . . . . . . . . F-7
+Consolidated Statements of Stockholders’ Equity for the Years Ended December 31, 2020, 2019,
+and 2018 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . F-8
+Consolidated Statements of Cash Flows for the Years Ended December 31, 2020, 2019, and 2018. . F-9
+Notes to Consolidated Financial Statements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . F-10
+Schedule II: Valuation and Qualifying Accounts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . F-38
+
+
+-----
+
+**REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM**
+
+To the stockholders and the Board of Directors of Crocs, Inc.
+
+**Opinion on the Consolidated Financial Statements**
+
+We have audited the accompanying consolidated balance sheets of Crocs, Inc. and subsidiaries (the
+“Company”) as of December 31, 2020 and 2019, the related consolidated statements of operations,
+comprehensive income, stockholders’ equity, and cash flows, for each of the three years in the period ended
+December 31, 2020, and the related notes and the schedule listed in the Index at Item 15 (collectively
+referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements
+present fairly, in all material respects, the financial position of the Company as of December 31, 2020 and
+2019, and the results of its operations and its cash flows for each of the three years in the period ended
+December 31, 2020, in conformity with accounting principles generally accepted in the United States of
+America.
+
+We have also audited, in accordance with the standards of the Public Company Accounting Oversight
+Board (United States) (PCAOB), the Company’s internal control over financial reporting as of December 31,
+2020, based on criteria established in Internal Control—Integrated Framework (2013) issued by the
+Committee of Sponsoring Organizations of the Treadway Commission and our report dated February 23,
+2021, expressed an unqualified opinion on the Company’s internal control over financial reporting.
+
+**Change in Accounting Principle**
+
+As discussed in Note 6 to the consolidated financial statements, effective January 1, 2019, due the
+adoption of FASB ASC Topic 842, Leases, using the modified retrospective transition approach.
+
+**Basis for Opinion**
+
+These consolidated financial statements are the responsibility of the Company’s management. Our
+responsibility is to express an opinion on the Company’s consolidated financial statements based on our
+audits. We are a public accounting firm registered with the PCAOB and are required to be independent with
+respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and
+regulations of the Securities and Exchange Commission and the PCAOB.
+
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require
+that we plan and perform the audit to obtain reasonable assurance about whether the consolidated financial
+statements are free of material misstatement, whether due to error or fraud. Our audits included performing
+procedures to assess the risks of material misstatement of the consolidated financial statements, whether due
+to error or fraud, and performing procedures that respond to those risks. Such procedures included
+examining, on a test basis, evidence regarding the amounts and disclosures in the consolidated financial
+statements. Our audits also included evaluating the accounting principles used and significant estimates made
+by management, as well as evaluating the overall presentation of the consolidated financial statements. We
+believe that our audits provide a reasonable basis for our opinion.
+
+**Critical Audit Matter**
+
+The critical audit matter communicated below is a matter arising from the current-period audit of the
+consolidated financial statements that was communicated or required to be communicated to the audit
+committee and that (1) relates to accounts or disclosures that are material to the consolidated financial
+statements and (2) involved our especially challenging, subjective, or complex judgments. The communication
+of critical audit matters does not alter in any way our opinion on the consolidated financial statements,
+taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate
+opinion on the critical audit matter or on the accounts or disclosures to which it relates.
+
+**_Income Taxes —Intra-entity Intellectual Property Transaction—Valuation of Deferred Tax Asset and_**
+**_Uncertain Tax Positions—Refer to Note 13 to the consolidated financial statements_**
+
+_Critical Audit Matter Description_
+
+The Company recognizes deferred income taxes for tax attributes and for differences between the
+financial statement and tax basis of assets and liabilities at enacted statutory tax rates in effect for the years
+
+
+-----
+
+in which the deferred tax liability or asset is expected to be settled or realized. The Company takes a twostep approach for recognizing and measuring tax benefits taken or expected to be taken in a return and
+disclosures regarding uncertainties in income tax positions. The impact of an uncertain tax position that is
+more likely than not to be sustained upon examination by the relevant taxing authority must be recognized
+at the largest amount that is more likely than not to be sustained. No portion of an uncertain tax position will
+be recognized if the position has less than a 50% likelihood of being sustained.
+
+In December 2020, the Company completed a series of transactions resulting in changes to their
+international legal structure, including a transfer of certain intellectual property rights among wholly-owned
+subsidiaries to the Netherlands. The transfer resulted in a step-up in tax basis of intellectual property
+rights and a corresponding increase in foreign deferred tax assets based on the fair value of the transferred
+intellectual property rights. The Company recorded a deferred tax asset of $492.5 million and related uncertain
+tax positions of $197.0 million.
+
+We identified management’s valuation of the deferred tax asset and related uncertain tax positions
+resulting from the Company’s transfer of certain intellectual property to its Netherlands subsidiary as a
+critical audit matter because of the significant judgments and estimates that were required to be made by
+management to properly value the deferred tax asset and uncertain tax positions. The judgments and estimates
+were related to the Company’s interpretation of related tax laws and regulations, as well as the use of
+estimates and assumptions regarding future events.
+
+As a result, we utilized a high degree of auditor judgment and an increased extent of effort, including
+the need to involve our fair value specialists, when performing audit procedures to evaluate the reasonableness
+of management’s estimates and assumptions for the measurement of the deferred tax asset related to the
+forecasts of future revenue growth and the selection of the discount rate. We also utilized a high degree of
+auditor judgment and an increased extent of effort, including the need to involve our income tax specialists,
+when performing audit procedures to evaluate whether management’s judgments in interpreting and
+applying tax laws and estimates and assumptions regarding future settlement were appropriate in determining
+the value of the uncertain tax positions.
+
+_How the Critical Audit Matter Was Addressed in the Audit_
+
+Our audit procedures related to the forecasts of future revenue growth and discount rate used by
+management to measure the deferred tax asset and the uncertain tax position included the following,
+among others:
+
+   - We tested the effectiveness of management’s controls over the determination of the measurement
+of deferred tax asset, such as controls related to management’s selection of the discount rate and
+forecasts of future revenues, and management’s controls over the measurement of the uncertain
+tax position, such as controls related to the evaluation of subjective estimates in the amounts to be
+realized.
+
+   - We evaluated the reasonableness of management’s revenue forecasts by comparing to:
+
+– Historical revenue growth rates
+
+– Historical revenue growth rates of peer companies
+
+– Internal communications to management and the Board of Directors
+
+– Forecasted information included in Company press releases as well as in analyst and industry
+reports
+
+– Expected macroeconomic trends.
+
+   - With the assistance of our fair value specialists, we evaluated the reasonableness of the discount
+rate by:
+
+– Testing the source information underlying the determination of the discount rate and the
+mathematical accuracy of the calculation
+
+
+-----
+
+– Developing a range of independent estimates and comparing those to the discount rate
+selected by management.
+
+   - With the assistance of our tax specialists, we evaluated the measurement of uncertain tax positions.
+Our procedures included the following, among others:
+
+– Reviewed the Company’s analysis of the uncertain tax positions and evaluated the
+reasonableness of the assumptions and calculations the Company used to develop the amount
+of the related uncertain tax positions
+
+– Obtained the Company’s supporting documentation to assess the technical tax merits
+applicable to Dutch and international transfer pricing standards, the more-likely-than-not
+recognition and measurement thresholds and evaluated the application of these relevant tax
+laws in the Company’s recognition determination
+
+– Evaluated the Company’s measurement of the liability using our knowledge of international,
+domestic, and local income tax laws, as well as settlement activity from the relevant income
+tax authorities.
+
+/s/ Deloitte & Touche LLP
+
+Denver, Colorado
+February 23, 2021
+
+We have served as the Company’s auditor since 2005.
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**CONSOLIDATED STATEMENTS OF OPERATIONS**
+**(in thousands, except per share data)**
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 $1,088,205
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 636,003 613,537 528,051
+
+Gross profit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 749,948 617,056 560,154
+Selling, general and administrative expenses . . . . . . . . . . . . . . . . 514,753 488,407 495,028
+Asset impairments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,071 — 2,182
+
+Income from operations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214,124 128,649 62,944
+Foreign currency gains (losses), net . . . . . . . . . . . . . . . . . . . . . . (1,128) (1,323) 1,318
+Interest income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 215 601 1,281
+Interest expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (6,742) (8,636) (955)
+
+Other income, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 510 31 569
+
+Income before income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . 206,979 119,322 65,157
+
+Income tax expense (benefit) . . . . . . . . . . . . . . . . . . . . . . . . . . . (105,882) (175) 14,720
+
+Net income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 312,861 119,497 50,437
+
+Dividends on Series A convertible preferred stock[(1)] . . . . . . . . . . . — — (108,224)
+
+Dividend equivalents on Series A convertible preferred stock
+related to redemption value accretion and beneficial conversion
+feature[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — — (11,429)
+
+Net income (loss) attributable to common stockholders . . . . . . . . $ 312,861 $ 119,497 $ (69,216)
+
+Net income (loss) per common share:
+
+Basic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.64 $ 1.70 $ (1.01)
+
+Diluted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.56 $ 1.66 $ (1.01)
+
+Weighted average common shares outstanding:
+
+Basic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67,386 70,357 68,421
+
+Diluted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68,544 71,771 68,421
+
+(1) On December 5, 2018, all issued and outstanding shares of Series A Convertible Preferred Stock were
+repurchased in exchange for cash or converted to common stock. As a result, amounts reported for the
+year ended December 31, 2018 include amounts resulting from the repurchase and conversion, in
+addition to dividends, payments to induce conversion, and accretion of dividend equivalents prior to
+December 5, 2018.
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME**
+**(in thousands)**
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+Net income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $312,861 $119,497 $50,437
+Other comprehensive income:
+Foreign currency gains (losses), net . . . . . . . . . . . . . . . . . . . . . . . . . . . 2,189 (3,659) (6,846)
+Reclassification of foreign currency translation loss to income[(1)] . . . . . . . (164) (68) (4,412)
+
+Total comprehensive income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $314,886 $115,770 $39,179
+
+(1) Represents the reclassification of cumulative foreign currency translation adjustment upon liquidation
+of foreign subsidiaries during the years ended December 31, 2020 and 2019, and upon closure of
+manufacturing operations during the year ended December 31, 2018, both of which are presented within
+‘Selling, general and administrative expenses’ in the consolidated statements of operations.
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**CONSOLIDATED BALANCE SHEETS**
+**(in thousands, except share and par value amounts)**
+
+**December 31,**
+
+**2020** **2019**
+
+ASSETS
+Current assets:
+Cash and cash equivalents . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 135,802 $ 108,253
+Restricted cash–current . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,542 1,500
+Accounts receivable, net of allowances of $21,093 and $18,797, respectively . . . . 149,847 108,199
+Inventories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175,121 172,028
+Income taxes receivable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,857 1,341
+Other receivables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10,816 8,711
+Prepaid expenses and other assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17,856 25,350
+Total current assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 492,841 425,382
+Property and equipment, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57,467 47,405
+Intangible assets, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37,636 47,095
+Goodwill . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,719 1,578
+Deferred tax assets, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 350,784 24,747
+Restricted cash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,929 2,292
+Right-of-use assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 167,421 182,228
+Other assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8,926 8,075
+
+Total assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,118,723 $ 738,802
+
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current liabilities:
+Accounts payable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 112,778 $ 95,754
+Accrued expenses and other liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126,704 108,677
+Income taxes payable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5,038 4,207
+Current operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47,064 48,585
+
+Total current liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 291,584 257,223
+Long-term income taxes payable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205,974 4,522
+Long-term borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 180,000 205,000
+Long-term operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 146,401 140,148
+Other liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4,131 4
+
+Total liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 828,090 606,897
+
+Commitments and contingencies
+Stockholders’ equity:
+Common stock, par value $0.001 per share, 105.0 million and 104.0 million
+issued, 65.9 million and 68.2 million shares outstanding, respectively . . . . . . . 105 104
+Treasury stock, at cost, 39.1 million and 35.8 million shares, respectively . . . . . . . (688,849) (546,208)
+Additional paid-in capital . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 482,385 495,903
+Retained earnings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 553,346 240,485
+Accumulated other comprehensive loss . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (56,354) (58,379)
+
+Total stockholders’ equity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 290,633 131,905
+Total liabilities and stockholders’ equity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,118,723 $ 738,802
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**CONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY**
+**(in thousands)**
+
+**Accumulated**
+
+**Additional** **Other** **Total**
+**Common Stock** **Treasury Stock**
+**Paid-in** **Retained** **Comprehensive** **Stock-holders’**
+
+**Shares** **Amount** **Shares** **Amount** **Capital** **Earnings** **(Loss)** **Equity**
+Balance at December 31, 2017 . . . . . . . . . . 68,791 $ 95 25,987 $(334,312) $373,045 $190,431 $(43,394) $ 185,865
+Share-based compensation . . . . . . . . . . . . — — — — 13,732 — — 13,732
+Exercises of stock options and issuance of
+restricted stock awards . . . . . . . . . . . . . 1,238 1 49 (48) (725) — — (772)
+Repurchases of common stock . . . . . . . . . (3,620) — 3,620 (63,131) — — — (63,131)
+Series A preferred repurchase[(1)] . . . . . . . . . — — — — — (84,224) — (84,224)
+Series A preferred conversion[(2)] . . . . . . . . . 6,897 7 — — 99,993 — — 100,000
+Series A preferred dividends[(3)] . . . . . . . . . . — — — — — (24,000) — (24,000)
+Series A preferred accretion, net[(4)] . . . . . . . — — — — (6,138) (11,429) — (17,567)
+Net income . . . . . . . . . . . . . . . . . . . . . . . — — — — — 50,437 — 50,437
+Other comprehensive loss . . . . . . . . . . . . . — — — — — — (11,258) (11,258)
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . — — — — 1,226 — — 1,226
+Balance at December 31, 2018 . . . . . . . . . . 73,306 $103 29,656 $(397,491) $481,133 $121,215 $(54,652) $ 150,308
+Adjustments to beginning retained
+earnings[(5)] . . . . . . . . . . . . . . . . . . . . . . — — — — — (227) — (227)
+Share-based compensation . . . . . . . . . . . . — — — — 14,412 — — 14,412
+Exercises of stock options and issuance of
+restricted stock awards . . . . . . . . . . . . . 1,008 1 58 (1,527) 358 — — (1,168)
+Repurchases of common stock . . . . . . . . . (6,082) — 6,082 (147,190) — — — (147,190)
+Net income . . . . . . . . . . . . . . . . . . . . . . . — — — — — 119,497 — 119,497
+Other comprehensive loss . . . . . . . . . . . . . — — — — — — (3,727) (3,727)
+Balance at December 31, 2019 . . . . . . . . . . 68,232 $104 35,796 $(546,208) $495,903 $240,485 $(58,379) $ 131,905
+Share-based compensation . . . . . . . . . . . . — — — — 16,361 — — 16,361
+Exercises of stock options and issuance of
+restricted stock awards . . . . . . . . . . . . . 836 1 124 (3,059) 1,371 — — (1,687)
+Repurchases of common stock . . . . . . . . . (3,212) — 3,212 (139,582) (31,250) — — (170,832)
+Net income . . . . . . . . . . . . . . . . . . . . . . . — — — — — 312,861 — 312,861
+Other comprehensive income . . . . . . . . . . . — — — — — — 2,025 2,025
+Balance at December 31, 2020 . . . . . . . . . . 65,856 $105 39,132 $(688,849) $482,385 $553,346 $(56,354) $ 290,633
+
+
+(1) Represents a repurchase premium, which is the difference between cash paid and the carrying value of
+100,000 shares of Series A Convertible Preferred Stock repurchased, including other costs associated
+with the transaction.
+
+(2) Represents the issuance of common stock upon conversion of 100,000 shares of Series A Convertible
+Preferred Stock.
+
+(3) Represents Series A Convertible Preferred Stock cash dividends declared and paid of $9.0 million, and
+$15.0 million of payments paid and payable to induce conversion.
+
+(4) Represents total accretion of $17.6 million, net of $6.1 million acquired value of beneficial conversion
+feature attributable to repurchased Series A Convertible Preferred Stock.
+
+(5) The decrease to beginning retained earnings is as a result of the prior year adoption of new lease
+accounting standards as of January 1, 2019.
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**CONSOLIDATED STATEMENTS OF CASH FLOWS**
+**(in thousands)**
+
+**Year Ended December 31,**
+**2020** **2019** **2018**
+Cash flows from operating activities:
+Net income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 312,861 $ 119,497 $ 50,437
+Adjustments to reconcile net income to net cash provided by
+operating activities:
+Depreciation and amortization . . . . . . . . . . . . . . . . . . . . . . . . . . . 27,619 24,213 29,250
+Operating lease cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61,583 60,142 —
+Inventory donations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8,994 109 84
+Provision for doubtful accounts, net . . . . . . . . . . . . . . . . . . . . . . . . 5,779 1,566 711
+Share-based compensation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16,361 14,412 13,105
+Unrealized foreign currency loss (gain), net . . . . . . . . . . . . . . . . . . . 126 (1,140) (1,455)
+Loss (gain) on disposals of assets . . . . . . . . . . . . . . . . . . . . . . . . . . 340 (213) 5,019
+Asset impairments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,071 — 2,182
+Deferred taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (325,061) (16,259) 959
+Other non-cash items . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4,841 (1,072) 1,910
+Changes in operating assets and liabilities:
+Accounts receivable, net of allowances . . . . . . . . . . . . . . . . . . . . . . (47,045) (15,015) (24,623)
+Inventories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (13,462) (48,156) (1,987)
+Prepaid expenses and other assets . . . . . . . . . . . . . . . . . . . . . . . . . 5,007 (4,012) 9,703
+Accounts payable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23,229 6,032 12,953
+Accrued expenses and other liabilities . . . . . . . . . . . . . . . . . . . . . . . 22,358 13,265 18,065
+Operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (61,178) (64,313) —
+Income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 203,479 902 (2,151)
+Cash provided by operating activities . . . . . . . . . . . . . . . . . . . . . . . 266,902 89,958 114,162
+Cash flows from investing activities:
+Purchases of property, equipment, and software . . . . . . . . . . . . . . . (42,033) (36,576) (11,979)
+Proceeds from disposal of property and equipment . . . . . . . . . . . . . 463 616 1,856
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (192) (276) 13
+Cash used in investing activities . . . . . . . . . . . . . . . . . . . . . . . . . . . (41,762) (36,236) (10,110)
+Cash flows from financing activities:
+Proceeds from borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 210,000 315,000 120,000
+Repayments of borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (235,000) (230,000) (662)
+Series A preferred stock repurchase . . . . . . . . . . . . . . . . . . . . . . . . — — (183,724)
+Dividends–Series A convertible preferred stock[(1)] . . . . . . . . . . . . . . . — (2,985) (21,015)
+Repurchases of common stock . . . . . . . . . . . . . . . . . . . . . . . . . . . (170,832) (147,190) (63,131)
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (2,206) (3,463) (270)
+Cash used in financing activities . . . . . . . . . . . . . . . . . . . . . . . . . . (198,038) (68,638) (148,802)
+Effect of exchange rate changes on cash, cash equivalents, and
+restricted cash . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126 (569) (4,775)
+Net change in cash, cash equivalents, and restricted cash . . . . . . . . . 27,228 (15,485) (49,525)
+Cash, cash equivalents, and restricted cash–beginning of year . . . . . . 112,045 127,530 177,055
+Cash, cash equivalents, and restricted cash–end of year . . . . . . . . . . $ 139,273 $ 112,045 $ 127,530
+Cash paid for interest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 6,658 $ 7,519 $ 462
+Cash paid for income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20,816 16,050 18,633
+
+(1) Represents $3.0 million paid to induce conversion of Series A Convertible Preferred Stock to common
+stock during the year ended December 31, 2019 and Series A Convertible Preferred Stock cash
+dividends declared and paid of $9.0 million and $12.0 million paid to induce conversion during the
+year ended December 31, 2018.
+
+The accompanying notes are an integral part of these consolidated financial statements
+
+
+-----
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+**NOTES TO CONSOLIDATED FINANCIAL STATEMENTS**
+
+**1.** **BASIS OF PRESENTATION AND SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES**
+
+Unless otherwise noted in this report, any description of the “Company,” “Crocs,” “we,” “us,” or “our”
+includes Crocs, Inc. and its consolidated subsidiaries within our reportable operating segments and corporate
+operations. We are engaged in the design, development, worldwide marketing, distribution, and sale of
+casual lifestyle footwear and accessories for women, men, and children. We strive to be the global leader in
+the sale of molded footwear characterized by functionality, comfort, color, and lightweight design. Our
+reportable operating segments include: the Americas, operating in North and South America; Asia Pacific,
+operating throughout Asia, Australia, and New Zealand; and Europe, Middle East, and Africa (“EMEA”),
+operating throughout Europe, Russia, the Middle East, and Africa.
+
+**_Basis of Presentation and Consolidation_**
+
+Our consolidated financial statements include our accounts and those of our wholly-owned subsidiaries,
+and they reflect all adjustments which are necessary for a fair statement of financial position, results of
+operations, and cash flows for the periods presented in accordance with accounting principles generally
+accepted in the United States of America (“U.S. GAAP”). All intercompany balances and transactions have
+been eliminated in consolidation.
+
+**_Use of Estimates_**
+
+Our consolidated financial statements are prepared in accordance with U.S. GAAP. These accounting
+principles require us to make certain estimates, judgments, and assumptions. We believe that the estimates,
+judgments, and assumptions used to determine certain amounts that affect the financial statements are
+reasonable, based on information available at the time they are made. Management believes that the estimates,
+judgments, and assumptions made when accounting for items and matters such as, but not limited to, the
+allowance for doubtful accounts, customer rebates, sales returns, impairment assessments and charges,
+recoverability of long-lived assets, deferred tax assets, valuation allowances, uncertain tax positions, income
+tax expense, share-based compensation expense, the assessment of lower of cost or net realizable value on
+inventory, useful lives assigned to long-lived assets, and depreciation and amortization, are reasonable based
+on information available at the time they are made.
+
+Additionally, we are periodically exposed to various contingencies in the ordinary course of conducting
+our business, including certain litigation, contractual disputes, employee relations matters, various tax or
+other governmental audits, and trademark and intellectual property matters and disputes. We record a liability
+for such contingencies to the extent that we conclude their occurrence is probable and the related losses are
+estimable. If it is reasonably possible that an unfavorable settlement of a contingency could exceed the
+established liability, we disclose the estimated impact on our liquidity, financial condition, and results of
+operations, if practicable. As the ultimate resolution of contingencies is inherently unpredictable, these
+assessments can involve a series of complex judgments about future events including, but not limited to, court
+rulings, negotiations between affected parties, and governmental actions. As a result, the accounting for
+loss contingencies relies heavily on management’s judgment in developing the related estimates and
+assumptions. See Note 17—Legal Proceedings for additional information regarding our contingencies and
+legal proceedings.
+
+The full impact of COVID-19 is unknown and cannot be reasonably estimated as of the reporting date.
+However, we have made appropriate accounting estimates based on the facts and circumstances available as
+of the reporting date.
+
+To the extent there are differences between these estimates and actual results, our consolidated financial
+statements may be materially affected.
+
+**_Reclassifications_**
+
+We have reclassified certain amounts in Note 13—Income Taxes and on the consolidated statements of
+cash flows to conform to current period presentation.
+
+
+-----
+
+**_Transactions with Affiliates_**
+
+In 2019, we received services from three affiliates of Blackstone Capital Partners VI L.P. (“Blackstone”).
+Blackstone and certain of its permitted transferees beneficially owned 6,899,027 shares of our common stock
+until Blackstone sold 6,864,545 shares of common stock held directly by Blackstone and its affiliates on
+November 4, 2019 in an underwritten public offering. The other 34,482 shares of common stock were held
+by Gregg S. Ribatt, our former Chief Executive Officer and former member of our Board of Directors, which
+Blackstone may have been deemed to beneficially own, and were sold by Mr. Ribatt in October 2019. We
+incurred expenses to Blackstone’s legal counsel of $0.3 million in relation to this transaction.
+
+Certain Blackstone affiliates provide various services to us, including inventory count services,
+cybersecurity and consulting, and workforce management services. We incurred expenses for services from
+these affiliates of $2.2 million during the period of Blackstone’s beneficial ownership in 2019 and $0.8 million
+in the year ended December 31, 2018. Expenses related to these services are reported in ‘Selling, general
+and administrative expenses’ in the consolidated statements of operations.
+
+**_Cash and Cash Equivalents_**
+
+Cash and cash equivalents represent cash and short-term, highly-liquid investments with maturities of
+three months or less at the date of purchase. We report receivables from credit card companies, if expected
+to be received within five days, in cash and cash equivalents.
+
+**_Restricted Cash_**
+
+Restricted cash primarily consists of funds to secure certain retail store leases, certain customs
+requirements, and other contractual arrangements.
+
+**_Accounts Receivable, Net_**
+
+Accounts receivable are recorded at invoiced amounts, net of reserves and allowances. We reduce the
+carrying value for estimated uncollectible accounts based on a variety of factors including the length of
+time receivables are past due, economic trends and conditions affecting our customer base, and historical
+collection experience. Specific provisions are recorded for individual receivables when we become aware of a
+customer’s inability to meet its financial obligations. We write off accounts receivable to the reserves when
+they are deemed uncollectible or, in certain jurisdictions, when legally able to do so. See Schedule II in
+Appendix A for more information.
+
+**_Inventories_**
+
+Inventories are comprised of finished goods, are stated at the lower of cost or net realizable value, and
+recognized using the first-in-first-out method of inventory costing. We estimate the market value of inventory
+based on an analysis of historical sales trends of our individual product lines, the impact of market trends
+and economic conditions, and a forecast of future demand, giving consideration to the value of current orders
+in-house for future sales of inventory, as well as plans to sell discontinued or end-of-life inventory through
+our outlet stores, among other off-price channels. Estimates may differ from actual results due to the quantity,
+quality, and mix of products in inventory, consumer and retailer preferences, and market conditions. If the
+estimated market value is less than its carrying value, the carrying value is adjusted to the market value, and
+the difference is recorded in ‘Cost of sales’ in our consolidated statements of operations.
+
+Reserves for the risk of physical loss of inventory are estimated based on historical experience and are
+adjusted based upon physical inventory counts, and recorded within ‘Cost of sales’ in our consolidated
+statements of operations.
+
+**_Property and Equipment, Net_**
+
+Property, equipment, furniture, and fixtures are stated at original cost, less accumulated depreciation.
+Depreciation is provided using the straight-line method over the estimated useful asset lives. The useful lives
+are reviewed periodically and range from 2 to 10 years for machinery and equipment and furniture,
+fixtures and others. Leasehold improvements are stated at cost and amortized on a straight-line basis over
+their estimated economic useful lives or the lease term, whichever is shorter. Costs of enhancements or
+
+
+-----
+
+modifications that substantially extend the capacity or useful life of an asset are capitalized and depreciated
+accordingly. Ordinary repairs and maintenance are expensed as incurred. Depreciation of warehouse- and
+distribution-related assets is included in ‘Cost of sales’ in our consolidated statements of operations. In 2017
+and through the third quarter of 2018, when all manufacturing was transferred to third-party manufacturers,
+cost of sales also included depreciation related to manufacturing assets. Depreciation related to retail
+store, corporate, non-product, and non-manufacturing assets is included in ‘Selling, general and administrative
+expenses’ in our consolidated statements of operations. When property is retired or otherwise disposed of,
+the cost and accumulated depreciation are removed from our consolidated balance sheets and the resulting
+gain or loss, if any, is reflected in ‘Income from operations’ in the consolidated statements of operations.
+
+**_Goodwill and Other Intangible Assets, Net_**
+
+We evaluate the carrying value of our goodwill and indefinite-lived intangible assets for impairment at
+the reporting unit level at least annually or when an interim triggering event has occurred indicating potential
+impairment. Our annual test is performed as of the last day of our fiscal fourth quarter. We continuously
+monitor the performance of our definite-lived intangible assets and evaluate for impairment when evidence
+exists that certain events or changes in circumstances indicate that the carrying amount of these assets
+may not be recoverable. Significant judgments and assumptions are required in such impairment evaluations.
+Definite-lived intangible assets are stated at cost, less accumulated amortization. Amortization is recorded
+using the straight-line method over the estimated lives of the assets.
+
+Direct costs of acquiring or developing internal-use computer software, including costs of employees,
+are capitalized and classified within intangible assets. Software maintenance and training costs are expensed
+in the period incurred. Initial costs associated with internally-developed-and-used software are expensed
+until it is determined that the project has reached the application development stage, after which subsequent
+additions, modifications, or upgrades are capitalized to the extent that they add functionality. Our
+capitalized software consists primarily of enterprise resource system software, warehouse management
+software, and point of sale software. Amortization for software is provided using the straight-line method
+over the estimated useful asset lives, which are reviewed periodically and range from 2 to 8 years. Amortization
+of capitalized software used in warehouse- and distribution-related activities is included in ‘Cost of sales’
+in the consolidated statements of operations. Through the third quarter of 2018, when all manufacturing was
+transferred to third-party manufacturers, cost of sales also included amortization related to capitalized
+software used in manufacturing. Amortization related to corporate, non-product, and non-manufacturing
+assets, such as our global information systems, is included in ‘Selling, general, and administrative expenses’ in
+the consolidated statements of operations.
+
+Amortization for patents, copyrights, and trademarks is provided using the straight-line method over
+the estimated useful asset lives, which are reviewed periodically and range from 7 to 25 years.
+
+**_Leases_**
+
+See Note 6—Leases for a summary of our policy related to the recognition of right-of-use assets,
+operating lease liabilities, and the related costs.
+
+**_Derivative Foreign Currency Contracts_**
+
+We enter into forward foreign currency exchange contracts to mitigate the potential impact of foreign
+currency exchange rate risk. By policy, we do not enter into these contracts for trading purposes or
+speculation. The fair value of these contracts is reported either as an asset or liability in our consolidated
+balance sheets. Changes in the fair value of these contracts are recorded in ‘Foreign currency gains (losses),
+net’ in our consolidated statements of operations. We did not designate any derivative instruments for hedge
+accounting during any of the periods presented. See Note 8—Derivative Financial Instruments for further
+information.
+
+**_Other Comprehensive Income_**
+
+Our foreign subsidiaries use their foreign currency as their functional currency. Functional currency
+assets and liabilities are translated into U.S. Dollars using exchange rates in effect at the balance sheet date,
+and revenues and expenses are translated at average exchange rates during the period. Resulting translation
+
+
+-----
+
+gains and losses are reported in other comprehensive income (loss), until the substantial disposition of a
+subsidiary, at which time accumulated translation gains or losses are reclassified into net income.
+
+**_Revenue Recognition_**
+
+See Note 11—Revenues for a summary of our revenue recognition policy.
+
+**_Shipping and Handling Costs and Fees_**
+
+Shipping and handling costs are expensed as incurred and are included in ‘Cost of sales’ in the
+consolidated statements of operations. Shipping and handling fees billed to customers are included in
+revenues.
+
+**_Taxes Assessed by Governmental Authorities_**
+
+Taxes assessed by governmental authorities that are directly imposed on a revenue transaction,
+including value added tax, are recorded on a net basis and are therefore excluded from revenues.
+
+**_Cost of Sales_**
+
+Our cost of sales includes costs incurred to design, produce, procure, and ship our footwear. These
+costs include our raw materials, both direct and indirect labor, shipping and handling including freight
+costs, utilities, maintenance costs, depreciation, packaging, and other warehouse and distribution overhead
+and costs.
+
+**_Selling, General and Administrative Expenses_**
+
+Selling, general and administrative expenses consist primarily of labor and outside services, rent
+expense, bad debt expense, legal costs, amortization of intangible assets, as well as certain depreciation costs
+related to corporate and non-product assets and share-based compensation. Selling, general and
+administrative expenses also include costs for our marketing and sales organizations, and other functions
+including finance, legal, human resources, and information technology.
+
+Our selling, general and administrative expenses also include media advertising (television, radio, print,
+social, digital), tactical advertising (signs, banners, point-of-sale materials) and promotional costs. Advertising
+production costs are expensed when the advertising is first run. Advertising communication costs are
+expensed in the periods that the communications occur. Certain of our promotional expenses result from
+payments under endorsement contracts. Endorsement-related expenses are recognized as performance is
+received over the term of each endorsement agreement.
+
+Total marketing expenses, inclusive of advertising, production, promotion, and agency expenses,
+including variable marketing expenses, were $101.0 million, $83.2 million, and $68.6 million for the years
+ended December 31, 2020, 2019, and 2018, respectively. Prepaid advertising and promotional endorsement
+expenses of $2.0 million and $11.6 million, were included in ‘Prepaid expenses and other assets’ in the
+consolidated balance sheets at December 31, 2020 and 2019, respectively.
+
+**_Research, Design, and Development Expenses_**
+
+We continue to dedicate resources to product design and development based on opportunities we
+identify in the marketplace. We incurred expenses of $10.2 million, $11.8 million, and $14.1 million in
+research, design, and development activities for the years ended December 31, 2020, 2019, and 2018,
+respectively, which are expensed as incurred and are reported in ‘Selling, general and administrative expenses’
+in the consolidated statements of operations.
+
+**_Share-Based Compensation_**
+
+_Stock Options_
+
+Stock options are granted with exercise prices equal to the fair market value of our common stock on
+the date of grant. We use the Black-Scholes option-pricing model to estimate the grant date fair value of
+
+
+-----
+
+stock options, which requires the use of assumptions, including the expected term of the option, expected
+volatility of our stock price, our expected dividend yield, and the risk-free interest rate, among others. These
+assumptions reflect our best estimates; however, they involve inherent uncertainties including market
+conditions and employee behavior that are generally outside of our control. We expense all share-based
+compensation awarded based on the grant date fair value of the awards using the straight-line method over
+the requisite service period, adjusted for forfeitures as they occur.
+
+_Restricted Stock Awards (“RSAs”) and Restricted Stock Units (“RSUs”)_
+
+We grant RSAs, service-condition RSUs, performance-condition RSUs, and market-condition RSUs.
+The grant date fair values of RSAs, service-condition RSUs, and performance-condition RSUs are based
+on the closing market price of our common stock on the grant date; the grant date fair value and derived
+service period of market-condition RSUs are estimated using a Monte Carlo simulation valuation model. Our
+service-condition RSUs vest based on continued service; our performance-condition RSUs vest based on
+achievement of multiple weighted performance goals, certification of performance achievement by the
+Compensation Committee of the Board of Directors, and continued service; and our market-condition RSUs
+vest based on the market price of our stock. Compensation expense, net of forfeitures, is recognized on a
+straight-line basis over the requisite service period. For performance-condition RSUs, compensation expense
+is updated for our expected performance level against performance goals at the end of each reporting
+period, which involves judgment as to the achievement of certain performance metrics.
+
+See Note 12—Share-Based Compensation for additional information related to share-based
+compensation.
+
+**_Impairment of Long-Lived Assets_**
+
+Long-lived assets to be held and used are evaluated for impairment when events or circumstances
+indicate the carrying value of a long-lived asset or asset group is less than the undiscounted cash flows from
+its use and eventual disposition over its remaining economic life. We assess recoverability by comparing
+the sum of projected undiscounted cash flows from the use and eventual disposition over the remaining
+economic life of a long-lived asset or asset group to its carrying value, and record a loss from impairment if
+the carrying value is more than its undiscounted cash flows. For assets involved in Crocs’ retail business,
+the asset group is at the retail store level. As retail store performance will vary in new and existing markets
+due to many factors, including maturity of the market and brand recognition, we periodically evaluate the
+fixed assets, leasehold improvements, and right-of-use assets related to our retail locations for impairment.
+Assets or asset groups to be abandoned or from which no future benefit is expected are written down to zero
+in the period it is determined they will no longer be used and are removed entirely from service. See Note 3—
+Property and Equipment, Net and Note 6—Leases for a discussion of impairment losses recorded during
+the periods presented.
+
+**_Foreign Currency Gains (Losses), Net_**
+
+Foreign currency gains (losses), net includes realized and unrealized foreign exchange gains and losses
+resulting from remeasurement and settlement of foreign-currency transactions denominated in a currency
+other than the functional currency of an entity, and realized and unrealized gains and losses on forward
+foreign currency exchange derivative contracts. Realized foreign exchange gains and losses are reported in the
+operating segment in which they occur. Foreign exchange gains and losses on intercompany balances and
+forward foreign exchange derivative contracts are reported within corporate operations.
+
+**_Other Income, Net_**
+
+Other income, net primarily includes gains and losses associated with activities not directly related to
+making and selling footwear, as well as certain gains or losses on sales of non-operating assets.
+
+**_Income Taxes_**
+
+Income taxes are accounted for using the asset and liability method, which requires the recognition of
+deferred tax assets and liabilities for the expected future tax consequences of temporary differences between
+the carrying amounts and the tax basis of other assets and liabilities. We provide for income taxes at the
+
+
+-----
+
+current and future enacted tax rates and laws applicable in each taxing jurisdiction. We account for the tax
+effects of global intangible low-taxed income (“GILTI”) as a component of income tax expense in the period
+the tax arises, to the extent applicable. We use a two-step approach for recognizing and measuring tax
+benefits taken or expected to be taken in a tax return and disclosures regarding uncertainties in income tax
+positions. We recognize interest and penalties related to income tax matters in income tax expense in the
+consolidated statements of operations. See Note 13—Income Taxes for further discussion.
+
+**_Earnings per Share_**
+
+Basic and diluted earnings per common share (“EPS”) is presented using the treasury stock method.
+Diluted EPS reflects the potential dilution to common shareholders from securities that could share in our
+earnings and is calculated by adjusting weighted average outstanding shares, assuming conversion of all
+potentially dilutive stock options and awards. Anti-dilutive securities are excluded from diluted EPS. See
+Note 14—Earnings per Share for additional information.
+
+**_Fair Value_**
+
+U.S. GAAP for fair value establishes a hierarchy that prioritizes fair value measurements based on the
+types of inputs used for the various valuation techniques (market approach, income approach, and cost
+approach). We utilize a combination of market and income approaches to value derivative instruments. Our
+financial assets and liabilities are measured using inputs from the three levels of the fair value hierarchy.
+The three levels of the hierarchy and the related inputs are as follows:
+
+**Level** **Inputs**
+
+1 Unadjusted quoted prices in active markets for identical assets and liabilities.
+
+2 Unadjusted quoted prices in active markets for similar assets and liabilities;
+
+Unadjusted quoted prices for identical or similar assets or liabilities in markets that are not active;
+or
+
+Inputs other than quoted prices that are observable for the asset or liability.
+
+3 Unobservable inputs for the asset or liability.
+
+We categorize fair value measurements within the fair value hierarchy based upon the lowest level of
+the most significant inputs used to determine fair value.
+
+Our non-financial assets, which primarily consist of property and equipment, goodwill, and other
+intangible assets, are not required to be carried at fair value on a recurring basis and are reported at
+carrying value. However, on a periodic basis or whenever events or changes in circumstances indicate that
+their carrying value may not be fully recoverable (and at least annually for goodwill and indefinite-lived
+intangible assets), non-financial instruments are assessed for impairment and, if applicable, written down to
+and recorded at fair value. See Note 7—Fair Value Measurements for further discussion related to estimated
+fair value measurements.
+
+**_Consolidated Statements of Cash Flows—Supplemental Schedule of Non-Cash Investing and Financing_**
+**_Activities_**
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Accrued purchases of property, equipment, and software . . . . . . . . . . . . . $4,222 $15,206 $ 1,141
+
+Series A preferred stock conversion . . . . . . . . . . . . . . . . . . . . . . . . . . . . — — 100,000
+Series A preferred stock accretion, net[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . — — 17,567
+
+(1) Represents total accretion of $17.6 million, net of $6.1 million acquired value of beneficial conversion
+feature attributable to repurchased Series A Convertible Preferred Stock for the year ended December 31,
+2018.
+
+
+-----
+
+**2.** **RECENT ACCOUNTING PRONOUNCEMENTS**
+**New Accounting Pronouncement Adopted**
+
+**_Measurement of Credit Losses_**
+
+In June 2016, and through subsequent amendments, the Financial Accounting Standards Board
+(“FASB”) issued guidance that requires the measurement and recognition of expected credit losses for
+financial assets. This new model replaces the existing “current incurred loss” model with a forward-looking
+“current expected credit loss”model. On January 1, 2020, we adopted this guidance on a modified retrospective
+basis. Based on the nature of our financial instruments included within the scope of this standard, which
+are primarily trade and other receivables, the adoption did not have a material effect on our consolidated
+financial statements.
+
+**_Implementation Costs Incurred in Cloud Computing Arrangements_**
+
+In August 2018, the FASB issued authoritative guidance related to the treatment of implementation
+costs incurred in a hosting arrangement that is considered a service contract. On January 1, 2020, we adopted
+this guidance on a prospective basis. The adoption did not have a material effect on our consolidated
+financial statements.
+
+**New Accounting Pronouncements Not Yet Adopted**
+
+**_Simplifying Accounting for Income Taxes_**
+
+In December 2019, the FASB issued new guidance to simplify the accounting for income taxes by
+removing certain exceptions to the general principles and also simplification of areas such as franchise
+taxes, step-up in tax basis goodwill, separate entity financial statements and interim recognition of enactment
+of tax laws or rate changes. The standard will be effective for annual reporting periods beginning after
+December 15, 2020, including interim reporting periods within those periods. We do not expect this standard
+to have a material impact on our consolidated financial statements.
+
+**_Reference Rate Reform_**
+
+In March 2020, the FASB issued optional guidance related to reference rate reform, which provides
+practical expedients for contract modifications and certain hedging relationships associated with the
+transition from reference rates that are expected to be discontinued. This guidance is applicable for our
+borrowing instruments, which use LIBOR as a reference rate, and is available for adoption effective
+immediately but is only available through December 31, 2022. We are currently evaluating the potential
+impact of this standard on our consolidated financial statements.
+
+**_Other Pronouncements_**
+
+Other new pronouncements issued but not effective until after December 31, 2020 are not expected to
+have a material impact on our consolidated financial statements.
+
+**3.** **PROPERTY AND EQUIPMENT, NET**
+
+‘Property and equipment, net’ consists of the following:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Leasehold improvements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 66,661 $ 64,540
+
+Machinery and equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47,107 39,011
+
+Furniture, fixtures, and other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,817 19,761
+
+Construction-in-progress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8,187 3,697
+
+Property and equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 143,772 127,009
+
+Less: Accumulated depreciation and amortization . . . . . . . . . . . . . . . . . . . . . . . . (86,305) (79,604)
+
+Property and equipment, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 57,467 $ 47,405
+
+
+-----
+
+**_Asset Retirement Obligations_**
+
+We are contractually obligated, under certain of our lease agreements, to restore certain retail and
+office facilities back to their original condition. At lease inception, the estimated fair value of these liabilities
+is recorded along with a related asset. Asset retirement obligations were not material to the consolidated
+balance sheets in the years ended December 31, 2020 or 2019.
+
+**_Depreciation and Amortization Expense_**
+
+Depreciation and amortization expense related to property and equipment, reported in ‘Cost of sales’
+and ‘Selling, general and administrative expenses’ was:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 3,921 $1,711 $ 1,422
+Selling, general and administrative expenses . . . . . . . . . . . . . . . . . . . . . . . 7,914 7,174 11,180
+
+Total depreciation and amortization expense . . . . . . . . . . . . . . . . . . . . . . . $11,835 $8,885 $12,602
+
+**_Disposals of Property and Equipment and Intangible Assets_**
+
+We recognized net losses on disposals of property and equipment and intangible assets of $0.3 million
+and $4.8 million, respectively, for the years ended December 31, 2020 and 2018, and a net gain on disposals
+of property and equipment and intangible assets of $0.2 million for the year ended December 31, 2019,
+which are included in ‘Selling, general and administrative expenses’ in the consolidated statement of
+operations.
+
+Additionally, we impaired our leasehold improvement assets for a retail location in the year ended
+December 31, 2020, as described in Note 7—Fair Value Measurements.
+
+**4.** **GOODWILL AND INTANGIBLE ASSETS, NET**
+
+**_Goodwill_**
+
+In the years ended December 31, 2020 and 2019, there were no changes to our goodwill, which is in our
+EMEA segment, aside from immaterial changes related to foreign currency translation. At December 31,
+2020, accumulated goodwill impairment was $0.8 million.
+
+**_Intangible Assets, Net_**
+
+‘Intangible assets, net’ reported in the consolidated balance sheets consist of the following:
+
+**December 31, 2020** **December 31, 2019**
+
+**Accum.** **Accum.**
+**Gross** **Amortiz.** **Net** **Gross** **Amortiz.** **Net**
+
+**(in thousands)**
+
+Intangible assets subject to
+amortization:
+
+Capitalized software . . . . . . . . . . . . . . $124,544 $(92,075) $32,469 $120,620 $(78,387) $42,233
+
+Patents, copyrights, and trademarks . . . 3,774 (3,351) 423 4,988 (4,373) 615
+
+Intangible assets not subject to
+amortization:
+
+In progress . . . . . . . . . . . . . . . . . . . . 4,660 — 4,660 4,170 — 4,170
+
+Trademarks and other . . . . . . . . . . . . 84 — 84 77 — 77
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . $133,062 $(95,426) $37,636 $129,855 $(82,760) $47,095
+
+
+-----
+
+At December 31, 2020, the weighted average remaining useful life of intangibles subject to amortization
+was approximately 6.4 years.
+
+**_Amortization Expense_**
+
+Amortization expense related to definite-lived intangible assets, reported in ‘Cost of sales’ and ‘Selling,
+general and administrative expenses’ was:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 3,975 $ 3,398 $ 3,889
+Selling, general and administrative expenses . . . . . . . . . . . . . . . . . . . . . . 11,809 11,930 12,759
+
+Total amortization expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $15,784 $15,328 $16,648
+
+Estimated future annual amortization expense of intangible assets is:
+
+**As of**
+**December 31, 2020**
+
+**(in thousands)**
+
+2021 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $15,731
+
+2022 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5,180
+
+2023 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4,548
+
+2024 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3,378
+
+2025 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2,106
+
+Thereafter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,949
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $32,892
+
+**5.** **ACCRUED EXPENSES AND OTHER LIABILITIES**
+
+Amounts reported in ‘Accrued expenses and other liabilities’ in the consolidated balance sheets were:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Accrued compensation and benefits . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 48,870 $ 42,460
+
+Professional services . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18,478 13,361
+
+Fulfillment, freight, and duties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17,868 20,110
+
+Sales/use and value added taxes payable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,480 6,843
+
+Return liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,906 7,090
+
+Royalties payable and deferred revenue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,254 3,740
+
+Accrued rent and occupancy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3,818 4,682
+
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,030 10,391
+
+Total accrued expenses and other liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $126,704 $108,677
+
+**6.** **LEASES**
+
+Our lease portfolio consists primarily of real estate assets, which includes retail, warehouse, distribution
+center, and office spaces, under operating leases expiring at various dates through 2033. Leases with an
+original term of twelve months or less are not reported in the consolidated balance sheets; expense for these
+short-term leases is recognized on a straight-line basis over the lease term.
+
+Many leases include one or more options to renew, with renewal terms that, if exercised by us, may
+extend the lease term. The exercise of these renewal options is at our discretion. When assessing the likelihood
+
+
+-----
+
+of a renewal or termination, we consider the significance of leasehold improvements, availability of
+alternative locations, and the cost of relocation or replacement, among other considerations. The depreciable
+lives of leasehold improvements are the shorter of the useful lives of the improvements or the expected
+lease term. We determine the lease term for each lease based on the terms of each contract and factor in
+renewal and early termination options if such options are reasonably certain to be exercised.
+
+Due to our centralized treasury function, we utilize a portfolio approach to discount our lease
+obligations. We assess the expected lease term at lease inception and discount the lease using a fully-secured
+annual incremental borrowing rate, adjusted for time value corresponding with the expected lease term.
+
+Certain of our retail store leases include rental payments based upon a percentage of retail sales in
+excess of a minimum fixed rental. In some cases, there is no fixed minimum rental and the entire rental
+payment is based upon a percentage of sales. Certain of our warehouse leases have rental payments that
+vary based upon the volume of product placed in storage. In addition, certain leases include rental payments
+adjusted periodically for changes in price level indices. We recognize expense for these types of payments
+as incurred and report them as variable lease expense.
+
+As a result of the COVID-19 pandemic, we received lease concessions from landlords in the form of
+rent deferrals and rent abatements in the year ended December 31, 2020. We chose to implement the policy
+election provided by the FASB in April 2020 to record rent concessions as if no modification to lease contracts
+were made, and thus no changes to the lease obligations were recorded in respect to these concessions. As
+of December 31, 2020, we had outstanding deferred rent of $0.4 million. In the year ended December 31,
+2020, we received rent abatements of $1.5 million.
+
+**_Right-of-Use Assets and Operating Lease Liabilities_**
+
+Amounts reported in the consolidated balance sheets were:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Assets:
+
+Right-of-use assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $167,421 $182,228
+
+Liabilities:
+
+Current operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 47,064 $ 48,585
+
+Long-term operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 146,401 140,148
+
+Total operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $193,465 $188,733
+
+**_Lease Costs and Other Information_**
+
+Lease-related costs reported within ‘Cost of sales’ and ‘Selling, general and administrative expenses’
+were:
+
+**Year Ended December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Operating lease cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $61,583 $60,142
+
+Short-term lease cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4,898 3,771
+
+Variable lease cost . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15,691 16,936
+
+Total lease costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $82,172 $80,849
+
+
+-----
+
+Other information related to leases, including supplemental cash flow information, consists of:
+
+**Year Ended December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Cash paid for operating leases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $59,579 $ 63,241
+Right-of-use assets obtained in exchange for operating lease liabilities(1) . . . . . . . . 55,369 233,437
+
+(1) In the year ended December 31, 2019, we adopted authoritative guidance related to leases. Therefore,
+the prior period amount presented here includes $176.1 million for operating leases existing on January 1,
+2019 and a net $57.3 million for operating leases that commenced or were modified in the year ended
+December 31, 2019.
+
+The weighted average remaining lease term and discount rate related to our lease liabilities as of
+December 31, 2020 were 6.7 years and 4.4%, respectively. As of December 31, 2019, the weighted average
+remaining lease term and discount rate related to our lease liabilities were 5.9 years and 4.8%, respectively.
+
+We also impaired our right-of-use assets for a retail location and our former corporate headquarters, as
+described in Note 7—Fair Value Measurements.
+
+**_Maturities_**
+
+The maturities of our operating lease liabilities were:
+
+**As of**
+**December 31, 2020**
+
+**(in thousands)**
+
+2021 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 50,559
+
+2022 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40,697
+
+2023 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30,882
+
+2024 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20,489
+
+2025 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14,314
+
+Thereafter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68,332
+
+Total future minimum lease payments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 225,273
+
+Less: imputed interest . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (31,808)
+
+Total operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $193,465
+
+**_Leases That Have Not Yet Commenced_**
+
+As of December 31, 2020, we had significant obligations for a lease not yet commenced related to our
+new EMEA distribution center. In the fourth quarter of 2019, we entered into a lease for a new distribution
+center in Dordrecht, the Netherlands, which is expected to replace our existing distribution center in
+Rotterdam by the end of 2021. The contractual commitment related to this lease, as amended, with payments
+expected to begin in the second quarter of 2021 and continuing through December 2030, is approximately
+€30 million, or $36 million, with expected total capital investments of approximately €30 million, or
+$36 million, through 2023.
+
+
+-----
+
+**_Comparative Information as Reported Under Previous Accounting Standards_**
+
+We adopted authoritative guidance related to leases effective January 1, 2019 using the modified
+retrospective method. The 2018 comparative information presented in the consolidated financial statements
+was not restated and is reported under the accounting standards in effect for the periods presented, as
+shown below:
+
+Rent expense for operating leases was:
+
+**Year Ended**
+**December 31, 2018**
+
+**(in thousands)**
+
+Minimum rentals[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $66,049
+Contingent rentals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14,297
+
+Total rent expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $80,346
+
+(1) Minimum rentals include all lease payments as well as fixed and variable common area maintenance,
+parking, and storage fees, which were approximately $9.3 million for the year ended December 31, 2018.
+
+**7.** **FAIR VALUE MEASUREMENTS**
+
+**_Recurring Fair Value Measurements_**
+
+The financial assets and liabilities that are measured and recorded at fair value on a recurring basis
+consist of our derivative instruments. Our derivative instruments are forward foreign currency exchange
+contracts. We manage credit risk of our derivative instruments on the basis of our net exposure with our
+counterparty. All of our derivative instruments are classified as Level 2 of the fair value hierarchy and are
+reported in the consolidated balance sheets within either ‘Prepaid expenses and other assets’ or ‘Accrued
+expenses and other liabilities’ at December 31, 2020 and 2019. The fair values of our derivative instruments
+were a liability of $0.4 million and an asset of $0.1 million at December 31, 2020 and 2019, respectively. See
+Note 8—Derivative Financial Instruments for more information.
+
+The carrying amounts of our cash, cash equivalents, and restricted cash, accounts receivable, accounts
+payable, and current accrued expenses and other liabilities approximate their fair value as recorded due to
+the short-term maturity of these instruments.
+
+Our borrowing instruments are recorded at their carrying values in the consolidated balance sheets,
+which may differ from their respective fair values. The fair values of our outstanding borrowings approximate
+their carrying values at December 31, 2020 and 2019, based on interest rates currently available to us for
+similar borrowings, and were:
+
+**December 31, 2020** **December 31, 2019**
+
+**Carrying** **Fair** **Carrying** **Fair**
+**Value** **Value** **Value** **Value**
+
+**(in thousands)**
+
+Borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $180,000 $180,000 $205,000 $205,000
+
+During the year ended December 31, 2020, we also recorded inventory donations of $9.9 million at fair
+value within ‘Selling, general and administrative expenses’ in our consolidated statements of operations. We
+did not record material inventory donations in the years ended December 31, 2019 or 2018.
+
+**_Non-Financial Assets and Liabilities_**
+
+Our non-financial assets, which primarily consist of property and equipment, right-of-use assets,
+goodwill, and other intangible assets, are not required to be carried at fair value on a recurring basis and are
+reported at carrying value.
+
+
+-----
+
+The fair values of these assets were determined based on Level 3 measurements, including estimates of
+the amount and timing of future cash flows based upon historical experience, expected market conditions,
+and management’s plans. We recorded impairments as follows:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Supply chain assets impairment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ — $ — $1,284
+Retail store assets impairment[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2,412 — 898
+Right-of-use assets impairment[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18,659 — —
+
+Total asset impairments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $21,071 $ — $2,182
+
+(1) During the year ended December 31, 2020, we recognized impairments for a retail location in New
+York City of $2.4 million to retail store assets and $17.6 million to the right-of-use asset. We also
+recognized an impairment of $1.1 million to the right-of-use asset for our corporate headquarters in
+Niwot, Colorado, as a result of our relocation to Broomfield, Colorado.
+
+**8.** **DERIVATIVE FINANCIAL INSTRUMENTS**
+
+We transact business in various foreign countries and are therefore exposed to foreign currency
+exchange rate risk that impacts the reported U.S. Dollar amounts of revenues, expenses, and certain foreign
+currency monetary assets and liabilities. In order to manage exposure to fluctuations in foreign currency
+and to reduce the volatility in earnings caused by fluctuations in foreign exchange rates, we may enter into
+forward contracts to buy and sell foreign currency. By policy, we do not enter into these contracts for trading
+purposes or speculation.
+
+Counterparty default risk is considered low because the forward contracts we enter into are over-thecounter instruments transacted with highly-rated financial institutions. We were not required to and did not
+post collateral as of December 31, 2020 or 2019.
+
+Our derivative instruments are recorded at fair value as a derivative asset or liability in the consolidated
+balance sheets. We report derivative instruments with the same counterparty on a net basis when a master
+netting arrangement is in place. Changes in fair value are recognized within ‘Foreign currency gains (losses),
+net’ in the consolidated statements of operations. For the consolidated statements of cash flows, we
+classify cash flows from derivative instruments at settlement in the same category as the cash flows from the
+related hedged items within ‘Cash provided by operating activities.’
+
+**_Results of Derivative Activities_**
+
+The fair values of derivative assets and liabilities, net, all of which are classified as Level 2, are reported
+within either ‘Prepaid expenses and other assets’ or ‘Accrued expenses and other liabilities’ in the consolidated
+balance sheets and were:
+
+**December 31, 2020** **December 31, 2019**
+
+**Derivative** **Derivative** **Derivative** **Derivative**
+**Assets** **Liabilities** **Assets** **Liabilities**
+
+**(in thousands)**
+
+Forward foreign currency exchange contracts . . . . . . . . . . . . . $ 794 $(1,225) $ 535 $(424)
+
+Netting of counterparty contracts . . . . . . . . . . . . . . . . . . . . . (794) 794 (424) 424
+
+Foreign currency forward contract derivatives . . . . . . . . . . . . . $ — $ (431) $ 111 $ —
+
+The notional amounts of outstanding forward foreign currency exchange contracts shown below
+report the total U.S. Dollar equivalent position and the net contract fair values for each foreign currency
+position.
+
+
+-----
+
+**December 31, 2020** **December 31, 2019**
+
+**Notional** **Fair Value** **Notional** **Fair Value**
+
+**(in thousands)**
+
+Euro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 28,851 $ (82) $ 46,757 $ 36
+Singapore Dollar . . . . . . . . . . . . . . . . . . . . . . . . . 24,211 457 31,255 344
+Indian Rupee . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18,937 (134) 17,088 (1)
+Japanese Yen . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17,447 (240) 11,823 63
+British Pound Sterling . . . . . . . . . . . . . . . . . . . . . 16,134 (182) 9,155 (104)
+South Korean Won . . . . . . . . . . . . . . . . . . . . . . . 3,741 (56) 10,328 (82)
+Other currencies . . . . . . . . . . . . . . . . . . . . . . . . . 9,675 (194) 7,881 (145)
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $118,996 $(431) $134,287 $ 111
+
+Latest maturity date . . . . . . . . . . . . . . . . . . . . . . . January 2021 January 2020
+
+Amounts reported in ‘Foreign currency gains (losses), net’ in the consolidated statements of operations
+include both realized and unrealized gains (losses) from foreign currency transactions and derivative contracts
+and were as follows:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Foreign currency transaction gains (losses) . . . . . . . . . . . . . . . . . . . . . . . . . $ 941 $ (356) $ 552
+
+Foreign currency forward exchange contracts gains (losses) . . . . . . . . . . . . . (2,069) (967) 766
+
+Foreign currency gains (losses), net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $(1,128) $(1,323) $1,318
+
+**9.** **REVOLVING CREDIT FACILITY AND BANK BORROWINGS**
+
+Our borrowings were as follows:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Revolving credit facilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $180,000 $205,000
+
+Less: Current portion of borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — —
+
+Total long-term borrowings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $180,000 $205,000
+
+The weighted average interest rate on outstanding borrowings as of December 31, 2020 and 2019 was
+2.53% and 3.96%, respectively.
+
+**_Senior Revolving Credit Facility_**
+
+In July 2019, Crocs, Inc. and certain of its subsidiaries (the “Borrowers”) entered into a Second
+Amended and Restated Credit Agreement (as amended, the “Credit Agreement”), with the lenders named
+therein and PNC Bank, National Association, as a lender and administrative agent for the lenders, which
+provides for a revolving credit facility of $500.0 million, which can be increased by an additional
+$100.0 million subject to certain conditions (the “Facility”). Borrowings under the Credit Agreement bear
+interest at a variable rate based on (A) a domestic base rate (defined as the highest of (i) the Federal Funds
+open rate, plus 0.25%, (ii) the Prime Rate, and (iii) the Daily LIBOR rate, plus 1.00%), plus an applicable
+margin ranging from 0.25% to 0.875% based on our leverage ratio, or (B) a LIBOR rate, plus an applicable
+margin ranging from 1.25% to 1.875% based on our leverage ratio. Borrowings under the Credit Agreement
+are secured by all of the assets of the Borrowers and guaranteed by certain other subsidiaries of the
+Borrowers.
+
+
+-----
+
+The Credit Agreement requires us to maintain a minimum interest coverage ratio of 4.00 to 1.00, and a
+maximum leverage ratio of (i) 3.50 to 1.00 from the quarter ended December 31, 2020 to the quarter ended
+December 31, 2021 and (ii) 3.25 to 1.00 from the quarter ending March 31, 2022 and thereafter (subject to
+adjustment in certain circumstances). The Credit Agreement permits (i) stock repurchases subject to
+certain restrictions, including after giving effect to such stock repurchases, the maximum leverage ratio does
+not exceed certain levels; and (ii) certain acquisitions so long as there is borrowing availability under the
+Credit Agreement of at least $40.0 million. As of December 31, 2020, we were in compliance with all financial
+covenants under the Credit Agreement.
+
+As of December 31, 2020, the total commitments available from the lenders under the Facility were
+$500.0 million. At December 31, 2020, we had $180.0 million in outstanding borrowings, which are due
+when the Facility matures in July 2024, and $0.6 million in outstanding letters of credit under the Facility,
+which reduces amounts available for borrowing under the Facility. As of December 31, 2020 and 2019, we had
+$319.4 million and $240.4 million, respectively, of available borrowing capacity under the Facility.
+
+**_Asia Revolving Credit Facilities_**
+
+Our revolving credit facility with China Merchants Bank Company Limited, Shanghai Branch (the
+“CMBC Facility”) provides up to 30.0 million RMB, or $4.6 million at current exchange rates, and matures
+in May 2021. For RMB loans under the CMBC Facility, interest is determined at the time of borrowing
+based on variable rates in effect at that time.
+
+The revolving credit facility with Citibank (China) Company Limited, Shanghai Branch (the “Citibank
+Facility”) provides up to an equivalent of $5.0 million and matures in June 2021. For RMB loans under the
+Citibank Facility, interest is based on a National Interbank Funding Center 1-year prime rate, plus 65
+basis points. For USD loans under the Citibank Facility, interest is based on a LIBOR rate, plus 1.5%.
+
+We had no borrowings under our Asia revolving facilities during the years ended December 31, 2020
+and 2019 or outstanding at December 31, 2020 or 2019.
+
+**10.** **EQUITY**
+
+**_Common Stock_**
+
+We have one class of common stock with a par value of $0.001 per share. There are 250.0 million
+shares of common stock authorized for issuance. Holders of common stock are entitled to one vote per
+share on all matters presented to common stockholders.
+
+**_Common Stock Repurchase Program_**
+
+On February 20, 2018, the Board of Directors approved and authorized a program to repurchase up to
+$500.0 million of our common stock, and on May 5, 2019, the Board approved an increase to the repurchase
+authorization of an additional $500.0 million of our common stock. The number, price, structure, and
+timing of the repurchases are at our sole discretion and may be made depending on market conditions,
+liquidity needs, restrictions under our revolving credit facility, and other factors. The Board of Directors may
+suspend, modify, or terminate the program at any time without prior notice. Share repurchases may be
+made in the open market or in privately negotiated transactions. The repurchase authorization does not have
+an expiration date and does not obligate us to acquire any amount of our common stock. Under Delaware
+state law, these shares are not retired, and we have the right to resell any of the shares repurchased.
+
+We repurchased 3.2 million shares of our common stock at a cost of $170.8 million, including
+commissions, during the year ended December 31, 2020. This includes 1.5 million shares delivered under a
+$125.0 million November 2020 accelerated share repurchase arrangement (“ASR”). Under the ASR, a
+financial institution delivers shares of our common stock during the purchase period in exchange for an upfront payment. The total number of shares ultimately delivered under the ASR, and therefore the average
+repurchase price paid per share, is determined based on the volume-weighted average price of our common
+stock during the purchase period. The purchase period for this ASR ended in January 2021, at which
+time an additional 0.5 million shares were delivered. The shares received are recorded in the periods they are
+delivered, and the up-front payment is accounted for as a reduction to stockholders’ equity in our
+
+
+-----
+
+consolidated balance sheet in the period the payment is made. As of December 31, 2020, we had remaining
+authorization to repurchase approximately $337.8 million of our common stock, subject to restrictions under
+our Credit Agreement.
+
+During the year ended December 31, 2019, we repurchased 6.1 million shares of our common stock at
+a cost of $147.2 million, including commissions, and during the year ended December 31, 2018, we
+repurchased 3.6 million shares of our common stock at a cost of $63.1 million, including commissions.
+
+**_Preferred Stock_**
+
+We have authorized and available for issuance 5.0 million shares of preferred stock. Of these preferred
+shares, 1.0 million were authorized as Series A Convertible Preferred Stock (“Series A Preferred”) with a
+par value of $0.001 per share and none were issued and outstanding as of December 31, 2020.
+
+**_2018 Repurchase and Conversion_**
+
+On December 5, 2018, all of the outstanding Series A Preferred was repurchased or converted to
+common stock. As a result, we recognized the remaining unamortized original issue discount and beneficial
+conversion feature accretion of $14.7 million, and settled the beneficial conversion feature related to the
+repurchased Series A Preferred of $6.1 million, resulting in a net increase of $8.6 million in ‘Dividend
+equivalents on Series A convertible preferred stock related to redemption value accretion and beneficial
+conversion feature’ in the consolidated statement of operations. We repurchased 100,000 shares of Series A
+Preferred with a carrying value of $100.0 million in exchange for a cash payment of $183.7 million. The
+repurchase payment in excess of the carrying value of $83.7 million is reported within ‘Dividends on Series A
+convertible preferred stock’ in the consolidated statement of operations for the year ended December 31,
+2018. The remaining 100,000 shares of Series A Preferred were converted to 6,896,548 shares common stock.
+In connection with the conversion, we paid $15.0 million in cash to induce conversion, of which
+$12.0 million was paid at closing, with the remaining $3.0 million paid in January 2019. In addition, we
+paid other costs associated with this transaction of $0.5 million. The $15.0 million inducement dividend and
+the $0.5 million of other costs are reported within ‘Dividends on Series A convertible preferred stock’ in
+the consolidated statement of operations for the year ended December 31, 2018. Subsequently, in
+November 2019, Blackstone sold all shares of its common stock in an underwritten public offering.
+
+**11.** **REVENUES**
+
+Revenues by reportable operating segment and by channel were:
+
+**Year Ended December 31, 2020**
+
+**Other**
+**Americas** **Asia Pacific** **EMEA** **Businesses** **Total**
+
+**(in thousands)**
+
+Channel:
+
+Wholesale . . . . . . . . . . . . . . . . . . . . . . . . . . $390,930 $133,416 $168,410 $163 $ 692,919
+
+Retail . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 249,238 64,789 19,989 — 334,016
+
+E-commerce . . . . . . . . . . . . . . . . . . . . . . . . 223,445 80,310 55,261 — 359,016
+
+Total revenues . . . . . . . . . . . . . . . . . . . . . . . $863,613 $278,515 $243,660 $163 $1,385,951
+
+**Year Ended December 31, 2019**
+
+**Other**
+**Americas** **Asia Pacific** **EMEA** **Businesses** **Total**
+
+**(in thousands)**
+
+Channel:
+
+Wholesale . . . . . . . . . . . . . . . . . . . . . . . . . . $275,284 $207,405 $173,480 $58 $ 656,227
+
+Retail . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 241,694 74,793 30,875 — 347,362
+
+E-commerce . . . . . . . . . . . . . . . . . . . . . . . . 123,537 65,874 37,593 — 227,004
+
+Total revenues . . . . . . . . . . . . . . . . . . . . . . . $640,515 $348,072 $241,948 $58 $1,230,593
+
+
+-----
+
+**Year Ended December 31, 2018**
+
+**Other**
+**Americas** **Asia Pacific** **EMEA** **Businesses** **Total**
+
+**(in thousands)**
+
+Channel:
+Wholesale . . . . . . . . . . . . . . . . . . . . . . . . . . $216,797 $203,110 $154,992 $3,145 $ 578,044
+Retail . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204,806 87,264 35,358 — 327,428
+E-commerce . . . . . . . . . . . . . . . . . . . . . . . . 98,589 54,224 29,920 — 182,733
+
+Total revenues . . . . . . . . . . . . . . . . . . . . . . . $520,192 $344,598 $220,270 $3,145 $1,088,205
+
+Revenues are recognized in the amount expected to be received in exchange for when control of the
+products transfers to customers, and excludes various forms of promotions, which range from contractuallyfixed percentage price reductions to sales returns, discounts, rebates, and other incentives that may vary in
+amount, must be estimated, and are reported as a reduction in revenues. Variable amounts are estimated based
+on an analysis of historical experience and adjusted as better estimates become available. During the year
+ended December 31, 2020, we recognized a net increase of $0.6 million to wholesale revenues and an increase
+of $1.1 million to e-commerce revenues due to changes in estimates related to products transferred to
+customers in prior periods. During the year ended December 31, 2019, we recognized a net increase of
+$0.4 million to wholesale revenues and a decrease of $0.1 million to e-commerce revenues due to changes in
+estimates related to products transferred to customers in prior periods. During the year ended December 31,
+2018, we recognized a net increase of $0.8 million to wholesale revenues and no change to e-commerce revenues
+due to changes in estimates related to products transferred to customers in prior periods. There were no
+changes to estimates in retail channels during the years ended December 31, 2020, 2019, and 2018.
+
+We have elected to exclude from revenues taxes assessed by governmental authorities, including
+value-added and other sales-related taxes, that are imposed on and concurrent with revenue-producing
+activities.
+
+We have also elected to expense incremental costs to obtain customer contracts, consisting primarily of
+commission incentives, when incurred because the related amortization period is short-term. These costs are
+reported within ‘Selling, general and administrative expenses’ in our consolidated statement of operations.
+
+The following is a description of our principal revenue-generating activities by distribution channel. We
+have three reportable operating segments and sell our products using three primary distribution channels.
+For more detailed information about reportable operating segments, see Note 16—Operating Segments and
+Geographic Information.
+
+**_Wholesale Channel_**
+
+For the majority of wholesale customers, control transfers and revenues are recognized when the
+product is shipped or delivered from a manufacturing facility or distribution center to the wholesale
+customer. In certain cases, control of the product transfers and revenues are recognized when the customer
+receives the product at the designated delivery point. For certain customers, primarily in the Asia Pacific
+region, cash payment is required in advance of delivery and revenues are recognized upon delivery of the
+product. For a small number of customers in the Asia Pacific region, products are sold on consignment and
+revenues are recognized on a sell-through basis. Wholesale customers are invoiced when products are
+shipped or delivered.
+
+We have arrangements that grant certain wholesale customers exclusive licenses, concurrent with the
+terms of the related distribution agreements, to use our intellectual property in exchange for a sales-based
+royalty. Sales-based royalty revenues are recognized over the terms of the related license agreements as sales
+are made by the wholesalers.
+
+**_Retail Channel_**
+
+We transfer control of products and recognize revenues at Company-operated retail stores at the point
+of sale, in exchange for cash or other payment, primarily debit or credit card. A portion of the transaction
+
+
+-----
+
+price charged to our customers is variable, primarily due to promotional discounts or allowances, and terms
+that permit retail customers to exchange or return products for a full refund within a limited period of
+time. When recognizing revenues, the amount of revenues associated with expected sales returns is estimated
+based on historical experience, and adjustments to our estimates are made when the most likely amount of
+consideration we expect to receive changes.
+
+**_E-commerce Channel_**
+
+In the e-commerce channel, we transfer control and recognize revenues when the product is shipped
+from the distribution centers. Payment from customers is primarily through debit and credit card, and other
+e-payment methods, and is made at the time the customer order is shipped.
+
+Similar to the retail channel, a portion of the amount of revenue is variable, primarily due to sales
+returns and discounts, offered to our customers. When recognizing revenues, the amount of revenues
+associated with expected sales returns is estimated based on historical experience, and adjustments are made
+when the most likely amount of consideration changes.
+
+**_Contract Liabilities_**
+
+Contract liabilities consist of advance cash deposits received from wholesale customers to secure
+product orders in connection with selling seasons and payments received in advance of delivery. As
+products are shipped and control transfers, we recognize the deferred revenue in ‘Revenues’ in the
+consolidated statements of operations. At December 31, 2020 and 2019, $0.7 million and $1.2 million,
+respectively, of deferred revenues associated with advance customer deposits were reported in ‘Accrued
+expenses and other liabilities’ in the consolidated balance sheets.
+
+**_Refund Liabilities_**
+
+Refund liabilities, primarily associated with product sales returns, retrospective volume rebates, and
+early payment discounts are estimated based on an analysis of historical experience, and adjustments to
+revenues made when the most likely amount of consideration expected changes. At December 31, 2020 and
+2019, $6.9 million and $7.1 million, respectively, of refund liabilities, primarily associated with product
+returns, were reported in ‘Accrued expenses and other liabilities’ in the consolidated balance sheets.
+
+**12.** **SHARE-BASED COMPENSATION**
+
+On June 10, 2020, our stockholders approved the Crocs, Inc. 2020 Equity Incentive Plan (the “2020
+Plan”). The 2020 Plan provides for the grant of incentive and non-qualified stock options, stock appreciation
+rights, restricted stock, restricted stock units, performance units, and other stock-based awards. The 2020
+Plan replaces our 2015 Equity Incentive Plan (the “2015 Plan”), and no further awards will be made under
+the 2015 Plan after the effective date of the 2020 Plan. Additionally, any awards that expire or are forfeited
+under the 2015 Plan become available for issuance under the 2020 Plan. We account for forfeitures as they
+occur when calculating share-based compensation expense. The aforementioned plans provide for the issuance
+of previously unissued common stock in connection with the exercise of stock options and conversion of
+other share-based awards. As of December 31, 2020, 5.0 million shares of common stock remained available
+for future issuance under all plans, subject to adjustment for future stock splits, stock dividends, and
+similar changes in capitalization.
+
+**_Share-Based Compensation Expense_**
+
+Pre-tax share-based compensation expense reported in the consolidated statements of operations was:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Cost of sales . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 210 $ 580 $ 362
+
+Selling, general and administrative expenses . . . . . . . . . . . . . . . . . . . . . . 16,151 13,832 12,743
+
+Total share-based compensation expense . . . . . . . . . . . . . . . . . . . . . . . . . $16,361 $14,412 $13,105
+
+
+-----
+
+**_Stock Option Activity_**
+
+Stock option activity during the year ended December 31, 2020 was:
+
+**Number of**
+**Options**
+
+
+**Weighted**
+**Average**
+**Exercise Price**
+
+
+**Aggregate**
+**Intrinsic**
+**Value**
+
+
+**Weighted**
+**Average**
+**Contractual**
+**Life (Years)**
+
+
+**(in thousands, except exercise price and years)**
+
+Outstanding as of December 31, 2019 . . . . . . . . . . . . . . . 315 $10.45 5.28 $ 9,904
+Granted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . — —
+Exercised . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (83) 16.42
+Forfeited or expired . . . . . . . . . . . . . . . . . . . . . . . . . . . — —
+
+Outstanding as of December 31, 2020 . . . . . . . . . . . . . . . 232 $ 8.29 5.84 $12,586
+
+Exercisable at December 31, 2020 . . . . . . . . . . . . . . . . . . 232 $ 8.29 5.84 $12,586
+
+Vested and expected to vest at December 31, 2020 . . . . . . 232 $ 8.29 5.84 $12,586
+
+No stock options were granted during 2020, 2019, or 2018. The aggregate intrinsic value of stock
+options exercised during the years ended December 31, 2020, 2019, and 2018 was $0.8 million, $0.4 million,
+and $1.7 million, respectively. During the years ended December 31, 2020, 2019, and 2018, we received
+$1.4 million, $0.4 million, and $1.3 million cash, respectively, in connection with the exercise of stock options.
+As of December 31, 2020, we did not have any unrecognized share-based compensation expense related to
+unvested options.
+
+Stock options under our equity incentive plans generally vest ratably over four years with the first
+vesting occurring one year from the date of grant, followed by monthly vesting for the remaining three years,
+and expire ten years after the date of grant.
+
+**_Restricted Stock Awards and Restricted Stock Units Activity_**
+
+From time to time, we grant RSAs and RSUs. RSAs and RSUs generally vest over three years,
+depending on the terms of the grant. Holders of unvested RSAs have the same rights as those of common
+stockholders including voting rights and non-forfeitable dividend rights. However, ownership of unvested
+RSAs cannot be transferred until vested. Holders of unvested RSUs have a contractual right to receive
+shares of common stock upon vesting. RSUs have dividend equivalent rights, which accrue over the term of
+the award and are paid if and when the RSUs vest, but RSU holders have no voting rights. We grant servicecondition RSUs, performance-condition RSUs, and, less frequently, market-condition RSUs.
+
+Service-condition RSUs are typically granted on an annual basis and vest over time in three equal
+annual installments, beginning one year after the grant date. During the years ended December 31, 2020,
+2019, and 2018, we granted 0.6 million, 0.3 million, and 0.4 million service-condition RSUs, respectively.
+
+Performance-condition RSUs are typically granted on an annual basis and consist of a performancebased and service-based component. The performance targets and vesting conditions for performancecondition RSUs are based on achievement of multiple weighted performance goals. The number of
+performance-condition RSUs ultimately awarded may be between 0% and 200%, based on performance.
+These RSUs vest in three equal annual installments beginning one year after the grant date, pending
+certification of performance achievement by the Compensation Committee of our Board of Directors and
+continued service. The fair value of performance-condition awards is based on the closing market price of our
+common stock on the grant date. Compensation expense, net of forfeitures, is updated for our expected
+performance level against performance goals at the end of each reporting period. We also periodically grant
+market-condition RSUs to certain executives. The grant date fair value and derived service period for marketcondition RSUs are estimated using a Monte Carlo simulation valuation model. During the years ended
+December 31, 2020, 2019, and 2018, we granted 0.5 million, 0.5 million, and 1.0 million performance- and
+market-condition RSUs, respectively.
+
+
+-----
+
+RSA and RSU activity during the year ended December 31, 2020 was:
+
+**Restricted Stock Awards** **Restricted Stock Units**
+
+
+**Weighted**
+**Average**
+**Grant Date**
+**Fair Value**
+
+
+**Shares**
+
+
+**Weighted**
+**Average**
+**Grant Date**
+**Fair Value** **Shares**
+
+
+**(in thousands, except fair value data)**
+
+Unvested at December 31, 2019 . . . . . . . . . . . . . . . . . . . . . . . 5 $19.39 1,927 $17.77
+Granted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 38.10 1,113 29.14
+Vested . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (6) 28.35 (854) 13.95
+Forfeited . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (2) 23.47 (356) 24.01
+
+Unvested at December 31, 2020 . . . . . . . . . . . . . . . . . . . . . . . 3 $37.79 1,830 $25.25
+
+The weighted average grant date fair value of RSAs granted during the years ended December 31,
+2020, 2019, and 2018 was $38.10, $20.53, and $18.61 per share, respectively. RSAs vested during the years
+ended December 31, 2020, 2019, and 2018 consisted entirely of service-condition awards. The total grant date
+fair value of RSAs vested was $0.2 million in each of the years ended December 31, 2020, 2019, and 2018.
+
+As of December 31, 2020, unrecognized share-based compensation expense for RSAs was $0.1 million,
+which is expected to amortize over a remaining weighted average period of 0.4 years.
+
+The weighted average grant date fair value of RSUs granted during the years ended December 31,
+2020, 2019, and 2018 was $29.14, $25.37, and $14.34 per share, respectively. RSUs vested during the year
+ended December 31, 2020 consisted of 0.5 million service-condition awards and 0.4 million performance- and
+market-condition awards. RSUs vested during the year ended December 31, 2019 consisted of 0.6 million
+service-condition awards and 0.4 million performance- and market-condition awards. RSUs vested during the
+year ended December 31, 2018 consisted of 0.9 million service-condition awards and 0.2 million
+performance- and market-condition awards. The total grant date fair value of RSUs vested during the years
+ended December 31, 2020, 2019, and 2018 was $11.9 million, $9.9 million and $9.7 million, respectively.
+
+As of December 31, 2020, unrecognized share-based compensation expenses for service-condition
+RSUs were $17.1 million and for performance- and market-condition RSUs were $5.7 million, and are
+expected to amortize over remaining weighted average periods of 1.9 years and 1.6 years, respectively.
+
+**13.** **INCOME TAXES**
+
+During the year ended December 31, 2017, as a result of the Tax Act, we recorded provisional estimates
+related to the revaluation of our net deferred tax assets at the lower U.S. corporate income tax rate and the
+additional tax expense associated with the deemed repatriation tax. During the year ended December 31,
+2018, we recorded measurement period adjustments related to the provisional estimates. While we consider
+our accounting for the Tax Act to be complete, we continue to evaluate new guidance and legislation as it is
+issued. We have not changed our indefinite reinvestment assertion, and we have elected to account for the
+impact of global intangible low tax income based on the period cost method.
+
+During the three months ended December 31, 2020, we completed an intra-entity transfer of certain
+intellectual property rights primarily to align with current and future international operations. This
+transaction was executed using transfer pricing guidelines issued by the relevant taxing authorities. Significant
+estimates and assumptions were required to compute the valuation of this transaction. These estimates
+and assumptions include, but are not limited to, estimated future revenue growth and discount rates, which
+by their nature are inherently uncertain therefore may ultimately differ materially from our actual results.
+
+We have recorded certain tax reserves to address potential differences involving our income tax
+positions. These potential tax liabilities result from the varying application of statutes, rules, regulations and
+interpretations by different taxing jurisdictions. While our tax position is not uncertain, because of the
+significant estimates used in the value of certain intellectual property rights, our tax reserves contain
+assumptions based on past experiences and judgments about the interpretation of statutes, rules and
+
+
+-----
+
+regulations by taxing jurisdictions. It is possible that the costs of the ultimate tax liability or benefit from
+these matters may be materially more or less than the amount that we estimated.
+
+The transfer resulted in a step-up in tax basis of intellectual property rights and a correlated increase in
+foreign deferred tax assets based on the fair value of the transferred intellectual property rights. We recorded
+a deferred tax asset of $492.5 million, net of a reserve for uncertain tax positions of $197.0 million, and
+further reduced by a valuation allowance of $167.8 million. Based on available objective evidence, management
+believes that $167.8 million of the deferred tax asset, to the extent not offset by reserves for uncertain tax
+positions, is not more-likely-than-not to be realizable as of December 31, 2020 and, therefore, is offset by a
+valuation allowance. As such, a net deferred tax asset of $127.7 million was recognized along with a
+corresponding foreign deferred income tax benefit.
+
+The following table sets forth income before taxes and the expense for income taxes:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Income before taxes:
+
+U.S. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 133,574 $ 58,822 $10,088
+
+Foreign . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73,405 60,500 55,069
+
+Total income before taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 206,979 $119,322 $65,157
+
+Income tax expense (benefit):
+
+Current income taxes:
+
+U.S. federal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 698 $ 1,284 $ 1,156
+
+U.S. state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,577 1,427 246
+
+Foreign . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 211,904 13,373 12,359
+
+Total current income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 219,179 16,084 13,761
+
+Deferred income taxes:
+
+U.S. federal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 529 (10,249) 276
+
+U.S. state . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (2,381) (3,579) —
+
+Foreign . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (323,209) (2,431) 683
+
+Total deferred income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (325,061) (16,259) 959
+
+Total income tax expense (benefit) . . . . . . . . . . . . . . . . . . . . . . . . . . . $(105,882) $ (175) $14,720
+
+The following table sets forth income reconciliations of the statutory federal income tax rate to actual
+rates based on income or loss before income taxes:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Income tax expense and rate attributable to:
+
+Federal income tax rate . . . . . . . . . . . . . . . . . $ 43,466 21.0% $ 25,058 21.0% $13,683 21.0%
+
+State income tax rate, net of federal benefit . . . 7,231 3.5% 5,983 5.0% 1,271 2.0%
+
+Foreign income tax rate differential . . . . . . . . (6,060) (2.9)% 1,994 1.7% 7,630 11.6%
+
+GILTI, net . . . . . . . . . . . . . . . . . . . . . . . . . 7,515 3.6% 7,585 6.4% 3,443 5.3%
+
+Non-deductible / non-taxable items . . . . . . . . 6,871 3.3% 6,727 5.7% 3,602 5.5%
+
+Change in valuation allowance . . . . . . . . . . . . 143,012 69.0% (33,691) (28.2)% (5,304) (8.1)%
+
+Foreign tax credits . . . . . . . . . . . . . . . . . . . . (15,904) (7.7)% (11,907) (10.0)% (7,214) (11.1)%
+
+Uncertain tax positions . . . . . . . . . . . . . . . . . 200,571 96.9% 278 0.2% (1,696) (2.6)%
+
+
+-----
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Share-based compensation . . . . . . . . . . . . . . $ (1,303) (0.6)% (2,715) (2.3)% 764 1.2%
+Intra-Entity IP Transfer . . . . . . . . . . . . . . . . (492,470) (237.9)% — —% — —%
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,189 0.6% 513 0.4% (1,459) (2.2)%
+
+Effective income tax expense and rate . . . . . . . $(105,882) (51.2)%$ (175) (0.1)% $14,720 22.6%
+
+Deferred income taxes reflect the net effects of temporary differences between the carrying amounts of
+assets and liabilities for financial reporting purposes and the amounts used for income tax purposes. The
+following table sets forth deferred income tax assets and liabilities as of the date shown:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Non-current deferred tax assets:
+
+Share-based compensation expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 1,934 $ 2,218
+
+Accruals, reserves, and other expenses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16,905 13,726
+
+Net operating loss . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26,842 29,997
+
+Intangible assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 493,701 990
+
+Foreign tax credit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38,948 64,355
+
+Operating lease liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41,391 36,996
+
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5,601 4,467
+
+Valuation allowance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (226,655) (79,023)
+
+Total non-current deferred tax assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 398,667 $ 73,726
+
+Non-current deferred tax liabilities:
+
+Unrealized gain on foreign currency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ (506) $ (529)
+
+Property and equipment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (13,583) (13,713)
+
+Right-of-use assets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (33,769) (34,470)
+
+Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (25) (267)
+
+Total non-current deferred tax liabilities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ (47,883) $(48,979)
+
+During 2020, valuation allowances recorded against deferred tax assets increased by $147.6 million.
+The change in the valuation allowance includes $143.0 million related to income tax benefit and $4.6 million
+that does not impact the tax provision because this amount reflects the cumulative impact of unrecorded
+tax attributes related to changes in cumulative translation adjustments. During 2019, valuation allowances
+decreased by $34.2 million. The change in the valuation allowance includes $33.7 million related to income tax
+expense and $0.5 million that does not impact the tax provision because this amount reflects the impact of
+unrecorded tax attributes related to changes in cumulative translation adjustments.
+
+Our valuation allowances are primarily the result of uncertainties regarding the future realization of
+tax attributes recorded in various jurisdictions. The measurement of deferred tax assets is reduced by a
+valuation allowance if, based upon available evidence, it is more likely than not the deferred tax assets will
+not be realized. We have evaluated the realizability of our deferred tax assets in each jurisdiction by assessing
+the adequacy of expected taxable income, including the reversal of existing temporary differences, historical
+and projected operating results and the availability of prudent and feasible tax planning strategies. In
+assessing our valuation allowance we considered all available evidence, including the magnitude of recent
+and current operating results, the duration of statutory carryforward periods, our historical experience
+utilizing tax attributes prior to their expiration dates, the historical volatility of operating results of these
+jurisdictions, and our assessment regarding the sustainability of their profitability. The weight we give to
+
+
+-----
+
+any particular item is, in part, dependent upon the degree to which it can be objectively verified. Certain
+jurisdictions, for which we have historically recorded significant valuation allowances, have sufficient history
+of sustained profitability as of December 31, 2020. During 2020, valuation allowances recorded against
+deferred tax assets, not associated with the intra-entity intellectual property rights transfer, decreased by
+$20.2 million.
+
+In certain other jurisdictions, we recorded additional attributes, primarily driven by operational losses
+recognized based on local tax accounting requirements. These carryforwards were generated in jurisdictions
+where results indicate it is not more likely than not the deferred tax assets would be realized. We maintain
+a valuation allowance against the majority of these balances.
+
+We have included in the table above deferred tax assets related to U.S. federal tax carryforwards,
+including foreign tax credits and other tax credits, which expire at various dates between 2026 and 2040 of
+$5.8 million and $39.7 million as of December 31, 2020 and 2019, respectively. We have included in the table
+above deferred tax assets related to U.S. state tax net operating loss carryforwards, some of which expire at
+various dates beginning in 2022 and some of which do not expire, of $3.6 million and $6.7 million at
+December 31, 2020 and 2019, respectively. We have recorded deferred tax assets related to foreign tax
+carryforwards, including foreign tax credits and net operating losses, which expire starting in 2021 and those
+which do not expire of $58.4 million and $48.0 million as of December 31, 2020 and 2019, respectively. We
+maintain a valuation allowance against a portion of the foreign carryforwards and other attributes.
+
+The transition tax in the Tax Act imposed a tax on undistributed and previously untaxed foreign earnings
+at various tax rates. This tax largely eliminated the differences between the financial reporting and income
+tax basis of foreign undistributed earnings. Furthermore, as of December 31, 2020, foreign withholding taxes
+have not been provided on unremitted earnings of subsidiaries operating outside of the U.S. as these
+amounts are considered to be indefinitely reinvested.
+
+The following table sets forth a reconciliation of the beginning and ending amount of unrecognized tax
+benefits:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Unrecognized tax benefit as of January 1 . . . . . . . . . . . . . . . . . . . . . . $ 4,613 $ 4,511 $ 6,204
+
+Additions in tax positions taken in prior period . . . . . . . . . . . . . . . . . . 519 631 250
+
+Reductions in tax positions taken in prior period . . . . . . . . . . . . . . . . . (340) (1,532) (690)
+
+Additions in tax positions taken in current period . . . . . . . . . . . . . . . . 200,947 1,786 461
+
+Settlements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (294) (391) (621)
+
+Lapse of statute of limitations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (258) (368) (1,045)
+
+Cumulative foreign currency translation adjustment . . . . . . . . . . . . . . . 1,022 (24) (48)
+
+Unrecognized tax benefit as of December 31 . . . . . . . . . . . . . . . . . . . . $206,209 $ 4,613 $ 4,511
+
+We recorded a net expense of $200.6 million related to increases in 2020 unrecognized tax benefits
+combined with amounts effectively settled under audit. Unrecognized tax benefits as of December 31, 2020
+relate to tax years that are currently open under the statute of limitation. The primary impact of uncertain
+tax benefits on the rate reconciliation includes audit settlements, net increases in position changes, and accrued
+interest expense.
+
+Any settlements or statute of limitations expirations could result in a significant decrease in our
+uncertain tax positions. Our assessments are based on estimates and assumptions using the best available
+information to management. However, our estimates of unrecognized tax benefits and potential tax benefits
+may not be representative of actual outcomes, and any variation from such estimates could materially
+affect our financial statements in the period of settlement or when the statutes of limitations expire. Finalizing
+audits with the relevant taxing authorities can include formal administrative and legal proceedings, and, as
+a result, it is difficult to estimate the timing and range of possible change related to our uncertain tax positions,
+and such changes could be significant.
+
+
+-----
+
+Interest and penalties related to income tax liabilities are included in ‘Income tax expense (benefit)’ in
+the consolidated statements of operations. For the years ended December 31, 2020, 2019, and 2018, we
+recorded approximately $0.6 million, $0.4 million, and $0.2 million, respectively, of penalties and interest.
+During the year ended December 31, 2020, we released $0.1 million of interest from settlements, lapse of
+statutes, and change in certainty. The cumulative accrued balance of penalties and interest was $1.2 million,
+$0.7 million, and $0.6 million, as of December 31, 2020, 2019, and 2018, respectively.
+
+Unrecognized tax benefits of $205.6 million, $4.0 million and $4.5 million as of December 31, 2020,
+2019, and 2018, respectively, if recognized, would reduce the annual effective tax rate offset by deferred tax
+assets recorded for uncertain tax positions.
+
+The following table sets forth the tax years subject to examination for the major jurisdictions where we
+conduct business as of December 31, 2020:
+
+The Netherlands . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2005 to 2020
+Canada . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2012 to 2020
+Japan . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2013 to 2020
+China . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2010 to 2020
+
+Singapore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2015 to 2020
+
+United States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2010 to 2020
+
+We are currently under audit in China. U.S. state tax returns are generally subject to examination for a
+period of three to five years after filing of the respective return. The state impact of any federal changes
+remains subject to examination by various state jurisdictions for a period up to two years after formal
+notification to the states. As such, U.S. state income tax returns for us are generally subject to examination
+for the years 2015 to 2020. Although the timing of income tax audit resolutions and negotiations with taxing
+authorities is highly uncertain, we do not anticipate a significant change in the total amount of unrecognized
+tax benefits within the next twelve months.
+
+**14.** **EARNINGS PER SHARE**
+
+Basic and diluted EPS for the years ended December 31, 2020, 2019, and 2018 were as follows:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands, except per share data)**
+
+Numerator:
+
+Net income (loss) attributable to common stockholders[(1)] . . . . . . . . . . . $312,861 $119,497 $(69,216)
+
+Denominator:
+
+Weighted average common shares outstanding – basic . . . . . . . . . . . . . 67,386 70,357 68,421
+
+Plus: Dilutive effect of stock options and unvested restricted stock
+units . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,158 1,414 —
+
+Weighted average common shares outstanding – diluted . . . . . . . . . . . . 68,544 71,771 68,421
+
+Net income (loss) per common share: . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Basic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.64 $ 1.70 $ (1.01)
+
+Diluted . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 4.56 $ 1.66 $ (1.01)
+
+(1) Net loss attributable to common stockholders for the year ended December 31, 2018 reflects the
+repurchase and conversion of Series A Convertible Preferred Stock.
+
+For the years ended December 31, 2020 and 2019, no outstanding shares issued under share-based
+compensation awards were anti-dilutive and, therefore, excluded from the calculation of diluted EPS. For
+
+
+-----
+
+the year ended December 31, 2018, all outstanding shares issued under share-based compensation awards
+were excluded from the calculation of diluted EPS because the effect was anti-dilutive.
+
+**15.** **COMMITMENTS AND CONTINGENCIES**
+
+**_Purchase Commitments_**
+
+As of December 31, 2020 and 2019, we had purchase commitments to our third-party manufacturers,
+primarily for materials and supplies used in the manufacture of our products, for an aggregate of
+$220.8 million and $155.5 million, respectively. We expect to fulfill our commitments under these agreements
+in the normal course of business, and as such, no liability has been recorded.
+
+**_Other_**
+
+We are regularly subject to, and are currently undergoing, audits by various tax authorities in the U.S.
+and several foreign jurisdictions, including customs duties, import and other taxes for prior tax years.
+
+During our normal course of business, we may make certain indemnities, commitments, and guarantees
+under which we may be required to make payments in relation to certain matters. We cannot determine a
+range of estimated future payments and have not recorded any liability for such payments in the accompanying
+consolidated balance sheets.
+
+See Note 17—Legal Proceedings for further details regarding potential loss contingencies related to
+government tax audits and other current legal proceedings.
+
+**16.** **OPERATING SEGMENTS AND GEOGRAPHIC INFORMATION**
+
+We have three reportable operating segments: the Americas, Asia Pacific, and Europe, Middle East,
+and Africa (“EMEA”). ‘Other businesses’ aggregates insignificant operating segments that do not meet the
+reportable segment threshold, including corporate operations and, in 2018, company-operated manufacturing
+facilities, which substantially ceased operations in the third quarter of 2018.
+
+Each of the reportable operating segments derives its revenues from the sale of footwear and accessories
+to external customers. Revenues for ‘Other businesses’ include non-footwear and accessories product sales
+to external customers that are excluded from the measurement of segment operating revenues and income.
+
+Segment performance is evaluated based on segment results without allocating corporate expenses, or
+indirect general, administrative, and other expenses. Segment profits or losses include adjustments to
+eliminate inter-segment sales. Reconciling items between segment income from operations and income from
+operations consist of other businesses and unallocated corporate expenses, as well as inter-segment
+eliminations. We do not report asset information by segment because that information is not used to
+evaluate performance or allocate resources between segments. The following tables set forth information
+related to reportable operating segments:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Revenues:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 863,613 $ 640,515 $ 520,192
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 278,515 348,072 344,598
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 243,660 241,948 220,270
+Segment revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,385,788 1,230,535 1,085,060
+Other businesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163 58 3,145
+Total consolidated revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 $1,088,205
+
+
+-----
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Income from operations:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 361,930 $ 204,868 $ 138,940
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47,442 80,645 82,780
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63,314 70,326 59,539
+Segment income from operations . . . . . . . . . . . . . . . . . . . . . . . . 472,686 355,839 281,259
+Reconciliation of segment income from operations to income
+before income taxes:
+Other businesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ (56,556) $ (54,936) $ (55,583)
+Unallocated corporate[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (202,006) (172,254) (162,732)
+Total consolidated income from operations . . . . . . . . . . . . . . . . . 214,124 128,649 62,944
+Foreign currency gains (losses), net . . . . . . . . . . . . . . . . . . . . . . (1,128) (1,323) 1,318
+Interest income . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 215 601 1,281
+Interest expense . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . (6,742) (8,636) (955)
+Other income, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 510 31 569
+Income before income taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 206,979 $ 119,322 $ 65,157
+
+Depreciation and amortization:
+Americas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 3,528 $ 3,593 $ 4,640
+Asia Pacific . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1,138 963 2,049
+EMEA . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 730 793 1,252
+Total segment depreciation and amortization . . . . . . . . . . . . . . . 5,396 5,349 7,941
+Other businesses . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8,015 5,234 5,256
+Unallocated corporate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14,208 13,630 16,053
+Total consolidated depreciation and amortization . . . . . . . . . . . . $ 27,619 $ 24,213 $ 29,250
+
+(1) Includes corporate support and administrative functions, costs associated with share-based
+compensation, research and development, marketing, legal, depreciation and amortization of corporate
+and other assets not allocated to operating segments, and intersegment eliminations.
+
+There were no customers who represented 10% or more of consolidated revenues during the years
+ended December 31, 2020, 2019 and 2018. The following table sets forth certain geographical information
+regarding Crocs’ revenues for the periods as shown:
+
+**Year Ended December 31,**
+
+**2020** **2019** **2018**
+
+**(in thousands)**
+
+Location:
+
+United States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $ 802,952 $ 563,473 $ 442,544
+International[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 582,999 667,120 645,661
+
+Total revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $1,385,951 $1,230,593 $1,088,205
+
+(1) No individual international country represented 10% or more of consolidated revenues in any of
+the years presented.
+
+
+-----
+
+The following table sets forth geographical information regarding property and equipment assets as of
+the dates shown:
+
+**December 31,**
+
+**2020** **2019**
+
+**(in thousands)**
+
+Location:
+United States . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $49,527 $41,745
+International[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7,940 5,660
+
+Total property and equipment, net . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $57,467 $47,405
+
+(1) No individual international country represented 10% or more of consolidated net property and
+equipment assets in any of the years presented.
+
+**17.** **LEGAL PROCEEDINGS**
+
+We were subject to an audit by the Brazilian Federal Tax Authorities related to imports of footwear
+from China between 2010 and 2014. On January 13, 2015, we were notified about the issuance of assessments
+totaling 14.4 million Brazilian Real (“BRL”), or approximately $2.8 million at current exchange rates, plus
+interest and penalties, for the period January 2010 through May 2011. We disputed these assessments and
+asserted defenses to the claims. On February 25, 2015, we received additional assessments totaling
+33.3 million BRL, or approximately $6.4 million at current exchange rates, plus interest and penalties,
+related to the remainder of the audit period. We also disputed these assessments and asserted defenses to
+these claims in administrative appeals. On August 29, 2017, we received a favorable ruling on our appeal of
+the first assessment, which dismissed all fines, penalties, and interest. The tax authorities have appealed that
+decision and we have challenged the appeal on both the merits and procedure. Additionally, the second
+appeal for the remaining assessments was heard on March 22, 2018. That decision was partially favorable
+for us and resulted in an approximately 38% reduction in principal, penalties, and interest, leaving
+approximately $4.0 million, plus interest and penalties, at risk for those assessments. The tax authorities
+have appealed that decision and Crocs has filed a response to the tax authorities’ appeal as well as a separate
+appeal against the unfavorable portion of the ruling. Should the Brazilian Tax Authority prevail in this
+final administrative appeal, we may still challenge the assessments through the court system, which would
+likely require the posting of a bond. We have not recorded these items within the consolidated financial
+statements as it is not possible at this time to predict the timing or outcome of this matter or to estimate a
+potential amount of loss, if any.
+
+For all other claims and disputes, we have accrued estimated losses of $0.1 million within ‘Accrued
+expenses and other liabilities’ in our consolidated balance sheet as of December 31, 2020. As we are able, we
+estimate reasonably possible losses or a range of reasonably possible losses for claims and other disputes.
+As of December 31, 2020, we estimated that reasonably possible losses could potentially exceed amounts
+accrued by up to $0.9 million.
+
+Although we are subject to other litigation from time to time in the ordinary course of business,
+including employment, intellectual property and product liability claims, other than as set forth above, we
+are not party to any other pending legal proceedings that we believe would reasonably have a material adverse
+impact on our business, financial results, and cash flows.
+
+**18.** **EMPLOYEE BENEFIT PLAN**
+
+**_Defined Contribution Plan_**
+
+We sponsor a qualified defined contribution benefit plan (the “Plan”), covering substantially all of our
+U.S. employees. The Plan includes a savings plan feature under Section 401(k) of the Internal Revenue Code.
+We make matching contributions to the plans equal to 100% of the first 3%, and up to 50% of the next 2%
+of salary contributed by an eligible employee. Participants are vested 100% in our matching contributions
+
+
+-----
+
+when made. Contributions made by us under the Plan were $4.7 million, $5.1 million and $5.4 million for
+the years ended December 31, 2020, 2019, and 2018, respectively.
+
+**19.** **UNAUDITED QUARTERLY CONSOLIDATED FINANCIAL INFORMATION**
+
+**For the Quarter Ended**
+
+**March 31,** **June 30,** **September 30,** **December 31,**
+**2020** **2020** **2020** **2020**
+
+**(in thousands, except per share data)**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $281,160 $331,549 $361,736 $411,506
+Gross profit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 134,162 179,933 206,769 229,084
+Income from operations . . . . . . . . . . . . . . . . . . . . . . . 20,812 56,595 72,086 64,631
+Net income[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11,091 56,551 61,889 183,330
+Basic income per common share[(2)] . . . . . . . . . . . . . . . $ 0.16 $ 0.84 $ 0.92 $ 2.75
+Diluted income per common share[(2)] . . . . . . . . . . . . . . $ 0.16 $ 0.83 $ 0.91 $ 2.69
+
+(1) During the three months ended December 31, 2020, we completed an intra-entity transfer of certain
+intellectual property rights, resulting in the recognition of a $127.7 million tax benefit. See Note 13—
+Income Taxes for more information. Additionally, in the three months ended December 31, 2020, we
+recorded an impairment for a retail location in New York City of $20.0 million and for our former
+corporate headquarters of $1.1 million.
+
+(2) Basic and diluted income per common share are computed independently for each of the quarters
+presented. Therefore, the sum of the quarters may not equal the annual amounts presented in the
+consolidated statements of operations. Additionally, for the three months ended December 31, 2020,
+basic and diluted income per common share include the impact of the repurchase of 1.7 million shares
+of our common stock for $131.7 million, including a $125.0 million ASR, as described in more detail
+in Note 10—Equity.
+
+**For the Quarter Ended**
+
+**March 31,** **June 30,** **September 30,** **December 31,**
+**2019** **2019** **2019** **2019**
+
+**(in thousands, except per share data)**
+
+Revenues . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $295,949 $358,899 $312,766 $262,979
+
+Gross profit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 137,615 189,379 163,824 126,238
+
+Income from operations . . . . . . . . . . . . . . . . . . . . . . . 32,578 47,831 39,884 8,356
+
+Net income[(1)] . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24,710 39,198 35,676 19,913
+
+Basic income per common share[(2)] . . . . . . . . . . . . . . . $ 0.34 $ 0.55 $ 0.52 $ 0.29
+Diluted income per common share[(2)] . . . . . . . . . . . . . . $ 0.33 $ 0.55 $ 0.51 $ 0.29
+
+(1) During the three months ended December 31, 2019, we reduced a portion of the valuation allowance
+recorded against certain deferred tax assets, resulting in a tax benefit.
+
+(2) Basic and diluted income per common share are computed independently for each of the quarters
+presented. Therefore, the sum of the quarters may not equal the annual amounts presented in the
+consolidated statements of operations.
+
+
+-----
+
+**APPENDIX A**
+
+**SCHEDULE II—VALUATION AND QUALIFYING ACCOUNTS**
+
+**CROCS, INC. AND SUBSIDIARIES**
+
+
+**Balance at**
+**Beginning of**
+**Period**
+
+
+**Charged to**
+**Costs and** **Balance at**
+**Expenses** **Deductions** **[(1)]** **End of Period**
+
+**(in thousands)**
+
+
+Year Ended December 31, 2020
+Allowance for doubtful accounts . . . . . . . . . . . . . . . . $ 8,276 $ 5,779 $ (2,901) $11,154
+Reserve for sales returns and allowances . . . . . . . . . . . 5,261 95,740 (95,219) 5,782
+Reserve for unapplied rebates . . . . . . . . . . . . . . . . . . 5,260 4,920 (6,023) 4,157
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $18,797 $106,439 $(104,143) $21,093
+
+Year Ended December 31, 2019
+Allowance for doubtful accounts . . . . . . . . . . . . . . . . $10,959 $ 1,566 $ (4,249) $ 8,276
+Reserve for sales returns and allowances . . . . . . . . . . . 2,741 73,027 (70,507) 5,261
+
+Reserve for unapplied rebates . . . . . . . . . . . . . . . . . . 6,777 6,837 (8,354) 5,260
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $20,477 $ 81,430 $ (83,110) $18,797
+
+Year Ended December 31, 2018
+
+Allowance for doubtful accounts . . . . . . . . . . . . . . . . $18,325 $ 711 $ (8,077) $10,959
+
+Reserve for sales returns and allowances . . . . . . . . . . . 4,983 71,865 (74,107) 2,741
+
+Reserve for unapplied rebates . . . . . . . . . . . . . . . . . . 8,081 8,604 (9,908) 6,777
+
+Total . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . $31,389 $ 81,180 $ (92,092) $20,477
+
+(1) Deductions include accounts written off, net of recoveries, and the effects of foreign currency translation.
+
+
+-----
+
+### $300,000,000
+
+# Crocs, Inc.
+
+### % Senior Notes due 2029
+
+**PRELIMINARY OFFERING MEMORANDUM**
+
+**, 2021**
+
+_Joint Book-Running Managers_
+## Citigroup BofA Securities Morgan Stanley PNC Capital Markets LLC
+
+_Co-Managers_
+## KeyBanc Capital Markets HSBC US Bancorp
+
+
+-----
+
