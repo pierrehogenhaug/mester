@@ -1,0 +1,47 @@
+CategoryGroup,Category,TaggedCharacteristics,CharacteristicInfluence
+Company,Business Model,High customer and/or (critical)  supplier concentration and/or low  diversification (product/geography),Negative
+Company,Business Model,Sales are not recurring in nature,Negative
+Company,Business Model,Weak bargaining power,Negative
+Company,Business Model,Project based revenues / lumpy revenues,Negative
+Company,Business Model,Low flexibility of cost base,Negative
+Company,Business Model,Well diversified (products/geographies) with low customer concentration,Positive
+Company,Business Model,Subscription based business model and/or longer-term contractual relationships,Positive
+Company,Business Model,Sales are recurring in nature (but not contracturally obligated),Positive
+Company,Business Model,Flexible cost base,Positive
+Company,Business Model,Strong bargaining power,Positive
+Company,Competitive Positioning,Highly commoditized offering with no unique value proposition,Negative
+Company,Competitive Positioning,Market challenger,Negative
+Company,Competitive Positioning,Limited scale / limited ability to withstand sustained period of competitive behaviour,Negative
+Company,Competitive Positioning,Leading position or gainer,Positive
+Company,Competitive Positioning,"Clear value proposition / reason to exist (e.g. Patent protection, branding, sustaining differentiators)",Positive
+Company,Competitive Positioning,"Power to withstand competitive behaviour (price cutting, market consolidation)",Positive
+Company,Management & Ownership,Significant carve-out/integration  risk,Negative
+Company,Management & Ownership,Aggressive M&A strategy with  future acquisitions likely,Negative
+Company,Management & Ownership,Aggressive ownership style with mixed track record,Negative
+Company,Management & Ownership,Recent change in management / high degree of key man risk,Negative
+Company,Management & Ownership,Listed company closely held / family owned & managed,Negative
+Company,Management & Ownership,Industry experiened PE owner / pension fund / listed company without conentrated ownership (voting rights),Positive
+Company,Management & Ownership,Experienced management team with limited key person risk,Positive
+Company,Management & Ownership,M&A not a big part of strategy,Positive
+Company,Management & Ownership,Limited carve-out/integration risk,Positive
+Company,Management & Ownership,Responsible historical behaviour from owners,Positive
+Industry,Intra-Industry Competition,Market pricing has not shown to be rational,Negative
+Industry,Intra-Industry Competition,Highly fragmented market with no clear leader or only one leader,Negative
+Industry,Intra-Industry Competition,Low barriers to entry,Negative
+Industry,Intra-Industry Competition,Market share is consolidated with top 3-5 players & limited fragmentation of remainder,Positive
+Industry,Intra-Industry Competition,Historically rational pricing,Positive
+Industry,Intra-Industry Competition,High barriers to entry,Positive
+Industry,Market Dynamics,Majority of revenues exposed to above average cyclical products,Negative
+Industry,Market Dynamics,Seasonal industry with volatile working capital,Negative
+Industry,Market Dynamics,"Weak / negative demographic, consumer & structural trends",Negative
+Industry,Market Dynamics,"Positive demographic, consumer & structural trends",Positive
+Industry,Market Dynamics,Low cyclicality of product demand,Positive
+Industry,Market Dynamics,Limited seasonaility and stable working capital,Positive
+Industry/Company,Regulatory Framework,Industry has high degree of regulatory scrutiny,Negative
+Industry/Company,Regulatory Framework,High dependecy on regulation or is a beneficiary from regulation in an unstable regulatory evironment,Negative
+Industry/Company,Regulatory Framework,Low dependecy on regulation or is a beneficiary from regulation in a stable regulatory evironment,Positive
+Industry/Company,Regulatory Framework,Industry has low degree of regulatory scrutiny,Positive
+Industry/Company,Technology Risk,Industry is susceptible to technological advances,Negative
+Industry/Company,Technology Risk,Company is viewed as a disruptee/threatened by technological change,Negative
+Industry/Company,Technology Risk,Company is viewed as a disruptor/benficiary from technological change,Positive
+Industry/Company,Technology Risk,Industry is susceptible to technological advances,Positive
