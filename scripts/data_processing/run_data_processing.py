@@ -9,7 +9,6 @@ from tqdm import tqdm
 
 # Add the project root directory to sys.path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-# Add the project root to sys.path
 sys.path.insert(0, project_root)
 
 from src.data_processing.pdf_parsing import process_prospectus
