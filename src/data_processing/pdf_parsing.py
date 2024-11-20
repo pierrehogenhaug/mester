@@ -221,9 +221,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                 'Subsubsection ID': 'failed parsing',
                 'Subsubsection Title': 'failed parsing',
                 'Subsubsection Text': 'failed parsing',
-                'Market Dynamics - a': '',
-                'Market Dynamics - b': '',
-                'Market Dynamics - c': '',
                 'Parsing Error': parsing_error
             }
             data = [row]
@@ -247,9 +244,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Subsubsection ID': 'failed parsing',
                     'Subsubsection Title': 'failed parsing',
                     'Subsubsection Text': 'failed parsing',
-                    'Market Dynamics - a': '',
-                    'Market Dynamics - b': '',
-                    'Market Dynamics - c': '',
                     'Parsing Error': parsing_error
                 }
                 data = [row]
@@ -299,9 +293,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsubsection ID': subsubsection_id,
                         'Subsubsection Title': subsubtitle,
                         'Subsubsection Text': subsubsection_body,
-                        'Market Dynamics - a': '',
-                        'Market Dynamics - b': '',
-                        'Market Dynamics - c': '',
                         'Parsing Error': 'N/A'
                     }
                     data.append(row)
@@ -323,9 +314,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsubsection ID': subsubsection_id,
                         'Subsubsection Title': '',  # No subsubtitle
                         'Subsubsection Text': subsubsection_body,
-                        'Market Dynamics - a': '',
-                        'Market Dynamics - b': '',
-                        'Market Dynamics - c': '',
                         'Parsing Error': 'N/A'
                     }
                     data.append(row)
@@ -349,9 +337,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Subsubsection ID': subsubsection_id,
                     'Subsubsection Title': '',  # No subsubtitle
                     'Subsubsection Text': subsubsection_body,
-                    'Market Dynamics - a': '',
-                    'Market Dynamics - b': '',
-                    'Market Dynamics - c': '',
                     'Parsing Error': 'N/A'
                 }
                 data.append(row)
@@ -373,9 +358,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             'Subsubsection ID': 'failed parsing',
             'Subsubsection Title': 'failed parsing',
             'Subsubsection Text': 'failed parsing',
-            'Market Dynamics - a': '',
-            'Market Dynamics - b': '',
-            'Market Dynamics - c': '',
             'Parsing Error': parsing_error
         }
         data = [row]
