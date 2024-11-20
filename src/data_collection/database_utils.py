@@ -39,3 +39,28 @@ def get_rms_issuer(db):
     WHERE SharePointLink IS NOT NULL
     """
     return db.read_sql(sql_query)
+
+def get_isin_rms_link(db):
+	sql_query = """
+	SELECT
+		i.RmsId,
+		a.AssetId,
+		a.IssuerId,
+		a.ISIN,
+		a.IssuerName,
+		a.AssetName,
+		a.IssueDate,
+		i.AbbrevName
+	FROM
+		C4DW.DailyOverview.AssetData a
+	LEFT JOIN
+		C4DW.DailyOverview.IssuerData i
+	ON
+		a.IssuerId = i.IssuerId
+	WHERE
+		a.AssetType = 'Bond'
+		AND a.OperatingCountryISO NOT LIKE 'US'
+		AND a.ISIN IS NOT NULL
+		AND i.RmsId IS NOT NULL
+	"""
+	return db.read_sql(sql_query)
