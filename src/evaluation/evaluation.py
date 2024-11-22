@@ -1,4 +1,4 @@
-# src/analysis/evaluation.py
+# src/evaluation/evaluation.py
 
 import pandas as pd
 import numpy as np

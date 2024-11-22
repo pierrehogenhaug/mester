@@ -18,7 +18,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 sys.path.insert(0, project_root)
 
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
-from src.evaluation import evaluate_model  
+from src.evaluation.evaluation import evaluate_model  
 
 def main():
     # Initialize the LLM
