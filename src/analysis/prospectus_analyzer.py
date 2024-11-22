@@ -62,33 +62,48 @@ class ProspectusAnalyzer:
         str: The combined answer containing relevance and evidence.
         """
         # System and user prompts
-        system_prompt = "You are an expert in analyzing bond prospectuses and identifying specific risk factors."
+        # system_prompt = "You are an expert in analyzing bond prospectuses and identifying specific risk factors."
 
         # Format the user prompt using the row's data
         prompt = f"""
-{system_prompt}
+        For the following question and text, judge whether the text is "Highly Relevant", "Somewhat Relevant", or "Not Relevant".
 
-For the following question and text, judge whether the text is "Highly Relevant", "Somewhat Relevant", or "Not Relevant".
+        Question:
+        {question}
 
-Question:
-{question}
-
-Text:
-Subsubsection Title: {row['Subsubsection Title']}
-Subsubsection Text: {row['Subsubsection Text']}
+        Text:
+        Subsubsection Title: {row['Subsubsection Title']}
+        Subsubsection Text: {row['Subsubsection Text']}
 
 
-Please provide your answer in the following JSON format:
+        Please provide your answer in the following JSON format:
 
-{{
-  "Relevance": "Highly Relevant", "Somewhat Relevant", or "Not Relevant",
-  "Evidence": "The exact phrases or sentences from the document that support your assessment; otherwise, leave blank."
-}}
+        {{
+        "Relevance": "Highly Relevant", "Somewhat Relevant", or "Not Relevant",
+        "Evidence": "The exact phrases or sentences from the document that support your assessment; otherwise, leave blank."
+        }}
 
-Note: Only provide the JSON response without any additional text.
-"""
+        Note: Only provide the JSON response without any additional text.
+        """
+
+        prompt_v2 = f"""
+        You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
+        Instructions:
+        1. Review the question and the provided text.
+        2. Judge the relevance of the text to the question using one of the following labels:
+        - "Highly Relevant"
+        - "Somewhat Relevant"
+        - "Not Relevant"
+        3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
+        Provide your response in the following JSON format, without any additional text or commentary:
+        {{
+        "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
+        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
+        }}
+        """
+
         # Run the prompt through the model
-        response = self.llm.invoke(input=prompt)
+        response = self.llm.invoke(input=prompt_v2)
 
         # Parse the response
         try:
@@ -133,26 +148,26 @@ Note: Only provide the JSON response without any additional text.
 
         # Format the user prompt using the row's data
         prompt = f"""
-{system_prompt}
+        {system_prompt}
 
-Please answer the following question based on the given text. Provide a clear "Yes" or "No" answer. If "Yes", include the exact phrases or sentences from the text that support your answer.
+        Please answer the following question based on the given text. Provide a clear "Yes" or "No" answer. If "Yes", include the exact phrases or sentences from the text that support your answer.
 
-Text:
-Subsubsection Title: {row['Subsubsection Title']}
-Subsubsection Text: {row['Subsubsection Text']}
+        Text:
+        Subsubsection Title: {row['Subsubsection Title']}
+        Subsubsection Text: {row['Subsubsection Text']}
 
-Question:
-{question}
+        Question:
+        {question}
 
-Please provide your answer in the following JSON format:
+        Please provide your answer in the following JSON format:
 
-{{
-  "Answer": "Yes" or "No",
-  "Evidence": "The exact phrases or sentences from the text if 'Yes'; otherwise, leave blank."
-}}
+        {{
+        "Answer": "Yes" or "No",
+        "Evidence": "The exact phrases or sentences from the text if 'Yes'; otherwise, leave blank."
+        }}
 
-Note: Only provide the JSON response without any additional text.
-"""
+        Note: Only provide the JSON response without any additional text.
+        """
         # Run the prompt through the model
         response = self.llm.invoke(input=prompt)
 
