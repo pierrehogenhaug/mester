@@ -48,7 +48,7 @@ def main():
     sorted_rms_id_df = merged_data_unique[["RmsId"]].sort_values(by="RmsId").reset_index(drop=True)
     rms_id_list = sorted_rms_id_df["RmsId"].to_list()
 
-    directory_path = os.path.join(project_root, 'data', 'raw', 'sharepoint_reorg_files')
+    directory_path = os.path.join(project_root, 'data', 'raw')
     # Get list of RmsId folders that actually exist in the directory
     existing_folders = [int(folder) for folder in os.listdir(directory_path) if folder.isdigit() and int(folder) in rms_id_list]
 
