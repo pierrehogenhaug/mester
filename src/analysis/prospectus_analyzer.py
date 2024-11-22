@@ -15,6 +15,7 @@ class ProspectusAnalyzer:
         """
         self.llm = llm_model
 
+
     def extract_fields(self, response):
         """
         Extract the 'Relevance' and 'Evidence' fields from the model's response.
@@ -49,6 +50,80 @@ class ProspectusAnalyzer:
             evidence = []
 
         return relevance, evidence
+    
+
+    def analyze_rows_batch(self, rows, questions):
+        """
+        Analyze a batch of rows with corresponding questions.
+
+        Parameters:
+        rows (list of pandas.Series): The list of rows from the DataFrame.
+        questions (list of str): The list of questions to ask.
+
+        Returns:
+        List[str]: The list of combined answers containing relevance and evidence.
+        """
+        prompts = []
+        for row, question in zip(rows, questions):
+            prompt = f"""
+            You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
+            Instructions:
+            1. Review the question and the provided text.
+            2. Judge the relevance of the text to the question using one of the following labels:
+            - "Highly Relevant"
+            - "Somewhat Relevant"
+            - "Not Relevant"
+            3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
+
+            Question:
+            {question}
+
+            Text:
+            Subsubsection Title: {row['Subsubsection Title']}
+            Subsubsection Text: {row['Subsubsection Text']}
+
+            Provide your response in the following JSON format, without any additional text or commentary:
+            {{
+            "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
+            "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
+            }}
+            """
+            prompts.append(prompt)
+
+        # Run the batch of prompts through the model
+        responses = self.llm.generate(prompts)
+
+        combined_answers = []
+        for generation in responses.generations:
+            response = generation[0].text  # Get the generated text
+            try:
+                # Extract the Relevance and Evidence fields
+                relevance, evidence_list = self.extract_fields(response)
+                # Join multiple evidence items into a single string
+                evidence = '; '.join(evidence_list)
+            except Exception as e:
+                relevance = "Parsing Error"
+                evidence = ""
+
+            # Combine relevance and evidence
+            if relevance in ["Highly Relevant", "Somewhat Relevant"] and evidence:
+                combined_answer = f"{relevance}: {evidence}"
+            elif relevance in ["Highly Relevant", "Somewhat Relevant"]:
+                combined_answer = relevance
+            elif relevance == "Not Relevant":
+                combined_answer = "Not Relevant"
+            else:
+                combined_answer = "Parsing Error"
+
+            # For debugging
+            if combined_answer == "Parsing Error":
+                print("Parsing Error encountered. Response was:")
+                print(response)
+
+            combined_answers.append(combined_answer)
+
+        return combined_answers
+
 
     def analyze_row_single_question(self, row, question):
         """
@@ -95,6 +170,14 @@ class ProspectusAnalyzer:
         - "Somewhat Relevant"
         - "Not Relevant"
         3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
+
+        Question:
+        {question}
+
+        Text:
+        Subsubsection Title: {row['Subsubsection Title']}
+        Subsubsection Text: {row['Subsubsection Text']}
+
         Provide your response in the following JSON format, without any additional text or commentary:
         {{
         "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
@@ -131,6 +214,7 @@ class ProspectusAnalyzer:
             print(response)
 
         return combined_answer
+
 
     def analyze_row_single_question_yes_no(self, row, question):
         """
