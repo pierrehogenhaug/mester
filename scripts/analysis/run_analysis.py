@@ -1,31 +1,55 @@
-import sys
-print(sys.executable)
-print(sys.path)
-
+from huggingface_hub import login
+from langchain.llms import HuggingFacePipeline
 from langchain_ollama import OllamaLLM
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
-import pandas as pd
+
+import ast
+import json
 import numpy as np
 import os
-import json
+import pandas as pd
 import re
-import ast
+import sys
 import string
+
 
 # Add the project root directory to sys.path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-# Add the project root to sys.path
 sys.path.insert(0, project_root)
+
+# Login to the Hugging Face Hub
+login(token="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")
+
 
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model  
 
 def main():
-    # Initialize the LLM
+    # Initialize the LLM (Ollama)
     llm = OllamaLLM(model="llama3.2")
-
-    # Initialize the analyzer
+    # Initialize the analyzer (Ollama)
     analyzer = ProspectusAnalyzer(llm_model=llm)
+
+    # Initialize the LLM (Hugging Face)
+    model_id = "meta-llama/Llama-3.2-3B-Instruct"  
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model_hf = AutoModelForCausalLM.from_pretrained(model_id)
+    model_hf.generation_config.pad_token_id = tokenizer.pad_token_id
+
+    # Create a text-generation pipeline
+    pipe = pipeline(
+        "text-generation",
+        model=model_hf,
+        tokenizer=tokenizer,
+        max_length=2048,
+        temperature=0.1,
+    )
+    # Initialize the LLM with the pipeline
+    llm_hf = HuggingFacePipeline(pipeline=pipe)
+
+    # Initialize the analyzer with the new LLM
+    analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
 
     # Load the data
     processed_file_path = './data/prospectuses_data_processed.csv'
@@ -121,3 +145,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
