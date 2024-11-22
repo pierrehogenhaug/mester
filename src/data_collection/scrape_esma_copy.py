@@ -1,15 +1,22 @@
-import os
-import time
-import shutil
 from collections import defaultdict
 from pathlib import Path
-import pandas as pd
-import pickle
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+import os
+import pandas as pd
+import pickle
+import shutil
+import sys
+import time
+
+
+# Add the project root directory to sys.path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, project_root)
+
 # Initialize paths
-DATA_DIR = Path("../data")
+DATA_DIR = Path(os.path.join(project_root, 'data'))
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 RMS_FUNDAMENTAL_SCORE_FILE = DATA_DIR / "rms_with_fundamental_score.csv"
@@ -121,9 +128,20 @@ def get_prospectus(browser, isin, output_folder):
         else:
             filename = files[0]
             dest_path = os.path.join(output_folder, isin + '.pdf')
-            shutil.move(filename, dest_path)
-            time.sleep(1)
-            return True
+
+            # Create output_folder only if it doesn't exist and a file is to be saved
+            if not os.path.exists(output_folder):
+                os.makedirs(output_folder)
+
+            if os.path.exists(dest_path):
+                print(f"File {dest_path} already exists, not overwriting.")
+                # Optionally, delete the downloaded file in download_dir
+                os.remove(filename)
+                return True
+            else:
+                shutil.move(filename, dest_path)
+                time.sleep(1)
+                return True
     except Exception as e:
         print(f"Failed to move downloaded file for ISIN {isin}: {e}")
         return False
@@ -146,48 +164,48 @@ try:
             print(f"RmsId {rms_id} has already been processed. Skipping.")
             continue
         
+        # Define the processed folder for this RmsId
+        processed_folder = PROCESSED_DIR / str(rms_id) / "as_expected"
+        
+        if processed_folder.exists():
+            print(f"Prospectus for RmsId {rms_id} already exists at {processed_folder}, skipping.")
+            continue
+        
         scoring_date_lists = rms_entry[1]
         
-        # Define the output folder for this RmsId
-        processed_folder = PROCESSED_DIR / str(rms_id) / "as_expected"
-        output_folder = RAW_DIR / str(rms_id)
-        output_folder.mkdir(parents=True, exist_ok=True)
-        
+        is_success = False
+
         for scoring_date_entry in scoring_date_lists:
             scoring_date = scoring_date_entry[0]
             isins_list = scoring_date_entry[1]
             
-            is_success = False
-            
             for isin in isins_list:
-                # Define the expected file path for this ISIN
+                # Define the output folder for this RmsId
+                output_folder = RAW_DIR / str(rms_id)
                 file_path = output_folder / f"{isin}.pdf"
-                if processed_folder.exists():
-                    print(f"Prospectus for RmsId {rms_id} already exists at {processed_folder}")
-                    is_success = True
-                    break  # Move to next ScoringDate
-                else:
-                    # Try to get prospectus for this ISIN
-                    try:
-                        success = get_prospectus(browser, isin, output_folder)
-                        if success:
-                            print(f"Downloaded prospectus for ISIN {isin} to {file_path}")
-                            is_success = True
-                            break  # Move to next ScoringDate
-                        # else:
-                        #     print(f"Failed to download prospectus for ISIN {isin}")
-                    except Exception as e:
-                        print(f"Exception occurred while downloading ISIN {isin}: {e}")
-                        # Continue to next ISIN
-            if not is_success:
+                
+                # Try to get prospectus for this ISIN
+                try:
+                    success = get_prospectus(browser, isin, output_folder)
+                    if success:
+                        print(f"Downloaded prospectus for ISIN {isin} to {file_path}")
+                        is_success = True
+                        break  # Move to next ScoringDate
+                except Exception as e:
+                    print(f"Exception occurred while downloading ISIN {isin}: {e}")
+                    # Continue to next ISIN
+            if is_success:
+                break  # Move to next ScoringDate
+            else:
                 print(f"Could not obtain prospectus for RmsId {rms_id}, ScoringDate {scoring_date}")
                 # Optionally, log this information somewhere
-        
-        # After processing all ScoringDates for this RmsId, mark it as processed
-        with open(processed_rmsids_file, 'a') as f:
-            f.write(f"{rms_id}\n")
-        processed_rmsids.add(str(rms_id))
-        print(f"Finished processing RmsId {rms_id}.")
+
+        if is_success:
+            # After processing all ScoringDates for this RmsId, mark it as processed
+            with open(processed_rmsids_file, 'a') as f:
+                f.write(f"{rms_id}\n")
+            processed_rmsids.add(str(rms_id))
+            print(f"Finished processing RmsId {rms_id}.")
 except Exception as e:
     print(f"An error occurred: {e}")
 finally:
