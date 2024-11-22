@@ -60,7 +60,7 @@ def main():
     # Iterate over the dataframe grouped by RmsId
     for RmsId, group_df in df.groupby('RmsId'):
         rms_id_str = str(RmsId)
-        rms_folder = os.path.join(project_root, 'data', 'raw', 'sharepoint_reorg_files', rms_id_str)
+        rms_folder = os.path.join(project_root, 'data', 'raw', rms_id_str)
         if not os.path.exists(rms_folder):
             continue  # Skip to next RmsId
 

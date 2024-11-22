@@ -146,7 +146,7 @@ def download_specific_files_for_row(row, desired_document_type, desired_document
                 file_name = file.name
 
                 # Define the output folder path
-                output_folder = os.path.join(project_root, 'data', 'raw', 'sharepoint_reorg_files', str(rms_id))
+                output_folder = os.path.join(project_root, 'data', 'raw', str(rms_id))
 
                 # Check if the file already exists
                 file_path = os.path.join(output_folder, file_name)
