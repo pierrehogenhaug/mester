@@ -1,5 +1,5 @@
 from huggingface_hub import login
-from langchain.llms import HuggingFacePipeline
+from langchain_huggingface import HuggingFacePipeline
 from langchain_ollama import OllamaLLM
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
@@ -51,6 +51,15 @@ def main():
     # Initialize the analyzer with the new LLM
     analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
 
+    # print the model size and number of parameters
+    print(f"Model size: {llm.size}")
+    print(f"Number of parameters: {llm.num_parameters()}")
+
+    # print the model size and number of parameters
+    print(f"Model size: {llm_hf.size}")
+    print(f"Number of parameters: {llm_hf.num_parameters()}")
+
+    
     # Load the data
     processed_file_path = './data/prospectuses_data_processed.csv'
     raw_file_path = './data/prospectuses_data.csv'
