@@ -68,11 +68,15 @@ def evaluate_model(processed_file_path):
 
     # The labels corresponding to the specified columns
     specified_columns = [
-        'Market Dynamics - a', 'Market Dynamics - b', 'Market Dynamics - c',
-        'Intra-Industry Competition - a', 'Intra-Industry Competition - b', 'Intra-Industry Competition - c',
-        'Regulatory Framework - a', 'Regulatory Framework - b',
-        'Technology Risk - a', 'Technology Risk - b'
+        'Market Dynamics - a', 'Market Dynamics - b', 'Market Dynamics - c'
     ]
+    
+    # specified_columns = [
+    #     'Market Dynamics - a', 'Market Dynamics - b', 'Market Dynamics - c',
+    #     'Intra-Industry Competition - a', 'Intra-Industry Competition - b', 'Intra-Industry Competition - c',
+    #     'Regulatory Framework - a', 'Regulatory Framework - b',
+    #     'Technology Risk - a', 'Technology Risk - b'
+    # ]
 
     # Map df_LLM columns to labels in the format 'Category.letter'
     def column_to_label(col_name):
