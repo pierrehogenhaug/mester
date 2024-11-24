@@ -42,7 +42,7 @@ def main():
     analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
 
     # Load the data
-    processed_file_path = './data/prospectuses_data_processed.csv'
+    processed_file_path = './data/prospectuses_data_processed_test.csv'
     raw_file_path = './data/prospectuses_data.csv'
 
     # Check if processed file exists
