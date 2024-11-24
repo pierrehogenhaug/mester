@@ -21,8 +21,8 @@ from src.evaluation.evaluation import evaluate_model
 def main():
     # Initialize the LLM (Hugging Face)
     model_id = "meta-llama/Llama-3.2-3B-Instruct"
-    tokenizer = AutoTokenizer.from_pretrained(model_id, use_auth_token=True)
-    model_hf = AutoModelForCausalLM.from_pretrained(model_id, use_auth_token=True).to('cuda')
+    tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
+    model_hf = AutoModelForCausalLM.from_pretrained(model_id, token=True).to('cuda')
     model_hf.generation_config.pad_token_id = tokenizer.pad_token_id
 
     # Create a text-generation pipeline
@@ -31,8 +31,8 @@ def main():
         model=model_hf,
         tokenizer=tokenizer,
         device=0,
-        max_length=2048,
-        temperature=0.1,
+        max_length=4096,
+        temperature=0.3,
     )
 
     # Initialize the LLM with the pipeline
@@ -55,7 +55,7 @@ def main():
         df_LLM = df_LLM[df_LLM['Section ID'] != "failed parsing"]
 
     # Limit to first 10 rows for testing
-    df_LLM = df_LLM.head(10)
+    df_LLM = df_LLM.head(100)
     
     # Ensure the relevance and evidence columns are created with a compatible data type
     specified_columns = [
@@ -79,7 +79,7 @@ def main():
         questions_market_dynamics
     ]
 
-    batch_size = 1  # Or any suitable batch size
+    batch_size = 2  # Or any suitable batch size
     batch_data = []
 
     # Iterate over each row in the DataFrame with a progress bar
