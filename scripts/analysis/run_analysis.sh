@@ -28,7 +28,7 @@ module load python3/3.10.7
 module load cuda/11.6
 
 # Activate your virtual environment if needed
-source source venv/bin/activate
+source source test_env/bin/activate
 
 # Start nvidia-smi logging in the background
 nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.total,memory.used --format=csv -l 1 > nvidia_smi_log_${LSB_JOBID}.txt &
