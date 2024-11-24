@@ -24,11 +24,11 @@
 # -- end of LSF options --
 
 # Load necessary modules
-module load python3/3.10.7
+module load python3/3.10.14
 module load cuda/11.6
 
 # Activate your virtual environment if needed
-source source test_env/bin/activate
+source test_env/bin/activate
 
 # Start nvidia-smi logging in the background
 nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.total,memory.used --format=csv -l 1 > nvidia_smi_log_${LSB_JOBID}.txt &
@@ -37,7 +37,7 @@ nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.
 NVSMI_PID=$!
 
 # Run your Python script
-python scripts/analysis/run_analysis.py
+python scripts/analysis/run_analysis_batches.py
 
 # After the script completes, kill the nvidia-smi logging process
 kill $NVSMI_PID
