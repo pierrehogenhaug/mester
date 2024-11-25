@@ -14,6 +14,7 @@ project_name/
 │   │   └── run_analysis.py   # Script to run the analysis
 │   ├── data_processing/      # Data processing scripts
 │   │   └── run_data_processing.py  # Script for data processing tasks
+│   ├── data_scraping/        # Data scraping scripts
 │   └── main.py               # Main script to coordinate the project
 ├── src/                      # Source code
 │   ├── analysis/             # Analysis module
@@ -22,6 +23,9 @@ project_name/
 │   ├── data_processing/      # Data processing module
 │   │   ├── __init__.py       # Initialization for data processing module
 │   │   └── pdf_parsing.py    # Module for parsing PDF files
+│   ├── data_scraping/        # Data collection module
+│   │   ├── __init__.py       # Initialization for data collection module
+│   │   └── scrape_esma.py    # Module for scraping PDF files from the Esma website
 │   └── __init__.py           # Initialization for src package
 ├── tests/                    # Unit tests
 ├── .gitignore                # Git ignore file
@@ -29,6 +33,7 @@ project_name/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
+
 ## Installation
 
 1. Clone the repository:
