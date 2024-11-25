@@ -3,6 +3,7 @@
 from capfourpy.databases import Database
 import pandas as pd
 
+
 def get_fundamental_score(db):
     sql_query = """
     WITH tbl1 AS(
@@ -32,6 +33,7 @@ def get_fundamental_score(db):
     """
     return db.read_sql(sql_query)
 
+
 def get_rms_issuer(db):
     sql_query = """
     SELECT *
@@ -39,6 +41,7 @@ def get_rms_issuer(db):
     WHERE SharePointLink IS NOT NULL
     """
     return db.read_sql(sql_query)
+
 
 def get_isin_rms_link(db):
 	sql_query = """
@@ -62,5 +65,106 @@ def get_isin_rms_link(db):
 		AND a.OperatingCountryISO NOT LIKE 'US'
 		AND a.ISIN IS NOT NULL
 		AND i.RmsId IS NOT NULL
+	"""
+	return db.read_sql(sql_query)
+
+
+def get_findox_mapping_with_rms(db):
+	sql_query = """
+	-- Get Identifiers from Findox.Identifier as Columns
+	WITH FindoxIdentifiers AS (
+		SELECT 
+			IssuerId,
+			MAX(CASE WHEN IdentifierTypeName = 'Isin' THEN Identifier END) AS Isin,
+			MAX(CASE WHEN IdentifierTypeName = 'Lxid' THEN Identifier END) AS Lxid,
+			MAX(CASE WHEN IdentifierTypeName = 'Figi' THEN Identifier END) AS Figi,
+			MAX(CASE WHEN IdentifierTypeName = 'BloombergId' THEN Identifier END) AS BloombergId
+		FROM 
+			CfAnalytics.Findox.Identifier
+		GROUP BY 
+			IssuerId
+	),
+
+	-- Select Asset Data from DailyOverview.AssetData
+	AssetData AS (
+		SELECT 
+			IssuerId,
+			PrimaryIdentifier,
+			ISIN,
+			Figi,
+			BloombergID,
+			BloombergUniqueID,
+			LoanXID,
+			BondTicker
+		FROM 
+			[C4DW].[DailyOverview].[AssetData]
+	),
+
+	-- Filter Issuer Mappings for 'Everest' Type
+	EverestIssuerMapping AS (
+		SELECT 
+			*
+		FROM 
+			CfAnalytics.Findox.IssuerMapping
+		WHERE 
+			ExtIssuerType = 'Everest'
+	),
+
+	IssuerData AS (
+		SELECT 
+			AbbrevName, 
+			IssuerId,
+			RmsId
+		FROM
+			[C4DW].[DailyOverview].[IssuerData]
+	),
+
+	-- Join FindoxIdentifiers with AssetData
+	JoinedData AS (
+		SELECT DISTINCT
+			Asset.IssuerId AS EverestIssuerId,
+			Findox.IssuerId AS FinDoxIssuerId,
+			Asset.Isin AS EverestIsin,
+			Findox.Isin AS FinDoxIsin,
+			Asset.LoanXID AS EverestLoanXID,
+			Findox.Lxid AS FinDoxLxid,
+			Asset.Figi AS EverestFigi,
+			Findox.Figi AS FinDoxFigi,
+			Asset.BloombergId AS EverestBloombergId,
+			Findox.BloombergId AS FinDoxBloombergId,
+			ID.RmsId,
+			ID.AbbrevName
+		FROM 
+			FindoxIdentifiers Findox
+		LEFT JOIN 
+			AssetData Asset
+			ON Findox.Isin = Asset.ISIN 
+			OR Findox.Isin = Asset.PrimaryIdentifier
+			OR Findox.Lxid = Asset.LoanXID 
+			OR Findox.Figi = Asset.Figi 
+			OR Findox.BloombergId = Asset.BloombergID
+			OR Findox.BloombergId = Asset.BloombergUniqueID
+		LEFT JOIN 
+			EverestIssuerMapping EIM
+			ON Findox.IssuerId = EIM.FindoxIssuerId
+		LEFT JOIN
+			IssuerData ID
+			ON Asset.IssuerId = ID.IssuerId
+		WHERE 
+			1=1
+			--AND EIM.FindoxIssuerId IS NULL
+			AND Asset.IssuerId IS NOT NULL
+	)
+
+	-- Get Distinct Everest and FinDox Issuer IDs
+	SELECT DISTINCT 
+		EverestIssuerId AS ExtIssuerId, 
+		FinDoxIssuerId,
+		AbbrevName,
+		RmsId
+	FROM 
+		JoinedData
+	WHERE 
+      	RmsId IS NOT NULL
 	"""
 	return db.read_sql(sql_query)
