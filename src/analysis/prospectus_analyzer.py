@@ -4,7 +4,78 @@ import re
 class ProspectusAnalyzer:
     """
     A class to analyze bond prospectuses using a language model.
+    """ 
+
+    # Define prompt templates as class-level constants
+    BASELINE_PROMPT = """
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {row['Subsubsection Title']}
+    Subsubsection Text: {row['Subsubsection Text']}
+
+    Answer the question based on the text above.
     """
+
+    BASELINE_PROMPT_V2 = """
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {row['Subsubsection Title']}
+    Subsubsection Text: {row['Subsubsection Text']}
+
+    Answer the question based on the text above.
+    """
+
+    BINARY_PROMPT = """
+    You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
+    Instructions:
+    1. Review the question and the provided text.
+    2. Judge the relevance of the text to the question using one of the following labels:
+    - "Relevant"
+    - "Not Relevant"
+    3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
+
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
+
+    Provide your response in the following JSON format, without any additional text or commentary:
+    {{
+        "Relevance": "<Relevant | Not Relevant>",
+        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
+    }}
+    """
+
+    THREE_LEVEL_PROMPT = """
+    You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
+    Instructions:
+    1. Review the question and the provided text.
+    2. Judge the relevance of the text to the question using one of the following labels:
+    - "Highly Relevant"
+    - "Somewhat Relevant"
+    - "Not Relevant"
+    3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
+
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
+
+    Provide your response in the following JSON format, without any additional text or commentary:
+    {{
+        "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
+        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
+    }}
+    """
+
 
     def __init__(self, llm_model):
         """
@@ -63,32 +134,14 @@ class ProspectusAnalyzer:
         Returns:
         List[str]: The list of combined answers containing relevance and evidence.
         """
-        prompts = []
-        for row, question in zip(rows, questions):
-            prompt = f"""
-            You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
-            Instructions:
-            1. Review the question and the provided text.
-            2. Judge the relevance of the text to the question using one of the following labels:
-            - "Highly Relevant"
-            - "Somewhat Relevant"
-            - "Not Relevant"
-            3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
-
-            Question:
-            {question}
-
-            Text:
-            Subsubsection Title: {row['Subsubsection Title']}
-            Subsubsection Text: {row['Subsubsection Text']}
-
-            Provide your response in the following JSON format, without any additional text or commentary:
-            {{
-            "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
-            "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
-            }}
-            """
-            prompts.append(prompt)
+        prompts = [
+            self.BATCH_PROMPT_TEMPLATE.format(
+                question=question,
+                subsection_title=row['Subsubsection Title'],
+                subsection_text=row['Subsubsection Text']
+            )
+            for row, question in zip(rows, questions)
+        ]
 
         # Run the batch of prompts through the model
         responses = self.llm.generate(prompts)
@@ -161,32 +214,14 @@ class ProspectusAnalyzer:
         Note: Only provide the JSON response without any additional text.
         """
 
-        prompt_v2 = f"""
-        You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
-        Instructions:
-        1. Review the question and the provided text.
-        2. Judge the relevance of the text to the question using one of the following labels:
-        - "Highly Relevant"
-        - "Somewhat Relevant"
-        - "Not Relevant"
-        3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
-
-        Question:
-        {question}
-
-        Text:
-        Subsubsection Title: {row['Subsubsection Title']}
-        Subsubsection Text: {row['Subsubsection Text']}
-
-        Provide your response in the following JSON format, without any additional text or commentary:
-        {{
-        "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
-        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
-        }}
-        """
+        prompt = self.SINGLE_QUESTION_PROMPT_TEMPLATE.format(
+            question=question,
+            subsection_title=row['Subsubsection Title'],
+            subsection_text=row['Subsubsection Text']
+        )
 
         # Run the prompt through the model
-        response = self.llm.invoke(input=prompt_v2)
+        response = self.llm.invoke(input=prompt)
 
         # Parse the response
         try:
@@ -227,31 +262,13 @@ class ProspectusAnalyzer:
         Returns:
         str: The combined answer containing 'Yes' or 'No' and evidence.
         """
-        # System and user prompts
-        system_prompt = "You are an expert in analyzing bond prospectuses and identifying specific risk factors."
 
-        # Format the user prompt using the row's data
-        prompt = f"""
-        {system_prompt}
-
-        Please answer the following question based on the given text. Provide a clear "Yes" or "No" answer. If "Yes", include the exact phrases or sentences from the text that support your answer.
-
-        Text:
-        Subsubsection Title: {row['Subsubsection Title']}
-        Subsubsection Text: {row['Subsubsection Text']}
-
-        Question:
-        {question}
-
-        Please provide your answer in the following JSON format:
-
-        {{
-        "Answer": "Yes" or "No",
-        "Evidence": "The exact phrases or sentences from the text if 'Yes'; otherwise, leave blank."
-        }}
-
-        Note: Only provide the JSON response without any additional text.
-        """
+        prompt = self.SINGLE_QUESTION_PROMPT_TEMPLATE.format(
+            question=question,
+            subsection_title=row['Subsubsection Title'],
+            subsection_text=row['Subsubsection Text']
+        )
+        
         # Run the prompt through the model
         response = self.llm.invoke(input=prompt)
 
