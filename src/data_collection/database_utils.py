@@ -95,7 +95,8 @@ def get_findox_mapping_with_rms(db):
 			BloombergID,
 			BloombergUniqueID,
 			LoanXID,
-			BondTicker
+			BondTicker, 
+			AssetType
 		FROM 
 			[C4DW].[DailyOverview].[AssetData]
 	),
@@ -133,7 +134,8 @@ def get_findox_mapping_with_rms(db):
 			Asset.BloombergId AS EverestBloombergId,
 			Findox.BloombergId AS FinDoxBloombergId,
 			ID.RmsId,
-			ID.AbbrevName
+			ID.AbbrevName,
+			Asset.AssetType
 		FROM 
 			FindoxIdentifiers Findox
 		LEFT JOIN 
@@ -165,6 +167,8 @@ def get_findox_mapping_with_rms(db):
 	FROM 
 		JoinedData
 	WHERE 
-      	RmsId IS NOT NULL
+		1 = 1
+		AND RmsId IS NOT NULL
+		AND AssetType = 'Bond'
 	"""
 	return db.read_sql(sql_query)
