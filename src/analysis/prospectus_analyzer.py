@@ -12,8 +12,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {row['Subsubsection Title']}
-    Subsubsection Text: {row['Subsubsection Text']}
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
 
     Answer the question based on the text above.
     """
@@ -23,8 +23,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {row['Subsubsection Title']}
-    Subsubsection Text: {row['Subsubsection Text']}
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
 
     Answer the question based on the text above.
     """
