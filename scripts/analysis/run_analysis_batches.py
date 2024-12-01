@@ -3,6 +3,7 @@ from langchain.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
 
+import argpase
 import os
 import pandas as pd
 import sys
@@ -19,8 +20,20 @@ from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
 
 def main():
-    # Initialize the LLM (Hugging Face)
-    model_id = "meta-llama/Llama-3.2-3B-Instruct"
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    parser.add_argument(
+        "--model_id",
+        type=str,
+        required=True,
+        help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    )
+    args = parser.parse_args()
+
+    # Initialize the LLM (Hugging Face) with the provided model_id
+    model_id = args.model_id
+    print(f"Loading model: {model_id}")
+
     tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
     model_hf = AutoModelForCausalLM.from_pretrained(model_id, token=True).to('cuda')
     model_hf.generation_config.pad_token_id = tokenizer.pad_token_id
@@ -32,7 +45,7 @@ def main():
         tokenizer=tokenizer,
         device=0,
         max_length=4096,
-        temperature=0.3,
+        max_new_tokens=500,
     )
 
     # Initialize the LLM with the pipeline

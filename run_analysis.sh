@@ -36,8 +36,17 @@ nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.
 # Save the PID of the background nvidia-smi process
 NVSMI_PID=$!
 
-# Run your Python script
-python scripts/analysis/run_analysis_batches.py
+# Check if MODEL_ID is set
+if [ -z "$MODEL_ID" ]; then
+    echo "MODEL_ID is not set. Please set the MODEL_ID environment variable before submitting the job."
+    kill $NVSMI_PID
+    exit 1
+fi
+
+echo "Using model: $MODEL_ID"
+
+# Run your Python script with the model_id argument
+python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
 
 # After the script completes, kill the nvidia-smi logging process
 kill $NVSMI_PID
