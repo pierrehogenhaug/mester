@@ -135,7 +135,7 @@ class ProspectusAnalyzer:
         List[str]: The list of combined answers containing relevance and evidence.
         """
         prompts = [
-            self.BATCH_PROMPT_TEMPLATE.format(
+            self.BASELINE_PROMPT_V2.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
