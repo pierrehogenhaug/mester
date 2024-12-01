@@ -36,6 +36,8 @@ nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.
 # Save the PID of the background nvidia-smi process
 NVSMI_PID=$!
 
+export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+
 # Check if MODEL_ID is set
 if [ -z "$MODEL_ID" ]; then
     echo "MODEL_ID is not set. Please set the MODEL_ID environment variable before submitting the job."
