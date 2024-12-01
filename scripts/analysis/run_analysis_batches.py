@@ -1,11 +1,13 @@
 from huggingface_hub import login
-from langchain.llms import HuggingFacePipeline
+from langchain_community.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
 
-import argpase
+import argparse
+import glob
 import os
 import pandas as pd
+import re 
 import sys
 import time
 
@@ -18,6 +20,31 @@ login(token="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")
 
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
+
+
+def get_latest_processed_file(processed_file_base):
+    existing_files = glob.glob(processed_file_base + '*.csv')
+    if not existing_files:
+        return None, 0
+    else:
+        suffixes = []
+        for fname in existing_files:
+            base_name = os.path.basename(fname)
+            match = re.match(r'prospectuses_data_processed(?:_(\d+))?\.csv', base_name)
+            if match:
+                if match.group(1):
+                    suffixes.append(int(match.group(1)))
+                else:
+                    suffixes.append(0)
+        if not suffixes:
+            return None, 0
+        max_suffix = max(suffixes)
+        if max_suffix == 0:
+            latest_file = processed_file_base + '.csv'
+        else:
+            latest_file = f"{processed_file_base}_{max_suffix}.csv"
+        return latest_file, max_suffix
+
 
 def main():
     # Set up argument parser
@@ -54,20 +81,36 @@ def main():
     # Initialize the analyzer with the new LLM
     analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
 
-    # Load the data
-    processed_file_path = './data/prospectuses_data_processed_test.csv'
-    raw_file_path = './data/prospectuses_data.csv'
+    # Define output directory and file paths based on MODEL_ID
+    output_dir = os.path.join('./data', model_id)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    # Check if processed file exists
-    if os.path.exists(processed_file_path):
-        df_LLM = pd.read_csv(processed_file_path)
+    # Define base file name
+    processed_file_base = os.path.join(output_dir, 'prospectuses_data_processed')
+
+    # Function to get the latest processed file
+    latest_file, max_suffix = get_latest_processed_file(processed_file_base)
+    if latest_file:
+        # Load data from latest processed file
+        df_LLM = pd.read_csv(latest_file)
+        print(f"Loaded data from {latest_file}")
     else:
+        # No existing processed files
+        raw_file_path = './data/prospectuses_data_test.csv'
         print("Processed file not found. Processing raw data...")
         df_LLM = pd.read_csv(raw_file_path)
         # Filter out rows that have "failed parsing" in the Section ID column
         df_LLM = df_LLM[df_LLM['Section ID'] != "failed parsing"]
 
-    # Limit to first 10 rows for testing
+    # Set new processed_file_path
+    new_suffix = max_suffix + 1
+    if new_suffix == 0:
+        processed_file_path = processed_file_base + '.csv'
+    else:
+        processed_file_path = f"{processed_file_base}_{new_suffix}.csv"
+
+    # Limit to first 100 rows for testing
     df_LLM = df_LLM.head(100)
     
     # Ensure the relevance and evidence columns are created with a compatible data type
