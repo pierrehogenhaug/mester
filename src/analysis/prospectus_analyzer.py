@@ -76,6 +76,45 @@ class ProspectusAnalyzer:
     }}
     """
 
+    SINGLE_QUESTION_PROMPT_TEMPLATE = """
+    For the following question and text, judge whether the text is "Highly Relevant", "Somewhat Relevant", or "Not Relevant".
+
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
+
+    Please provide your answer in the following JSON format:
+
+    {{
+    "Relevance": "Highly Relevant", "Somewhat Relevant", or "Not Relevant",
+    "Evidence": "The exact phrases or sentences from the document that support your assessment; otherwise, leave blank."
+    }}
+
+    Note: Only provide the JSON response without any additional text.
+    """
+
+    YES_NO_PROMPT_TEMPLATE = """
+    For the following question and text, answer "Yes" or "No".
+
+    Question:
+    {question}
+
+    Text:
+    Subsubsection Title: {subsection_title}
+    Subsubsection Text: {subsection_text}
+
+    Please provide your answer in the following JSON format:
+
+    {{
+    "Answer": "Yes" or "No",
+    "Evidence": "The exact phrases or sentences from the document that support your answer; otherwise, leave blank."
+    }}
+
+    Note: Only provide the JSON response without any additional text.
+    """
 
     def __init__(self, llm_model):
         """
@@ -86,42 +125,37 @@ class ProspectusAnalyzer:
         """
         self.llm = llm_model
 
-
-    def extract_fields(self, response):
+    def extract_fields(self, response, answer_key="Relevance", evidence_key="Evidence"):
         """
-        Extract the 'Relevance' and 'Evidence' fields from the model's response.
+        Extract the 'Relevance' (or 'Answer') and 'Evidence' fields from the model's response.
 
         Parameters:
         response (str): The response string from the language model.
+        answer_key (str): The key for the answer field (default 'Relevance').
+        evidence_key (str): The key for the evidence field (default 'Evidence').
 
         Returns:
-        Tuple[str, List[str]]: A tuple containing the relevance and a list of evidence strings.
+        Tuple[str, List[str]]: A tuple containing the answer and a list of evidence strings.
         """
         # Remove any newlines and extra spaces
         response = ' '.join(response.strip().split())
 
-        # Extract the Relevance field
-        relevance_match = re.search(r'"Relevance"\s*:\s*"([^"]+)"', response)
-        if relevance_match:
-            relevance = relevance_match.group(1).strip()
+        # Extract the answer field
+        answer_match = re.search(rf'"{answer_key}"\s*:\s*"([^"]+)"', response)
+        if answer_match:
+            answer = answer_match.group(1).strip()
         else:
-            relevance = "Parsing Error"
+            answer = "Parsing Error"
 
         # Extract the Evidence field(s)
-        evidence_match = re.search(r'"Evidence"\s*:\s*(.+?)(?:,?\s*"[^"]+"\s*:|\s*}$)', response)
+        evidence_match = re.search(rf'"{evidence_key}"\s*:\s*"([^"]*)"', response)
         if evidence_match:
             evidence_str = evidence_match.group(1).strip()
-            # Remove any trailing commas or braces
-            evidence_str = evidence_str.rstrip(', }')
-            # Split the evidence_str into individual evidence items
-            # Evidence items are strings enclosed in double quotes
-            evidence_items = re.findall(r'"([^"]+)"', evidence_str)
-            evidence = evidence_items
+            evidence = [evidence_str] if evidence_str else []
         else:
             evidence = []
 
-        return relevance, evidence
-    
+        return answer, evidence
 
     def analyze_rows_batch(self, rows, questions):
         """
@@ -177,127 +211,110 @@ class ProspectusAnalyzer:
 
         return combined_answers
 
-
-    def analyze_row_single_question(self, row, question):
+    def analyze_rows_single_question(self, rows, question):
         """
-        Analyze a single row with a given question.
+        Analyze a batch of rows with a single question.
 
         Parameters:
-        row (pandas.Series): The row from the DataFrame.
+        rows (list of pandas.Series): The list of rows from the DataFrame.
         question (str): The question to ask.
 
         Returns:
-        str: The combined answer containing relevance and evidence.
+        List[str]: The list of combined answers containing relevance and evidence.
         """
-        # System and user prompts
-        # system_prompt = "You are an expert in analyzing bond prospectuses and identifying specific risk factors."
+        prompts = [
+            self.SINGLE_QUESTION_PROMPT_TEMPLATE.format(
+                question=question,
+                subsection_title=row['Subsubsection Title'],
+                subsection_text=row['Subsubsection Text']
+            )
+            for row in rows
+        ]
 
-        # Format the user prompt using the row's data
-        prompt = f"""
-        For the following question and text, judge whether the text is "Highly Relevant", "Somewhat Relevant", or "Not Relevant".
+        # Run the batch of prompts through the model
+        responses = self.llm.generate(prompts)
 
-        Question:
-        {question}
+        combined_answers = []
+        for generation in responses.generations:
+            response = generation[0].text  # Get the generated text
+            try:
+                # Extract the Relevance and Evidence fields
+                relevance, evidence_list = self.extract_fields(response)
+                # Join multiple evidence items into a single string
+                evidence = '; '.join(evidence_list)
+            except Exception as e:
+                relevance = "Parsing Error"
+                evidence = ""
 
-        Text:
-        Subsubsection Title: {row['Subsubsection Title']}
-        Subsubsection Text: {row['Subsubsection Text']}
+            # Combine relevance and evidence
+            if relevance in ["Highly Relevant", "Somewhat Relevant"] and evidence:
+                combined_answer = f"{relevance}: {evidence}"
+            elif relevance in ["Highly Relevant", "Somewhat Relevant"]:
+                combined_answer = relevance
+            elif relevance == "Not Relevant":
+                combined_answer = "Not Relevant"
+            else:
+                combined_answer = "Parsing Error"
 
+            # For debugging
+            if combined_answer == "Parsing Error":
+                print("Parsing Error encountered. Response was:")
+                print(response)
 
-        Please provide your answer in the following JSON format:
+            combined_answers.append(combined_answer)
 
-        {{
-        "Relevance": "Highly Relevant", "Somewhat Relevant", or "Not Relevant",
-        "Evidence": "The exact phrases or sentences from the document that support your assessment; otherwise, leave blank."
-        }}
+        return combined_answers
 
-        Note: Only provide the JSON response without any additional text.
+    def analyze_rows_single_question_yes_no(self, rows, question):
         """
-
-        prompt = self.SINGLE_QUESTION_PROMPT_TEMPLATE.format(
-            question=question,
-            subsection_title=row['Subsubsection Title'],
-            subsection_text=row['Subsubsection Text']
-        )
-
-        # Run the prompt through the model
-        response = self.llm.invoke(input=prompt)
-
-        # Parse the response
-        try:
-            # Extract the Relevance and Evidence fields
-            relevance, evidence_list = self.extract_fields(response)
-            # Join multiple evidence items into a single string
-            evidence = '; '.join(evidence_list)
-        except Exception as e:
-            relevance = "Parsing Error"
-            evidence = ""
-
-        # Combine relevance and evidence
-        if relevance in ["Highly Relevant", "Somewhat Relevant"] and evidence:
-            combined_answer = f"{relevance}: {evidence}"
-        elif relevance in ["Highly Relevant", "Somewhat Relevant"]:
-            combined_answer = relevance
-        elif relevance == "Not Relevant":
-            combined_answer = "Not Relevant"
-        else:
-            combined_answer = "Parsing Error"
-
-        # For debugging
-        if combined_answer == "Parsing Error":
-            print("Parsing Error encountered. Response was:")
-            print(response)
-
-        return combined_answer
-
-
-    def analyze_row_single_question_yes_no(self, row, question):
-        """
-        Analyze a single row with a yes/no question.
+        Analyze a batch of rows with a yes/no question.
 
         Parameters:
-        row (pandas.Series): The row from the DataFrame.
+        rows (list of pandas.Series): The list of rows from the DataFrame.
         question (str): The question to ask.
 
         Returns:
-        str: The combined answer containing 'Yes' or 'No' and evidence.
+        List[str]: The list of combined answers containing 'Yes' or 'No' and evidence.
         """
+        prompts = [
+            self.YES_NO_PROMPT_TEMPLATE.format(
+                question=question,
+                subsection_title=row['Subsubsection Title'],
+                subsection_text=row['Subsubsection Text']
+            )
+            for row in rows
+        ]
 
-        prompt = self.SINGLE_QUESTION_PROMPT_TEMPLATE.format(
-            question=question,
-            subsection_title=row['Subsubsection Title'],
-            subsection_text=row['Subsubsection Text']
-        )
-        
-        # Run the prompt through the model
-        response = self.llm.invoke(input=prompt)
+        # Run the batch of prompts through the model
+        responses = self.llm.generate(prompts)
 
-        # Parse the response
-        try:
-            # Extract the JSON from the response
-            start_idx = response.find('{')
-            end_idx = response.rfind('}') + 1
-            json_str = response[start_idx:end_idx]
-            result = json.loads(json_str)
-            answer = result.get("Answer", "").strip()
-            evidence = result.get("Evidence", "").strip()
-        except json.JSONDecodeError:
-            answer = "Parsing Error"
-            evidence = ""
+        combined_answers = []
+        for generation in responses.generations:
+            response = generation[0].text  # Get the generated text
+            try:
+                # Extract the 'Answer' and 'Evidence' fields
+                answer, evidence_list = self.extract_fields(response, answer_key="Answer", evidence_key="Evidence")
+                # Join multiple evidence items into a single string
+                evidence = '; '.join(evidence_list)
+            except Exception as e:
+                answer = "Parsing Error"
+                evidence = ""
 
-        # Combine answer and evidence
-        if answer.lower() == "yes" and evidence:
-            combined_answer = f"Yes: {evidence}"
-        elif answer.lower() == "yes":
-            combined_answer = "Yes"
-        elif answer.lower() == "no":
-            combined_answer = "No"
-        else:
-            combined_answer = "Parsing Error"
+            # Combine answer and evidence
+            if answer.lower() == "yes" and evidence:
+                combined_answer = f"Yes: {evidence}"
+            elif answer.lower() == "yes":
+                combined_answer = "Yes"
+            elif answer.lower() == "no":
+                combined_answer = "No"
+            else:
+                combined_answer = "Parsing Error"
 
-        # For debugging
-        if combined_answer == "Parsing Error":
-            print("Parsing Error encountered. Response was:")
-            print(response)
+            # For debugging
+            if combined_answer == "Parsing Error":
+                print("Parsing Error encountered. Response was:")
+                print(response)
 
-        return combined_answer
+            combined_answers.append(combined_answer)
+
+        return combined_answers
