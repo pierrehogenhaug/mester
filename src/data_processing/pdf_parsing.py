@@ -165,7 +165,7 @@ def is_section_empty(section):
     # If no body text found, return True
     return True
 
-def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_id_map, next_section_id):
+def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_id_map, next_section_id, from_folder):
     parsing_error = 'N/A'  # Initialize parsing error
     md_text = ''  # Initialize md_text
     try:
@@ -200,7 +200,7 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             if risk_factors_in_markdown:
                 parsing_error = 'Risk factors section found but in inconsistent format'
             else:
-                # Second check: Check if language is not English
+                # Second check: language
                 try:
                     language = detect(md_text)
                     if language != 'en':
@@ -221,7 +221,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                 'Subsubsection ID': 'failed parsing',
                 'Subsubsection Title': 'failed parsing',
                 'Subsubsection Text': 'failed parsing',
-                'Parsing Error': parsing_error
+                'Parsing Error': parsing_error,
+                'From Folder': from_folder
             }
             data = [row]
             return data, next_section_id, 'not_as_expected', md_text
@@ -244,7 +245,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Subsubsection ID': 'failed parsing',
                     'Subsubsection Title': 'failed parsing',
                     'Subsubsection Text': 'failed parsing',
-                    'Parsing Error': parsing_error
+                    'Parsing Error': parsing_error,
+                    'From Folder': from_folder
                 }
                 data = [row]
                 return data, next_section_id, 'not_as_expected', md_text
@@ -262,18 +264,14 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                 next_section_id += 1
             section_id = section_id_map[section_title]
 
-            subsection_counter = 1  # Initialize subsection counter for this section
-
-            # Handle section body if needed (optional)
+            subsection_counter = 1
 
             for subsection in section['subsections']:
                 subsection_title = subsection['subtitle']
                 subsection_id = f"{section_id}.{subsection_counter}"
                 subsection_counter += 1
 
-                subsubsection_counter = 1  # Initialize subsubsection counter for this subsection
-
-                # Handle subsection body if needed (optional)
+                subsubsection_counter = 1
 
                 for subsub in subsection.get('subsubsections', []):
                     subsubtitle = subsub['subsubtitle']
@@ -282,7 +280,6 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     subsubsection_id = f"{subsection_id}.{subsubsection_counter}"
                     subsubsection_counter += 1
 
-                    # Collect data into a row
                     row = {
                         'Prospectus ID': prospectus_id,
                         'Original Filename': original_filename,
@@ -293,14 +290,14 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsubsection ID': subsubsection_id,
                         'Subsubsection Title': subsubtitle,
                         'Subsubsection Text': subsubsection_body,
-                        'Parsing Error': 'N/A'
+                        'Parsing Error': 'N/A',
+                        'From Folder': from_folder
                     }
                     data.append(row)
 
-                # If subsection has body text directly, collect it as a subsubsection without a title
+                # If subsection has direct body text
                 if 'body' in subsection and subsection['body'].strip():
                     subsubsection_body = subsection['body'].strip()
-
                     subsubsection_id = f"{subsection_id}.{subsubsection_counter}"
                     subsubsection_counter += 1
 
@@ -312,19 +309,18 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsection ID': subsection_id,
                         'Subsection Title': subsection_title,
                         'Subsubsection ID': subsubsection_id,
-                        'Subsubsection Title': '',  # No subsubtitle
+                        'Subsubsection Title': '',
                         'Subsubsection Text': subsubsection_body,
-                        'Parsing Error': 'N/A'
+                        'Parsing Error': 'N/A',
+                        'From Folder': from_folder
                     }
                     data.append(row)
 
-            # If section has body text directly, collect it as a subsection without a title
+            # If section has direct body text
             if 'body' in section and section['body'].strip():
                 subsection_id = f"{section_id}.{subsection_counter}"
                 subsection_counter += 1
-
                 subsubsection_id = f"{subsection_id}.1"
-
                 subsubsection_body = section['body'].strip()
 
                 row = {
@@ -333,13 +329,21 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Section ID': section_id,
                     'Section Title': section_title,
                     'Subsection ID': subsection_id,
-                    'Subsection Title': '',  # No subtitle
+                    'Subsection Title': '',
                     'Subsubsection ID': subsubsection_id,
-                    'Subsubsection Title': '',  # No subsubtitle
+                    'Subsubsection Title': '',
                     'Subsubsection Text': subsubsection_body,
-                    'Parsing Error': 'N/A'
+                    'Parsing Error': 'N/A',
+                    'From Folder': from_folder
                 }
                 data.append(row)
+
+        # After extracting data for RISK FACTORS, if we have only one row,
+        # consider it a parsing error (as not identified correctly)
+        if len(data) == 1 and data[0]['Parsing Error'] == 'N/A':
+            parsing_error = 'Risk factors section likely not identified correctly (only one row found)'
+            data[0]['Parsing Error'] = parsing_error
+            return data, next_section_id, 'not_as_expected', md_text
 
         return data, next_section_id, 'as_expected', md_text
 
@@ -358,8 +362,9 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             'Subsubsection ID': 'failed parsing',
             'Subsubsection Title': 'failed parsing',
             'Subsubsection Text': 'failed parsing',
-            'Parsing Error': parsing_error
+            'Parsing Error': parsing_error,
+            'From Folder': from_folder
         }
         data = [row]
-        md_text = ''  # Ensure md_text is defined even if an exception occurs
+        md_text = ''  
         return data, next_section_id, 'not_as_expected', md_text
