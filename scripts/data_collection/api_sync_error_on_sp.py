@@ -10,7 +10,7 @@ sys.path.insert(0, project_root)
 
 from capfourpy.databases import Database
 from src.data_collection.database_utils import get_rms_issuer, get_findox_mapping_with_rms
-from src.data_collection.sharepoint_scraper import CustomSharePoint
+from src.data_collection.scrape_sharepoint import CustomSharePoint
 
 def file_exists_in_reorg(site_url, filename="Reorg API Sync Issues.txt"):
     """

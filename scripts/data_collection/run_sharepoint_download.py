@@ -6,7 +6,7 @@ import sys
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
-from src.data_collection.sharepoint_scraper import CustomSharePoint, download_specific_files_for_row
+from src.data_collection.scrape_sharepoint import CustomSharePoint, download_specific_files_for_row
 from src.data_processing.data_processing import process_sp_data, merge_data
 
 
