@@ -15,18 +15,7 @@ class ProspectusAnalyzer:
     Subsubsection Title: {subsection_title}
     Subsubsection Text: {subsection_text}
 
-    Answer the question based on the text above.
-    """
-
-    BASELINE_PROMPT_V2 = """
-    Question:
-    {question}
-
-    Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
-
-    Answer the question based on the text above.
+    Answer the question based on the text.
     """
 
     BINARY_PROMPT = """
@@ -169,7 +158,7 @@ class ProspectusAnalyzer:
         List[str]: The list of combined answers containing relevance and evidence.
         """
         prompts = [
-            self.BASELINE_PROMPT_V2.format(
+            self.BASELINE_PROMPT.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
