@@ -21,20 +21,31 @@ def main():
     # Initialize data structures
     data_file = os.path.join(project_root, 'data', 'prospectuses_data.csv')
     if os.path.exists(data_file):
-        existing_df = pd.read_csv(data_file, dtype={'Prospectus ID': str})
-        all_data = existing_df.to_dict('records')
-        processed_prospectus_ids = set(existing_df['Prospectus ID'].astype(str).unique())
+        try:
+            existing_df = pd.read_csv(data_file, dtype={'Prospectus ID': str})
+            all_data = existing_df.to_dict('records')
+            processed_prospectus_ids = set(existing_df['Prospectus ID'].astype(str).unique())
+        except pd.errors.EmptyDataError:
+            print(f"{data_file} is empty. Initializing with default values.")
+            all_data = []
+            processed_prospectus_ids = set()
     else:
+        print(f"{data_file} is missing or empty. Initializing with default values.")
         all_data = []
         processed_prospectus_ids = set()
 
     # Initialize id_state
     id_state_file = os.path.join(project_root, 'data', 'id_state.json')
     if os.path.exists(id_state_file):
-        with open(id_state_file, 'r') as f:
-            id_state = json.load(f)
-        section_id_map = id_state.get('section_id_map', {})
-        next_section_id = id_state.get('next_section_id', 1)
+        try:
+            with open(id_state_file, 'r') as f:
+                id_state = json.load(f)
+            section_id_map = id_state.get('section_id_map', {})
+            next_section_id = id_state.get('next_section_id', 1)
+        except (json.JSONDecodeError, ValueError) as e:
+            print(f"Invalid JSON in {id_state_file}. Reinitializing with default values.")
+            section_id_map = {}
+            next_section_id = 1
     else:
         section_id_map = {}
         next_section_id = 1
@@ -42,16 +53,24 @@ def main():
     # Initialize prospectus_counter
     prospectus_counter_file = os.path.join(project_root, 'data', 'prospectus_counter.json')
     if os.path.exists(prospectus_counter_file):
-        with open(prospectus_counter_file, 'r') as f:
-            prospectus_counter = json.load(f)
+        try:
+            with open(prospectus_counter_file, 'r') as f:
+                prospectus_counter = json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            print(f"Invalid or empty JSON in {prospectus_counter_file}. Reinitializing with default values.")
+            prospectus_counter = {}
     else:
         prospectus_counter = {}
     
     # Initialize pdf_to_prospectus_id
     pdf_to_prospectus_id_file = os.path.join(project_root, 'data', 'pdf_to_prospectus_id.json')
     if os.path.exists(pdf_to_prospectus_id_file):
-        with open(pdf_to_prospectus_id_file, 'r') as f:
-            pdf_to_prospectus_id = json.load(f)
+        try:
+            with open(pdf_to_prospectus_id_file, 'r') as f:
+                pdf_to_prospectus_id = json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            print(f"Invalid or empty JSON in {pdf_to_prospectus_id_file}. Reinitializing with default values.")
+            pdf_to_prospectus_id = {}
     else:
         pdf_to_prospectus_id = {}
 
@@ -91,13 +110,13 @@ def main():
             # If we found files with a recognizable year, sort by closest to scoring_year
             if files_with_year:
                 files_with_year.sort(key=lambda x: abs(x[1] - scoring_year))
-                matched_files = [(fw[0], fw[2]) for fw in files_with_year]  # (pdf_path, folder_type)
+                matched_files = [(fw[0], fw[1], fw[2]) for fw in files_with_year]  # (pdf_path, f_year, folder_type)
             else:
                 # If no files have a year, we won't match any
                 matched_files = []
 
             processing_success = False
-            for (pdf_file_path, from_folder) in matched_files:
+            for (pdf_file_path, f_year, from_folder) in matched_files:
                 pdf_file_key = os.path.relpath(pdf_file_path, project_root)
 
                 # Check if already processed
@@ -114,7 +133,7 @@ def main():
                     try:
                         data, next_section_id, processing_result, md_text = process_prospectus(
                             pdf_file_path, os.path.basename(pdf_file_path), prospectus_id,
-                            section_id_map, next_section_id, from_folder=from_folder
+                            section_id_map, next_section_id, from_folder=from_folder, f_year=f_year
                         )
 
                         dest_folder = os.path.join(project_root, 'data', 'processed', rms_id_str)
