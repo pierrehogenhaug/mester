@@ -165,7 +165,7 @@ def is_section_empty(section):
     # If no body text found, return True
     return True
 
-def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_id_map, next_section_id, from_folder):
+def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_id_map, next_section_id, from_folder, f_year=None):
     parsing_error = 'N/A'  # Initialize parsing error
     md_text = ''  # Initialize md_text
     try:
@@ -214,16 +214,18 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             row = {
                 'Prospectus ID': prospectus_id,
                 'Original Filename': original_filename,
-                'Section ID': 'failed parsing',
-                'Section Title': 'failed parsing',
-                'Subsection ID': 'failed parsing',
-                'Subsection Title': 'failed parsing',
-                'Subsubsection ID': 'failed parsing',
-                'Subsubsection Title': 'failed parsing',
-                'Subsubsection Text': 'failed parsing',
-                'Parsing Error': parsing_error,
-                'From Folder': from_folder
+                'Section ID': section_id,
+                'Section Title': section_title,
+                'Subsection ID': subsection_id,
+                'Subsection Title': subsection_title,
+                'Subsubsection ID': subsubsection_id,
+                'Subsubsection Title': subsubtitle,
+                'Subsubsection Text': subsubsection_body,
+                'Parsing Error': 'N/A',
+                'From Folder': from_folder,
+                'Prospectus Year': f_year  
             }
+
             data = [row]
             return data, next_section_id, 'not_as_expected', md_text
 
@@ -246,7 +248,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Subsubsection Title': 'failed parsing',
                     'Subsubsection Text': 'failed parsing',
                     'Parsing Error': parsing_error,
-                    'From Folder': from_folder
+                    'From Folder': from_folder, 
+                    'Prospectus Year': f_year
                 }
                 data = [row]
                 return data, next_section_id, 'not_as_expected', md_text
@@ -291,7 +294,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsubsection Title': subsubtitle,
                         'Subsubsection Text': subsubsection_body,
                         'Parsing Error': 'N/A',
-                        'From Folder': from_folder
+                        'From Folder': from_folder,
+                        'Prospectus Year': f_year
                     }
                     data.append(row)
 
@@ -312,7 +316,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                         'Subsubsection Title': '',
                         'Subsubsection Text': subsubsection_body,
                         'Parsing Error': 'N/A',
-                        'From Folder': from_folder
+                        'From Folder': from_folder,
+                        'Prospectus Year': f_year
                     }
                     data.append(row)
 
@@ -334,7 +339,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
                     'Subsubsection Title': '',
                     'Subsubsection Text': subsubsection_body,
                     'Parsing Error': 'N/A',
-                    'From Folder': from_folder
+                    'From Folder': from_folder,
+                    'Prospectus Year': f_year
                 }
                 data.append(row)
 
@@ -363,7 +369,8 @@ def process_prospectus(pdf_file_path, original_filename, prospectus_id, section_
             'Subsubsection Title': 'failed parsing',
             'Subsubsection Text': 'failed parsing',
             'Parsing Error': parsing_error,
-            'From Folder': from_folder
+            'From Folder': from_folder,
+            'Prospectus Year': f_year
         }
         data = [row]
         md_text = ''  
