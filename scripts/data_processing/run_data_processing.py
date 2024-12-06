@@ -14,9 +14,7 @@ sys.path.insert(0, project_root)
 from src.data_processing.pdf_parsing import process_prospectus
 
 def main():
-    # Read the dataframe
-    # This should be dynamic in case dataframe changes
-    df = pd.read_pickle(os.path.join(project_root, 'notebooks', 'rms_with_fundamental_score.pkl'))
+    df = pd.read_csv(os.path.join(project_root, 'data', 'rms_with_fundamental_score.csv'))
     print("Found file")
     df['ScoringDate'] = pd.to_datetime(df['ScoringDate'])
     
@@ -41,7 +39,7 @@ def main():
         section_id_map = {}
         next_section_id = 1
     
-    # For tracking the number of prospectuses per RmsId
+    # Initialize prospectus_counter
     prospectus_counter_file = os.path.join(project_root, 'data', 'prospectus_counter.json')
     if os.path.exists(prospectus_counter_file):
         with open(prospectus_counter_file, 'r') as f:
@@ -49,101 +47,85 @@ def main():
     else:
         prospectus_counter = {}
     
-    # Initialize mapping from PDF file paths to prospectus_ids
+    # Initialize pdf_to_prospectus_id
     pdf_to_prospectus_id_file = os.path.join(project_root, 'data', 'pdf_to_prospectus_id.json')
     if os.path.exists(pdf_to_prospectus_id_file):
         with open(pdf_to_prospectus_id_file, 'r') as f:
             pdf_to_prospectus_id = json.load(f)
     else:
         pdf_to_prospectus_id = {}
+
+    def extract_year_from_filename(filename):
+        match = re.search(r'\b(19|20)\d{2}\b', filename)
+        return int(match.group()) if match else None
     
-    # Iterate over the dataframe grouped by RmsId
     for RmsId, group_df in df.groupby('RmsId'):
         rms_id_str = str(RmsId)
-        rms_folder = os.path.join(project_root, 'data', 'raw', rms_id_str)
-        if not os.path.exists(rms_folder):
-            continue  # Skip to next RmsId
+        rms_folder = os.path.join(project_root, 'data', 'raw', 'sharepoint_reorg_files', rms_id_str)
+        rms_folder_manual = os.path.join(project_root, 'data', 'raw', 'raw_manual', rms_id_str)
 
-        # Initialize prospectus_counter for this RmsId
+        # Collect PDF files from both folders
+        pdf_files = []
+        if os.path.exists(rms_folder):
+            pdf_files.extend((os.path.join(rms_folder, f), 'raw') for f in os.listdir(rms_folder) if f.lower().endswith('.pdf'))
+        if os.path.exists(rms_folder_manual):
+            pdf_files.extend((os.path.join(rms_folder_manual, f), 'raw_manual') for f in os.listdir(rms_folder_manual) if f.lower().endswith('.pdf'))
+
+        if not pdf_files:
+            continue  # No files to process
+
         if rms_id_str not in prospectus_counter:
             prospectus_counter[rms_id_str] = 0
 
-        # For each unique ScoringDate
         for scoring_date in group_df['ScoringDate'].unique():
-            year = scoring_date.year
+            scoring_year = scoring_date.year
 
-            # Get list of PDF files in the folder
-            files_in_folder = [f for f in os.listdir(rms_folder) if f.lower().endswith('.pdf')]
+            # Find PDFs with a year in their filename
+            files_with_year = []
+            for (pdf_path, folder_type) in pdf_files:
+                f = os.path.basename(pdf_path)
+                f_year = extract_year_from_filename(f)
+                if f_year is not None:
+                    files_with_year.append((pdf_path, f_year, folder_type))
 
-            # Function to assign priority to files
-            def file_priority(filename):
-                priority = 4
-                if 'final offerings' in filename.lower():
-                    priority = 1
-                elif 'offerings' in filename.lower():
-                    priority = 2
-                elif 'preliminary' in filename.lower():
-                    priority = 3
-                return priority
+            # If we found files with a recognizable year, sort by closest to scoring_year
+            if files_with_year:
+                files_with_year.sort(key=lambda x: abs(x[1] - scoring_year))
+                matched_files = [(fw[0], fw[2]) for fw in files_with_year]  # (pdf_path, folder_type)
+            else:
+                # If no files have a year, we won't match any
+                matched_files = []
 
-            # Function to extract year from filename
-            def extract_year_from_filename(filename):
-                match = re.search(r'\b(19|20)\d{2}\b', filename)
-                return int(match.group()) if match else None
-
-            # Search for files with the year in the name
-            matched_files = [f for f in files_in_folder if str(year) in f]
-            matched_files.sort(key=lambda x: file_priority(x))
-
-            # If no files matched, check for files with later year
-            if not matched_files:
-                later_year_files = [f for f in files_in_folder if extract_year_from_filename(f) and extract_year_from_filename(f) > year]
-                later_year_files.sort(key=lambda x: file_priority(x))
-                matched_files = later_year_files
-
-            # If still no files, check for files with previous year
-            if not matched_files:
-                previous_year_files = [f for f in files_in_folder if extract_year_from_filename(f) and extract_year_from_filename(f) < year]
-                previous_year_files.sort(key=lambda x: file_priority(x))
-                matched_files = previous_year_files
-
-            # If still no files, take the first available file
-            if not matched_files and files_in_folder:
-                matched_files = sorted(files_in_folder, key=lambda x: file_priority(x))
-
-            # Now try processing the files
             processing_success = False
-            for file_name in matched_files:
-                pdf_file_path = os.path.join(rms_folder, file_name)
+            for (pdf_file_path, from_folder) in matched_files:
                 pdf_file_key = os.path.relpath(pdf_file_path, project_root)
-                
-                # Check if this PDF has already been processed
+
+                # Check if already processed
                 if pdf_file_key in pdf_to_prospectus_id:
-                    # Already processed this PDF file
                     prospectus_id = pdf_to_prospectus_id[pdf_file_key]
                     print(f"PDF file {pdf_file_path} already processed with prospectus_id {prospectus_id}")
-                    processing_success = True  # Assume success since it was processed before
-                    break  # Move to the next ScoringDate or RmsId as appropriate
+                    processing_success = True
+                    break
                 else:
-                    # Generate a new prospectus_id
-                    prospectus_id = rms_id_str if prospectus_counter[rms_id_str] == 0 else f"{rms_id_str}_{prospectus_counter[rms_id_str]}"                    
+                    prospectus_id = rms_id_str if prospectus_counter[rms_id_str] == 0 else f"{rms_id_str}_{prospectus_counter[rms_id_str]}"
                     print(f"Current prospectus_id: {prospectus_id}")
                     print(f"Processed prospectus_ids: {processed_prospectus_ids}")
-                    
+
                     try:
                         data, next_section_id, processing_result, md_text = process_prospectus(
-                            pdf_file_path, file_name, prospectus_id,
-                            section_id_map, next_section_id)
-                        # Save processed data and files
+                            pdf_file_path, os.path.basename(pdf_file_path), prospectus_id,
+                            section_id_map, next_section_id, from_folder=from_folder
+                        )
+
                         dest_folder = os.path.join(project_root, 'data', 'processed', rms_id_str)
                         os.makedirs(dest_folder, exist_ok=True)
 
-                        # Determine subfolder based on processing_result
                         subfolder = 'as_expected' if processing_result == 'as_expected' else 'not_as_expected'
                         dest_subfolder = os.path.join(dest_folder, subfolder)
                         os.makedirs(dest_subfolder, exist_ok=True)
     
                         # Copy the PDF file
+                        file_name = os.path.basename(pdf_file_path)
                         dest_pdf_path = os.path.join(dest_subfolder, file_name)
                         shutil.copy2(pdf_file_path, dest_pdf_path)
     
@@ -153,23 +135,19 @@ def main():
                         with open(md_file_path, 'w', encoding='utf-8') as f:
                             f.write(md_text)
 
-                        # Append data to all_data
+                        # Append data
                         all_data.extend(data)
-
-                        # Save data after each processed file
                         df_data = pd.DataFrame(all_data)
                         df_data.to_csv(data_file, index=False)
 
-                        # Add to pdf_to_prospectus_id mapping
+                        # Update mappings
                         pdf_to_prospectus_id[pdf_file_key] = prospectus_id
                         with open(pdf_to_prospectus_id_file, 'w') as f:
                             json.dump(pdf_to_prospectus_id, f)
 
-                        # Update processed_prospectus_ids
                         processed_prospectus_ids.add(prospectus_id)
                         print(f"Added {prospectus_id} to processed_prospectus_ids")
 
-                        # Save id_state
                         id_state = {
                             'section_id_map': section_id_map,
                             'next_section_id': next_section_id
@@ -177,24 +155,22 @@ def main():
                         with open(id_state_file, 'w') as f:
                             json.dump(id_state, f)
 
-                        # Increment prospectus_counter only when processing a new PDF
                         prospectus_counter[rms_id_str] += 1
                         with open(prospectus_counter_file, 'w') as f:
                             json.dump(prospectus_counter, f)
 
                         if processing_result == 'as_expected':
                             processing_success = True
-                            # Break out of the loop since we have a successful processing
                             break
                         else:
-                            # Continue to the next file
+                            # If not as_expected, try the next file
                             continue
 
                     except Exception as e:
                         print(f"Exception occurred while processing {pdf_file_path}: {e}")
-                        # Do not increment prospectus_counter here
-                        continue  # Try the next file
-    
+                        # Try next file
+                        continue
+
             if not processing_success:
                 print(f"No suitable files processed successfully for RmsId {RmsId} on ScoringDate {scoring_date}")
 
