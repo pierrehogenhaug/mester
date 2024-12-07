@@ -14,8 +14,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
+    Title: {subsection_title}
+    Text: {subsection_text}
 
     Answer the question based on the text.
     """
@@ -33,8 +33,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
+    Title: {subsection_title}
+    Text: {subsection_text}
 
     Provide your response in the following JSON format, without any additional text or commentary:
     {{
@@ -57,8 +57,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
+    Title: {subsection_title}
+    Text: {subsection_text}
 
     Provide your response in the following JSON format, without any additional text or commentary:
     {{
@@ -74,8 +74,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
+    Title: {subsection_title}
+    Text: {subsection_text}
 
     Please provide your answer in the following JSON format:
 
@@ -94,8 +94,8 @@ class ProspectusAnalyzer:
     {question}
 
     Text:
-    Subsubsection Title: {subsection_title}
-    Subsubsection Text: {subsection_text}
+    Title: {subsection_title}
+    Text: {subsection_text}
 
     Please provide your answer in the following JSON format:
 
