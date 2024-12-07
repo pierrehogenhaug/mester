@@ -23756,16 +23756,6 @@ including €17.8 million in rent (compared to
 
 The total amount of minimum fee payments receivable is broken down as follows:
 
-_In millions of euros_ `M ar. 2024` `M ar. 2023`
-Less than 1 year `83.8` `74.3`
-From the 2nd to the 5th year included `254.5` `255.2`
-Beyond 5 years `77.6` `82.1`
-```
-Total am ount of m inim um paym ents to be received from non-cancellable
-                                       415.9 411.6
-m inim um royalties
-
-```
 
 -----
 
@@ -27194,31 +27184,22 @@ The average term of pension plans is 10 years in
 
 **Change in the present value of the retirement benefit obligation**
 ```
-Changes in com m itm ents Dec. 2023 Dec. 2022 Jan. 2022
-Present value of com m itm ents 2.1 2.7 2.6
+Changes in com m itm ents Dec. 2023
+Present value of com m itm ents
 
 ```
-Cost of services 0.2 0.2 0.2
-Interest on the commitment 0.2 0.0 0.0
-Benefits paid (0.0) (0.1) (0.1)
-Business combinations 3.3 - 0.0
-Assumed actuarial gain/(loss) 0.5 (0.6) (0.1)
-Actual actuarial gain/(loss) 0.2 (0.2) 0.0
+Cost of services
+Interest on the commitment
+Benefits paid (0.0)
+Business combinations
+Assumed actuarial gain/(loss)
+Actual actuarial gain/(loss)
 ```
-Present value of com m itm ents 6.4 2.1 2.7
+Present value of com m itm ents
 
 ```
 **Items recognised as other items of comprehensive income**
-```
-Included in other com prehensive incom e Dec. 2023 Dec. 2022 Jan. 2022
 
-```
-Actual gain/(loss) 0.2 (0.1) 0.0
-Assumed gain/(loss) 0.5 (0.6) `(0.1)`
-```
-Total 0.6 (0.7) (0.1)
-
-```
 
 -----
 
