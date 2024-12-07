@@ -1,5 +1,7 @@
 import json
 import re
+import time
+
 
 class ProspectusAnalyzer:
     """
@@ -254,19 +256,13 @@ class ProspectusAnalyzer:
 
         return combined_answers
 
+
     def analyze_rows_single_question_yes_no(self, rows, question):
         """
         Analyze a batch of rows with a yes/no question.
-
-        Parameters:
-        rows (list of pandas.Series): The list of rows from the DataFrame.
-        question (str): The question to ask.
-
-        Returns:
-        List[str]: The list of combined answers containing 'Yes' or 'No' and evidence.
         """
         prompts = [
-            self.YES_NO_PROMPT_TEMPLATE.format(
+            self.BASELINE_PROMPT.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
@@ -274,18 +270,33 @@ class ProspectusAnalyzer:
             for row in rows
         ]
 
+        # Print information about prompts to diagnose issues
+        for i, prompt in enumerate(prompts, start=1):
+            print(f"=== Prompt {i} ===")
+            print(prompt)
+            print(f"Prompt length (chars): {len(prompt)}")
+
+        start_time = time.time()
         # Run the batch of prompts through the model
+        print("Sending prompts to the model...")
         responses = self.llm.generate(prompts)
+        end_time = time.time()
+        print(f"Model response received. Time taken: {end_time - start_time:.2f} seconds.")
 
         combined_answers = []
-        for generation in responses.generations:
+        for i, generation in enumerate(responses.generations, start=1):
             response = generation[0].text  # Get the generated text
+            print(f"=== Response for Prompt {i} ===")
+            print(response)
+            print(f"Response length (chars): {len(response)}")
+
             try:
                 # Extract the 'Answer' and 'Evidence' fields
                 answer, evidence_list = self.extract_fields(response, answer_key="Answer", evidence_key="Evidence")
                 # Join multiple evidence items into a single string
                 evidence = '; '.join(evidence_list)
             except Exception as e:
+                print("Error parsing fields from the response:", e)
                 answer = "Parsing Error"
                 evidence = ""
 
@@ -301,7 +312,7 @@ class ProspectusAnalyzer:
 
             # For debugging
             if combined_answer == "Parsing Error":
-                print("Parsing Error encountered. Response was:")
+                print("Parsing Error encountered. Full Response was:")
                 print(response)
 
             combined_answers.append(combined_answer)
