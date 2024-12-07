@@ -271,9 +271,9 @@ class ProspectusAnalyzer:
         ]
 
         # Print information about prompts to diagnose issues
-        for i, prompt in enumerate(prompts, start=1):
+        for i, prompt in enumerate(prompts):
             print(f"=== Prompt {i} ===")
-            print(prompt)
+            # print(prompt)
             print(f"Prompt length (chars): {len(prompt)}")
 
         start_time = time.time()
@@ -287,7 +287,7 @@ class ProspectusAnalyzer:
         for i, generation in enumerate(responses.generations, start=1):
             response = generation[0].text  # Get the generated text
             print(f"=== Response for Prompt {i} ===")
-            print(response)
+            # print(response)
             print(f"Response length (chars): {len(response)}")
 
             try:
