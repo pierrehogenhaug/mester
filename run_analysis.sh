@@ -48,7 +48,7 @@ fi
 echo "Using model: $MODEL_ID"
 
 # Run your Python script with the model_id argument
-python scripts/analysis/run_analysis_batches.py --model_id "$MODEL_ID"
+python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
 
 # After the script completes, kill the nvidia-smi logging process
 kill $NVSMI_PID

@@ -148,61 +148,74 @@ class ProspectusAnalyzer:
 
         return answer, evidence
 
-    def analyze_rows_batch(self, rows, questions):
+
+    def analyze_rows_yes_no(self, rows, question):
         """
-        Analyze a batch of rows with corresponding questions.
-
-        Parameters:
-        rows (list of pandas.Series): The list of rows from the DataFrame.
-        questions (list of str): The list of questions to ask.
-
-        Returns:
-        List[str]: The list of combined answers containing relevance and evidence.
+        Analyze a batch of rows with a yes/no question.
         """
         prompts = [
-            self.BASELINE_PROMPT.format(
+            self.BINARY_PROMPT.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
             )
-            for row, question in zip(rows, questions)
+            for row in rows
         ]
 
+        # Print information about prompts to diagnose issues
+        for i, prompt in enumerate(prompts):
+            print(f"=== Prompt {i} ===")
+            # print(prompt)
+            print(f"Prompt length (chars): {len(prompt)}")
+
+        start_time = time.time()
         # Run the batch of prompts through the model
+        print("Sending prompts to the model...")
         responses = self.llm.generate(prompts)
+        end_time = time.time()
+        print(f"Model response received. Time taken: {end_time - start_time:.2f} seconds.")
 
         combined_answers = []
-        for generation in responses.generations:
+        for i, generation in enumerate(responses.generations):
             response = generation[0].text  # Get the generated text
+            print(f"=== Response for Prompt {i} ===")
+            # print(response)
+            print(f"Response length (chars): {len(response)}")
+
             try:
-                # Extract the Relevance and Evidence fields
-                relevance, evidence_list = self.extract_fields(response)
+                # Extract the 'Answer' and 'Evidence' fields
+                answer, evidence_list = self.extract_fields(response, answer_key="Answer", evidence_key="Evidence")
                 # Join multiple evidence items into a single string
                 evidence = '; '.join(evidence_list)
+                
+                # Combine answer and evidence
+                if answer.lower() == "yes" and evidence:
+                    combined_answer = f"Yes: {evidence}"
+                elif answer.lower() == "yes":
+                    combined_answer = "Yes"
+                elif answer.lower() == "no":
+                    combined_answer = "No"
+                else:
+                    # If extraction didn't yield 'yes' or 'no', treat as parsing error
+                    combined_answer = f"Parsing Error: {response}"
             except Exception as e:
-                relevance = "Parsing Error"
-                evidence = ""
+                print("Error parsing fields from the response:", e)
+                # In case of an exception, include the original response in the error message
+                combined_answer = f"Parsing Error: {response}"
 
-            # Combine relevance and evidence
-            if relevance in ["Highly Relevant", "Somewhat Relevant"] and evidence:
-                combined_answer = f"{relevance}: {evidence}"
-            elif relevance in ["Highly Relevant", "Somewhat Relevant"]:
-                combined_answer = relevance
-            elif relevance == "Not Relevant":
-                combined_answer = "Not Relevant"
-            else:
-                combined_answer = "Parsing Error"
-
-            # For debugging
-            if combined_answer == "Parsing Error":
-                print("Parsing Error encountered. Response was:")
-                print(response)
+            # For debugging (optional)
+            if combined_answer.startswith("Parsing Error"):
+                pass
+                # You can uncomment the following lines to see the error details
+                # print("Parsing Error encountered. Full Response was:")
+                # print(response)
 
             combined_answers.append(combined_answer)
 
         return combined_answers
 
-    def analyze_rows_single_question(self, rows, question):
+
+    def analyze_rows_relevance(self, rows, question):
         """
         Analyze a batch of rows with a single question.
 
@@ -255,66 +268,5 @@ class ProspectusAnalyzer:
             combined_answers.append(combined_answer)
 
         return combined_answers
-
-
-    def analyze_rows_single_question_yes_no(self, rows, question):
-        """
-        Analyze a batch of rows with a yes/no question.
-        """
-        prompts = [
-            self.BASELINE_PROMPT.format(
-                question=question,
-                subsection_title=row['Subsubsection Title'],
-                subsection_text=row['Subsubsection Text']
-            )
-            for row in rows
-        ]
-
-        # Print information about prompts to diagnose issues
-        for i, prompt in enumerate(prompts):
-            print(f"=== Prompt {i} ===")
-            # print(prompt)
-            print(f"Prompt length (chars): {len(prompt)}")
-
-        start_time = time.time()
-        # Run the batch of prompts through the model
-        print("Sending prompts to the model...")
-        responses = self.llm.generate(prompts)
-        end_time = time.time()
-        print(f"Model response received. Time taken: {end_time - start_time:.2f} seconds.")
-
-        combined_answers = []
-        for i, generation in enumerate(responses.generations, start=1):
-            response = generation[0].text  # Get the generated text
-            print(f"=== Response for Prompt {i} ===")
-            # print(response)
-            print(f"Response length (chars): {len(response)}")
-
-            try:
-                # Extract the 'Answer' and 'Evidence' fields
-                answer, evidence_list = self.extract_fields(response, answer_key="Answer", evidence_key="Evidence")
-                # Join multiple evidence items into a single string
-                evidence = '; '.join(evidence_list)
-            except Exception as e:
-                print("Error parsing fields from the response:", e)
-                answer = "Parsing Error"
-                evidence = ""
-
-            # Combine answer and evidence
-            if answer.lower() == "yes" and evidence:
-                combined_answer = f"Yes: {evidence}"
-            elif answer.lower() == "yes":
-                combined_answer = "Yes"
-            elif answer.lower() == "no":
-                combined_answer = "No"
-            else:
-                combined_answer = "Parsing Error"
-
-            # For debugging
-            if combined_answer == "Parsing Error":
-                print("Parsing Error encountered. Full Response was:")
-                print(response)
-
-            combined_answers.append(combined_answer)
-
-        return combined_answers
+    
+    
