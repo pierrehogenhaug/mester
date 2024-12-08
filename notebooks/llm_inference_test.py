@@ -6,6 +6,7 @@ import sys
 import time
 
 import re
+from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from langchain_huggingface import HuggingFacePipeline
 
@@ -50,7 +51,7 @@ def main():
 
     rows = df.to_dict('records')
 
-    for i, config in enumerate(configurations):
+    for i, config in enumerate(tqdm(configurations, desc="Processing Configurations")):
         if i > 0:
             print("\n")
         print(f"=== Configuration {i} ===")
