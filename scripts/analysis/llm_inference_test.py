@@ -45,8 +45,8 @@ def main():
 
     # Different configurations we want to try
     configurations = [
-        {"max_new_tokens": 256},  # short response
-        {"max_new_tokens": 512}   # longer response
+        {"max_new_tokens": 128},  # short response
+        {"max_new_tokens": 256}   # longer response
     ]
 
     rows = df.to_dict('records')
@@ -88,7 +88,7 @@ def main():
         # if i == 1:
         #     break
 
-    # Optionally save results:
+    # save results:
     output_path = os.path.join(project_root, "data", "analysis_results.csv")
     df.to_csv(output_path, index=False)
     print(f"Results saved to {output_path}")
