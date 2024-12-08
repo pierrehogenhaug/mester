@@ -61,6 +61,7 @@ def main():
             "text-generation",
             model=model_hf,
             tokenizer=tokenizer,
+            device=0,
             max_new_tokens=config["max_new_tokens"]
         )
 
