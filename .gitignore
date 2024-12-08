@@ -26,7 +26,8 @@ test_env/
 
 # Data Files
 # ==========
+data/processed/
+data/raw/
 
 # Archived Files
 # ==============
-_non_code_env_related/code_material_archived/
