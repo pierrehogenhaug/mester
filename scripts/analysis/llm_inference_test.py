@@ -16,6 +16,28 @@ sys.path.insert(0, project_root)
 
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 
+def get_unique_path(path):
+    """
+    If the given path exists, append a numerical suffix to create a unique file path.
+
+    Args:
+        path (str): The original file path.
+
+    Returns:
+        str: A unique file path with an appended suffix if needed.
+    """
+    if not os.path.exists(path):
+        return path
+
+    base, ext = os.path.splitext(path)
+    i = 1
+    new_path = f"{base}_{i}{ext}"
+    while os.path.exists(new_path):
+        i += 1
+        new_path = f"{base}_{i}{ext}"
+    return new_path
+    
+
 def main():
     parser = argparse.ArgumentParser(description="Run LLM analysis on prospectus data.")
     parser.add_argument("--model_id", type=str, required=True, help="Hugging Face model ID/path")
@@ -89,9 +111,10 @@ def main():
         #     break
 
     # save results:
-    output_path = os.path.join(project_root, "data", "analysis_results.csv")
-    df.to_csv(output_path, index=False)
-    print(f"Results saved to {output_path}")
+    original_output_path = os.path.join(project_root, "data", "analysis_results.csv")
+    unique_output_path = get_unique_path(original_output_path)
+    df.to_csv(unique_output_path, index=False)
+    print(f"Results saved to {unique_output_path}")
 
 if __name__ == "__main__":
     main()

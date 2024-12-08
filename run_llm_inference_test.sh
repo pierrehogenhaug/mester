@@ -36,7 +36,10 @@ nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.
 # Save the PID of the background nvidia-smi process
 NVSMI_PID=$!
 
-export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+#export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+export MODEL_ID="meta-llama/Llama-3.1-8B-Instruct"
+# export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
+
 
 # Check if MODEL_ID is set
 if [ -z "$MODEL_ID" ]; then

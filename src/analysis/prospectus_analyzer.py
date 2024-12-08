@@ -101,7 +101,7 @@ class ProspectusAnalyzer:
 
     {{
     "Answer": "Yes" or "No",
-    "Evidence": "The exact phrases or sentences from the document that support your answer; otherwise, leave blank."
+    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."
     }}
 
     Note: Only provide the JSON response without any additional text.
@@ -154,7 +154,7 @@ class ProspectusAnalyzer:
         Analyze a batch of rows with a yes/no question.
         """
         prompts = [
-            self.BINARY_PROMPT.format(
+            self.YES_NO_PROMPT_TEMPLATE.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
@@ -179,7 +179,7 @@ class ProspectusAnalyzer:
         for i, generation in enumerate(responses.generations):
             response = generation[0].text  # Get the generated text
             print(f"=== Response for Prompt {i} ===")
-            # print(response)
+            print(response)
             print(f"Response length (chars): {len(response)}")
 
             try:
