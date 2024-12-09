@@ -51,18 +51,18 @@ def get_latest_processed_file(processed_file_base):
 
 def main():
     # Set up argument parser
-    # parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
-    # parser.add_argument(
-    #     "--model_id",
-    #     type=str,
-    #     required=True,
-    #     help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
-    # )
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    parser.add_argument(
+        "--model_id",
+        type=str,
+        required=True,
+        help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    )
+    args = parser.parse_args()
 
     # Initialize the LLM (Hugging Face) with the provided model_id
-    # model_id = args.model_id
-    model_id = "meta-llama/Llama-3.2-3B-Instruct"
+    model_id = args.model_id
+    # model_id = "meta-llama/Llama-3.2-3B-Instruct"
     print(f"Loading model: {model_id}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
@@ -118,7 +118,7 @@ def main():
         processed_file_path = f"{processed_file_base}_{new_suffix}.csv"
 
     # Limit to first 100 rows for testing
-    df_LLM = df_LLM.head(1)
+    df_LLM = df_LLM.head(3)
     
     # Ensure the relevance and evidence columns are created with a compatible data type
     specified_columns = [
