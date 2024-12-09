@@ -28,6 +28,7 @@ test_env/
 # ==========
 data/processed/
 data/raw/
+_non_code_env_related/
 
 # Archived Files
 # ==============
