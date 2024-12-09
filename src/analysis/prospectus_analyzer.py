@@ -103,9 +103,8 @@ class ProspectusAnalyzer:
     "Answer": "Yes" or "No",
     "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."
     }}
-
-    Note: Only provide the JSON response without any additional text.
     """
+    # Note: Only provide the JSON response without any additional text.
 
     def __init__(self, llm_model):
         """
@@ -130,16 +129,26 @@ class ProspectusAnalyzer:
         """
         # Remove any newlines and extra spaces
         response = ' '.join(response.strip().split())
+        
+        # Identify the last JSON-like block in the response.
+        # The model's answer is expected to be in JSON format as per the prompt.
+        json_start = response.rfind('{')
+        json_end = response.rfind('}')
+        if json_start != -1 and json_end != -1 and json_end > json_start:
+            json_str = response[json_start:json_end + 1].strip()
+        else:
+            # If we cannot find a JSON block, we cannot reliably parse.
+            return "Parsing Error", []
 
-        # Extract the answer field
-        answer_match = re.search(rf'"{answer_key}"\s*:\s*"([^"]+)"', response)
+        # Extract the answer field from the identified JSON block
+        answer_match = re.search(rf'"{answer_key}"\s*:\s*"([^"]+)"', json_str)
         if answer_match:
             answer = answer_match.group(1).strip()
         else:
             answer = "Parsing Error"
 
-        # Extract the Evidence field(s)
-        evidence_match = re.search(rf'"{evidence_key}"\s*:\s*"([^"]*)"', response)
+        # Extract the evidence field(s) from the identified JSON block
+        evidence_match = re.search(rf'"{evidence_key}"\s*:\s*"([^"]*)"', json_str)
         if evidence_match:
             evidence_str = evidence_match.group(1).strip()
             evidence = [evidence_str] if evidence_str else []
