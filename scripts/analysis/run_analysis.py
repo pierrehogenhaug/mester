@@ -1,18 +1,18 @@
 from huggingface_hub import login
-from langchain_huggingface import HuggingFacePipeline
-from langchain_ollama import OllamaLLM
+from langchain_community.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
 
-import ast
-import json
-import numpy as np
+# import torch
+
+import torch
+import argparse
+import glob
 import os
 import pandas as pd
-import re
+import re 
 import sys
-import string
-
+import time
 
 # Add the project root directory to sys.path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -21,20 +21,56 @@ sys.path.insert(0, project_root)
 # Login to the Hugging Face Hub
 login(token="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")
 
-
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
-from src.evaluation.evaluation import evaluate_model  
+from src.evaluation.evaluation import evaluate_model
+
+
+def get_latest_processed_file(processed_file_base):
+    existing_files = glob.glob(processed_file_base + '*.csv')
+    if not existing_files:
+        return None, 0
+    else:
+        suffixes = []
+        for fname in existing_files:
+            base_name = os.path.basename(fname)
+            match = re.match(r'prospectuses_data_processed(?:_(\d+))?\.csv', base_name)
+            if match:
+                if match.group(1):
+                    suffixes.append(int(match.group(1)))
+                else:
+                    suffixes.append(0)
+        if not suffixes:
+            return None, 0
+        max_suffix = max(suffixes)
+        if max_suffix == 0:
+            latest_file = processed_file_base + '.csv'
+        else:
+            latest_file = f"{processed_file_base}_{max_suffix}.csv"
+        return latest_file, max_suffix
+
 
 def main():
-    # Initialize the LLM (Ollama)
-    llm = OllamaLLM(model="llama3.2")
-    # Initialize the analyzer (Ollama)
-    analyzer = ProspectusAnalyzer(llm_model=llm)
+    # Set up argument parser
+    # parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    # parser.add_argument(
+    #     "--model_id",
+    #     type=str,
+    #     required=True,
+    #     help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    # )
+    # args = parser.parse_args()
 
-    # Initialize the LLM (Hugging Face)
-    model_id = "meta-llama/Llama-3.2-3B-Instruct"  
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    model_hf = AutoModelForCausalLM.from_pretrained(model_id)
+    # Initialize the LLM (Hugging Face) with the provided model_id
+    # model_id = args.model_id
+    model_id = "meta-llama/Llama-3.2-3B-Instruct"
+    print(f"Loading model: {model_id}")
+
+    tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
+    # Ensure pad_token is set if not present
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token_id = tokenizer.eos_token_id
+
+    model_hf = AutoModelForCausalLM.from_pretrained(model_id, token=True)
     model_hf.generation_config.pad_token_id = tokenizer.pad_token_id
 
     # Create a text-generation pipeline
@@ -42,43 +78,51 @@ def main():
         "text-generation",
         model=model_hf,
         tokenizer=tokenizer,
-        max_length=2048,
-        temperature=0.1,
+        device = 0 if torch.cuda.is_available() else -1,
+        max_new_tokens=128,
     )
+
     # Initialize the LLM with the pipeline
     llm_hf = HuggingFacePipeline(pipeline=pipe)
 
     # Initialize the analyzer with the new LLM
     analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
 
-    # print the model size and number of parameters
-    print(f"Model size: {llm.size}")
-    print(f"Number of parameters: {llm.num_parameters()}")
+    # Define output directory and file paths based on MODEL_ID
+    output_dir = os.path.join('./data', model_id)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    # print the model size and number of parameters
-    print(f"Model size: {llm_hf.size}")
-    print(f"Number of parameters: {llm_hf.num_parameters()}")
+    # Define base file name
+    processed_file_base = os.path.join(output_dir, 'prospectuses_data_processed')
 
-    
-    # Load the data
-    processed_file_path = './data/prospectuses_data_processed.csv'
-    raw_file_path = './data/prospectuses_data.csv'
-
-    # Check if processed file exists
-    if os.path.exists(processed_file_path):
-        df_LLM = pd.read_csv(processed_file_path)
+    # Function to get the latest processed file
+    latest_file, max_suffix = get_latest_processed_file(processed_file_base)
+    if latest_file:
+        # Load data from latest processed file
+        df_LLM = pd.read_csv(latest_file)
+        print(f"Loaded data from {latest_file}")
     else:
+        # No existing processed files
+        raw_file_path = './data/prospectuses_data.csv'
         print("Processed file not found. Processing raw data...")
         df_LLM = pd.read_csv(raw_file_path)
         # Filter out rows that have "failed parsing" in the Section ID column
         df_LLM = df_LLM[df_LLM['Section ID'] != "failed parsing"]
 
+    # Set new processed_file_path
+    new_suffix = max_suffix + 1
+    if new_suffix == 0:
+        processed_file_path = processed_file_base + '.csv'
+    else:
+        processed_file_path = f"{processed_file_base}_{new_suffix}.csv"
+
+    # Limit to first 100 rows for testing
+    df_LLM = df_LLM.head(1)
+    
     # Ensure the relevance and evidence columns are created with a compatible data type
     specified_columns = [
-        'Market Dynamics - a', 'Market Dynamics - b', 'Market Dynamics - c',
-        'Intra-Industry Competition - a', 'Intra-Industry Competition - b', 'Intra-Industry Competition - c',
-        'Regulatory Framework - a', 'Regulatory Framework - b',
-        'Technology Risk - a', 'Technology Risk - b'
+        'Market Dynamics - a'#, 'Market Dynamics - b', 'Market Dynamics - c'
     ]
 
     for column_name in specified_columns:
@@ -89,9 +133,9 @@ def main():
 
     # Prepare the questions
     questions_market_dynamics = {
-        "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?",
-        "Market Dynamics - b": "Does the text mention risks related to demographic or structural trends affecting the market?",
-        "Market Dynamics - c": "Does the text mention risks due to seasonal volatility in the industry?"
+        "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?"
+        # ,"Market Dynamics - b": "Does the text mention risks related to demographic or structural trends affecting the market?"
+        # ,"Market Dynamics - c": "Does the text mention risks due to seasonal volatility in the industry?"
     }
     questions_intra_industry_competition = {
         "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?",
@@ -108,29 +152,33 @@ def main():
     }
 
     all_question_dicts = [
-        questions_market_dynamics,
-        questions_intra_industry_competition,
-        questions_regulatory_framework,
-        questions_technology_risk
+        questions_market_dynamics
+        # ,questions_intra_industry_competition,
+        # questions_regulatory_framework,
+        # questions_technology_risk
     ]
 
-    # Initialize counter for new rows processed
+    # Initialize counters for new rows processed
     new_rows_processed = 0
 
-    # Iterate over each row in the DataFrame with a progress bar
+    # Iterate over each row in the DataFrame
     for index, row in tqdm(df_LLM.iterrows(), total=df_LLM.shape[0], desc="Processing Rows"):
-        row_processed = False  # Flag to check if we processed any new data in this row
+        row_dict = row.to_dict()
+        row_processed = False
 
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
                 # Check if the answer column is already filled
                 if pd.notnull(df_LLM.at[index, column_name]) and df_LLM.at[index, column_name] != "":
-                    # Skip processing this row for this question
+                    # Already answered, skip
                     continue
-                combined_answer = analyzer.analyze_row_single_question(row, question)
-                df_LLM.at[index, column_name] = combined_answer
-                row_processed = True  # We processed new data in this row
+                else:
+                    answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
+                    answer = answers[0]
+                    df_LLM.at[index, column_name] = answer
+                    row_processed = True
 
+        # If we processed new data in this row
         if row_processed:
             new_rows_processed += 1
 
@@ -154,4 +202,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
