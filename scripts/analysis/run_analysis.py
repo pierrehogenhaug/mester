@@ -79,7 +79,7 @@ def main():
         model=model_hf,
         tokenizer=tokenizer,
         device = 0 if torch.cuda.is_available() else (torch.device("mps") if torch.backends.mps.is_available() else -1),
-        max_new_tokens=128,
+        max_new_tokens=256,
     )
 
     # Initialize the LLM with the pipeline

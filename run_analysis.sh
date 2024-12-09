@@ -11,7 +11,7 @@
 ### -- set walltime limit: hh:mm -- maximum 24 hours for GPU queues
 #BSUB -W 0:15
 ### -- request 4GB / 16GB of system-memory --
-#BSUB -R "rusage[mem=4GB]"
+#BSUB -R "rusage[mem=16GB]"
 ### -- set the email address --
 ##BSUB -u s223730@dtu.dk
 ### -- send notification at start --
