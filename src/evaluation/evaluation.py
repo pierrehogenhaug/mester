@@ -9,7 +9,7 @@ import os
 
 def evaluate_model(processed_file_path):
     # Load other necessary data
-    rms_with_fundamental_score = pd.read_pickle('./data/rms_with_fundamental_score.pkl')
+    rms_with_fundamental_score = pd.read_csv('./data/rms_with_fundamental_score.csv')
     df_labels = pd.read_csv('./data/unique_score_combinations.csv')
 
     # Clean the TaggedCharacteristics in df_labels
