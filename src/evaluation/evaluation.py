@@ -68,7 +68,7 @@ def evaluate_model(processed_file_path):
 
     # The labels corresponding to the specified columns
     specified_columns = [
-        'Market Dynamics - a', 'Market Dynamics - b', 'Market Dynamics - c'
+        'Market Dynamics - a'#, 'Market Dynamics - b', 'Market Dynamics - c'
     ]
     
     # specified_columns = [
