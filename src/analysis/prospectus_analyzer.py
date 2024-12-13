@@ -208,32 +208,25 @@ class ProspectusAnalyzer:
             try:
                 # Extract the 'Answer' and 'Evidence' fields
                 answer, evidence_list = self.extract_fields(response, answer_key="Answer", evidence_key="Evidence")
-                # Join multiple evidence items into a single string
                 evidence = '; '.join(evidence_list)
                 
-                # Combine answer and evidence
+                # Determine the parsed_response
                 if answer.lower() == "yes" and evidence:
-                    combined_answer = f"Yes: {evidence}"
+                    parsed_answer = f"Yes: {evidence}"
                 elif answer.lower() == "yes":
-                    combined_answer = "Yes"
+                    parsed_answer = "Yes"
                 elif answer.lower() == "no":
-                    combined_answer = "No"
+                    parsed_answer = "No"
                 else:
                     # If extraction didn't yield 'yes' or 'no', treat as parsing error
-                    combined_answer = f"Parsing Error: {response}"
-            except Exception as e:
-                print("Error parsing fields from the response:", e)
-                # In case of an exception, include the original response in the error message
-                combined_answer = f"Parsing Error: {response}"
+                    parsed_answer = "Parsing Error"
+            except Exception:
+                parsed_answer = "Parsing Error"
 
-            # For debugging (optional)
-            if combined_answer.startswith("Parsing Error"):
-                pass
-                # You can uncomment the following lines to see the error details
-                # print("Parsing Error encountered. Full Response was:")
-                # print(response)
-
-            combined_answers.append(combined_answer)
+            combined_answers.append({
+                "parsed_response": parsed_answer,
+                "raw_response": response
+            })
 
         return combined_answers
 

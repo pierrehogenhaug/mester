@@ -3,6 +3,7 @@ from langchain_community.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
 
+import json
 import torch
 import argparse
 import glob
@@ -170,8 +171,8 @@ def main():
                 # Only process if the column is empty
                 if pd.isnull(df_LLM.at[index, column_name]) or df_LLM.at[index, column_name].strip() == "":
                     answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
-                    answer = answers[0]
-                    df_LLM.at[index, column_name] = answer
+                    answer_dict = answers[0]
+                    df_LLM.at[index, column_name] = json.dumps(answer_dict)
                     row_processed = True
 
         # If we processed new data in this row
