@@ -3,8 +3,6 @@ from langchain_community.llms import HuggingFacePipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from tqdm import tqdm
 
-# import torch
-
 import torch
 import argparse
 import glob
@@ -25,44 +23,20 @@ from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
 
 
-def get_latest_processed_file(processed_file_base):
-    existing_files = glob.glob(processed_file_base + '*.csv')
-    if not existing_files:
-        return None, 0
-    else:
-        suffixes = []
-        for fname in existing_files:
-            base_name = os.path.basename(fname)
-            match = re.match(r'prospectuses_data_processed(?:_(\d+))?\.csv', base_name)
-            if match:
-                if match.group(1):
-                    suffixes.append(int(match.group(1)))
-                else:
-                    suffixes.append(0)
-        if not suffixes:
-            return None, 0
-        max_suffix = max(suffixes)
-        if max_suffix == 0:
-            latest_file = processed_file_base + '.csv'
-        else:
-            latest_file = f"{processed_file_base}_{max_suffix}.csv"
-        return latest_file, max_suffix
-
-
 def main():
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
-    parser.add_argument(
-        "--model_id",
-        type=str,
-        required=True,
-        help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
-    )
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    # parser.add_argument(
+    #     "--model_id",
+    #     type=str,
+    #     required=True,
+    #     help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    # )
+    # args = parser.parse_args()
 
     # Initialize the LLM (Hugging Face) with the provided model_id
-    model_id = args.model_id
-    # model_id = "meta-llama/Llama-3.2-3B-Instruct"
+    # model_id = args.model_id
+    model_id = "meta-llama/Llama-3.2-1B-Instruct"
     print(f"Loading model: {model_id}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
@@ -93,32 +67,26 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # Define base file name
-    processed_file_base = os.path.join(output_dir, 'prospectuses_data_processed')
+    # Processed file path (no suffix increments)
+    processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed.csv')
 
-    # Function to get the latest processed file
-    latest_file, max_suffix = get_latest_processed_file(processed_file_base)
-    if latest_file:
-        # Load data from latest processed file
-        df_LLM = pd.read_csv(latest_file)
-        print(f"Loaded data from {latest_file}")
+    # Check if a processed file exists
+    if os.path.exists(processed_file_path):
+        # Load the existing processed file
+        df_LLM = pd.read_csv(processed_file_path)
+        print(f"Loaded existing processed data from {processed_file_path}")
     else:
-        # No existing processed files
+        # No processed file found, load raw data
         raw_file_path = './data/prospectuses_data.csv'
-        print("Processed file not found. Processing raw data...")
+        print("Processed file not found. Loading raw data...")
         df_LLM = pd.read_csv(raw_file_path)
-        # Filter out rows that have "failed parsing" in the Section ID column
+        # Filter out rows that have "failed parsing"
         df_LLM = df_LLM[df_LLM['Section ID'] != "failed parsing"]
-
-    # Set new processed_file_path
-    new_suffix = max_suffix + 1
-    if new_suffix == 0:
-        processed_file_path = processed_file_base + '.csv'
-    else:
-        processed_file_path = f"{processed_file_base}_{new_suffix}.csv"
+        # Save initially as the "processed" file, even if no analysis done yet
+        df_LLM.to_csv(processed_file_path, index=False)
 
     # Limit to first 100 rows for testing
-    df_LLM = df_LLM.head(3)
+    df_LLM = df_LLM.head(5)
     
     # Ensure the relevance and evidence columns are created with a compatible data type
     specified_columns = [
@@ -126,10 +94,9 @@ def main():
     ]
 
     for column_name in specified_columns:
-        if column_name in df_LLM.columns:
-            df_LLM[column_name] = df_LLM[column_name].astype('string')
-        else:
+        if column_name not in df_LLM.columns:
             df_LLM[column_name] = ""
+        df_LLM[column_name] = df_LLM[column_name].astype('string')
 
     # Prepare the questions
     questions_market_dynamics = {
@@ -158,21 +125,50 @@ def main():
         # questions_technology_risk
     ]
 
-    # Initialize counters for new rows processed
+    # Determine where to start processing:
+    # A row is considered "fully processed" if all specified columns are non-empty.
+    def row_fully_processed(row):
+        for c in specified_columns:
+            if pd.isnull(row[c]) or row[c].strip() == "":
+                return False
+        return True
+
+    # Find the first unprocessed row index
+    # If all rows processed, start_index = df_LLM.shape[0] (nothing to do)
+    start_index = 0
+    for i, r in df_LLM.iterrows():
+        if not row_fully_processed(r):
+            start_index = i
+            break
+    else:
+        # If loop completes with no break, all rows are processed
+        start_index = df_LLM.shape[0]
+
+    if start_index >= df_LLM.shape[0]:
+        print("All rows have already been processed.")
+        evaluate_model(processed_file_path)
+        return
+
+    print(f"Resuming processing from row {start_index}...")
+
+    # Initialize counters
     new_rows_processed = 0
 
-    # Iterate over each row in the DataFrame
-    for index, row in tqdm(df_LLM.iterrows(), total=df_LLM.shape[0], desc="Processing Rows"):
+    # Iterate from the first unprocessed row
+    for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
+        row = df_LLM.iloc[index]
         row_dict = row.to_dict()
         row_processed = False
 
+        # Check if row is already processed (possibly due to partial previous attempts)
+        if row_fully_processed(row):
+            # Skip since it's already done
+            continue
+
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
-                # Check if the answer column is already filled
-                if pd.notnull(df_LLM.at[index, column_name]) and df_LLM.at[index, column_name] != "":
-                    # Already answered, skip
-                    continue
-                else:
+                # Only process if the column is empty
+                if pd.isnull(df_LLM.at[index, column_name]) or df_LLM.at[index, column_name].strip() == "":
                     answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
                     answer = answers[0]
                     df_LLM.at[index, column_name] = answer
@@ -182,16 +178,11 @@ def main():
         if row_processed:
             new_rows_processed += 1
 
-        # Save progress every 50 rows
-        if (index + 1) % 50 == 0:
+        # Save progress every row
+        if row_processed:
+            new_rows_processed += 1
+            # Save after each processed row to ensure progress is recorded
             df_LLM.to_csv(processed_file_path, index=False)
-
-        # After processing 10 new rows, pause if necessary
-        if new_rows_processed >= 10:
-            df_LLM.to_csv(processed_file_path, index=False)  # Save before pausing
-            print(f"Processed 10 new rows. Pausing for 30 seconds.")
-            # time.sleep(30)
-            new_rows_processed = 0  # Reset counter
 
     # Save the final DataFrame after processing all rows
     df_LLM.to_csv(processed_file_path, index=False)
