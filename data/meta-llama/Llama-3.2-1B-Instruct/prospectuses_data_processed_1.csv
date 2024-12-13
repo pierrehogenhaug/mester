@@ -1,0 +1,49 @@
+Prospectus ID,Original Filename,Section ID,Section Title,Subsection ID,Subsection Title,Subsubsection ID,Subsubsection Title,Subsubsection Text,Parsing Error,From Folder,Prospectus Year,Market Dynamics - a
+5_1,Offerings 2020.pdf,1,RISK FACTORS,1.1,Risks related to the ADLER Group’s Business Activities and Industry,1.1.1,Our business is significantly dependent on our ability to generate rental income. Our rental income and funds from operations could particularly be negatively affected by a potential increase in vacancy rates.,"We rely significantly on rental income. In the six-month period ended June 30, 2020, 84.7% of our revenue was derived from rental activities (including facility services), and our funds from operations (from rental activities) (“FFO 1”) amounted to €44,311 thousand (compared to 89.5% and €33,430 thousand in the six-month period ended June 30, 2019, respectively).",,raw_manual,2020,"Parsing Error: 
+    For the following question and text, answer ""Yes"" or ""No"".
+
+    Question:
+    Does the text mention that the company is exposed to risks associated with cyclical products?
+
+    Text:
+    Title: Our business is significantly dependent on our ability to generate rental income. Our rental income and funds from operations could particularly be negatively affected by a potential increase in vacancy rates.
+    Text: We rely significantly on rental income. In the six-month period ended June 30, 2020, 84.7% of our revenue was derived from rental activities (including facility services), and our funds from operations (from rental activities) (“FFO 1”) amounted to €44,311 thousand (compared to 89.5% and €33,430 thousand in the six-month period ended June 30, 2019, respectively).
+
+    Please provide your answer in the following JSON format:
+
+    {
+    ""Answer"": ""Yes"" or ""No"",
+    ""Evidence"": ""The exact sentences from the document that support your answer; otherwise, leave blank.""
+    }
+    
+
+
+    {
+    ""Answer"": """",
+    ""Evidence"": """"
+    }
+    
+
+
+    {
+    ""Answer"": ""Yes"",
+    ""Evidence"": ""Yes""
+    }
+
+    {
+    ""Answer"": ""No"",
+    ""Evidence"": ""The text does not mention that the company is exposed to risks associated with cyclical products.""
+    }
+
+    {
+    ""Answer"": ""Yes"",
+    ""Evidence"": ""Yes""
+    }
+
+    {
+    ""Answer"": ""No"",
+    ""Evidence"": ""The text does not mention that the company is exposed to risks associated with cyclical products.""
+    }
+
+    {
+    ""Answer"": """
