@@ -104,6 +104,20 @@ class ProspectusAnalyzer:
     "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."
     }}
     """
+
+    YES_NO_BASE_PROMPT_TEMPLATE = """
+    {question}
+
+    Title: {subsection_title}
+    Text: {subsection_text}
+
+    Provide your answer in the following JSON format:
+
+    {{
+    "Answer": "Yes" or "No",
+    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."
+    }}
+    """
     # Note: Only provide the JSON response without any additional text.
 
     def __init__(self, llm_model):
