@@ -9,7 +9,7 @@
 ### -- Select the resources: 1 GPU in exclusive process mode --
 #BSUB -gpu "num=1:mode=exclusive_process"
 ### -- set walltime limit: hh:mm -- maximum 24 hours for GPU queues
-#BSUB -W 12:00
+#BSUB -W 1:00
 ### -- request 4GB / 16GB of system-memory --
 #BSUB -R "rusage[mem=8GB]"
 ### -- set the email address --
@@ -31,10 +31,10 @@ module load cuda
 source test_env/bin/activate
 
 # Start nvidia-smi logging in the background
-nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.total,memory.used --format=csv -l 1 > nvidia_smi_log_${LSB_JOBID}.txt &
+#nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.total,memory.used --format=csv -l 1 > nvidia_smi_log_${LSB_JOBID}.txt &
 
 # Save the PID of the background nvidia-smi process
-NVSMI_PID=$!
+#NVSMI_PID=$!
 
 export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
 # export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
@@ -42,7 +42,7 @@ export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
 # Check if MODEL_ID is set
 if [ -z "$MODEL_ID" ]; then
     echo "MODEL_ID is not set. Please set the MODEL_ID environment variable before submitting the job."
-    kill $NVSMI_PID
+    #kill $NVSMI_PID
     exit 1
 fi
 
@@ -53,4 +53,4 @@ echo "Using model: $MODEL_ID"
 python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
 
 # After the script completes, kill the nvidia-smi logging process
-kill $NVSMI_PID
+#kill $NVSMI_PID
