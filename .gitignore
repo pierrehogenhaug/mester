@@ -30,5 +30,10 @@ data/processed/
 data/raw/
 _non_code_env_related/
 
+# HPC Output Files
+/error_*.err
+/nvidia_smi_log_*.txt
+/output_*.out
+
 # Archived Files
 # ==============
