@@ -169,10 +169,10 @@ def main():
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
                 # Only process if the column is empty
-                if pd.isnull(df_LLM.at[index, column_name]) or df_LLM.at[index, column_name].strip() == "":
+                if pd.isnull(df_LLM.iloc[index, column_name]) or df_LLM.iloc[index, column_name].strip() == "":
                     answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
                     answer_dict = answers[0]
-                    df_LLM.at[index, column_name] = json.dumps(answer_dict)
+                    df_LLM.iloc[index, column_name] = json.dumps(answer_dict)
                     row_processed = True
 
         # If we processed new data in this row
