@@ -26,18 +26,18 @@ from src.evaluation.evaluation import evaluate_model
 
 def main():
     # Set up argument parser
-    # parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
-    # parser.add_argument(
-    #     "--model_id",
-    #     type=str,
-    #     required=True,
-    #     help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
-    # )
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    parser.add_argument(
+        "--model_id",
+        type=str,
+        required=True,
+        help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    )
+    args = parser.parse_args()
 
     # Initialize the LLM (Hugging Face) with the provided model_id
-    # model_id = args.model_id
-    model_id = "meta-llama/Llama-3.2-1B-Instruct"
+    model_id = args.model_id
+    # model_id = "meta-llama/Llama-3.2-1B-Instruct"
     print(f"Loading model: {model_id}")
 
     tokenizer = AutoTokenizer.from_pretrained(model_id, token=True)
@@ -54,7 +54,7 @@ def main():
         model=model_hf,
         tokenizer=tokenizer,
         device = 0 if torch.cuda.is_available() else (torch.device("mps") if torch.backends.mps.is_available() else -1),
-        max_new_tokens=256,
+        max_new_tokens=256
     )
 
     # Initialize the LLM with the pipeline
@@ -87,7 +87,7 @@ def main():
         df_LLM.to_csv(processed_file_path, index=False)
 
     # Limit to first 100 rows for testing
-    df_LLM = df_LLM.head(5)
+    # df_LLM = df_LLM.head(5)
     
     # Ensure the relevance and evidence columns are created with a compatible data type
     specified_columns = [
