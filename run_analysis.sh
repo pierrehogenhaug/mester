@@ -32,12 +32,14 @@ source test_env/bin/activate
 
 # Start nvidia-smi logging in the background
 #nvidia-smi --query-gpu=timestamp,name,utilization.gpu,utilization.memory,memory.total,memory.used --format=csv -l 1 > nvidia_smi_log_${LSB_JOBID}.txt &
-
 # Save the PID of the background nvidia-smi process
 #NVSMI_PID=$!
 
 export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
 # export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+
+# Set SAMPLE to "true" to enable sampling, or leave unset/false to process full data
+export SAMPLE=true  # Set to true or false
 
 # Check if MODEL_ID is set
 if [ -z "$MODEL_ID" ]; then
@@ -47,6 +49,15 @@ if [ -z "$MODEL_ID" ]; then
 fi
 
 echo "Using model: $MODEL_ID"
+
+# Determine if the --sample flag should be included
+if [ "$SAMPLE" = "true" ]; then
+    SAMPLE_FLAG="--sample"
+    echo "Sampling enabled: Processing 100 unique Prospectus IDs."
+else
+    SAMPLE_FLAG=""
+    echo "Sampling disabled: Processing the full dataset."
+fi
 
 # Run your Python script with the model_id argument
 # python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
