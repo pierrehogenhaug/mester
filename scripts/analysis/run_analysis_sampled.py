@@ -26,28 +26,36 @@ from src.evaluation.evaluation import evaluate_model
 
 def main():
     # Set up argument parser
-    # parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
+    parser = argparse.ArgumentParser(description="Run analysis with specified HuggingFace model.")
     
-    # parser.add_argument(
-    #     "--model_id",
-    #     type=str,
-    #     required=True,
-    #     help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
-    # )
+    parser.add_argument(
+        "--model_id",
+        type=str,
+        required=True,
+        help="HuggingFace model identifier or local path (e.g., 'meta-llama/Llama-3.2-3B-Instruct')."
+    )
+
+    parser.add_argument(
+        "--prompt_template",
+        type=str,
+        default="YES_NO_COT_PROMPT_TEMPLATE",
+        help="Prompt template to use: 'YES_NO_COT_PROMPT_TEMPLATE' or 'YES_NO_BASE_PROMPT_TEMPLATE'."
+    )
+
+    parser.add_argument(
+        "--sample",
+        action='store_true',
+        help="Enable sampling of 100 unique Prospectus IDs. If not set, process the full dataset."
+    )
     
-    # parser.add_argument(
-    #     "--sample",
-    #     action='store_true',
-    #     help="Enable sampling of 100 unique Prospectus IDs. If not set, process the full dataset."
-    # )
-    
-    # args = parser.parse_args()
-    # perform_sampling = args.sample  # Boolean flag to determine sampling
-    perform_sampling = True  # Boolean flag to determine sampling
+    args = parser.parse_args()
+    perform_sampling = args.sample  # Boolean flag to determine sampling
+    # perform_sampling = True  # Boolean flag to determine sampling
+    prompt_template = args.prompt_template
 
     # Initialize variables
-    # model_id = args.model_id
-    model_id = "meta-llama/Llama-3.2-1B-Instruct"
+    model_id = args.model_id
+    # model_id = "meta-llama/Llama-3.2-1B-Instruct"
     sample_size = 100
     random_seed = 42
 
@@ -78,12 +86,19 @@ def main():
     llm_hf = HuggingFacePipeline(pipeline=pipe)
 
     # Initialize the analyzer with the new LLM
-    analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf)
+    analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf, prompt_template=prompt_template)
 
     # Define output directory and file paths based on MODEL_ID
     output_dir = os.path.join('./data', model_id.replace('/', '_'))
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
+
+    # Incorporate the prompt_template name into the file name
+    suffix = prompt_template
+    if perform_sampling:
+        processed_file_path = os.path.join(output_dir, f'prospectuses_data_processed_sampled_{suffix}.csv')
+    else:
+        processed_file_path = os.path.join(output_dir, f'prospectuses_data_processed_full_{suffix}.csv')
 
     # Set processed_file_path based on whether sampling is performed
     if perform_sampling:

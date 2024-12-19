@@ -9,16 +9,7 @@ class ProspectusAnalyzer:
     """ 
 
     # Define prompt templates as class-level constants
-    BASELINE_PROMPT = """
-    Question:
-    {question}
 
-    Text:
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Answer the question based on the text.
-    """
 
     BINARY_PROMPT = """
     You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
@@ -112,8 +103,52 @@ class ProspectusAnalyzer:
     {{"Answer": "Yes" or "No",
     "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
     """
+
+    YES_NO_COT_PROMPT_TEMPLATE = """{question}
+
+    Title: {subsection_title}
+    Text: {subsection_text}
+
+    Think step by step and provide your answer in the following JSON format:
+    {{"Answer": "Yes" or "No",
+    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
+    """
+
+    YES_NO_FEW_SHOT_PROMPT_TEMPLATE = """{question}
+
+    Title: {subsection_title}
+    Text: {subsection_text}
+
+    Provide your answer in the following JSON format:
+    {{"Answer": "Yes" or "No",
+    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
+
+    Below are two examples demonstrating how to respond:
+
+    ### Example 1 (Negative Case)
+    Company: A  
+    Background: Submetering is an infrastructure-like business with long-term contractual agreements and non-discretionary demand.  
+    Rationale: 80% of revenue is recurring; high customer loyalty and low churn rates. Consistent EBITDA growth during financial crises. 20+ year average contracts.
+
+    Model Decision:
+    {{
+    "Answer": "No",
+    "Evidence": "Although the text mentions long-term contracts and stable, non-discretionary demand, there is no indication that this business faces cyclical product risks."
+    }}
+
+    ### Example 2 (Positive Case)
+    Company: B
+    Background: Construction equipment rented day-to-day.
+    Rationale: 57% of revenue from construction equipment; weak macroeconomic conditions historically had a high impact on business (-25% EBITDA in 2009).
+
+    Model Decision:
+    {{
+    "Answer": "Yes",
+    "Evidence": "The company’s reliance on construction equipment and historical downturn in EBITDA during weak macroeconomic conditions indicate exposure to cyclical product risks."
+    }}
+    """
     
-    def __init__(self, llm_model):
+    def __init__(self, llm_model, prompt_template="YES_NO_COT_PROMPT_TEMPLATE"):
         """
         Initialize the ProspectusAnalyzer with a language model.
 
@@ -121,6 +156,8 @@ class ProspectusAnalyzer:
         llm_model: The language model to use for analysis.
         """
         self.llm = llm_model
+        self.prompt_template = prompt_template
+
 
     def extract_fields(self, response, answer_key="Relevance", evidence_key="Evidence"):
         """
@@ -169,8 +206,14 @@ class ProspectusAnalyzer:
         """
         Analyze a batch of rows with a yes/no question.
         """
+        # Choose template based on self.prompt_template
+        if self.prompt_template == "YES_NO_BASE_PROMPT_TEMPLATE":
+            chosen_template = self.YES_NO_BASE_PROMPT_TEMPLATE
+        else:
+            chosen_template = self.YES_NO_COT_PROMPT_TEMPLATE
+
         prompts = [
-            self.YES_NO_BASE_PROMPT_TEMPLATE.format(
+            self.YES_NO_COT_PROMPT_TEMPLATE.format(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']

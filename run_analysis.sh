@@ -9,7 +9,7 @@
 ### -- Select the resources: 1 GPU in exclusive process mode --
 #BSUB -gpu "num=1:mode=exclusive_process"
 ### -- set walltime limit: hh:mm -- maximum 24 hours for GPU queues
-#BSUB -W 1:00
+#BSUB -W 12:00
 ### -- request 4GB / 16GB of system-memory --
 #BSUB -R "rusage[mem=8GB]"
 ### -- set the email address --
@@ -35,8 +35,12 @@ source test_env/bin/activate
 # Save the PID of the background nvidia-smi process
 #NVSMI_PID=$!
 
-export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
-# export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+# Choose which prompt template to use:
+# Options: "YES_NO_COT_PROMPT_TEMPLATE" or "YES_NO_BASE_PROMPT_TEMPLATE"
+export PROMPT_TEMPLATE="YES_NO_COT_PROMPT_TEMPLATE"
+
+# export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
+export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
 
 # Set SAMPLE to "true" to enable sampling, or leave unset/false to process full data
 export SAMPLE=true  # Set to true or false
@@ -61,7 +65,8 @@ fi
 
 # Run your Python script with the model_id argument
 # python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
-python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
+# Run your Python script with the model_id and prompt_template arguments
+python scripts/analysis/run_analysis_sampled.py --model_id "$MODEL_ID" --prompt_template "$PROMPT_TEMPLATE" $SAMPLE_FLAG
 
 # After the script completes, kill the nvidia-smi logging process
 #kill $NVSMI_PID
