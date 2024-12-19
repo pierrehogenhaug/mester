@@ -35,6 +35,8 @@ source test_env/bin/activate
 # Save the PID of the background nvidia-smi process
 #NVSMI_PID=$!
 
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
 # Choose which prompt template to use:
 # Options: "YES_NO_COT_PROMPT_TEMPLATE" or "YES_NO_BASE_PROMPT_TEMPLATE"
 export PROMPT_TEMPLATE="YES_NO_COT_PROMPT_TEMPLATE"
@@ -63,7 +65,6 @@ else
     echo "Sampling disabled: Processing the full dataset."
 fi
 
-# Run your Python script with the model_id argument
 # python scripts/analysis/run_analysis.py --model_id "$MODEL_ID"
 # Run your Python script with the model_id and prompt_template arguments
 python scripts/analysis/run_analysis_sampled.py --model_id "$MODEL_ID" --prompt_template "$PROMPT_TEMPLATE" $SAMPLE_FLAG
