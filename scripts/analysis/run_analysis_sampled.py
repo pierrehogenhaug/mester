@@ -100,12 +100,6 @@ def main():
     else:
         processed_file_path = os.path.join(output_dir, f'prospectuses_data_processed_full_{suffix}.csv')
 
-    # Set processed_file_path based on whether sampling is performed
-    if perform_sampling:
-        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_sampled.csv')
-    else:
-        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_full.csv')
-
     # Check if a processed file exists
     if os.path.exists(processed_file_path):
         # Load the existing processed file
