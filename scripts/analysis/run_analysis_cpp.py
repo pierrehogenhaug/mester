@@ -19,6 +19,15 @@ sys.path.insert(0, project_root)
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
 
+
+def approximate_token_count(text: str) -> int:
+    """
+    Very rough heuristic to measure token length by splitting on whitespace.
+    Replace with a real tokenizer if accurate counting is needed.
+    """
+    return len(text.split())
+
+    
 def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(description="Run analysis with specified local Llama model using llama-cpp-python.")
@@ -178,36 +187,56 @@ def main():
     # Initialize counters
     new_rows_processed = 0
 
-    # Iterate over each unprocessed row
+    # The maximum token budget for prompt (after subtracting 256 for the answer)
+    MAX_PROMPT_TOKENS = 4096 - 256  # 3840
+
     for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
         row = df_LLM.iloc[index]
         row_dict = row.to_dict()
         row_processed = False
 
-        # Skip row if fully processed
+        # Skip row if already fully processed
         if row_fully_processed(row):
             continue
 
+        # Iterate through each set of questions
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
-                # Only process if the column is empty
+                # Only process if empty
                 col_idx = df_LLM.columns.get_loc(column_name)
                 if pd.isnull(df_LLM.iloc[index, col_idx]) or df_LLM.iloc[index, col_idx].strip() == "":
+                    
+                    # ---- NEW: Build prompt and check approximate length ----
+                    prompt_text = analyzer_hf.build_prompt(
+                        question=question,
+                        subsection_title=row['Subsubsection Title'],
+                        subsection_text=row['Subsubsection Text']
+                    )
+                    n_tokens = approximate_token_count(prompt_text)
+
+                    # If prompt is too long, set the column to skip message and continue
+                    if n_tokens > MAX_PROMPT_TOKENS:
+                        skip_message = "Skipped processing due to length."
+                        print(f"Row {index}, Column '{column_name}': Prompt length ({n_tokens}) exceeds {MAX_PROMPT_TOKENS} tokens. Marking as skipped.")
+                        df_LLM.at[index, column_name] = skip_message
+                        continue  # Move to the next column or row
+
+                    # Otherwise, proceed with analysis
                     answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
                     answer_dict = answers[0]
-                    df_LLM.iloc[index, col_idx] = json.dumps(answer_dict)
+                    df_LLM.at[index, column_name] = json.dumps(answer_dict)
                     row_processed = True
 
         if row_processed:
             new_rows_processed += 1
-            # Save after each processed row
+            # Save after processing each row
             df_LLM.to_csv(processed_file_path, index=False)
 
     # Final save
     df_LLM.to_csv(processed_file_path, index=False)
     print("All rows have been processed and saved.")
 
-    # Evaluate the model’s output
+    # Evaluate the model output
     evaluate_model(processed_file_path)
 
 if __name__ == "__main__":

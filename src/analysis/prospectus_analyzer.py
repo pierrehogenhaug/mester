@@ -11,29 +11,6 @@ class ProspectusAnalyzer:
     # Define prompt templates as class-level constants
 
 
-    BINARY_PROMPT = """
-    You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
-    Instructions:
-    1. Review the question and the provided text.
-    2. Judge the relevance of the text to the question using one of the following labels:
-    - "Relevant"
-    - "Not Relevant"
-    3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
-
-    Question:
-    {question}
-
-    Text:
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Provide your response in the following JSON format, without any additional text or commentary:
-    {{
-        "Relevance": "<Relevant | Not Relevant>",
-        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
-    }}
-    """
-
     THREE_LEVEL_PROMPT = """
     You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
     Instructions:
@@ -56,42 +33,6 @@ class ProspectusAnalyzer:
         "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
         "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
     }}
-    """
-
-    SINGLE_QUESTION_PROMPT_TEMPLATE = """
-    For the following question and text, judge whether the text is "Highly Relevant", "Somewhat Relevant", or "Not Relevant".
-
-    Question:
-    {question}
-
-    Text:
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Please provide your answer in the following JSON format:
-
-    {{
-    "Relevance": "Highly Relevant", "Somewhat Relevant", or "Not Relevant",
-    "Evidence": "The exact phrases or sentences from the document that support your assessment; otherwise, leave blank."
-    }}
-
-    Note: Only provide the JSON response without any additional text.
-    """
-
-    YES_NO_PROMPT_TEMPLATE = """
-    For the following question and text, answer "Yes" or "No".
-
-    Question:
-    {question}
-
-    Text:
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Please provide your answer in the following JSON format:
-
-    {{"Answer": "Yes" or "No",
-    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
     """
 
     YES_NO_BASE_PROMPT_TEMPLATE = """{question}
@@ -148,7 +89,7 @@ class ProspectusAnalyzer:
     }}
     """
     
-    def __init__(self, llm_model, prompt_template="YES_NO_COT_PROMPT_TEMPLATE"):
+    def __init__(self, llm_model, prompt_template="YES_NO_BASE_PROMPT_TEMPLATE"):
         """
         Initialize the ProspectusAnalyzer with a language model.
 
@@ -157,6 +98,23 @@ class ProspectusAnalyzer:
         """
         self.llm = llm_model
         self.prompt_template = prompt_template
+
+
+    def build_prompt(self, question, subsection_title, subsection_text):
+        """
+        Build the final prompt text without invoking the LLM.
+        This lets us measure length before deciding to skip.
+        """
+        if self.prompt_template == "YES_NO_BASE_PROMPT_TEMPLATE":
+            chosen_template = self.YES_NO_BASE_PROMPT_TEMPLATE
+        else:
+            chosen_template = self.YES_NO_COT_PROMPT_TEMPLATE
+
+        return chosen_template.format(
+            question=question,
+            subsection_title=subsection_title,
+            subsection_text=subsection_text
+        )
 
 
     def extract_fields(self, response, answer_key="Relevance", evidence_key="Evidence"):
@@ -206,29 +164,25 @@ class ProspectusAnalyzer:
         """
         Analyze a batch of rows with a yes/no question.
         """
-        # Choose template based on self.prompt_template
-        if self.prompt_template == "YES_NO_BASE_PROMPT_TEMPLATE":
-            chosen_template = self.YES_NO_BASE_PROMPT_TEMPLATE
-        else:
-            chosen_template = self.YES_NO_COT_PROMPT_TEMPLATE
-
-        prompts = [
-            self.YES_NO_COT_PROMPT_TEMPLATE.format(
+        # Build prompts
+        prompts = []
+        for row in rows:
+            # Rebuild the prompt using our new build_prompt method
+            prompt_text = self.build_prompt(
                 question=question,
                 subsection_title=row['Subsubsection Title'],
                 subsection_text=row['Subsubsection Text']
             )
-            for row in rows
-        ]
+            prompts.append(prompt_text)
 
-        # Print information about prompts to diagnose issues
+        # Print prompt lengths for debugging
         for i, prompt in enumerate(prompts):
             print(f"=== Prompt {i} ===")
-            # print(prompt)
             print(f"Prompt length (chars): {len(prompt)}")
+            print(f"Prompt (approx. tokens): {len(prompt.split())}")
 
         start_time = time.time()
-        # Run the batch of prompts through the model
+        # Run prompts through the model in a batch
         print("Sending prompts to the model...")
         responses = self.llm.generate(prompts)
         end_time = time.time()
@@ -254,7 +208,6 @@ class ProspectusAnalyzer:
                 elif answer.lower() == "no":
                     parsed_answer = "No"
                 else:
-                    # If extraction didn't yield 'yes' or 'no', treat as parsing error
                     parsed_answer = "Parsing Error"
             except Exception:
                 parsed_answer = "Parsing Error"
