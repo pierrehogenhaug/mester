@@ -1,41 +1,59 @@
 #!/bin/bash
-### General options
 ### -- specify queue --
 #BSUB -q gpuv100
 ### -- set the job Name --
 #BSUB -J run_analysis_test
-### -- ask for number of cores (default: 1) --
+### -- ask for number of cores (default: 1) -- minimum 4 per gpu
 #BSUB -n 4
 ### -- Select the resources: 1 GPU in exclusive process mode --
 #BSUB -gpu "num=1:mode=exclusive_process"
 ### -- set walltime limit: hh:mm -- maximum 24 hours for GPU queues
-#BSUB -W 0:15
-### -- request 4GB / 16GB of system-memory -- #BSUB -R "select[avx512]"
+#BSUB -W 1:00
+### -- request 8GB of system-memory --
 #BSUB -R "rusage[mem=4GB]"
 ### -- Specify the output and error file. %J is the job-id --
 #BSUB -o output_%J.out
 #BSUB -e error_%J.err
 # -- end of LSF options --
 
-# Load necessary modules
-module load python3/3.10.15
-module load cuda/12.3.2 || { echo "Failed to load CUDA module"; exit 1; }
+module load python3/3.10.14
+module load cuda
 
-# Activate your virtual environment if needed
-source llamacpp_test/bin/activate
+# Activate virtual environment
+source ../llama_env/bin/activate
 
-# export MODEL_PATH="./data/gguf_folder/Meta-Llama-3-8B-Instruct.Q8_0.gguf"
-# export MODEL_PATH="./data/gguf_folder/llama-2-7b.Q4_0.gguf"
-# export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
-# export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-# Check if MODEL_PATH is set
-# if [ -z "$MODEL_PATH" ]; then
-#     echo "MODEL_PATH is not set. Please set the MODEL_PATH environment variable before submitting the job."
-#     exit 1
-# fi
+# Choose which prompt template to use
+export PROMPT_TEMPLATE="YES_NO_BASE_PROMPT_TEMPLATE"
 
-# echo "Using model: $MODEL_PATH"
+# Example local gguf model path
+# export MODEL_ID="./data/gguf_folder/llama-2-7b.Q4_0.gguf"
+export MODEL_ID="./data/gguf_folder/Llama-3.2-3B-Instruct-Q8_0.gguf"
 
-# Run your Python script with the model_id argument
-python scripts/analysis/run_simple_analysis_llamacpp.py
+
+# Enable sampling or not
+export SAMPLE=true  
+
+# Check if MODEL_ID is set
+if [ -z "$MODEL_ID" ]; then
+    echo "MODEL_ID is not set. Please set the MODEL_ID environment variable."
+    exit 1
+fi
+
+echo "Using llama-cpp model: $MODEL_ID"
+
+# Determine if the --sample flag should be included
+if [ "$SAMPLE" = "true" ]; then
+    SAMPLE_FLAG="--sample"
+    echo "Sampling enabled: Processing 100 unique Prospectus IDs."
+else
+    SAMPLE_FLAG=""
+    echo "Sampling disabled: Processing the full dataset."
+fi
+
+# Run the updated script
+python scripts/analysis/run_analysis_cpp.py \
+  --model_id "$MODEL_ID" \
+  --prompt_template "$PROMPT_TEMPLATE" \
+  $SAMPLE_FLAG
