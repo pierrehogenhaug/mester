@@ -1,20 +1,21 @@
-import os
-from langchain_community.llms import LlamaCpp
+# import llama_cpp
+# print(llama_cpp.llama_print_system_info())
 
-# Replace with the path to your ggml compatible model
-model_path = "./data/gguf_folder/llama-2-7b.Q4_0.gguf"
+from llama_cpp import Llama
 
-# Initialize LlamaCpp with GPU layers offloaded
-llm = LlamaCpp(
-    model_path=model_path,
-    n_gpu_layers=1,       # Offload first layer to GPU for testing
-    max_tokens=50,
-    temperature=0.7
+# Initialize the Llama model with GPU support
+llm = Llama(
+    model_path="./data/gguf_folder/llama-2-7b.Q4_0.gguf",  # Update this path to your actual model location
+    n_gpu_layers=35  # Adjust based on GPU memory; 32GB GPU should handle ~35 layers
 )
 
-# Run a simple inference to verify it's working
-prompt = "What is the capital of France?"
-response = llm(prompt)
+# Perform inference
+output = llm(
+    "Q: Name the planets in the solar system? A: ",
+    max_tokens=32,
+    stop=["Q:", "\n"],
+    echo=True
+)
 
-print("Prompt:", prompt)
-print("Response:", response)
+# Print the output
+print(output)
