@@ -4,7 +4,7 @@
 #BSUB -q gpuv100
 ### -- set the job Name --
 #BSUB -J run_analysis_test
-### -- ask for number of cores (default: 1) --
+### -- ask for number of cores (default: 1) -- minimum 4 per gpu
 #BSUB -n 4
 ### -- Select the resources: 1 GPU in exclusive process mode --
 #BSUB -gpu "num=1:mode=exclusive_process"
@@ -39,11 +39,12 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 # Choose which prompt template to use:
 # Options: "YES_NO_COT_PROMPT_TEMPLATE" or "YES_NO_BASE_PROMPT_TEMPLATE"
-export PROMPT_TEMPLATE="YES_NO_COT_PROMPT_TEMPLATE"
+export PROMPT_TEMPLATE="YES_NO_BASE_PROMPT_TEMPLATE"
 
-# export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
-export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
-
+# export MODEL_ID="microsoft/Phi-3.5-mini-instruct"
+export MODEL_ID="mistralai/Mistral-7B-Instruct-v0.3"
+# export MODEL_ID="meta-llama/Llama-3.2-3B-Instruct"
+# export MODEL_ID="meta-llama/Llama-3.2-1B-Instruct"
 # Set SAMPLE to "true" to enable sampling, or leave unset/false to process full data
 export SAMPLE=true  # Set to true or false
 
