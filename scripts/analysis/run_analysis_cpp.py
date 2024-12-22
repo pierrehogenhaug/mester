@@ -42,7 +42,7 @@ def main():
     parser.add_argument(
         "--prompt_template",
         type=str,
-        default="YES_NO_COT_PROMPT_TEMPLATE",
+        default="YES_NO_BASE_PROMPT_TEMPLATE",
         help="Prompt template to use: 'YES_NO_COT_PROMPT_TEMPLATE' or 'YES_NO_BASE_PROMPT_TEMPLATE'."
     )
 
@@ -66,7 +66,7 @@ def main():
         model_path=model_path,
         n_ctx=4096,           # Adjust if your model supports more tokens
         n_gpu_layers=35,      # Adjust based on your VRAM
-        temperature=0.2,
+        # temperature=0.2,
         max_tokens=256       # Similar to 'max_new_tokens' in HF
         # ,top_p=0.95,
         # top_k=40,
@@ -141,6 +141,9 @@ def main():
     # Define columns to process
     specified_columns = [
         'Market Dynamics - a'  # , 'Market Dynamics - b', 'Market Dynamics - c'
+        , 'Intra-Industry Competition - a'
+        , 'Regulatory Framework - a'
+        , 'Technology Risk - a'
     ]
 
     # Ensure the specified columns exist and have the correct data type
@@ -152,12 +155,28 @@ def main():
     # Prepare the questions
     questions_market_dynamics = {
         "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?"
-        # "Market Dynamics - b": "...",
-        # "Market Dynamics - c": "...",
+        # ,"Market Dynamics - b": "Does the text mention risks related to demographic or structural trends affecting the market?"
+        # ,"Market Dynamics - c": "Does the text mention risks due to seasonal volatility in the industry?"
+    }
+    questions_intra_industry_competition = {
+        "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?"
+        # "Intra-Industry Competition - b": "Does the text mention that the market is highly fragmented with no clear leader or that there is only one dominant leader?",
+        # ,"Intra-Industry Competition - c": "Does the text mention low barriers to entry in the industry, making it easy for new competitors to enter the market?"
+    }
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text mention that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text mention a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    }
+    questions_technology_risk = {
+        "Technology Risk - a": "Does the text mention that the industry is susceptible to rapid technological advances or innovations?"
+        # ,"Technology Risk - b": "Does the text mention that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
 
     all_question_dicts = [
         questions_market_dynamics
+        ,questions_intra_industry_competition,
+        questions_regulatory_framework,
+        questions_technology_risk
     ]
 
     # Helper to determine if a row is fully processed
@@ -195,18 +214,17 @@ def main():
         row_dict = row.to_dict()
         row_processed = False
 
-        # Skip row if already fully processed
+        # Skip if fully processed
         if row_fully_processed(row):
             continue
 
-        # Iterate through each set of questions
+        # For each set of question -> column
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
-                # Only process if empty
-                col_idx = df_LLM.columns.get_loc(column_name)
-                if pd.isnull(df_LLM.iloc[index, col_idx]) or df_LLM.iloc[index, col_idx].strip() == "":
+                # Only process if it's empty or marked as skipped in a previous run
+                if pd.isnull(df_LLM.at[index, column_name]) or df_LLM.at[index, column_name].strip() == "":
                     
-                    # ---- NEW: Build prompt and check approximate length ----
+                    # Build the prompt and check length
                     prompt_text = analyzer_hf.build_prompt(
                         question=question,
                         subsection_title=row['Subsubsection Title'],
@@ -214,27 +232,28 @@ def main():
                     )
                     n_tokens = approximate_token_count(prompt_text)
 
-                    # If prompt is too long, set the column to skip message and continue
+                    skip_message = "Skipped processing due to length."
                     if n_tokens > MAX_PROMPT_TOKENS:
-                        skip_message = "Skipped processing due to length."
-                        print(f"Row {index}, Column '{column_name}': Prompt length ({n_tokens}) exceeds {MAX_PROMPT_TOKENS} tokens. Marking as skipped.")
+                        # Heuristic indicates this is too large
                         df_LLM.at[index, column_name] = skip_message
-                        continue  # Move to the next column or row
+                        print(f"Row {index}, column '{column_name}' => Prompt length {n_tokens} > {MAX_PROMPT_TOKENS}. Marked as skipped.")
+                    else:
+                        # Try to analyze, catch potential context window errors
+                        try:
+                            answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
+                            answer_dict = answers[0]
+                            df_LLM.at[index, column_name] = json.dumps(answer_dict)
+                        except Exception as e:
+                            # If LLM fails (e.g., context window error), mark as skipped
+                            df_LLM.at[index, column_name] = skip_message
+                            print(f"Row {index}, column '{column_name}' => LLM error '{str(e)}'. Marked as skipped.")
 
-                    # Otherwise, proceed with analysis
-                    answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
-                    answer_dict = answers[0]
-                    df_LLM.at[index, column_name] = json.dumps(answer_dict)
-                    row_processed = True
-
-        if row_processed:
-            new_rows_processed += 1
-            # Save after processing each row
-            df_LLM.to_csv(processed_file_path, index=False)
+        # Save after each row
+        df_LLM.to_csv(processed_file_path, index=False)
 
     # Final save
     df_LLM.to_csv(processed_file_path, index=False)
-    print("All rows have been processed and saved.")
+    print("All rows processed and saved.")
 
     # Evaluate the model output
     evaluate_model(processed_file_path)
