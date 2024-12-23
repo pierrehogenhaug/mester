@@ -43,7 +43,7 @@ def main():
         "--prompt_template",
         type=str,
         default="YES_NO_BASE_PROMPT_TEMPLATE",
-        help="Prompt template to use: 'YES_NO_COT_PROMPT_TEMPLATE' or 'YES_NO_BASE_PROMPT_TEMPLATE'."
+        help="Prompt template to use: 'YES_NO_COT_PROMPT_TEMPLATE', 'YES_NO_BASE_PROMPT_TEMPLATE' or 'YES_NO_FEW_SHOT_PROMPT_TEMPLATE'."
     )
 
     parser.add_argument(

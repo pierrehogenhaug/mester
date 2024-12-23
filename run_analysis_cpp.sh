@@ -8,9 +8,9 @@
 ### -- Select the resources: 1 GPU in exclusive process mode --
 #BSUB -gpu "num=1:mode=exclusive_process"
 ### -- set walltime limit: hh:mm -- maximum 24 hours for GPU queues
-#BSUB -W 1:00
+#BSUB -W 12:00
 ### -- request 8GB of system-memory --
-#BSUB -R "rusage[mem=4GB]"
+#BSUB -R "rusage[mem=1GB]"
 ### -- Specify the output and error file. %J is the job-id --
 #BSUB -o output_%J.out
 #BSUB -e error_%J.err
@@ -24,12 +24,13 @@ source ../llama_env/bin/activate
 
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
-# Choose which prompt template to use
-export PROMPT_TEMPLATE="YES_NO_BASE_PROMPT_TEMPLATE"
+# Choose which prompt template to use # YES_NO_COT_PROMPT_TEMPLATE or # YES_NO_BASE_PROMPT_TEMPLATE or YES_NO_FEW_SHOT_PROMPT_TEMPLATE
+export PROMPT_TEMPLATE="YES_NO_FEW_SHOT_PROMPT_TEMPLATE"
 
 # Example local gguf model path
 # export MODEL_ID="./data/gguf_folder/llama-2-7b.Q4_0.gguf"
 export MODEL_ID="./data/gguf_folder/Llama-3.2-3B-Instruct-Q8_0.gguf"
+# export MODEL_ID="./data/gguf_folder/Llama-3.2-1B-Instruct-Q8_0.gguf"
 
 
 # Enable sampling or not

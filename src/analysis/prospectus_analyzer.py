@@ -67,9 +67,9 @@ class ProspectusAnalyzer:
     Below are two examples demonstrating how to respond:
 
     ### Example 1 (Negative Case)
-    Company: A  
-    Background: Submetering is an infrastructure-like business with long-term contractual agreements and non-discretionary demand.  
-    Rationale: 80% of revenue is recurring; high customer loyalty and low churn rates. Consistent EBITDA growth during financial crises. 20+ year average contracts.
+    **Company:** A  
+    **Background:** Submetering is an infrastructure-like business with long-term contractual agreements and non-discretionary demand.  
+    **Rationale:** 80% of revenue is recurring; high customer loyalty and low churn rates. Consistent EBITDA growth during financial crises. 20+ year average contracts.
 
     Model Decision:
     {{
@@ -78,9 +78,9 @@ class ProspectusAnalyzer:
     }}
 
     ### Example 2 (Positive Case)
-    Company: B
-    Background: Construction equipment rented day-to-day.
-    Rationale: 57% of revenue from construction equipment; weak macroeconomic conditions historically had a high impact on business (-25% EBITDA in 2009).
+    **Company:** B  
+    **Background:** Construction equipment rented day-to-day.  
+    **Rationale:** 57% of revenue from construction equipment; weak macroeconomic conditions historically had a high impact on business (-25% EBITDA in 2009).
 
     Model Decision:
     {{
@@ -107,8 +107,10 @@ class ProspectusAnalyzer:
         """
         if self.prompt_template == "YES_NO_BASE_PROMPT_TEMPLATE":
             chosen_template = self.YES_NO_BASE_PROMPT_TEMPLATE
-        else:
+        elif: self.prompt_template == "YES_NO_COT_PROMPT_TEMPLATE":
             chosen_template = self.YES_NO_COT_PROMPT_TEMPLATE
+        else: 
+            chosen_template = self.YES_NO_FEW_SHOT_PROMPT_TEMPLATE
 
         return chosen_template.format(
             question=question,
