@@ -221,6 +221,8 @@ def main():
     # The maximum token budget for prompt (after subtracting 256 for the answer)
     MAX_PROMPT_TOKENS = 4096 - 256  # 3840
 
+    parsing_errors = []
+    
     for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
         row = df_LLM.iloc[index]
         row_dict = row.to_dict()
