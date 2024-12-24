@@ -10,7 +10,7 @@ import time
 from tqdm import tqdm
 
 # If you use LangChain for LlamaCpp
-from langchain.llms import LlamaCpp
+from langchain_community.llms import LlamaCpp
 
 # Add the project root directory to sys.path
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))

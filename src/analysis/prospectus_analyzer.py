@@ -107,7 +107,7 @@ class ProspectusAnalyzer:
         """
         if self.prompt_template == "YES_NO_BASE_PROMPT_TEMPLATE":
             chosen_template = self.YES_NO_BASE_PROMPT_TEMPLATE
-        elif: self.prompt_template == "YES_NO_COT_PROMPT_TEMPLATE":
+        elif self.prompt_template == "YES_NO_COT_PROMPT_TEMPLATE":
             chosen_template = self.YES_NO_COT_PROMPT_TEMPLATE
         else: 
             chosen_template = self.YES_NO_FEW_SHOT_PROMPT_TEMPLATE
