@@ -33,6 +33,10 @@ data/raw/
 data/gguf_folder/
 _non_code_env_related/
 
+# Logging Files
+# ==========
+wandb/
+
 # HPC Output Files
 /error_*.err
 /nvidia_smi_log_*.txt

@@ -7,6 +7,7 @@ import pandas as pd
 import re
 import sys
 import time
+import wandb
 from tqdm import tqdm
 
 # If you use LangChain for LlamaCpp
@@ -18,6 +19,7 @@ sys.path.insert(0, project_root)
 
 from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
+from src.evaluation.check_progress import get_progress_metrics
 
 
 def approximate_token_count(text: str) -> int:
@@ -56,9 +58,20 @@ def main():
     perform_sampling = args.sample
     prompt_template = args.prompt_template
 
+    wandb.login(key="28e0a54f934e056ba846e10f3460b100aa61283c")
     # We’re now using a local llama-cpp-based model
     model_path = args.model_id
     print(f"Loading local llama-cpp model: {model_path}")
+
+    wandb.init(
+        project="MSc@DTU",   # replace with your W&B project
+        name=f"analysis-run-{args.model_id}",  # maybe incorporate model_id in run name
+        config={                     # optional: store your hyperparams
+            "model_path": args.model_id,
+            "prompt_template": args.prompt_template,
+            "sample": args.sample,
+        }
+    )
 
     # Initialize LlamaCpp from LangChain
     # Adjust parameters (context window, gpu layers, threads, etc.) for your environment
@@ -71,8 +84,7 @@ def main():
         # ,top_p=0.95,
         # top_k=40,
         # repeat_penalty=1.0,
-        # n_threads=8,        # Optional: set number of CPU threads
-        # Other llama-cpp-python params as needed
+        # n_threads=8        # Optional: set number of CPU threads
     )
 
     # Initialize the analyzer with the new LLM
@@ -243,6 +255,18 @@ def main():
                             answers = analyzer_hf.analyze_rows_yes_no([row_dict], question)
                             answer_dict = answers[0]
                             df_LLM.at[index, column_name] = json.dumps(answer_dict)
+
+                            # Capture parsing errors
+                            parsed_response = answer_dict["parsed_response"]
+                            raw_response = answer_dict["raw_response"]
+                            if "Parsing Error" in parsed_response:
+                                parsing_errors.append({
+                                    "row_index": index,
+                                    "column_name": column_name,
+                                    "parsed_response": parsed_response,
+                                    "raw_response": raw_response,
+                                })
+                            
                         except Exception as e:
                             # If LLM fails (e.g., context window error), mark as skipped
                             df_LLM.at[index, column_name] = skip_message
@@ -251,12 +275,45 @@ def main():
         # Save after each row
         df_LLM.to_csv(processed_file_path, index=False)
 
+        # Logging Progress Every 10 Rows
+        if new_rows_processed % 10 == 0:
+            # (1) Log progress
+            progress_dict = get_progress_metrics(df_LLM)
+            wandb.log(progress_dict)
+            wandb.log({"current_row_index": index})
+
+            # (2) Log parsing errors
+            if parsing_errors:
+                table = wandb.Table(columns=["row_index", "column_name", "parsed_response", "raw_response"])
+                for err in parsing_errors:
+                    table.add_data(
+                        err["row_index"],
+                        err["column_name"],
+                        err["parsed_response"],
+                        err["raw_response"]
+                    )
+                wandb.log({"parsing_errors": table})
+
+                # Clear the list if you only want to log "new" errors next time
+                # parsing_errors.clear()
+
+            print(f"Logged progress and parsing errors at row {index}.")
+
     # Final save
     df_LLM.to_csv(processed_file_path, index=False)
     print("All rows processed and saved.")
 
+    # (5) Final Progress Logging (Optional)
+    progress_dict = get_progress_metrics(df_LLM)
+    wandb.log(progress_dict)
+    wandb.log({"current_row_index": df_LLM.shape[0] - 1})
+    print("Final progress logged.")
+
     # Evaluate the model output
     evaluate_model(processed_file_path)
+
+    # (6) Finish W&B run
+    wandb.finish()
 
 if __name__ == "__main__":
     main()
