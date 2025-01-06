@@ -10,32 +10,7 @@ class ProspectusAnalyzer:
 
     # Define prompt templates as class-level constants
 
-
-    THREE_LEVEL_PROMPT = """
-    You are tasked with assessing the relevance of a given text to a question and providing a structured JSON response.
-    Instructions:
-    1. Review the question and the provided text.
-    2. Judge the relevance of the text to the question using one of the following labels:
-    - "Highly Relevant"
-    - "Somewhat Relevant"
-    - "Not Relevant"
-    3. Identify the exact phrases or sentences from the provided text that support your assessment. If no supporting evidence exists, explicitly state: "No relevant evidence found."
-
-    Question:
-    {question}
-
-    Text:
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Provide your response in the following JSON format, without any additional text or commentary:
-    {{
-        "Relevance": "<Highly Relevant | Somewhat Relevant | Not Relevant>",
-        "Evidence": "<Exact phrases or sentences from the text | 'No relevant evidence found'>"
-    }}
-    """
-
-    YES_NO_BASE_PROMPT_TEMPLATE = """{question}
+    BASE_PROMPT_TEMPLATE = """{question}
 
     Title: {subsection_title}
     Text: {subsection_text}
@@ -45,15 +20,36 @@ class ProspectusAnalyzer:
     "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
     """
 
-    YES_NO_COT_PROMPT_TEMPLATE = """{question}
+
+    ENHANCED_PROMPT_TEMPLATE = """
+    [SYSTEM MESSAGE]
+    You are a JSON generator. You must not include any additional text or commentary. Your output must strictly follow this structure:
+    {
+    "Answer": "Yes" or "No",
+    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."
+    }
+
+    [FEW-SHOT EXAMPLE]
+    Question: "Does the text mention that the company is exposed to foreign currency risk?"
+    Title: "Currency Risks"
+    Text: "If the currency devalues against the euro, our revenue may be adversely affected."
+
+    Correct JSON Output:
+    {
+    "Answer": "Yes",
+    "Evidence": "If the currency devalues against the euro, our revenue may be adversely affected."
+    }
+
+    [USER PROMPT]
+    Question: {question}
 
     Title: {subsection_title}
     Text: {subsection_text}
-
-    Think step by step and provide your answer in the following JSON format:
-    {{"Answer": "Yes" or "No",
-    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
+    
+    Provide only valid JSON.
     """
+
+
 
     YES_NO_FEW_SHOT_PROMPT_TEMPLATE = """{question}
 
