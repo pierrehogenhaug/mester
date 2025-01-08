@@ -50,7 +50,6 @@ class ProspectusAnalyzer:
     """
 
 
-
     YES_NO_FEW_SHOT_PROMPT_TEMPLATE = """{question}
 
     Title: {subsection_title}
@@ -115,9 +114,9 @@ class ProspectusAnalyzer:
         )
 
 
-    def extract_fields(self, response, answer_key="Relevance", evidence_key="Evidence"):
+    def extract_fields(self, response, answer_key="Answer", evidence_key="Evidence"):
         """
-        Extract the 'Relevance' (or 'Answer') and 'Evidence' fields from the model's response.
+        Extract the 'Answer' and 'Evidence' fields from the model's response.
 
         Parameters:
         response (str): The response string from the language model.
@@ -160,7 +159,7 @@ class ProspectusAnalyzer:
 
     def analyze_rows_yes_no(self, rows, question):
         """
-        Analyze a batch of rows with a yes/no question.
+        Analyze rows with a yes/no question.
         """
         # Build prompts
         prompts = []
@@ -220,7 +219,7 @@ class ProspectusAnalyzer:
 
     def analyze_rows_relevance(self, rows, question):
         """
-        Analyze a batch of rows with a single question.
+        Analyze rows with 3-level relevance question.
 
         Parameters:
         rows (list of pandas.Series): The list of rows from the DataFrame.
