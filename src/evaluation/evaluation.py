@@ -93,14 +93,45 @@ def evaluate_model(processed_file_path):
     df_LLM = pd.read_csv(processed_file_path)
 
     # Process df_LLM to extract LLM-assigned labels
-    def get_LLM_labels_for_prospectus(df, label_columns, label_mapping):
+    def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_mapping: dict) -> set:
+        """
+        Returns a set of labels assigned by the LLM for all rows in `df`
+        for the columns in `label_columns`.
+        
+        - Skips rows that contain a "Parsing Error" or are "Skipped".
+        - If the LLM said "Yes" in any valid row for a column, that label is considered assigned.
+        """
         assigned_labels = set()
+        
         for col in label_columns:
             label = label_mapping[col]
-            # Check if any row has 'Highly Relevant' or 'Somewhat Relevant' for this label
-            relevant = df[col].astype(str).str.startswith('Highly Relevant').any()
-            if relevant:
+            
+            # We'll mark as "Yes" if *any* row has a valid JSON with "parsed_response" starting with "Yes"
+            found_yes = False
+            
+            for val in df[col].fillna("").tolist():
+                # Ignore empty or skipped
+                if (not val) or ("Skipped processing due to length" in val):
+                    continue
+                
+                # Try to parse
+                try:
+                    parsed_json = json.loads(val)
+                    parsed_response = parsed_json.get("parsed_response", "")
+                    
+                    # If "parsed_response" is "Yes" or "Yes: {something}"
+                    if parsed_response.lower().startswith("yes"):
+                        found_yes = True
+                        break  # No need to check more rows for this column
+                    # If parsed_response is "Parsing Error", we just skip it
+                    # and do NOT treat it as a "Yes" or "No".
+                except Exception:
+                    # If JSON can't parse, skip it
+                    continue
+            
+            if found_yes:
                 assigned_labels.add(label)
+        
         return assigned_labels
 
     # Build a dictionary mapping Prospectus ID to LLM-assigned labels
