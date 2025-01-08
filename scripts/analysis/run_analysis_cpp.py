@@ -10,7 +10,6 @@ import time
 import wandb
 from tqdm import tqdm
 
-# If you use LangChain for LlamaCpp
 from langchain_community.llms import LlamaCpp
 
 # Add the project root directory to sys.path
@@ -38,7 +37,7 @@ def main():
         "--model_id",
         type=str,
         required=True,
-        help="Local path to your GGUF model (e.g., './data/gguf_folder/llama-2-7b.Q4_0.gguf')."
+        help="Local path to GGUF model (e.g., './data/gguf_folder/llama-2-7b.Q4_0.gguf')."
     )
 
     parser.add_argument(
@@ -64,9 +63,9 @@ def main():
     print(f"Loading local llama-cpp model: {model_path}")
 
     wandb.init(
-        project="MSc@DTU",   # replace with your W&B project
+        project="MSc@DTU",   # replace with W&B project
         name=f"analysis-run-{args.model_id}",  # maybe incorporate model_id in run name
-        config={                     # optional: store your hyperparams
+        config={                     # optional: store hyperparams
             "model_path": args.model_id,
             "prompt_template": args.prompt_template,
             "sample": args.sample,
@@ -74,11 +73,11 @@ def main():
     )
 
     # Initialize LlamaCpp from LangChain
-    # Adjust parameters (context window, gpu layers, threads, etc.) for your environment
+    # Adjust parameters (context window, gpu layers, threads, etc.) for environment
     llm_hf = LlamaCpp(
         model_path=model_path,
-        n_ctx=4096,           # Adjust if your model supports more tokens
-        n_gpu_layers=35,      # Adjust based on your VRAM
+        n_ctx=4096,           # Adjust if model supports more tokens
+        n_gpu_layers=35,      # Adjust based on VRAM
         # temperature=0.2,
         max_tokens=256       # Similar to 'max_new_tokens' in HF
         # ,top_p=0.95,
@@ -296,7 +295,7 @@ def main():
                     )
                 wandb.log({"parsing_errors": table})
 
-                # Clear the list if you only want to log "new" errors next time
+                # Clear the list if we want to log "new" errors next time
                 # parsing_errors.clear()
 
             print(f"Logged progress and parsing errors at row {index}.")
