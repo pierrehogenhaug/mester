@@ -26,13 +26,13 @@ def parse_tagged_characteristics(s: str) -> list:
         return []
 
 
-def assign_letters(group: pd.DataFrame, positive_letters: list, negative_letters: list) -> pd.DataFrame:
+def assign_letters(group: pd.DataFrame, positive_letters: list, negative_letters: list, group_name: tuple) -> pd.DataFrame:
     """
-    Assigns letters (uppercase for Positive, lowercase for Negative) to each row in 'group'.
-    Assumes the group is partitioned by (Category, CharacteristicInfluence).
+    Assigns letters to each row in 'group' based on 'CharacteristicInfluence'.
     """
+    characteristic_influence = group_name[1]  # 'Positive' or 'Negative'
     n = len(group)
-    if group.name[1] == 'Positive':
+    if characteristic_influence == 'Positive':
         letters = positive_letters[:n]
     else:
         letters = negative_letters[:n]
@@ -202,9 +202,13 @@ def evaluate_model(processed_file_path: str):
     positive_letters = list(string.ascii_uppercase)
     negative_letters = list(string.ascii_lowercase)
     
-    df_labels = df_labels.groupby(['Category', 'CharacteristicInfluence']).apply(
-        lambda g: assign_letters(g, positive_letters, negative_letters)
-    ).reset_index(drop=True)
+    # Updated groupby.apply using list comprehension to avoid DeprecationWarning
+    groups = df_labels.groupby(['Category', 'CharacteristicInfluence'])
+    processed_groups = [
+        assign_letters(group, positive_letters, negative_letters, name)
+        for name, group in groups
+    ]
+    df_labels = pd.concat(processed_groups).reset_index(drop=True)
 
     # ------------------------------------
     # 4) Process and merge ground-truth for analyst-assigned labels
@@ -278,21 +282,33 @@ def evaluate_model(processed_file_path: str):
     # ------------------------------------
     # 7) Compute Confusion Matrix & Metrics
     # ------------------------------------
-    confusion_matrix = df_confusion.groupby('Label').apply(
-        lambda x: pd.Series({
-            'TP': ((x['LLM_Assigned'] == True) & (x['Analyst_Assigned'] == True)).sum(),
-            'FP': ((x['LLM_Assigned'] == True) & (x['Analyst_Assigned'] == False)).sum(),
-            'FN': ((x['LLM_Assigned'] == False) & (x['Analyst_Assigned'] == True)).sum(),
-            'TN': ((x['LLM_Assigned'] == False) & (x['Analyst_Assigned'] == False)).sum()
+    # Updated groupby.apply using list comprehension to avoid DeprecationWarning
+    label_groups = df_confusion.groupby('Label')
+
+    confusion_data = []
+    for label, group in label_groups:
+        TP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == True)).sum()
+        FP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == False)).sum()
+        FN = ((group['LLM_Assigned'] == False) & (group['Analyst_Assigned'] == True)).sum()
+        TN = ((group['LLM_Assigned'] == False) & (group['Analyst_Assigned'] == False)).sum()
+        
+        precision, recall, f1_score, accuracy = compute_metrics(TP, FP, FN, TN)
+        
+        confusion_data.append({
+            'Label': label,
+            'TP': TP,
+            'FP': FP,
+            'FN': FN,
+            'TN': TN,
+            'Precision': precision,
+            'Recall': recall,
+            'F1 Score': f1_score,
+            'Accuracy': accuracy
         })
-    ).reset_index()
 
-    confusion_matrix[['Precision', 'Recall', 'F1 Score', 'Accuracy']] = confusion_matrix.apply(
-        lambda row: compute_metrics(row['TP'], row['FP'], row['FN'], row['TN']),
-        axis=1,
-        result_type='expand'
-    )
+    confusion_matrix = pd.DataFrame(confusion_data)
 
+    # Compute overall confusion metrics
     TP = ((df_confusion['LLM_Assigned'] == True) & (df_confusion['Analyst_Assigned'] == True)).sum()
     FP = ((df_confusion['LLM_Assigned'] == True) & (df_confusion['Analyst_Assigned'] == False)).sum()
     FN = ((df_confusion['LLM_Assigned'] == False) & (df_confusion['Analyst_Assigned'] == True)).sum()
@@ -312,3 +328,23 @@ def evaluate_model(processed_file_path: str):
 
     print("\n=== Overall Confusion Matrix and Metrics ===")
     print(overall_confusion)
+
+
+if __name__ == "__main__":
+    import argparse
+
+    # Initialize the argument parser
+    parser = argparse.ArgumentParser(description="Evaluate LLM Model Output against Analyst Labels.")
+    
+    # Add the processed file path as a positional argument
+    parser.add_argument(
+        "processed_file_path",
+        type=str,
+        help="Path to the processed CSV file (e.g., ./processed_file.csv)"
+    )
+    
+    # Parse the arguments
+    args = parser.parse_args()
+    
+    # Call the evaluate_model function with the provided file path
+    evaluate_model(args.processed_file_path)
