@@ -179,7 +179,9 @@ def evaluate_model(processed_file_path: str):
         'Market Dynamics - a' 
         # Additional columns can be uncommented or added here as needed:
         # 'Market Dynamics - b', 'Market Dynamics - c',
-        # 'Intra-Industry Competition - a', ...
+        ,'Intra-Industry Competition - a'
+        ,'Regulatory Framework - a'
+        ,'Technology Risk - a'
     ]
 
     # ------------------------------------
@@ -331,6 +333,7 @@ def evaluate_model(processed_file_path: str):
 
 
 if __name__ == "__main__":
+    # run with: python src/evaluation/evaluation.py ./data/._data_gguf_folder_Llama-3.2-3B-Instruct-Q8_0.gguf/prospectuses_data_processed_sampled_ENHANCED_PROMPT_TEMPLATE.csv
     import argparse
 
     # Initialize the argument parser
