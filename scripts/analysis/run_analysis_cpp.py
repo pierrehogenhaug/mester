@@ -7,16 +7,19 @@ import pandas as pd
 import re
 import sys
 import time
-import wandb
 from tqdm import tqdm
 
-from langchain_community.llms import LlamaCpp
+# If you want to log experiments with Weights & Biases:
+import wandb
 
-# Add the project root directory to sys.path
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+# Add the project root directory to sys.path if needed.
+# This ensures Python can find your custom modules in src/
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, project_root)
 
-from src.analysis.prospectus_analyzer import ProspectusAnalyzer
+# Adjust imports based on your actual folder structure
+from langchain_community.llms import LlamaCpp
+from src.analysis.prospectus_analyzer_langchain import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
 from src.evaluation.check_progress import get_progress_metrics
 
@@ -57,21 +60,8 @@ def main():
     perform_sampling = args.sample
     prompt_template = args.prompt_template
 
-    wandb.login(key="28e0a54f934e056ba846e10f3460b100aa61283c")
-    # We’re now using a local llama-cpp-based model
     model_path = args.model_id
     print(f"Loading local llama-cpp model: {model_path}")
-
-    wandb.init(
-        project="MSc@DTU",   # replace with W&B project
-        name=f"analysis-run-{args.model_id}",  # maybe incorporate model_id in run name
-        config={                     # optional: store hyperparams
-            "model_path": args.model_id,
-            "prompt_template": args.prompt_template,
-            "sample": args.sample,
-        }
-    )
-
     # Initialize LlamaCpp from LangChain
     # Adjust parameters (context window, gpu layers, threads, etc.) for environment
     llm_hf = LlamaCpp(
@@ -86,8 +76,22 @@ def main():
         # n_threads=8        # Optional: set number of CPU threads
     )
 
-    # Initialize the analyzer with the new LLM
-    analyzer_hf = ProspectusAnalyzer(llm_model=llm_hf, prompt_template=prompt_template)
+    wandb.login(key="28e0a54f934e056ba846e10f3460b100aa61283c")
+    wandb.init(
+        project="MSc@DTU",   # replace with W&B project
+        name=f"analysis-run-{args.model_id}",  # maybe incorporate model_id in run name
+        config={                     # optional: store hyperparams
+            "model_path": args.model_id,
+            "prompt_template": args.prompt_template,
+            "sample": args.sample,
+        }
+    )
+
+    # Instantiate your ProspectusAnalyzer with the desired prompt template
+    analyzer_hf = ProspectusAnalyzer(
+        llm_model=llm_hf,
+        prompt_template=prompt_template
+    )
 
     # Define output directory and file paths based on MODEL_ID
     output_dir = os.path.join('./data', model_path.replace('/', '_'))
@@ -101,7 +105,7 @@ def main():
     else:
         processed_file_path = os.path.join(output_dir, f'prospectuses_data_processed_full_{suffix}.csv')
 
-    # Check if a processed file exists
+    # Load data
     if os.path.exists(processed_file_path):
         # Load the existing processed file
         df_LLM = pd.read_csv(processed_file_path)
@@ -225,7 +229,6 @@ def main():
     for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
         row = df_LLM.iloc[index]
         row_dict = row.to_dict()
-        row_processed = False
 
         # Skip if fully processed
         if row_fully_processed(row):
@@ -275,6 +278,8 @@ def main():
 
         # Save after each row
         df_LLM.to_csv(processed_file_path, index=False)
+
+        new_rows_processed += 1
 
         # Logging Progress Every 10 Rows
         if new_rows_processed % 10 == 0:
