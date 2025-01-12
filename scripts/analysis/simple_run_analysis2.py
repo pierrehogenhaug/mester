@@ -9,7 +9,7 @@ import sys
 import time
 from tqdm import tqdm
 
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
 from langchain_community.llms import LlamaCpp
@@ -17,7 +17,7 @@ from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 
 
 def main():
-    model_path = "../huggingface/gguf_folder/Llama-3.2-1B-Instruct-Q8_0.gguf"
+    model_path = "../huggingface/gguf_folder/Llama-3.2-3B-Instruct-Q8_0.gguf"
     
     prompt_template = """{question}
     Title: {subsection_title}
@@ -48,6 +48,8 @@ def main():
 
     if os.path.exists(processed_file_path):
         df_LLM = pd.read_csv(processed_file_path)
+        df_LLM.reset_index(drop=True, inplace=True)  # <-- Add this line
+
     else:
         raw_file_path = './data/prospectuses_data.csv'
         if not os.path.exists(raw_file_path):
@@ -63,6 +65,8 @@ def main():
             sys.exit(1)
 
         df_LLM.to_csv(processed_file_path, index=False)
+        df_LLM.reset_index(drop=True, inplace=True)  # <-- Add this line
+
 
     specified_columns = [
         'Market Dynamics - a',

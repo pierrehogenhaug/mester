@@ -10,7 +10,7 @@ class ProspectusAnalyzer:
 
     # Define prompt templates as class-level constants
 
-    BASE_PROMPT_TEMPLATE = """{question}
+    YES_NO_BASE_PROMPT_TEMPLATE = """{question}
 
     Title: {subsection_title}
     Text: {subsection_text}
