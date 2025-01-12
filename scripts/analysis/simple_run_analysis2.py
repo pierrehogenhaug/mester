@@ -19,14 +19,7 @@ from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 def main():
     model_path = "../huggingface/gguf_folder/Llama-3.2-3B-Instruct-Q8_0.gguf"
     
-    prompt_template = """{question}
-    Title: {subsection_title}
-    Text: {subsection_text}
-
-    Provide your answer in the following JSON format:
-    {{"Answer": "Yes" or "No",
-    "Evidence": "The exact sentences from the document that support your answer; otherwise, leave blank."}}
-    """
+    PROMPT_TEMPLATE="YES_NO_BASE_PROMPT_TEMPLATE"
 
     llm_hf = LlamaCpp(
         model_path=model_path,
@@ -37,7 +30,7 @@ def main():
 
     analyzer_hf = ProspectusAnalyzer(
         llm_model=llm_hf,
-        prompt_template=prompt_template
+        prompt_template=PROMPT_TEMPLATE
     )
 
     output_dir = os.path.join('./data', model_path.replace('/', '_'))
@@ -48,7 +41,7 @@ def main():
 
     if os.path.exists(processed_file_path):
         df_LLM = pd.read_csv(processed_file_path)
-        df_LLM.reset_index(drop=True, inplace=True)  # <-- Add this line
+        df_LLM.reset_index(drop=True, inplace=True)  
 
     else:
         raw_file_path = './data/prospectuses_data.csv'
@@ -65,7 +58,7 @@ def main():
             sys.exit(1)
 
         df_LLM.to_csv(processed_file_path, index=False)
-        df_LLM.reset_index(drop=True, inplace=True)  # <-- Add this line
+        df_LLM.reset_index(drop=True, inplace=True)
 
 
     specified_columns = [
@@ -81,6 +74,7 @@ def main():
     questions_market_dynamics = {
         "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?"
     }
+
     questions_intra_industry_competition = {
         "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?"    
     }
