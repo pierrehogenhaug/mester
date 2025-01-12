@@ -14,12 +14,12 @@ import wandb
 
 # Add the project root directory to sys.path if needed.
 # This ensures Python can find your custom modules in src/
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
 # Adjust imports based on your actual folder structure
 from langchain_community.llms import LlamaCpp
-from src.analysis.prospectus_analyzer_langchain import ProspectusAnalyzer
+from src.analysis.prospectus_analyzer import ProspectusAnalyzer
 from src.evaluation.evaluation import evaluate_model
 from src.evaluation.check_progress import get_progress_metrics
 
