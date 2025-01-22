@@ -16,6 +16,7 @@ from pydantic import BaseModel, Field, field_validator, ValidationError
 # -----------------------------
 # python run_analysis_workflow.py --model_type=local --local_model_path=../MyLocalModel.gguf --sample
 # python run_analysis_workflow.py --model_type=local --sample
+# python run_analysis_workflow.py --sample
 
 
 # Make sure your local paths are set up properly:
@@ -386,7 +387,10 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_workflow.csv')
+    if perform_sampling:
+        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_workflow_sampled.csv')
+    else:
+        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_workflow.csv')
     raw_file_path = './data/prospectuses_data.csv'
     # print(processed_file_path)
     
@@ -490,20 +494,19 @@ def main():
     # -------------
     # test-run on the first few rows
     # -------------
-    num_test_rows = 3
-    total_rows = df_LLM.shape[0]
-    if total_rows < num_test_rows:
-        num_test_rows = total_rows
+    # num_test_rows = 3
+    # total_rows = df_LLM.shape[0]
+    # if total_rows < num_test_rows:
+    #     num_test_rows = total_rows
 
-    for index in tqdm(range(0, num_test_rows), desc="Processing Test Rows"):
-        row = df_LLM.iloc[index]
+    # for index in tqdm(range(0, num_test_rows), desc="Processing Test Rows"):
+    #     row = df_LLM.iloc[index]
 
     # -------------
     # normal run on all rows
     # -------------
-
-    # start_index = 0
-    # for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
+    start_index = 0
+    for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
 
         # If the row is already fully processed, skip it
         if row_fully_processed(row, columns_to_process):

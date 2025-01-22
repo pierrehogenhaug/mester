@@ -235,7 +235,11 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_single_llm.csv')
+    if perform_sampling:
+        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_single_llm_sampled.csv')
+    else:
+        processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_single_llm.csv')
+
     raw_file_path = './data/prospectuses_data.csv'
 
     # Load or create processed df
@@ -334,19 +338,19 @@ def main():
     # -------------
     # Test-run on the first few rows
     # -------------
-    num_test_rows = 3
-    total_rows = df_LLM.shape[0]
-    if total_rows < num_test_rows:
-        num_test_rows = total_rows
+    # num_test_rows = 5
+    # total_rows = df_LLM.shape[0]
+    # if total_rows < num_test_rows:
+    #     num_test_rows = total_rows
 
-    for index in tqdm(range(0, num_test_rows), desc="Processing Test Rows"):
-        row = df_LLM.iloc[index]
+    # for index in tqdm(range(0, num_test_rows), desc="Processing Test Rows"):
+    #     row = df_LLM.iloc[index]
 
     # -------------
     # Normal run on all rows
     # -------------
-    # start_index = 0
-    # for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
+    start_index = 0
+    for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
 
         if row_fully_processed(row, columns_to_process):
             continue
