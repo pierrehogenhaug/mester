@@ -11,6 +11,13 @@ from dotenv import load_dotenv
 #from langchain.chat_models import ChatOpenAI
 from pydantic import BaseModel, Field, field_validator, ValidationError
 
+# -----------------------------
+# 0. Run Guide
+# -----------------------------
+# python run_analysis_workflow.py --model_type=local --local_model_path=../MyLocalModel.gguf --sample
+# python run_analysis_workflow.py --model_type=local --sample
+
+
 # Make sure your local paths are set up properly:
 # (Adjust if your script is nested in subfolders)
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
