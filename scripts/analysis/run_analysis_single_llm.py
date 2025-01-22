@@ -16,6 +16,13 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 sys.path.insert(0, project_root)
 
 # -----------------------------
+# 0. Run Guide
+# -----------------------------
+# python run_analysis_single_llm.py --model_type=local --local_model_path=../MyLocalModel.gguf --sample
+# python run_analysis_single_llm.py --model_type=local --sample
+
+
+# -----------------------------
 # 1. JSON Extraction Helper
 # -----------------------------
 def extract_first_json_object(llm_output: str) -> str:
@@ -203,10 +210,18 @@ def main():
         # default="../../Llama-3.2-1B-Instruct-Q8_0.gguf", # hpc model path?
         help="Path to the local LLaMA model if --model_type=local."
     )
+    parser.add_argument(
+        "--sample",
+        action='store_true',
+        help="Enable sampling of 100 unique Prospectus IDs. If not set, process the full dataset."
+    )
     args = parser.parse_args()
 
     # Get the appropriate LLM
     llm = get_llm(args.model_type, args.local_model_path)
+    
+    # Use args.sample to decide if we do sampling
+    perform_sampling = args.sample
 
     # -- File paths
     model_path = (
@@ -232,6 +247,7 @@ def main():
         if not os.path.exists(raw_file_path):
             print("Raw CSV does not exist. Exiting.")
             sys.exit(1)
+
         df_LLM = pd.read_csv(raw_file_path)
         
         # Filter out rows where 'Section ID' == 'failed parsing'
@@ -244,6 +260,27 @@ def main():
         if 'Prospectus ID' not in df_LLM.columns:
             print("Column 'Prospectus ID' not found. Exiting.")
             sys.exit(1)
+
+        # -------------------------------------------------------
+        # PERFORM SAMPLING IF REQUESTED 
+        # -------------------------------------------------------
+        if perform_sampling:
+            sample_size = 100
+            random_seed = 42
+            unique_ids = df_LLM['Prospectus ID'].dropna().unique()
+            if len(unique_ids) < sample_size:
+                print(f"Not enough unique Prospectus IDs to sample {sample_size}. "
+                      f"Available: {len(unique_ids)}.")
+                sys.exit(1)
+
+            sampled_ids = pd.Series(unique_ids).sample(
+                n=sample_size, random_state=random_seed
+            ).tolist()
+            print(f"Sampled {len(sampled_ids)} Prospectus IDs.")
+
+            df_LLM = df_LLM[df_LLM['Prospectus ID'].isin(sampled_ids)].copy()
+            df_LLM.reset_index(drop=True, inplace=True)
+            print("Filtered data to include only sampled Prospectus IDs.")
 
         # Ensure the DataFrame is written once initially
         df_LLM.to_csv(processed_file_path, index=False)
