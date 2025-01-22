@@ -128,7 +128,11 @@ def call_llm(llm, prompt_str: str) -> str:
     returning the text response.
     """
     response = llm.invoke(prompt_str)
-    return response.content
+    # If it's a ChatMessage, return response.content; otherwise, just return the raw string
+    if hasattr(response, "content"):
+        return response.content
+    else:
+        return response
 
 # load_dotenv()  # Loads OPENAI_API_KEY from .env
 # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

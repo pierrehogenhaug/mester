@@ -106,7 +106,11 @@ def call_llm(llm, prompt_str: str) -> str:
     returning the text response.
     """
     response = llm.invoke(prompt_str)
-    return response.content
+    # If it's a ChatMessage, return response.content; otherwise, just return the raw string
+    if hasattr(response, "content"):
+        return response.content
+    else:
+        return response
 
 # load_dotenv()  # Loads OPENAI_API_KEY from .env
 # OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -195,7 +199,8 @@ def main():
     )
     parser.add_argument(
         "--local_model_path",
-        default="../../Llama-3.2-3B-Instruct-Q8_0.gguf",
+        default="../Llama-3.2-1B-Instruct-Q8_0.gguf", # local model path
+        # default="../../Llama-3.2-1B-Instruct-Q8_0.gguf", # hpc model path?
         help="Path to the local LLaMA model if --model_type=local."
     )
     args = parser.parse_args()
