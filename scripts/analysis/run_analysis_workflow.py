@@ -322,10 +322,11 @@ def run_evaluation_step(
         "answer": detection_result.answer,
         "evidence": detection_result.evidence or "",
     }
+    
+    prompt_str = build_evaluation_prompt(step2_input)
 
     for attempt in range(1, max_retries + 1):
         try:
-            prompt_str = build_evaluation_prompt(step2_input)
             raw_response = call_llm(llm, prompt_str)
             # response = llm_openai.invoke(prompt_str)
             # raw_response = response.content
@@ -335,7 +336,7 @@ def run_evaluation_step(
             extracted_json = extract_first_json_object(raw_response)
             parsed_evaluation = json.loads(extracted_json)
             evaluation_result = LlmEvaluationResponse.model_validate(parsed_evaluation)
-            return (evaluation_result, raw_response, attempt)
+            return (evaluation_result, raw_response, attempt, prompt_str)
         except (json.JSONDecodeError, ValidationError) as e:
             print(f"[Evaluation] Attempt {attempt} failed parsing/validation: {e}")
         except Exception as ex:
@@ -416,7 +417,7 @@ def main():
             sys.exit(1)
 
         # -------------------------------------------------------
-        # PERFORM SAMPLING IF REQUESTED 
+        # PERFORM SAMPLING IF REQUESTED
         # -------------------------------------------------------
         if perform_sampling:
             sample_size = 100
@@ -568,7 +569,7 @@ def main():
                         subsection_text=subsection_text,
                         column_name=column_name,
                         references_dict=references_dict,
-                        max_retries=3
+                        max_retries=3,
                     )
 
                     if not evaluation_result:
