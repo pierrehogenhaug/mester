@@ -169,10 +169,10 @@ def run_detection_step(llm, question: str, subsection_title: str, subsection_tex
         "subsection_title": subsection_title,
         "subsection_text": subsection_text,
     }
+    prompt_str = build_detection_prompt(step1_input)
 
     for attempt in range(1, max_retries + 1):
         try:
-            prompt_str = build_detection_prompt(step1_input)
             raw_response = call_llm(llm, prompt_str)
             # raw_response = llm_openai.invoke(prompt_str)
             # response = llm_openai.invoke(prompt_str)
@@ -184,12 +184,12 @@ def run_detection_step(llm, question: str, subsection_title: str, subsection_tex
             extracted_json = extract_first_json_object(raw_response)
             parsed_detection = json.loads(extracted_json)
             detection_result = LlmDetectionResponse.model_validate(parsed_detection)
-            return (detection_result, raw_response, attempt)
+            return (detection_result, raw_response, attempt, prompt_str)
         except (json.JSONDecodeError, ValidationError) as e:
             print(f"[Detection] Attempt {attempt} for question '{question}' failed parsing/validation: {e}")
         except Exception as ex:
             print(f"[Detection] Unexpected error: {ex}")
-    return (None, None, max_retries)
+    return (None, None, max_retries, prompt_str)
 
 # -----------------------------
 # 6. Main logic
@@ -298,10 +298,22 @@ def main():
         "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?"
     }
 
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text mention that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text mention a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    }
+    questions_technology_risk = {
+        "Technology Risk - a": "Does the text mention that the industry is susceptible to rapid technological advances or innovations?"
+        # ,"Technology Risk - b": "Does the text mention that the company is perceived as a disruptor or is threatened by emerging technological changes?"
+    }
+
     all_question_dicts = [
-        questions_market_dynamics,
-        questions_intra_industry_competition
+        questions_market_dynamics
+        ,questions_intra_industry_competition,
+        questions_regulatory_framework,
+        questions_technology_risk
     ]
+
 
     # Collect all columns we intend to fill:
     columns_to_process = []
@@ -368,7 +380,7 @@ def main():
                 if pd.isnull(current_value) or current_value.strip() == "":
                     
                     # STEP 1: Detection only
-                    detection_result, detection_raw, detection_attempt = run_detection_step(
+                    detection_result, detection_raw, detection_attempt, detection_prompt_str = run_detection_step(
                         llm=llm,
                         question=question,
                         subsection_title=subsection_title,
@@ -381,7 +393,8 @@ def main():
                         failure_dict = {
                             "detection_step_attempt_count": detection_attempt,
                             "detection_step_raw": detection_raw or "No valid output",
-                            "error": "Detection failed"
+                            "error": "Detection failed",
+                            "prompt_str": detection_prompt_str
                         }
                         df_LLM.at[index, column_name] = json.dumps(failure_dict)
                         continue
@@ -393,6 +406,7 @@ def main():
                         "detection_step_parsed": detection_result.model_dump(),
                         "answer": detection_result.answer,
                         "evidence": detection_result.evidence,
+                        "prompt_str": detection_prompt_str
                     }
                     df_LLM.at[index, column_name] = json.dumps(detection_dict)
 

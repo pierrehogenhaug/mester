@@ -272,10 +272,10 @@ def run_detection_step(llm, question: str, subsection_title: str, subsection_tex
         "subsection_title": subsection_title,
         "subsection_text": subsection_text,
     }
+    prompt_str = build_detection_prompt(step1_input)
 
     for attempt in range(1, max_retries + 1):
         try:
-            prompt_str = build_detection_prompt(step1_input)
             raw_response = call_llm(llm, prompt_str)
             # raw_response = llm_openai.invoke(prompt_str)
             # response = llm_openai.invoke(prompt_str)
@@ -287,12 +287,12 @@ def run_detection_step(llm, question: str, subsection_title: str, subsection_tex
             extracted_json = extract_first_json_object(raw_response)
             parsed_detection = json.loads(extracted_json)
             detection_result = LlmDetectionResponse.model_validate(parsed_detection)
-            return (detection_result, raw_response, attempt)
+            return (detection_result, raw_response, attempt, prompt_str)
         except (json.JSONDecodeError, ValidationError) as e:
             print(f"[Detection] Attempt {attempt} for question '{question}' failed parsing/validation: {e}")
         except Exception as ex:
             print(f"[Detection] Unexpected error: {ex}")
-    return (None, None, max_retries)
+    return (None, None, max_retries, prompt_str)
 
 
 def run_evaluation_step(
@@ -341,7 +341,7 @@ def run_evaluation_step(
         except Exception as ex:
             print(f"[Evaluation] Unexpected error: {ex}")
 
-    return (None, None, max_retries)
+    return (None, None, max_retries, prompt_str)
 
 # -----------------------------
 # 7. Main logic: CSV reading/writing and iteration
@@ -392,9 +392,7 @@ def main():
     else:
         processed_file_path = os.path.join(output_dir, 'prospectuses_data_processed_workflow.csv')
     raw_file_path = './data/prospectuses_data.csv'
-    # print(processed_file_path)
-    
-    
+
     # Load or create processed df
     if os.path.exists(processed_file_path):
         df_LLM = pd.read_csv(processed_file_path)
@@ -442,7 +440,8 @@ def main():
         df_LLM.to_csv(processed_file_path, index=False)
         df_LLM.reset_index(drop=True, inplace=True)
 
-    # -- Define question dictionaries (as in Script 2), each with distinct column names:
+
+    # -- Define questions (same columns as example, though only detection is used)
     questions_market_dynamics = {
         "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?"
     }
@@ -450,9 +449,20 @@ def main():
         "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?"
     }
 
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text mention that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text mention a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    }
+    questions_technology_risk = {
+        "Technology Risk - a": "Does the text mention that the industry is susceptible to rapid technological advances or innovations?"
+        # ,"Technology Risk - b": "Does the text mention that the company is perceived as a disruptor or is threatened by emerging technological changes?"
+    }
+
     all_question_dicts = [
-        questions_market_dynamics,
-        questions_intra_industry_competition
+        questions_market_dynamics
+        ,questions_intra_industry_competition
+        # ,questions_regulatory_framework,
+        # questions_technology_risk
     ]
 
     # Collect all columns we intend to fill:
@@ -532,7 +542,7 @@ def main():
                     }
 
                     # STEP 1: Detection
-                    detection_result, detection_raw, detection_attempt = run_detection_step(
+                    detection_result, detection_raw, detection_attempt, detection_prompt_str = run_detection_step(
                         llm=llm,
                         question=question,
                         subsection_title=subsection_title,
@@ -545,13 +555,14 @@ def main():
                         failure_dict = {
                             "detection_step_attempt_count": detection_attempt,
                             "detection_step_raw": detection_raw or "No valid output",
-                            "error": "Detection failed"
+                            "error": "Detection failed", 
+                            "prompt_str": detection_prompt_str
                         }
                         df_LLM.at[index, column_name] = json.dumps(failure_dict)
                         continue
 
                     # STEP 2: Evaluation
-                    evaluation_result, evaluation_raw, evaluation_attempt = run_evaluation_step(
+                    evaluation_result, evaluation_raw, evaluation_attempt, evaluation_prompt_str = run_evaluation_step(
                         llm=llm,
                         detection_result=detection_result,
                         subsection_text=subsection_text,
@@ -568,7 +579,8 @@ def main():
                             "detection_step_parsed": detection_result.model_dump(),
                             "evaluation_step_attempt_count": evaluation_attempt,
                             "evaluation_step_raw": evaluation_raw or "No valid output",
-                            "error": "Evaluation failed"
+                            "error": "Evaluation failed",
+                            "prompt_str": evaluation_prompt_str
                         }
                         df_LLM.at[index, column_name] = json.dumps(failure_dict)
                         continue
@@ -582,7 +594,8 @@ def main():
                         "evaluation_step_raw": evaluation_raw,
                         "evaluation_step_parsed": evaluation_result.model_dump(),
                         "final_decision": evaluation_result.final_answer,
-                        "reasoning": evaluation_result.reasoning
+                        "reasoning": evaluation_result.reasoning,
+                        "prompt_str": evaluation_prompt_str
                     }
                     df_LLM.at[index, column_name] = json.dumps(combined_dict)
 
