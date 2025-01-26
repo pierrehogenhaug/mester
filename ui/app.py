@@ -3,13 +3,14 @@
 import os
 import sys
 import streamlit as st
+import pandas as pd
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, '..'))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-# Our script imports
+# Existing code from your question...
 try:
     from scripts.data_collection.run_database_extraction import run_extraction
 except ModuleNotFoundError as e:
@@ -25,6 +26,12 @@ except ModuleNotFoundError as e:
     st.error(f"Could not import the new SharePoint scripts: {e}")
     st.stop()
 
+# --- NEW IMPORT for PDF parsing ---
+try:
+    from src.data_processing.pdf_parsing import process_prospectus
+except ModuleNotFoundError as e:
+    st.error(f"Could not import process_prospectus from pdf_parsing: {e}")
+    st.stop()
 
 def main():
     st.title("Fundamental Score Extraction")
@@ -83,7 +90,6 @@ def main():
                 if offerings_df.empty:
                     st.info("No Legal Offerings found for this RmsId.")
                 else:
-                    # print(offerings_df)
                     st.success(f"Found {len(offerings_df)} Legal Offering(s).")
                     st.dataframe(offerings_df)
 
@@ -106,6 +112,71 @@ def main():
                             )
                         except Exception as ex:
                             st.error(f"Unable to download file '{file_name}': {ex}")
+
+    # --- NEW SECTION FOR SINGLE PDF DRAG & DROP ---
+    st.write("---")
+    st.subheader("Single PDF Parsing")
+    st.write("Upload a PDF below to parse its 'RISK FACTORS' section.")
+
+    uploaded_pdf = st.file_uploader("Drag & drop a PDF file here", type=["pdf"])
+
+    if uploaded_pdf is not None:
+        # We'll create a unique temporary path to store the uploaded file
+        temp_dir = os.path.join(project_root, "data", "temp_uploads")
+        os.makedirs(temp_dir, exist_ok=True)
+
+        temp_pdf_path = os.path.join(temp_dir, uploaded_pdf.name)
+
+        # Save the uploaded file to disk
+        with open(temp_pdf_path, "wb") as f:
+            f.write(uploaded_pdf.read())
+
+        st.write(f"File uploaded: {uploaded_pdf.name}")
+        
+        # Prepare minimal arguments for process_prospectus
+        # For demonstration, we pass:
+        #   prospectus_id = "UIUpload"
+        #   section_id_map = {}
+        #   next_section_id = 1
+        #   from_folder = "ui_upload"
+        #   f_year = None (or you could parse from filename if you want)
+        
+        try:
+            with st.spinner("Parsing PDF..."):
+                data, next_section_id, processing_result, md_text = process_prospectus(
+                    pdf_file_path=temp_pdf_path,
+                    original_filename=uploaded_pdf.name,
+                    prospectus_id="N/A (Manual Upload)",
+                    section_id_map={},
+                    next_section_id=1,
+                    from_folder="Manual Upload",
+                    f_year=None
+                )
+
+            # Show results
+            st.success("Parsing complete!")
+
+            # Show the structured data
+            st.write("### Parsed Risk Factors Data")
+            if data:
+                df_data = pd.DataFrame(data)
+                st.dataframe(df_data)
+            else:
+                st.warning("No data extracted or data list is empty.")
+
+            # Show the raw Markdown in an expandable
+            st.write("### Extracted Markdown Text")
+            with st.expander("Show/Hide Markdown"):
+                st.text(md_text)
+
+            # Show final parsing status
+            st.write(f"**Processing result**: `{processing_result}`")
+            if processing_result == "as_expected":
+                st.success("Looks like the RISK FACTORS section was parsed successfully.")
+            else:
+                st.warning("Parsing was not as expected; check the data or error messages above.")
+        except Exception as e:
+            st.error(f"Error during parsing: {e}")
 
 
 if __name__ == "__main__":
