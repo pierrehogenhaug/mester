@@ -26,12 +26,21 @@ except ModuleNotFoundError as e:
     st.error(f"Could not import the new SharePoint scripts: {e}")
     st.stop()
 
-# --- NEW IMPORT for PDF parsing ---
+# --- IMPORT for PDF parsing ---
 try:
     from src.data_processing.pdf_parsing import process_prospectus
 except ModuleNotFoundError as e:
     st.error(f"Could not import process_prospectus from pdf_parsing: {e}")
     st.stop()
+
+# --- IMPORT LLM analysis ---
+try:
+    from scripts.analysis.run_analysis import analyze_prospectus_dataframe
+
+except ModuleNotFoundError as e:
+    st.error(f"Could not import analyze_prospectus_dataframe from run_analysis: {e}")
+    st.stop()
+
 
 def main():
     st.title("Fundamental Score Extraction")
@@ -113,7 +122,7 @@ def main():
                         except Exception as ex:
                             st.error(f"Unable to download file '{file_name}': {ex}")
 
-    # --- NEW SECTION FOR SINGLE PDF DRAG & DROP ---
+    # --- SECTION FOR SINGLE PDF DRAG & DROP ---
     st.write("---")
     st.subheader("Single PDF Parsing")
     st.write("Upload a PDF below to parse its 'RISK FACTORS' section.")
@@ -132,14 +141,6 @@ def main():
             f.write(uploaded_pdf.read())
 
         st.write(f"File uploaded: {uploaded_pdf.name}")
-        
-        # Prepare minimal arguments for process_prospectus
-        # For demonstration, we pass:
-        #   prospectus_id = "UIUpload"
-        #   section_id_map = {}
-        #   next_section_id = 1
-        #   from_folder = "ui_upload"
-        #   f_year = None (or you could parse from filename if you want)
         
         try:
             with st.spinner("Parsing PDF..."):
@@ -161,22 +162,37 @@ def main():
             if data:
                 df_data = pd.DataFrame(data)
                 st.dataframe(df_data)
-            else:
-                st.warning("No data extracted or data list is empty.")
 
-            # Show the raw Markdown in an expandable
-            st.write("### Extracted Markdown Text")
-            with st.expander("Show/Hide Markdown"):
-                st.text(md_text)
+                # Add a button to run the LLM analysis
+                if st.button("Run LLM Analysis"):
+                    # We can show a progress bar or messages as we process
+                    progress_bar = st.progress(0)
+                    analysis_status = st.empty()  # a placeholder for text updates
 
-            # Show final parsing status
-            st.write(f"**Processing result**: `{processing_result}`")
-            if processing_result == "as_expected":
-                st.success("Looks like the RISK FACTORS section was parsed successfully.")
-            else:
-                st.warning("Parsing was not as expected; check the data or error messages above.")
-        except Exception as e:
-            st.error(f"Error during parsing: {e}")
+                    def progress_callback(current_index, total_rows):
+                        # update the progress bar
+                        progress = (current_index + 1) / total_rows
+                        progress_bar.progress(progress)
+                        analysis_status.write(
+                            f"Analyzing row {current_index+1} of {total_rows}..."
+                        )
+
+                    with st.spinner("Running LLM Analysis..."):
+                        analyzed_df = analyze_prospectus_dataframe(
+                            df_data,
+                            model_type="openai",        # or "local"
+                            local_model_path="path/to/your/model.gguf",
+                            sample=False,               # or True for partial testing
+                            progress_callback=progress_callback
+                        )
+
+                    st.success("LLM Analysis complete!")
+                    st.dataframe(analyzed_df)
+
+                    # If you want to see the JSON in detail, you can add an expander
+                    with st.expander("Show detailed JSON columns"):
+                        st.write(analyzed_df)
+    
 
 
 if __name__ == "__main__":
