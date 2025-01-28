@@ -182,7 +182,7 @@ def build_detection_prompt(input_data: Dict[str, Any]) -> str:
 EVALUATION_PROMPT = """
 You are double-checking the detection of a risk factor.
 
-We have two reference cases: one negative example and one positive example (both related to cyclical product risk).
+We have two reference cases: one negative example and one positive example.
 
 Negative Case:
 {negative_case}
