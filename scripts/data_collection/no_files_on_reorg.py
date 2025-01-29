@@ -1,3 +1,12 @@
+"""
+This script returns a DataFrame with all RmsId, AbbrevName, and a boolean column 'One or Two documents'.
+The 'One or Two documents' column is True if the number of files in the Reorg folder of the SharePoint site is 1 or 2. 
+
+Author: Pierre Høgenhaug
+Date: Nov 25, 2024
+Usage: python scripts/data_collection/no_files_on_reorg.py
+"""
+
 import os
 import pandas as pd
 import sys
