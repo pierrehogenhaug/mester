@@ -1,0 +1,5499 @@
+**BASE PROSPECTUS**
+
+# TDC A/S
+_(incorporated as a public limited company in Denmark)_
+
+### €4,000,000,000 Euro Medium Term Note Programme
+
+___________________________________
+
+This Base Prospectus, which comprises a base prospectus for the purposes of Article 5.4 of the Prospectus Directive
+(as defined herein), has been approved by the Luxembourg _Commission de Surveillance du Secteur Financier (the_
+"CSSF"), which is the Luxembourg competent authority for the purpose of the Prospectus Directive and relevant
+implementing measures in Luxembourg, as a base prospectus issued in compliance with the Prospectus Directive and
+relevant implementing measures in Luxembourg for the purpose of giving information with regard to the issue of
+notes ("Notes") issued under the Euro Medium Term Note Programme (the "Programme") described in this Base
+Prospectus during the period of twelve months after the date hereof. The CSSF assumes no responsibility with
+regards to the economic and financial soundness of any transaction under the Programme or the quality and solvency
+of the Issuer in accordance with the provisions of article 7(7) of the Luxembourg Act dated 10 July 2005 relating to
+prospectuses for securities (loi relative aux prospectus pour valeurs mobilières). Applications have been made for
+such Notes to be admitted during the period of twelve months after the date hereof to listing on the official list and to
+trading on the regulated market of the Luxembourg Stock Exchange. The Programme also permits Notes to be issued
+on the basis that they will not be admitted to listing, trading and/or quotation by any competent authority, stock
+exchange and/or quotation system or to be admitted to listing, trading and/or quotation by such other or further
+competent authorities, stock exchanges and/or quotation systems as may be agreed with TDC A/S (the "Issuer" or
+"TDC").
+
+Tranches of Notes (as defined herein) may be rated or unrated. Where a Tranche of Notes is rated, such rating will
+not necessarily be the same as the ratings described below or the rating(s) assigned to Notes already issued. Where a
+Tranche of Notes is rated, the applicable rating(s) will be specified in the relevant Final Terms (as defined herein).
+Whether or not each credit rating applied for in relation to a relevant Tranche of Notes will be (1) issued by a credit
+rating agency established in the EEA and registered (or which has applied for registration and not been refused) under
+Regulation (EU) No 1060/2009, as amended (the "CRA Regulation") or (2) issued by a credit rating agency which is
+not established in the EEA but will be endorsed by a credit rating agency which is established in the EEA and
+registered under the CRA Regulation or (3) issued by a credit rating agency which is not established in the EEA but
+which is certified under the CRA Regulation will be disclosed in the Final Terms. In general, European regulated
+investors are restricted from using a rating for regulatory purposes if such rating is not issued by a credit rating
+agency established in the EEA and registered under the CRA Regulation unless (1) the rating is provided by a credit
+rating agency operating in the EEA before 7 June 2010 which has submitted an application for registration in
+accordance with the CRA Regulation and such registration has not been refused, or (2) the rating is provided by a
+credit rating agency not established in the EEA but is endorsed by a credit rating agency established in the EEA and
+registered under the CRA Regulation or (3) the rating is provided by a credit rating agency not established in the EEA
+which is certified under the CRA Regulation. A rating is not a recommendation to buy, sell or hold Notes and may
+be subject to suspension, change or withdrawal at any time by the assigning rating agency.
+
+The Notes may be issued on a continuing basis to one or more of the Dealers specified under "Overview", and any
+additional Dealer appointed under the Programme from time to time by the Issuer (each a "Dealer" and together the
+"Dealers"), which appointment may be for a specific issue or on an ongoing basis. References in this Base
+Prospectus to the "Relevant Dealer" shall, in the case of an issue of Notes being (or intended to be) subscribed by
+more than one Dealer, be to all Dealers agreeing to subscribe to such Notes.
+
+_Investing in Notes issued under the Programme involves certain risks. The principal risk factors that may affect the_
+_ability of the Issuer to fulfil its obligations under the Notes are discussed in the "Risk Factors" section below._
+
+**Arranger**
+### DEUTSCHE BANK
+
+**Dealers**
+**BNP PARIBAS** **DANSKE BANK** **DEUTSCHE BANK**
+**J.P. MORGAN** **MORGAN STANLEY** **NORDEA**
+**SEB**
+
+16 February 2012
+
+
+-----
+
+**CONTENTS**
+
+**Page**
+
+IMPORTANT NOTICES ............................................................................................................................. 1
+GENERAL DESCRIPTION OF THE PROGRAMME ............................................................................... 3
+OVERVIEW ................................................................................................................................................. 4
+RISK FACTORS .......................................................................................................................................... 9
+INFORMATION INCORPORATED BY REFERENCE .......................................................................... 17
+FINAL TERMS AND DRAWDOWN PROSPECTUSES ........................................................................ 18
+FORMS OF THE NOTES .......................................................................................................................... 19
+TERMS AND CONDITIONS OF THE NOTES ....................................................................................... 24
+FORM OF FINAL TERMS ........................................................................................................................ 49
+SUMMARY OF PROVISIONS RELATING TO THE NOTES WHILE IN GLOBAL FORM ............... 62
+DESCRIPTION OF THE ISSUER............................................................................................................. 64
+TAXATION ............................................................................................................................................... 73
+SUBSCRIPTION AND SALE ................................................................................................................... 76
+GENERAL INFORMATION .................................................................................................................... 79
+GLOSSARY OF TECHNICAL TERMS ................................................................................................... 81
+
+
+-----
+
+**IMPORTANT NOTICES**
+
+The Issuer accepts responsibility for the information contained in this Base Prospectus and declares that,
+having taken all reasonable care to ensure that such is the case, the information contained in this Base
+Prospectus is, to the best of its knowledge, in accordance with the facts and contains no omission likely to
+affect its import.
+
+Each Tranche (as defined herein) of Notes will be issued on the terms set out herein under "Terms and
+_Conditions of the Notes" (the "Conditions") as such Conditions are modified and/or supplemented by a_
+document specific to such Tranche called final terms (the "Final Terms") or in a separate prospectus
+specific to such Tranche (the "Drawdown Prospectus") as described under "Final Terms and Drawdown
+_Prospectuses" below. In the case of a Tranche of Notes which is the subject of a Drawdown Prospectus,_
+each reference in this Base Prospectus to information being specified or identified in the relevant Final
+Terms shall be read and construed as a reference to such information being specified or identified in the
+relevant Drawdown Prospectus unless the context requires otherwise. This Base Prospectus must be read
+and construed together with any supplements hereto and with any information incorporated by reference
+herein and, in relation to any Tranche of Notes which is the subject of Final Terms, must be read and
+construed together with the relevant Final Terms.
+
+The Issuer has confirmed to the Dealers that this Base Prospectus contains all information which is (in the
+context of the Programme, the issue, offering and sale of the Notes) material; that such information is true
+and accurate in all material respects and is not misleading in any material respect; that any opinions,
+predictions or intentions expressed herein are honestly held or made and are not misleading in any
+material respect; that this Base Prospectus does not omit to state any material fact necessary to make such
+information, opinions, predictions or intentions (in the context of the Programme, the issue, offering and
+sale of the Notes) not misleading in any material respect; and that all proper enquiries have been made to
+verify the foregoing.
+
+No person has been authorised to give any information or to make any representation not contained in or
+not consistent with this Base Prospectus or any other document entered into in relation to the Programme
+or any information supplied by the Issuer or such other information as is in the public domain and, if
+given or made, such information or representation should not be relied upon as having been authorised by
+the Issuer or any Dealer.
+
+Neither the Dealers nor any of their respective affiliates have authorised the whole or any part of this
+Base Prospectus and none of them makes any representation or warranty or accepts any responsibility as
+to the accuracy or completeness of the information contained in this Base Prospectus or any other
+information provided by the Issuer in connection with the Programme. Neither the delivery of this Base
+Prospectus or any Final Terms nor the offering, sale or delivery of any Note shall, in any circumstances,
+create any implication that the information contained in this Base Prospectus is true subsequent to the
+date hereof or the date upon which this Base Prospectus has been most recently amended or supplemented
+or that there has been no adverse change, or any event reasonably likely to involve any adverse change, in
+the prospects or financial or trading position of the Issuer since the date thereof or, if later, the date upon
+which this Base Prospectus has been most recently amended or supplemented or that any other
+information supplied in connection with the Programme is correct at any time subsequent to the date on
+which it is supplied or, if different, the date indicated in the document containing the same.
+
+The distribution of this Base Prospectus and any Final Terms and the offering, sale and delivery of the
+Notes in certain jurisdictions may be restricted by law. Persons into whose possession this Base
+Prospectus or any Final Terms comes are required by the Issuer and the Dealers to inform themselves
+about and to observe any such restrictions. For a description of certain restrictions on offers, sales and
+deliveries of Notes and on the distribution of this Base Prospectus or any Final Terms and other offering
+material relating to the Notes, see "Subscription and Sale". In particular, Notes have not been and will
+not be registered under the United States Securities Act of 1933 (as amended) (the "Securities Act") and
+Bearer Notes are subject to U.S. tax law requirements. Subject to certain exceptions, Notes may not be
+offered, sold or, in the case of Bearer Notes, delivered within the United States or to U.S. persons.
+
+Neither this Base Prospectus nor any Final Terms constitutes an offer or an invitation to subscribe for or
+purchase any Notes and should not be considered as a recommendation by the Issuer, the Dealers or any
+of them that any recipient of this Base Prospectus or any Final Terms should subscribe for or purchase
+
+
+-----
+
+any Notes. Each recipient of this Base Prospectus or any Final Terms shall be taken to have made its own
+investigation and appraisal of the condition (financial or otherwise) of the Issuer.
+
+The maximum aggregate principal amount of Notes outstanding at any one time under the Programme
+will not exceed €4,000,000,000 (and for this purpose, any Notes denominated in another currency shall be
+translated into Euro at the date of the agreement to issue such Notes (calculated in accordance with the
+provisions of the Dealer Agreement). The maximum aggregate principal amount of Notes which may be
+outstanding at any one time under the Programme may be increased from time to time, subject to
+compliance with the relevant provisions of the Dealer Agreement as defined under "Subscription and
+_Sale"._
+
+In this Base Prospectus, unless otherwise specified, references to "EU" are to the European Union,
+references to a "Member State" are references to a Member State of the European Economic Area,
+references to "Denmark" are to the Kingdom of Denmark, references to "€", "EUR", "Euro" or "euro"
+are to the currency introduced at the start of the third stage of European economic and monetary union,
+and as defined in Article 2 of Council Regulation (EC) No 974/98 of 3 May 1998 on the introduction of
+the euro, as amended, references to "U.S.$", "U.S. dollars" or "dollars" are to United States dollars,
+references to "Danish Kroner" or "DKK" are to the currency of Denmark, references to "£" and "GBP"
+are to pounds sterling, the expression "Prospectus Directive" means Directive 2003/71/EC (and
+amendments thereto, including the 2010 PD Amending Directive, to the extent implemented in the
+Relevant Member State (as defined herein)), and includes any relevant implementing measure in the
+Relevant Member State and the expression "2010 PD Amending Directive" means Directive
+2010/73/EU.
+
+Certain figures included in this Base Prospectus have been subject to rounding adjustments; accordingly,
+figures shown for the same category presented in different tables may vary slightly and figures shown as
+totals in certain tables may not be an arithmetic aggregation of the figures which precede them.
+
+This Base Prospectus has been prepared on the basis that any offer of Notes in any Member State of the
+European Economic Area which has implemented the Prospectus Directive (each, a "Relevant Member
+**State") will be made pursuant to an exemption under the Prospectus Directive from the requirement to**
+publish a prospectus for offers of Notes. Accordingly any person making or intending to make an offer in
+that Relevant Member State of Notes which are the subject of an offering or placement contemplated in
+this Base Prospectus as completed by Final Terms or a Drawdown Prospectus in relation to the offer of
+those Notes may only do so in circumstances in which no obligation arises for the Issuer or any Dealer to
+publish a prospectus pursuant to Article 3 of the Prospectus Directive or supplement a prospectus
+pursuant to Article 16 of the Prospectus Directive, in each case, in relation to such offer. Neither the
+Issuer nor any Dealer have authorised, nor do they authorise, the making of any offer of Notes in
+circumstances in which an obligation arises for the Issuer or any Dealer to publish or supplement a
+prospectus for such offer.
+
+**In connection with the issue of any Tranche of Notes, the Dealer or Dealers (if any) named as the**
+**Stabilising Manager(s) (or persons acting on behalf of any Stabilising Manager(s)) in the applicable**
+**Final Terms may over allot Notes or effect transactions with a view to supporting the market price**
+**of the Notes at a level higher than that which might otherwise prevail. However, there is no**
+**assurance that the Stabilising Manager(s) (or persons acting on behalf of a Stabilising Manager)**
+**will undertake stabilisation action. Any stabilisation action may begin on or after the date on which**
+**adequate public disclosure of the terms of the offer of the relevant Tranche of Notes is made and, if**
+**begun, may be ended at any time, but it must end no later than the earlier of 30 days after the issue**
+**date of the relevant Tranche of Notes and 60 days after the date of the allotment of the relevant**
+**Tranche of Notes. Any stabilisation action or over-allotment must be conducted by the Stabilising**
+**Manager(s) (or persons acting on behalf of the Stabilising Manager(s)) in accordance with all**
+**applicable laws and rules.**
+
+
+-----
+
+**GENERAL DESCRIPTION OF THE PROGRAMME**
+
+Under the Programme, the Issuer may from time to time issue Notes denominated in any currency,
+subject as set out herein. An overview of the terms and conditions of the Programme and the Notes
+appears below, see "Overview". The applicable terms of any Notes will be agreed between the Issuer and
+the relevant Dealer(s) prior to the issue of the Notes and will be set out in the Conditions of the Notes
+endorsed on or attached to the Notes, as modified and supplemented by the applicable Final Terms
+attached to, or endorsed on, such Notes, as more fully described under "Forms of the Notes".
+
+Notes issued under the Programme may be issued pursuant to this Base Prospectus and associated Final
+Terms or pursuant to a Drawdown Prospectus prepared in connection with a particular Tranche of Notes.
+Accordingly, references to terms and conditions and other items being as set out in this Base Prospectus
+and relevant Final Terms should, as the context requires, be construed as being as set out in the relevant
+Drawdown Prospectus and references to "Final Terms" should be construed as referring to the
+Drawdown Prospectus as applicable.
+
+This Base Prospectus and any supplement to this Base Prospectus will only be valid for issuing Notes in
+an aggregate principal amount which, when added to the aggregate principal amount then outstanding of
+all Notes previously or simultaneously issued under the Programme, does not exceed €4,000,000,000 or
+its equivalent in other currencies. For the purpose of calculating the aggregate principal amount of Notes
+issued under the Programme from time to time:
+
+(a) the euro equivalent of Notes denominated in another currency specified in a Final Terms shall be
+determined, at the discretion of the Issuer, as of the date of agreement to issue such Notes or on
+the preceding day on which commercial banks and foreign exchange markets are open for
+business in London, in each case on the basis of the spot rate for the sale of the euro against the
+purchase of such other currency in the London foreign exchange market quoted by any leading
+bank selected by the Issuer on such date; and
+
+(b) the amount (or, where applicable, the euro equivalent) of non interest-bearing Notes and other
+Notes issued at a discount or premium shall be calculated (in the case of Notes not denominated
+in euro, in the manner specified above) by reference to the net proceeds received by the Issuer for
+the relevant issue.
+
+
+-----
+
+**OVERVIEW**
+
+_The following overview does not purport to be complete and is taken from, and is qualified in its entirety_
+_by, the remainder of this Base Prospectus and, in relation to the terms and conditions of any particular_
+_Tranche of Notes, the applicable Final Terms. The Issuer and any relevant Dealer may agree that the_
+_Notes shall be issued in a form other than that contemplated in the Terms and Conditions, in which event,_
+_in the case of listed Notes only and if appropriate, a supplemental Base Prospectus will be published._
+
+_This Overview constitutes a general description of the Programme for the purposes of Article 22.5(3) of_
+_Commission Regulation (EC) No 809/2004 implementing the Prospectus Directive._
+
+_Words and expressions defined in the "Terms and Conditions of the Notes" below or elsewhere in this_
+_Base Prospectus have the same meanings in this Overview._
+
+**Issuer:** TDC A/S.
+
+**Risk Factors:** Investing in Notes issued under the Programme involves certain
+risks. The principal risk factors that may affect the abilities of the
+Issuer to fulfil its obligations under the Notes are discussed under
+"Risk Factors" below and include:
+
+                         - risks related to the economic environment;
+
+                         - risks related to competition in the telecommunications
+industry;
+
+                         - risks related to TDC's business activities;
+
+                         - risks related to TDC's regulatory environment and litigation;
+
+                         - financial and taxation risks;
+
+                         - factors which are material for the purpose of assessing the
+market risks associated with the Notes;
+
+                         - risks related to the market generally; and
+
+                         - risks related to taxation.
+
+**Arranger:** Deutsche Bank AG, London Branch.
+
+**Dealers:** BNP Paribas, Danske Bank A/S, Deutsche Bank AG, London
+Branch, J.P. Morgan Securities Ltd., Morgan Stanley & Co.
+International plc, Nordea Bank Danmark A/S, Skandinaviska
+Enskilda Banken AB (publ) and any other Dealer appointed from
+time to time by the Issuer either generally in respect of the
+Programme or in relation to a particular Tranche of Notes.
+
+**Fiscal Agent and Paying Agent:** Deutsche Bank AG, London Branch.
+
+**Registrar and Paying Agent:** Deutsche Bank Luxembourg S.A.
+
+**Luxembourg Listing Agent:** Deutsche Bank Luxembourg S.A.
+
+
+**Final Terms or Drawdown**
+**Prospectus:**
+
+
+Notes issued under the Programme may be issued either (1) pursuant
+to this Base Prospectus and associated Final Terms or (2) pursuant to
+a Drawdown Prospectus. The terms and conditions applicable to any
+particular Tranche of Notes will be the Terms and Conditions of the
+Notes as supplemented, amended and/or replaced to the extent
+described in the relevant Final Terms or, as the case may be the
+relevant Drawdown Prospectus.
+
+
+-----
+
+**Listing and Trading:** Applications have been made for Notes to be admitted during the
+period of twelve months after the date hereof to listing on the official
+list and to trading on the regulated market of the Luxembourg Stock
+Exchange. The Programme also permits Notes to be issued on the
+basis that they will not be admitted to listing, trading and/or
+quotation by any competent authority, stock exchange and/or
+quotation system or to be admitted to listing, trading and/or
+quotation by such other or further competent authorities, stock
+exchanges and/or quotation systems as may be agreed with the
+Issuer.
+
+**Clearing Systems:** Euroclear and/or Clearstream, Luxembourg and/or, in relation to any
+Tranche of Notes, any other clearing system as may be specified in
+the relevant Final Terms.
+
+**Initial Programme Amount:** Up to €4,000,000,000 (or its equivalent in other currencies)
+aggregate principal amount of Notes outstanding at any one time.
+
+**Distribution:** Notes may be distributed by way of private or public placement and
+in each case on a syndicated or non-syndicated basis.
+
+**Issuance in Series:** Notes will be issued in Series. Each Series may comprise one or
+more Tranches issued on different issue dates. The Notes of each
+Series will all be subject to identical terms, except that the issue date
+and the amount of the first payment of interest may be different in
+respect of different Tranches. The Notes of each Tranche will all be
+subject to identical terms in all respects save that a Tranche may
+comprise Notes of different denominations.
+
+**Forms of Notes:** Notes may be issued in bearer form or in registered form.
+
+Each Tranche of Bearer Notes will initially be in the form of either a
+Temporary Global Note or a Permanent Global Note, in each case as
+specified in the relevant Final Terms. Each Global Note which is not
+intended to be issued in new global note form (a "Classic Global
+**Note" or "CGN"), as specified in the relevant Final Terms, will be**
+deposited on or around the relevant issue date with a depositary or a
+common depositary for Euroclear and/or Clearstream, Luxembourg
+and/or any other relevant clearing system and each Global Note
+which is intended to be issued in new global note form (a "New
+**Global Note" or "NGN"), as specified in the relevant Final Terms,**
+will be deposited on or around the relevant issue date with a common
+safekeeper for Euroclear and/or Clearstream, Luxembourg. Each
+Temporary Global Note will be exchangeable for a Permanent
+Global Note or, if so specified in the relevant Final Terms, for
+Definitive Notes. If the TEFRA D Rules are specified in the relevant
+Final Terms as applicable, certification as to non-U.S. beneficial
+ownership will be a condition precedent to any exchange of an
+interest in a Temporary Global Note or receipt of any payment of
+interest in respect of a Temporary Global Note. Each Permanent
+Global Note will be exchangeable for Definitive Notes in limited
+circumstances in accordance with its terms. Definitive Notes will, if
+interest-bearing, have Coupons attached and, if appropriate, a Talon
+for further Coupons.
+
+Each Tranche of Registered Notes will initially be in the form of a
+Global Registered Note, which will either be: (a) in the case of a
+Note which is not to be held under the new safekeeping structure
+("New Safekeeping Structure" or "NSS"), registered in the name of
+a common depositary (or its nominee) for Euroclear and/or
+Clearstream, Luxembourg and/or any other relevant clearing system
+
+
+-----
+
+and the relevant Global Registered Note will be deposited on or
+about the issue date with the common depositary; or (b) in the case
+of a Note to be held under the New Safekeeping Structure, be
+registered in the name of a common safekeeper (or its nominee) for
+Euroclear and/or Clearstream, Luxembourg and/or any other relevant
+clearing system and the relevant Global Registered Note will be
+deposited on or about the issue date with the common safekeeper (or
+its nominee) for Euroclear and/or Clearstream, Luxembourg. Each
+Global Registered Note will be exchangeable for Individual Note
+Certificates in limited circumstances accordance with its terms.
+
+**Currencies:** Notes may be denominated in any currency or currencies, subject to
+compliance with all applicable legal and/or regulatory and/or central
+bank requirements. Payments in respect of Notes may, subject to
+such compliance, be made in and/or linked to, any currency or
+currencies other than the currency in which such Notes are
+denominated.
+
+**Status of the Notes:** Notes will be issued on an unsubordinated basis.
+
+**Issue Price:** Notes may be issued at any price, as specified in the relevant Final
+Terms. The price and amount of Notes to be issued under the
+Programme will be determined by the Issuer and the relevant
+Dealer(s) at the time of issue in accordance with prevailing market
+conditions.
+
+**Maturities:** Any maturity, subject, in relation to specific currencies, to
+compliance with all applicable legal and/or regulatory and/or central
+bank requirements.
+
+Where Notes have a maturity of less than one year and either (a) the
+issue proceeds are received by the Issuer in the United Kingdom or
+(b) the activity of issuing the Notes is carried on from an
+establishment maintained by the Issuer in the United Kingdom, such
+Notes must: (i) have a minimum redemption value of £100,000 (or
+its equivalent in other currencies) and be issued only to persons
+whose ordinary activities involve them in acquiring, holding,
+managing or disposing of investments (as principal or agent) for the
+purposes of their businesses or who it is reasonable to expect will
+acquire, hold, manage or dispose of investments (as principal or
+agent) for the purposes of their businesses; or (ii) be issued in other
+circumstances which do not constitute a contravention of section 19
+of the FSMA by the Issuer.
+
+**Redemption:** Notes may be redeemable at par or at such other Redemption
+Amount (detailed in a formula, index or otherwise) as may be
+specified in the relevant Final Terms. Notes may also be redeemable
+on such dates and in such manner as may be specified in the relevant
+Final Terms.
+
+**Optional Redemption:** Notes may be redeemed before their stated maturity at the option of
+the Issuer (either in whole or in part) and/or the Noteholders to the
+extent (if at all) specified in the relevant Final Terms.
+
+**Tax Redemption:** Except as described in "Optional Redemption" above, early
+redemption will only be permitted for tax reasons as described in
+Condition 10(b) (‎ _Redemption and Purchase — Redemption for tax_
+_reasons)._
+
+**Interest:** Notes may be interest-bearing or non-interest bearing. Interest (if
+any) may accrue at a fixed rate or a floating rate or other variable
+
+
+-----
+
+rate or be index-linked and the method of calculating interest may
+vary between the issue date and the maturity date of the relevant
+Series.
+
+**Denominations:** No Notes may be issued under the Programme which, in the case of
+any Notes which are to be admitted to trading on a regulated market
+within the European Economic Area or offered to the public in a
+Member State of the European Economic Area in circumstances
+which would otherwise require the publication of a prospectus under
+the Prospectus Directive, have a minimum denomination of less than
+€100,000‎(or‎its‎equivalent‎in‎any‎other‎currency‎as‎at‎the‎date‎of‎
+issue of the Notes). Subject thereto, Notes will be issued in such
+denominations as may be specified in the relevant Final Terms,
+subject to compliance with all applicable legal and/or regulatory
+and/or central bank requirements.
+
+**Negative Pledge:** The Notes will have the benefit of a negative pledge as described in
+Condition 5 (‎ _Negative Pledge)._
+
+**Cross Default:** The Notes will have the benefit of a cross default as described in
+Condition 14 (‎ _Events of Default)._
+
+**Taxation:** All payments in respect of Notes will be made free and clear of
+withholding taxes of Denmark unless the withholding is required by
+law. In that event, the Issuer will (subject as provided in
+Condition 13 (‎ _Taxation)) pay such additional amounts as will result_
+in the Noteholders receiving such amounts as they would have
+received in respect of such Notes had no such withholding been
+required.
+
+**Governing Law:** English law.
+
+**Ratings:** Notes issued under the Programme may be rated or unrated. The
+Programme has been rated as follows:
+
+Fitch Ratings Limited ("Fitch"): BBB
+
+Moody’s‎Investors‎Service‎España,‎S.A.‎("Moody's"): Baa2
+
+Standard & Poor's Credit Market Services Europe Limited
+("Standard & Poor's"): BBB
+
+In general, European regulated investors are restricted under the
+CRA Regulation from using a credit rating for regulatory purposes if
+such rating is not issued by a credit rating agency established in the
+EEA and registered under the CRA Regulation unless (1) the rating
+is provided by a credit rating agency operating in the EEA before 7
+June 2010 which has submitted an application for registration in
+accordance with the CRA Regulation and such registration has not
+been refused, or (2) the rating is provided by a credit rating agency
+not established in the EEA but is endorsed by a credit rating agency
+established in the EEA and registered under the CRA Regulation or
+(3) the rating is provided by a credit rating agency not established in
+the EEA which is certified under the CRA Regulation.
+
+Fitch,‎ Moody's‎ and‎ Standard‎ &‎ Poor’s‎ are‎ established‎ in‎ the‎ EEA
+and registered under the CRA Regulation and are included in the list
+of registered credit rating agencies published by the European
+Securities and Markets Authority ("ESMA") on its website in
+accordance with the CRA Regulation.
+
+
+-----
+
+**Enforcement of Notes in Global**
+**Form:**
+
+
+Where an issue of Notes is rated, its rating will not necessarily be the
+same as the rating described above or the rating(s) assigned to Notes
+already issued. A rating is not a recommendation to buy, sell or hold
+securities and may be subject to suspension, change or withdrawal at
+any time by the assigning rating agency.
+
+In the case of Global Notes, individual investors' rights against the
+Issuer will be governed by the Deed of Covenant, a copy of which
+will be available for inspection at the specified office of the Fiscal
+Agent.
+
+
+**Selling Restrictions:** For a description of certain restrictions on offers, sales and deliveries
+of Notes and on the distribution of offering material in the United
+States of America, the European Economic Area, the United
+Kingdom, Denmark and Japan, see "Subscription and Sale" below.
+
+
+-----
+
+**RISK FACTORS**
+
+_Prospective investors should read the entire Base Prospectus. Words and expressions defined in the_
+_"Terms and Conditions of the Notes" below or elsewhere in this Base Prospectus have the same meanings_
+_in this section._
+
+_Investing in Notes issued under the Programme involves certain risks. Prospective investors should_
+_consider, among other things, the following:_
+
+**Risks Related to the Economic Environment**
+
+**_Risk of extended weak macroeconomic development_**
+
+Consumers may reduce their usage of telecommunication products, and have an increased incentive to
+spend time analysing relevant offers due to an increased cost focus, which may increase churn and
+decrease ARPU across products in the Consumer, YouSee and Wholesale business lines. Also, more
+consumers may prioritise cost over convenience and choose individual suppliers for each communication
+need where the price is lower, rather than a bundled product, which may influence the demand for
+bundled products such as TDC HomeTrio.
+
+More businesses may go bankrupt, while the remaining business customers may reduce their investment
+levels, which may shrink the telecommunications market and thus reduce the contract volume and
+increase the risk of incurring losses due to bad debts.
+
+Decreased demand in the other Nordic countries, especially in Sweden, where the government has
+reduced expectations for future growth in GDP, can have an impact, mainly for product areas with nonrecurring revenue.
+
+**Risks Related to Competition in the Telecommunications Industry**
+
+**_Risk of increased competitive pressure_**
+
+TDC faces significant competition from well-established, Pan-Nordic and national telecommunications
+companies, as well as utility companies and TV distributors. Some of these competitors are subject to
+fewer regulatory requirements in Denmark than TDC and base their price strategy on marginal cost
+considerations. The competition may intensify further in the future and lead to increased churn and
+decreasing ARPU across products and services in the consumer, business and wholesale market in
+Denmark and the other Nordic countries.
+
+A change of platform and technology has increased the competition from utilities that have rolled out
+fibre networks to offer landline telephony, broadband and TV. TDC TV and YouSee are also challenged
+by providers that offer Pay-TV services on other platforms, such as utility companies, DTH satellite
+distributors, DTT providers and operators offering TVoIP. Furthermore foreign distributors in the OTT
+market can be expected to gain parts of the VoD market.
+
+If operators currently relying on national roaming or MVNO agreements with TDC fast track their own
+network rollout, it will have a negative effect on TDC's wholesale business.
+
+**Risks Related to TDC's Business Activities**
+
+**_Technology risks_**
+
+Changing technology may fast-track the substitution towards more advanced or cheaper alternatives –
+landline to mobile and VoIP and landline broadband to mobile broadband – markets, in which TDC's
+market share and profitability are lower. Future technological developments may cause TDC's price
+structure to deteriorate within one or more product markets. TDC may in the future be unable to keep up
+with the technological development and be unable to supply the solutions of the complexity demanded
+and may therefore lose momentum compared with its competitors. With increased complexity comes
+increased fault risk, which may lead to reduced customer satisfaction.
+
+A shift in IT technology may result in increased costs in the future, as a reduction in OPEX from legacy
+systems no longer compensates for increased OPEX from new systems.
+
+
+-----
+
+In relation to TDC Nordic, increased smartphone penetration in the mobile market, has caused technical
+challenges with the MVNO set-up, which may have a negative impact on the Nordic mobile business.
+
+**_Absence of further operational improvements_**
+
+In recent years, TDC has actively sought to reduce operating expenses and improve operating efficiency.
+TDC can make no assurance that it can continue to improve its operations, which may result in (i) failure
+to meet changing production capacity demand; (ii) failure to deliver productivity improvements in call
+centres (average handling time and availability) and implement call reduction initiatives; and (iii) failure
+to improve fault rates, e.g. backlogs building up due to cloud bursts.
+
+TDC has succeeded in cutting costs significantly in previous years, this may not be possible going
+forward.
+
+**_Outsourcing risks_**
+
+A change in TDC's main IT outsourcing partner or heavy off-shoring of the current CSC Consulting
+Group A/S workforce may cause an increased number of IT incidents and longer project delivery times.
+
+Another outsourcing risk may be failure to continue to optimise existing and future outsourcing
+relationships,‎and‎in‎the‎event‎that‎TDC’s‎current‎outsourcing‎arrangements‎become‎unsatisfactory,‎or‎its‎
+obligations are not met, TDC may be unable to find new outsourcing partners on economically attractive
+terms or on a timely basis or at all.
+
+**_Network risks_**
+
+Increased outsourcing of development and operation of Value Added Services ("VAS") to multiple
+partners adds complexity in all processes (plan, build and run), as the different partners have different
+platforms and processes. Increased complexity and outsourcing of quality control increases the risk of
+faults.
+
+All IP strategy is based on a single platform, which means that network breakdowns may have greater
+consequences than before.
+
+**_Risk of damaged reputation_**
+
+Bad publicity from stakeholders including competitors, regulators or consumer organisations may
+negatively‎ affect‎ the‎ public’s‎ and‎ customers’‎ image‎ of‎ TDC.‎ A‎ correlation‎ has‎ been‎ demonstrated‎
+between‎image‎and‎customers’‎desire‎to‎become‎or‎remain‎customers.
+
+Actual or perceived risks associated with mobile handsets or base stations and related publicity,
+regulation‎ or‎ litigation‎ could‎ reduce‎ TDC’s‎ mobile‎ phone‎ customer‎ base,‎ causing‎ mobile‎ telephone‎
+customers to use their mobile phones less, making it difficult to find or maintain attractive sites for base
+stations and potentially resulting in litigation costs.
+
+**_Other Risks_**
+
+TDC’s‎equipment‎and‎networks‎(including‎critical‎systems‎such‎as‎exchanges,‎switches‎and‎other‎key‎
+network points) may be damaged or disrupted by events such as fire, power cuts and equipment or system
+failures, including those caused by terrorist attacks. The impact of natural disasters and extreme weather
+conditions may result in increased cable faults and fault handling costs. The impact of criminal acts (e.g.
+hacking and abuse of software access rights) and/or sabotage by employees, partners or third parties may
+negatively‎impact‎TDC’s‎business.
+
+**Risks Related to TDC's Regulatory Environment and Litigation**
+
+**_Increased regulatory pressure_**
+
+A decision from the Danish Supreme Court is expected in the second quarter of 2012 and may confirm
+the Danish Business Authority's decision that YouSee must provide BSA also on networks owned by
+third parties. Compared to the present draft decisions from the Danish Business Authority, the final
+market 4 and 5 decisions may result in new and/or strengthened regulatory requirements for TDC.
+
+
+-----
+
+Recommendations in a draft report from the Competition and Consumer Authority regarding free choice
+of TV channels and no-pay channels in the Basic Package may be implemented in legislation.
+
+In relation to TDC Nordic, there is uncertainty related to the Swedish regulatory environment especially
+within landline and mobile termination and cobber prices. Risk concerning potential price squeeze from
+MVNO hosts.
+
+**Financial and Taxation Risks**
+
+**_Financial risks_**
+
+Notes issued under the Programme and new credit facilities entered into by TDC contain change of
+control provisions that in conjunction with a rating downgrade below investment grade or a withdrawal of
+TDC's ratings could result in lenders terminating their commitments and requiring TDC to repay all or
+part of its outstanding debt. Further, Notes issued under the Programme and new credit facilities entered
+into by TDC also contain cross default provisions which in case a default occurs could result in lenders
+terminating their commitments and requiring TDC to repay its outstanding debt under agreements that
+contain a cross default provision. Finally, if TDC is downgraded below investment grade, the interest
+payments (coupon) on Notes issued under the Programme in 2011 will increase by 1.25%.
+
+Exchange rates and/or interest rates may develop unfavourably for TDC, resulting in a financial
+downside.
+
+TDC’s‎financial‎counterparties‎may enter into financial distress which may result in them being unable to
+meet their obligations to TDC.
+
+Downgrade‎ of‎ TDC’s‎ credit‎ rating‎ could‎ increase‎ its‎ financing‎ costs‎ and‎ limit‎ its‎ access‎ to‎ financing‎
+sources.
+
+Pressure on payment terms from large customers due to increased cash flow focus may cause delays in
+payment from debtors.
+
+**_Taxation risks_**
+
+TDC is subject to the tax legislation in effect in the countries where TDC conducts business. Any future
+amendment of the tax laws including value added tax (VAT) and other direct taxes in the countries where
+TDC‎conducts‎business‎may‎adversely‎affect‎TDC’s‎corporate‎tax‎and‎VAT‎payable‎and‎its‎future‎results‎
+of operations.
+
+**_TDC’s related pension funds_**
+
+Some of TDC's present and former employees are entitled to a pension from TDC Pension Fund, the fund
+related to TDC. The TDC Pension Fund is a separate legal entity supervised by the Danish Financial
+Supervisory Authority (FSA) where TDC as the sponsor is obliged to cover any regulatory shortfall in the
+pension‎fund’s‎ability‎to‎comply‎ with‎the‎capital‎adequacy requirements under the Corporate Pension
+Funds Act. TDC also operates defined benefits plans that cover employees of TDC Norway.
+
+The risk of additional capital contributions having to be made in respect of the TDC Pension Fund can be
+categorized by investment, longevity and regulatory risks.
+
+Investment risk is managed within risk tolerance limits to mitigate excessive risk which could lead to
+contribution. The fund invests in a wide variety of marketable securities (predominantly fixed income
+securities)‎and‎the‎return‎on‎the‎investments‎has‎implications‎for‎TDC’s‎financial‎results.‎Uncompensated‎
+risk related to nominal rates and inflation has been fully hedged.
+
+Following‎ the‎ introduction‎ of‎ the‎ longevity‎ benchmark‎ by‎ the‎ Danish‎ FSA,‎ the‎ fund’s‎ actuary has
+conducted a detailed longevity statistical analysis which‎ has‎ underpinned‎ the‎ fund’s‎ assumptions‎
+regarding observed current longevity. The fund has however, in line with the sector increased its
+provision for future expected improvements to longevity.
+
+
+-----
+
+Other risk of capital contribution in excess of the planned ordinary contributions and extraordinary
+contributions in connection with redundancies going forward relate primarily to future changes to pension
+regulation and benefits which TDC does not have control over.
+
+TDC has formed a Pension Fund Advisory team located within the TDC Group Treasury which
+continuously manages investment decisions and the financial risks related to the fund on behalf of TDC.
+
+**Factors which are material for the purpose of assessing the market risks associated with the Notes**
+
+**_The Notes may not be a suitable investment for all investors_**
+
+Each potential investor in the Notes must determine the suitability of that investment in light of its own
+circumstances. In particular, each potential investor should:
+
+(i) have sufficient knowledge and experience to make a meaningful evaluation of the Notes, the
+merits and risks of investing in the Notes and the information contained or incorporated by
+reference in this Base Prospectus or any applicable supplement;
+
+(ii) have access to, and knowledge of, appropriate analytical tools to evaluate, in the context of its
+particular financial situation, an investment in the Notes and the impact the Notes will have on its
+overall investment portfolio;
+
+(iii) have sufficient financial resources and liquidity to bear all of the risks of an investment in the
+Notes, including Notes with principal or interest payable in one or more currencies, or where the
+currency for principal or interest payments is different from the potential investor's currency;
+
+(iv) understand thoroughly the terms of the Notes and be familiar with the behaviour of any relevant
+indices and financial markets; and
+
+(v) be able to evaluate (either alone or with the help of a financial adviser) possible scenarios for
+economic, interest rate and other factors that may affect its investment and its ability to bear the
+applicable risks.
+
+Some Notes are complex financial instruments. Sophisticated institutional investors generally do not
+purchase complex financial instruments as standalone investments. They purchase complex financial
+instruments as a way to reduce risk or enhance yield with an understood, measured, appropriate addition
+of risk to their overall portfolios. A potential investor should not invest in Notes which are complex
+financial instruments unless it has the expertise (either alone or with a financial adviser) to evaluate how
+the Notes will perform under changing conditions, the resulting effects on the value of the Notes and the
+impact this investment will have on the potential investor's overall investment portfolio.
+
+**_Fixed rate Notes_**
+
+Investment in fixed rate Notes involves the risk that subsequent changes in market interest rates may
+adversely affect the value of the fixed rate Notes.
+
+**_Index Linked Notes and Dual Currency Notes_**
+
+The Issuer may issue Notes with principal or interest determined by reference to an index or formula, to
+changes in the prices of securities or commodities, to movements in currency exchange rates or other
+factors (each, a "Relevant Factor"). In addition, the Issuer may issue Notes with principal or interest
+payable in one or more currencies which may be different from the currency in which the Notes are
+denominated. Potential investors should be aware that:
+
+(i) the market price of such Notes may be volatile;
+
+(ii) they may receive no interest;
+
+(iii) payment of principal or interest may occur at a different time or in a different currency than
+expected;
+
+(iv) they may lose all or a substantial portion of their principal;
+
+
+-----
+
+(v) a Relevant Factor may be subject to significant fluctuations that may not correlate with changes
+in interest rates, currencies or other indices;
+
+(vi) if a Relevant Factor is applied to Notes in conjunction with a multiplier greater than one or
+contains some other leverage factor, the effect of changes in the Relevant Factor on principal or
+interest payable likely will be magnified; and
+
+(vii) the timing of changes in a Relevant Factor may affect the actual yield to investors, even if the
+average level is consistent with their expectations. In general, the earlier the change in the
+Relevant Factor, the greater the effect on yield.
+
+The historical experience of an index should not be viewed as an indication of the future performance of
+such index during the term of any index linked notes. Accordingly, each potential investor should consult
+its own financial and legal advisers about the risk entailed by an investment in any index linked notes and
+the suitability of such Notes in light of its particular circumstances.
+
+**_Zero Coupon Notes_**
+
+Zero coupon notes do not pay current interest but are issued at a discount from their nominal value.
+Instead of periodic interest payments, the difference between the redemption price and the issue price
+constitutes interest income until maturity and reflects the market interest rate. A holder of zero coupon
+notes is exposed to the risk that the price of such notes falls as a result of changes in the market interest
+rate. Prices of zero coupon notes are more volatile than prices of fixed rate notes and are likely to
+respond to a greater degree to market interest rate changes than interest bearing notes with a similar
+maturity.
+
+**_Variable rate Notes with a multiplier or other leverage factor_**
+
+Notes with variable interest rates can be volatile investments. If they are structured to include multipliers
+or other leverage factors, or caps or floors, or any combination of those features or other similar related
+features, their market may be even more volatile than those securities that do not include those features.
+
+**_Fixed/floating rate Notes_**
+
+Fixed/floating rate Notes may bear interest at a rate that converts from a fixed rate to a floating rate or
+from a floating rate to a fixed rate. Where the Issuer has the right to effect such a conversion, this will
+affect the secondary market and the market value of the Notes since the Issuer may be expected to convert
+the rate when it is likely to produce a lower overall cost of borrowing. If the Issuer converts from a fixed
+rate to a floating rate in such circumstances, the spread on the fixed/floating rate Notes may be less
+favourable than then prevailing spreads on comparable floating rate Notes tied to the same reference rate.
+In addition, the new floating rate at any time may be lower than the rates on other Notes. If the Issuer
+converts from a floating rate to a fixed rate in such circumstances, the fixed rate may be lower than then
+prevailing rates on its Notes.
+
+**_Inverse floating rate Notes_**
+
+Inverse floating rate Notes have an interest rate equal to a fixed rate minus a rate based upon a reference
+rate such as LIBOR. The market values of those Notes typically are more volatile than market values of
+other conventional floating rate debt securities based on the same reference rate (and with otherwise
+comparable terms). Inverse floating rate Notes are more volatile because an increase in the reference rate
+not only decreases the interest rate of the Notes, but may also reflect an increase in prevailing interest
+rates, which further adversely affects the market value of these Notes.
+
+**_Notes issued at a substantial discount or premium_**
+
+The market values of securities issued at a substantial discount or premium from their principal amount
+tend to fluctuate more in relation to general changes in interest rates than do prices for conventional
+interest bearing securities. Generally, the longer the remaining terms of a security, the greater the price
+volatility as compared to a conventional interest bearing security with comparable maturity.
+
+**_There is no active trading market for the Notes_**
+
+
+-----
+
+Notes issued under the Programme will be new securities which may not be widely distributed and for
+which there is currently no active trading market (unless in the case of any particular Tranche, such
+Tranche is to be consolidated with and form a single series with a Tranche of Notes which is already
+issued). If the Notes are traded after their initial issuance, they may trade at a discount to their initial
+offering price, depending upon prevailing interest rates, the market for similar securities, general
+economic conditions and the financial condition of the Issuer. Although applications have been made for
+the Notes issued under the Programme to be admitted to listing on the official list and trading on the
+regulated market of the Luxembourg Stock Exchange, there is no assurance that such applications will be
+accepted, that any particular Tranche of Notes will be so admitted or that an active trading market will
+develop. Accordingly, there is no assurance as to the development or liquidity of any trading market for
+any particular Tranche of Notes.
+
+**_The Notes may be redeemed prior to maturity_**
+
+In the event that the Issuer would be obliged to increase the amounts payable in respect of any Notes due
+to any withholding or deduction for or on account of, any present or future taxes, duties, assessments or
+governmental charges of whatever nature imposed, levied, collected, withheld or assessed by or on behalf
+of the jurisdiction of the Issuer or any political subdivision thereof or any authority therein or thereof
+having power to tax or any change in the application or official interpretation of such law or regulations,
+the Issuer may redeem all outstanding Notes in accordance with the Conditions.
+
+In addition, if in the case of any particular Tranche of Notes the relevant Final Terms specify that the
+Notes are redeemable at the Issuer's option in certain other circumstances the Issuer may choose to
+redeem the Notes at times when prevailing interest rates may be relatively low. In such circumstances an
+investor may not be able to reinvest the redemption proceeds in a comparable security at an effective
+interest rate as high as that of the relevant Notes.
+
+**_Because the Global Notes are held by or on behalf of Euroclear and Clearstream, Luxembourg,_**
+**_investors will have to rely on their procedures for transfers, payments and communications with the_**
+**_Issuer_**
+
+Notes issued under the Programme may be represented by one or more Global Notes. Such Global Notes
+will be deposited with a common depositary or, as the case may be, common safekeeper for Euroclear and
+Clearstream, Luxembourg. Except in the circumstances described in the relevant Global Note, investors
+will not be entitled to receive Definitive Notes. Euroclear and Clearstream, Luxembourg will maintain
+records of the beneficial interests in the Global Notes. While the Notes are represented by one or more
+Global Notes, investors will be able to trade their beneficial interests only through Euroclear and
+Clearstream, Luxembourg.
+
+While the Notes are represented by one or more Global Notes the Issuer will discharge its payment
+obligations under the Notes by making payments to the common depositary or common safekeeper for
+Euroclear and Clearstream, Luxembourg for distribution to their account holders. A holder of a beneficial
+interest in a Global Note must rely on the procedures of Euroclear and Clearstream, Luxembourg to
+receive payments under the relevant Notes. The Issuer has no responsibility or liability for the records
+relating to, or payments made in respect of, beneficial interests in the Global Notes.
+
+Holders of beneficial interests in the Global Notes will not have a direct right to vote in respect of the
+relevant Notes. Instead, such holders will be permitted to act only to the extent that they are enabled by
+Euroclear and Clearstream, Luxembourg to appoint appropriate proxies.
+
+**_Modification, waivers and substitution_**
+
+The Conditions contain provisions for calling meetings of Noteholders to consider matters affecting their
+interests generally. These provisions permit defined majorities to bind all Noteholders including
+Noteholders who did not attend and vote at the relevant meeting and Noteholders who voted in a manner
+contrary to the majority.
+
+**_Notes with integral multiples_**
+
+In relation to any issue of Notes which have a denomination consisting of the minimum Specified
+Denomination plus a higher integral multiple of another smaller amount, it is possible that the Notes may
+be traded in amounts in excess of the Specified Denomination that are not integral multiples of the
+
+
+-----
+
+Specified Denomination. Noteholders who, as a result of trading such amounts, hold a principal amount
+of Notes other than a multiple of the minimum Specified Denomination will receive definitive Notes in
+respect of their holding (provided that the aggregate amount of Notes they hold is in excess of the
+minimum Specified Denomination), however, any such Definitive Notes which are printed in
+denominations other than the minimum Specified Denomination may be illiquid and difficult to trade.
+Furthermore, a Noteholder who, as a result of trading such amounts, holds a principal amount of less than
+the minimum Specified Denomination may not receive a Definitive Note in respect of such holding
+(should Definitive Notes be printed) and would need to purchase a principal amount of Notes such that its
+holding amounts to a Specified Denomination.
+
+**_Credit ratings_**
+
+One or more independent credit rating agencies may assign credit ratings to the Notes. The ratings may
+not reflect the potential impact of all risks related to structure, market, additional factors discussed above,
+and other factors that may affect the value of the Notes. A credit rating is not a recommendation to buy,
+sell or hold securities and may be revised or withdrawn by the rating agency at any time. A reduction in
+any of the credit ratings of the Issuer may reduce the market value and liquidity of the Notes.
+
+**_Change of law_**
+
+The conditions of the Notes are based on English law in effect as at the date of this Base Prospectus. No
+assurance can be given as to the impact of any possible judicial decision or change to English law or
+administrative practice after the date of this Base Prospectus.
+
+**Risks related to the market generally**
+
+**_The secondary market generally_**
+
+Notes may have no established trading market when issued, and one may never develop. If a market does
+develop, it may not be very liquid. Therefore, investors may not be able to sell their Notes easily or at
+prices that will provide them with a yield comparable to similar investments that have a developed
+secondary market. This is particularly the case for Notes that are especially sensitive to interest rate,
+currency or market risks, are designed for specific investment objectives or strategies or have been
+structured to meet the investment requirements of limited categories of investors. These types of Notes
+generally would have more limited secondary market and more price volatility than conventional debt
+securities. Illiquidity may have a severely adverse effect on the market value of Notes.
+
+**_Legal investment considerations may restrict certain investments_**
+
+The investment activities of certain investors are subject to legal investment laws and regulations, or
+review or regulation by certain authorities. Each potential investor should consult its legal advisers to
+determine whether and to what extent (i) Notes are legal investments for it, (ii) Notes can be used as
+collateral for various types of borrowing and (iii) other restrictions apply to the purchase or pledge of any
+Notes. Financial institutions should consult their legal advisors or the appropriate regulators to determine
+the appropriate treatment of Notes under any applicable risk based capital or similar rules.
+
+**_Exchange rate risks and exchange controls_**
+
+The Issuer will pay principal and interest on the Notes (as appropriate) in the Specified Currency. This
+presents certain risks relating to currency conversions if an investor's financial activities are denominated
+principally in a currency or currency unit (the "Investor's Currency") other than the Specified Currency.
+These include the risk that exchange rates may significantly change (including changes due to devaluation
+of the Specified Currency or revaluation of the Investor's Currency) and the risk that authorities with
+jurisdiction over the Investor's Currency may impose or modify exchange controls. An appreciation in
+the value of the Investor's Currency relative to the Specified Currency would decrease (1) the Investor's
+Currency equivalent yield on the Notes, (2) the Investor's Currency equivalent value of the principal
+payable on the Notes and (3) the Investor's Currency equivalent market value of the Notes.
+
+Government and monetary authorities may impose (as some have done in the past) exchange controls that
+could adversely affect an applicable exchange rate. As a result, investors may receive less interest or
+principal than expected, or no interest or principal.
+
+
+-----
+
+**Risks relating to taxation**
+
+**_Investors in the Notes may be required to pay taxes or other charges or duties_**
+
+Potential purchasers and sellers of Notes should be aware that they may be required to pay taxes or other
+documentary charges or duties in accordance with the laws and practices of the country where the Notes
+are transferred or other jurisdictions. Potential investors are advised not to rely upon the tax summary
+contained in this Base Prospectus but to ask for their own tax advisers' advice on their individual taxation
+with respect to the acquisition, sale and redemption of the Notes and receiving payments of interest,
+principal and/or other amounts under the Notes, including in particular the effect of any state, regional or
+local tax laws of any country or territory. Only such advisors are in a position to duly consider the
+specific situation of the potential investors. This investment consideration has to be read in connection
+with the taxation sections of this Base Prospectus.
+
+**_Payments in respect of the Notes may in certain circumstances be made subject to withholding or_**
+**_deduction of tax_**
+
+All payments in respect of Notes will be made free and clear of withholding or deduction of Danish
+taxation, unless the withholding or deduction is required by law. In that event, the Issuer will pay such
+additional amounts as will result in the Noteholders receiving such amounts as they would have received
+in respect of such Notes had no such withholding or deduction been required. The Issuer's obligation to
+gross up is, however, subject to a number of exceptions, including withholding or deduction of
+withholding tax operated in certain EU Member States pursuant to the EU Savings Tax Directive and
+similar measures agreed with the EU by certain non EU countries and territories. In addition, the Issuer
+will, in such event, have the option (but not the obligation) of redeeming all outstanding Notes in full (see
+Condition ‎10(b) (Redemption and Purchase — Redemption for tax reasons). See "Taxation" and "EU
+_Savings Tax Directive" below._
+
+**_EU Savings Tax Directive_**
+
+The EU has adopted a directive regarding the taxation of savings income, the EU Savings Tax Directive.
+The EU Savings Tax Directive requires Member States to provide to the tax authorities of another
+Member State details of payments of interest and except that Luxembourg and Austria will instead
+impose a withholding system for a transitional period unless during such period they elect otherwise. A
+number of third countries and territories including Switzerland have adopted similar measures to the
+Directive. The European Commission has proposed certain amendments to the Directive, which may, if
+implemented, amend or broaden the scope of the requirements described above. See "Taxation — EU
+_Savings Tax Directive"._
+
+**_Change in tax status or taxation legislation or practice_**
+
+Any change in the Issuer's tax status or in the taxation legislation or practice in a relevant jurisdiction
+could adversely impact (i) the ability of the Issuer to service the Notes and (ii) the market value of the
+Notes. See "Change of law" above.
+
+
+-----
+
+**INFORMATION INCORPORATED BY REFERENCE**
+
+The following information shall be deemed to be incorporated in, and to form part of, this Base
+Prospectus:
+
+1. The Annual Report of the Issuer for the financial year ended 31 December 2011 (the "2011
+**Annual Report"), including the information set out at the following pages in particular:**
+
+Consolidated Income Statements .................................................................... Page 98
+Consolidated Statements of Comprehensive Income ...................................... Page 99
+Consolidated Balance Sheets .......................................................................... Page 100 to 101
+Consolidated Statements of Cash Flow ........................................................... Page 102
+Consolidated Statements of Changes in Equity .............................................. Page 103
+Notes to the Consolidated Financial Statements .............................................  Pages 104 to 162
+Independent Auditor's Report ......................................................................... Page 97
+
+Any other information not listed above but contained in such document is incorporated by
+reference for information purposes only.
+
+2. The Annual Report of the Issuer for the financial year ended 31 December 2010 (the "2010
+**Annual Report") (save for the section "Forward-looking Statement" on page 117 of the 2010**
+Annual Report), including the information set out at the following pages in particular:
+
+TDC's transformation since 2006 .................................................................... Pages 18 to 27
+Regulation ....................................................................................................... Pages 100 to 103
+Consolidated Income Statements .................................................................... Page 132
+Consolidated Statements of Comprehensive Income ...................................... Page 133
+Consolidated Balance Sheets .......................................................................... Page 134 to 135
+Consolidated Statements of Cash Flow ........................................................... Page 136
+Consolidated Statements of Changes in Equity .............................................. Page 137
+Notes to the Consolidated Financial Statements .............................................  Pages 139 to 197
+Independent Auditor's Report ......................................................................... Page 227
+
+Any other information not listed above but contained in such document is incorporated by
+reference for information purposes only.
+
+Copies of the documents specified above as containing information incorporated by reference in this Base
+Prospectus may be inspected, free of charge, from the Issuer's website www.TDC.com or www.TDC.dk
+and during normal business hours on any day (excluding Saturdays, Sundays and public holidays) at the
+offices of the Issuer at Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the offices of the Fiscal
+Agent Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester Street, London
+EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2 Boulevard Konrad
+Adenauer, L 1115 Luxembourg, Grand Duchy of Luxembourg.
+
+This Base Prospectus and the documents specified above as containing information incorporated by
+reference in this Base Prospectus will also be available on the website of the Luxembourg Stock
+Exchange (www.bourse.lu).
+
+Any information contained in any of the documents specified above which is not incorporated by
+reference in this Base Prospectus is either not relevant to investors or is covered elsewhere in this Base
+Prospectus.
+
+The contents of the Issuer's websites do not form part of this Base Prospectus.
+
+
+-----
+
+**FINAL TERMS AND DRAWDOWN PROSPECTUSES**
+
+In this section the expression "necessary information" means, in relation to any Tranche of Notes, the
+information necessary to enable investors to make an informed assessment of the assets and liabilities,
+financial position, profits and losses and prospects of the Issuer and of the rights attaching to the Notes.
+The Issuer has endeavoured to include in this Base Prospectus all of the necessary information except for
+information relating to the Notes which is not known at the date of this Base Prospectus and which can
+only be determined at the time of an individual issue of a Tranche of Notes.
+
+Any information relating to the Notes which is not included in this Base Prospectus and which is required
+in order to complete the necessary information in relation to a Tranche of Notes will be contained either
+in the relevant Final Terms or in a Drawdown Prospectus. Such information will be contained in the
+relevant Final Terms unless any of such information constitutes a significant new factor relating to the
+information contained in this Base Prospectus in which case such information, together with all of the
+other necessary information in relation to the relevant series of Notes, may be contained in a Drawdown
+Prospectus.
+
+For a Tranche of Notes which is the subject of Final Terms, those Final Terms will, for the purposes of
+that Tranche only, supplement this Base Prospectus and must be read in conjunction with this Base
+Prospectus. The terms and conditions applicable to any particular Tranche of Notes which is the subject
+of Final Terms are the Conditions as supplemented, modified and/or replaced to the extent described in
+the relevant Final Terms.
+
+The terms and conditions applicable to any particular Tranche of Notes which is the subject of a
+Drawdown Prospectus will be the Conditions as supplemented, amended and/or replaced to the extent
+described in the relevant Drawdown Prospectus. In the case of a Tranche of Notes which is the subject of
+a Drawdown Prospectus, each reference in this Base Prospectus to information being specified or
+identified in the relevant Final Terms shall be read and construed as a reference to such information being
+specified or identified in the relevant Drawdown Prospectus unless the context requires otherwise.
+
+Each Drawdown Prospectus will be constituted either (1) by a single document containing the necessary
+information relating to the Issuer and the relevant Notes or (2) by a registration document (the
+"Registration Document") containing the necessary information relating to the Issuer, a securities note
+(the "Securities Note") containing the necessary information relating to the relevant Notes and, if
+necessary, a summary note. In addition, if the Drawdown Prospectus is constituted by a Registration
+Document and a Securities Note, any significant new factor, material mistake or inaccuracy relating to the
+information included in the Registration Document which arises or is noted between the date of the
+Registration Document and the date of the Securities Note which is capable of affecting the assessment of
+the relevant Notes will be included in the Securities Note.
+
+
+-----
+
+**FORMS OF THE NOTES**
+
+**Bearer Notes**
+
+Each Tranche of Notes in bearer form ("Bearer Notes") will initially be in the form of either a temporary
+global note in bearer form (the "Temporary Global Note"), without interest coupons, or a permanent
+global note in bearer form (the "Permanent Global Note"), without interest coupons, in each case as
+specified in the relevant Final Terms. Each Temporary Global Note or, as the case may be, Permanent
+Global Note (each a "Global Note") which is not intended to be issued in new global note ("NGN") form,
+as specified in the relevant Final Terms, will be deposited on or around the issue date of the relevant
+Tranche of the Notes with a depositary or a common depositary for Euroclear Bank SA/NV
+("Euroclear") and/or Clearstream Banking, société anonyme ("Clearstream, Luxembourg") and/or any
+other relevant clearing system and each Global Note which is intended to be issued in NGN form, as
+specified in the relevant Final Terms, will be deposited on or around the issue date of the relevant
+Tranche of the Notes with a common safekeeper for Euroclear and/or Clearstream, Luxembourg.
+
+On 13 June 2006 the European Central Bank (the "ECB") announced that Notes in NGN form are in
+compliance with the "Standards for the use of EU securities settlement systems in ESCB credit
+_operations" of the central banking system for the euro (the "Eurosystem"), provided that certain other_
+criteria are fulfilled. At the same time the ECB also announced that arrangements for Notes in NGN form
+will be offered by Euroclear and Clearstream, Luxembourg as of 30 June 2006 and that debt securities in
+global bearer form issued through Euroclear and Clearstream, Luxembourg after 31 December 2006 will
+only be eligible as collateral for Eurosystem operations if the NGN form is used.
+
+In the case of each Tranche of Bearer Notes, the relevant Final Terms will also specify whether United
+States Treasury Regulation §1.163-5(c)(2)(i)(C) (the "TEFRA C Rules") or United States Treasury
+Regulation §1.163-5(c)(2)(i)(D) (the "TEFRA D Rules") are applicable in relation to the Notes or, if the
+Notes do not have a maturity of more than 365 days, that neither the TEFRA C Rules nor the TEFRA D
+Rules are applicable.
+
+**_Temporary Global Note exchangeable for Permanent Global Note_**
+
+If the relevant Final Terms specifies the form of Notes as being "Temporary Global Note exchangeable
+for a Permanent Global Note", then the Notes will initially be in the form of a Temporary Global Note
+which will be exchangeable, in whole or in part, for interests in a Permanent Global Note, without interest
+coupons, not earlier than 40 days after the issue date of the relevant Tranche of the Notes upon
+certification as to non-U.S. beneficial ownership. No payments will be made under the Temporary Global
+Note unless exchange for interests in the Permanent Global Note is improperly withheld or refused. In
+addition, interest payments in respect of the Notes cannot be collected without such certification of nonU.S. beneficial ownership.
+
+Whenever any interest in the Temporary Global Note is to be exchanged for an interest in a Permanent
+Global Note, the Issuer shall procure (in the case of first exchange) the delivery of a Permanent Global
+Note to the bearer of the Temporary Global Note or (in the case of any subsequent exchange) an increase
+in the principal amount of the Permanent Global Note in accordance with its terms against:
+
+(i) presentation and (in the case of final exchange) presentation and surrender of the Temporary
+Global Note to or to the order of the Fiscal Agent; and
+
+(ii) receipt by the Fiscal Agent of a certificate or certificates of non-U.S. beneficial ownership.
+
+The principal amount of Notes represented by the Permanent Global Note shall be equal to the aggregate
+of the principal amounts specified in the certificates of non-U.S. beneficial ownership provided, however,
+_that in no circumstances shall the principal amount of Notes represented by the Permanent Global Note_
+exceed the initial principal amount of Notes represented by the Temporary Global Note.
+
+If:
+
+(a) the Permanent Global Note has not been delivered or the principal amount thereof increased by
+5.00 p.m. (London time) on the seventh day after the bearer of the Temporary Global Note has
+requested exchange of an interest in the Temporary Global Note for an interest in a Permanent
+Global Note; or
+
+
+-----
+
+(b) the Temporary Global Note (or any part thereof) has become due and payable in accordance with
+the Terms and Conditions of the Notes or the date for final redemption of the Temporary Global
+Note has occurred and, in either case, payment in full of the amount of principal falling due with
+all accrued interest thereon has not been made to the bearer of the Temporary Global Note in
+accordance with the terms of the Temporary Global Note on the due date for payment,
+
+then the Temporary Global Note (including the obligation to deliver a Permanent Global Note) will
+become void at 5.00 p.m. (London time) on such seventh day (in the case of (a) above) or at 5.00 p.m.
+(London time) on such due date (in the case of (b) above) and the bearer of the Temporary Global Note
+will have no further rights thereunder (but without prejudice to the rights which the bearer of the
+Temporary Global Note or others may have under the Deed of Covenant).
+
+The Permanent Global Note will become exchangeable, in whole but not in part only and at the request of
+the bearer of the Permanent Global Note, for Bearer Notes in definitive form ("Definitive Notes") if
+Euroclear or Clearstream, Luxembourg or any other relevant clearing system is closed for business for a
+continuous period of 14 days (other than by reason of legal holidays) or announces an intention
+permanently to cease business.
+
+Whenever the Permanent Global Note is to be exchanged for Definitive Notes, the Issuer shall procure the
+prompt delivery (free of charge to the bearer) of such Definitive Notes, duly authenticated and with
+Coupons and Talons attached (if so specified in the Final Terms), in an aggregate principal amount equal
+to the principal amount of Notes represented by the Permanent Global Note to the bearer of the
+Permanent Global Note against the surrender of the Permanent Global Note to or to the order of the Fiscal
+Agent within 30 days of the bearer requesting such exchange.
+
+If:
+
+(a) Definitive Notes have not been duly delivered by 5.00 p.m. (London time) on the thirtieth day
+after the bearer has requested exchange of the Permanent Global Note for Definitive Notes; or
+
+(b) the Permanent Global Note was originally issued in exchange for part only of a Temporary
+Global Note representing the Notes and such Temporary Global Note becomes void in
+accordance with its terms; or
+
+(c) the Permanent Global Note (or any part thereof) has become due and payable in accordance with
+the Terms and Conditions of the Notes or the date for final redemption of the Permanent Global
+Note has occurred and, in either case, payment in full of the amount of principal falling due with
+all accrued interest thereon has not been made to the bearer in accordance with the terms of the
+Permanent Global Note on the due date for payment,
+
+then the Permanent Global Note (including the obligation to deliver Definitive Notes) will become void at
+5.00 p.m. (London time) on such thirtieth day (in the case of (a) above) or at 5.00 p.m. (London time) on
+the date on which such Temporary Global Note becomes void (in the case of (b) above) or at 5.00 p.m.
+(London time) on such due date ((c) above) and the bearer of the Permanent Global Note will have no
+further rights thereunder (but without prejudice to the rights which the bearer of the Permanent Global
+Note or others may have under the Deed of Covenant).
+
+**_Temporary Global Note exchangeable for Definitive Notes_**
+
+If the relevant Final Terms specifies the form of Notes as being "Temporary Global Note exchangeable
+for Definitive Notes" and also specifies that the TEFRA C Rules are applicable or that neither the TEFRA
+C Rules or the TEFRA D Rules are applicable, then the Notes will initially be in the form of a Temporary
+Global Note which will be exchangeable, in whole but not in part, for Definitive Notes not earlier than 40
+days after the issue date of the relevant Tranche of the Notes.
+
+If the relevant Final Terms specifies the form of Notes as being "Temporary Global Note exchangeable
+for Definitive Notes" and also specifies that the TEFRA D Rules are applicable, then the Notes will
+initially be in the form of a Temporary Global Note which will be exchangeable, in whole or in part, for
+Definitive Notes not earlier than 40 days after the issue date of the relevant Tranche of the Notes upon
+certification as to non-U.S. beneficial ownership. Interest payments in respect of the Notes cannot be
+collected without such certification of non-U.S. beneficial ownership.
+
+
+-----
+
+Whenever the Temporary Global Note is to be exchanged for Definitive Notes, the Issuer shall procure
+the prompt delivery (free of charge to the bearer) of such Definitive Notes, duly authenticated and with
+Coupons and Talons attached (if so specified in the relevant Final Terms), in an aggregate principal
+amount equal to the principal amount of the Temporary Global Note to the bearer of the Temporary
+Global Note against the surrender of the Temporary Global Note to or to the order of the Fiscal Agent
+within 30 days of the bearer requesting such exchange.
+
+If:
+
+(a) Definitive Notes have not been duly delivered by 5.00 p.m. (London time) on the thirtieth day
+after the bearer has requested exchange of the Temporary Global Note for Definitive Notes; or
+
+(b) the Temporary Global Note (or any part thereof) has become due and payable in accordance with
+the Terms and Conditions of the Notes or the date for final redemption of the Temporary Global
+Note has occurred and, in either case, payment in full of the amount of principal falling due with
+all accrued interest thereon has not been made to the bearer in accordance with the terms of the
+Temporary Global Note on the due date for payment,
+
+then the Temporary Global Note (including the obligation to deliver Definitive Notes) will become void
+at 5.00 p.m. (London time) on such thirtieth day (in the case of (a) above) or at 5.00 p.m. (London time)
+on such due date (in the case of (b) above) and the bearer of the Temporary Global Note will have no
+further rights thereunder (but without prejudice to the rights which the bearer of the Temporary Global
+Note or others may have under the Deed of Covenant).
+
+**_Permanent Global Note exchangeable for Definitive Notes_**
+
+If the relevant Final Terms specifies the form of Notes as being "Permanent Global Note exchangeable
+for Definitive Notes", then the Notes will initially be in the form of a Permanent Global Note which will
+be exchangeable in whole, but not in part, for Definitive Notes if Euroclear or Clearstream, Luxembourg
+or any other relevant clearing system is closed for business for a continuous period of 14 days (other than
+by reason of legal holidays) or announces an intention permanently to cease business.
+
+Whenever the Permanent Global Note is to be exchanged for Definitive Notes, the Issuer shall procure the
+prompt delivery (free of charge to the bearer) of such Definitive Notes, duly authenticated and with
+Coupons and Talons attached (if so specified in the Final Terms), in an aggregate principal amount equal
+to the principal amount of Notes represented by the Permanent Global Note to the bearer of the
+Permanent Global Note against the surrender of the Permanent Global Note to or to the order of the Fiscal
+Agent within 30 days of the bearer requesting such exchange.
+
+If:
+
+(a) Definitive Notes have not been duly delivered by 5.00 p.m. (London time) on the thirtieth day
+after the bearer has requested exchange of the Permanent Global Note for Definitive Notes; or
+
+(b) the Permanent Global Note (or any part thereof) has become due and payable in accordance with
+the Terms and Conditions of the Notes or the date for final redemption of the Permanent Global
+Note has occurred and, in either case, payment in full of the amount of principal falling due with
+all accrued interest thereon has not been made to the bearer in accordance with the terms of the
+Permanent Global Note on the due date for payment,
+
+then the Permanent Global Note (including the obligation to deliver Definitive Notes) will become void at
+5.00 p.m. (London time) on such thirtieth day (in the case of (a) above) or at 5.00 p.m. (London time) on
+such due date ((b) above) and the bearer of the Permanent Global Note will have no further rights
+thereunder (but without prejudice to the rights which the bearer of the Permanent Global Note or others
+may have under the Deed of Covenant).
+
+**_Legend concerning United States persons_**
+
+In the case of any Tranche of Bearer Notes having a maturity of more than 365 days, the Notes in global
+form, the Notes in definitive form and any Coupons and Talons appertaining thereto will bear a legend to
+the following effect:
+
+
+-----
+
+"Any United States person who holds this obligation will be subject to limitations under the
+United States income tax laws, including the limitations provided in Sections 165(j) and 1287(a)
+of the Internal Revenue Code."
+
+**Registered Notes**
+
+Each Tranche of Registered Notes will be in the form of a global Note in registered form (a "Global
+**Registered Note").**
+
+In a press release dated 22 October 2008, "Evolution of the custody arrangement for international debt
+_securities and their eligibility in Eurosystem credit operations", the ECB announced that it has assessed_
+the new holding structure and custody arrangements for registered notes which the ICSDs had designed in
+cooperation with market participants and that Notes to be held under the New Safekeeping Structure
+would be in compliance with the "Standards for the use of EU securities settlement systems in ESCB
+_credit operations" of the Eurosystem, subject to the conclusion of the necessary legal and contractual_
+arrangements. The press release also stated that the new arrangements for Notes to be held in NSS form
+will be offered by Euroclear and Clearstream, Luxembourg as of 30 June 2010 and that registered debt
+securities in global registered form held issued through Euroclear and Clearstream, Luxembourg after 30
+September 2010 will only be eligible as collateral in Eurosystem operations if the New Safekeeping
+Structure is used.
+
+Each Global Registered Note will either be: (a) in the case of a Note which is not to be held under the
+New Safekeeping Structure, registered in the name of a common depositary (or its nominee) for Euroclear
+and/or Clearstream, Luxembourg and/or any other relevant clearing system and the relevant Global
+Registered Note will be deposited on or about the issue date with the common depositary and will be
+exchangeable in accordance with its terms; or (b) in the case of a Note to be held under the New
+Safekeeping Structure, be registered in the name of a common safekeeper (or its nominee) for Euroclear
+and/or Clearstream, Luxembourg and/or any other relevant clearing system and the relevant Global
+Registered Note will be deposited on or about the issue date with the common safekeeper for Euroclear
+and/or Clearstream, Luxembourg.
+
+If the relevant Final Terms specifies the form of Notes as being "Global Registered Note exchangeable
+for Individual Note Certificates", then the Notes will initially be in the form of a Global Registered Note
+which will be exchangeable in whole, but not in part, for individual Note certificates in registered form
+("Individual Note Certificates") in accordance with its terms if Euroclear or Clearstream, Luxembourg
+or any other relevant clearing system is closed for business for a continuous period of 14 days (other than
+by reason of legal holidays) or announces an intention permanently to cease business.
+
+Whenever the Global Registered Note is to be exchanged for Individual Note Certificates, the Issuer shall
+procure that Individual Note Certificates will be issued in an aggregate principal amount equal to the
+principal amount of the Global Registered Note within five business days of the delivery, by or on behalf
+of the registered holder of the Global Registered Note to the Registrar of such information as is required
+to complete and deliver such Individual Note Certificates (including, without limitation, the names and
+addresses of the persons in whose names the Individual Note Certificates are to be registered and the
+principal amount of each such person's holding) against the surrender of the Global Registered Note at the
+specified office of the Registrar.
+
+Such exchange will be effected in accordance with the provisions of the Agency Agreement and the
+regulations concerning the transfer and registration of Notes scheduled thereto and, in particular, shall be
+effected without charge to any holder, but against such indemnity as the Registrar may require in respect
+of any tax or other duty of whatsoever nature which may be levied or imposed in connection with such
+exchange.
+
+If:
+
+(a) Individual Note Certificates have not been delivered by 5.00 p.m. (London time) on the thirtieth
+day after they are due to be issued and delivered in accordance with the terms of the Global
+Registered Note; or
+
+(b) any of the Notes represented by a Global Registered Note (or any part of it) has become due and
+payable in accordance with the Terms and Conditions of the Notes or the date for final
+redemption of the Notes has occurred and, in either case, payment in full of the amount of
+
+
+-----
+
+principal falling due with all accrued interest thereon has not been made to the holder of the
+Global Registered Note in accordance with the terms of the Global Registered Note on the due
+date for payment,
+
+then the Global Registered Note (including the obligation to deliver Individual Note Certificates) will
+become void at 5.00 p.m. (London time) on such thirtieth day (in the case of (a) above) or at 5.00 p.m.
+(London time) on such due date (in the case of (b) above) and the holder of the Global Registered Note
+will have no further rights thereunder (but without prejudice to the rights which the holder of the Global
+Registered Note or others may have under the Deed of Covenant. Under the Deed of Covenant, persons
+shown in the records of Euroclear and/or Clearstream, Luxembourg and/or any other relevant clearing
+system as being entitled to an interest in a Global Registered Note which becomes void will acquire
+directly against the Issuer all those rights to which they would have been entitled if, immediately before
+the Global Registered Note became void, they had been the holders of Individual Note Certificates in an
+aggregate principal amount equal to the principal amount of Notes they were shown as holding in the
+records of Euroclear and/or Clearstream, Luxembourg and/or any other relevant clearing system.
+
+**Terms and Conditions applicable to the Notes**
+
+The terms and conditions applicable to any Note in global form will differ from those terms and
+conditions which would apply to the Note were it in definitive form to the extent described under
+"Summary of Provisions Relating to the Notes while in Global Form" below.
+
+The terms and conditions applicable to any Definitive Note or Individual Note Certificate will be
+endorsed on that Definitive Note or Individual Note Certificate and will consist of the terms and
+conditions set out under "Terms and Conditions of the Notes" below and the provisions of the relevant
+Final Terms which supplement, amend and/or replace those terms and conditions.
+
+**Rights under Deed of Covenant**
+
+Under the Deed of Covenant, persons shown in the records of Euroclear and/or Clearstream, Luxembourg
+and/or any other relevant clearing system as being entitled to an interest in a Note in global form which
+becomes void will acquire directly against the Issuer all those rights to which they would have been
+entitled if, immediately before the Note became void, they had been the holders of Definitive Notes or
+Individual Note Certificates in an aggregate principal amount equal to the principal amount of Notes they
+were shown as holding in the records of Euroclear and/or Clearstream, Luxembourg and/or any other
+relevant clearing system.
+
+
+-----
+
+**TERMS AND CONDITIONS OF THE NOTES**
+
+_The following is the text of the terms and conditions which, as supplemented, amended and/or replaced by_
+_the relevant Final Terms, will be endorsed on each Note in definitive form issued under the Programme._
+_The terms and conditions applicable to any Note in global form will differ from those terms and_
+_conditions which would apply to the Note were it in definitive form to the extent described under_
+_"Summary of Provisions Relating to the Notes while in Global Form" below._
+
+1. **Introduction**
+
+(a) _Programme: TDC A/S (the "Issuer") has established a Euro Medium Term Note Programme (the_
+"Programme") for the issuance of up to €4,000,000,000 in aggregate principal amount of notes
+(the "Notes").
+
+(b) _Final Terms: Notes issued under the Programme are issued in series (each a "Series") and each_
+Series may comprise one or more tranches (each a "Tranche") of Notes. Each Tranche is the
+subject of a final terms (the "Final Terms") which supplements these terms and conditions (the
+"Conditions"). The terms and conditions applicable to any particular Tranche of Notes are these
+Conditions as supplemented, amended and/or replaced by the relevant Final Terms. In the event
+of any inconsistency between these Conditions and the relevant Final Terms, the relevant Final
+Terms shall prevail.
+
+(c) _Agency Agreement: The Notes are the subject of an issue and paying agency agreement dated 10_
+February 2011 (the "Agency Agreement") between the Issuer, Deutsche Bank AG, London
+Branch as fiscal agent (the "Fiscal Agent", which expression includes any successor fiscal agent
+appointed from time to time in connection with the Notes), Deutsche Bank Luxembourg S.A. as
+registrar (the "Registrar", which expression includes any successor registrar appointed from time
+to time in connection with the Notes), the paying agents named therein (together with the Fiscal
+Agent, the "Paying Agents", which expression includes any successor or additional paying
+agents appointed from time to time in connection with the Notes) and the transfer agents named
+therein (together with the Registrar, the "Transfer Agents", which expression includes any
+successor or additional transfer agents appointed from time to time in connection with the Notes).
+In these Conditions references to the "Agents" are to the Paying Agents and the Transfer Agents
+and any reference to an "Agent" is to any one of them.
+
+(d) _Deed of Covenant: The Notes may be issued in bearer form ("Bearer Notes"), or in registered_
+form ("Registered Notes"). Registered Notes are constituted by a deed of covenant dated 10
+February 2011 (the "Deed of Covenant") entered into by the Issuer.
+
+(e) _The Notes: All subsequent references in these Conditions to "Notes" are to the Notes which are_
+the subject of the relevant Final Terms. Copies of the relevant Final Terms are available for
+viewing on Issuer's website www.TDC.com or www.TDC.dk and may be obtained during normal
+business hours on any day (excluding Saturdays, Sundays and public holidays) from the offices
+of the Issuer and the Specified Offices of each of the Agents, the initial Specified Offices of
+which are set out below.
+
+(f) _Summaries: Certain provisions of these Conditions are summaries of the Agency Agreement and_
+the Deed of Covenant and are subject to their detailed provisions. Noteholders and the holders of
+the related interest coupons, if any, (the "Couponholders" and the "Coupons", respectively) are
+bound by, and are deemed to have notice of, all the provisions of the Agency Agreement and the
+Deed of Covenant applicable to them. Copies of the Agency Agreement and the Deed of
+Covenant are available for inspection by Noteholders during normal business hours on any day
+(excluding Saturdays, Sundays and public holidays) at the offices of the Issuer and the Specified
+Offices of each of the Agents, the initial Specified Offices of which are set out below.
+
+2. **Interpretation**
+
+(a) _Definitions: In these Conditions the following expressions have the following meanings:_
+
+"Accrual Yield" has the meaning given in the relevant Final Terms;
+
+
+-----
+
+"Additional Business Centre(s)" means the city or cities specified as such in the relevant Final
+Terms;
+
+"Additional Financial Centre(s)" means the city or cities specified as such in the relevant Final
+Terms;
+
+"Adjusted Comparable Yield" means, with respect to any redemption date, the rate per annum
+equal to the equivalent yield to maturity of the Comparable Issue plus or minus the Comparable
+Issue Margin. For these purposes, the price of the Comparable Issue will be calculated by the
+financial adviser specified hereon as the Special Calculation Agent (or such successor as may be
+appointed by the Issuer), with respect to any redemption date, as being the average of the
+Quotation Agents' Quotations for such redemption date;
+
+"Affiliates" means in relation to any person (i) any entity controlled, directly or indirectly, by
+that person, (ii) any entity that controls, directly or indirectly, that person, or (iii) any entity
+directly or indirectly under common control with that person. For this purpose, "control" of any
+entity or person means ownership or control of at least 20 per cent. of the voting rights of that
+entity or person;
+
+"Broken Amount" has the meaning given in the relevant Final Terms;
+
+"Business Day" means:
+
+(a) in relation to any sum payable in euro, a TARGET Settlement Day and a day on which
+commercial banks and foreign exchange markets settle payments and are open for
+general business (including dealing in foreign exchange and foreign currency deposits)
+in each (if any) Additional Business Centre; and
+
+(b) in relation to any sum payable in a currency other than euro, a day on which commercial
+banks and foreign exchange markets settle payments and are open for general business
+(including dealing in foreign exchange and foreign currency deposits) in London, in the
+Principal Financial Centre of the relevant currency and in each (if any) Additional
+Business Centre;
+
+"Business Day Convention", in relation to any particular date, has the meaning given in the
+relevant Final Terms and, if so specified in the relevant Final Terms, may have different
+meanings in relation to different dates and, in this context, the following expressions shall have
+the following meanings:
+
+(a) "Following Business Day Convention" means that the relevant date shall be postponed
+to the first following day that is a Business Day;
+
+(b) "Modified Following Business Day Convention" or "Modified Business Day
+**Convention" means that the relevant date shall be postponed to the first following day**
+that is a Business Day unless that day falls in the next calendar month in which case that
+date will be the first preceding day that is a Business Day;
+
+(c) "Preceding Business Day Convention" means that the relevant date shall be brought
+forward to the first preceding day that is a Business Day;
+
+(d) "FRN Convention", "Floating Rate Convention" or "Eurodollar Convention" means
+that each relevant date shall be the date which numerically corresponds to the preceding
+such date in the calendar month which is the number of months specified in the relevant
+Final Terms as the Specified Period after the calendar month in which the preceding
+such date occurred provided, however, that:
+
+(i) if there is no such numerically corresponding day in the calendar month in
+which any such date should occur, then such date will be the last day which is a
+Business Day in that calendar month;
+
+(ii) if any such date would otherwise fall on a day which is not a Business Day, then
+such date will be the first following day which is a Business Day unless that day
+
+
+-----
+
+falls in the next calendar month, in which case it will be the first preceding day
+which is a Business Day; and
+
+(iii) if the preceding such date occurred on the last day in a calendar month which
+was a Business Day, then all subsequent such dates will be the last day which is
+a Business Day in the calendar month which is the specified number of months
+after the calendar month in which the preceding such date occurred; and
+
+(e) "No Adjustment" means that the relevant date shall not be adjusted in accordance with
+any Business Day Convention;
+
+"Calculation Agent" means the Fiscal Agent or such other Person specified in the relevant Final
+Terms as the party responsible for calculating the Rate(s) of Interest and Interest Amount(s)
+and/or such other amount(s) as may be specified in the relevant Final Terms;
+
+"Calculation Amount" has the meaning given in the relevant Final Terms;
+
+"Comparable Issue" means the securities specified hereon (as having a maturity comparable to
+the remaining term of the series of Notes to be redeemed that would be utilised, at the time of
+selection and in accordance with customary financial practice, in pricing new issues of corporate
+debt securities of comparable maturity to the remaining term of the relevant Notes) provided
+however that, should the relevant Comparable Issue no longer be in issue, the Comparable Issue
+shall be such other securities as the Issuer, on the advice of an investment bank or broker of
+recognised standing operating in the relevant currency market, may determine;
+
+"Comparable Issue Margin" means the Comparable Issue Margin as specified hereon, provided
+however that, should the Comparable Issue be replaced in the manner specified herein, the
+Comparable Issue Margin shall also be such other margin as the Issuer, on the advice of an
+investment bank or broker of recognised standing operating in the relevant currency market, may
+determine;
+
+"Coupon Sheet" means, in respect of a Note, a coupon sheet relating to the Note;
+
+"Day Count Fraction" means, in respect of the calculation of an amount for any period of time
+(the "Calculation Period"), such day count fraction as may be specified in these Conditions or
+the relevant Final Terms and:
+
+(a) if "Actual/Actual (ICMA)" is so specified, means:
+
+(i) where the Calculation Period is equal to or shorter than the Regular Period
+during which it falls, the actual number of days in the Calculation Period
+divided by the product of (1) the actual number of days in such Regular Period
+and (2) the number of Regular Periods in any year; and
+
+(ii) where the Calculation Period is longer than one Regular Period, the sum of:
+
+(A) the actual number of days in such Calculation Period falling in the
+Regular Period in which it begins divided by the product of (1) the
+actual number of days in such Regular Period and (2) the number of
+Regular Periods in any year; and
+
+(B) the actual number of days in such Calculation Period falling in the next
+Regular Period divided by the product of (a) the actual number of days
+in such Regular Period and (2) the number of Regular Periods in any
+year;
+
+(iii) if "Actual/Actual (ISDA)" is so specified, means the actual number of days in
+the Calculation Period divided by 365 (or, if any portion of the Calculation
+Period falls in a leap year, the sum of (A) the actual number of days in that
+portion of the Calculation Period falling in a leap year divided by 366 and (B)
+the actual number of days in that portion of the Calculation Period falling in a
+non-leap year divided by 365);
+
+
+-----
+
+(iv) if "Actual/365 (Fixed)" is so specified, means the actual number of days in the
+Calculation Period divided by 365;
+
+(v) if "Actual/360" is so specified, means the actual number of days in the
+Calculation Period divided by 360;
+
+(vi) if "30/360" is so specified, the number of days in the Calculation Period divided
+by 360, calculated on a formula basis as follows:
+
+## [360 x(Y2  Y1)]  [30x(M 2  M 1)]  (D2  D1)
+ 360
+Day Count Fraction =
+
+where:
+
+"Y1" is the year, expressed as a number, in which the first day of the Calculation
+Period falls;
+
+"Y2" is the year, expressed as a number, in which the day immediately following
+the last day included in the Calculation Period falls;
+
+"M1" is the calendar month, expressed as a number, in which the first day of the
+Calculation Period falls;
+
+"M2" is the calendar month, expressed as number, in which the day immediately
+following the last day included in the Calculation Period falls;
+
+"D1" is the first calendar day, expressed as a number, of the Calculation Period,
+unless such number would be 31, in which case D1 will be 30; and
+
+"D2" is the calendar day, expressed as a number, immediately following the last
+day included in the Calculation Period, unless such number would be 31 and D1
+is greater than 29, in which case D2 will be 30";
+
+(vii) if "30E/360" or "Eurobond Basis" is so specified, the number of days in the
+Calculation Period divided by 360, calculated on a formula basis as follows:
+
+Day Count Fraction = [360x(Y2  _Y1)]_  [30x(M 2  _M1)]_  (D2  _D1)_
+## 360
+
+where:
+
+"Y1" is the year, expressed as a number, in which the first day of the Calculation
+Period falls;
+
+"Y2" is the year, expressed as a number, in which the day immediately following
+the last day included in the Calculation Period falls;
+
+"M1" is the calendar month, expressed as a number, in which the first day of the
+Calculation Period falls;
+
+"M2" is the calendar month, expressed as a number, in which the day
+immediately following the last day included in the Calculation Period falls;
+
+"D1" is the first calendar day, expressed as a number, of the Calculation Period,
+unless such number would be 31, in which case D1 will be 30; and
+
+"D2" is the calendar day, expressed as a number, immediately following the last
+day included in the Calculation Period, unless such number would be 31, in
+which case D2 will be 30; and
+
+
+-----
+
+(viii) if "30E/360 (ISDA)" is so specified, the number of days in the Calculation
+Period divided by 360, calculated on a formula basis as follows:
+
+Day Count Fraction = [360x(Y2  _Y1)]_  [30x(M 2  _M1)]_  (D2  _D1)_
+## 360
+
+where:
+
+"Y1" is the year, expressed as a number, in which the first day of the Calculation
+Period falls;
+
+"Y2" is the year, expressed as a number, in which the day immediately following
+the last day included in the Calculation Period falls;
+
+"M1" is the calendar month, expressed as a number, in which the first day of the
+Calculation Period falls;
+
+"M2" is the calendar month, expressed as a number, in which the day
+immediately following the last day included in the Calculation Period falls;
+
+"D1" is the first calendar day, expressed as a number, of the Calculation Period,
+unless (i) that day is the last day of February or (ii) such number would be 31, in
+which case D1 will be 30; and
+
+"D2" is the calendar day, expressed as a number, immediately following the last
+day included in the Calculation Period, unless (i) that day is the last day of
+February but not the Maturity Date or (ii) such number would be 31, in which
+case D2 will be 30,
+
+**provided, however, that in each such case the number of days in the Calculation Period**
+is calculated from and including the first day of the Calculation Period to but excluding
+the last day of the Calculation Period;
+
+"Early Redemption Amount (Tax)" means, in respect of any Note, its principal amount or such
+other amount as may be specified in, or determined in accordance with, the relevant Final Terms;
+
+"Early Termination Amount" means, in respect of any Note, its principal amount or such other
+amount as may be specified in, or determined in accordance with, these Conditions or the
+relevant Final Terms;
+
+"Extraordinary Resolution" has the meaning given in the Agency Agreement;
+
+"Final Redemption Amount" means, in respect of any Note, its principal amount or such other
+amount as may be specified in, or determined in accordance with, the relevant Final Terms;
+
+"First Interest Payment Date" means the date specified in the relevant Final Terms;
+
+"Fixed Coupon Amount" has the meaning given in the relevant Final Terms;
+
+"Holder", in the case of Bearer Notes, has the meaning given in Condition ‎3(b) (Form,
+_Denomination, Title and Transfer — Title to Bearer Notes) and, in the case of Registered Notes,_
+has the meaning given in Condition ‎3(d) (Form, Denomination, Title and Transfer — Title to
+_Registered_ _Notes);_
+
+"Interest Amount" means, in relation to a Note and an Interest Period, the amount of interest
+payable in respect of that Note for that Interest Period;
+
+"Interest Commencement Date" means the Issue Date of the Notes or such other date as may be
+specified as the Interest Commencement Date in the relevant Final Terms;
+
+"Interest Determination Date" has the meaning given in the relevant Final Terms;
+
+
+-----
+
+"Interest Payment Date" means the First Interest Payment Date and any date or dates specified
+as such in, or determined in accordance with the provisions of, the relevant Final Terms and, if a
+Business Day Convention is specified in the relevant Final Terms:
+
+(a) as the same may be adjusted in accordance with the relevant Business Day Convention;
+or
+
+(b) if the Business Day Convention is the FRN Convention, Floating Rate Convention or
+Eurodollar Convention and an interval of a number of calendar months is specified in the
+relevant Final Terms as being the Specified Period, each of such dates as may occur in
+accordance with the FRN Convention, Floating Rate Convention or Eurodollar
+Convention at such Specified Period of calendar months following the Interest
+Commencement Date (in the case of the first Interest Payment Date) or the previous
+Interest Payment Date (in any other case);
+
+"Interest Period" means each period beginning on (and including) the Interest Commencement
+Date or any Interest Payment Date and ending on (but excluding) the next (or first) Interest
+Payment Date;
+
+"ISDA Definitions" means the 2000 ISDA Definitions (as amended and updated as at the date of
+issue of the first Tranche of the Notes of the relevant Series (as specified in the relevant Final
+Terms) as published by the International Swaps and Derivatives Association, Inc.) or, if so
+specified in the relevant Final Terms, the 2006 ISDA Definitions (as amended and updated as at
+the date of issue of the first Tranche of the Notes of the relevant Series (as specified in the
+relevant Final Terms) as published by the International Swaps and Derivatives Association, Inc.);
+
+"Issue Date" has the meaning given in the relevant Final Terms;
+
+"Issuer Redemption Amount" means the greater of (1) 100 per cent, of the outstanding nominal
+amount of the relevant Notes plus accrued interest to the date of redemption or (2) as determined
+by the Special Calculation Agent, the sum of the present values of the remaining scheduled
+payments of principal and interest on the relevant Notes plus interest accrued to the date of
+redemption. The present values will be determined by discounting the remaining principal and
+interest payments to the original redemption date using the Adjusted Comparable Yield. The
+Special Calculation Agent shall advise the Calculation Agent and the Fiscal Agent of the Issuer
+Redemption Amount as so calculated;
+
+"Margin" has the meaning given in the relevant Final Terms;
+
+"Maturity Date" has the meaning given in the relevant Final Terms;
+
+"Maximum Redemption Amount" has the meaning given in the relevant Final Terms;
+
+"Minimum Redemption Amount" has the meaning given in the relevant Final Terms;
+
+"Noteholder", in the case of Bearer Notes, has the meaning given in Condition ‎3(b) (Form,
+_Denomination, Title and Transfer — Title to Bearer Notes) and, in the case of Registered Notes,_
+has the meaning given in Condition ‎3(d) (Form, Denomination, Title and Transfer — Title to
+_Registered_ _Notes);_
+
+"Optional Redemption Amount (Call)" means, in respect of any Note, its principal amount or
+such other amount as may be specified in, or determined in accordance with, the relevant Final
+Terms;
+
+"Optional Redemption Amount (Put)" means, in respect of any Note, its principal amount or
+such other amount as may be specified in, or determined in accordance with, the relevant Final
+Terms;
+
+"Optional Redemption Date (Call)" has the meaning given in the relevant Final Terms;
+
+"Optional Redemption Date (Put)" has the meaning given in the relevant Final Terms;
+
+
+-----
+
+"Participating Member State" means a Member State of the European Communities which
+adopts the euro as its lawful currency in accordance with the Treaty;
+
+"Payment Business Day" means:
+
+(a) if the currency of payment is euro, any day which is:
+
+(i) a day on which banks in the relevant place of presentation are open for
+presentation and payment of bearer debt securities and for dealings in foreign
+currencies; and
+
+(ii) in the case of payment by transfer to an account, a TARGET Settlement Day
+and a day on which dealings in foreign currencies may be carried on in each (if
+any) Additional Financial Centre; or
+
+(b) if the currency of payment is not euro, any day which is:
+
+(i) a day on which banks in the relevant place of presentation are open for
+presentation and payment of bearer debt securities and for dealings in foreign
+currencies; and
+
+(ii) in the case of payment by transfer to an account, a day on which dealings in
+foreign currencies may be carried on in the Principal Financial Centre of the
+currency of payment and in each (if any) Additional Financial Centre;
+
+"Person" means any individual, company, corporation, firm, partnership, joint venture,
+association, organisation, state or agency of a state or other entity, whether or not having separate
+legal personality;
+
+"Principal Financial Centre" means, in relation to any currency, the principal financial centre
+for that currency **provided, however, that:**
+
+(a) in relation to euro, it means the principal financial centre of such Member State of the
+European Communities as is selected (in the case of a payment) by the payee or (in the
+case of a calculation) by the Calculation Agent; and
+
+(b) in relation to New Zealand dollars, it means either Wellington or Auckland as is selected
+(in the case of a payment) by the payee or (in the case of a calculation) by the
+Calculation Agent;
+
+"Principal Subsidiary" means any Subsidiary of the Issuer the total assets or revenues of which
+equal or exceed 10 per cent. of the consolidated total assets or consolidated total revenues of the
+Issuer. These figures will be calculated on the basis of the then most recent consolidated accounts
+of the Issuer (whether audited or unaudited) that are available to the public and the then most
+recent audited financial statements of the relevant Subsidiary (whether or not it was a Subsidiary
+at the time of their preparation). If a Subsidiary prepares consolidated accounts, those accounts
+will be used. A report by two Authorised Signatories of the Issuer that, in their opinion, a
+Subsidiary of the Issuer is or is not or was or was not at any particular time or throughout any
+specified period a Principal Subsidiary shall, in the absence of manifest error, be conclusive and
+binding on all parties;
+
+"Put Option Notice" means a notice which must be delivered to a Paying Agent by any
+Noteholder wanting to exercise a right to redeem a Note at the option of the Noteholder;
+
+"Put Option Receipt" means a receipt issued by a Paying Agent to a depositing Noteholder upon
+deposit of a Note with such Paying Agent by any Noteholder wanting to exercise a right to
+redeem a Note at the option of the Noteholder;
+
+"Quotation Agents" means a group of at least four reference dealers that are primary dealers in
+the Comparable Issue. The Special Calculation Agent will appoint the Quotation Agents after
+first consulting with the Issuer;
+
+
+-----
+
+"Quotation Agents' Quotations" means, with respect to any redemption date, the average, as
+determined by the Special Calculation Agent, of the bid and offer prices for the Comparable
+Issue (expressed in each case as a percentage of its outstanding nominal amount) quoted in
+writing to the Special Calculation Agent by the Quotation Agents at 5.00 p.m. (London time) on
+the fifth Business Day before the redemption date;
+
+"Rate of Interest" means the rate or rates (expressed as a percentage per annum) of interest
+payable in respect of the Notes specified in the relevant Final Terms or calculated or determined
+in accordance with the provisions of these Conditions and/or the relevant Final Terms;
+
+"Redemption Amount" means, as appropriate, the Final Redemption Amount, the Early
+Redemption Amount (Tax), the Optional Redemption Amount (Call), the Optional Redemption
+Amount (Put), the Early Termination Amount, the Issuer Redemption Amount or such other
+amount in the nature of a redemption amount as may be specified in, or determined in accordance
+with the provisions of, the relevant Final Terms;
+
+"Reference Banks" has the meaning given in the relevant Final Terms or, if none, four major
+banks selected by the Calculation Agent in the market that is most closely connected with the
+Reference Rate;
+
+"Reference Price" has the meaning given in the relevant Final Terms;
+
+"Reference Rate" has the meaning given in the relevant Final Terms;
+
+"Regular Period" means:
+
+(a) in the case of Notes where interest is scheduled to be paid only by means of regular
+payments, each period from and including the Interest Commencement Date to but
+excluding the first Interest Payment Date and each successive period from and including
+one Interest Payment Date to but excluding the next Interest Payment Date;
+
+(b) in the case of Notes where, apart from the first Interest Period, interest is scheduled to be
+paid only by means of regular payments, each period from and including a Regular Date
+falling in any year to but excluding the next Regular Date, where "Regular Date" means
+the day and month (but not the year) on which any Interest Payment Date falls; and
+
+(c) in the case of Notes where, apart from one Interest Period other than the first Interest
+Period, interest is scheduled to be paid only by means of regular payments, each period
+from and including a Regular Date falling in any year to but excluding the next Regular
+Date, where "Regular Date" means the day and month (but not the year) on which any
+Interest Payment Date falls other than the Interest Payment Date falling at the end of the
+irregular Interest Period .
+
+"Relevant Date" means, in relation to any payment, whichever is the later of (a) the date on
+which the payment in question first becomes due and (b) if the full amount payable has not been
+received in the Principal Financial Centre of the currency of payment by the Fiscal Agent on or
+prior to such due date, the date on which (the full amount having been so received) notice to that
+effect has been given to the Noteholders;
+
+"Relevant Financial Centre" has the meaning given in the relevant Final Terms;
+
+"Relevant Screen Page" means the page, section or other part of a particular information service
+(including, without limitation, Reuters) specified as the Relevant Screen Page in the relevant
+Final Terms, or such other page, section or other part as may replace it on that information
+service or such other information service, in each case, as may be nominated by the Person
+providing or sponsoring the information appearing there for the purpose of displaying rates or
+prices comparable to the Reference Rate;
+
+"Relevant Time" has the meaning given in the relevant Final Terms;
+
+"Reserved Matter" means any proposal to change any date fixed for payment of principal or
+interest in respect of the Notes, to reduce the amount of principal or interest payable on any date
+
+
+-----
+
+in respect of the Notes, to alter the method of calculating the amount of any payment in respect
+of the Notes or the date for any such payment, to change the currency of any payment under the
+Notes or to change the quorum requirements relating to meetings or the majority required to pass
+an Extraordinary Resolution;
+
+"Special **Calculation Agent" means the Fiscal Agent or such other Person specified in the**
+relevant Final Terms as the party responsible for calculating the Issuer Redemption Amount
+and/or such other amount(s) as may be specified in the relevant Final Terms;
+
+"Specified Currency" has the meaning given in the relevant Final Terms;
+
+"Specified Denomination(s)" has the meaning given in the relevant Final Terms;
+
+"Specified Office" has the meaning given in the Agency Agreement;
+
+"Specified Period" has the meaning given in the relevant Final Terms;
+
+"Subsidiary" means, in relation to any Person (the "first Person") at any particular time, any
+other Person (the "second Person"):
+
+(a) whose affairs and policies the first Person controls or has the power to control, whether
+by ownership of share capital, contract, the power to appoint or remove members of the
+governing body of the second Person or otherwise; or
+
+(b) whose financial statements are, in accordance with applicable law and generally
+accepted accounting principles, consolidated with those of the first Person;
+
+"Talon" means a talon for further Coupons attached on issue;
+
+"TARGET2" means the Trans-European Automated Real-Time Gross Settlement Express
+Transfer payment system which utilises a single shared platform and which was launched on 19
+November 2007;
+
+"TARGET Settlement Day" means any day on which TARGET2 is open for the settlement of
+payments in euro;
+
+"Treaty" means the Treaty establishing the European Communities, as amended; and
+
+"Zero Coupon Note" means a Note specified as such in the relevant Final Terms.
+
+(b) _Interpretation: In these Conditions:_
+
+(i) if the Notes are Zero Coupon Notes, references to Coupons and Couponholders are not
+applicable;
+
+(ii) if Talons are specified in the relevant Final Terms as being attached to the Notes at the
+time of issue, references to Coupons shall be deemed to include references to Talons;
+
+(iii) if Talons are not specified in the relevant Final Terms as being attached to the Notes at
+the time of issue, references to Talons are not applicable;
+
+(iv) any reference to principal shall be deemed to include the Redemption Amount, any
+additional amounts in respect of principal which may be payable under Condition 13 ‎
+(Taxation), any premium payable in respect of a Note and any other amount in the nature
+of principal payable pursuant to these Conditions;
+
+(v) any reference to interest shall be deemed to include any additional amounts in respect of
+interest which may be payable under Condition 13 (‎ _Taxation) and any other amount in_
+the nature of interest payable pursuant to these Conditions;
+
+(vi) references to Notes being "outstanding" shall be construed in accordance with the
+Agency Agreement;
+
+
+-----
+
+(vii) if an expression is stated in Condition 2(a) to have the meaning given in the relevant ‎
+Final Terms, but the relevant Final Terms gives no such meaning or specifies that such
+expression is "not applicable" then such expression is not applicable to the Notes; and
+
+(viii) any reference to the Agency Agreement shall be construed as a reference to the Agency
+Agreement as amended and/or supplemented up to and including the Issue Date of the
+Notes.
+
+3. **Form, Denomination, Title and Transfer**
+
+(a) _Bearer Notes: Bearer Notes are in the Specified Denomination(s) with Coupons and, if specified_
+in the relevant Final Terms, Talons attached at the time of issue. In the case of a Series of Bearer
+Notes with more than one Specified Denomination, Bearer Notes of one Specified Denomination
+will not be exchangeable for Bearer Notes of another Specified Denomination.
+
+(b) _Title to Bearer Notes: Title to Bearer Notes and the Coupons will pass by delivery. In the case of_
+Bearer Notes, "Holder" means the holder of such Bearer Note and "Noteholder" and
+"Couponholder" shall be construed accordingly.
+
+(c) _Registered Notes: Registered Notes are in the Specified Denomination(s), which may include a_
+minimum denomination specified in the relevant Final Terms and higher integral multiples of a
+smaller amount specified in the relevant Final Terms .
+
+(d) _Title to Registered Notes: The Registrar will maintain the register (the "Register") in accordance_
+with the provisions of the Agency Agreement. A certificate (each, a "Note Certificate") will be
+issued to each Holder of Registered Notes in respect of its registered holding. Each Note
+Certificate will be numbered serially with an identifying number which will be recorded in the
+Register. In the case of Registered Notes, "Holder" means the person in whose name such
+Registered Note is for the time being registered in the Register (or, in the case of a joint holding,
+the first named thereof) and "Noteholder" shall be construed accordingly.
+
+(e) _Ownership: The Holder of any Note or Coupon shall (except as otherwise required by law) be_
+treated as its absolute owner for all purposes (whether or not it is overdue and regardless of any
+notice of ownership, trust or any other interest therein, any writing thereon or, in the case of
+Registered Notes, on the Note Certificate relating thereto (other than the endorsed form of
+transfer) or any notice of any previous loss or theft thereof) and no Person shall be liable for so
+treating such Holder. No person shall have any right to enforce any term or condition of any
+Note under the Contracts (Rights of Third Parties) Act 1999.
+
+(f) _Transfers of Registered Notes:_ Subject to paragraphs (i) (Closed periods) and (j) (Regulations
+_concerning transfers and registration) below, a Registered Note may be transferred upon_
+surrender of the relevant Note Certificate, with the endorsed form of transfer duly completed, at
+the Specified Office of the Registrar or any Transfer Agent, together with such evidence as the
+Registrar or (as the case may be) such Transfer Agent may reasonably require to prove the title of
+the transferor and the authority of the individuals who have executed the form of transfer;
+**provided, however, that a Registered Note may not be transferred unless the principal amount**
+of Registered Notes transferred (and where not all of the Registered Notes held by a Holder are
+being transferred the principal amount of the balance of Registered Notes not transferred) are
+Specified Denominations. Where not all the Registered Notes represented by the surrendered
+Note Certificate are the subject of the transfer, a new Note Certificate in respect of the balance of
+the Registered Notes will be issued to the transferor.
+
+(g) _Registration and delivery of Note Certificates:_ Within five business days of the surrender of a
+Note Certificate in accordance with paragraph (f) (Transfers of Registered Notes) above, the
+Registrar will register the transfer in question and deliver a new Note Certificate of a like
+principal amount to the Registered Notes transferred to each relevant Holder at its Specified
+Office or (as the case may be) the Specified Office of any Transfer Agent or (at the request and
+risk of any such relevant Holder) by uninsured first class mail (airmail if overseas) to the address
+specified for the purpose by such relevant Holder. In this paragraph, "business day" means a
+day on which commercial banks and foreign exchange markets settle payments and are open for
+general business (including dealings in foreign exchange and foreign currency deposits) in the
+
+
+-----
+
+city where the Registrar or (as the case may be) the relevant Transfer Agent has its Specified
+Office.
+
+(h) _No charge: The transfer of a Registered Note will be effected without charge by or on behalf of_
+the Issuer or the Registrar or any Transfer Agent but against such indemnity as the Registrar or
+(as the case may be) such Transfer Agent may require in respect of any tax or other duty of
+whatsoever nature which may be levied or imposed in connection with such transfer.
+
+(i) _Closed periods: Noteholders may not require transfers to be registered during the period of 15_
+days ending on the due date for any payment of principal or interest in respect of the Registered
+Notes.
+
+(j) _Regulations concerning transfers and registration: All transfers of Registered Notes and entries_
+on the Register are subject to the detailed regulations concerning the transfer of Registered Notes
+scheduled to the Agency Agreement. The regulations may be changed by the Issuer with the
+prior written approval of the Registrar. A copy of the current regulations will be mailed (free of
+charge) by the Registrar to any Noteholder who requests in writing a copy of such regulations.
+
+4. **Status**
+
+The Notes constitute direct, general, unconditional and unsubordinated obligations of the Issuer
+which will at all times rank pari passu among themselves and at least pari passu with all other
+present and future unsecured and unsubordinated obligations of the Issuer, save for such
+obligations as may be preferred by provisions of law that are both mandatory and of general
+application.
+
+5. **Negative Pledge**
+
+(a) _Restriction: So long as any of the Notes remains outstanding, the Issuer will not and will ensure_
+that no Principal Subsidiary will (subject as provided in (c) below) create or permit to subsist any
+mortgage, charge, pledge, lien or other form of encumbrance or security interest ("Security")
+upon the whole or any part of its undertaking, assets or revenues present or future to secure any
+Relevant Debt, or any guarantee of or indemnity in respect of any Relevant Debt unless, at the
+same time or prior thereto, the Issuer's obligations under the Notes are secured equally and
+rateably therewith.
+
+The prohibition contained in this Condition 5 does not apply to: ‎
+
+(i) Security created in connection with a project financing where the Issuer does not have
+any liability, actual or contingent, in respect of the obligations of the project or the
+company raising the finance. The Security permitted by this sub-paragraph must be
+limited to the assets of the project being financed or the shares of the company raising
+the finance;
+
+(ii) Security arising in the ordinary course of banking transactions including sale and
+repurchase agreements and share, loan and bond lending transactions provided that any
+such transactions are for the purpose of financing or refinancing the assets which are the
+subject of the Security;
+
+(iii) Security existing in connection with Relevant Debt which is assumed by the Issuer or
+any relevant Principal Subsidiary at the time of the assumption or existing prior to an
+entity (whether or not a Subsidiary) becoming a Principal Subsidiary; or
+
+(iv) Security arising in respect of financial lease transactions provided that any such
+transactions are for the purpose of financing or refinancing the assets which are the
+subject of the Security.
+
+(b) _Relevant Debt:_ For the purposes of this Condition 5, "‎ **Relevant Debt" means any present or**
+future indebtedness in the form of, or represented by, any bond, note, debenture, debenture stock,
+loan stock, certificate or other instrument which is for the time being, or is capable of being,
+quoted, listed or traded on any stock exchange or in any over-the-counter or other securities
+market.
+
+
+-----
+
+(c) _Note: The prohibition contained in this Condition 5 shall apply to a Principal Subsidiary only to ‎_
+prohibit a Principal Subsidiary from creating or permitting to subsist Security which secures
+Relevant Debt of the Issuer or a guarantee or indemnity given by the Issuer in respect of Relevant
+Debt and not otherwise.
+
+6. **Fixed Rate Note Provisions**
+
+(a) _Application: This Condition 6 (‎_ _Fixed Rate Note Provisions) is applicable to the Notes only if the_
+Fixed Rate Note Provisions are specified in the relevant Final Terms as being applicable.
+
+(b) _Accrual of interest: The Notes bear interest from the Interest Commencement Date at the Rate of_
+Interest payable in arrear on each Interest Payment Date, subject as provided in Condition 11 ‎
+(Payments). Each Note will cease to bear interest from the due date for final redemption unless,
+upon due presentation, payment of the Redemption Amount is improperly withheld or refused, in
+which case it will continue to bear interest in accordance with this Condition 6 (as well after as ‎
+before judgment) until whichever is the earlier of (i) the day on which all sums due in respect of
+such Note up to that day are received by or on behalf of the relevant Noteholder and (ii) the day
+which is seven days after the Fiscal Agent has notified the Noteholders that it has received all
+sums due in respect of the Notes up to such seventh day (except to the extent that there is any
+subsequent default in payment).
+
+(c) _Fixed Coupon Amount and Broken Amount: The amount of interest payable in respect of each_
+Note for any Interest Period shall be the relevant Fixed Coupon Amount or, if specified in the
+relevant Final Terms as being applicable, the Broken Amount and, if the Notes are in more than
+one Specified Denomination, shall be the relevant Fixed Coupon Amount or, as the case may be,
+Broken Amount in respect of the relevant Specified Denomination.
+
+(d) _Calculation of interest amount: The amount of interest payable in respect of each Note for any_
+period for which a Fixed Coupon Amount is not specified shall be calculated by applying the
+Rate of Interest to the Calculation Amount, multiplying the product by the relevant Day Count
+Fraction, rounding the resulting figure to the nearest sub-unit of the Specified Currency (half a
+sub-unit being rounded upwards) and multiplying such rounded figure by a fraction equal to the
+Specified Denomination of such Note divided by the Calculation Amount. For this purpose a
+"sub-unit" means, in the case of any currency other than euro, the lowest amount of such
+currency that is available as legal tender in the country of such currency and, in the case of euro,
+means one cent.
+
+7. **Floating Rate Note and Index-Linked Interest Note Provisions**
+
+(a) _Application: This Condition 7 (‎_ _Floating Rate Note and Index-Linked Interest Note Provisions) is_
+applicable to the Notes only if the Floating Rate Note Provisions or the Index-Linked Interest
+Note Provisions are specified in the relevant Final Terms as being applicable.
+
+(b) _Accrual of interest: The Notes bear interest from the Interest Commencement Date at the Rate of_
+Interest payable in arrear on each Interest Payment Date, subject as provided in Condition 11 ‎
+(Payments). Each Note will cease to bear interest from the due date for final redemption unless,
+upon due presentation, payment of the Redemption Amount is improperly withheld or refused, in
+which case it will continue to bear interest in accordance with this Condition (as well after as
+before judgment) until whichever is the earlier of (i) the day on which all sums due in respect of
+such Note up to that day are received by or on behalf of the relevant Noteholder and (ii) the day
+which is seven days after the Fiscal Agent has notified the Noteholders that it has received all
+sums due in respect of the Notes up to such seventh day (except to the extent that there is any
+subsequent default in payment).
+
+(c) _Screen Rate Determination: If Screen Rate Determination is specified in the relevant Final Terms_
+as the manner in which the Rate(s) of Interest is/are to be determined, the Rate of Interest
+applicable to the Notes for each Interest Period will be determined by the Calculation Agent on
+the following basis:
+
+
+-----
+
+(i) if the Reference Rate is a composite quotation or customarily supplied by one entity, the
+Calculation Agent will determine the Reference Rate which appears on the Relevant
+Screen Page as of the Relevant Time on the relevant Interest Determination Date;
+
+(ii) in any other case, the Calculation Agent will determine the arithmetic mean of the
+Reference Rates which appear on the Relevant Screen Page as of the Relevant Time on
+the relevant Interest Determination Date;
+
+(iii) if, in the case of (i) above, such rate does not appear on that page or, in the case of (ii)
+above, fewer than two such rates appear on that page or if, in either case, the Relevant
+Screen Page is unavailable, the Calculation Agent will:
+
+(A) request the principal Relevant Financial Centre office of each of the Reference
+Banks to provide a quotation of the Reference Rate at approximately the
+Relevant Time on the Interest Determination Date to prime banks in the
+Relevant Financial Centre interbank market in an amount that is representative
+for a single transaction in that market at that time; and
+
+(B) determine the arithmetic mean of such quotations; and
+
+(iv) if fewer than two such quotations are provided as requested, the Calculation Agent will
+determine the arithmetic mean of the rates (being the nearest to the Reference Rate, as
+determined by the Calculation Agent) quoted by major banks in the Principal Financial
+Centre of the Specified Currency, selected by the Calculation Agent, at approximately
+11.00 a.m. (local time in the Principal Financial Centre of the Specified Currency) on the
+first day of the relevant Interest Period for loans in the Specified Currency to leading
+European banks for a period equal to the relevant Interest Period and in an amount that is
+representative for a single transaction in that market at that time,
+
+and the Rate of Interest for such Interest Period shall be the sum of the Margin and the rate or (as
+the case may be) the arithmetic mean so determined; provided, however, that if the Calculation
+Agent is unable to determine a rate or (as the case may be) an arithmetic mean in accordance
+with the above provisions in relation to any Interest Period, the Rate of Interest applicable to the
+Notes during such Interest Period will be the sum of the Margin and the rate or (as the case may
+be) the arithmetic mean last determined in relation to the Notes in respect of a preceding Interest
+Period.
+
+(d) _ISDA Determination:_ If ISDA Determination is specified in the relevant Final Terms as the
+manner in which the Rate(s) of Interest is/are to be determined, the Rate of Interest applicable to
+the Notes for each Interest Period will be the sum of the Margin and the relevant ISDA Rate
+where "ISDA Rate" in relation to any Interest Period means a rate equal to the Floating Rate (as
+defined in the ISDA Definitions) that would be determined by the Calculation Agent under an
+interest rate swap transaction if the Calculation Agent were acting as Calculation Agent for that
+interest rate swap transaction under the terms of an agreement incorporating the ISDA
+Definitions and under which:
+
+(i) the Floating Rate Option (as defined in the ISDA Definitions) is as specified in the
+relevant Final Terms;
+
+(ii) the Designated Maturity (as defined in the ISDA Definitions) is a period specified in the
+relevant Final Terms; and
+
+(iii) the relevant Reset Date (as defined in the ISDA Definitions) is either (A) if the relevant
+Floating Rate Option is based on the London inter-bank offered rate (LIBOR) for a
+currency, the first day of that Interest Period or (B) in any other case, as specified in the
+relevant Final Terms.
+
+(e) _Index-Linked Interest: If the Index-Linked Interest Note Provisions are specified in the relevant_
+Final Terms as being applicable, the Rate(s) of Interest applicable to the Notes for each Interest
+Period will be determined in the manner specified in the relevant Final Terms.
+
+
+-----
+
+(f) _Maximum or Minimum Rate of Interest: If any Maximum Rate of Interest or Minimum Rate of_
+Interest is specified in the relevant Final Terms, then the Rate of Interest shall in no event be
+greater than the maximum or be less than the minimum so specified.
+
+(g) _Calculation of Interest Amount: The Calculation Agent will, as soon as practicable after the time_
+at which the Rate of Interest is to be determined in relation to each Interest Period, calculate the
+Interest Amount payable in respect of each Note for such Interest Period. The Interest Amount
+will be calculated by applying the Rate of Interest for such Interest Period to the Calculation
+Amount, multiplying the product by the relevant Day Count Fraction, rounding the resulting
+figure to the nearest sub-unit of the Specified Currency (half a sub-unit being rounded upwards)
+and multiplying such rounded figure by a fraction equal to the Specified Denomination of the
+relevant Note divided by the Calculation Amount. For this purpose a "sub-unit" means, in the
+case of any currency other than euro, the lowest amount of such currency that is available as legal
+tender in the country of such currency and, in the case of euro, means one cent.
+
+(h) _Calculation of other amounts: If the relevant Final Terms specifies that any other amount is to_
+be calculated by the Calculation Agent, the Calculation Agent will, as soon as practicable after
+the time or times at which any such amount is to be determined, calculate the relevant amount.
+The relevant amount will be calculated by the Calculation Agent in the manner specified in the
+relevant Final Terms.
+
+(i) _Publication: The Calculation Agent will cause each Rate of Interest and Interest Amount_
+determined by it, together with the relevant Interest Payment Date, and any other amount(s)
+required to be determined by it together with any relevant payment date(s) to be notified to the
+Paying Agents and each competent authority, stock exchange and/or quotation system (if any) by
+which the Notes have then been admitted to listing, trading and/or quotation as soon as
+practicable after such determination but (in the case of each Rate of Interest, Interest Amount and
+Interest Payment Date) in any event not later than the first day of the relevant Interest Period.
+Notice thereof shall also promptly be given to the Noteholders. The Calculation Agent will be
+entitled to recalculate any Interest Amount (on the basis of the foregoing provisions) without
+notice in the event of an extension or shortening of the relevant Interest Period. If the
+Calculation Amount is less than the minimum Specified Denomination the Calculation Agent
+shall not be obliged to publish each Interest Amount but instead may publish only the Calculation
+Amount and the Interest Amount in respect of a Note having the minimum Specified
+Denomination.
+
+(j) _Notifications etc: All notifications, opinions, determinations, certificates, calculations, quotations_
+and decisions given, expressed, made or obtained for the purposes of this Condition by the
+Calculation Agent will (in the absence of manifest error) be binding on the Issuer, the Paying
+Agents, the Noteholders and the Couponholders and (subject as aforesaid) no liability to any such
+Person will attach to the Calculation Agent in connection with the exercise or non-exercise by it
+of its powers, duties and discretions for such purposes.
+
+8. **Zero Coupon Note Provisions**
+
+(a) _Application: This Condition 8 (‎_ _Zero Coupon Note Provisions) is applicable to the Notes only if_
+the Zero Coupon Note Provisions are specified in the relevant Final Terms as being applicable.
+
+(b) _Late payment on Zero Coupon Notes: If the Redemption Amount payable in respect of any Zero_
+Coupon Note is improperly withheld or refused, the Redemption Amount shall thereafter be an
+amount equal to the sum of:
+
+(i) the Reference Price; and
+
+(ii) the product of the Accrual Yield (compounded annually) being applied to the Reference
+Price on the basis of the relevant Day Count Fraction from (and including) the Issue
+Date to (but excluding) whichever is the earlier of (i) the day on which all sums due in
+respect of such Note up to that day are received by or on behalf of the relevant
+Noteholder and (ii) the day which is seven days after the Fiscal Agent has notified the
+Noteholders that it has received all sums due in respect of the Notes up to such seventh
+day (except to the extent that there is any subsequent default in payment).
+
+
+-----
+
+9. **Dual Currency Note Provisions**
+
+(a) _Application: This Condition 9 (‎_ _Dual Currency Note Provisions) is applicable to the Notes only_
+if the Dual Currency Note Provisions are specified in the relevant Final Terms as being
+applicable.
+
+(b) _Rate of Interest: If the rate or amount of interest falls to be determined by reference to an_
+exchange rate, the rate or amount of interest payable shall be determined in the manner specified
+in the relevant Final Terms.
+
+10. **Redemption and Purchase**
+
+(a) _Scheduled redemption: Unless previously redeemed, or purchased and cancelled, the Notes will_
+be redeemed at their Final Redemption Amount on the Maturity Date, subject as provided in
+Condition 11 (‎ _Payments)._
+
+(b) _Redemption for tax reasons: The Notes may be redeemed at the option of the Issuer in whole,_
+but not in part:
+
+(i) at any time (if neither the Floating Rate Note Provisions or the Index-Linked Interest
+Note Provisions or the Dual Currency Note Provisions are specified in the relevant Final
+Terms as being applicable); or
+
+(ii) on any Interest Payment Date (if the Floating Rate Note Provisions or the Index-Linked
+Interest Note Provisions or the Dual Currency Note Provisions are specified in the
+relevant Final Terms as being applicable),
+
+on giving not less than 30 nor more than 60 days' notice to the Noteholders (which
+notice shall be irrevocable), at their Early Redemption Amount (Tax), together with
+interest accrued (if any) to the date fixed for redemption, if:
+
+(A) the Issuer has or will become obliged to pay additional amounts as provided or
+referred to in Condition 13 (‎ _Taxation) as a result of any change in, or_
+amendment to, the laws or regulations of Denmark or any political subdivision
+or any authority thereof or therein having power to tax, or any change in the
+application or official interpretation of such laws or regulations (including a
+holding by a court of competent jurisdiction), which change or amendment
+becomes effective on or after the date of issue of the first Tranche of the Notes;
+and
+
+(B) such obligation cannot be avoided by the Issuer taking reasonable measures
+available to it,
+
+**provided, however, that no such notice of redemption shall be given earlier**
+than:
+
+(1) where the Notes may be redeemed at any time, 90 days prior to the
+earliest date on which the Issuer would be obliged to pay such
+additional amounts if a payment in respect of the Notes were then due;
+or
+
+(2) where the Notes may be redeemed only on an Interest Payment Date, 60
+days prior to the Interest Payment Date occurring immediately before
+the earliest date on which the Issuer would be obliged to pay such
+additional amounts if a payment in respect of the Notes were then due.
+
+Prior to the publication of any notice of redemption pursuant to this paragraph,
+the Issuer shall deliver to the Fiscal Agent a certificate signed by two directors
+of the Issuer stating that the Issuer is entitled to effect such redemption and
+setting forth a statement of facts showing that the conditions precedent to the
+right of the Issuer so to redeem have occurred of. Upon the expiry of any such
+
+
+-----
+
+notice as is referred to in this Condition ‎10(b), the Issuer shall be bound to
+redeem the Notes in accordance with this Condition ‎10(b).
+
+(c) _Redemption at the option of the Issuer: If the Call Option is specified in the relevant Final Terms_
+as being applicable, the Notes may be redeemed at the option of the Issuer in whole or, if so
+specified in the relevant Final Terms, in part on any Optional Redemption Date (Call) at the
+relevant Optional Redemption Amount (Call) on the Issuer's giving not less than 30 nor more
+than 60 days' notice to the Noteholders (which notice shall be irrevocable and shall oblige the
+Issuer to redeem the Notes or, as the case may be, the Notes specified in such notice on the
+relevant Optional Redemption Date (Call) at the Optional Redemption Amount (Call) plus
+accrued interest (if any) to such date).
+
+(d) _Partial redemption: If the Notes are to be redeemed in part only on any date in accordance with_
+Condition ‎10(c) (Redemption at the option of the Issuer), in the case of Bearer Notes, the Notes
+to be redeemed shall be selected by the drawing of lots in such place as the Fiscal Agent
+approves and in such manner as the Fiscal Agent considers appropriate, subject to compliance
+with applicable law, the rules of each competent authority, stock exchange and/or quotation
+system (if any) by which the Notes have then been admitted to listing, trading and/or quotation
+and the notice to Noteholders referred to in Condition 10(c) (‎ _Redemption at the option of the_
+_Issuer) shall specify the serial numbers of the Notes so to be redeemed, and, in the case of_
+Registered Notes, each Note shall be redeemed in part in the proportion which the aggregate
+principal amount of the outstanding Notes to be redeemed on the relevant Optional Redemption
+Date (Call) bears to the aggregate principal amount of outstanding Notes on such date. If any
+Maximum Redemption Amount or Minimum Redemption Amount is specified in the relevant
+Final Terms, then the Optional Redemption Amount (Call) shall in no event be greater than the
+maximum or be less than the minimum so specified.
+
+(e) _Redemption at the option of Noteholders: If the Put Option is specified in the relevant Final_
+Terms as being applicable, the Issuer shall, at the option of the Holder of any Note redeem such
+Note on the Optional Redemption Date (Put) specified in the relevant Put Option Notice at the
+relevant Optional Redemption Amount (Put) together with interest (if any) accrued to such date.
+In order to exercise the option contained in this Condition 10(e), the Holder of a Note must, not ‎
+less than 30 nor more than 60 days before the relevant Optional Redemption Date (Put), deposit
+with any Paying Agent such Note together with all unmatured Coupons relating thereto and a
+duly completed Put Option Notice in the form obtainable from any Paying Agent. The Paying
+Agent with which a Note is so deposited shall deliver a duly completed Put Option Receipt to the
+depositing Noteholder. No Note, once deposited with a duly completed Put Option Notice in
+accordance with this Condition 10(e), may be withdrawn; ‎ **provided, however, that** if, prior to
+the relevant Optional Redemption Date (Put), any such Note becomes immediately due and
+payable or, upon due presentation of any such Note on the relevant Optional Redemption Date
+(Put), payment of the redemption moneys is improperly withheld or refused, the relevant Paying
+Agent shall mail notification thereof to the depositing Noteholder at such address as may have
+been given by such Noteholder in the relevant Put Option Notice and shall hold such Note at its
+Specified Office for collection by the depositing Noteholder against surrender of the relevant Put
+Option Receipt. For so long as any outstanding Note is held by a Paying Agent in accordance
+with this Condition 10(e), the depositor of such Note and not such Paying Agent shall be deemed ‎
+to be the Holder of such Note for all purposes.
+
+(f) _No other redemption: The Issuer shall not be entitled to redeem the Notes otherwise than as_
+provided in paragraphs (a) to (e) above.
+
+(g) _Early redemption of Zero Coupon Notes: Unless otherwise specified in the relevant Final Terms,_
+the Redemption Amount payable on redemption of a Zero Coupon Note at any time before the
+Maturity Date shall be an amount equal to the sum of:
+
+(i) the Reference Price; and
+
+(ii) the product of the Accrual Yield (compounded annually) being applied to the Reference
+Price from (and including) the Issue Date to (but excluding) the date fixed for
+
+
+-----
+
+redemption or (as the case may be) the date upon which the Note becomes due and
+payable.
+
+Where such calculation is to be made for a period which is not a whole number of years, the
+calculation in respect of the period of less than a full year shall be made on the basis of such Day
+Count Fraction as may be specified in the Final Terms for the purposes of this Condition ‎10(g) or,
+if none is so specified, a Day Count Fraction of 30E/360.
+
+(h) _Purchase: The Issuer or any of its Subsidiaries may at any time purchase Notes in the open_
+market or otherwise and at any price, **provided that all unmatured Coupons are purchased**
+therewith.
+
+(i) _Cancellation: All Notes so redeemed or purchased by the Issuer or any of its Subsidiaries and_
+any unmatured Coupons attached to or surrendered with them shall be cancelled and may not be
+reissued or resold.
+
+(j) _Redemption at the option of the Issuer at any time: If Optional Redemption by the Issuer is_
+specified hereon, the Issuer may, on giving irrevocable notice to the Noteholders of any proposed
+redemption at least 30 days, but not more than 60 days, before the redemption date specified in
+such notice, redeem such Notes in whole but not in part on such specified redemption date at the
+Issuer Redemption Amount.
+
+From and after the redemption date specified pursuant to this Condition 10(j), if the Issuer ‎
+Redemption Amount is made available and the relevant Notes are called for redemption on such
+redemption date, the Notes will cease to bear interest, and the only right of the holders of the
+Notes will be to receive payment of the Issuer Redemption Amount and all unpaid interest
+accrued to the date of redemption.
+
+11. **Payments — Bearer Notes**
+
+This Condition 11 is only applicable to Bearer Notes. ‎
+
+(a) _Principal: Payments of principal shall be made only against presentation and (provided that_
+payment is made in full) surrender of Bearer Notes at the Specified Office of any Paying Agent
+outside the United States by cheque drawn in the currency in which the payment is due on, or by
+transfer to an account denominated in that currency (or, if that currency is euro, any other
+account to which euro may be credited or transferred) and maintained by the payee with, a bank
+in the Principal Financial Centre of that currency.
+
+(b) _Interest: Payments of interest shall, subject to paragraph (h) below, be made only against_
+presentation and (provided that payment is made in full) surrender of the appropriate Coupons
+at the Specified Office of any Paying Agent outside the United States in the manner described in
+paragraph (a) above.
+
+(c) _Payments in New York City: Payments of principal or interest may be made at the Specified_
+Office of a Paying Agent in New York City if (i) the Issuer has appointed Paying Agents outside
+the United States with the reasonable expectation that such Paying Agents will be able to make
+payment of the full amount of the interest on the Notes in the currency in which the payment is
+due when due, (ii) payment of the full amount of such interest at the offices of all such Paying
+Agents is illegal or effectively precluded by exchange controls or other similar restrictions and
+(iii) payment is permitted by applicable United States law.
+
+(d) _Payments subject to fiscal laws: All payments in respect of the Bearer Notes are subject in all_
+cases to any applicable fiscal or other laws and regulations in the place of payment, but without
+prejudice to the provisions of Condition 13 (‎ _Taxation). No commissions or expenses shall be_
+charged to the Noteholders or Couponholders in respect of such payments.
+
+(e) _Deductions for unmatured Coupons: If the relevant Final Terms specifies that the Fixed Rate_
+Note Provisions are applicable and a Bearer Note is presented without all unmatured Coupons
+relating thereto:
+
+
+-----
+
+(i) if the aggregate amount of the missing Coupons is less than or equal to the amount of
+principal due for payment, a sum equal to the aggregate amount of the missing Coupons
+will be deducted from the amount of principal due for payment; **provided, however,**
+**that** if the gross amount available for payment is less than the amount of principal due
+for payment, the sum deducted will be that proportion of the aggregate amount of such
+missing Coupons which the gross amount actually available for payment bears to the
+amount of principal due for payment;
+
+(ii) if the aggregate amount of the missing Coupons is greater than the amount of principal
+due for payment:
+
+(A) so many of such missing Coupons shall become void (in inverse order of
+maturity) as will result in the aggregate amount of the remainder of such
+missing Coupons (the "Relevant Coupons") being equal to the amount of
+principal due for payment; **provided, however, that** where this sub-paragraph
+would otherwise require a fraction of a missing Coupon to become void, such
+missing Coupon shall become void in its entirety; and
+
+(B) a sum equal to the aggregate amount of the Relevant Coupons (or, if less, the
+amount of principal due for payment) will be deducted from the amount of
+principal due for payment; **provided, however, that, if the gross amount**
+available for payment is less than the amount of principal due for payment, the
+sum deducted will be that proportion of the aggregate amount of the Relevant
+Coupons (or, as the case may be, the amount of principal due for payment)
+which the gross amount actually available for payment bears to the amount of
+principal due for payment.
+
+Each sum of principal so deducted shall be paid in the manner provided in paragraph (a)
+above against presentation and (provided that payment is made in full) surrender of the
+relevant missing Coupons.
+
+(f) _Unmatured Coupons void: If the relevant Final Terms specifies that this Condition ‎11(f) is_
+applicable or that the Floating Rate Note Provisions or the Index-Linked Interest Note Provisions
+or the Dual Currency Note Provisions are applicable, on the due date for final redemption of any
+Note or early redemption in whole of such Note pursuant to Condition ‎10(b) (Redemption for tax
+_reasons), Condition ‎10(e) (Redemption at the option of Noteholders), Condition ‎10(c)_
+(Redemption at the option of the Issuer), Condition ‎10(j) (Redemption a the option of the Issuer
+_at any time) or Condition ‎14 (Events of Default), all unmatured Coupons relating thereto_
+(whether or not still attached) shall become void and no payment will be made in respect thereof.
+
+(g) _Payments on business days: If the due date for payment of any amount in respect of any Bearer_
+Note or Coupon is not a Payment Business Day in the place of presentation, the Holder shall not
+be entitled to payment in such place of the amount due until the next succeeding Payment
+Business Day in such place and shall not be entitled to any further interest or other payment in
+respect of any such delay.
+
+(h) _Payments other than in respect of matured Coupons: Payments of interest other than in respect_
+of matured Coupons shall be made only against presentation of the relevant Bearer Notes at the
+Specified Office of any Paying Agent outside the United States (or in New York City if permitted
+by paragraph (c) above).
+
+(i) _Partial payments: If a Paying Agent makes a partial payment in respect of any Bearer Note or_
+Coupon presented to it for payment, such Paying Agent will endorse thereon a statement
+indicating the amount and date of such payment.
+
+(j) _Exchange of Talons: On or after the maturity date of the final Coupon which is (or was at the_
+time of issue) part of a Coupon Sheet relating to the Bearer Notes, the Talon forming part of such
+Coupon Sheet may be exchanged at the Specified Office of the Fiscal Agent for a further Coupon
+Sheet (including, if appropriate, a further Talon but excluding any Coupons in respect of which
+claims have already become void pursuant to Condition 15 (‎ _Prescription). Upon the due date for_
+
+
+-----
+
+redemption of any Bearer Note, any unexchanged Talon relating to such Note shall become void
+and no Coupon will be delivered in respect of such Talon.
+
+12. **Payments — Registered Notes**
+
+This Condition 12 is only applicable to Registered Notes. ‎
+
+(a) _Principal: Payments of principal shall be made by cheque drawn in the currency in which the_
+payment is due drawn on, or, upon application by a Holder of a Registered Note to the Specified
+Office of the Fiscal Agent not later than the fifteenth day before the due date for any such
+payment, by transfer to an account denominated in that currency (or, if that currency is euro, any
+other account to which euro may be credited or transferred) and maintained by the payee with, a
+bank in the Principal Financial Centre of that currency (in the case of a sterling cheque, a town
+clearing branch of a bank in the City of London) and (in the case of redemption) upon surrender
+(or, in the case of part payment only, endorsement) of the relevant Note Certificates at the
+Specified Office of any Paying Agent.
+
+(b) _Interest:_ Payments of interest shall be made by cheque drawn in the currency in which the
+payment is due drawn on, or, upon application by a Holder of a Registered Note to the Specified
+Office of the Fiscal Agent not later than the fifteenth day before the due date for any such
+payment, by transfer to an account denominated in that currency (or, if that currency is euro, any
+other account to which euro may be credited or transferred) and maintained by the payee with, a
+bank in the Principal Financial Centre of that currency (in the case of a sterling cheque, a town
+clearing branch of a bank in the City of London) and (in the case of interest payable on
+redemption) upon surrender (or, in the case of part payment only, endorsement) of the relevant
+Note Certificates at the Specified Office of any Paying Agent.
+
+(c) _Payments subject to fiscal laws: All payments in respect of the Registered Notes are subject in_
+all cases to any applicable fiscal or other laws and regulations in the place of payment, but
+without prejudice to the provisions of Condition ‎13 (Taxation). No commissions or expenses
+shall be charged to the Noteholders in respect of such payments.
+
+(d) _Payments on business days:_ Where payment is to be made by transfer to an account, payment
+instructions (for value the due date, or, if the due date is not Payment Business Day, for value the
+next succeeding Payment Business Day) will be initiated and, where payment is to be made by
+cheque, the cheque will be mailed (i) (in the case of payments of principal and interest payable
+on redemption) on the later of the due date for payment and the day on which the relevant Note
+Certificate is surrendered (or, in the case of part payment only, endorsed) at the Specified Office
+of a Paying Agent and (ii) (in the case of payments of interest payable other than on redemption)
+on the due date for payment. A Holder of a Registered Note shall not be entitled to any interest
+or other payment in respect of any delay in payment resulting from (A) the due date for a
+payment not being a Payment Business Day or (B) a cheque mailed in accordance with this
+Condition ‎13 arriving after the due date for payment or being lost in the mail.
+
+(e) _Partial payments: If a Paying Agent makes a partial payment in respect of any Registered Note,_
+the Issuer shall procure that the amount and date of such payment are noted on the Register and,
+in the case of partial payment upon presentation of a Note Certificate, that a statement indicating
+the amount and the date of such payment is endorsed on the relevant Note Certificate.
+
+(f) _Record date: Each payment in respect of a Registered Note will be made to the person shown as_
+the Holder in the Register at the opening of business in the place of the Registrar's Specified
+Office on the fifteenth day before the due date for such payment (the "Record Date"). Where
+payment in respect of a Registered Note is to be made by cheque, the cheque will be mailed to
+the address shown as the address of the Holder in the Register at the opening of business on the
+relevant Record Date.
+
+13. **Taxation**
+
+(a) _Gross up: All payments of principal and interest in respect of the Notes and the Coupons by or_
+on behalf of the Issuer shall be made free and clear of, and without withholding or deduction for
+or on account of, any present or future taxes, duties, assessments or governmental charges of
+
+
+-----
+
+whatever nature imposed, levied, collected, withheld or assessed by or on behalf of Denmark or
+any political subdivision therein or any authority therein or thereof having power to tax, unless
+the withholding or deduction of such taxes, duties, assessments, or governmental charges is
+required by law. In that event, the Issuer shall pay such additional amounts as will result in
+receipt by the Noteholders and the Couponholders after such withholding or deduction of such
+amounts as would have been received by them had no such withholding or deduction been
+required, except that no such additional amounts shall be payable in respect of any Note or
+Coupon:
+
+(i) held by or on behalf of a Holder which is liable to such taxes, duties, assessments or
+governmental charges in respect of such Note or Coupon by reason of its having some
+connection with the jurisdiction by which such taxes, duties, assessments or charges
+have been imposed, levied, collected, withheld or assessed other than the mere holding
+of the Note or Coupon; or
+
+(ii) where such withholding or deduction is imposed on a payment to an individual or a
+residual entity and is required to be made pursuant to European Council Directive
+2003/48/EC on the taxation of savings income or any law implementing or complying
+with, or introduced in order to conform to, this Directive, several agreements concluded
+with certain dependent or associated territories in the context of the above European
+Council Directive 2003/48/EC providing for the possible application of a withholding
+tax, as well as the application as regards Luxembourg resident individuals of the
+Luxembourg law of 23 December 2005; or
+
+(iii) held by or on behalf of a Holder who would have been able to avoid such withholding or
+deduction by presenting the relevant Note or Coupon to another Paying Agent in a
+Member State of the EU; or
+
+(iv) where the relevant Note or Coupon or Note Certificate is presented or surrendered for
+payment more than 30 days after the Relevant Date except to the extent that the Holder
+of such Note or Coupon or Note Certificate would have been entitled to such additional
+amounts on presenting or surrendering such Note or Coupon or Note Certificate for
+payment on the last day of such period of 30 days.
+
+(b) _Taxing jurisdiction:_ If the Issuer becomes subject at any time to any taxing jurisdiction other
+than Denmark, references in these Conditions to Denmark shall be construed as references to
+Denmark and/or such other jurisdiction.
+
+14. **Events of Default**
+
+If any of the following events occurs and is continuing:
+
+(a) _Default: default is made for more than 14 days (in the case of interest) or seven days (in the case_
+of principal) in the payment on the due date of any amounts in respect of any of the Notes; or
+
+(b) _Breach of other obligations:_ the Issuer fails to perform or observe any of its other obligations
+under these Conditions and (except in any case where the failure is incapable of remedy, when no
+continuation or notice as is hereinafter mentioned will be required) the failure continues for the
+period of 30 days following the service by any Noteholder on the Issuer of notice requiring the
+same to be remedied; or
+
+(c) _Cross default of Issuer or Principal Subsidiary:_
+
+(i) any other present or future indebtedness of the Issuer for or in respect of moneys
+borrowed or raised becomes due and payable prior to its stated maturity by reason of any
+default on the part of the Issuer (provided that any applicable grace period has expired);
+or
+
+(ii) any such indebtedness of the Issuer or of any of its Principal Subsidiaries is not paid
+when due or, as the case may be, within any applicable grace period; or
+
+
+-----
+
+(iii) the Issuer or any of its Principal Subsidiaries fails to pay when due or, as the case may
+be, within any applicable grace period any amount payable by it under any present or
+future guarantee for, or indemnity in respect of, any moneys borrowed or raised; or
+
+(iv) any mortgage, charge, pledge, lien or other encumbrance, present or future, created or
+assumed by the Issuer or any of its Principal Subsidiaries becomes enforceable and any
+step is taken to enforce it (including the taking of possession or the appointment of a
+receiver, manager or other similar person),
+
+**provided that:**
+
+(A) the aggregate amount of the indebtedness, guarantees, indemnities or
+indebtedness secured by such mortgage, charge, pledge, lien or other
+encumbrance in respect of which one or more of the events mentioned above in
+sub-paragraphs (i) to (iv) have occurred equals or exceeds €50,000,000 or its
+equivalent in other currencies; and
+
+(B) in the case of the occurrence of one or more of such events in respect of a
+Principal Subsidiary that the Issuer has not within seven days after the relevant
+event discharged the relevant indebtedness, guarantee or indemnity on behalf of
+the relevant Principal Subsidiary; and
+
+(C) payment of such indebtedness referred to in sub-paragraphs (i) and (ii) and
+payment under such guarantee or indemnity referred to in sub-paragraph (iii)
+shall not have been disputed in good faith by the Issuer or the relevant Principal
+Subsidiary as the case may be; or
+
+(d) _Distress etc.: a distress, attachment, execution or other legal process is levied or enforced on or_
+against any material part of the property, assets or revenues of the Issuer or any of its Principal
+Subsidiaries and is not discharged or stayed within 90 days; or
+
+(e) _Insolvency etc.:_ the Issuer is (or is deemed by a court to be) insolvent (meaning that its total
+liabilities exceed its total assets) or the Issuer or any of its Principal Subsidiaries is (or is deemed
+by a court to be) bankrupt or unable to pay its debts, stops, suspends or threatens to stop or
+suspend payment of all or a material part of its debts, proposes or makes a general assignment or
+an arrangement or composition with or for the benefit of the relevant creditors in respect of any
+such debts or a moratorium is agreed or declared in respect of or affecting all or a material part of
+the debts of the Issuer or any of its Principal Subsidiaries; or
+
+(f) _Winding up: an order is made or an effective resolution passed for the winding-up or dissolution_
+of the Issuer of any of its Principal Subsidiaries, or the Issuer or any of its Principal Subsidiaries
+apply or petition for a winding-up or administration order in respect of itself or ceases or through
+an official action of its board of directors threatens to cease to carry on (either directly or through
+one or more Subsidiaries or Affiliates) a substantial part of its business or operations, in each
+case except for the purpose of and followed by a reconstruction, amalgamation, reorganisation,
+merger, consolidation or disposal (i) where immediately following such reconstruction,
+amalgamation, reorganisation, merger, consolidation or disposal, any of the then current credit
+ratings assigned to the Issuer or any successor to the Issuer is not lower primarily as a direct
+result of such reconstruction, amalgamation, reorganisation, merger, consolidation or disposal or
+(ii) on terms approved by an Extraordinary Resolution of the Noteholders or (iii) in the case of a
+Principal Subsidiary, whereby the undertaking and assets of such Subsidiary are transferred to or
+otherwise vested in the Issuer or another of its Subsidiaries. For the purposes of this
+Condition 14(f), a "‎ **substantial part of its business or operations" shall mean all or a part of the**
+business or operations of the relevant company (as the circumstances may require) which in
+either case represents over three quarters of the consolidated total assets of the Issuer and its
+Subsidiaries, taken as a whole, as certified by two Authorised Signatories of the Issuer and
+calculated on the basis of the then most recent consolidated accounts of the Issuer (whether
+audited or unaudited) that are available to the public; or
+
+(g) _Analogous event:_ any event occurs that under the laws of any relevant jurisdiction has an
+analogous effect to any of the events referred to in any of the foregoing paragraphs,
+
+
+-----
+
+then the holder of any Note may, by written notice addressed by the Holder thereof to the Issuer
+and delivered to the Issuer, declare such Note immediately due and payable, whereupon it shall
+become immediately due and payable at its Early Termination Amount together with accrued
+interest (if any) without further action or formality.
+
+15. **Prescription**
+
+Claims for principal in respect of Bearer Notes shall become void unless the relevant Bearer
+Notes are presented for payment within ten years of the appropriate Relevant Date. Claims for
+interest in respect of Bearer Notes shall become void unless the relevant Coupons are presented
+for payment within five years of the appropriate Relevant Date. Claims for principal and interest
+on redemption in respect of Registered Notes shall become void unless the relevant Note
+Certificates are surrendered for payment within ten years of the appropriate Relevant Date.
+
+16. **Replacement of Notes and Coupons**
+
+If any Note, Note Certificate or Coupon is lost, stolen, mutilated, defaced or destroyed, it may be
+replaced at the Specified Office of the Fiscal Agent, in the case of Bearer Notes, or the Registrar,
+in the case of Registered Notes (and, if the Notes are then admitted to listing, trading and/or
+quotation by any competent authority, stock exchange and/or quotation system which requires the
+appointment of a Paying Agent or Transfer Agent in any particular place, the Paying Agent or
+Transfer Agent having its Specified Office in the place required by such competent authority,
+stock exchange and/or quotation system), subject to all applicable laws and competent authority,
+stock exchange and/or quotation system requirements, upon payment by the claimant of the
+expenses incurred in connection with such replacement and on such terms as to evidence, security,
+indemnity and otherwise as the Issuer may reasonably require. Mutilated or defaced Notes, Note
+Certificates or Coupons must be surrendered before replacements will be issued.
+
+17. **Agents**
+
+In acting under the Agency Agreement and in connection with the Notes and the Coupons, the
+Agents act solely as agents of the Issuer and do not assume any obligations towards or
+relationship of agency or trust for or with any of the Noteholders or Couponholders.
+
+The initial Agents and their initial Specified Offices are listed below. The initial Calculation
+Agent (if any) is specified in the relevant Final Terms. The Issuer reserve the right at any time to
+vary or terminate the appointment of any Agent and to appoint a successor fiscal agent or
+registrar or Calculation Agent and additional or successor paying agents; **provided, however,**
+**that:**
+
+(a) the Issuer shall at all times maintain a fiscal agent and a registrar; and
+
+(b) the Issuer shall at all times maintain a paying agent in an EU member state that will not be
+obliged to withhold or deduct tax pursuant to European Council Directive 2003/48/EC on the
+taxation of savings income or any law implementing or complying with, or introduced in order to
+conform to, this Directive; and
+
+(c) if a Calculation Agent is specified in the relevant Final Terms, the Issuer shall at all times
+maintain a Calculation Agent; and
+
+(d) if and for so long as the Notes are admitted to listing, trading and/or quotation by any competent
+authority, stock exchange and/or quotation system which requires the appointment of a Paying
+Agent and/or a Transfer Agent in any particular place, the Issuer shall maintain a Paying Agent
+and/or a Transfer Agent having its Specified Office in the place required by such competent
+authority, stock exchange and/or quotation system.
+
+Notice of any change in any of the Agents or in their Specified Offices shall promptly be given to
+the Noteholders.
+
+
+-----
+
+18. **Meetings of Noteholders; Modification and Waiver**
+
+(a) _Meetings of Noteholders: The Agency Agreement contains provisions for convening meetings of_
+Noteholders to consider matters relating to the Notes, including the modification of any provision
+of these Conditions. Any such modification may be made if sanctioned by an Extraordinary
+Resolution. Such a meeting may be convened by the Issuer and shall be convened by them upon
+the request in writing of Noteholders holding not less than one-tenth of the aggregate principal
+amount of the outstanding Notes. The quorum at any meeting convened to vote on an
+Extraordinary Resolution will be two or more Persons holding or representing one more than half
+of the aggregate principal amount of the outstanding Notes or, at any adjourned meeting, two or
+more Persons being or representing Noteholders whatever the principal amount of the Notes held
+or represented; **provided, however, that Reserved Matters may only be sanctioned by an**
+Extraordinary Resolution passed at a meeting of Noteholders at which two or more Persons
+holding or representing not less than three-quarters or, at any adjourned meeting, one-quarter of
+the aggregate principal amount of the outstanding Notes form a quorum. Any Extraordinary
+Resolution duly passed at any such meeting shall be binding on all the Noteholders and
+Couponholders, whether present or not.
+
+In addition, a resolution in writing signed by or on behalf of all Noteholders who for the time
+being are entitled to receive notice of a meeting of Noteholders will take effect as if it were an
+Extraordinary Resolution. Such a resolution in writing may be contained in one document or
+several documents in the same form, each signed by or on behalf of one or more Noteholders.
+
+(b) _Modification: The Notes, these Conditions and the Deed of Covenant may be amended without_
+the consent of the Noteholders or the Couponholders to correct a manifest error. In addition, the
+parties to the Agency Agreement may agree to modify any provision thereof, but the Issuer shall
+not agree, without the consent of the Noteholders, to any such modification unless it is of a
+formal, minor or technical nature, it is made to correct a manifest error or it is, in the opinion of
+such parties, not materially prejudicial to the interests of the Noteholders.
+
+19. **Further Issues**
+
+The Issuer may from time to time, without the consent of the Noteholders or the Couponholders,
+create and issue further notes having the same terms and conditions as the Notes in all respects
+(or in all respects except for the first payment of interest) so as to form a single series with the
+Notes.
+
+20. **Notices**
+
+(a) _Bearer Notes:_ Notices to the Holders of Bearer Notes shall be valid if published in a leading
+English language daily newspaper published in London (which is expected to be the _Financial_
+_Times) and, if the Bearer Notes are admitted to trading on the Luxembourg Stock Exchange and_
+it is a requirement of applicable law or regulations, a leading newspaper having general
+circulation in Luxembourg (which is expected to be _Luxemburger Wort_ or the _Tageblatt) or_
+published on the website of the Luxembourg Stock Exchange (www.bourse.lu) or, in either case,
+if such publication is not practicable, in a leading English language daily newspaper having
+general circulation in Europe. Any such notice shall be deemed to have been given on the date of
+first publication (or if required to be published in more than one newspaper, on the first date on
+which publication shall have been made in all the required newspapers). Couponholders shall be
+deemed for all purposes to have notice of the contents of any notice given to the Holders of
+Bearer Notes.
+
+(b) _Registered Notes: Notices to the Holders of Registered Notes shall be sent to them by first class_
+mail (or its equivalent) or (if posted to an overseas address) by airmail at their respective
+addresses on the Register and, if the Registered Notes are admitted to trading on the Luxembourg
+Stock Exchange and it is a requirement of applicable law or regulations, notices to Noteholders
+will be published on the date of such mailing in a leading newspaper having general circulation
+in Luxembourg (which is expected to be Luxemburger Wort or the Tageblatt) or published on the
+website of the Luxembourg Stock Exchange (www.bourse.lu) or, in either case, if such
+publication is not practicable, in a leading English language daily newspaper having general
+
+
+-----
+
+circulation in Europe. Any such notice shall be deemed to have been given on the fourth day
+after the date of mailing.
+
+21. **Currency Indemnity**
+
+If any sum due from the Issuer in respect of the Notes or the Coupons or any order or judgment
+given or made in relation thereto has to be converted from the currency (the "first currency") in
+which the same is payable under these Conditions or such order or judgment into another
+currency (the "second currency") for the purpose of (a) making or filing a claim or proof against
+the Issuer, (b) obtaining an order or judgment in any court or other tribunal or (c) enforcing any
+order or judgment given or made in relation to the Notes, the Issuer shall indemnify each
+Noteholder, on the written demand of such Noteholder addressed to the Issuer and delivered to the
+Issuer or to the Specified Office of the Fiscal Agent, against any loss suffered as a result of any
+discrepancy between (i) the rate of exchange used for such purpose to convert the sum in question
+from the first currency into the second currency and (ii) the rate or rates of exchange at which
+such Noteholder may in the ordinary course of business purchase the first currency with the
+second currency upon receipt of a sum paid to it in satisfaction, in whole or in part, of any such
+order, judgment, claim or proof.
+
+This indemnity constitutes a separate and independent obligation of the Issuer and shall give rise
+to a separate and independent cause of action.
+
+22. **Rounding**
+
+(a) For the purposes of any calculations referred to in these Conditions (unless otherwise specified in
+these Conditions or the relevant Final Terms), (a) all percentages resulting from such calculations
+will be rounded, if necessary, to the nearest one hundred-thousandth of a percentage point (with
+0.000005 per cent. being rounded up to 0.00001 per cent.), (b) all United States dollar amounts
+used in or resulting from such calculations will be rounded to the nearest cent (with one half cent
+being rounded up), (c) all Japanese Yen amounts used in or resulting from such calculations will
+be rounded downwards to the next lower whole Japanese Yen amount, and (d) all amounts
+denominated in any other currency used in or resulting from such calculations will be rounded to
+the nearest two decimal places in such currency, with 0.005 being rounded upwards.
+
+23. **Governing Law and Jurisdiction**
+
+(a) _Governing law: The Notes and any non-contractual obligations arising out of or in connection_
+with the Notes are governed by English law.
+
+(b) _English courts: The courts of England have exclusive jurisdiction to settle any dispute (a_
+"Dispute") arising out of or in connection with the Notes (including any non-contractual
+obligation arising out of or in connection with the Notes).
+
+(c) _Appropriate forum: The Issuer agrees that the courts of England are the most appropriate and_
+convenient courts to settle any Dispute and, accordingly, that it will not argue to the contrary.
+
+(d) _Rights of the Noteholders to take proceedings outside England: Condition 23(b) (‎_ _English courts)_
+is for the benefit of the Noteholders only. As a result, nothing in this Condition 23 (‎ _Governing_
+_law and jurisdiction) prevents any Noteholder from taking proceedings relating to a Dispute_
+("Proceedings") in any other courts with jurisdiction. To the extent allowed by law, Noteholders
+may take concurrent Proceedings in any number of jurisdictions.
+
+(e) _Process agent: The Issuer agrees that the documents which start any Proceedings and any other_
+documents required to be served in relation to those Proceedings may be served on it by being
+delivered to Wilmington Trust SP Services (London) Limited at 5th Floor, 6 Broad Street Place,
+London EC2M 7JH, United Kingdom or, if different, its registered office for the time being or at
+any address of the Issuer in Great Britain at which process may be served on it in accordance
+with the Companies Act 2006. If such person is not or ceases to be effectively appointed to
+accept service of process on behalf of the Issuer, the Issuer shall, on the written demand of any
+Noteholder addressed and delivered to the Issuer or to the Specified Office of the Fiscal Agent
+appoint a further person in England to accept service of process on its behalf and, failing such
+
+
+-----
+
+appointment within 15 days, any Noteholder shall be entitled to appoint such a person by written
+notice addressed to the Issuer and delivered to the Issuer or to the Specified Office of the Fiscal
+Agent. Nothing in this paragraph shall affect the right of any Noteholder to serve process in any
+other manner permitted by law. This Condition applies to Proceedings in England and to
+Proceedings elsewhere.
+
+
+-----
+
+**FORM OF FINAL TERMS**
+
+_The Final Terms in respect of each Tranche of Notes will be substantially in the following form, duly_
+_supplemented (if necessary), amended (if necessary) and completed to reflect the particular terms of the_
+_relevant Notes and their issue. Text in this section appearing in italics does not form part of the form of_
+_the Final Terms but denotes directions for completing the Final Terms._
+
+**Final Terms dated [•]**
+
+**TDC A/S**
+
+**Issue of**
+
+**[Aggregate Nominal Amount of Tranche] [Title of Notes]**
+
+**under the €4,000,000,000**
+**Euro Medium Term Note Programme**
+
+**PART A – CONTRACTUAL TERMS**
+
+Terms used herein shall be deemed to be defined as such for the purposes of the Conditions (the
+"Conditions") set forth in the Base Prospectus dated [•] [and the supplement to the Base Prospectus dated
+
+[•] which [together] constitute[s] a base prospectus (the "Base Prospectus") for the purposes of the
+Prospectus Directive (Directive 2003/71/EC) (the "Prospectus Directive"). This document constitutes the
+Final Terms of the Notes described herein for the purposes of Article 5.4 of the Prospectus Directive.
+These Final Terms contain the final terms of the Notes and must be read in conjunction with such Base
+Prospectus [as so supplemented].
+
+Full information on the Issuer and the offer of the Notes described herein is only available on the basis of
+the combination of these Final Terms and the Base Prospectus [as so supplemented]. The Base Prospectus
+
+[and the supplement to the Base Prospectus] [is/are] available for viewing [at [www.TDC.com or
+www.TDC.dk]] [and] during normal business hours on any day (excluding Saturdays, Sundays and public
+holidays) at the offices of the Issuer at Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the
+offices of the Fiscal Agent Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester
+Street, London EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2
+Boulevard Konrad Adenauer, L 1115 Luxembourg, Grand Duchy of Luxembourg [and copies may be
+obtained from the offices of the Issuer at Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the
+offices of the Fiscal Agent Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester
+Street, London EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2
+Boulevard Konrad Adenauer, L 1115 Luxembourg, Grand Duchy of Luxembourg].
+
+_Include whichever of the following apply or specify as "Not Applicable" (N/A). Note that the numbering_
+_should remain as set out below, even if "Not Applicable" is indicated for individual paragraphs or sub-_
+_paragraphs. Italics denote guidance for completing the Final Terms._
+
+_When completing any final terms, or adding any other final terms or information, consideration should be_
+_given as to whether such terms or information constitute "significant new factors" and consequently_
+_trigger the need for a supplement to the Prospectus under Article 16 of the Prospectus Directive._
+
+
+-----
+
+1. Issuer: [•]
+
+2. [(i) Series Number: [•]]
+
+[(ii) Tranche Number: [•]
+
+_(If fungible with an existing Series, details_
+_of that Series, including the date on which_
+_the Notes become fungible)]_
+
+3. Specified Currency or Currencies: [•]
+
+4. Aggregate Nominal Amount: [•]
+
+[(i) Series: [•]]
+
+[(ii) Tranche: [•]]
+
+5. Issue Price: [•]‎ per‎ cent.‎ of‎ the‎ Aggregate‎ Nominal‎ Amount‎
+
+[plus accrued interest from [insert date] (in the
+_case of fungible issues only, if applicable)]_
+
+6. (i) Specified Denominations: [•]
+
+[€100,000]‎and‎integral‎ multiples‎of‎[€1,000]‎in‎
+excess‎ thereof‎ up‎ to‎ and‎ including‎ [€199,000].‎‎
+No Notes in definitive form will be issued with a
+denomination‎above‎[€199,000].
+
+_(N.B. If an issue of Notes is (i) NOT admitted to_
+_trading on a European Economic Area exchange;_
+_and (ii) only offered in the European Economic_
+_Area in circumstances where a prospectus is not_
+_required to be published under the Prospectus_
+_Directive the [€100,000] minimum denomination_
+_is not required.)_
+
+(ii) Calculation Amount: [•]
+
+7. (i) Issue Date: [•]
+
+(ii) Interest Commencement Date: [Specify/Issue Date/Not Applicable]
+
+8. Maturity Date: _[Specify date or (for Floating Rate Notes)_
+_Interest Payment Date falling in or nearest to the_
+_relevant month and year]_
+
+_[If the Maturity Date is less than one year from_
+_the Issue Date and either (a) the issue proceeds_
+_are received by the Issuer in the United Kingdom,_
+_or (b) the activity of issuing the Notes is carried_
+_on from an establishment maintained by the_
+_Issuer in the United Kingdom, (i) the Notes must_
+_have a minimum redemption value of £100,000_
+_(or its equivalent in other currencies) and be sold_
+_only to "professional investors" or (ii) another_
+_applicable exemption from section 19 of the_
+_FSMA must be available.]_
+
+9. Interest Basis: [[•]‎per‎cent.‎Fixed‎Rate]
+
+[[Specify reference rate] +/– [•]‎per‎cent.‎Floating‎
+Rate]
+
+
+-----
+
+[Zero Coupon]
+
+[Index Linked Interest]
+
+[Dual Currency]
+
+[Other (Specify)]
+(further particulars specified below)
+
+10. Redemption/Payment Basis: [Redemption at par]
+
+[Index Linked Redemption]
+
+[Dual Currency]
+
+[Other (Specify)]
+
+
+11. Change of Interest or Redemption/Payment
+Basis:
+
+
+
+_[Specify details of any provision for convertibility_
+_of Notes into another interest or redemption/_
+_payment basis]_
+
+
+12. Put/Call Options: [Investor Put]
+
+[Issuer Call]
+
+[(further particulars specified below)]
+
+13. (i) Status of the Notes: Senior
+
+
+
+[(ii) Date [Board] approval for issuance
+of Notes obtained:
+
+
+
+[•]]
+
+_(N.B. Only relevant where Board (or similar)_
+_authorisation is required for the particular_
+_tranche of Notes)]_
+
+
+14. Method of distribution: [Syndicated/Non-syndicated]
+
+**PROVISIONS RELATING TO INTEREST (IF ANY) PAYABLE**
+
+15. **Fixed Rate Note Provisions** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+(i) Rate[(s)] of Interest: [•]‎ per‎ cent.‎ per‎ annum‎ [payable‎ [annually/‎
+semi-annually/quarterly/monthly/other (specify)]
+in arrear]
+
+(ii) Interest Payment Date(s): [•]‎in‎each‎year
+
+(iii) Fixed Coupon Amount[(s)]: [•]‎per‎Calculation‎Amount
+
+(iv) Broken Amount(s): [•]‎ per‎ Calculation‎ Amount,‎ payable‎ on‎ the‎
+Interest‎Payment‎Date‎falling‎[in/on]‎[•]
+
+(v) Day Count Fraction: [30/360 / Actual/Actual (ICMA/ISDA) / other]
+
+(vi) [Determination Dates: [•]‎in‎each‎year‎ _(insert regular interest payment_
+_dates, ignoring issue date or maturity date in the_
+_case of a long or short first or last coupon. N.B._
+_only relevant where Day Count Fraction is_
+_Actual/Actual (ICMA))]_
+
+
+(vii) Other terms relating to the method
+of calculating interest for Fixed
+Rate Notes:
+
+
+
+[Not Applicable/give details]
+
+
+16. **Floating Rate Note Provisions** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+
+
+-----
+
+_paragraphs of this paragraph)_
+
+(i) Interest Period(s): [•]
+
+(ii) Specified Period: [•]
+
+_(Specified Period and Specified Interest Payment_
+_Dates are alternatives. A Specified Period, rather_
+_than Specified Interest Payment Dates, will only_
+_be relevant if the Business Day Convention is the_
+_FRN Convention, Floating Rate Convention or_
+_Eurodollar Convention. Otherwise, insert "Not_
+_Applicable")_
+
+(iii) Specified Interest Payment Dates: [•]
+
+_(Specified Period and Specified Interest Payment_
+_Dates are alternatives. If the Business Day_
+_Convention is the FRN Convention, Floating Rate_
+_Convention or Eurodollar Convention, insert_
+_"Not Applicable")_
+
+(iv) [First Interest Payment Date: [•]]
+
+(v) Business Day Convention: [Floating Rate Convention/Following Business
+Day Convention/ Modified Following Business
+Day Convention/ Preceding Business Day
+Convention/ other (give details)]
+
+(vi) Additional Business Centre(s): [Not Applicable/give details]
+
+
+(vii) Manner in which the Rate(s) of
+Interest is/are to be determined:
+
+(viii) Party responsible for calculating the
+Rate(s) of Interest and/or Interest
+Amount(s) (if not the Fiscal Agent):
+
+(ix) Screen Rate Determination:
+
+
+
+[Screen Rate Determination / ISDA
+Determination / other (give details)]
+
+[[Name] shall be the Calculation Agent _(no need_
+_to specify if the Fiscal Agent is to perform this_
+_function)]_
+
+
+
+- Reference Rate: [For example, LIBOR or EURIBOR]
+
+
+
+- Interest Determination
+Date(s):
+
+
+
+[•]
+
+
+
+      - Relevant Screen Page: [For example, Reuters LIBOR 01/ EURIBOR 01]
+
+      - Relevant Time: [For example, 11.00 a.m. London time/Brussels
+_time]_
+
+      - Relevant Financial Centre: [For example, London/Euro-zone (where Euro_zone means the region comprised of the countries_
+_whose lawful currency is the euro]_
+
+(x) ISDA Determination:
+
+      - Floating Rate Option: [•]
+
+      - Designated Maturity: [•]
+
+
+-----
+
+      - Reset Date: [•]
+
+(xi) Margin(s): [+/-][•]‎per‎cent.‎per‎annum
+
+(xii) Minimum Rate of Interest: [•]‎per‎cent.‎per‎annum
+
+(xiii) Maximum Rate of Interest: [•]‎per‎cent.‎per‎annum
+
+(xiv) Day Count Fraction: [•]
+
+
+(xv) Fall back provisions, rounding
+provisions, denominator and any
+other terms relating to the method
+of calculating interest on Floating
+Rate Notes, if different from those
+set out in the Conditions:
+
+
+
+[•]
+
+
+17. **Zero Coupon Note Provisions** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+(i) Accrual Yield: [•]‎per‎cent.‎per‎annum
+
+(ii) Reference Price: [•]
+
+
+(iii) Any other formula/basis of
+determining amount payable:
+
+18. **Index-Linked Interest Note/other**
+**variable-linked interest Note Provisions**
+
+
+
+[Consider whether it is necessary to specify a
+_Day Count Fraction for the purposes of_
+_Condition 10(g)‎_ ]
+
+[Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+
+(i) Index/Formula/other variable: [give or annex details]
+
+
+(ii) Calculation Agent responsible for
+calculating the interest due:
+
+(iii) Provisions for determining Coupon
+where calculated by reference to
+Index and/or Formula and/or other
+variable:
+
+
+
+[•]
+
+[•]
+
+
+(vi) Interest Determination Date(s): [•]
+
+
+(v) Provisions for determining Coupon
+where calculation by reference to
+Index and/or Formula and/or other
+variable is impossible or
+impracticable or otherwise
+disrupted:
+
+
+
+[•]
+
+_(Need to include a description of market_
+_disruptions or settlement disruptions, events and_
+_adjustment provisions)_
+
+
+(vi) Interest or calculation period(s): [•]
+
+(vii) Specified Period: [•]
+
+_(Specified Period and Specified Interest Payment_
+_Dates are alternatives. A Specified Period, rather_
+_than Specified Interest Payment Dates, will only_
+_be relevant if the Business Day Convention is the_
+_FRN Convention, Floating Rate Convention or_
+
+
+-----
+
+_Eurodollar Convention. Otherwise, insert "Not_
+_Applicable")_
+
+(viii) Specified Interest Payment Dates: [•]
+
+_(Specified Period and Specified Interest Payment_
+_Dates are alternatives. If the Business Day_
+_Convention is the FRN Convention, Floating Rate_
+_Convention or Eurodollar Convention, insert_
+_"Not Applicable")_
+
+(ix) Business Day Convention: [Floating Rate Convention/ Following Business
+Day Convention/Modified Following Business
+Day Convention/Preceding Business Day
+Convention/other (give details)]
+
+(x) Additional Business Centre(s): [•]
+
+(xi) Minimum Rate/Amount of Interest: [•] per cent. per annum
+
+(xii) Maximum Rate/Amount of Interest: [•]‎per‎cent.‎per‎annum
+
+(xiii) Day Count Fraction: [•]
+
+19. **Dual Currency Note Provisions** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+
+(i) Rate of Exchange/method of
+calculating Rate of Exchange:
+
+(ii) Calculation Agent, if any,
+responsible for calculating the
+principal and/or interest due:
+
+(iii) Provisions applicable where
+calculation by reference to Rate of
+Exchange impossible or
+impracticable:
+
+(iv) Person at whose option Specified
+Currency(ies) is/are payable:
+
+**PROVISIONS RELATING TO REDEMPTION**
+
+
+
+_[give details]_
+
+[•]
+
+[•]
+
+[•]
+
+
+20. **Call Option** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+(i) Optional Redemption Date(s): [•]
+
+
+(ii) Optional Redemption Amount(s) of
+each Note and method, if any, of
+calculation of such amount(s):
+
+(iii) If redeemable in part:
+
+(a) Minimum Redemption
+Amount:
+
+
+
+[•]‎per‎Calculation‎Amount
+
+[•]‎per‎Calculation Amount
+
+
+-----
+
+(b) Maximum Redemption
+Amount
+
+
+
+[•]‎per‎Calculation‎Amount
+
+
+(iv) Notice period: [•]
+
+
+21. **Optional Redemption by the Issuer at any**
+**time**
+
+
+
+[Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+
+(i) Comparable Issue: [•]
+
+(ii) Comparable Issue Margin: [•]
+
+(iii) Special Calculation Agent: [•]
+
+22. **Put Option** [Applicable/Not Applicable]
+
+_(If not applicable, delete the remaining sub-_
+_paragraphs of this paragraph)_
+
+(i) Optional Redemption Date(s): [•]
+
+
+(ii) Optional Redemption Amount(s) of
+each Note and method, if any, of
+calculation of such amount(s):
+
+
+
+[•]‎per‎Calculation‎Amount
+
+
+(iii) Notice period: [•]
+
+23. **Final Redemption Amount of each Note** [•]‎per‎Calculation‎Amount
+
+In cases where the Final Redemption
+Amount is Index-Linked or other variablelinked:
+
+(i) Index/Formula/variable: [give or annex details]
+
+
+(ii) Calculation Agent responsible for
+calculating the Final Redemption
+Amount:
+
+(iii) Provisions for determining Final
+Redemption Amount where
+calculated by reference to Index
+and/or Formula and/or other
+variable:
+
+(iv) Date for determining Final
+Redemption Amount where
+calculation by reference to Index
+and/or Formula and/or other
+variable:
+
+(v) Provisions for determining Final
+Redemption Amount where
+calculation by reference to Index
+and/or Formula and/or other
+variable is impossible or
+impracticable or otherwise
+disrupted:
+
+
+
+[•]
+
+[•]
+
+[•]
+
+[•]
+
+_(Need to include a description of market_
+_disruptions or settlement disruptions, events and_
+_adjustment provisions)_
+
+
+-----
+
+(vi) [Payment Date: [•]]
+
+
+(vii) Minimum Final Redemption
+Amount:
+
+(viii) Maximum Final Redemption
+Amount:
+
+24. **Early Redemption Amount**
+
+Early Redemption Amount(s) per
+Calculation Amount payable on redemption
+for taxation reasons or on event of default or
+other early redemption and/or the method of
+calculating the same (if required or if
+different from that set out in the
+Conditions):
+
+
+
+[•]‎per‎Calculation‎Amount
+
+[•]‎per‎Calculation‎Amount
+
+[Not Applicable
+
+_(If both the Early Redemption Amount (Tax) and_
+_the Early Termination Amount are the principal_
+_amount_ _of_ _the_ _Notes/specify_ _the_ _Early_
+_Redemption Amount (Tax) and/or the Early_
+_Termination Amount if different from the_
+_principal amount of the Notes)]_
+
+
+**GENERAL PROVISIONS APPLICABLE TO THE NOTES**
+
+25. **Form of Notes:** [Bearer Notes:]
+
+[Temporary Global Note exchangeable for a
+Permanent Global Note which is exchangeable
+for Definitive Notes in the limited circumstances
+specified in the Permanent Global Note]
+
+[Temporary Global Note exchangeable for
+Definitive Notes in the limited circumstances
+specified in the Temporary Global Note]
+
+[Permanent Global Note exchangeable for
+Definitive Notes in the limited circumstances
+specified in the Permanent Global Note]
+
+[Registered Notes:]
+
+[Global Registered Note exchangeable for
+Individual Note Certificates in the limited
+circumstances described in the Global Registered
+Note]
+
+[Global‎Registered‎Note‎[(U.S.$/Euro‎[•]‎nominal‎
+amount)] registered in the name of a nominee for
+
+[a common depositary for Euroclear and
+Clearstream, Luxembourg/a common safekeeper
+for Euroclear and Clearstream, Luxembourg (that
+is, held under the New Safekeeping Structure
+(NSS))]
+
+26. New Global Note: [Yes] [No] [Not Applicable]
+
+
+27. Additional Financial Centre(s) or other
+special provisions relating to payment dates:
+
+28. Talons for future Coupons or Receipts to be
+attached to Definitive Notes (and dates on
+
+
+
+[Not Applicable/give details.
+
+_Note that this paragraph relates to the date and_
+_place of payment, and not interest period end_
+_dates, to which sub paragraphs 15(ii), 16(vi) and_
+_18(x) relate]_
+
+[Yes/No. If yes, give details]
+
+
+-----
+
+which such Talons mature):
+
+29. Other final terms: [Not Applicable/give details (e.g., the 2006 ISDA
+_Definitions (as amended and updated as of the_
+_Issue Date (or issue date of the original Notes, in_
+_the case of a fungible issue) apply)]_
+
+_[(When_ _adding_ _any_ _other_ _final_ _terms_
+_consideration should be given as to whether such_
+_terms constitute "significant new factors" and_
+_consequently trigger the need for a supplement to_
+_the Prospectus under Article 16 of the Prospectus_
+_Directive.)]_
+
+**DISTRIBUTION**
+
+
+30. (i) If syndicated, names and addresses
+of Managers:
+
+
+
+[Not Applicable/give names and addresses]
+
+
+(ii) Date of [Subscription] Agreement: [•]
+
+(iii) Stabilising Manager(s) (if any): [Not Applicable/give name]
+
+
+31. If non-syndicated, name and address of
+Dealer:
+
+
+
+[Not Applicable/give name and address]
+
+
+32. U.S. Selling Restrictions: [Reg. S Compliance Category];
+
+_(In the case of Bearer Notes) - [TEFRA_
+C/TEFRA D/ TEFRA not applicable]
+
+_(In the case of Registered Notes) -_ Not
+Applicable
+
+33. Additional selling restrictions: [Not Applicable/give details]
+
+**PURPOSE OF FINAL TERMS**
+
+These Final Terms comprise the final terms required for issue [and] [admission to trading on [specify
+_relevant regulated market] of the Notes described herein] pursuant to the €4,000,000,000 Euro Medium_
+Term Note Programme of TDC A/S.
+
+**RESPONSIBILITY**
+
+The Issuer accepts responsibility for the information contained in these Final Terms. [(Relevant third
+_party information) has been extracted from (specify source). The Issuer confirms that such information_
+has been accurately reproduced and that, so far as it is aware, and is able to ascertain from information
+published by (specify source), no facts have been omitted which would render the reproduced information
+inaccurate or misleading].
+
+Signed on behalf of TDC A/S:
+
+By: ...........................................................................
+_Duly authorised_
+
+
+-----
+
+**PART B – OTHER INFORMATION**
+
+1. **LISTING AND ADMISSION TO TRADING**
+
+(i) Listing: [Luxembourg/other (specify)/None]
+
+(ii) Admission to trading: [Application is has been made by the Issuer (or on its
+behalf) for the Notes to be admitted to trading on [the
+regulated market of the Luxembourg Stock
+Exchange/specify relevant regulated market] with effect
+from [the Issue Date].] [Application is expected to be
+made by the Issuer (or on its behalf) for the Notes to be
+admitted to trading on [the regulated market of the
+Luxembourg Stock Exchange/specify relevant regulated
+_market] with effect from [the Issue Date].] [Not_
+Applicable.]
+
+_(Where documenting a fungible issue need to indicate_
+_that original Notes are already admitted to trading.)_
+
+
+(iii) [Estimate of total expenses
+related to listing and
+admission to trading:
+
+2. **RATINGS**
+
+
+
+[•]]
+
+
+Ratings: The [Programme has/Notes to be issued have] been
+rated:
+
+[S&P*:‎[•]]
+
+[Moody's*:‎[•]]‎
+
+[Fitch*:‎[•]]
+
+[[Other]*: [•]]
+
+_(* The exact legal name of the rating agency entity_
+_providing the rating should be specified-for example_
+_"Standard & Poor’s Credit Market Services Europe_
+_Limited", rather than just "Standard and Poor's" or_
+_"S&P".)_
+
+_[Need to include a brief explanation of the meaning of_
+_the ratings if this has previously been published by the_
+_rating provider.]_
+
+_(The above disclosure should reflect the rating_
+_allocated to Notes of the type being issued under the_
+_Programme generally or, where the issue has been_
+_specifically rated, that rating.)_
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating]_ is established in the EEA and
+registered under Regulation (EU) No 1060/2009, as
+amended (the "CRA **Regulation") and is included in**
+the list of registered credit rating agencies published by
+the European Securities and Markets Authority on its
+website in accordance with the CRA Regulation.]
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating]_ is established in the EEA and
+has applied for registration under Regulation (EU) No
+1060/2009, as amended (the "CRA **Regulation"),**
+although notification of the corresponding registration
+decision has not yet been provided by the [relevant
+
+
+-----
+
+competent authority] /[European Securities and Markets
+Authority.]
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating] is established in the EEA and is_
+neither registered nor has it applied for registration
+under Regulation (EU) No 1060/2009, as amended (the
+"CRA Regulation").]
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating]_ is not established in the EEA
+but the rating it has given to the Notes is endorsed by
+
+[insert legal name of credit rating agency], which is
+established in the EEA and registered under Regulation
+(EU) No 1060/2009, as amended (the "CRA
+**Regulation").]**
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating]_ is not established in the EEA
+but is certified under Regulation (EU) No 1060/2009, as
+amended (the "CRA Regulation").]
+
+_[Insert legal name of particular credit rating agency_
+_entity providing rating] is not established in the EEA_
+and is not certified under Regulation (EU) No
+1060/2009, as amended (the "CRA **Regulation") and**
+the rating it has given to the Notes is not endorsed by a
+credit rating agency established in the EEA and
+registered under the CRA Regulation.]
+
+In general, European regulated investors are restricted
+from using a rating for regulatory purposes if such
+rating is not issued by a credit rating agency established
+in the EEA and registered under the CRA Regulation
+unless (1) the rating is provided by a credit rating
+agency operating in the EEA before 7 June 2010 which
+has submitted an application for registration in
+accordance with the CRA Regulation and such
+registration has not been refused, or (2) the rating is
+provided by a credit rating agency not established in the
+EEA but is endorsed by a credit rating agency
+established in the EEA and registered under the CRA
+Regulation or (3) the rating is provided by a credit
+rating agency not established in the EEA which is
+certified under the CRA Regulation.
+
+3. **[INTERESTS OF NATURAL AND LEGAL PERSONS INVOLVED IN THE**
+**ISSUE/OFFER**
+
+_Need to include a description of any interest, including conflicting ones, that is material to the_
+_issue/offer, detailing the persons involved and the nature of the interest. May be satisfied by the_
+_inclusion of the following statement:_
+
+"Save as discussed in ["Subscription and Sale"], so far as the Issuer is aware, no person involved
+in the offer of the Notes has an interest material to the offer."
+
+_[(When adding any other description, consideration should be given as to whether such matters_
+_described constitute "significant new factors" and consequently trigger the need for a supplement_
+_to the Prospectus under Article 16 of the Prospectus Directive.)]]_
+
+
+-----
+
+4. **REASONS FOR THE OFFER, ESTIMATED NET PROCEEDS AND TOTAL**
+**EXPENSES**
+
+[(i) Reasons for the offer: [•]
+
+_(See "Use of Proceeds" wording in Prospectus – if_
+_reasons for offer different from making profit and/or_
+_hedging certain risks will need to include those reasons_
+_here.)]_
+
+[(ii) Estimated net proceeds: [•]
+
+_(If proceeds are intended for more than one use will_
+_need to split out and present in order of priority. If_
+_proceeds insufficient to fund all proposed uses state_
+_amount and sources of other funding.)]_
+
+[(iii) Estimated total expenses: [•]
+
+[Include breakdown of expenses]
+_(If the Notes are derivative securities to which Annex_
+_XII of the Prospectus Directive Regulation applies it is_
+_only necessary to include disclosure of net proceeds and_
+_total expenses at (ii) and (iii) above where disclosure is_
+_included at (i) above.)]_
+
+5. **[Fixed Rate Notes only – YIELD**
+
+Indication of yield: [•]
+
+Calculated as [include details of method of calculation
+_in summary form] on the Issue Date._
+
+As set out above, the yield is calculated at the Issue
+Date on the basis of the Issue Price. It is not an
+indication of future yield.]
+
+6. **[Floating Rate Notes only –** **HISTORIC INTEREST RATES**
+
+Details of historic [LIBOR/EURIBOR/other] rates can be obtained from [Reuters].]
+
+7. **_[Index-linked_** **_or_** **_other_** **_variable-linked_** **_notes_** **_only_** **–** **PERFORMANCE** **OF**
+**INDEX/FORMULA/OTHER VARIABLE, EXPLANATION OF EFFECT ON VALUE OF**
+**INVESTMENT** **AND** **ASSOCIATED** **RISKS** **AND** **OTHER** **INFORMATION**
+**CONCERNING THE UNDERLYING**
+
+_Need to include details of where past and future performance and volatility of the_
+_index/formula/other variable can be obtained and a clear and comprehensive explanation of how_
+_the value of the investment is affected by the underlying and the circumstances when the risks are_
+_most evident. [Where the underlying is an index need to include the name of the index and a_
+_description if composed by the Issuer and if the index is not composed by the Issuer need to_
+_include details of where the information about the index can be obtained. Where the underlying_
+_is not an index need to include equivalent information. Include other information concerning the_
+_underlying required by Paragraph 4.2 of Annex XII of the Prospectus Directive Regulation.]_
+
+_[(When completing this paragraph, consideration should be given as to whether such matters_
+_described constitute "significant new factors" and consequently trigger the need for a supplement_
+_to the Prospectus under Article 16 of the Prospectus Directive.)]]_
+
+The Issuer [intends to provide post-issuance information [specify what information will be
+_reported and where it can be obtained]] [does not intend to provide post-issuance information]._
+
+
+-----
+
+8. **[Dual Currency Notes only – PERFORMANCE OF RATE[S] OF EXCHANGE AND**
+**EXPLANATION OF EFFECT ON VALUE OF INVESTMENT**
+
+_Need to include details of where past and future performance and volatility of the relevant_
+_rate[s] can be obtained and a clear and comprehensive explanation of how the value of the_
+_investment is affected by the underlying and the circumstances when the risks are most evident._
+
+_[(When completing this paragraph, consideration should be given as to whether such matters_
+_described constitute "significant new factors" and consequently trigger the need for a supplement_
+_to the Prospectus under Article 16 of the Prospectus Directive.)]]_
+
+9. **OPERATIONAL INFORMATION**
+
+ISIN Code: [•]
+
+Common Code: [•]
+
+
+Any clearing system(s) other than Euroclear
+Bank SA/NV and Clearstream Banking,
+société anonyme and the relevant
+identification number(s):
+
+
+
+[Not Applicable/give name(s) and number(s)]
+
+
+Delivery: Delivery [against/free of] payment
+
+
+Names and addresses of initial Paying
+Agent(s):
+
+Names and addresses of additional Paying
+Agent(s) (if any):
+
+Intended to be held in a manner which would
+allow Eurosystem eligibility:
+
+
+
+[•]
+
+[•]
+
+[Yes][No][Not Applicable]
+
+[Note that the designation "yes" simply means
+that the Notes are intended upon issue to be
+deposited with one of the ICSDs as common
+safekeeper [[, and registered in the name of a
+nominee of one of the ICSDs acting as common
+safekeeper,] [include this text for registered
+_notes]] and does not necessarily mean that the_
+Notes will be recognised as eligible collateral for
+Eurosystem monetary policy and intra day credit
+operations by the Eurosystem either upon issue
+or at any or all times during their life. Such
+recognition will depend upon the ECB being
+satisfied that Eurosystem eligibility criteria have
+been met.][include this text if "yes" selected in
+_which case the bearer Global Notes must be_
+_issued in NGN form]_
+
+
+-----
+
+**SUMMARY OF PROVISIONS RELATING TO THE NOTES WHILE IN GLOBAL FORM**
+
+**Clearing System Accountholders**
+
+In relation to any Tranche of Notes represented by a Global Note in bearer form, references in the Terms
+and Conditions of the Notes to "Noteholder" are references to the bearer of the relevant Global Note
+which, for so long as the Global Note is held by a depositary or a common depositary, in the case of a
+CGN, or a common safekeeper, in the case of an NGN for Euroclear and/or Clearstream, Luxembourg
+and/or any other relevant clearing system, will be that depositary or common depositary or, as the case
+may be, common safekeeper.
+
+In relation to any Tranche of Notes represented by a Global Registered Note, references in the Terms and
+Conditions of the Notes to "Noteholder" are references to the person in whose name such Global
+Registered Note is for the time being registered in the Register which, for so long as the Global
+Registered Note is held by or on behalf of a depositary or a common depositary or a common safekeeper
+for Euroclear and/or Clearstream, Luxembourg and/or any other relevant clearing system, will be that
+depositary or common depositary or common safekeeper or a nominee for that depositary or common
+depositary or common safekeeper.
+
+Each of the persons shown in the records of Euroclear and/or Clearstream, Luxembourg and/or any other
+relevant clearing system as being entitled to an interest in a Global Note or a Global Registered Note
+(each an "Accountholder") must look solely to Euroclear and/or Clearstream, Luxembourg and/or such
+other relevant clearing system (as the case may be) for such Accountholder's share of each payment made
+by the Issuer to the holder of such Global Note or Global Registered Note and in relation to all other
+rights arising under such Global Note or Global Registered Note. The extent to which, and the manner in
+which, Accountholders may exercise any rights arising under the Global Note or Global Registered Note
+will be determined by the respective rules and procedures of Euroclear and Clearstream, Luxembourg and
+any other relevant clearing system from time to time. For so long as the relevant Notes are represented by
+a Global Note or Global Registered Note, Accountholders shall have no claim directly against the Issuer
+in respect of payments due under the Notes and such obligations of the Issuer will be discharged by
+payment to the holder of such Global Note or Global Registered Note.
+
+**Conditions applicable to Global Notes**
+
+Each Global Note and Global Registered Note will contain provisions which modify the Terms and
+Conditions of the Notes as they apply to the Global Note or Global Registered Note. The following is a
+summary of certain of those provisions:
+
+_Payments: All payments in respect of the Global Note or Global Registered Note which, according to the_
+Terms and Conditions of the Notes, require presentation and/or surrender of a Note, Note Certificate or
+Coupon will be made against presentation and (in the case of payment of principal in full with all interest
+accrued thereon) surrender of the Global Note or Global Registered Note to or to the order of any Paying
+Agent and will be effective to satisfy and discharge the corresponding liabilities of the Issuer in respect of
+the Notes. On each occasion on which a payment of principal or interest is made in respect of the Global
+Note, the Issuer shall procure that in respect of a CGN the payment is noted in a schedule thereto and in
+respect of an NGN the payment is entered pro rata in the records of Euroclear and Clearstream,
+Luxembourg.
+
+_Payment Business Day: In the case of a Global Note, or a Global Registered Note, shall be, if the_
+currency of payment is euro, any day which is a TARGET Settlement Day and a day on which dealings in
+foreign currencies may be carried on in each (if any) Additional Financial Centre; or, if the currency of
+payment is not euro, any day which is a day on which dealings in foreign currencies may be carried on in
+the Principal Financial Centre of the currency of payment and in each (if any) Additional Financial Centre.
+
+_Payment Record Date: Each payment in respect of a Global Registered Note will be made to the person_
+shown as the Holder in the Register at the close of business (in the relevant clearing system) on the
+Clearing System Business Day before the due date for such payment (the "Record Date") where
+"Clearing System Business Day" means a day on which each clearing system for which the Global
+Registered Note is being held is open for business.
+
+
+-----
+
+_Exercise of put option: In order to exercise the option contained in Condition_ 10(e) (‎ _Redemption at the_
+_option of Noteholders) the bearer of the Permanent Global Note or the holder of a Global Registered Note_
+must, within the period specified in the Conditions for the deposit of the relevant Note and put notice,
+give written notice of such exercise to the Fiscal Agent specifying the principal amount of Notes in
+respect of which such option is being exercised. Any such notice will be irrevocable and may not be
+withdrawn.
+
+_Partial exercise of call option: In connection with an exercise of the option contained in Condition 10(c) ‎_
+(Redemption at the option of the Issuer) in relation to some only of the Notes, the Permanent Global Note
+or Global Registered Note may be redeemed in part in the principal amount specified by the Issuer in
+accordance with the Conditions and the Notes to be redeemed will not be selected as provided in the
+Conditions but in accordance with the rules and procedures of Euroclear and Clearstream, Luxembourg
+(to be reflected in the records of Euroclear and Clearstream, Luxembourg as either a pool factor or a
+reduction in principal amount, at their discretion).
+
+_Notices: Notwithstanding Condition_ 20 (‎ _Notices), while all the Notes are represented by a Permanent_
+Global Note (or by a Permanent Global Note and/or a Temporary Global Note) or a Global Registered
+Note and the Permanent Global Note is (or the Permanent Global Note and/or the Temporary Global Note
+are), or the Global Registered Note is, deposited with a depositary or a common depositary for Euroclear
+and/or Clearstream, Luxembourg and/or any other relevant clearing system or a common safekeeper,
+notices to Noteholders may be given by delivery of the relevant notice to Euroclear and/or Clearstream,
+Luxembourg and/or any other relevant clearing system and, in any case, such notices shall be deemed to
+have been given to the Noteholders in accordance with Condition 20 (‎ _Notices) on the date of delivery to_
+Euroclear and/or Clearstream, Luxembourg and/or any other relevant clearing system, except that, for so
+long as such Notes are admitted to trading on the Luxembourg Stock Exchange and it is a requirement of
+applicable law or regulations, such notices shall be published in a leading newspaper having general
+circulation in Luxembourg (which is expected to be Luxemburger Wort or the Tageblatt) or published on
+the website of the Luxembourg Stock Exchange (www.bourse.lu).
+
+
+-----
+
+**DESCRIPTION OF THE ISSUER**
+
+**History and Development**
+
+The Issuer is a Danish-based European full-service provider of communications solutions. The Issuer is
+the leading provider of telecommunications and pay-TV in Denmark, with a market-leading position
+(both measured by number of customers) in each of its major business segments: landline telephony,
+internet access, mobility services and pay-TV (source: NITA Report entitled "Telecom Statistics - First
+_Half of 2011"). Outside of Denmark, the Issuer has a significant presence in the pan-Nordic_
+telecommunications market.
+
+In 2006, the Issuer embarked on a strategy to concentrate on its core Nordic markets and to become a
+clear and focused Nordic telecommunications operator through strategic in-country consolidation and
+divestments of its non-Nordic‎international‎assets.‎Going‎forward‎the‎Issuer’s‎M&A‎policy‎is‎to‎focus‎on‎
+bolt-on, in-country acquisitions in Denmark and the other Nordic countries.
+
+The Issuer's legal and commercial names are TDC A/S and TDC, respectively. The Issuer was
+incorporated as an "aktieselskab" (public limited liability company) on 14 November 1990 and is
+organised under the laws of the Kingdom of Denmark (its Central Business Registration number in
+Denmark is 1477 3908). The Issuer is headquartered at Teglholmsgade 3, DK-0900 Copenhagen C,
+Denmark (telephone: +45 66 63 77 77). The Issuer's shares are listed on the Nasdaq OMX Copenhagen
+Exchange (ISIN DK0060228559).
+
+The objects of the Issuer are to conduct business within communications, services, directories, media,
+investment, financing, advisory services, trade and any other related business, whether in Denmark or
+abroad, if appropriate in the form of joint ventures with other Danish or foreign-based companies, as
+specified in paragraph 3 of the Issuer's Articles of Association. The Issuer's current Articles of
+Association were adopted by the Issuer's annual general meeting on 9 March 2011.
+
+TDC was partly privatised in 1994 and fully privatised in 1998. TDC's largest shareholder, NTC Holding
+G.P. & CIE S.C.A. ("NTC") is, through its parent company NTC Parent S.à r.l., controlled by investment
+funds, each of which is advised or managed, directly or indirectly, by Apax Partners LLP, The Blackstone
+Group, Kohlberg Kravis Roberts & Co. L.P., Permira Advisers KB or Providence Equity Partners
+Limited (see "Major Shareholders" below).
+
+**Recent Events**
+
+**_Settlement of dispute between Danish Polish Telecommunication Group I/S ("DPTG") and_**
+**_Telekomunikacja Polska S.A. ("TPSA")_**
+
+In relation to the dispute between DPTG and TPSA regarding determination of traffic volumes, which has
+been ongoing since 2001, a settlement agreement was entered into by the parties on 12 January 2012
+according to which, TPSA is to pay EUR 550 million (equivalent to approximately DKK 4.1 billion) to
+DPTG in full and final settlement of all claims relating to the dispute. As a result of holding a 25%
+ownership interest in DPTG, the Issuer will receive approximately DKK 1.0 billion, which, after tax, will
+amount to approximately DKK 770 million. The settlement amount was received on 13 January 2012
+(EUR 275 million) and on 19 January 2012 (EUR 275 million).
+
+**_Share Buy-Back Programme_**
+
+The Board of Directors of the Issuer decided to initiate a share buy-back programme of up to DKK
+750,000,000, the purpose of which is to distribute to the shareholders the amounts (less taxes and costs)
+received from TPSA in connection with the settlement of the dispute between DPTG and TPSA
+announced by the Issuer on 12 January 2012.
+
+The share buy-back programme was initially scheduled to run from 6 February 2012 to 31 December
+2012 during which time the Issuer intended to repurchase shares for an amount of up to DKK
+750,000,000. Under the terms of the share buy-back programme, the Issuer is entitled at any time to
+suspend or stop the share buy-back programme in the event of substantial changes in the Issuer's business
+or in the market or other extraordinary events and, following the offering of shares by NTC (see "Offering
+_of TDC Shares by NTC Holding G.P. & CIE S.C.A."), the Issuer announced on 13 February 2012 that it_
+
+
+-----
+
+had suspended the share buy-back programme. The Issuer decided to resume the share buy-back
+programme on 16 February 2012.
+
+**_Offering of TDC Shares by NTC Holding G.P. & CIE S.C.A._**
+
+Pursuant to an offering to institutional investors, which was announced on 13 February 2012,
+approximately 128.7 million existing shares of the Issuer (approximately 15.6% of the Issuer's share
+capital) have been sold on behalf of certain shareholders of NTC. The Issuer will not receive any
+proceeds from the sale. Following payment and settlement of the transaction, which is expected to take
+place on or around 17 February 2012, NTC, which currently owns 59.1% of the outstanding shares of the
+Issuer (exclusive of treasury shares), will own approximately 43.3% of the Issuer's share capital and
+voting rights (exclusive of treasury shares). As a result of the offering, Morgan Stanley & Co.
+International plc. now holds shares in the Issuer amounting to approximately 7.13% of the total share
+capital and voting rights of the Issuer.
+
+**Business Activities of the TDC Group**
+
+**_Customers_**
+
+As at 31 December 2011, the Issuer and its subsidiaries (the "TDC Group") had a total of 9.0 million
+RGUs, up 1.7 per cent. from 31 December 2010.
+
+As at 31 December 2011, the TDC Group had 8,740,000 domestic RGUs, up from 8,590,000 as at 31
+December 2010. This increase was attributable mainly to the acquisition of Onfone (constituting 206,000
+RGUs as of 31 December 2011), partly offset by fewer landline voice RGUs, which decreased by 8.2 per
+cent. during this period due to customer migration from landline to mobile services.
+
+The number of RGUs in Nordic increased by 14.8 per cent. or 34,000 from year-end 2010 to year-end
+2011, through growth primarily within mobile RGUs, which increased by 28.4 per cent., but also due to
+an increase in landline and internet RGUs.
+
+**_Business Lines_**
+
+The TDC Group's main business lines are as follows:
+
+_Consumer_
+
+For the year ended 31 December 2011, Consumer's revenue was DKK 9,024 million, constituting 33 per
+cent. of the TDC Group's total external revenue excluding eliminations. As at 31 December 2011,
+Consumer had 1,996 full-time employee equivalents. Consumer is the leading provider of landline and
+mobile services to residential and SoHo (Small Office/Home Office, which refers to a category of
+business which is defined by, among other things, having fewer than two employees and with limited
+revenue (of less than DKK 30,000) during the last year) customers in Denmark. The Consumer division
+services the mass to premium market through the TDC brand and offers landline services including PSTN
+and VoIP telephony, xDSL broadband, TVoIP, CPE and various value added services, for example, music
+and security services, whereas the mobile communications services consist of subscription and prepaid
+voice and data services, mobile broadband and content. Using the TDC brand, Consumer also provides
+the broadband-based multi-play products, TDC HomeTrio (Digital IP TV, internet access and landline
+telephony) and TDC HomeDuo (internet access and landline telephony). Consumer also comprises the
+fixed-mobile convergence product Duét, TDC Shops, Customer Centre including directory services,
+Telmore A/S ("Telmore"), Fullrate A/S ("Fullrate"), M1 A/S ("M1") and Onfone ApS ("Onfone").
+Telmore offers mobile voice, mobile broadband and ADSL products (Telmore has ceased to offer
+broadband to new customers, but has continued to provide broadband to its pre-existing broadband
+customers). Fullrate offers self-service xDSL broadband, TVoIP, VoIP, mobile voice and mobile
+broadband products. M1 offers SIM-only products and its commercial strategy is based on competitive
+price plans. Onfone offers mobile voice and mobile broadband, also based on competitive price plans.
+Onfone was acquired in May 2011.
+
+_Business_
+
+For the year ended 31 December 2011, Business had a total revenue of DKK 7,517 million, constituting
+27 per cent. of the TDC Group's total external revenue excluding eliminations. As at 31 December 2011
+
+
+-----
+
+Business had 1,344 full-time employee equivalents. Business provides telecommunications solutions for
+the TDC Group's business customers in Denmark. Business has a market leading position in the Danish
+business market (source: NITA Report entitled "Telecom Statistics - First Half of 2011") and provides
+telecommunications solutions for small, medium and large businesses and organisations, as well as the
+public sector in Denmark. Its activities include broadband solutions, landline telephony, mobile services,
+convergence products (combined landline and mobile telephony), and fibre access. Business also provides
+terminal equipment and systems integration services through its subsidiary NetDesign A/S
+("NetDesign"), which is a Danish systems integrator of IP-based communications solutions offering
+networks, security, video conferencing and telephony systems tailored to business customers and other
+organisations.
+
+_Nordic_
+
+For the year ended 31 December 2011, Nordic had a total revenue of DKK 4,487 million, constituting 16
+per cent. of the TDC Group's total external revenue excluding eliminations. At year-end 2011, Nordic had
+1,473 full-time employee equivalents. Nordic provides landline telephony, mobile telephony (through
+MVNO and service provider agreements), internet and network, including IP-VPN services (IP-based
+Virtual Private Network, which is a network that enables organisations to use a shared network to connect
+remote sites or users together) and system integration services (only in Sweden) to the public sector and
+large and mid-size enterprises in Sweden, Norway and Finland primarily based on a direct sales model.
+Through TDC Hosting A/S, TDC Hosting AB and TDC Hosting OY, Nordic also offers hosting and
+information technology operations solutions in Denmark, Sweden and Finland, with a primary focus on
+providing managed hosting, co-location and shared hosting to small and medium sized businesses.
+
+_Wholesale_
+
+For the year ended 31 December 2011, Wholesale's revenue was DKK 2,153 million, constituting 8 per
+cent. of the TDC Group's total external revenue excluding eliminations. As at 31 December 2011,
+Wholesale had 190 full-time employee equivalents. Wholesale provides landline telephony, mobile
+services (including convergence), and internet and network services for external service providers and
+brand partners, as well as national and international traffic and roaming for other network operators. As a
+content provider service, Wholesale handles sales, consulting and business development within mobile
+data services, for example mobile payment, barcodes, telemetrics and mobile marketing. Wholesale also
+provides a variety of access services such as full and shared unbundled access to the local loop, BSA and
+resale of ISDN and xDSL services. Furthermore, Wholesale offers infrastructure services, including
+traditional leased lines, IP-VPN, dedicated fibre, including national and international Network Capacity
+Services, wavelengths and IP connectivity, and sells co-location to approximately 1,200 TDC telephone
+exchanges.
+
+_YouSee A/S (subsidiary)_
+
+For the year ended 31 December 2011, YouSee's revenue was DKK 4,259 million, constituting 15 per
+cent. of the TDC Group's total external revenue excluding eliminations. As at 31 December 2011, YouSee
+had 1,218 full-time employee equivalents. YouSee is the leading Danish cable-TV provider in terms of
+market share, and offers individual households and organised customers (such as antenna and housing
+associations) home entertainment and telecommunications solutions. YouSee offers cable TV, mobile
+broadband and telephony and add on services, through a fully digitalised hybrid fiber coaxial-cable
+network.
+
+_Operations & Headquarters_
+
+For the year ended 31 December 2011, Operations & Headquarters had a total revenue of DKK 287
+million, constituting 1 per cent. of the TDC Group's total external revenue excluding eliminations. As at
+31 December 2011, Operations & Headquarters had 3,596 full-time employee equivalents. Operations
+operates TDC's Danish fixed-line and mobile networks and is responsible for fault correction, installation
+and network, and information technology, and supports TDC's other business divisions by operating
+support and back-office functions. Operating expenses in Operations corresponding to other segments use
+of the infrastructure and supply functions are allocated to the relevant business lines (except for YouSee
+A/S ("YouSee") and Nordic, which are billed at arms' length). Operations' revenue generated from third
+parties mainly relates to police assignments, operation of mobile sites and supply chain management.
+Headquarters provides internal services for the TDC Group's domestic business lines. Headquarters also
+
+
+-----
+
+undertakes the TDC Group's staff functions including finance, legal and regulatory, human resources and
+communications.
+
+**The TDC Group's Network**
+
+The TDC Group operates an extensive telecommunications network in Denmark. The backbone network
+has high-capacity transmission capabilities and is fully digitalised. The landline access network reaches
+almost 100 per cent. of Denmark's population. The mobile access network includes GSM, UMTS and
+LTE. LTE was launched in Q4 2011, and at year end covered 28 per cent. of the population. The TDC
+Group also operates its own landline network in the Nordic region, covering mainly large and mediumsized towns, which includes fibre based backbone (fibre cable and a pan-Nordic SDH network delivering
+landline point-to-point capacity), PSTN/ISDN and IP/Ethernet networks.
+
+**Intellectual Property**
+
+TDC owns or has the right to use the various brands, including property rights, used within its operation.
+
+**Property, Plant and Equipment**
+
+Operations & Headquarters manages the majority of the TDC Group's office premises and floor space in
+Denmark. However, some of the TDC Group's Danish operations, such as Telmore, manage their own
+premises.
+
+The TDC Group's principal properties consist of numerous telecommunications installations, including
+exchanges of various sizes, transmission equipment, cable networks, base stations for mobile networks
+and equipment for radio communications, most of which are located in Denmark. The TDC Group also
+has numerous computer installations, which are located principally in Copenhagen and Aarhus.
+
+**Insurance and Operational Risk Management**
+
+_Insurance_
+
+The Issuer and its Danish and foreign subsidiaries maintain insurance covering property/business
+interruption, professional liability/general and product liability, terrorism insurance, directors and officers
+liability and crime insurance. Furthermore, the Issuer and its Danish subsidiaries maintain insurances
+covering workers compensation, group accident insurance, motor vehicle insurance, business travel
+insurance‎and‎expatriate‎insurance.‎Based‎on‎its‎risk‎analysis,‎the‎Issuer’s‎policy‎has‎been‎to‎not‎insure‎its‎
+underground, air and sea cables.
+
+The Issuer believes that its current insurance policies provide adequate coverage for its business,
+including‎protection‎for‎the‎nature‎and‎amount‎of‎risks‎the‎Issuer‎faces.‎The‎Issuer’s‎foreign‎subsidiaries‎
+have motor vehicle and personnel-related insurance in place locally. These are not controlled by the
+Issuer’s‎central‎risk‎management‎function.
+
+_Operational Risk Management_
+
+The Issuer has a central risk management function and a corporate security function which handle
+operational risk management in TDC. Additionally, each TDC subsidiary has appointed employees
+responsible for security and insurance issues who work closely together with the central Risk
+Management function. The risk management activities are governed largely by a corporate insurance
+policy and a corporate security policy.
+
+The aim of the central risk management and corporate security functions is to systematically identify and
+reduce‎risks‎relating‎to‎TDC’s‎assets,‎activities,‎and‎employees.‎It‎is‎the‎Issuer’s‎policy‎to‎continuously
+reduce risks in general and to transfer catastrophe risks to insurance companies.
+
+As part of the risk management strategy, a comprehensive annual risk survey program is conducted in
+close cooperation with external risk engineers. Insurance coverage is based on identified risk scenarios
+and insurance conditions available from insurance markets in Denmark and abroad.
+
+The amount of self-retention‎of‎risk‎in‎TDC’s‎insurance‎programs‎has‎been‎determined‎based‎on‎the‎risk‎
+assessment related to each individual area and the subsequent level of insurance premiums.
+
+
+-----
+
+**Organisational structure**
+
+NTC is the Issuer's largest shareholder (see "Major Shareholders" below). The Issuer also has several
+subsidiaries, including YouSee.
+
+The diagram below shows a simplified legal structure of the TDC Group, reflecting an overview of TDC's
+main subsidiaries and associated companies as at the date of this Base Prospectus:
+
+TDC A/S
+(Denmark)
+
+33.33%
+
+YouSee(Denmark)A/S Fullrate A/S (Denmark) (Denmark)NetdesignA/S Europe A/SContact Center TDC TDC Nordic (Sweden)AB Re-insurance TDCA/S Companymo(Denmark)bile A/S TDC Mobil Center A/S(Denmark) Telmore A/S(Denmark) (Denmark)Operators House A/S Clearing FASTTV.NET A/S Onfone ApS
+
+(Denmark) (Denmark)
+
+M1 A/S
+
+Dansk Kabel (Denmark)
+
+TV A/S
+(Denmark)
+
+(Denmark)Hosting TDCA/S TDC Song (Norway)AS Sverige AB(Sweden)TDC Hosting AB (Sweden)TDC (Finland)TDC OY Finland Hosting OY (Finland)TDC
+
+**Capital Structure**
+
+The Issuer's nominal share capital is DKK 825,000,000 divided into shares of a nominal value of DKK 1
+or any multiple thereof. Each share entitles a shareholder to one vote. All of the Issuer's shares are listed
+on the Nasdaq OMX Copenhagen Exchange (ISIN DK0060228559). Under the Issuer's current Articles
+of Association, the Board of Directors of the Issuer is authorised, until 18 March 2014, to increase the
+Issuer's share capital by up to DKK 108,229,770.
+
+**Major Shareholders**
+
+The Issuer's ownership base exceeded 42,000 shareholders at year-end 2011 and includes Danish and
+international institutional investors as well as Danish retail investors and TDC employees.
+
+The ultimate holding company of the Issuer's largest shareholder, NTC Holding GP & Cie S.C.A., is NTC
+Parent S.à r.l.
+
+Through a number of holding companies, NTC Holding GP & Cie S.C.A. is ultimately controlled by
+investment funds, each of which is advised or managed, directly or indirectly, by: Apax Partners
+Worldwide LLP: 15.7%, The Blackstone Group International Limited: 23.5%, Kohlberg Kravis Roberts
+& Co. L.P.: 19.6%, Permira Advisers KB: 19.4%, and Providence Equity Partners Limited: 17.7%.
+
+At year-end 2011, the ownership and distribution of the Issuer's outstanding shares and the voting rights
+was:[1]
+
+- NTC Holding G.P & CIE S.C.A, Luxembourg: 59.1 per cent.[2]
+
+- Singapore Investment Corporation Pte Ltd, Singapore: 5.1 per cent.[3]
+
+- Other: 34.2 per cent.
+
+- Not registered: 1.6 per cent.
+
+1 Source: VP Securities and major shareholders. See "Offering of TDC Shares by NTC Holding G.P. & CIE S.C.A." above
+for information on changes to the ownership of the Issuer's outstanding shares.
+2 Including 31,500,000 over-allotment shares returned to NTC pursuant to a stock lending agreement, cf. the Issuer's
+announcement 2-2011 of 14 January 2011.
+3
+See TDC's Annual Report 2011.
+
+|FASTTV.NET A/S|Onfon e ApS|
+|---|---|
+
+|TDC Contact Center Europe A/S (Denmark)|TDC Nordic AB (Sweden)|
+|---|---|
+
+|Col1|Col2|33.33%|
+|---|---|---|
+|Telmore A/S (Denmark)||Operators Clearing House A/S (Denmark)|
+||||
+
+|TDC Song AS (Norway)|TDC Sverige AB (Sweden)|
+|---|---|
+
+
+-----
+
+All the members of the Issuer's Board of Directors act in the interests of the Issuer. The members of the
+Board of Directors who are also partners of the investment funds, which ultimately own the majority
+shareholder of the Issuer, do not represent those investment funds on the Board of Directors.
+
+**Administrative, Management and Supervisory Bodies**
+
+The Issuer's Board of Directors has 15 members, 11 elected by the Annual General Meeting and 4 elected
+by the employees of the Issuer.
+
+As at the date of this Base Prospectus, the members of the Board of Directors are:
+
+Name and Role Principal Outside Activities
+
+
+Vagn Sørensen is the Chairman of the Board
+of Directors
+
+Pierre Danon is the Vice Chairman of the
+Board of Directors
+
+Stine Bosse is a member of the Board of
+Directors
+
+Angus Porter is a member of the Board of
+Directors
+
+Lars Rasmussen is a member of the Board of
+Directors
+
+
+Chairman of the Boards of Directors of FLSmidth & Co.
+A/S, FLSmidth A/S, KMD A/S, KMD Equity Holding
+A/S, KMD Holding A/S, British Midland Ltd., Select
+Service Partner Ltd. and one subsidiary thereof and
+Scandic Hotels AB.
+
+Vice Chairman of the Board of Directors of DFDS A/S.
+
+Member of the Boards of Directors of Air Canada,
+Braganza AS, Lufthansa Cargo AG, Royal Caribbean
+Cruises Ltd., C.P. Dyvig & Co. A/S, Det Rytmiske
+Musikhus’‎Fond‎and‎Koncertvirksomhedens‎Fond.
+
+Executive Manager of GFKJUS 611 ApS and VOS
+Invest ApS.
+
+Senior Adviser to Morgan Stanley and EQT Partners.
+
+Chairman of the Boards of Directors of Numericable &
+Completel, and Voila.
+
+Non-executive Director at Ciel Investment Limited and
+Standard Life plc.
+
+Senior Adviser to JP Morgan.
+
+Chairman of the Boards of Directors of Flügger A/S,
+The Royal Danish Theatre, BØRNEfonden (the
+Childrens’‎Fund),‎Copenhagen‎Art‎Festival and Concito.
+
+Member of the Boards of Directors of Nordea Bank A/S,
+Amlin plc, Aker ASA and lcopal A/S.
+
+Member of INSEAD Danish Council. Danish member of
+the ChildFund Alliance. UN member of the Millennium
+Development Goals Advocacy Group for the fight
+against global poverty, disease and hunger.
+
+Chief‎Executive‎Officer‎of‎the‎Professional‎Cricketers’‎
+Association in England.
+
+Non-executive Director at Direct Wines Limited.
+
+President and Chief Executive Officer of Coloplast A/S
+with management assignments in six of its whollyowned subsidiaries.
+
+Member of the Boards of Directors of Højgaard Holding
+
+
+-----
+
+Name and Role Principal Outside Activities
+
+A/S and MT Højgaard A/S.
+
+Member of the Central Board of Directors of the
+Confederation of Danish Industry.
+
+
+Søren Thorup Sørensen is a member of the
+Board of Directors
+
+Kurt Björklund is a member of the Board of
+Directors
+
+Lawrence Guffey is a member of the Board of
+Directors
+
+Henrik Kraft is a member of the Board of
+Directors
+
+Gustavo Schwed is a member of the Board of
+Directors
+
+Andrew Sillitoe is a member of the Board of
+Directors
+
+
+Chairman of the Boards of Directors of K & C Holding
+A/S, Toginfo A/S, EP af 27. april 2006 A/S, KIPAL
+2007 ApS and Kirkbi Anlæg A/S.
+
+Member of the Boards of Directors of Falck Holding
+A/S, Falck A/S, Falck Danmark A/S, Topdanmark A/S,
+Topdanmark Forsikring A/S, LEGO A/S, Koldingvej 2,
+Billund A/S, Kirkbi Real Estate Investment A/S, Kirkbi
+AG, Interlego AG, LEGO Juris A/S and Kirkbi Invest
+A/S.
+
+Chief Executive Officer of Kirkbi A/S and Kirkbi Invest
+A/S.
+
+Co-Managing Partner in Permira.
+
+Member of the Board of Directors of Permira Holdings
+Limited and member of the Executive Group and
+Investment Committee.
+
+Senior‎ Managing‎ Director‎ in‎ Blackstone’s‎ Corporate‎
+Private Equity Group.
+
+Member of the Boards of Directors of Axtel SA de CV,
+Deutsche Telekom AG, Paris Review, the Literary
+Foundation and the Humanities Advisory Board at Rice
+University.
+
+Partner of KKR.
+
+Manager of NTC Parent S.à.r.l. and NTC Holding G.P.
+S.à.r.l.
+
+Director of Ambea Holding AB, Ambea AB and Carema
+Hold-ing AB.
+
+Chairman of the Supervisory Board of Versatel AG.
+Member of the Audit Committee of Versatel AG.
+Chaiman of the Human Resources and Nomination
+Committee of Versatel AG.
+
+Managing Director of Providence Equity.
+
+Member of the Boards of Directors of Decision
+Resources Group and Grupo TorreSur.
+
+Member of the Board of Managers at Swarthmore
+College.
+
+Partner of Apax Partners LLP and member of the
+Executive Committee and Investment Committee.
+
+
+-----
+
+Name and Role Principal Outside Activities
+
+Member of the Board of Directors of Apax Europe VI
+No. 2 Nominees Ltd., Apax Europe VI Nominees Ltd.,
+Apax Europe VII Nominees Ltd., Apax PP Nominees
+Ltd., Apax WW No 2 Nominees Ltd., Apax WW
+Nominees Ltd. and Apax US VII Nominees Ltd.
+
+
+Lotte Broder Jørgensen is an employee
+elected member of the Board of Directors
+
+Steen M. Jacobsen is an employee elected
+member of the Board of Directors
+
+Jan Bardino is an employee elected member
+of the Board of Directors
+
+Bo Magnussen is an employee elected
+member of the Board of Directors
+
+
+Customer Adviser at TDC A/S.
+
+Specialist Technician at TDC A/S.
+
+Member of the Boards of Directors of TDC
+Pensionskasse and Teglholm Park A/S.
+
+IT Project Manager at TDC A/S.
+
+Senior Clerk at TDC A/S.
+
+Chairman of Lederforeningen at TDC (Association of
+Managers and Employees in Special Positions of Trust).
+
+
+The members of the Executive Committee are stated in the table below. In accordance with the Danish
+Companies Act and the Articles of Association of the Issuer, the members of the Executive Committee
+are appointed by the Board of Directors. In accordance with the Danish Companies Act and the Articles
+of Association of the Issuer, the Executive Committee is in charge of the day-to-day management of the
+Issuer. The day-to-day management does not cover matters of material importance to the Issuer. Such
+matters require submission by the Executive Committee to the Board of Directors for approval, unless
+Board approval cannot be obtained without considerable inconvenience to the Issuer's business.
+
+Name and Role Principal Outside Activities
+
+
+Henrik Poulsen is the President and Chief
+Executive Officer of TDC A/S
+
+
+Member of the Boards of Directors of Chr. Hansen
+Holding
+A/S, the Denmark-America Foundation, and Falck A/S.
+
+
+Pernille Erenbjerg is a Senior Executive Vice
+President and Chief Financial Officer Member of the Board of Directors of the Royal Danish
+
+Theatre.
+
+Eva Berneke is a Senior Executive Vice Member of the Boards of Directors of Copenhagen
+President, President of Wholesale Business School, LEGO A/S and Schibsted ASA.
+
+Member of the
+Danish Council for Technology and Innovation.
+
+Niels Breining is a Senior Executive Vice
+President, TDC A/S and CEO of YouSee A/S Chairman of the Media Council of the Confederation of
+
+Danish Industry.
+
+Carsten Dilling is a Senior Executive Vice Chairman of the Boards of Directors of Traen A/S and
+President, Chief Operating Officer, President Traen
+of Operations Holding A/S. Executive manager in CDI Consult ApS.
+
+Miriam Hvidt is a Executive Vice President, N/A
+Stakeholder Relations
+
+Anders Jensen is a Senior Executive Vice N/A
+President, President of Consumer
+
+Inger Ørum Kirk is a Senior Executive Vice Chairman of the Board of Directors of the Danish Post
+President, People & Culture and
+
+
+-----
+
+Name and Role Principal Outside Activities
+
+Tele museum.
+
+
+Martin Lippert is a Senior Executive Vice
+President, President of Business
+
+Jens Munch-Hansen is a Senior Executive
+Vice President, President of Nordic
+
+
+Member of the Board of Directors of Halberg A/S,
+including
+three subsidiaries thereof.
+
+Member of the Board of Directors of Scan Jour A/S.
+
+
+The Board of Directors has set up an Audit Committee, a Compensation Committee and a Nomination
+Committee.
+
+The Audit Committee consists of Søren Thorup Sørensen (Chairman), Vagn Sørensen, Lawrence Guffey
+and Andrew Sillitoe. The Audit Committee assists the Board of Directors with activities including: (i)
+monitoring the financial reporting‎process,‎(ii)‎monitoring‎the‎efficiency‎of‎TDC’s‎internal‎control‎system‎
+and any internal auditing and risk management systems, (iii) monitoring the statutory audit of the annual
+report,‎(iv)‎appointing‎TDC’s‎independent‎auditors‎and‎monitoring‎and‎checking‎the‎independence‎of‎the‎
+auditors, including in particular the delivery of non-audit services to TDC. In 2011, the Audit Committee
+held three meetings.
+
+The Compensation Committee consists of Vagn Sørensen (Chairman), Pierre Danon, Lars Rasmussen,
+Henrik Kraft and Gustavo Schwed. The Compensation Committee approves the compensation and other
+terms of employment for the members‎of‎TDC’s‎Executive‎Committee‎as‎well‎as‎the framework of the
+TDC‎Group’s‎incentive‎programme.‎This includes determination of targets for the annual bonus to the
+members of the Executive Committee and approval of payment of such bonus. The Compensation
+Committee also proposes to the Board of Director the size of the Board of Directors’‎ fee,‎ which‎ is‎
+approved at the Annual General Meeting. In 2011, the Compensation Committee held three meetings.
+
+The Nomination Committee consists of the same members as the Compensation Committee and is also
+chaired by Vagn Sørensen. The Nomination Committee assists the Board of Directors with activities
+including: (i) identification of and recommendation to the Board of Directors of candidates for the Board
+of Directors; (ii) recommendation to the Board of Directors of candidates for the Executive Committee
+based on proposals made by the Chief Executive Officer, and (iii) review of and recommendation to the
+Board of‎ Directors‎ concerning‎ adoption‎ of‎ TDC’s‎ position‎ on‎ the Recommendations for Corporate
+Governance issued by the Committee on Corporate Governance and the Guidelines for responsible
+ownership and good corporate governance issued by the Danish Venture Capital and Private Equity
+Association. In 2011, the Nomination Committee held three meetings.
+
+The business address of all the above mentioned members is Headquarters, TDC A/S, Teglholmsgade 3,
+DK-0900 Copenhagen C, Denmark.
+
+There are no conflicts of interest between the duties of the persons listed above to the Issuer and their
+private interests or other duties.
+
+
+-----
+
+**TAXATION**
+
+_The following is a general description of certain EU and Danish tax considerations relating to the Notes._
+_It does not purport to be a complete analysis of all tax considerations relating to the Notes, whether in_
+_those countries or elsewhere. Prospective purchasers of Notes should consult their own tax advisers as_
+_to which countries' tax laws could be relevant to acquiring, holding and disposing of Notes and receiving_
+_payments of interest, principal and/or other amounts under the Notes and the consequences of such_
+_actions under the tax laws of those countries. This summary is based upon the law as in effect on the date_
+_of this Base Prospectus and is subject to any change in law that may take effect after such date._
+
+**Danish Taxation**
+
+_The following is a summary description of the taxation in Denmark of the Notes according to the Danish_
+_tax laws in force at the date hereof and is subject to any changes in law and the interpretation and_
+_application thereof, which changes could be made with retroactive effect. The following summary does_
+_not purport to be a comprehensive description of all the tax considerations that may be relevant to a_
+_decision to acquire, hold or dispose of the Notes, and does not purport to deal with the tax consequences_
+_applicable to all categories of investors, some of which (such as professional dealers in securities) may_
+_be subject to special rules. Potential investors are under all circumstances strongly recommended to_
+_contact their own tax advisor to clarify the individual consequences of their investment in, holding of and_
+_disposal of the Notes. The Issuer makes no representations regarding the tax consequences of purchase,_
+_holding or disposal of the Notes._
+
+**_Taxation at source_**
+
+Under existing Danish tax laws no general withholding tax or coupon tax will apply to payments of
+interest or principal or other amounts due on the Notes, other than in certain cases on payments in respect
+of controlled debt in relation to the Issuer. This will not have any impact on holders of Notes who are not
+"affiliated" with the Issuer pursuant to section 3B of the Danish Tax Control Act (Consolidated Act no.
+1126 of 24 November 2005) (i.e., they control or are controlled by the Issuer or are controlled by the
+same group of shareholders as the Issuer).
+
+**_Resident holders of Notes_**
+
+Under existing Danish tax laws, private individuals, including persons who are engaged in financial trade,
+and companies, funds and similar entities, who are domiciled in Denmark for tax purposes, are (save for
+certain exceptions) liable to pay tax on capital gains on the Notes and on payments of interest under the
+Notes.
+
+**_Non-resident holders of Notes_**
+
+Under the Danish tax laws, payments of interest or principal amounts to any non-resident holders of
+Notes are not subject to taxation in Denmark, no withholding tax will be payable with respect to such
+payments and any capital gain realised upon the sale, exchange or retirement of a Note will not be subject
+to taxation in Denmark, other than in certain cases on payments in respect of controlled debt in relation to
+the Issuer as referred to under "Taxation at source" above.
+
+This tax treatment applies solely to holders of Notes who are not subject to full tax liability in Denmark
+or included in a Danish joint taxation scheme and do not carry on business in Denmark through a
+permanent establishment.
+
+**Luxembourg Taxation**
+
+_The following is a general description of certain Luxembourg tax considerations relating to the Notes. It_
+_specifically contains information on taxes on the income from the Notes withheld at source and provides_
+_an indication as to whether the Issuer assumes responsibility for the withholding of taxes at the source. It_
+_does not purport to be a complete analysis of all tax considerations relating to the Notes, whether in_
+_Luxembourg or elsewhere. Prospective purchasers of the Notes should consult their own tax advisers as_
+_to which countries' tax laws could be relevant to acquiring, holding and disposing of the Notes, payments_
+_of interest, principal and/or other amounts under the Notes and the consequences of such actions under_
+_the tax laws of Luxembourg. This summary is based upon the law as in effect on the date of this Base_
+_Prospectus. The information contained within this section is limited to withholding taxation issues, and_
+
+
+-----
+
+_prospective investors should not apply any information set out below to other areas, including (but not_
+_limited to) the legality of transactions involving the Notes._
+
+**_Withholding Tax_**
+
+All payments of interest and principal by the Issuer in the context of the holding, disposal, redemption or
+repurchase of the Notes can be made free and clear of any withholding or deduction for or on account of
+any taxes of whatsoever nature imposed, levied, withheld, or assessed by Luxembourg or any political
+subdivision or taxing authority thereof or therein, in accordance with the applicable Luxembourg law,
+subject however to:
+
+(i) the application of the Luxembourg laws of 21 June 2005 implementing the EU Savings Tax
+Directive in the form of interest payments and ratifying several agreements concluded with
+certain dependent or associated territories and providing for the possible application of a
+withholding tax (35 per cent. from 1 July 2011) on interest paid to certain non Luxembourg
+resident investors (individuals and certain types of entities called "residual entities" within the
+meaning of article 4.2 of the EU Savings Tax Directive) in the event of the Issuer appointing a
+paying agent in Luxembourg within the meaning of the above-mentioned directive (see section
+"EU Savings Tax Directive" below) or agreements;
+
+(ii) the application as regards Luxembourg resident individuals of the Luxembourg law of 23
+December 2005 which has introduced a 10 per cent. withholding tax on savings income (i.e.,
+with certain exemptions, savings income within the meaning of the Luxembourg laws of 21 June
+2005 implementing the EU Savings Tax Directive).
+
+Pursuant to the law of 23 December 2005 as amended by the law of 17 July 2008, Luxembourg resident
+individuals can opt to self declare and pay a 10 per cent. tax on interest payments made by paying agents
+located in a Member State of the European Union other than Luxembourg, a Member State of the
+European Economic Area or in a State or territory which has concluded an agreement directly relating to
+the EU Savings Tax Directive.
+
+The 10 per cent. withholding tax as described above or the 10 per cent tax are final when Luxembourg
+resident individuals are acting in the context of the management of their private wealth.
+
+Responsibility for the withholding of tax in application of the above-mentioned Luxembourg laws of 21
+June 2005 and 23 December 2005 is assumed by the Luxembourg paying agent within the meaning of
+these laws and not by the Issuer.
+
+**EU Savings Tax Directive**
+
+On 3 June 2003, the EU Council of Economic and Finance Ministers adopted a directive regarding the
+taxation of savings income (the "EU Savings Tax Directive"). The EU Savings Tax Directive is, in
+principle, applied by Member States as from 1 July 2005 and has been implemented in Luxembourg by
+the laws of 21 June 2005. Under the EU Savings Tax Directive, each Member State is required to provide
+to the tax authorities of another Member State details of payments of interest or other similar income,
+within the meaning of the EU Savings Tax Directive, paid by a paying agent within the meaning of the
+EU Savings Tax Directive to an individual resident or certain types of entities called "residual entities",
+within the meaning of the EU Savings Tax Directive (the "Residual Entity" or "Residual Entities"),
+established in that other Member State (or certain dependent or associated territories). For a transitional
+period, however, Austria and Luxembourg are permitted to apply an optional information reporting
+system whereby if a beneficial owner, within the meaning of the EU Savings Tax Directive, does not
+comply with one of two procedures for information reporting, the relevant Member State will levy a
+withholding tax on payments to such beneficial owner. The withholding tax system applies for a
+transitional period during which the rate of the withholding is 35 per cent. as from 1 July 2011. The
+transitional period is to terminate at the end of first full fiscal year following agreement by certain nonEU countries to the exchange of information relating to such payments.
+
+Also with effect from 1 July 2005, a number of non-EU countries (Switzerland, Andorra, Liechtenstein,
+Monaco and San Marino) and certain dependent or associated territories (Jersey, Guernsey, Isle of Man,
+Montserrat, British Virgin Islands, Netherlands Antilles, Aruba, Turk and Caïcos, Anguilla and the
+Cayman Islands) have agreed to adopt similar measures (either provision of information or transitional
+withholding) in relation to payments made by a paying agent (within the meaning of the EU Savings Tax
+
+
+-----
+
+Directive) within its jurisdiction to, or collected by such a paying agent for, an individual resident or a
+Residual Entity established in a Member State. In addition, Luxembourg has entered into reciprocal
+provision of information or transitional withholding arrangements with those dependent or associated
+territories in relation to payments made by a paying agent (within the meaning of the EU Savings Tax
+Directive) in a Member State to, or collected by such a paying agent for, an individual resident or a
+Residual Entity established in one of those territories.
+
+The European Commission has announced on 13 November 2008 proposals to amend the EU Savings
+Tax Directive. If implemented, the proposed amendments would, _inter alia, (i) extend the scope of the_
+EU Savings Tax Directive to payments made through certain intermediate structures (whether or not
+established in an EU Member State) for the ultimate benefit of EU resident individuals, and (ii) provide
+for a wider definition of interest subject to the EU Savings Tax Directive. The European Parliament
+approved an amended version of this proposal on 24 April 2009. Investors who are in any doubt as to
+their position should consult their professional advisers.
+
+
+-----
+
+**SUBSCRIPTION AND SALE**
+
+Notes may be sold from time to time by the Issuer to any one or more of BNP Paribas, Danske Bank A/S,
+Deutsche Bank AG, London Branch, J.P. Morgan Securities Ltd., Morgan Stanley & Co. International
+plc, Nordea Bank Danmark A/S and Skandinaviska Enskilda Banken AB (publ) as Dealers. The
+arrangements under which Notes may from time to time be agreed to be sold by the Issuer to, and
+purchased by, Dealers are set out in a Dealer Agreement dated 10 February 2011 (the "Dealer
+**Agreement") and made between the Issuer and the Dealers. Any such agreement will,** _inter alia, make_
+provision for the form and terms and conditions of the relevant Notes, the price at which such Notes will
+be purchased by the Dealers and the commissions or other agreed deductibles (if any) payable or
+allowable by the Issuer in respect of such purchase. The Dealer Agreement makes provision for the
+resignation or termination of appointment of existing Dealers and for the appointment of additional or
+other Dealers either generally in respect of the Programme or in relation to a particular Tranche of Notes.
+
+**United States of America: Regulation S Category 2; TEFRA D or TEFRA C as specified in the relevant**
+_Final Terms or neither if TEFRA is specified as not applicable in the relevant Final Terms._
+
+The Notes have not been and will not be registered under the Securities Act and may not be offered or
+sold within the United States or to, or for the account or benefit of, U.S. persons except in certain
+transactions exempt from the registration requirements of the Securities Act. Terms used in this paragraph
+have the meanings given to them by Regulation S.
+
+The Bearer Notes are subject to U.S. tax law requirements and may not be offered, sold or delivered
+within the United States or its possessions or to a United States person, except in certain transactions
+permitted by U.S. tax regulations. Terms used in this paragraph have the meanings given to them by the
+United States Internal Revenue Code and regulations thereunder.
+
+Each Dealer has severally agreed that, and each further Dealer appointed under the Programme will be
+required to agree that, except as permitted by the Dealer Agreement, it will not offer, sell or deliver
+Notes, (i) as part of their distribution at any time or (ii) otherwise until 40 days after the completion of the
+distribution of the Notes comprising the relevant Tranche, as certified to the Fiscal Agent or the Issuer by
+such Dealer (or, in the case of a sale of a Tranche of Notes to or through more than one Dealer, by each of
+such Dealers as to the Notes of such Tranche purchased by or through it, in which case the Fiscal Agent
+or the Issuer shall notify each such Dealer when all such Dealers have so certified) within the United
+States or to, or for the account or benefit of, U.S. persons, and such Dealer will have sent to each dealer to
+which it sells Notes during the distribution compliance period relating thereto a confirmation or other
+notice setting forth the restrictions on offers and sales of the Notes within the United States or to, or for
+the account or benefit of, U.S. persons.
+
+In addition, until 40 days after the commencement of the offering of Notes comprising any Tranche, any
+offer or sale of Notes within the United States by any dealer (whether or not participating in the offering)
+may violate the registration requirements of the Securities Act.
+
+**Public Offer Selling Restriction Under the Prospectus Directive**
+
+In relation to each Relevant Member State, each Dealer has severally represented and agreed, and each
+further Dealer appointed under the Programme will be required to represent and agree, that with effect
+from and including the date on which the Prospectus Directive is implemented in that Relevant Member
+State (the "Relevant Implementation Date") it has not made and will not make an offer of Notes which
+are the subject of the offering contemplated by this Base Prospectus as completed by the Final Terms in
+relation thereto (or are the subject of the offering contemplated by a Drawdown Prospectus, as the case
+may be) to the public in that Relevant Member State except that it may, with effect from and including
+the Relevant Implementation Date, make an offer of such Notes to the public in that Relevant Member
+State:
+
+(a) _Qualified investors: at any time to any legal entity which is a qualified investor as defined in the_
+Prospectus Directive;
+
+(b) _Fewer than 100 offerees: at any time to fewer than 100 or, if the Relevant Member State has_
+implemented the relevant provision of the 2010 PD Amending Directive, 150, natural or legal
+persons (other than qualified investors as defined in the Prospectus Directive), subject to
+
+
+-----
+
+obtaining the prior consent of the relevant Dealer or Dealers nominated by the Issuer for any such
+offer; or
+
+(c) _Other exempt offers: at any time in any other circumstances falling within Article 3(2) of the_
+Prospectus Directive,
+
+**provided that no such offer of Notes referred to in (a) to (c) above shall require the Issuer or any Dealer**
+to publish a prospectus pursuant to Article 3 of the Prospectus Directive, or supplement a prospectus
+pursuant to Article 16 of the Prospectus Directive.
+
+For the purposes of this provision, the expression an "offer of Notes to the public" in relation to any
+Notes in any Relevant Member State means the communication in any form and by any means of
+sufficient information on the terms of the offer and the Notes to be offered so as to enable an investor to
+decide to purchase or subscribe the Notes, as the same may be varied in that Member State by any
+measure implementing the Prospectus Directive in that Member State.
+
+**United Kingdom**
+
+Each Dealer has severally represented, warranted and agreed that, and each further Dealer appointed
+under the Programme will be required to represent, warrant and agree that:
+
+(a) _No deposit-taking: in relation to any Notes having a maturity of less than one year:_
+
+(i) it is a person whose ordinary activities involve it in acquiring, holding, managing or
+disposing of investments (as principal or agent) for the purposes of its business; and
+
+(ii) it has not offered or sold and will not offer or sell any Notes other than to persons:
+
+(A) whose ordinary activities involve them in acquiring, holding, managing or
+disposing of investments (as principal or agent) for the purposes of their
+businesses; or
+
+(B) who it is reasonable to expect will acquire, hold, manage or dispose of
+investments (as principal or agent) for the purposes of their businesses,
+
+where the issue of the Notes would otherwise constitute a contravention of Section 19 of
+the Financial Services and Markets Act 2000 (the "FMSA") by the Issuer;
+
+(b) _Financial promotion: it has only communicated or caused to be communicated and will only_
+communicate or cause to be communicated any invitation or inducement to engage in investment
+activity (within the meaning of section 21 of the FSMA) received by it in connection with the
+issue or sale of any Notes in circumstances in which section 21(1) of the FSMA does not apply to
+the Issuer; and
+
+(c) _General compliance: it has complied and will comply with all applicable provisions of the FSMA_
+with respect to anything done by it in relation to any Notes in, from or otherwise involving the
+United Kingdom.
+
+**Japan**
+
+The Notes have not been and will not be registered under the Financial Instruments and Exchange Act of
+Japan (Law No. 25 of 1948, as amended) and, accordingly, each Dealer has undertaken that, and each
+further Dealer appointed under the Programme will be required to undertake that, it will not offer or sell
+any Notes directly or indirectly, in Japan or to, or for the benefit of, any Japanese Person or to others for
+re-offering or resale, directly or indirectly, in Japan or to any Japanese Person except under circumstances
+which will result in compliance with all applicable laws, regulations and guidelines promulgated by the
+relevant Japanese governmental and regulatory authorities and in effect at the relevant time. For the
+purposes of this paragraph, "Japanese Person" shall mean any resident of Japan, as defined under Item 5,
+Paragraph 1, Article 6 of the Foreign Exchange and Foreign Trade Control Law (Law No. 228 of 1949, as
+amended).
+
+
+-----
+
+**Denmark**
+
+Each Dealer has severally represented and agreed that, and each further Dealer appointed under the
+Programme will be required to represent and agree that, it has not offered or sold and will not offer, sell
+or deliver any of the Notes directly or indirectly in Denmark by way of public offering, unless in
+compliance with the Danish Securities Trading Act (Consolidated Act No. 883 of 9 August 2011 as
+amended, in Danish: Værdipapirhandelsloven) and Executive Orders issued thereunder, as amended.
+
+**General**
+
+Each Dealer has severally represented, warranted and agreed that it has complied and will comply with all
+applicable laws and regulations in each country or jurisdiction in or from which it purchases, offers, sells
+or delivers Notes or possesses, distributes or publishes this Base Prospectus or any Final Terms or any
+related offering material, in all cases at its own expense. Other persons into whose hands this Base
+Prospectus or any Final Terms comes are required by the Issuer and the Dealers to comply with all
+applicable laws and regulations in each country or jurisdiction in or from which they purchase, offer, sell
+or deliver Notes or possess, distribute or publish this Base Prospectus or any Final Terms or any related
+offering material, in all cases at their own expense.
+
+The Dealer Agreement provides that the Dealers shall not be bound by any of the restrictions relating to
+any specific jurisdiction (set out above) to the extent that such restrictions shall, as a result of change(s) or
+change(s) in official interpretation, after the date hereof, of applicable laws and regulations, no longer be
+applicable but without prejudice to the obligations of the Dealers described in the paragraph headed
+"General" above.
+
+Selling restrictions may be supplemented or modified with the agreement of the Issuer. Any such
+supplement or modification may be set out in the relevant Final Terms (in the case of a supplement or
+modification relevant only to a particular Tranche of Notes) or in a supplement to this Base Prospectus.
+
+
+-----
+
+**GENERAL INFORMATION**
+
+**Authorisation**
+
+1. The update of the Programme was authorised by a resolution of the Board of Directors of the
+Issuer passed on 3 February 2011. The Issuer has obtained or will obtain from time to time all
+necessary consents, approvals and authorisations in connection with the issue and performance
+of the Notes and the relating to them.
+
+**Legal and Arbitration Proceedings**
+
+2. The Issuer is not and has not been involved in any governmental, legal or arbitration
+proceedings (including any such proceedings which are pending or threatened of which the
+Issuer is aware) in the 12 months preceding the date of this Base Prospectus which may have or
+have in such period had a significant effect on the financial position or profitability of the
+Issuer.
+
+**Significant/Material Change**
+
+3. Since 31 December 2011 there has been no material adverse change in the prospects of the
+Issuer and since 31 December 2011 there has been no significant change in the financial or
+trading position of the Issuer.
+
+**Auditors**
+
+4. The auditors of the Issuer are PricewaterhouseCoopers Statsautoriseret Revisionspartnerselskab,
+state-authorised public accountants, who have audited the Issuer's accounts, without
+qualification, in accordance with International and Danish auditing standards for the financial
+years ended on 31 December 2011 and 31 December 2010. The auditors of the Issuer have no
+material interest in the Issuer. PricewaterhouseCoopers Statsautoriseret
+Revisionspartnerselskab are members of the "FSR - Danish Auditors", the Danish Association
+of Approved Auditors.
+
+**Documents on Display**
+
+5. For the period of 12 months following the date of this Base Prospectus, copies of the following
+documents will be available for inspection, free of charge, during normal business hours on any
+day (excluding Saturdays, Sundays and public holidays) at the offices of the Issuer at
+Teglholmsgade 3, DK-0900 Copenhagen C, Denmark and the offices of the Fiscal Agent
+Deutsche Bank AG, London Branch at Winchester House, 1 Great Winchester Street, London
+EC2N 2DB, United Kingdom and the Registrar Deutsche Bank Luxembourg S.A. at 2
+Boulevard Konrad Adenauer, L 1115 Luxembourg, Grand Duchy of Luxembourg and can be
+obtained, free of charge, from the Issuer at Teglholmsgade 3, 0900 Copenhagen C, Denmark
+(telephone: +45 66 63 76 80; fax: +45 33 15 75 70; email: investorrelations@tdc.dk):
+
+(a) the Articles of Association (with an English translation thereof) of the Issuer;
+
+(b) the consolidated audited financial statements of the Issuer in respect of the financial
+years ended 31 December 2011 and 31 December 2010, in each case together with the
+audit reports in connection therewith;
+
+(c) this Base Prospectus;
+
+(d) the Agency Agreement;
+
+(e) the Deed of Covenant;
+
+(f) the Dealer Agreement; and
+
+(g) the Issuer-ICSDs Agreement entered into between the Issuer and Euroclear and
+Clearstream, Luxembourg with respect to the settlement in Euroclear and/or Clearstream,
+
+
+-----
+
+Luxembourg of Notes in New Global Note form or to be held under the New
+Safekeeping Structure).
+
+6. In accordance with Danish company law, the Issuer's audited annual reports and those of its
+Danish subsidiaries, including the financial statements and the independent accountants'
+opinion contained therein, their respective memorandums of association and articles of
+association are also available from the Danish Commerce and Companies Agency.
+
+7. This Base Prospectus and the documents specified above as containing information
+incorporated by reference in this Base Prospectus will also be available on the website of the
+Luxembourg Stock Exchange (www.bourse.lu).
+
+**Material Contracts**
+
+8. Save as disclosed in this Base Prospectus, the Issuer has not entered into any contracts in the
+last two years outside the ordinary course of its business which could result in the Issuer being
+under an obligation or entitlement that is material to its ability to meet its obligations in respect
+of the Notes.
+
+**Clearing of the Notes**
+
+9. The Notes have been accepted for clearance through Euroclear and Clearstream, Luxembourg.
+The address of Euroclear is 1 Boulevard du Roi Albert II, B-1210 Brussels, Belgium and the
+address of Clearstream, Luxembourg is 42 Avenue JF Kennedy, L 1855 Luxembourg, Grand
+Duchy of Luxembourg.
+
+10. The appropriate common code and the International Securities Identification Number (ISIN) in
+relation to the Notes of each Tranche will be specified in the relevant Final Terms. The relevant
+Final Terms shall specify any other clearing system as shall have accepted the relevant Notes
+for clearance together with any further appropriate information.
+
+**Dealers Transacting with the Issuer**
+
+11. Certain of the Dealers and their affiliates have engaged, and may in the future engage, in
+investment banking and/or commercial banking transactions with, and may perform services to
+the Issuer and its affiliates in the ordinary course of business.
+
+**Use of Proceeds**
+
+12. The net proceeds of the issue of each Tranche of Notes will be used by the Issuer for the
+general corporate and financing purposes of the TDC Group.
+
+
+-----
+
+**GLOSSARY OF TECHNICAL TERMS**
+
+_The following explanations are not intended as technical definitions, but to assist the general reader to_
+_understand certain terms as used in this Base Prospectus:_
+
+"3G" means third-generation mobile networks that can deliver voice, data and multimedia content at high
+speed.
+
+"ADSL" means Asymmetric Digital Subscriber Line, which is based on DSL technology.
+
+"ARPU" means the Average Revenue Per User and is calculated per month. TDC calculates ARPU for a
+given product group as its total revenue divided by the average RGUs in the period. ARPU includes gross
+traffic revenue unless otherwise stated.
+
+"Broadband" means data communication forms of a certain bandwidth that depending on the relevant
+context is perceived to be significantly high or 'wide' in terms of information-carrying capacity. The most
+common broadband technologies are cable modem, DSL, mobile broadband and optical fibre. TDC
+applies NITA's definition in which broadband implies bandwidths higher than 144 kbps.
+
+"BSA" or "bitstream access" means the situation where a provider installs a high-speed access link at the
+customer's premises and then makes this access link available to third parties, to enable them to provide
+high-speed services to customers.
+
+"Coax" means a technology based on coaxial cables - electrical cables with an inner conductor
+surrounded by a flexible, tubular insulating layer, surrounded by a tubular conducting shield. Coax is used
+to transmit, among other things, radio frequency signals and distributing cable television signals.
+
+"CPE" or "customer premises equipment" means equipment that is implemented or installed at a
+customer's premises. CPE includes the hardware required to handle TV as well as telephony and data
+traffic. Products handling telephony traffic range from large PABXs for the largest business corporations,
+to single telephones sold to small business customers and retail customers. Products handling data traffic
+consist mainly of routers, switches, DSL modems and other bridging equipment used to create LAN and
+WAN solutions.
+
+"DSL" or "digital subscriber line" means a technology that enables a local-loop copper pair to transport
+high-speed data between an exchange building and the customers' premises.
+
+"DTH" or "direct-to-home" refers to digital TV transmitted directly to households via satellite.
+
+"DTT" means digital terrestrial television, which is a digital signal broadcast to standard aerials that are
+utilised to replace the, in Denmark, discontinued analogue signal.
+
+"Dual-play" means the bundling of telephony and internet through one access channel only. Dual-play
+bundles are included as two customers in the total customer figures. All Fullrate xDSL customers are
+included as dual-play customers. A dual-play subscription must entail both services.
+
+"Ethernet" means a type of networking technology for LANs and is increasingly used in the IP-networks.
+
+"Fibre optics communication" or "fibre" means a technology used to transmit telephone signals, internet
+communications, and cable television signals. Due to much lower loss of intensity and interference,
+optical fibre has large advantages over existing copper wire in long-distance and high-demand
+applications.
+
+"GSM" or "global system for mobile communications" means a comprehensive digital network for the
+operation of all aspects of a mobile telephone system.
+
+"IP" or "internet protocol" means a standard protocol whereby internet-user data is divided into packets
+to be sent onto the correct network pathway. In addition, IP gives each packet an assigned number so that
+the message completion can be verified. Before packets are delivered to their destination, the protocol
+carries unifying procedures so that they are delivered in their original form.
+
+
+-----
+
+"IP-VPN" means IP-based Virtual Private Network, which is a network that enables organisations to use
+a shared network to connect remote sites or users together.
+
+"ISDN" or "integrated services digital network" means a means of providing more channels of 64 kbps
+over the existing regular phone line, which can be used for either integrated voice and data or solely data
+transmission. An ISDN modem is necessary to connect to the network. The ISDN technology enables 230 channels at the same line.
+
+"kbps" means kilobits per second.
+
+"LAN" or "local area network" refers to a short-distance data communications network (typically within
+a company) used to link computers, which allows data and printer sharing.
+
+"LTE" or "long term evolution" means a set of enhancements to UMTS designed to increase capacity
+and speed on mobile telephone networks.
+
+"MNO" or "mobile network operator" means a company that has frequency allocation(s), as opposed to
+a MVNO, and all the required infrastructure to run an independent mobile network.
+
+"MVNO" or "mobile virtual network operators" means a mobile operator that does not have frequency
+allocation. MVNOs have business arrangements with MNOs to buy traffic and data for sale to their own
+customers.
+
+"OTT" or "over the top" refers to online delivery of video and audio without the internet service
+provider being involved in the control or distribution of the content itself.
+
+"OPEX" means operational expenditure.
+
+"PABX" or "private automatic branch exchange" is an automatic telephone switching system within a
+private enterprise. Originally, such systems - called private branch exchanges (PBX) - required the use of
+a live operator. As today almost all private branch exchanges are automatic, the abbreviation PBX has
+been extended to PABX.
+
+"Prepaid" means when the customer pays for a specified amount of credit for services upfront. The credit
+then diminishes as the customer uses the service. TDC considers online systems with prepayment
+characteristics to be mobile voice subscriptions, as users create accounts and generally remain subscribers
+longer. As a result, customers at Telmore and M1 are considered as mobile voice subscriptions.
+
+"PSTN" or "public switched telephone network" means the telecommunications network based on
+copper lines carrying analogue voice and data - traditional landline telephony.
+
+"RGU" means the total number of customer relationships that generate revenue for TDC, including
+customers with subscription and customers without subscriptions calculated according to the following
+general principles: Landline customers who have generated revenue within the last 3 months; prepaid
+cards used at least once within the last 3 months; dial-up internet customers who accessed the internet at
+least once within the last 3 months. TDC's RGU statement includes the number of main products sold by
+TDC's residential, business and wholesale segments. The number of customers is not equal to the number
+of subscribers. An enterprise with 100 mobile voice subscriptions from TDC will be included as 100
+RGUs in the RGU statement. As regards wholesale customers, a broadband provider with 20,000 BSA
+connections from TDC will be included as 20,000 RGUs. For other networks and data connections, the
+RGU category that is part of TDC's RGU base includes ULL, leased lines, fibre and data connection.
+Mobile broadband RGUs include mobile data cards and mobile broadband subscriptions. Dual- and tripleplay bundles are included as two and three RGUs, respectively, in the total RGU figures. A YouSee TV
+customer subscribing to the digital TV add-on product YouSee Plus will be included as two TV RGUs.
+The term "RGU" does not reflect the number of actual end-users, e.g., an ISDN30 connection counts only
+as one RGU in TDC's customer base even though this product may involve 30 end-users.
+
+"SDH" or "Synchronous Digital Hierarchy" means a standard technology for synchronous data
+transmission on optical media and provides faster and less-expensive network interconnection than
+traditional PDH (Plesiochronous Digital Hierarchy) equipment. In digital telephone transmission,
+synchronous means that the bits from one call are carried within one transmission frame. Plesiochronous
+means "almost synchronous" or a call that must be extracted from more than one transmission frame.
+
+
+-----
+
+"SHDSL" or "Symmetric High-speed Digital Subscriber Line" means DSL technology with symmetric
+data transmission.
+
+"Triple-play" means the bundling of telephony, internet and TV services through one access channel
+only. Triple play bundles are included as three customers in the total customer figures. A triple-play
+subscription must entail all three services.
+
+"TV" means television.
+
+"TVoIP" or "TV over internet protocol" means a system through which digital TV service is delivered
+using the internet and internet broadband access networks instead of being delivered through the
+traditional radio frequency broadcast, satellite signal or cable TV formats. TVoIP can be either IP TV or
+Web TV.
+
+"ULL" or "unbundled local loop" means copper lines to which competing carriers have been granted
+access by the incumbent operator, allowing such alternative carriers to offer data transmission capacity
+and/or telephony to end users. (ULL is often referred to as raw copper.) Full ULL is used for customers
+without PSTN/ISDN subscription (wholesale or retail at TDC), shared ULL is used for customers with
+PSTN/ISDN subscriptions.
+
+"UMTS" or "universal mobile telecommunications systems" means a 3G network designed to provide
+a wide range of voice, high-speed data and multimedia services.
+
+"VDSL" means a DSL technology that provides faster data transmission than other DSL technologies
+over copper wires.
+
+"VoD" or "video-on-demand" refers to transmission delivery of video (films or other video content) to a
+single user on request.
+
+"VoIP" or "voice over internet protocol" means a telephone call over the internet. VoIP can be either
+with quality of service, i.e., guarantee of call quality comparable to PSTN, achieved through prioritising
+the traffic. Alternatively, VoIP can be computer to computer calls, with unprioritised traffic. This traffic is
+generally of a lower quality and is affected by general network usage and will be interrupted by network
+congestion. TDC VoIP is with quality of service.
+
+"WAN" or "wide area network" refers to a long-distance data communications network and is a
+geographically dispersed collection of LANs. The internet, for instance, is a WAN, but a network
+between a company's divisions can also be a WAN.
+
+"xDSL" means a family of technologies that provides digital data transmission over copper wires. See
+also ADSL, VDSL and SHDSL.
+
+
+-----
+
+**REGISTERED OFFICE OF THE ISSUER**
+
+**TDC A/S**
+Teglholmsgade 3
+DK-0900 Copenhagen C
+
+Denmark
+
+**ARRANGER**
+
+**Deutsche Bank AG, London Branch**
+
+Winchester House
+1 Great Winchester Street
+
+London EC2N 2DB
+
+United Kingdom
+
+**DEALERS**
+
+
+**BNP Paribas**
+10 Harewood Avenue
+
+London NW1 6AA
+
+United Kingdom
+
+**Deutsche Bank AG, London Branch**
+
+Winchester House
+1 Great Winchester Street
+
+London EC2N 2DB
+
+United Kingdom
+
+**Morgan Stanley & Co. International plc**
+
+25 Cabot Square
+
+Canary Wharf
+London E14 4QA
+
+United Kingdom
+
+
+**Danske Bank A/S**
+2-12 Holmens Kanal
+DK-1092 Copenhagen K
+
+Denmark
+
+**J.P. Morgan Securities Ltd.**
+
+125 London Wall
+London EC2Y 5AJ
+
+United Kingdom
+
+**Nordea Bank Danmark A/S**
+
+Christiansbro
+
+Strandgade 3
+DK-1401 Copenhagen K
+
+Denmark
+
+
+**Skandinaviska Enskilda Banken AB (publ)**
+
+Kungsträdgårdsgatan 8
+
+SE-106 40 Stockholm
+
+Sweden
+
+**FISCAL AGENT AND PAYING AGENT**
+
+**Deutsche Bank AG, London Branch**
+
+Winchester House
+1 Great Winchester Street
+
+London EC2N 2DB
+
+United Kingdom
+
+**REGISTRAR, PAYING AGENT AND LUXEMBOURG LISTING AGENT**
+
+**Deutsche Bank Luxembourg S.A.**
+
+2 Boulevard Konrad Adenauer
+
+L 1115 Luxembourg
+Grand Duchy of Luxembourg
+
+
+-----
+
+**LEGAL ADVISERS**
+
+_To the Issuer as to English law:_ _To the Issuer as to Danish law:_
+
+
+**Clifford Chance LLP**
+
+10 Upper Bank Street
+
+London E14 5JJ
+United Kingdom
+
+
+**Kromann Reumert**
+
+Sundkrogsgade 5
+2100 Copenhagen Ø
+
+Denmark
+
+
+_To the Dealers as to English law:_
+
+**Allen & Overy LLP**
+
+One Bishops Square
+
+London E1 6AD
+United Kingdom
+
+**AUDITORS TO THE ISSUER**
+
+**PricewaterhouseCoopers**
+**Statsautoriseret Revisionspartnerselskab**
+
+Strandvejen 44
+
+2900 Hellerup
+
+Denmark
+
+
+-----
+
