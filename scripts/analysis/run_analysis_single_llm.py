@@ -136,8 +136,6 @@ def call_llm(llm, prompt_str: str) -> str:
 # 4. Define Prompt & Helper
 # -----------------------------
 DETECTION_PROMPT = """
-You are determining if the following text indicates the presence of the risk factor below.
-
 Question: {question}
 Title: {subsection_title}
 Text: {subsection_text}
@@ -254,7 +252,9 @@ def main():
 
         df_LLM = pd.read_csv(raw_file_path)
         
-        # Filter out rows where 'Section ID' == 'failed parsing'
+        # -------------------------------------------------------
+        # FILTER 1: Exclude rows where 'Section ID' == 'failed parsing'
+        # -------------------------------------------------------
         if 'Section ID' in df_LLM.columns:
             df_LLM = df_LLM[df_LLM['Section ID'] != "failed parsing"]
         else:
@@ -266,10 +266,25 @@ def main():
             sys.exit(1)
 
         # -------------------------------------------------------
+        # FILTER 2: Exclude entire prospectuses with PDF Page Count > 600
+        #            (i.e., remove those Prospectus IDs altogether)
+        # -------------------------------------------------------
+        if 'PDF Page Count' in df_LLM.columns:
+            high_page_ids = df_LLM.loc[df_LLM['PDF Page Count'] > 600, 'Prospectus ID'].unique()
+            df_LLM = df_LLM[~df_LLM['Prospectus ID'].isin(high_page_ids)]
+            print(f"Excluded {len(high_page_ids)} Prospectus IDs due to PDF Page Count > 600.")
+
+        # FILTER 3: Exclude rows where Section Title == "TABLE OF CONTENTS" or "CERTAIN DEFINITIONS"
+        # -------------------------------------------------------
+        if 'Section Title' in df_LLM.columns:
+            df_LLM = df_LLM[~df_LLM['Section Title'].isin(["TABLE OF CONTENTS", "CERTAIN DEFINITIONS"])]
+
+
+        # -------------------------------------------------------
         # PERFORM SAMPLING IF REQUESTED 
         # -------------------------------------------------------
         if perform_sampling:
-            sample_size = 100
+            sample_size = 25
             random_seed = 42
             unique_ids = df_LLM['Prospectus ID'].dropna().unique()
             if len(unique_ids) < sample_size:
@@ -292,26 +307,26 @@ def main():
 
     # -- Define questions (same columns as example, though only detection is used)
     questions_market_dynamics = {
-        "Market Dynamics - a": "Does the text mention that the company is exposed to risks associated with cyclical products?"
+        "Market Dynamics - a": "Does the text indicate that the company is exposed to risks associated with cyclical products?"
     }
     questions_intra_industry_competition = {
-        "Intra-Industry Competition - a": "Does the text mention that market pricing for the company's products or services is irrational or not based on fundamental factors?"
+        "Intra-Industry Competition - a": "Does the text indicate that market pricing for the company's products or services is irrational or not based on fundamental factors?"
     }
 
     questions_regulatory_framework = {
-        "Regulatory Framework - a": "Does the text mention that the industry is subject to a high degree of regulatory scrutiny?"
-        # ,"Regulatory Framework - b": "Does the text mention a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
     }
     questions_technology_risk = {
-        "Technology Risk - a": "Does the text mention that the industry is susceptible to rapid technological advances or innovations?"
-        # ,"Technology Risk - b": "Does the text mention that the company is perceived as a disruptor or is threatened by emerging technological changes?"
+        "Technology Risk - a": "Does the text indicate that the industry is susceptible to rapid technological advances or innovations?"
+        # ,"Technology Risk - b": "Does the text indicate that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
 
     all_question_dicts = [
         questions_market_dynamics
-        ,questions_intra_industry_competition,
-        questions_regulatory_framework,
-        questions_technology_risk
+        # ,questions_intra_industry_competition,
+        # questions_regulatory_framework,
+        # questions_technology_risk
     ]
 
 
@@ -363,17 +378,21 @@ def main():
     # -------------
     start_index = 0
     for index in tqdm(range(start_index, df_LLM.shape[0]), desc="Processing Rows"):
-
+        # IMPORTANT: pull the row for this specific index
+        row = df_LLM.iloc[index]
+        
+        # If the row is already fully processed, skip it
         if row_fully_processed(row, columns_to_process):
             continue
 
         subsection_title = str(row.get("Subsubsection Title", ""))
         subsection_text = str(row.get("Subsubsection Text", ""))
 
-        # If these are blank or invalid, skip
+        # Skip if the subsection text is blank
         if not subsection_text.strip():
             continue
 
+        # Process all question columns for this row
         for question_dict in all_question_dicts:
             for column_name, question in question_dict.items():
                 current_value = df_LLM.at[index, column_name]
