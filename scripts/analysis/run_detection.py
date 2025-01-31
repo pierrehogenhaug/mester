@@ -16,6 +16,13 @@ from pydantic import BaseModel, Field, field_validator, ValidationError
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
+# --------------------------------
+# 0. Run Guide
+# --------------------------------
+# python scripts/analysis/run_detection.py --csv_path "/path/to/some_parsed.csv"
+# python scripts/analysis/run_detection.py --rms_id ABC123
+# python scripts/analysis/run_detection.py --sample 3
+
 
 # --------------------------------
 # 1. JSON Extraction Helper
@@ -329,6 +336,19 @@ def main():
         default=5,
         help="Number of unique Prospectus IDs to sample when sampling is enabled (0 to disable)."
     )
+    parser.add_argument(
+        "--rms_id",
+        type=str,
+        default=None,
+        help="(Optional) Specific RMS ID to process (only the first suffix if multiple)."
+    )
+    parser.add_argument(
+        "--csv_path",
+        type=str,
+        default=None,
+        help="(Optional) Direct path to a single CSV to process."
+    )
+
     args = parser.parse_args()
 
     # Fix the random seed for reproducible sampling
@@ -346,16 +366,25 @@ def main():
         "Intra-Industry Competition - a": "Does the text indicate that market pricing for the company's products or services is irrational or not based on fundamental factors?"
     }
     all_question_dicts = [
-        questions_market_dynamics
-        # ,questions_intra_industry_competition
+        questions_market_dynamics,
+        # Add more question dictionaries if needed:
+        # questions_intra_industry_competition,
     ]
 
-    # 3) Collect all valid CSVs (PDF Page Count <= 600) grouped by base RMS ID
-    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-    processed_root = os.path.join(project_root, "data", "processed")
+    # If a direct CSV path is provided, process it immediately and exit
+    if args.csv_path:
+        print(f"Processing single CSV path: {args.csv_path}")
+        process_single_csv(
+            csv_path=args.csv_path,
+            llm=llm,
+            all_question_dicts=all_question_dicts,
+            partial_save=True
+        )
+        print("All done (single CSV).")
+        sys.exit(0)
 
-    # We'll store data as:
-    #   rms_id_to_csvs[base_rms_id] = [(suffix_val, csv_path), (suffix_val, csv_path), ...]
+    # 3) Build a dictionary of { base_rms_id -> [(suffix_val, csv_path), ...] }
+    processed_root = os.path.join(project_root, "data", "processed")
     rms_id_to_csvs = {}
 
     for root, dirs, files in os.walk(processed_root):
@@ -401,9 +430,29 @@ def main():
                     rms_id_to_csvs[base_rms_id] = []
                 rms_id_to_csvs[base_rms_id].append((suffix_val, csv_path))
 
-    # 4) Sampling logic
-    # If --sample <= 0, sampling is disabled (process all).
-    # Otherwise, sample up to X unique base RMS IDs.
+    # If a single RMS ID is requested, process only that one (lowest suffix if multiple)
+    if args.rms_id:
+        # Make sure we handle the case where it might have underscores
+        requested_base_id, _ = parse_rms_id_and_suffix(args.rms_id)
+        if requested_base_id not in rms_id_to_csvs:
+            print(f"No matching RMS ID found for {args.rms_id}. Exiting.")
+            sys.exit(0)
+        # Sort by suffix, pick the first
+        csv_entries = rms_id_to_csvs[requested_base_id]
+        csv_entries.sort(key=lambda x: x[0])  # sort by suffix_val
+        chosen_suffix, chosen_csv_path = csv_entries[0]
+        print(f"Found RMS ID {requested_base_id}, using suffix={chosen_suffix} -> {chosen_csv_path}")
+
+        process_single_csv(
+            csv_path=chosen_csv_path,
+            llm=llm,
+            all_question_dicts=all_question_dicts,
+            partial_save=True
+        )
+        print("All done (single RMS ID).")
+        sys.exit(0)
+
+    # 4) Otherwise, do the normal sampling logic (if sample > 0) or process all
     sample_size = args.sample
     all_rms_ids = list(rms_id_to_csvs.keys())
 
@@ -415,7 +464,7 @@ def main():
         else:
             sampled_rms_ids = all_rms_ids
     else:
-        # No sampling
+        # No sampling => process all RMS IDs
         sampled_rms_ids = all_rms_ids
 
     # 5) For each sampled base RMS ID, pick the CSV with the smallest suffix
@@ -423,7 +472,6 @@ def main():
         csv_entries = rms_id_to_csvs[base_rms_id]
         if not csv_entries:
             continue
-
         # Sort by suffix so that we pick the lowest suffix first
         csv_entries.sort(key=lambda x: x[0])  # (suffix_val, csv_path)
         chosen_suffix, chosen_csv_path = csv_entries[0]
@@ -438,7 +486,7 @@ def main():
         )
 
     print("All done.")
-
+    
 
 if __name__ == "__main__":
     main()
