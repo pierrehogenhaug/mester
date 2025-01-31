@@ -309,15 +309,15 @@ def main():
     questions_intra_industry_competition = {
         "Intra-Industry Competition - a": "Does the text indicate that market pricing for the company's products or services is irrational or not based on fundamental factors?"
     }
-
-    questions_regulatory_framework = {
-        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
-        # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
-    }
     questions_technology_risk = {
         "Technology Risk - a": "Does the text indicate that the industry is susceptible to rapid technological advances or innovations?"
         # ,"Technology Risk - b": "Does the text indicate that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    }
+
     all_question_dicts = [
         questions_market_dynamics,
         questions_intra_industry_competition,
