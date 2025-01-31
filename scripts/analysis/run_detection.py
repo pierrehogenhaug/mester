@@ -16,6 +16,8 @@ from pydantic import BaseModel, Field, field_validator, ValidationError
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
+from src.evaluation.evaluation_1 import evaluate_models
+
 # --------------------------------
 # 0. Run Guide
 # --------------------------------
@@ -380,6 +382,11 @@ def main():
             all_question_dicts=all_question_dicts,
             partial_save=True
         )
+        print("Finished processing. Now evaluating this single CSV...")
+
+        # Evaluate only that one file
+        evaluate_models(args.csv_path)
+        
         print("All done (single CSV).")
         sys.exit(0)
 
@@ -430,6 +437,9 @@ def main():
                     rms_id_to_csvs[base_rms_id] = []
                 rms_id_to_csvs[base_rms_id].append((suffix_val, csv_path))
 
+    # We'll collect all the CSVs we actually process in this list
+    processed_csv_paths = []
+
     # If a single RMS ID is requested, process only that one (lowest suffix if multiple)
     if args.rms_id:
         # Make sure we handle the case where it might have underscores
@@ -449,6 +459,11 @@ def main():
             all_question_dicts=all_question_dicts,
             partial_save=True
         )
+        processed_csv_paths.append(chosen_csv_path)
+
+        # Evaluate just this one
+        print(f"Evaluating {chosen_csv_path} now...")
+        evaluate_models(chosen_csv_path)
         print("All done (single RMS ID).")
         sys.exit(0)
 
@@ -485,7 +500,14 @@ def main():
             partial_save=True
         )
 
-    print("All done.")
+        processed_csv_paths.append(chosen_csv_path)
+
+    print("Finished processing all CSVs in this run.")
+
+    # Now do an aggregated evaluation over all processed CSVs
+    if processed_csv_paths:
+        print("\nRunning aggregated evaluation over all processed CSVs...")
+        evaluate_models(processed_csv_paths)
     
 
 if __name__ == "__main__":
