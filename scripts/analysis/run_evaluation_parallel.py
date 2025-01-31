@@ -167,32 +167,54 @@ def build_detection_prompt(input_data: Dict[str, Any]) -> str:
 # 5. Evaluation Prompt & Helper
 # --------------------------------
 EVALUATION_PROMPT = """
-We have two reference cases for context:
-(1) Negative Case Example:
-{negative_case}
+You are responsible for verifying the evaluation of the following risk factor: {question}
+Text Under Review:
+{subsection_title}
+{subsection_text}
 
-(2) Positive Case Example:
+A previous evaluation concluded:
+Answer: {answer}
+Evidence: {evidence}
+
+We have two reference cases for context:
+(1) Example where the risk factor is not present:
+{negative_case}
+(2) Example where the risk factor is present:
 {positive_case}
 
-Given the text: {prospectus_text}
-Given the detection step answer: {answer}
-Given the detection step evidence (if any): {evidence}
+Your Task:
+1. Analyze the Evidence:
+   - Review the "Evidence" provided in the context of the "Text Under Review".
+   
+2. Compare with Reference Cases:
+   - Positive Reference: Determine if the evidence aligns closely with case (1)
+   - Negative Reference: Assess whether the evidence is more consistent with the case (2) or if it lacks sufficient support.
 
-Please provide your evaluation in JSON with the same structure:
+3. Decide on the Final Answer:
+   - Confirm "Yes": If the evidence matches the Positive Case, indicating the presence of the risk factor.
+   - Override to "No": If the evidence is weak, inconsistent with the Positive Case, or aligns more with the Negative Case.
+
+4. Provide Reasoning:
+   - Offer a brief explanation supporting your decision.
+
+Please provide your evaluation in JSON with the following structure:
 {{
   "Answer": "Yes" or "No",
-  "Evidence": "If 'Yes', provide relevant evidence or reasoning; else blank"
+  "Reasoning": "A brief explanation of your decision."
 }}
 """
 
 def build_evaluation_prompt(input_data: Dict[str, Any]) -> str:
     return EVALUATION_PROMPT.format(
-        negative_case=input_data["negative_case"],
-        positive_case=input_data["positive_case"],
-        prospectus_text=input_data["prospectus_text"],
+        question=input_data["question"],
+        subsection_title=input_data["subsection_title"],
+        subsection_text=input_data["subsection_text"],
         answer=input_data["answer"],
-        evidence=input_data["evidence"]
+        evidence=input_data["evidence"],
+        negative_case=input_data["negative_case"],
+        positive_case=input_data["positive_case"]
     )
+
 
 # --------------------------------
 # 6. Detection Step
@@ -225,21 +247,31 @@ def run_detection_step(llm, question: str, subsection_title: str, subsection_tex
     # If all retries fail
     return (None, None, max_retries, prompt_str)
 
+
 # --------------------------------
 # 7. Evaluation Step
 # --------------------------------
-def run_evaluation_step(llm, refs: Dict[str, str], subsection_text: str,
-                        detection_answer: str, detection_evidence: str,
-                        max_retries=3):
+def run_evaluation_step(
+    llm,
+    question_str: str,
+    subsection_title: str,
+    subsection_text: str,
+    refs: Dict[str, str],
+    detection_answer: str,
+    detection_evidence: str,
+    max_retries: int = 3
+):
     """
     Runs the evaluation step with retries, returning either a valid LlmEvaluationResponse
     or None if it fails all attempts.
     """
     # Build the input for step 2
     step2_input = {
+        "question": question_str,
+        "subsection_title": subsection_title,
+        "subsection_text": subsection_text,
         "negative_case": refs["negative_case"],
         "positive_case": refs["positive_case"],
-        "prospectus_text": subsection_text,
         "answer": detection_answer,
         "evidence": detection_evidence or "",
     }
@@ -407,7 +439,6 @@ def process_single_csv(
 
     if all_rows_done:
         print(f"  -> All rows in {os.path.basename(csv_path)} are already processed (detection). Checking evaluation step next...")
-        # return
 
     # Process row-by-row
     print(f"  -> Processing {csv_path} (Detection + Evaluation) ...")
@@ -492,11 +523,13 @@ def process_single_csv(
 
                 detection_answer = detection_dict.get("answer", "")
                 detection_evidence = detection_dict.get("evidence", "")
-
+                
                 evaluation_result, evaluation_raw, evaluation_attempt, evaluation_prompt_str = run_evaluation_step(
                     llm=llm,
-                    refs=refs,
+                    question_str=question_str,
+                    subsection_title=subsection_title,
                     subsection_text=subsection_text,
+                    refs=refs,
                     detection_answer=detection_answer,
                     detection_evidence=detection_evidence,
                     max_retries=3
