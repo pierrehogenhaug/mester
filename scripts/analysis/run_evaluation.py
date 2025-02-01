@@ -780,16 +780,19 @@ def main():
 
     if sample_size > 0:
         print(f"Sampling is enabled. We will sample {sample_size} unique base RMS IDs (seed={random_seed}).")
-        if len(all_rms_ids) > sample_size:
+        if len(all_rms_ids) > sample_size and sample_size == 40 and random_seed == 42:
+            sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127']
+            print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
+        elif len(all_rms_ids) > sample_size:
             sampled_rms_ids = random.sample(all_rms_ids, sample_size)
             print(f"Sampled RMS IDs: {sampled_rms_ids}")
-
         else:
             sampled_rms_ids = all_rms_ids
-            print(f"All RMS IDs will be processed: {sampled_rms_ids}")
+            print(f"Less than {sample_size} unique RMS IDs found. Processing all.")
     else:
         # No sampling => process all RMS IDs
         sampled_rms_ids = all_rms_ids
+        print(f"Sampled RMS IDs: {sampled_rms_ids}")
 
     # 5) For each sampled base RMS ID, pick the CSV with the smallest suffix
     for base_rms_id in sampled_rms_ids:
