@@ -506,9 +506,9 @@ def main():
             md_file_key = os.path.relpath(md_file_path, project_root)
 
             # If skipping re-parsed files is desired:
-            if md_file_key in pdf_to_prospectus_id:
-                print(f"Skipping already-processed {md_file_path}")
-                continue
+            # if md_file_key in pdf_to_prospectus_id:
+            #     print(f"Skipping already-processed {md_file_path}")
+            #     continue
 
             # Build a new prospectus_id
             count_for_this_rms = prospectus_counter[rms_id_str]
@@ -551,10 +551,18 @@ def main():
                 #  into a separate CSV in as_expected/
                 # -----------------------------------
                 df_out = pd.DataFrame(data)
-                out_csv_filename = md_filename.replace('.md', '_parsed.csv')
-                out_csv_path = os.path.join(as_expected_folder, out_csv_filename)
-                df_out.to_csv(out_csv_path, index=False)
-                print(f"Saved parsed data to: {out_csv_path}")
+
+                # commented out these lines to save an empty copy csv for intra annotator agreement
+                # out_csv_filename = md_filename.replace('.md', '_parsed.csv')
+                # out_csv_path = os.path.join(as_expected_folder, out_csv_filename)
+                # df_out.to_csv(out_csv_path, index=False)
+                # print(f"Saved parsed data to: {out_csv_path}")
+
+                # added next 4 lines to save an empty copy csv for intra annotator agreement
+                extra_csv_filename = md_filename.replace('.md', '_parsed_2.csv')
+                extra_csv_path = os.path.join(as_expected_folder, extra_csv_filename)
+                df_out.to_csv(extra_csv_path, index=False)
+                print(f"Saved extra parsed data to: {extra_csv_path}")
 
                 # Mark as processed so we don't re-parse it next time
                 pdf_to_prospectus_id[md_file_key] = prospectus_id
