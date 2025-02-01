@@ -166,38 +166,76 @@ def build_detection_prompt(input_data: Dict[str, Any]) -> str:
 # --------------------------------
 # 5. Evaluation Prompt & Helper
 # --------------------------------
-EVALUATION_PROMPT = """
-You are responsible for verifying the evaluation of the following risk factor: {question}
-Text Under Review:
-{subsection_title}
-{subsection_text}
+# EVALUATION_PROMPT = """
+# You are responsible for verifying the evaluation of the following risk factor: {question}
+# Text Under Review:
+# {subsection_title}
+# {subsection_text}
 
-A previous evaluation concluded:
+# A previous evaluation concluded:
+# Answer: {answer}
+# Evidence: {evidence}
+
+# We have two reference cases for context:
+# (1) Example where the risk factor is not present:
+# {negative_case}
+# (2) Example where the risk factor is present:
+# {positive_case}
+
+# Your Task:
+# 1. Analyze the Evidence:
+#    - Review the "Evidence" provided in the context of the "Text Under Review".
+   
+# 2. Compare with Reference Cases:
+#    - Positive Reference: Determine if the evidence aligns closely with case (1)
+#    - Negative Reference: Assess whether the evidence is more consistent with the case (2) or if it lacks sufficient support.
+
+# 3. Decide on the Final Answer:
+#    - Confirm "Yes": If the evidence matches the Positive Case, indicating the presence of the risk factor.
+#    - Override to "No": If the evidence is weak, inconsistent with the Positive Case, or aligns more with the Negative Case.
+
+# 4. Provide Reasoning:
+#    - Offer a brief explanation supporting your decision.
+
+# Please provide your evaluation in JSON with the following structure:
+# {{
+#   "Answer": "Yes" or "No",
+#   "Reasoning": "A brief explanation of your decision."
+# }}
+# """
+
+EVALUATION_PROMPT = """
+You are a risk assessment evaluator. Your task is to verify whether the following risk factor is truly present in the given subsection of a bond prospectus.
+
+Risk Factor Question:
+{question}
+
+Text Under Review:
+Title: {subsection_title}
+Text: {subsection_text}
+
+Previous Evaluation Output:
 Answer: {answer}
 Evidence: {evidence}
 
-We have two reference cases for context:
-(1) Example where the risk factor is not present:
+Reference Examples:
+(1) Negative Example (Risk Absent):
 {negative_case}
-(2) Example where the risk factor is present:
+
+(2) Positive Example (Risk Present):
 {positive_case}
 
-Your Task:
-1. Analyze the Evidence:
-   - Review the "Evidence" provided in the context of the "Text Under Review".
-   
-2. Compare with Reference Cases:
-   - Positive Reference: Determine if the evidence aligns closely with case (1)
-   - Negative Reference: Assess whether the evidence is more consistent with the case (2) or if it lacks sufficient support.
+Instructions:
+1. Analyze the provided Evidence in the context of the Text Under Review.
+2. Compare the Evidence with the Reference Examples:
+   - If the Evidence clearly follows the pattern of the Positive Example (indicating the risk factor is present), then the correct answer should be "Yes".
+   - If the Evidence is weak, ambiguous, or aligns more with the Negative Example (indicating the risk factor is absent), then the correct answer should be "No".
+3. Decide whether to confirm the previous evaluation or override it:
+   - Confirm "Yes" if the evidence strongly supports the presence of the risk factor.
+   - Override to "No" if the evidence does not convincingly indicate the risk factor.
+4. Provide a concise explanation for your decision.
 
-3. Decide on the Final Answer:
-   - Confirm "Yes": If the evidence matches the Positive Case, indicating the presence of the risk factor.
-   - Override to "No": If the evidence is weak, inconsistent with the Positive Case, or aligns more with the Negative Case.
-
-4. Provide Reasoning:
-   - Offer a brief explanation supporting your decision.
-
-Please provide your evaluation in JSON with the following structure:
+Output your final evaluation in JSON with the following structure:
 {{
   "Answer": "Yes" or "No",
   "Reasoning": "A brief explanation of your decision."
@@ -509,33 +547,40 @@ def process_single_csv(
                     # Means detection completely failed
                     continue
 
-                # Check if evaluation step has already been run
-                if "evaluation_step_parsed" in detection_dict:
-                    # If the evaluation results have already been saved under the new keys, skip.
-                    if "evaluation_answer" in detection_dict and "evaluation_evidence" in detection_dict:
-                        continue
-                    else:
-                        # Otherwise, reconstruct the correct keys using the parsed data.
-                        # Restore the detection result (if available) from detection_step_parsed.
-                        detection_parsed = detection_dict.get("detection_step_parsed", {})
-                        if isinstance(detection_parsed, dict):
-                            detection_dict["answer"] = detection_parsed.get("answer", "")
-                            detection_dict["evidence"] = detection_parsed.get("evidence", "")
-                        # Extract evaluation results from evaluation_step_parsed.
-                        evaluation_parsed = detection_dict.get("evaluation_step_parsed", {})
-                        if isinstance(evaluation_parsed, dict):
-                            detection_dict["evaluation_answer"] = evaluation_parsed.get("answer", "")
-                            detection_dict["evaluation_evidence"] = evaluation_parsed.get("evidence", "")
-                        # Save the fixed cell back to the DataFrame.
-                        df.at[index, column_name] = json.dumps(detection_dict)
-                        continue     
-
-                # -- EVALUATION --
-                # Grab references for this column (if any), else blank
+                # -------------------------------
+                # -- EVALUATION (ALWAYS RUN) --
+                # -------------------------------
                 refs = references_dict.get(column_name, {
                     "negative_case": "",
                     "positive_case": ""
                 })
+                # # Check if evaluation step has already been run
+                # if "evaluation_step_parsed" in detection_dict:
+                #     # If the evaluation results have already been saved under the new keys, skip.
+                #     if "evaluation_answer" in detection_dict and "evaluation_evidence" in detection_dict:
+                #         continue
+                #     else:
+                #         # Otherwise, reconstruct the correct keys using the parsed data.
+                #         # Restore the detection result (if available) from detection_step_parsed.
+                #         detection_parsed = detection_dict.get("detection_step_parsed", {})
+                #         if isinstance(detection_parsed, dict):
+                #             detection_dict["answer"] = detection_parsed.get("answer", "")
+                #             detection_dict["evidence"] = detection_parsed.get("evidence", "")
+                #         # Extract evaluation results from evaluation_step_parsed.
+                #         evaluation_parsed = detection_dict.get("evaluation_step_parsed", {})
+                #         if isinstance(evaluation_parsed, dict):
+                #             detection_dict["evaluation_answer"] = evaluation_parsed.get("answer", "")
+                #             detection_dict["evaluation_evidence"] = evaluation_parsed.get("evidence", "")
+                #         # Save the fixed cell back to the DataFrame.
+                #         df.at[index, column_name] = json.dumps(detection_dict)
+                #         continue     
+
+                # # -- EVALUATION --
+                # # Grab references for this column (if any), else blank
+                # refs = references_dict.get(column_name, {
+                #     "negative_case": "",
+                #     "positive_case": ""
+                # })
 
                 detection_answer = detection_dict.get("answer", "")
                 detection_evidence = detection_dict.get("evidence", "")
@@ -659,16 +704,16 @@ def main():
         "Technology Risk - a": "Does the text indicate that the industry is susceptible to rapid technological advances or innovations?"
         # ,"Technology Risk - b": "Does the text indicate that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
-    questions_regulatory_framework = {
-        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
-        # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
-    }
+    # questions_regulatory_framework = {
+    #     "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
+    #     # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    # }
 
     all_question_dicts = [
         questions_market_dynamics,
-        questions_intra_industry_competition,
-        questions_regulatory_framework,
-        questions_technology_risk
+        questions_intra_industry_competition
+        ,questions_technology_risk
+        # ,questions_regulatory_framework
     ]
 
     # If a direct CSV path is provided, process it immediately and exit
@@ -772,6 +817,9 @@ def main():
         print(f"Sampling is enabled. We will sample {sample_size} unique base RMS IDs (seed={random_seed}).")
         if len(all_rms_ids) > sample_size and sample_size == 40 and random_seed == 42:
             sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127']
+            print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
+        if len(all_rms_ids) > sample_size and sample_size == 5 and random_seed == 42:
+            sampled_rms_ids = ['367', '999', '1609', '625', '1108']
             print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
         elif len(all_rms_ids) > sample_size:
             sampled_rms_ids = random.sample(all_rms_ids, sample_size)
