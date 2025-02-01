@@ -511,8 +511,24 @@ def process_single_csv(
 
                 # Check if evaluation step has already been run
                 if "evaluation_step_parsed" in detection_dict:
-                    # Already done, skip
-                    continue
+                    # If the evaluation results have already been saved under the new keys, skip.
+                    if "evaluation_answer" in detection_dict and "evaluation_evidence" in detection_dict:
+                        continue
+                    else:
+                        # Otherwise, reconstruct the correct keys using the parsed data.
+                        # Restore the detection result (if available) from detection_step_parsed.
+                        detection_parsed = detection_dict.get("detection_step_parsed", {})
+                        if isinstance(detection_parsed, dict):
+                            detection_dict["answer"] = detection_parsed.get("answer", "")
+                            detection_dict["evidence"] = detection_parsed.get("evidence", "")
+                        # Extract evaluation results from evaluation_step_parsed.
+                        evaluation_parsed = detection_dict.get("evaluation_step_parsed", {})
+                        if isinstance(evaluation_parsed, dict):
+                            detection_dict["evaluation_answer"] = evaluation_parsed.get("answer", "")
+                            detection_dict["evaluation_evidence"] = evaluation_parsed.get("evidence", "")
+                        # Save the fixed cell back to the DataFrame.
+                        df.at[index, column_name] = json.dumps(detection_dict)
+                        continue     
 
                 # -- EVALUATION --
                 # Grab references for this column (if any), else blank
@@ -545,8 +561,8 @@ def process_single_csv(
                     detection_dict["evaluation_step_attempt_count"] = evaluation_attempt
                     detection_dict["evaluation_step_raw"] = evaluation_raw
                     detection_dict["evaluation_step_parsed"] = evaluation_result.model_dump()
-                    detection_dict["answer"] = evaluation_result.answer
-                    detection_dict["evidence"] = evaluation_result.evidence
+                    detection_dict["evaluation_answer"] = evaluation_result.answer
+                    detection_dict["evaluation_evidence"] = evaluation_result.evidence
                     detection_dict["prompt_str_evaluation"] = evaluation_prompt_str
 
                 # Save back
@@ -761,6 +777,7 @@ def main():
     else:
         # No sampling => process all RMS IDs
         sampled_rms_ids = all_rms_ids
+    print(f"Sampled RMS IDs: {sampled_rms_ids}")
 
     # 5) For each sampled base RMS ID, pick the CSV with the smallest suffix
     chosen_csv_paths = []
