@@ -133,9 +133,9 @@ def evaluate_models(processed_file_paths: Union[str, List[str]]):
     specified_columns = [
         'Market Dynamics - a',
         'Intra-Industry Competition - a',
+        # 'Regulatory Framework - a',
+        'Technology Risk - a'
         # Add more if you want them evaluated:
-        'Regulatory Framework - a',
-        'Technology Risk - a',
     ]
 
     # Ensure missing columns exist (filled with "")
