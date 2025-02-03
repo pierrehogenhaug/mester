@@ -134,7 +134,7 @@ def main():
                     print(f"Processed prospectus_ids: {processed_prospectus_ids}")
 
                     try:
-                        # 2) Our new process_prospectus function
+                        
                         data, next_section_id, processing_result, md_text = process_prospectus(
                             pdf_file_path, os.path.basename(pdf_file_path), prospectus_id,
                             section_id_map, next_section_id, from_folder=from_folder, f_year=f_year

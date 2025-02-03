@@ -315,6 +315,15 @@ def run_evaluation_step(
     }
     prompt_str_evaluation = build_evaluation_prompt(step2_input)
 
+    # # Define the forbidden substring.
+    # FORBIDDEN_EVAL_SUBSTRING = (
+    #     "You are a risk assessment evaluator. Your task is to verify whether the following risk factor is truly present in the given subsection of a bond prospectus"
+    # )
+    # if FORBIDDEN_EVAL_SUBSTRING in prompt_str_evaluation:
+    #     print("[Evaluation] Skipping evaluation step because the prompt contains the forbidden substring.")
+    #     # Returning a zero attempt count to indicate that evaluation was skipped.
+    #     return (None, None, 0, prompt_str_evaluation)
+    
     for attempt in range(1, max_retries + 1):
         try:
             raw_response = call_llm(llm, prompt_str_evaluation)
@@ -547,40 +556,33 @@ def process_single_csv(
                     # Means detection completely failed
                     continue
 
-                # -------------------------------
-                # -- EVALUATION (ALWAYS RUN) --
-                # -------------------------------
+                # Check if evaluation step has already been run
+                if "evaluation_step_parsed" in detection_dict:
+                    # If the evaluation results have already been saved under the new keys, skip.
+                    if "evaluation_answer" in detection_dict and "evaluation_evidence" in detection_dict:
+                        continue
+                    else:
+                        # Otherwise, reconstruct the correct keys using the parsed data.
+                        # Restore the detection result (if available) from detection_step_parsed.
+                        detection_parsed = detection_dict.get("detection_step_parsed", {})
+                        if isinstance(detection_parsed, dict):
+                            detection_dict["answer"] = detection_parsed.get("answer", "")
+                            detection_dict["evidence"] = detection_parsed.get("evidence", "")
+                        # Extract evaluation results from evaluation_step_parsed.
+                        evaluation_parsed = detection_dict.get("evaluation_step_parsed", {})
+                        if isinstance(evaluation_parsed, dict):
+                            detection_dict["evaluation_answer"] = evaluation_parsed.get("answer", "")
+                            detection_dict["evaluation_evidence"] = evaluation_parsed.get("evidence", "")
+                        # Save the fixed cell back to the DataFrame.
+                        df.at[index, column_name] = json.dumps(detection_dict)
+                        continue     
+
+                # -- EVALUATION --
+                # Grab references for this column (if any), else blank
                 refs = references_dict.get(column_name, {
                     "negative_case": "",
                     "positive_case": ""
                 })
-                # # Check if evaluation step has already been run
-                # if "evaluation_step_parsed" in detection_dict:
-                #     # If the evaluation results have already been saved under the new keys, skip.
-                #     if "evaluation_answer" in detection_dict and "evaluation_evidence" in detection_dict:
-                #         continue
-                #     else:
-                #         # Otherwise, reconstruct the correct keys using the parsed data.
-                #         # Restore the detection result (if available) from detection_step_parsed.
-                #         detection_parsed = detection_dict.get("detection_step_parsed", {})
-                #         if isinstance(detection_parsed, dict):
-                #             detection_dict["answer"] = detection_parsed.get("answer", "")
-                #             detection_dict["evidence"] = detection_parsed.get("evidence", "")
-                #         # Extract evaluation results from evaluation_step_parsed.
-                #         evaluation_parsed = detection_dict.get("evaluation_step_parsed", {})
-                #         if isinstance(evaluation_parsed, dict):
-                #             detection_dict["evaluation_answer"] = evaluation_parsed.get("answer", "")
-                #             detection_dict["evaluation_evidence"] = evaluation_parsed.get("evidence", "")
-                #         # Save the fixed cell back to the DataFrame.
-                #         df.at[index, column_name] = json.dumps(detection_dict)
-                #         continue     
-
-                # # -- EVALUATION --
-                # # Grab references for this column (if any), else blank
-                # refs = references_dict.get(column_name, {
-                #     "negative_case": "",
-                #     "positive_case": ""
-                # })
 
                 detection_answer = detection_dict.get("answer", "")
                 detection_evidence = detection_dict.get("evidence", "")
@@ -704,16 +706,16 @@ def main():
         "Technology Risk - a": "Does the text indicate that the industry is susceptible to rapid technological advances or innovations?"
         # ,"Technology Risk - b": "Does the text indicate that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
-    # questions_regulatory_framework = {
-    #     "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
-    #     # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
-    # }
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
+        # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
+    }
 
     all_question_dicts = [
         questions_market_dynamics,
         questions_intra_industry_competition
         ,questions_technology_risk
-        # ,questions_regulatory_framework
+        ,questions_regulatory_framework
     ]
 
     # If a direct CSV path is provided, process it immediately and exit

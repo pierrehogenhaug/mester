@@ -171,43 +171,6 @@ def build_detection_prompt(input_data: Dict[str, Any]) -> str:
 # --------------------------------
 # 5. Evaluation Prompt & Helper
 # --------------------------------
-# EVALUATION_PROMPT = """
-# You are responsible for verifying the evaluation of the following risk factor: {question}
-# Text Under Review:
-# {subsection_title}
-# {subsection_text}
-
-# A previous evaluation concluded:
-# Answer: {answer}
-# Evidence: {evidence}
-
-# We have two reference cases for context:
-# (1) Example where the risk factor is not present:
-# {negative_case}
-# (2) Example where the risk factor is present:
-# {positive_case}
-
-# Your Task:
-# 1. Analyze the Evidence:
-#    - Review the "Evidence" provided in the context of the "Text Under Review".
-   
-# 2. Compare with Reference Cases:
-#    - Positive Reference: Determine if the evidence aligns closely with case (1)
-#    - Negative Reference: Assess whether the evidence is more consistent with the case (2) or if it lacks sufficient support.
-
-# 3. Decide on the Final Answer:
-#    - Confirm "Yes": If the evidence matches the Positive Case, indicating the presence of the risk factor.
-#    - Override to "No": If the evidence is weak, inconsistent with the Positive Case, or aligns more with the Negative Case.
-
-# 4. Provide Reasoning:
-#    - Offer a brief explanation supporting your decision.
-
-# Please provide your evaluation in JSON with the following structure:
-# {{
-#   "Answer": "Yes" or "No",
-#   "Reasoning": "A brief explanation of your decision."
-# }}
-# """
 EVALUATION_PROMPT = """
 You are a risk assessment evaluator. Your task is to verify whether the following risk factor is truly present in the given subsection of a bond prospectus.
 
@@ -706,16 +669,16 @@ def main():
         "Technology Risk - a": "Does the text indicate that the industry is susceptible to rapid technological advances or innovations?"
         # ,"Technology Risk - b": "Does the text indicate that the company is perceived as a disruptor or is threatened by emerging technological changes?"
     }
-    # questions_regulatory_framework = {
-    #     "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
+    questions_regulatory_framework = {
+        "Regulatory Framework - a": "Does the text indicate that the industry is subject to a high degree of regulatory scrutiny?"
     #     # ,"Regulatory Framework - b": "Does the text indicate a high dependency on regulation or being a beneficiary from regulation in an unstable regulatory environment?"
-    # }
+    }
 
     all_question_dicts = [
         questions_market_dynamics,
         questions_intra_industry_competition
         ,questions_technology_risk
-        # ,questions_regulatory_framework
+        ,questions_regulatory_framework
     ]
 
     # If a direct CSV path is provided, process it immediately and exit
