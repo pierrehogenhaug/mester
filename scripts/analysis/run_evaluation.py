@@ -463,7 +463,12 @@ def process_single_csv(
         # For each question, detect if needed, evaluate if needed
         for question_dict in all_question_dicts:
             for column_name, question_str in question_dict.items():
-                current_value = row.get(column_name, "").strip()
+                for column_name, question_str in question_dict.items():
+                    raw_value = row.get(column_name, "")
+                    if pd.isna(raw_value):
+                        current_value = ""
+                    else:
+                        current_value = str(raw_value).strip()
 
                 # If there's nothing at all in the cell, we need to run detection
                 if not current_value:

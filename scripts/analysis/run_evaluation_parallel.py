@@ -502,7 +502,11 @@ def process_single_csv(
         # For each question, detect if needed, evaluate if needed
         for question_dict in all_question_dicts:
             for column_name, question_str in question_dict.items():
-                current_value = row.get(column_name, "").strip()
+                raw_value = row.get(column_name, "")
+                if pd.isna(raw_value):
+                    current_value = ""
+                else:
+                    current_value = str(raw_value).strip()
 
                 # If there's nothing at all in the cell, we need to run detection
                 if not current_value:
@@ -743,7 +747,7 @@ def main():
         # We only care about folders that contain "as_expected"
         if "as_expected" in root:
             # Find all CSVs that end in _parsed.csv
-            csv_files = [f for f in files if f.lower().endswith("_parsed.csv")]
+            csv_files = [f for f in files if f.lower().endswith("_parsed_2.csv")]
             for csv_file in csv_files:
                 csv_path = os.path.join(root, csv_file)
                 # Quickly read just the first row to get "PDF Page Count" and "Prospectus ID"
@@ -820,7 +824,10 @@ def main():
         if len(all_rms_ids) > sample_size and sample_size == 40 and random_seed == 42:
             sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127']
             print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
-        if len(all_rms_ids) > sample_size and sample_size == 5 and random_seed == 42:
+        elif len(all_rms_ids) > sample_size and sample_size == 50 and random_seed == 42:
+            sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127', '1182', '1096', '311', '1765', '661', '990', '251', '1136', '257', '398']
+            print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
+        elif len(all_rms_ids) > sample_size and sample_size == 5 and random_seed == 42:
             sampled_rms_ids = ['367', '999', '1609', '625', '1108']
             print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
         elif len(all_rms_ids) > sample_size:
