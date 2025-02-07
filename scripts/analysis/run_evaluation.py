@@ -16,7 +16,7 @@ from pydantic import BaseModel, Field, field_validator, ValidationError
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
-from src.evaluation.evaluation_2 import evaluate_models
+from src.evaluation.evaluation import evaluate_models
 
 # --------------------------------
 # 0. Run Guide
@@ -72,7 +72,7 @@ class LlmDetectionResponse(BaseModel):
 class LlmEvaluationResponse(BaseModel):
     # Identical structure to detection for consistency
     answer: str = Field(..., alias="Answer")
-    evidence: Optional[str] = Field(None, alias="Evidence")
+    evidence: Optional[str] = Field(None, alias="Reasoning")
 
     class Config:
         populate_by_name = True
@@ -785,10 +785,7 @@ def main():
 
     if sample_size > 0:
         print(f"Sampling is enabled. We will sample {sample_size} unique base RMS IDs (seed={random_seed}).")
-        if len(all_rms_ids) > sample_size and sample_size == 40 and random_seed == 42:
-            sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127']
-            print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
-        elif len(all_rms_ids) > sample_size and sample_size == 5 and random_seed == 42:
+        if len(all_rms_ids) > sample_size and sample_size == 5 and random_seed == 42:
             sampled_rms_ids = ['367', '999', '1609', '625', '1108']
             print(f"Using pre-selected RMS IDs for consistent sampling.: {sampled_rms_ids}")
         elif len(all_rms_ids) > sample_size:
