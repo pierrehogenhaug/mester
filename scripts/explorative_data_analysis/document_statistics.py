@@ -1,3 +1,5 @@
+sampled_rms_ids = ['367', '999', '1609', '625', '1108', '673', '219', '440', '328', '355', '139', '1629', '1074', '352', '1052', '946', '1897', '317', '653', '642', '1525', '1277', '935', '433', '153', '221', '1261', '199', '130', '252', '377', '84', '518', '201', '989', '1069', '1727', '1739', '258', '1127', '1182', '1096', '311', '1765', '661', '990', '251', '1136', '257', '398']
+
 import os
 import pandas as pd
 import re
@@ -6,9 +8,8 @@ from statistics import mean
 import sys
 import ast
 import string
+from fuzzywuzzy import fuzz, process
 
-# If capfourpy is not installed or you use a different DB driver,
-# adjust this import and the connection code below accordingly.
 from capfourpy.databases import Database
 
 def main():
@@ -22,6 +23,7 @@ def main():
         # Only consider paths that contain "as_expected" in them
         if "as_expected" in root:
             for file in files:
+                
                 if csv_file_pattern.search(file):
                     csv_path = os.path.join(root, file)
                     all_csv_paths.append(csv_path)
@@ -47,12 +49,17 @@ def main():
 
         try:
             processed_idx = path_parts.index("processed")
+            # The folder immediately after "processed" should be the RMS id.
             rms_id = path_parts[processed_idx + 1]
-            rms_ids.add(rms_id)
         except ValueError:
             print(f"[DEBUG] 'processed' not found in path: {csv_path}")
-            rms_id = None
+            continue
 
+        # Process only files that belong to a sampled RMS id
+        if rms_id not in sampled_rms_ids:
+            continue
+
+        rms_ids.add(rms_id)
         # Read the CSV
         df = pd.read_csv(csv_path, dtype=str)
         if df.empty:
@@ -233,21 +240,18 @@ def main():
     ##############################################################################
     # We'll do it at the *end* of this script, using the set of RmsIds we found.
     
-    print("\n=== Fundamental Score Distribution ===")
+    print("\n=== Fundamental Score Distribution (using fuzzy matching) ===")
 
-    # Replace your old clean_text with a more robust version:
     def clean_text(text: str) -> str:
         """
         Cleans the input text by:
-          1) Replacing newline characters with a single space,
-          2) Collapsing multiple spaces into one,
-          3) Stripping leading/trailing whitespace.
+        1) Replacing newline characters with a single space,
+        2) Collapsing multiple spaces into one,
+        3) Stripping leading/trailing whitespace.
         """
         if pd.isnull(text):
             return ""
-        # Replace \r or \n with a single space
         text = text.replace('\r', ' ').replace('\n', ' ')
-        # Collapse multiple spaces to one
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
 
@@ -265,7 +269,6 @@ def main():
         """
         characteristic_influence = group_name[1]  # 'Positive' or 'Negative'
         n = len(group)
-        # For 'Positive' categories, use uppercase letters; for negative, lowercase
         if characteristic_influence == 'Positive':
             letters = positive_letters[:n]
         else:
@@ -275,7 +278,7 @@ def main():
         group['Label'] = group['Category'] + '.' + group['letter']
         return group
 
-    # Read the two CSVs you need:
+    # Read the two CSVs:
     fs_path = './data/rms_with_fundamental_score.csv'
     usc_path = './data/unique_score_combinations.csv'
 
@@ -288,25 +291,23 @@ def main():
     # 2) The reference for how to assign letter-based labels:
     df_usc = pd.read_csv(usc_path)
 
-    # Clean up the 'TaggedCharacteristics' in df_usc
+    # Clean up the reference text
     df_usc['TaggedCharacteristics'] = df_usc['TaggedCharacteristics'].apply(clean_text)
 
     # Assign letters to each row in df_usc
     positive_letters = list(string.ascii_uppercase)
     negative_letters = list(string.ascii_lowercase)
-    grouped = df_usc.groupby(['Category','CharacteristicInfluence'])
-
+    grouped = df_usc.groupby(['Category', 'CharacteristicInfluence'])
     processed_groups = []
     for name, group in grouped:
         processed_groups.append(assign_letters(group, positive_letters, negative_letters, name))
-
     df_usc_labeled = pd.concat(processed_groups).reset_index(drop=True)
 
-    # Next, parse/explode the `TaggedCharacteristics` in `df_fs`
+    # Process the analyst data
     df_fs['TaggedCharacteristics'] = df_fs['TaggedCharacteristics'].apply(parse_tagged_characteristics)
     df_fs_exploded = df_fs.explode('TaggedCharacteristics')
 
-    # If Tag is a dict, extract text and influence
+    # Extract the text and influence from each tagged characteristic
     df_fs_exploded['CharacteristicText'] = df_fs_exploded['TaggedCharacteristics'].apply(
         lambda x: x.get('CharacteristicText', '') if isinstance(x, dict) else ''
     )
@@ -314,49 +315,66 @@ def main():
         lambda x: x.get('CharacteristicInfluence', '') if isinstance(x, dict) else ''
     )
 
-    # Clean the extracted text so it matches exactly with df_usc
+    # Clean the extracted text so that it roughly matches the reference text
     df_fs_exploded['CharacteristicText'] = df_fs_exploded['CharacteristicText'].apply(clean_text)
-    # (Optionally also clean influence if there's any irregular whitespace):
     df_fs_exploded['CharacteristicInfluence'] = df_fs_exploded['CharacteristicInfluence'].apply(clean_text)
 
-    # Merge to find matching (Category, CharacteristicText, CharacteristicInfluence)
-    merged_labels = pd.merge(
-        df_fs_exploded,
-        df_usc_labeled,
-        left_on=['Category', 'CharacteristicText', 'CharacteristicInfluence'],
-        right_on=['Category','TaggedCharacteristics','CharacteristicInfluence'],
-        how='left'
-    )
+    # --- Fuzzy Matching ---
+    def get_fuzzy_label(row, ref_df, threshold=90):
+        """
+        For the given row from df_fs_exploded, find the best match from the
+        reference DataFrame (ref_df) based on fuzzy matching of CharacteristicText.
+        Returns the reference row's 'Label' if a good match is found; otherwise, None.
+        """
+        category = row['Category']
+        influence = row['CharacteristicInfluence']
+        text = row['CharacteristicText']
+        
+        # Limit candidates to those with the same Category and CharacteristicInfluence
+        candidates = ref_df[(ref_df['Category'] == category) & (ref_df['CharacteristicInfluence'] == influence)]
+        if candidates.empty:
+            return None
+        
+        candidate_texts = candidates['TaggedCharacteristics'].tolist()
+        
+        # Use fuzzy matching; note that extractOne returns (match, score) in your version.
+        best_match = process.extractOne(text, candidate_texts, scorer=fuzz.token_sort_ratio)
+        if best_match is None:
+            return None
+        
+        matched_text, score = best_match  # Unpack the two values
+        if score < threshold:
+            return None
+        
+        # Retrieve the index of the best match from the candidate list
+        match_idx = candidate_texts.index(matched_text)
+        label = candidates.iloc[match_idx]['Label']
+        return label
 
-    # Keep only the rows whose RmsId is in our dataset
-    # But first, watch out for type mismatch: 
-    merged_labels['RmsId'] = merged_labels['RmsId'].astype(str)
+    # Apply fuzzy matching to assign labels for each row in df_fs_exploded
+    df_fs_exploded['FuzzyLabel'] = df_fs_exploded.apply(lambda row: get_fuzzy_label(row, df_usc_labeled), axis=1)
 
-    relevant_rows = merged_labels[ merged_labels['RmsId'].isin(rms_ids) ]
+    # Ensure RmsId is of string type for consistency, then filter to only rows for our companies
+    df_fs_exploded['RmsId'] = df_fs_exploded['RmsId'].astype(str)
+    relevant_rows = df_fs_exploded[df_fs_exploded['RmsId'].isin(rms_ids)]
 
-    # If relevant_rows has zero matches, you'll see that "no matching labels" message:
     if relevant_rows.empty:
         print("No matching fundamental score labels found for the RmsIds in this dataset.")
         return
 
-    # Group by the 'Label' we assigned above in df_usc_labeled from the merge:
-    label_counts = relevant_rows['Label'].value_counts(dropna=True)
-    
-    # Filter to include only labels whose letter (after the dot) is lowercase.
-    # (Optional, depending on whether you only want negative labels.)
-    label_counts = label_counts[label_counts.index.map(lambda lbl: lbl.split('.')[-1].islower())]
-    
-    # Create a list of all possible lowercase labels based on the reference CSV (df_usc_labeled)
-    all_lowercase_labels = (
-        df_usc_labeled[df_usc_labeled['Label'].apply(lambda x: x.split('.')[-1].islower())]['Label']
-        .unique()
-    )
-    all_lowercase_labels = sorted(all_lowercase_labels)
+    # Count occurrences of each assigned fuzzy label.
+    label_counts = relevant_rows['FuzzyLabel'].value_counts(dropna=True)
 
-    # Create a dictionary that assigns a count to every lowercase label,
-    # using the count from label_counts if present or 0 otherwise.
+    # (Optional) Filter to include only labels whose letter (after the dot) is lowercase.
+    label_counts = label_counts[label_counts.index.map(lambda lbl: isinstance(lbl, str) and lbl.split('.')[-1].islower())]
+
+    # Create a list of all possible lowercase labels based on the reference CSV
+    all_lowercase_labels = sorted(
+        df_usc_labeled[df_usc_labeled['Label'].apply(lambda x: x.split('.')[-1].islower())]['Label'].unique()
+    )
+    # Build a dictionary with counts (using 0 if a label was not found)
     full_label_counts = {label: int(label_counts.get(label, 0)) for label in all_lowercase_labels}
-    
+
     print("Label distribution for the companies in this dataset:")
     for lbl in all_lowercase_labels:
         print(f"  {lbl}: {full_label_counts[lbl]}")
