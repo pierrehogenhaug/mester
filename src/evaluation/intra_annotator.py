@@ -1,20 +1,3 @@
-"""
-This script walks through the processed dataset, finds groups of CSV files
-that follow the pattern:
-    <BASE>_parsed.csv, <BASE>_parsed_1.csv, and <BASE>_parsed_2.csv
-for each BASE, and then computes intra‐annotator agreement (Fleiss’ Kappa)
-for each question column.
-Usage:
-    python run_intra_annotator_all.py --processed_root /path/to/data/processed \
-        [--question_cols "Market Dynamics - a" "Intra-Industry Competition - a" ...]
-    
-Note:
-    Instead of requiring that the CSV files have identical sets of columns,
-    we only require that each CSV file has the question columns you specify 
-    (default or via --question_cols). If a required column is missing in one 
-    of the CSV files in a group, that column is skipped (its kappa is reported as NaN).
-"""
-
 import argparse
 import json
 import os
@@ -61,21 +44,21 @@ def get_csv_triples(processed_root: str) -> dict:
         # Check that the parent folder (presumably the RMS id) is in our sampled list.
         parent_folder = os.path.basename(os.path.dirname(root))
         if parent_folder not in SAMPLED_RMS_IDS:
-            print(f"DEBUG: Skipping directory: {root} (parent folder '{parent_folder}' not in sampled list)")
+            # print(f"DEBUG: Skipping directory: {root} (parent folder '{parent_folder}' not in sampled list)")
             continue
 
-        print(f"DEBUG: Processing directory: {root} with files: {files}")
+        # print(f"DEBUG: Processing directory: {root} with files: {files}")
         for file in files:
             # Match file names that end with _parsed.csv, _parsed_1.csv, or _parsed_2.csv
             m = re.match(r"(.+)_parsed(?:_(\d+))?\.csv$", file, flags=re.IGNORECASE)
             if not m:
-                print(f"DEBUG: File {file} in {root} did not match expected pattern.")
+                # print(f"DEBUG: File {file} in {root} did not match expected pattern.")
                 continue
             base = m.group(1)
             suffix = m.group(2)
             suffix = int(suffix) if suffix is not None else 0  # default _parsed.csv => suffix 0
             full_path = os.path.join(root, file)
-            print(f"DEBUG: Found matching file: {full_path}, base: '{base}', suffix: {suffix}")
+            # print(f"DEBUG: Found matching file: {full_path}, base: '{base}', suffix: {suffix}")
             # Create a composite key using the parent folder (rms_id) and the base filename
             group_key = (parent_folder, base)
             if group_key not in csv_groups:
@@ -253,6 +236,20 @@ def main():
     # Create dictionaries to accumulate frequency tables for aggregated kappa per column.
     aggregated_tables = {col: {"detection": [], "evaluation": []} for col in args.question_cols}
 
+    # ----------------------------
+    # Accumulate evaluation and detection answer distributions per annotator (0, 1, 2)
+    # ----------------------------
+    evaluation_distribution = {
+        0: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+        1: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+        2: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+    }
+    detection_distribution = {
+        0: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+        1: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+        2: {col: {"Yes": 0, "No": 0} for col in args.question_cols},
+    }
+
     for (rms_id, base), paths in tqdm(triple_groups.items(), desc="Processing CSV groups"):
         print(f"DEBUG: Processing group with RMS id '{rms_id}' and base '{base}' with files: {paths}")
         try:
@@ -262,6 +259,23 @@ def main():
         except Exception as e:
             print(f"Error reading CSV files for group {base} (RMS id: {rms_id}): {e}")
             continue
+
+        # ----------------------------
+        # Update evaluation and detection distribution counts for each annotator and question column
+        # ----------------------------
+        for annotator_index, df in enumerate([df0, df1, df2]):
+            for col in args.question_cols:
+                if col in df.columns:
+                    # Update evaluation answer counts
+                    for cell in df[col]:
+                        answer_eval = extract_evaluation_answer(str(cell))
+                        if answer_eval in ("Yes", "No"):
+                            evaluation_distribution[annotator_index][col][answer_eval] += 1
+                    # Update detection answer counts
+                    for cell in df[col]:
+                        answer_detect = extract_detection_answer(str(cell))
+                        if answer_detect in ("Yes", "No"):
+                            detection_distribution[annotator_index][col][answer_detect] += 1
 
         group_results = {}
         for col in args.question_cols:
@@ -295,6 +309,30 @@ def main():
             print(f"  Column: {col}")
             print(f"    Detection-level Fleiss' Kappa:  {kappas['detection']:.4f}")
             print(f"    Evaluation-level Fleiss' Kappa: {kappas['evaluation']:.4f}")
+    print("-----------------------------------------------------------------------")
+
+    # ----------------------------
+    # Print Evaluation Answer Distribution per Annotator
+    # ----------------------------
+    print("\n---------- Evaluation Answer Distribution per Annotator ----------")
+    for annotator_index in sorted(evaluation_distribution.keys()):
+        print(f"\nAnnotator {annotator_index + 1}:")
+        for col in args.question_cols:
+            counts = evaluation_distribution[annotator_index][col]
+            total = counts["Yes"] + counts["No"]
+            print(f"  Column: {col} -> Yes: {counts['Yes']}, No: {counts['No']} (Total valid answers: {total})")
+    print("-----------------------------------------------------------------------")
+
+    # ----------------------------
+    # Print Detection Answer Distribution per Annotator
+    # ----------------------------
+    print("\n---------- Detection Answer Distribution per Annotator ----------")
+    for annotator_index in sorted(detection_distribution.keys()):
+        print(f"\nAnnotator {annotator_index + 1}:")
+        for col in args.question_cols:
+            counts = detection_distribution[annotator_index][col]
+            total = counts["Yes"] + counts["No"]
+            print(f"  Column: {col} -> Yes: {counts['Yes']}, No: {counts['No']} (Total valid answers: {total})")
     print("-----------------------------------------------------------------------")
 
     # Now compute the aggregated Fleiss' Kappa per column over all groups.
