@@ -1,13 +1,14 @@
 ########################################
-# Imports
+# evaluation.py
 ########################################
 import os
+import sys
 import ast
 import json
 import string
 import numpy as np
 import pandas as pd
-
+from typing import List, Union
 
 ########################################
 # Helper Functions
@@ -17,14 +18,12 @@ def clean_text(text: str) -> str:
     """Cleans the input text by removing newline characters and stripping whitespace."""
     return text.replace('\n', '').replace('\r', '').strip()
 
-
 def parse_tagged_characteristics(s: str) -> list:
     """Safely parses a string representing a list of tagged characteristics."""
     try:
         return ast.literal_eval(s)
     except:
         return []
-
 
 def assign_letters(group: pd.DataFrame, positive_letters: list, negative_letters: list, group_name: tuple) -> pd.DataFrame:
     """
@@ -41,18 +40,15 @@ def assign_letters(group: pd.DataFrame, positive_letters: list, negative_letters
     group['Label'] = group['Category'] + '.' + group['letter']
     return group
 
-
 def column_to_label(col_name: str) -> str:
     """
-    Converts a column name like 'Market Dynamics - a' into the label format 'Market Dynamics.a'.
-    (Used to build the mapping between DataFrame columns and label strings.)
+    Converts a column name like 'Market Dynamics - a' into 'Market Dynamics.a'.
     """
     return col_name.replace(' - ', '.').strip()
 
-
 def compute_metrics(tp: int, fp: int, fn: int, tn: int):
     """
-    Given TP, FP, FN, TN counts, computes Precision, Recall, F1 Score, and Accuracy.
+    Given TP, FP, FN, TN counts, compute Precision, Recall, F1 Score, and Accuracy.
     Returns: (precision, recall, f1_score, accuracy)
     """
     precision = tp / (tp + fp) if (tp + fp) > 0 else np.nan
@@ -61,68 +57,18 @@ def compute_metrics(tp: int, fp: int, fn: int, tn: int):
     accuracy = (tp + tn) / (tp + fp + fn + tn) if (tp + fp + fn + tn) > 0 else np.nan
     return precision, recall, f1_score, accuracy
 
-
-########################################
-# Helper: Compute Parsing Statistics
-########################################
-
-def compute_parsing_statistics(df: pd.DataFrame, specified_columns: list) -> pd.DataFrame:
-    """
-    Computes the proportion of successful parsings vs. parsing errors for each column
-    in specified_columns.
-
-    Returns a DataFrame with columns:
-      - column_name
-      - total_valid_rows (number of rows with non-empty, non-skipped output)
-      - parse_errors
-      - parse_successes
-      - success_rate (parse_successes / total_valid_rows)
-    """
-    stats = []
-    for col_name in specified_columns:
-        total_valid_rows = 0
-        parse_errors = 0
-        for val in df[col_name].fillna("").tolist():
-            # Ignore empty or skipped
-            if not val or "Skipped processing due to length" in val:
-                continue
-
-            # Otherwise, attempt JSON parse
-            total_valid_rows += 1
-            try:
-                parsed_json = json.loads(val)
-                parsed_response = parsed_json.get("parsed_response", "")
-                if parsed_response == "Parsing Error":
-                    parse_errors += 1
-            except Exception:
-                parse_errors += 1
-
-        parse_successes = total_valid_rows - parse_errors
-        success_rate = None
-        if total_valid_rows > 0:
-            success_rate = parse_successes / total_valid_rows
-
-        stats.append({
-            "column_name": col_name,
-            "total_valid_rows": total_valid_rows,
-            "parse_errors": parse_errors,
-            "parse_successes": parse_successes,
-            "success_rate": success_rate
-        })
-    return pd.DataFrame(stats)
-
-
 ########################################
 # Helper: Get LLM-Assigned Labels
 ########################################
 
-def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_mapping: dict) -> set:
+def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_mapping: dict, answer_key: str = "answer") -> set:
     """
-    Returns a set of labels assigned by the LLM for all rows in `df`
-    for the columns in `label_columns`.
+    Returns a set of labels assigned by the LLM for all rows in `df` for the columns in `label_columns`,
+    based on the specified answer key.
     
-    - Skips rows that contain a "Parsing Error" or are "Skipped".
-    - If the LLM said "Yes" in any valid row for a column, that label is considered assigned.
+    - If the JSON indicates (via the key `answer_key`) a value of 'Yes' (case insensitive),
+      we consider that label assigned.
+    - Ignores rows that can't be parsed or have 'No' answers.
     """
     assigned_labels = set()
     
@@ -131,68 +77,74 @@ def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_m
         found_yes = False
         
         for val in df[col].fillna("").tolist():
-            # Ignore empty or skipped
-            if (not val) or ("Skipped processing due to length" in val):
+            # Ignore empty values
+            if not val.strip():
                 continue
             
-            # Try to parse
             try:
                 parsed_json = json.loads(val)
-                parsed_response = parsed_json.get("parsed_response", "")
-                
-                # If "parsed_response" is "Yes" or "Yes: {something}"
-                if parsed_response.lower().startswith("yes"):
+                answer_value = parsed_json.get(answer_key, "")
+                if isinstance(answer_value, str) and answer_value.strip().lower() == "yes":
                     found_yes = True
-                    break  # No need to check more rows for this column
-                # If parsed_response is "Parsing Error", we skip it.
+                    break
             except Exception:
-                # If JSON can't parse, skip it
-                continue
-        
+                continue  # skip unparseable cells
+                
         if found_yes:
             assigned_labels.add(label)
     
     return assigned_labels
 
-
 ########################################
-# Main Function: evaluate_model
+# Main Function: evaluate_models
 ########################################
 
-def evaluate_model(processed_file_path: str):
+def evaluate_models(processed_file_paths: Union[str, List[str]]):
     """
-    Loads both the ground-truth Analyst data (rms_with_fundamental_score, df_labels)
-    and the LLM output (df_LLM) to:
-      1) Compute parsing statistics for the relevant columns,
-      2) Merge and transform the ground truth to create per-RmsId assigned labels,
-      3) Derive LLM-assigned labels and compare to ground truth,
-      4) Produce and print confusion matrix metrics.
+    Loads and aggregates LLM output from one or multiple CSVs,
+    then compares them to the ground-truth data in 'rms_with_fundamental_score'
+    to produce aggregated confusion matrices and metrics.
+
+    Two separate evaluations are performed:
+      1. Detection Step Evaluation (using the first 'answer')
+      2. Evaluation Step Evaluation (using 'evaluation_answer')
     """
+    # Ensure we have a list
+    if isinstance(processed_file_paths, str):
+        processed_file_paths = [processed_file_paths]
 
     # ------------------------------------
-    # 1) Load the LLM output DataFrame
+    # 1) Concatenate the LLM output DataFrames
     # ------------------------------------
-    df_LLM = pd.read_csv(processed_file_path)
+    df_list = []
+    for path in processed_file_paths:
+        try:
+            tmp = pd.read_csv(path)
+            df_list.append(tmp)
+        except Exception as e:
+            print(f"[ERROR] Could not read {path}: {e}")
+    if not df_list:
+        print("[ERROR] No valid dataframes to process in evaluate_models.")
+        return
 
-    # Columns we care about
+    df_LLM = pd.concat(df_list, ignore_index=True)
+
+    # Columns we care about (must match the columns you wrote to in run_evaluation.py)
     specified_columns = [
-        'Market Dynamics - a' 
-        # Additional columns can be uncommented or added here as needed:
-        # 'Market Dynamics - b', 'Market Dynamics - c',
-        ,'Intra-Industry Competition - a'
-        ,'Regulatory Framework - a'
-        ,'Technology Risk - a'
+        'Market Dynamics - a',
+        'Intra-Industry Competition - a',
+        'Regulatory Framework - a',
+        'Technology Risk - a'
+        # Add more if you want them evaluated:
     ]
 
+    # Ensure missing columns exist (filled with "")
+    for col in specified_columns:
+        if col not in df_LLM.columns:
+            df_LLM[col] = ""
+
     # ------------------------------------
-    # 2) Print parsing stats
-    # ------------------------------------
-    parse_stats_df = compute_parsing_statistics(df_LLM, specified_columns)
-    print("\n=== Parsing Success Statistics ===")
-    print(parse_stats_df)
-    
-    # ------------------------------------
-    # 3) Load analyst ground-truth data
+    # 2) Load analyst ground-truth data
     # ------------------------------------
     rms_with_fundamental_score = pd.read_csv('./data/rms_with_fundamental_score.csv')
     df_labels = pd.read_csv('./data/unique_score_combinations.csv')
@@ -204,7 +156,6 @@ def evaluate_model(processed_file_path: str):
     positive_letters = list(string.ascii_uppercase)
     negative_letters = list(string.ascii_lowercase)
     
-    # Updated groupby.apply using list comprehension to avoid DeprecationWarning
     groups = df_labels.groupby(['Category', 'CharacteristicInfluence'])
     processed_groups = [
         assign_letters(group, positive_letters, negative_letters, name)
@@ -213,7 +164,7 @@ def evaluate_model(processed_file_path: str):
     df_labels = pd.concat(processed_groups).reset_index(drop=True)
 
     # ------------------------------------
-    # 4) Process and merge ground-truth for analyst-assigned labels
+    # 3) Process & merge ground-truth
     # ------------------------------------
     df = rms_with_fundamental_score.copy()
     df['TaggedCharacteristics'] = df['TaggedCharacteristics'].apply(parse_tagged_characteristics)
@@ -235,60 +186,83 @@ def evaluate_model(processed_file_path: str):
         how='left'
     )
 
-    grouped_df = merged_df.groupby(['RmsId', 'ScoringDate'])['Label'] \
-                          .apply(lambda x: x.dropna().unique().tolist()) \
-                          .reset_index()
+    grouped_df = (
+        merged_df.groupby(['RmsId', 'ScoringDate'])['Label']
+        .apply(lambda x: x.dropna().unique().tolist())
+        .reset_index()
+    )
 
     # Build label mapping for columns -> 'Category.letter'
     label_mapping = {col: column_to_label(col) for col in specified_columns}
     all_labels = list(label_mapping.values())
 
-    # Build a mapping from RmsId to Analyst-Assigned Labels
+    # Map RmsId -> Analyst-Assigned Labels
     grouped_df['Analyst_Labels'] = grouped_df['Label'].apply(
         lambda labels: [lbl for lbl in labels if lbl in all_labels]
     )
     analyst_labels_dict = dict(zip(grouped_df['RmsId'], grouped_df['Analyst_Labels']))
 
     # ------------------------------------
-    # 5) Derive LLM-assigned labels (using new robust JSON parsing)
+    # 4) Derive LLM-assigned labels separately for detection and evaluation steps
     # ------------------------------------
-    LLM_labels_dict = {}
+    detection_labels_dict = {}
+    evaluation_labels_dict = {}
+
     for prospectus_id, group in df_LLM.groupby('Prospectus ID'):
-        assigned_labels = get_LLM_labels_for_prospectus(group, specified_columns, label_mapping)
-        LLM_labels_dict[prospectus_id] = assigned_labels
+        detection_assigned_labels = get_LLM_labels_for_prospectus(
+            group, specified_columns, label_mapping, answer_key="answer"
+        )
+        evaluation_assigned_labels = get_LLM_labels_for_prospectus(
+            group, specified_columns, label_mapping, answer_key="evaluation_answer"
+        )
+        detection_labels_dict[prospectus_id] = detection_assigned_labels
+        evaluation_labels_dict[prospectus_id] = evaluation_assigned_labels
 
-    # Helper to map Prospectus ID -> RmsId
+    # Helper to map Prospectus ID -> RmsId (assumes the first part is numeric)
     def get_RmsId_from_ProspectusID(prospectus_id):
-        return int(str(prospectus_id).split('_')[0])
+        try:
+            # Attempt to convert first token to int; adjust if your IDs are not numeric.
+            return int(str(prospectus_id).split('_')[0])
+        except ValueError:
+            return str(prospectus_id).split('_')[0]
 
     # ------------------------------------
-    # 6) Construct DataFrame to compute Confusion Matrix
+    # 5) Construct DataFrames for confusion matrices (one for detection and one for evaluation)
     # ------------------------------------
-    data = []
-    for prospectus_id, llm_labels in LLM_labels_dict.items():
+    detection_data = []
+    evaluation_data = []
+
+    for prospectus_id, group in df_LLM.groupby('Prospectus ID'):
         rms_id = get_RmsId_from_ProspectusID(prospectus_id)
         analyst_labels = set(analyst_labels_dict.get(rms_id, []))
+        detection_labels = detection_labels_dict.get(prospectus_id, set())
+        evaluation_labels = evaluation_labels_dict.get(prospectus_id, set())
         for label in all_labels:
-            llm_assigned = label in llm_labels
-            analyst_assigned = label in analyst_labels
-            data.append({
+            detection_assigned = label in detection_labels
+            evaluation_assigned = label in evaluation_labels
+            detection_data.append({
                 'RmsId': rms_id,
                 'Prospectus ID': prospectus_id,
                 'Label': label,
-                'LLM_Assigned': llm_assigned,
-                'Analyst_Assigned': analyst_assigned
+                'LLM_Assigned': detection_assigned,
+                'Analyst_Assigned': label in analyst_labels
+            })
+            evaluation_data.append({
+                'RmsId': rms_id,
+                'Prospectus ID': prospectus_id,
+                'Label': label,
+                'LLM_Assigned': evaluation_assigned,
+                'Analyst_Assigned': label in analyst_labels
             })
 
-    df_confusion = pd.DataFrame(data)
+    detection_confusion_df = pd.DataFrame(detection_data)
+    evaluation_confusion_df = pd.DataFrame(evaluation_data)
 
     # ------------------------------------
-    # 7) Compute Confusion Matrix & Metrics
+    # 6) Compute Confusion Matrices & Metrics for Detection
     # ------------------------------------
-    # Updated groupby.apply using list comprehension to avoid DeprecationWarning
-    label_groups = df_confusion.groupby('Label')
-
-    confusion_data = []
-    for label, group in label_groups:
+    detection_confusion_data = []
+    for label, group in detection_confusion_df.groupby('Label'):
         TP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == True)).sum()
         FP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == False)).sum()
         FN = ((group['LLM_Assigned'] == False) & (group['Analyst_Assigned'] == True)).sum()
@@ -296,7 +270,7 @@ def evaluate_model(processed_file_path: str):
         
         precision, recall, f1_score, accuracy = compute_metrics(TP, FP, FN, TN)
         
-        confusion_data.append({
+        detection_confusion_data.append({
             'Label': label,
             'TP': TP,
             'FP': FP,
@@ -308,16 +282,52 @@ def evaluate_model(processed_file_path: str):
             'Accuracy': accuracy
         })
 
-    confusion_matrix = pd.DataFrame(confusion_data)
+    detection_confusion_matrix = pd.DataFrame(detection_confusion_data)
 
-    # Compute overall confusion metrics
-    TP = ((df_confusion['LLM_Assigned'] == True) & (df_confusion['Analyst_Assigned'] == True)).sum()
-    FP = ((df_confusion['LLM_Assigned'] == True) & (df_confusion['Analyst_Assigned'] == False)).sum()
-    FN = ((df_confusion['LLM_Assigned'] == False) & (df_confusion['Analyst_Assigned'] == True)).sum()
-    TN = ((df_confusion['LLM_Assigned'] == False) & (df_confusion['Analyst_Assigned'] == False)).sum()
-
+    # Overall metrics for Detection
+    TP = ((detection_confusion_df['LLM_Assigned'] == True) & (detection_confusion_df['Analyst_Assigned'] == True)).sum()
+    FP = ((detection_confusion_df['LLM_Assigned'] == True) & (detection_confusion_df['Analyst_Assigned'] == False)).sum()
+    FN = ((detection_confusion_df['LLM_Assigned'] == False) & (detection_confusion_df['Analyst_Assigned'] == True)).sum()
+    TN = ((detection_confusion_df['LLM_Assigned'] == False) & (detection_confusion_df['Analyst_Assigned'] == False)).sum()
     overall_precision, overall_recall, overall_f1, overall_accuracy = compute_metrics(TP, FP, FN, TN)
-    overall_confusion = pd.DataFrame({
+    detection_overall_confusion = pd.DataFrame({
+        'Metric': ['TP', 'FP', 'FN', 'TN', 'Precision', 'Recall', 'F1 Score', 'Accuracy'],
+        'Value': [TP, FP, FN, TN, overall_precision, overall_recall, overall_f1, overall_accuracy]
+    })
+
+    # ------------------------------------
+    # 7) Compute Confusion Matrices & Metrics for Evaluation
+    # ------------------------------------
+    evaluation_confusion_data = []
+    for label, group in evaluation_confusion_df.groupby('Label'):
+        TP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == True)).sum()
+        FP = ((group['LLM_Assigned'] == True) & (group['Analyst_Assigned'] == False)).sum()
+        FN = ((group['LLM_Assigned'] == False) & (group['Analyst_Assigned'] == True)).sum()
+        TN = ((group['LLM_Assigned'] == False) & (group['Analyst_Assigned'] == False)).sum()
+        
+        precision, recall, f1_score, accuracy = compute_metrics(TP, FP, FN, TN)
+        
+        evaluation_confusion_data.append({
+            'Label': label,
+            'TP': TP,
+            'FP': FP,
+            'FN': FN,
+            'TN': TN,
+            'Precision': precision,
+            'Recall': recall,
+            'F1 Score': f1_score,
+            'Accuracy': accuracy
+        })
+
+    evaluation_confusion_matrix = pd.DataFrame(evaluation_confusion_data)
+
+    # Overall metrics for Evaluation
+    TP = ((evaluation_confusion_df['LLM_Assigned'] == True) & (evaluation_confusion_df['Analyst_Assigned'] == True)).sum()
+    FP = ((evaluation_confusion_df['LLM_Assigned'] == True) & (evaluation_confusion_df['Analyst_Assigned'] == False)).sum()
+    FN = ((evaluation_confusion_df['LLM_Assigned'] == False) & (evaluation_confusion_df['Analyst_Assigned'] == True)).sum()
+    TN = ((evaluation_confusion_df['LLM_Assigned'] == False) & (evaluation_confusion_df['Analyst_Assigned'] == False)).sum()
+    overall_precision, overall_recall, overall_f1, overall_accuracy = compute_metrics(TP, FP, FN, TN)
+    evaluation_overall_confusion = pd.DataFrame({
         'Metric': ['TP', 'FP', 'FN', 'TN', 'Precision', 'Recall', 'F1 Score', 'Accuracy'],
         'Value': [TP, FP, FN, TN, overall_precision, overall_recall, overall_f1, overall_accuracy]
     })
@@ -325,29 +335,26 @@ def evaluate_model(processed_file_path: str):
     # ------------------------------------
     # 8) Print the Results
     # ------------------------------------
-    print("\n=== Per-Label Confusion Matrix with Metrics ===")
-    print(confusion_matrix)
+    print("\n=== Detection Step: Per-Label Confusion Matrix with Metrics ===")
+    print(detection_confusion_matrix)
 
-    print("\n=== Overall Confusion Matrix and Metrics ===")
-    print(overall_confusion)
+    print("\n=== Detection Step: Overall Confusion Matrix and Metrics ===")
+    print(detection_overall_confusion)
 
+    print("\n=== Evaluation Step: Per-Label Confusion Matrix with Metrics ===")
+    print(evaluation_confusion_matrix)
+
+    print("\n=== Evaluation Step: Overall Confusion Matrix and Metrics ===")
+    print(evaluation_overall_confusion)
 
 if __name__ == "__main__":
-    # run with: python src/evaluation/evaluation.py ./data/._data_gguf_folder_Llama-3.2-3B-Instruct-Q8_0.gguf/prospectuses_data_processed_sampled_ENHANCED_PROMPT_TEMPLATE.csv
-    import argparse
-
-    # Initialize the argument parser
-    parser = argparse.ArgumentParser(description="Evaluate LLM Model Output against Analyst Labels.")
-    
-    # Add the processed file path as a positional argument
-    parser.add_argument(
-        "processed_file_path",
-        type=str,
-        help="Path to the processed CSV file (e.g., ./processed_file.csv)"
-    )
-    
-    # Parse the arguments
-    args = parser.parse_args()
-    
-    # Call the evaluate_model function with the provided file path
-    evaluate_model(args.processed_file_path)
+    """
+    If you want to test from CLI: 
+      python evaluation.py path_to_processed.csv
+      or 
+      python evaluation.py path1.csv path2.csv ...
+    """
+    if len(sys.argv) > 1:
+        evaluate_models(sys.argv[1:])
+    else:
+        print("Usage: python evaluation.py <processed_csv_path1> [<processed_csv_path2> ...]")
