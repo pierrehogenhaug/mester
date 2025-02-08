@@ -17,7 +17,7 @@ from pydantic import BaseModel, Field, field_validator, ValidationError
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, project_root)
 
-from src.evaluation.evaluation import evaluate_models
+from src.evaluation.llm_evaluation import evaluate_models
 
 # --------------------------------
 # 0. Run Guide

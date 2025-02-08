@@ -12,7 +12,7 @@ if project_root not in sys.path:
 
 # Existing code from your question...
 try:
-    from scripts.data_collection.run_database_extraction import run_extraction
+    from scripts.data_collection.run_database_utils import run_extraction
 except ModuleNotFoundError as e:
     st.error(f"Could not import run_extraction: {e}")
     st.stop()
