@@ -76,12 +76,12 @@ if __name__ == "__main__":
     main()
     
 
-# isin_rms_link = get_isin_rms_link(db_c4dw)
-# findox_mapping_with_rms = get_findox_mapping_with_rms(db_c4dw)
 # # Save isin_rms_link to a CSV file
+# isin_rms_link = get_isin_rms_link(db_c4dw)
 # #isin_rms_link_output_path = os.path.join(output_dir, 'isin_rms_link.csv')
 # #isin_rms_link.to_csv(isin_rms_link_output_path, index=False)
 
 # # Save findox_mapping_with_rms to a CSV file
+# findox_mapping_with_rms = get_findox_mapping_with_rms(db_c4dw)
 # #findox_mapping_with_rms_output_path = os.path.join(output_dir, 'findox_mapping_with_rms.csv')
 # #findox_mapping_with_rms.to_csv(findox_mapping_with_rms_output_path, index=False)
