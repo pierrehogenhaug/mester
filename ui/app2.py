@@ -9,7 +9,7 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 from scripts.data_collection.run_database_utils import run_extraction
-from scripts.data_collection.get_legal_offerings import (
+from ui.get_legal_offerings import (
     list_legal_offerings_for_rmsid,
     download_legal_offering
 )

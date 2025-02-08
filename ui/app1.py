@@ -20,7 +20,7 @@ except ModuleNotFoundError as e:
     st.stop()
 
 try:
-    from scripts.data_collection.get_legal_offerings import (
+    from ui.get_legal_offerings import (
         list_legal_offerings_for_rmsid,
         download_legal_offering
     )
