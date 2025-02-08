@@ -19,7 +19,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 sys.path.insert(0, project_root)
 
 # Import the processing functions from the module
-from src.data_processing.prospectus_parser import process_prospectus, process_prospectus_md, main
+from src.data_processing.parse_prospectus import process_prospectus, process_prospectus_md, main
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
