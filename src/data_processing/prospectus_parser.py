@@ -1,22 +1,25 @@
-import os
-import pymupdf  
-import pymupdf4llm  
-import json
-import re
-import pandas as pd
-import sys
+"""
+Module: prospectus_parser.py
 
+This module provides functions to convert PDF/Markdown prospectus files into a
+Markdown representation, build a hierarchical structure of sections and subsections,
+and finally export the parsed data to CSV.
+"""
+
+import os
+import re
+import sys
+import json
+import pandas as pd
 from langdetect import detect
+import pymupdf4llm  # for converting PDF to markdown
+import fitz         # used to open PDF for page count (PyMuPDF)
 from tqdm import tqdm
 
 
-# Add the project root directory to sys.path
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
-sys.path.insert(0, project_root)
-
-######################################
-#  Functions for processing
-######################################
+###############################
+# Utility functions
+###############################
 def merge_same_format_lines(lines):
     """
     Merges consecutive lines that share the same markdown "format"
@@ -68,8 +71,7 @@ def merge_same_format_lines(lines):
 
 def format_line(line_format, content):
     """
-    Re-wrap line content with the markdown symbols for
-    the detected format.
+    Re-wrap line content with the markdown symbols for the detected format.
     """
     if line_format == 'bold':
         return f'**{content}**'
@@ -83,13 +85,6 @@ def format_line(line_format, content):
 def is_valid_section_title(s):
     """
     Checks if a bold+uppercase string is valid as a "section title."
-    Must NOT:
-      - be purely numeric/punctuation/spaces
-      - contain 5+ consecutive periods
-      - mention quarters (Q1 2020), percentages (4%), short country codes (US)
-      - contain parentheses with digits
-      - contain > 1 numeric chunk
-      - contain no alphabetic characters at all
     """
     # Reject if purely numeric/punctuation/spaces
     if re.match(r'^[0-9\.\,\:\-\(\)\s]+$', s):
@@ -99,15 +94,15 @@ def is_valid_section_title(s):
     if re.search(r'\.{5,}', s):
         return False
 
-    # Exclude lines with quarter+year patterns (e.g., "Q4 2020", "Q3 2019", etc.)
+    # Exclude lines with quarter+year patterns (e.g., "Q4 2020")
     if re.search(r'Q[1-4]\s*20(19|20)', s, re.IGNORECASE):
         return False
 
-    # Exclude lines containing any percentage such as "19%", "22%", "4%"
+    # Exclude lines containing any percentage (e.g. "19%")
     if re.search(r'\d+%', s):
         return False
 
-    # Exclude lines that only hold a short uppercase code: "UK", "US", "FR" etc.
+    # Exclude lines that are just short uppercase country codes
     if re.match(r'^[A-Z]{2,3}$', s):
         return False
 
@@ -115,26 +110,24 @@ def is_valid_section_title(s):
     if re.match(r'^(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+20\d{2}$', s):
         return False
 
-    # NEW RULE: Must have at least one alphabetic character:
+    # Must have at least one alphabetic character
     if not re.search(r'[A-Za-z]', s):
         return False
 
-    # NEW RULE: If there's parentheses containing digits, skip (often table data).
+    # If there's parentheses containing digits, skip (often table data).
     if re.search(r'\(\s*\d', s):
         return False
 
-    # NEW RULE: If more than 1 separate numeric chunk appears, skip.
+    # If more than 1 separate numeric chunk appears, skip.
     numeric_chunks = re.findall(r'[0-9]+(?:[.,]\d+)*', s)
     if len(numeric_chunks) > 1:
         return False
 
-    # If none of the above checks triggered, we accept it
     return True
 
 def build_hierarchy(merged_lines):
     """
-    Go through each merged line and build a hierarchy of
-    sections -> subsections -> subsubsections -> body text.
+    Build a hierarchy of sections -> subsections -> subsubsections -> body text.
     """
     hierarchy = []
     current_title = None
@@ -184,6 +177,7 @@ def build_hierarchy(merged_lines):
                 })
             else:
                 current_body.append(line)
+
         elif is_bold and not is_upper:
             # Subsection
             add_body_to_hierarchy(current_body, hierarchy, current_title, current_subtitle, current_subsubtitle)
@@ -209,8 +203,7 @@ def build_hierarchy(merged_lines):
 
 def add_body_to_hierarchy(current_body, hierarchy, current_title, current_subtitle, current_subsubtitle):
     """
-    Appends the accumulated body text to whichever
-    element is currently 'active' (section, subsection, sub-subsection).
+    Append the accumulated body text to the active element (section, subsection, or sub-subsection).
     """
     body_text = ' '.join(current_body).strip()
     if not body_text:
@@ -257,27 +250,36 @@ def is_section_empty(section):
                 return False
     return True
 
-######################################
-#  Function to process an .md file
-######################################
-def process_prospectus_md(md_file_path,
-                          original_filename,
-                          prospectus_id,
-                          section_id_map,
-                          next_section_id,
-                          from_folder,
-                          f_year=None):
+
+#####################################
+# Main processing functions
+#####################################
+def process_prospectus(input_file_path,
+                       original_filename,
+                       prospectus_id,
+                       section_id_map,
+                       next_section_id,
+                       from_folder,
+                       f_year=None):
     """
-    Reads an existing .md file, builds the full section/subsection hierarchy,
-    checks for RISK FACTORS, and returns a list of rows + updated next_section_id.
+    Process a .pdf (or .md) file, convert it to Markdown, build the hierarchy,
+    check for a "RISK FACTORS" section, and return a list of rows plus updated state.
     """
     parsing_error = 'N/A'
     md_text = ''
 
     try:
-        # 1) Read the Markdown
-        with open(md_file_path, 'r', encoding='utf-8') as f:
-            md_text = f.read()
+        # 1) Determine file type and load as md_text
+        file_lower = input_file_path.lower()
+        if file_lower.endswith('.pdf'):
+            # Convert PDF -> Markdown
+            md_text = pymupdf4llm.to_markdown(input_file_path)
+        elif file_lower.endswith('.md'):
+            # Read directly from .md file
+            with open(input_file_path, 'r', encoding='utf-8') as f:
+                md_text = f.read()
+        else:
+            raise ValueError("Unsupported file format. Please provide a .pdf or .md file.")
 
         # 2) Merge lines by format
         lines = md_text.split('\n')
@@ -294,6 +296,7 @@ def process_prospectus_md(md_file_path,
         risk_factors_empty = False
 
         if not risk_factors_found:
+            # Check if 'risk factors' phrase is in the raw text
             risk_factors_in_markdown = any('risk factors' in line.lower() for line in lines)
             if risk_factors_in_markdown:
                 parsing_error = 'Risk factors section found but in inconsistent format'
@@ -308,12 +311,13 @@ def process_prospectus_md(md_file_path,
                 except:
                     parsing_error = 'Risk Factors missing'
         else:
-            # If it was found, check if empty
+            # If found, check if empty
             rf_section = next((sec for sec in hierarchy if sec['title'] == 'RISK FACTORS'), None)
             if rf_section and is_section_empty(rf_section):
                 risk_factors_empty = True
                 parsing_error = 'Risk factors section is empty'
 
+        # 5) Build the final data rows
         data = []
         for section in hierarchy:
             section_title = section['title']
@@ -323,7 +327,7 @@ def process_prospectus_md(md_file_path,
                 next_section_id += 1
             section_id = section_id_map[section_title]
 
-            # Keep counters for subsection numbering
+            # Counter for subsection numbering
             subsection_counter = 1
 
             for subsection in section['subsections']:
@@ -355,7 +359,7 @@ def process_prospectus_md(md_file_path,
                     }
                     data.append(row)
 
-                # Subsection body
+                # If there's a body directly under this subsection
                 if subsection.get('body', '').strip():
                     subsub_body = subsection['body'].strip()
                     subsub_id = f"{subsection_id}.{subsubsection_counter}"
@@ -377,7 +381,7 @@ def process_prospectus_md(md_file_path,
                     }
                     data.append(row)
 
-            # Section body
+            # If there's a body directly under this section
             if section.get('body', '').strip():
                 section_body = section['body'].strip()
                 subsection_id = f"{section_id}.{subsection_counter}"
@@ -399,7 +403,7 @@ def process_prospectus_md(md_file_path,
                 }
                 data.append(row)
 
-        # Determine final status for clarity
+        # Determine final status
         if not risk_factors_found or risk_factors_empty:
             status = 'not_as_expected'
         else:
@@ -425,10 +429,20 @@ def process_prospectus_md(md_file_path,
         }
         return [row], next_section_id, 'not_as_expected', ''
 
-#######################
-#  Main script
-#######################
+def process_prospectus_md(md_file_path, original_filename, prospectus_id, section_id_map, next_section_id, from_folder, f_year=None):
+    """
+    A wrapper for compatibility with run_script.
+    """
+    return process_prospectus(md_file_path, original_filename, prospectus_id, section_id_map, next_section_id, from_folder, f_year)
+
+
+#############################################
+# The run_script "full-run" main function
+#############################################
 def main():
+    """
+    Full run mode: process multiple prospectus files based on an RMS dataset.
+    """
     # Add the project root directory to sys.path
     project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
     sys.path.insert(0, project_root)
@@ -437,7 +451,7 @@ def main():
     df = pd.read_csv(os.path.join(project_root, 'data', 'rms_with_fundamental_score.csv'))
     print("Loaded RMS dataset with shape:", df.shape)
 
-    # 2) Instead of loading/writing a single 'prospectuses_data.csv', we skip that entirely.
+    # 2) We skip loading/writing a single 'prospectuses_data.csv'.
 
     # 3) section_id_map + next_section_id
     id_state_file = os.path.join(project_root, 'data', 'id_state.json')
@@ -467,7 +481,7 @@ def main():
     else:
         prospectus_counter = {}
 
-    # 5) pdf_to_prospectus_id (to skip re-parsing the same .md if desired)
+    # 5) pdf_to_prospectus_id (to skip re-parsing)
     pdf_to_prospectus_id_file = os.path.join(project_root, 'data', 'pdf_to_prospectus_id.json')
     if os.path.exists(pdf_to_prospectus_id_file):
         try:
@@ -483,7 +497,7 @@ def main():
         match = re.search(r'\b(19|20)\d{2}\b', filename)
         return int(match.group()) if match else None
 
-    # 6) For each RMS ID, process all .md in as_expected/
+    # 6) For each RMS ID, process all .md files in as_expected/
     unique_rms_ids = df['RmsId'].unique()
     for RmsId in tqdm(unique_rms_ids, desc="Processing RMS IDs"):
         rms_id_str = str(RmsId)
@@ -524,11 +538,11 @@ def main():
             pdf_page_count = 0
             if os.path.exists(pdf_file_path):
                 try:
-                    with pymupdf.open(pdf_file_path) as doc:
+                    with fitz.open(pdf_file_path) as doc:
                         pdf_page_count = doc.page_count
                 except Exception as e:
                     print(f"Could not read PDF {pdf_file_path}: {e}")
-                    pdf_page_count = -1  # Some marker if unreadable
+                    pdf_page_count = -1  # marker for unreadable
 
             print(f"Processing {md_file_path} => prospectus_id {prospectus_id}")
 
@@ -546,24 +560,12 @@ def main():
                 for row in data:
                     row["PDF Page Count"] = pdf_page_count
                     
-                # -----------------------------------
-                #  Save each prospectus's result
-                #  into a separate CSV in as_expected/
-                # -----------------------------------
+                # Save each prospectus's result into a CSV file in as_expected/
                 df_out = pd.DataFrame(data)
-
-                # Comment these lines to save an copy csv without LLM outputs
-                out_csv_filename = md_filename.replace('.md', '_parsed.csv')
+                out_csv_filename = md_filename.replace('.md', '_parsed_test.csv')
                 out_csv_path = os.path.join(as_expected_folder, out_csv_filename)
                 df_out.to_csv(out_csv_path, index=False)
                 print(f"Saved parsed data to: {out_csv_path}")
-
-                # Uncomment these lines to save an empty copy csv for intra annotator agreement
-                # The next 4 lines will save an empty copy csv (useful e.g. for intra annotator agreement)
-                # extra_csv_filename = md_filename.replace('.md', '_parsed_2.csv')
-                # extra_csv_path = os.path.join(as_expected_folder, extra_csv_filename)
-                # df_out.to_csv(extra_csv_path, index=False)
-                # print(f"Saved extra parsed data to: {extra_csv_path}")
 
                 # Mark as processed so we don't re-parse it next time
                 pdf_to_prospectus_id[md_file_key] = prospectus_id
@@ -586,6 +588,3 @@ def main():
             except Exception as e:
                 print(f"Exception parsing {md_file_path}: {e}")
                 continue
-
-if __name__ == '__main__':
-    main()
