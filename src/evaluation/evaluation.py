@@ -8,7 +8,9 @@ import json
 import string
 import numpy as np
 import pandas as pd
-from typing import List, Union
+from typing import List, Union, Optional
+
+from fuzzywuzzy import fuzz, process
 
 ########################################
 # Helper Functions
@@ -22,7 +24,7 @@ def parse_tagged_characteristics(s: str) -> list:
     """Safely parses a string representing a list of tagged characteristics."""
     try:
         return ast.literal_eval(s)
-    except:
+    except Exception:
         return []
 
 def assign_letters(group: pd.DataFrame, positive_letters: list, negative_letters: list, group_name: tuple) -> pd.DataFrame:
@@ -58,7 +60,29 @@ def compute_metrics(tp: int, fp: int, fn: int, tn: int):
     return precision, recall, f1_score, accuracy
 
 ########################################
-# Helper: Get LLM-Assigned Labels
+# NEW: Fuzzy Matching Helpers
+########################################
+
+def fuzzy_match_answer(answer: str, target: str = "yes", threshold: int = 90) -> bool:
+    """
+    Returns True if the fuzzy match score between the answer and the target string
+    is at or above the threshold. This allows for minor misspellings or extra whitespace.
+    """
+    if not answer or not answer.strip():
+        return False
+    score = fuzz.ratio(answer.strip().lower(), target.lower())
+    return score >= threshold
+
+def fuzzy_equals(a: str, b: str, threshold: int = 90) -> bool:
+    """
+    Returns True if strings a and b are a fuzzy match.
+    """
+    if not a or not b:
+        return False
+    return fuzz.ratio(a.strip().lower(), b.strip().lower()) >= threshold
+
+########################################
+# Helper: Get LLM-Assigned Labels (using fuzzy matching)
 ########################################
 
 def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_mapping: dict, answer_key: str = "answer") -> set:
@@ -66,9 +90,9 @@ def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_m
     Returns a set of labels assigned by the LLM for all rows in `df` for the columns in `label_columns`,
     based on the specified answer key.
     
-    - If the JSON indicates (via the key `answer_key`) a value of 'Yes' (case insensitive),
-      we consider that label assigned.
-    - Ignores rows that can't be parsed or have 'No' answers.
+    - If the JSON indicates (via the key `answer_key`) an answer that fuzzy-matches "yes"
+      (using fuzzywuzzy), we consider that label assigned.
+    - Ignores rows that can’t be parsed or have a negative answer.
     """
     assigned_labels = set()
     
@@ -84,7 +108,8 @@ def get_LLM_labels_for_prospectus(df: pd.DataFrame, label_columns: list, label_m
             try:
                 parsed_json = json.loads(val)
                 answer_value = parsed_json.get(answer_key, "")
-                if isinstance(answer_value, str) and answer_value.strip().lower() == "yes":
+                # Use fuzzy matching to check for a "yes" answer
+                if isinstance(answer_value, str) and fuzzy_match_answer(answer_value, "yes"):
                     found_yes = True
                     break
             except Exception:
