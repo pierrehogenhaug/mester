@@ -1,5 +1,5 @@
 ########################################
-# evaluation.py
+# evaluate_llm.py
 ########################################
 import os
 import sys
@@ -60,7 +60,7 @@ def compute_metrics(tp: int, fp: int, fn: int, tn: int):
     return precision, recall, f1_score, accuracy
 
 ########################################
-# NEW: Fuzzy Matching Helpers
+# Fuzzy Matching Helpers
 ########################################
 
 def fuzzy_match_answer(answer: str, target: str = "yes", threshold: int = 90) -> bool:
@@ -371,15 +371,3 @@ def evaluate_models(processed_file_paths: Union[str, List[str]]):
 
     print("\n=== Evaluation Step: Overall Confusion Matrix and Metrics ===")
     print(evaluation_overall_confusion)
-
-if __name__ == "__main__":
-    """
-    If you want to test from CLI: 
-      python evaluation.py path_to_processed.csv
-      or 
-      python evaluation.py path1.csv path2.csv ...
-    """
-    if len(sys.argv) > 1:
-        evaluate_models(sys.argv[1:])
-    else:
-        print("Usage: python evaluation.py <processed_csv_path1> [<processed_csv_path2> ...]")
