@@ -9,7 +9,7 @@ import pandas as pd
 from fuzzywuzzy import fuzz
 
 ########################################
-# Helper Functions (from evaluation.py)
+# Existing Helper Functions (from evaluation.py)
 ########################################
 
 def fuzzy_match_answer(answer: str, target: str = "yes", threshold: int = 90) -> bool:
@@ -56,14 +56,21 @@ def column_to_label(col_name: str) -> str:
     return col_name.replace(' - ', '.').strip()
 
 ########################################
+# New Helper Function for Word Count
+########################################
+
+def count_words(text: str) -> int:
+    """A simple heuristic: count words by splitting on whitespace."""
+    return len(text.split())
+
+########################################
 # Ground Truth Loading & Processing
 ########################################
 
 def load_ground_truth():
     """
-    Loads the two CSV files used for ground truth (rms_with_fundamental_score.csv and unique_score_combinations.csv)
-    and processes them in the same manner as evaluation.py so that we can create a mapping from RmsId to
-    the set of analyst-assigned labels.
+    Loads the two CSV files used for ground truth and processes them
+    so that we can create a mapping from RmsId to the set of analyst-assigned labels.
     
     Returns:
       analyst_labels_dict: dict mapping RmsId (as a string) to a set of labels (e.g. {"Market Dynamics.a", ...})
@@ -139,7 +146,7 @@ def load_ground_truth():
     return analyst_labels_dict, label_mapping, risk_columns
 
 ########################################
-# Main Function: TP vs FP per Section Title
+# Main Function: TP vs FP per Section Title + Section Text Length (Words Only)
 ########################################
 
 def main():
@@ -171,16 +178,18 @@ def main():
     analyst_labels_dict, label_mapping, risk_columns = load_ground_truth()
     
     # Initialize a dictionary to store counts per Section Title.
-    # The structure will be:
-    # {
-    #    "Section Title": {
+    # Structure:
+    # { "Section Title": {
     #         <risk_column>: {"TP": count, "FP": count},
     #         "Overall_TP": count,
     #         "Overall_FP": count
-    #    },
-    #    ...
+    #   },
+    #   ...
     # }
     section_counts = {}
+    # Initialize a dictionary to accumulate text per Section Title (per prospectus).
+    # Structure: { "Section Title": { rms_id: concatenated_text } }
+    section_texts = {}
     
     # Process each CSV file.
     # (Each CSV file is assumed to be under: ./data/processed/{rms_id}/as_expected/*_parsed.csv)
@@ -191,19 +200,19 @@ def main():
         parts = relative_path.split(os.sep)
         if len(parts) < 3:
             continue
-        rms_id = str(parts[0])  # the first part is the rms_id
+        rms_id = str(parts[0])
         
         with open(csv_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 section_title = row.get("Section Title", "Unknown")
+                # Initialize risk counts for this section if not already done.
                 if section_title not in section_counts:
-                    # Initialize counts for each risk column
                     section_counts[section_title] = {col: {"TP": 0, "FP": 0} for col in risk_columns}
                     section_counts[section_title]["Overall_TP"] = 0
                     section_counts[section_title]["Overall_FP"] = 0
                 
-                # For each risk column, parse its contents and if evaluation_answer is (fuzzy) "Yes" then decide TP vs FP.
+                # Process each risk column: if evaluation_answer is (fuzzy) "Yes" then decide TP vs FP.
                 for col in risk_columns:
                     risk_cell = row.get(col, "")
                     try:
@@ -213,10 +222,7 @@ def main():
                     
                     evaluation_answer = risk_data.get("evaluation_answer", "")
                     if fuzzy_match_answer(evaluation_answer, "yes"):
-                        # The model detected the risk in the evaluation step.
-                        # Get the corresponding label for this risk column.
                         label = label_mapping.get(col, col)
-                        # Look up the analyst-assigned labels (ground truth) for this rms_id.
                         analyst_labels = analyst_labels_dict.get(rms_id, set())
                         if label in analyst_labels:
                             section_counts[section_title][col]["TP"] += 1
@@ -224,6 +230,16 @@ def main():
                         else:
                             section_counts[section_title][col]["FP"] += 1
                             section_counts[section_title]["Overall_FP"] += 1
+                
+                # --- Aggregate the text from both "Subsubsection Title" and "Subsubsection Text" ---
+                subsec_title = row.get("Subsubsection Title", "")
+                subsec_text = row.get("Subsubsection Text", "")
+                combined_text = " " + subsec_title + " " + subsec_text
+                if section_title not in section_texts:
+                    section_texts[section_title] = {}
+                if rms_id not in section_texts[section_title]:
+                    section_texts[section_title][rms_id] = ""
+                section_texts[section_title][rms_id] += combined_text
     
     # Sort the sections by the overall number of detected risks (TP + FP) in descending order.
     sorted_sections = sorted(
@@ -232,17 +248,43 @@ def main():
         reverse=True
     )
     
+    # Compute text statistics for each Section Title based on word counts.
+    section_text_stats = {}
+    for section, prospectus_texts in section_texts.items():
+        total_words = 0
+        num_prospectuses = len(prospectus_texts)
+        for pid, combined_text in prospectus_texts.items():
+            words = count_words(combined_text)
+            total_words += words
+        avg_words = total_words / num_prospectuses if num_prospectuses > 0 else 0
+        section_text_stats[section] = {
+            "total_words": total_words,
+            "avg_words": avg_words,
+            "prospectus_count": num_prospectuses
+        }
+    
+    # Calculate the grand total of words across all sections.
+    grand_text_total = sum(stats["total_words"] for stats in section_text_stats.values())
+    
+    # Calculate the grand total of overall risk counts across all sections.
+    grand_risk_total = sum((counts["Overall_TP"] + counts["Overall_FP"]) for section, counts in sorted_sections)
+    
     # Define the output CSV file name.
     output_file = 'risk_by_title_tp_fp_output.csv'
     
     # Prepare the header for the CSV.
-    # The header will include: Section Title, then for each risk column two columns (e.g. "Market Dynamics - a TP", "Market Dynamics - a FP"),
-    # and finally overall totals.
     header = ["Section Title"]
     for col in risk_columns:
         header.append(f"{col} TP")
         header.append(f"{col} FP")
     header.extend(["Overall TP", "Overall FP", "Overall Total"])
+    header.extend([
+        "Total Text Length (words)",
+        "Avg Text Length (words)",
+        "Prospectus Count",
+        "Text Percentage (%)",
+        "Overall Risk Percentage (%)"
+    ])
     
     # Write the aggregated results to the output CSV.
     with open(output_file, 'w', newline='', encoding='utf-8') as out_csv:
@@ -257,6 +299,21 @@ def main():
             overall_fp = counts["Overall_FP"]
             overall_total = overall_tp + overall_fp
             row_items.extend([str(overall_tp), str(overall_fp), str(overall_total)])
+            
+            # Look up text statistics for this section.
+            stats = section_text_stats.get(section, {"total_words": 0, "avg_words": 0, "prospectus_count": 0})
+            row_items.append(str(stats["total_words"]))
+            row_items.append(f"{stats['avg_words']:.2f}")
+            row_items.append(str(stats["prospectus_count"]))
+            
+            # Compute the percentage of the grand total text that this section represents.
+            text_percentage = (stats["total_words"] / grand_text_total * 100) if grand_text_total > 0 else 0
+            row_items.append(f"{text_percentage:.2f}%")
+            
+            # Compute the percentage of the grand overall risk total that this section represents.
+            risk_percentage = (overall_total / grand_risk_total * 100) if grand_risk_total > 0 else 0
+            row_items.append(f"{risk_percentage:.2f}%")
+            
             writer.writerow(row_items)
     
     print("Output written to", output_file)
