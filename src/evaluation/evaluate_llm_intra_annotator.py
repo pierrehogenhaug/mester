@@ -44,21 +44,17 @@ def get_csv_triples(processed_root: str) -> dict:
         # Check that the parent folder (presumably the RMS id) is in our sampled list.
         parent_folder = os.path.basename(os.path.dirname(root))
         if parent_folder not in SAMPLED_RMS_IDS:
-            # print(f"DEBUG: Skipping directory: {root} (parent folder '{parent_folder}' not in sampled list)")
             continue
 
-        # print(f"DEBUG: Processing directory: {root} with files: {files}")
         for file in files:
             # Match file names that end with _parsed.csv, _parsed_1.csv, or _parsed_2.csv
             m = re.match(r"(.+)_parsed(?:_(\d+))?\.csv$", file, flags=re.IGNORECASE)
             if not m:
-                # print(f"DEBUG: File {file} in {root} did not match expected pattern.")
                 continue
             base = m.group(1)
             suffix = m.group(2)
             suffix = int(suffix) if suffix is not None else 0  # default _parsed.csv => suffix 0
             full_path = os.path.join(root, file)
-            # print(f"DEBUG: Found matching file: {full_path}, base: '{base}', suffix: {suffix}")
             # Create a composite key using the parent folder (rms_id) and the base filename
             group_key = (parent_folder, base)
             if group_key not in csv_groups:
@@ -229,7 +225,6 @@ def main():
         print("No CSV triple groups found. Check your processed_root path and naming conventions.")
         return
 
-    # Updated: Unpack the composite key (rms_id, base) for clarity.
     print(f"DEBUG: CSV triple groups found: {list(triple_groups.keys())}")
     results = {}
 
@@ -352,6 +347,3 @@ def main():
         print(f"  Aggregated Detection-level Fleiss' Kappa:  {agg_kappa_detection:.4f}")
         print(f"  Aggregated Evaluation-level Fleiss' Kappa: {agg_kappa_evaluation:.4f}")
     print("-----------------------------------------------------------------------")
-
-if __name__ == "__main__":
-    main()
