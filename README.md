@@ -174,6 +174,6 @@ By default, the container runs the SharePoint scraping script. To override the d
 
 ## Requirements
 - Python: 3.9 (or later recommended)
-Python Packages: See `requirements.txt`
-LLM Options:
-For OpenAI models, ensure you have a valid API key in your `.env`.
+- Python Packages: See `requirements.txt`
+- LLM Options:
+   - For OpenAI models, ensure you have a valid API key in your `.env`.
