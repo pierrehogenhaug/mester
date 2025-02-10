@@ -87,7 +87,7 @@ project_root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/project_name.git
+   git clone https://github.com/pierrehogenhaug/mester.git
    ```
 2. Install dependencies:
    ```bash
