@@ -53,6 +53,7 @@ project_root/
 │   │   └── run_parse_prospectus.py      # Script to parse PDFs/Markdown prospectuses
 │   │
 │   ├── analysis/
+│   │   ├── run_analysis_single_llm.py     # Script to run the one‐step LLM risk detection
 │   │   └── run_analysis_two_step_llm.py # Script to run the two‐step LLM risk detection
 │   │
 │   └── evaluation/
@@ -70,6 +71,7 @@ project_root/
 │   │   └── parse_prospectus.py          # Module to convert PDF/MD files into structured Markdown/CSV
 │   │
 │   ├── analysis/
+│   │   ├── analysis_single_llm.py       # Code to prompt the LLM for risk detection (detection)
 │   │   └── analysis_two_step_llm.py     # Code to prompt the LLM for risk detection (detection & evaluation)
 │   │
 │   └── evaluation/
