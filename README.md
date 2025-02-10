@@ -156,7 +156,7 @@ Compares LLM predictions against analyst-based ground truth by computing confusi
 Computes Fleiss’ Kappa over multiple CSV groups to measure consistency.
 
    ```bash
-   ```python scripts/evaluation/run_evaluate_llm_intra_annotator.py --processed_root data/processed --question_cols "Market Dynamics - a" "Intra-Industry Competition - a" "Technology Risk - a" "Regulatory Framework - a"
+   python scripts/evaluation/run_evaluate_llm_intra_annotator.py --processed_root data/processed --question_cols "Market Dynamics - a" "Intra-Industry Competition - a" "Technology Risk - a" "Regulatory Framework - a"
    ```
 
 ## Docker Deployment
