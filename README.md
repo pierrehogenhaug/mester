@@ -120,7 +120,7 @@ Parses PDF (or Markdown) files to extract structured content (sections, subsecti
    ```bash
    python scripts/data_processing/run_parse_prospectus.py --file path/to/your/file.pdf --output path/to/output/folder
    ```
-For full-run mode (processing multiple prospectuses), simply run without the --file argument:
+- For full-run mode (processing multiple prospectuses), simply run without the --file argument:
 
    ```bash
    python scripts/data_processing/run_parse_prospectus.py
